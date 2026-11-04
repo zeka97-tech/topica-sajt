@@ -19,6 +19,8 @@ slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 
 Pregrada se buši u paru sa bokovima, od iste ivice, pa se sklapa sa dnom i krovom pre leđa. Položaj se meri od spoljne ivice boka do ose pregrade, da bi oba otvora bila jednaka ili baš onakva kakva front traži. Česta greška: pregrada stavljena na sredinu unutrašnjeg otvora, a frontovi računati na sredinu spoljne mere, pa se [zazor od 3 mm](./front.html) između vrata ne poklopi; druga je da se na pregradi zaborave rupe za police sa druge strane.
 
+![Niz donjih korpusa uz zid u programu TOPICA sa panelom „Dodaj u ovaj korpus“: vrata, polica, pregrada, ručka, radna ploča, cokla](../slike/web/snimak-12-korpus-sa-vratima-1600.webp "Pregrada se dodaje iz panela korpusa; program sam podeli front i police.")
+
 ## Kako to radi TOPICA
 
 Podelu zadaješ u korpusu, a program izračuna pregradu, oba otvora i frontove sa zazorom; sve daske idu u krojnu listu kao i bokovi ([mogućnosti](../#mogucnosti)).

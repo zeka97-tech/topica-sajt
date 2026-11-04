@@ -141,6 +141,10 @@
     <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/recnik/bok.html"/>
   </url>
   <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/recnik/cokla.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/recnik/cokla.html"/>
+  </url>
+  <url>
     <loc>https://zeka97-tech.github.io/topica-sajt/sr/recnik/dezen.html</loc>
     <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/recnik/dezen.html"/>
   </url>
@@ -157,12 +161,24 @@
     <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/recnik/element-za-rernu.html"/>
   </url>
   <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/recnik/fioka-i-vodjica.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/recnik/fioka-i-vodjica.html"/>
+  </url>
+  <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/recnik/front.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/recnik/front.html"/>
+  </url>
+  <url>
     <loc>https://zeka97-tech.github.io/topica-sajt/sr/recnik/gola-rucka.html</loc>
     <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/recnik/gola-rucka.html"/>
   </url>
   <url>
     <loc>https://zeka97-tech.github.io/topica-sajt/sr/recnik/iverica.html</loc>
     <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/recnik/iverica.html"/>
+  </url>
+  <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/recnik/kant.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/recnik/kant.html"/>
   </url>
   <url>
     <loc>https://zeka97-tech.github.io/topica-sajt/sr/recnik/korpus.html</loc>
@@ -177,12 +193,24 @@
     <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/recnik/krov.html"/>
   </url>
   <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/recnik/ledja.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/recnik/ledja.html"/>
+  </url>
+  <url>
     <loc>https://zeka97-tech.github.io/topica-sajt/sr/recnik/nogica.html</loc>
     <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/recnik/nogica.html"/>
   </url>
   <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/recnik/polica.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/recnik/polica.html"/>
+  </url>
+  <url>
     <loc>https://zeka97-tech.github.io/topica-sajt/sr/recnik/precka.html</loc>
     <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/recnik/precka.html"/>
+  </url>
+  <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/recnik/pregrada.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/recnik/pregrada.html"/>
   </url>
   <url>
     <loc>https://zeka97-tech.github.io/topica-sajt/sr/recnik/prepust-radne-ploce.html</loc>
@@ -191,6 +219,14 @@
   <url>
     <loc>https://zeka97-tech.github.io/topica-sajt/sr/recnik/push-sistem.html</loc>
     <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/recnik/push-sistem.html"/>
+  </url>
+  <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/recnik/radna-ploca.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/recnik/radna-ploca.html"/>
+  </url>
+  <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/recnik/sarka.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/recnik/sarka.html"/>
   </url>
   <url>
     <loc>https://zeka97-tech.github.io/topica-sajt/sr/recnik/sudopera-element.html</loc>

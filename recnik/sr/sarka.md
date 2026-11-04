@@ -13,11 +13,11 @@ slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 - Šolja Ø35, dubina bušenja **12,5–13 mm** u front od 18 mm; osa šolje **21,5–22,5 mm** od ivice fronta (razmak K = 3–6 mm), po katalogu proizvođača okova.
 - Podloška na boku po [sistemu 32](../blog/sistem-32.html), prvi red rupa na 37 mm od prednje ivice.
 - Broj šarki po visini fronta (program): **do 900 mm: 2 · do 1600: 3 · do 2000: 4 · više: 5**. Krajnje šolje na **100 mm** od gornje i donje ivice, ostale ravnomerno.
-- Šarka se bira po preklopu i broju, bez vezivanja za proizvođača; GTV je podrazumevan, Blum, Hettich i Grass po projektu.
+- Bira se po preklopu i broju, bez proizvođača; GTV podrazumevan, Blum/Hettich/Grass po projektu.
 
 ## U radionici
 
-Front se buši na stonoj bušilici ili šablonom: prvo šolje, pa se šarka ubaci u front i tek onda, sa vratima naslonjenim na mesto, obeleži podloška na boku. Posle kačenja šarka se reguliše u tri pravca dok zazor od 3 mm ne bude isti gore i dole. Česta greška: osa šolje uzeta od ivice različito za svaka vrata, pa zazori u nizu nisu isti; druga je šarka iza [prečke](./precka.html), pa vrata ne mogu da se skinu ni podese.
+Prvo se buše šolje, pa se šarka ubaci u front i tek onda, sa vratima naslonjenim na mesto, obeleži podloška na boku. Posle kačenja šarka se reguliše u tri pravca dok zazor od 3 mm ne bude isti gore i dole. Česta greška: osa šolje uzeta od ivice različito za svaka vrata, pa zazori u nizu nisu isti; druga je šarka iza [prečke](./precka.html), pa vrata ne mogu da se skinu ni podese.
 
 ![Donji korpus 600 × 720 × 560 sa vratima u programu TOPICA; u panelu desno piše „Vrata 1, ravna, šarke levo", a u sobi kote do zida i do poda](../slike/web/snimak-52-ruka-jedna-vrata-1600.webp "Vrata od 717 mm nose dve šarke: do 900 mm visine dve su dovoljne.")
 

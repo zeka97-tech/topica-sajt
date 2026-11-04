@@ -15,7 +15,7 @@ Za pločasti nameštaj (kuhinje, plakari, komode od iverice) jedan red liste obi
 - **Dužina × širina** u milimetrima, neto mera gotove daske.
 - **Debljina**: 18 mm za korpus i front, 3 mm lesonit za leđa, 8–10 mm za dno fioke.
 - **Materijal**: bela iverica, hrast dekor, lesonit u boji.
-- **Kant**: koje ivice se kantuju i kojom trakom (0,45 mm za korpus, 1 ili 2 mm za front).
+- **[Kant](../recnik/kant.html)**: koje ivice se kantuju i kojom trakom (0,45 mm za korpus, 1 ili 2 mm za front).
 - **Komada**: bokova su dva, dno jedno, prečke dve.
 
 Dobra lista je grupisana po materijalu i debljini, jer se tako i kroji: prvo sva bela iverica 18 mm, pa frontovi, pa lesonit.
@@ -26,7 +26,7 @@ Kod dezena sa šarom (hrast, orah, sonoma) nije svejedno kako je daska okrenuta 
 
 ## Primer: donji korpus 600 × 720 × 560
 
-Običan donji kuhinjski element sa jednim vratima i jednom policom ima osam dasaka. Dno ide preko bokova (puna širina 600), pa su bokovi 702 visoki, a ne 720. Dubina korpusa je 539, jer se od 560 oduzmu front (18) i leđa (3).
+Običan donji [korpus](../recnik/korpus.html) sa jednim vratima i jednom policom ima osam dasaka. Dno ide preko bokova (puna širina 600), pa su bokovi 702 visoki, a ne 720. Dubina korpusa je 539, jer se od 560 oduzmu front (18) i leđa (3).
 
 | Daska | Mera (mm) | Deb. | Kant | Kom |
 |---|---|---|---|---|
@@ -46,5 +46,7 @@ U programu krojnu listu ne pišeš: ona se računa iz korpusa koje si složio u 
 ![Krojna lista „Po meri“ u programu TOPICA za donji korpus 600 × 720 × 560 mm: osam dasaka grupisanih po materijalu, sa merom, debljinom, kantom i brojem komada](../slike/web/snimak-33-po-meri-1600.webp "Prikaz „Po meri“ za jedan korpus: osam dasaka, tri materijala, 2,34 m² ploče.")
 
 Pravilo „prva mera = pravac goda“ program drži sam: front je uvek upisan uspravno, a lesonit nosi oznaku „bez goda“. Ako kasnije u podešavanjima radionice promeniš debljinu leđa ili kant frontova, promena se odrazi na sve daske u projektu, i na one koje si već pogledao.
+
+Više o tome gde koja traka ide piše u vodiču [Kant: koja debljina gde ide](./kant-debljina-i-duzina.html), a o rasporedu rupa u [Sistem 32](./sistem-32.html).
 
 Krojna lista nije komplikovana. Komplikovano je da bude tačna svaki put, za svaki element, i pošto je mušterija tri puta promenila mišljenje. Za to služi program.

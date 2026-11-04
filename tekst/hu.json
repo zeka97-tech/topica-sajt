@@ -1,87 +1,55 @@
 {
-  "_jezik": { "ime": "Magyar", "status": "za-proveru", "proverio": "" },
-  "meta": {
-    "naslov": "TOPICA — bútortervező program szabásjegyzékkel, asztalosoknak készült",
-    "opis": "A TOPICA konyhatervező program asztalosoknak Windowsra: megrajzolod a helyiséget, elhelyezed a katalógus szekrényeit, és a program adja a 3D-t, a milliméterpontos szabásjegyzéket, a vasalatot és az árat. Ingyenes próbaverzió.",
-    "og_naslov": "TOPICA — a helyiségtől a szabásjegyzékig",
-    "og_opis": "Bútortervező program asztalosoknak: helyiség, katalógusszekrények, 3D, milliméterpontos szabásjegyzék és ár. Ingyenes próbaverzió.",
-    "og_alt": "Topi kabala egy korpuszt mér a TOPICA — a helyiségtől a szabásjegyzékig felirat mellett",
-    "ld_opis": "Windows-program méretre készülő lapszerkezetes bútorok (konyhák, gardróbok, szekrények) tervezéséhez asztalosműhelyeknek: helyiség 3D-ben, európai szabvány szerint felépített katalógusszekrények, milliméterpontos szabásjegyzék, vasalat és ár."
-  },
-  "a11y": { "preskoci": "Ugrás a tartalomra", "logo": "TOPICA, kezdőlap", "navigacija": "Főmenü", "jezik": "Nyelv választása", "meni": "Menü" },
-  "nav": { "kako": "Így működik", "mogucnosti": "Funkciók", "galerija": "Galéria", "cena": "Árak", "pitanja": "GYIK", "blog": "Útmutatók", "preuzimanje": "Letöltés" },
-  "cta": { "glavno": "Próbaverzió letöltése", "kratko": "Letöltés" },
-  "jezik": {
-    "napomena_program": "A program jelenleg szerb és angol nyelven érhető el. A magyar változat készül.",
-    "predlog_tekst": "Ez az oldal magyarul is elérhető.",
-    "predlog_dugme": "Váltás magyarra"
-  },
-  "hero": {
-    "naslov": "A helyiségtől a szabásjegyzékig.",
-    "tekst": "A TOPICA asztalosoknak készült bútortervező program: megrajzolod a helyiséget, a fal mentén sorba rakod a szekrényeket, a program pedig ismeri a szerkezetet, és azonnal adja a 3D-t, a milliméterpontos szabásjegyzéket, a vasalatot és az árat.",
-    "saznaj": "Nézd meg, hogyan működik",
-    "sitno": "Windows 10/11 · szerb és angol · a próbaverzió ingyenes",
-    "topi_alt": "Topi, a TOPICA plüsskabalája mérőszalaggal mér egy nyitott ajtós alsó konyhaszekrényt",
-    "prozor_alt": "TOPICA, konyha 3D-s nézete egy helyiségben: alsó és felső szekrények tölgy frontokkal a fal mentén, az alsó sor 3200 mm, a szabad hely 400 mm"
-  },
+  "_jezik": {"ime": "Magyar", "status": "za-proveru", "proverio": ""},
+  "meta": {"naslov": "TOPICA — bútortervező program szabásjegyzékkel, asztalosoknak készült", "opis": "A TOPICA konyhatervező program asztalosoknak Windowsra: megrajzolod a helyiséget, elhelyezed a katalógus szekrényeit, és a program adja a 3D-t, a milliméterpontos szabásjegyzéket, a vasalatot és az árat. Ingyenes próbaverzió.", "og_naslov": "TOPICA — a helyiségtől a szabásjegyzékig", "og_opis": "Bútortervező program asztalosoknak: helyiség, katalógusszekrények, 3D, milliméterpontos szabásjegyzék és ár. Ingyenes próbaverzió.", "og_alt": "Topi kabala egy korpuszt mér a TOPICA — a helyiségtől a szabásjegyzékig felirat mellett", "ld_opis": "Windows-program méretre készülő lapszerkezetes bútorok (konyhák, gardróbok, szekrények) tervezéséhez asztalosműhelyeknek: helyiség 3D-ben, európai szabvány szerint felépített katalógusszekrények, milliméterpontos szabásjegyzék, vasalat és ár."},
+  "a11y": {"preskoci": "Ugrás a tartalomra", "logo": "TOPICA, kezdőlap", "navigacija": "Főmenü", "jezik": "Nyelv választása", "meni": "Menü"},
+  "nav": {"kako": "Így működik", "mogucnosti": "Funkciók", "galerija": "Galéria", "cena": "Árak", "pitanja": "GYIK", "blog": "Útmutatók", "preuzimanje": "Letöltés"},
+  "cta": {"glavno": "Próbaverzió letöltése", "kratko": "Letöltés"},
+  "jezik": {"napomena_program": "A program jelenleg szerb és angol nyelven érhető el. A magyar változat készül.", "predlog_tekst": "Ez az oldal magyarul is elérhető.", "predlog_dugme": "Váltás magyarra"},
+  "hero": {"naslov": "A helyiségtől a szabásjegyzékig.", "tekst": "A TOPICA asztalosoknak készült bútortervező program: megrajzolod a helyiséget, a fal mentén sorba rakod a szekrényeket, a program pedig ismeri a szerkezetet, és azonnal adja a 3D-t, a milliméterpontos szabásjegyzéket, a vasalatot és az árat.", "saznaj": "Nézd meg, hogyan működik", "sitno": "Windows 10/11 · szerb és angol · a próbaverzió ingyenes", "topi_alt": "Topi, a TOPICA plüsskabalája mérőszalaggal mér egy nyitott ajtós alsó konyhaszekrényt", "prozor_alt": "TOPICA, konyha 3D-s nézete egy helyiségben: alsó és felső szekrények tölgy frontokkal a fal mentén, az alsó sor 3200 mm, a szabad hely 400 mm"},
   "cinjenice": {
-    "naslov": "Miért asztalosprogram, és nem rajzolóeszköz",
-    "1": { "naslov": "Milliméterpontos", "tekst": "Minden lap a valódi korpuszszerkezetből kapja a pontos méretét, nem egy szemre készült vázlatból." },
-    "2": { "naslov": "Európai szabvány, System 32", "tekst": "Keret nélküli korpusz, élzárás, 35 mm-es kivetőpánt, fiókok és lábazat a katalógusból. Semmit sem kell újra beállítani." },
-    "3": { "naslov": "Másolásra kész szabásjegyzék", "tekst": "Azonos méretek egy sorban, anyag szerint csoportosítva. Másold ki, és küldd a lapszabászatra." }
+    "1": {"naslov": "Milliméterpontos", "tekst": "Minden lap a valódi korpuszszerkezetből kapja a pontos méretét, nem egy szemre készült vázlatból."},
+    "2": {"naslov": "Európai szabvány, System 32", "tekst": "Keret nélküli korpusz, élzárás, 35 mm-es kivetőpánt, fiókok és lábazat a katalógusból. Semmit sem kell újra beállítani."},
+    "3": {"naslov": "Másolásra kész szabásjegyzék", "tekst": "Azonos méretek egy sorban, anyag szerint csoportosítva. Másold ki, és küldd a lapszabászatra."},
+    "naslov": "Miért asztalosprogram, és nem rajzolóeszköz"
   },
   "kako": {
+    "1": {"naslov": "Rajzold meg a helyiséget", "tekst": "Add meg a falakat, a belmagasságot, az ablakot és a gépészetet. A helyiség azonnal 3D-ben van, olyan padlóval és falakkal, amilyen a vevőnél valóban van.", "alt": "TOPICA, 1. lépés: 3600 × 3000 mm-es helyiség padló- és falválasztással, szürke laminált padló és csempe a konyha mögött"},
+    "2": {"naslov": "Helyezd el a katalógus szekrényeit", "tekst": "Alsó, felső, magas, mosogatós, sütős, sarok. A falhoz és a szomszédhoz igazodnak, a méreteket pedig élőben, milliméterre módosítod.", "alt": "TOPICA, 2. lépés: 600 × 720 × 560 mm-es ajtós alsószekrény a falnál, a szomszédig mért méretekkel és a tulajdonságpanellel"},
+    "3": {"naslov": "Olvasd le a szabásjegyzéket és az árat", "tekst": "A program ismeri a szerkezetet: oldalak, fenéklap, hevederek, hátfal, front. A szabásjegyzék, a vasalat és az ár mindig naprakész, „újraszámol” gomb nélkül.", "alt": "TOPICA, 3. lépés: a „Méret szerint” szabásjegyzék egy szekrényhez, 8 lap anyag szerint csoportosítva, mérettel, vastagsággal, élzárással és árral"},
     "nadnaslov": "Így működik",
-    "naslov": "Három lépés a szabásjegyzékig.",
-    "1": { "naslov": "Rajzold meg a helyiséget", "tekst": "Add meg a falakat, a belmagasságot, az ablakot és a gépészetet. A helyiség azonnal 3D-ben van, olyan padlóval és falakkal, amilyen a vevőnél valóban van.", "alt": "TOPICA, 1. lépés: 3600 × 3000 mm-es helyiség padló- és falválasztással, szürke laminált padló és csempe a konyha mögött" },
-    "2": { "naslov": "Helyezd el a katalógus szekrényeit", "tekst": "Alsó, felső, magas, mosogatós, sütős, sarok. A falhoz és a szomszédhoz igazodnak, a méreteket pedig élőben, milliméterre módosítod.", "alt": "TOPICA, 2. lépés: 600 × 720 × 560 mm-es ajtós alsószekrény a falnál, a szomszédig mért méretekkel és a tulajdonságpanellel" },
-    "3": { "naslov": "Olvasd le a szabásjegyzéket és az árat", "tekst": "A program ismeri a szerkezetet: oldalak, fenéklap, hevederek, hátfal, front. A szabásjegyzék, a vasalat és az ár mindig naprakész, „újraszámol” gomb nélkül.", "alt": "TOPICA, 3. lépés: a „Méret szerint” szabásjegyzék egy szekrényhez, 8 lap anyag szerint csoportosítva, mérettel, vastagsággal, élzárással és árral" }
+    "naslov": "Három lépés a szabásjegyzékig."
   },
   "korpus": {
     "naslov": "Egy szekrény. Minden lap milliméterre.",
-    "natpis": {
-      "1": "Egy 600 × 720 × 560 mm-es alsószekrény, amilyet minden műhely készít.",
-      "2": "A program lapokra bontja, és mindegyiknek megadja a pontos méretét, élzárását és vastagságát.",
-      "3": "A lapok szabástervként fekszenek fel a táblára: fehér bútorlap, tölgy dekor, farostlemez.",
-      "4": "A „Méret szerint” szabásjegyzék pedig kész a másolásra és a lapszabászatra küldésre."
-    },
-    "daska": { "bok": "Oldal", "dno": "Fenéklap", "polica": "Polc", "precka": "Heveder", "front": "Front", "ledja": "Hátfal" },
+    "natpis": {"1": "Egy 600 × 720 × 560 mm-es alsószekrény, amilyet minden műhely készít.", "2": "A program lapokra bontja, és mindegyiknek megadja a pontos méretét, élzárását és vastagságát.", "3": "A lapok szabástervként fekszenek fel a táblára: fehér bútorlap, tölgy dekor, farostlemez.", "4": "A „Méret szerint” szabásjegyzék pedig kész a másolásra és a lapszabászatra küldésre."},
+    "daska": {"bok": "Oldal", "dno": "Fenéklap", "polica": "Polc", "precka": "Heveder", "front": "Front", "ledja": "Hátfal"},
     "noscript_alt": "TOPICA, „Méret szerint” szabásjegyzék egy 600 × 720 × 560 mm-es alsószekrényhez",
     "posle": "Ezt a program a konyha minden szekrényével megteszi, amint a falhoz állítod."
   },
-  "niz": {
-    "nadnaslov": "Helyiség",
-    "naslov": "Rakd össze a sort, a program befejezi.",
-    "tekst": "A szekrények egymáshoz és a falhoz igazodnak, a munkalap és a lábazat pedig a teljes mérettel kerül rájuk, rajzolás nélkül."
-  },
+  "niz": {"nadnaslov": "Helyiség", "naslov": "Rakd össze a sort, a program befejezi.", "tekst": "A szekrények egymáshoz és a falhoz igazodnak, a munkalap és a lábazat pedig a teljes mérettel kerül rájuk, rajzolás nélkül."},
   "mogucnosti": {
+    "1": {"naslov": "Milliméterpontos méretek", "tekst": "Írd be a szélességet, magasságot és mélységet, vagy húzd a csúszkát. A falig, a szomszédig és a padlótól mért méretek mindig láthatók.", "alt": "Szekrény 3D-ben 600, 720 és 560 mm-es méretekkel, valamint a falig, a szomszédig és a padlótól mért jelölésekkel"},
+    "2": {"naslov": "Szabvány szerinti katalógus", "tekst": "Minden szekrénytípus európai szabvány, System 32 szerinti szerkezettel érkezik.", "s1": "Alsó, felső, magas", "s2": "Mosogató és sütő", "s3": "Sarok és gardrób", "s4": "Fiókok, pántok, lábak"},
+    "3": {"naslov": "„Méret szerint” másoláshoz", "tekst": "Azonos méretek egy sorban, anyag szerint. Az első méret a szálirány.", "k1": "Méret · mm", "k2": "Vast.", "k3": "Élzárás", "k4": "Db", "r1": "1 hosszú", "r3": "2 hosszú, 2 rövid"},
+    "4": {"naslov": "Valódi dekorok és élő 3D", "tekst": "Tölgy, fehér, márvány vagy saját dekor fotóról. Amit módosítasz, azonnal látod, egy olyan 3D konyhatervben, amelyet a vevő is ért."},
+    "5": {"naslov": "Lábazat, munkalap és takarólap automatikusan", "tekst": "A kijelölt szekrények fölé épülnek, és velük együtt mozognak, ha áthelyezed őket."},
+    "6": {"naslov": "Ár projektenként", "tekst": "Add meg a saját lap-, élzáró-, vasalat- és munkadíjaidat. A program projektenként összeadja; az árajánlatot te készíted.", "alt": "Műhelybeállítások: munkadíj szekrényenként 3000 RSD, árrés 20 %"},
+    "7": {"naslov": "Internet és fiók nélkül", "tekst": "A projekt egyetlen fájl a számítógépeden. Küldd el e-mailben a kollégádnak."},
     "nadnaslov": "Funkciók",
     "naslov": "Bútortervező program, amely érti az asztalosmunkát.",
-    "tekst": "Konyhák, beépített gardróbok és szekrények. Te döntesz a méretekről és a dekorokról; a szerkezetet és a számolást a program végzi.",
-    "1": { "naslov": "Milliméterpontos méretek", "tekst": "Írd be a szélességet, magasságot és mélységet, vagy húzd a csúszkát. A falig, a szomszédig és a padlótól mért méretek mindig láthatók.", "alt": "Szekrény 3D-ben 600, 720 és 560 mm-es méretekkel, valamint a falig, a szomszédig és a padlótól mért jelölésekkel" },
-    "2": { "naslov": "Szabvány szerinti katalógus", "tekst": "Minden szekrénytípus európai szabvány, System 32 szerinti szerkezettel érkezik.", "s1": "Alsó, felső, magas", "s2": "Mosogató és sütő", "s3": "Sarok és gardrób", "s4": "Fiókok, pántok, lábak" },
-    "3": { "naslov": "„Méret szerint” másoláshoz", "tekst": "Azonos méretek egy sorban, anyag szerint. Az első méret a szálirány.", "k1": "Méret · mm", "k2": "Vast.", "k3": "Élzárás", "k4": "Db", "r1": "1 hosszú", "r3": "2 hosszú, 2 rövid" },
-    "4": { "naslov": "Valódi dekorok és élő 3D", "tekst": "Tölgy, fehér, márvány vagy saját dekor fotóról. Amit módosítasz, azonnal látod, egy olyan 3D konyhatervben, amelyet a vevő is ért." },
-    "5": { "naslov": "Lábazat, munkalap és takarólap automatikusan", "tekst": "A kijelölt szekrények fölé épülnek, és velük együtt mozognak, ha áthelyezed őket." },
-    "6": { "naslov": "Ár projektenként", "tekst": "Add meg a saját lap-, élzáró-, vasalat- és munkadíjaidat. A program projektenként összeadja; az árajánlatot te készíted.", "alt": "Műhelybeállítások: munkadíj szekrényenként 3000 RSD, árrés 20 %" },
-    "7": { "naslov": "Internet és fiók nélkül", "tekst": "A projekt egyetlen fájl a számítógépeden. Küldd el e-mailben a kollégádnak." }
+    "tekst": "Konyhák, beépített gardróbok és szekrények. Te döntesz a méretekről és a dekorokról; a szerkezetet és a számolást a program végzi."
   },
   "galerija": {
+    "1": {"tekst": "Konyhasor, tölgy dekor és fehér bútorlap.", "alt": "Konyhasor tölgy frontokkal, fehér bútorlap korpuszokkal, szürke laminált padlóval"},
+    "2": {"tekst": "Ugyanaz a projekt, más dekor: sötét márvány és csempe.", "alt": "Ugyanaz a konyha sötét márvány frontokkal és csempével a falon"},
+    "3": {"tekst": "Közelről: egy szekrény, méretek és szerkezet.", "alt": "Egy 600 × 720 × 570 mm-es szekrény közelről, tölgy ajtóval és a méretpanellel"},
+    "4": {"tekst": "Nyisd ki a frontokat, és nézz be.", "alt": "Nyitott ajtós szekrény 3D-ben, látszik a polc és a belső tér, a falig és a szomszédig mért méretekkel"},
+    "5": {"tekst": "Saját dekor: add hozzá a ténylegesen vásárolt lap fotóját.", "alt": "Frontdekor-választék: fehér, szürke, bézs, fekete, fa, beton, márvány, inox és egyedi dekor"},
+    "6": {"tekst": "Fiókok fiókoldallal és fióksínnel a katalógusból.", "alt": "Háromfiókos alsószekrény 3D-ben, a fiók- és sínpanellel"},
     "nadnaslov": "Galéria",
-    "naslov": "3D konyhaterv, egyenesen a programból.",
-    "1": { "tekst": "Konyhasor, tölgy dekor és fehér bútorlap.", "alt": "Konyhasor tölgy frontokkal, fehér bútorlap korpuszokkal, szürke laminált padlóval" },
-    "2": { "tekst": "Ugyanaz a projekt, más dekor: sötét márvány és csempe.", "alt": "Ugyanaz a konyha sötét márvány frontokkal és csempével a falon" },
-    "3": { "tekst": "Közelről: egy szekrény, méretek és szerkezet.", "alt": "Egy 600 × 720 × 570 mm-es szekrény közelről, tölgy ajtóval és a méretpanellel" },
-    "4": { "tekst": "Nyisd ki a frontokat, és nézz be.", "alt": "Nyitott ajtós szekrény 3D-ben, látszik a polc és a belső tér, a falig és a szomszédig mért méretekkel" },
-    "5": { "tekst": "Saját dekor: add hozzá a ténylegesen vásárolt lap fotóját.", "alt": "Frontdekor-választék: fehér, szürke, bézs, fekete, fa, beton, márvány, inox és egyedi dekor" },
-    "6": { "tekst": "Fiókok fiókoldallal és fióksínnel a katalógusból.", "alt": "Háromfiókos alsószekrény 3D-ben, a fiók- és sínpanellel" }
+    "naslov": "3D konyhaterv, egyenesen a programból."
   },
-  "zakoga": {
-    "nadnaslov": "Kinek készült",
-    "naslov": "Asztalos készíti, asztalosoknak.",
-    "tekst": "A TOPICA egy belgrádi asztalosműhelyben születik, valódi projekteken, valódi vevőknek. Ezért nincs benne semmi fölösleges: csak az, amivel a mester gyorsabban jut el a felméréstől a szabásig.",
-    "uloga": "asztalos és a program szerzője, Belgrád"
-  },
+  "zakoga": {"nadnaslov": "Kinek készült", "naslov": "Asztalos készíti, asztalosoknak.", "tekst": "A TOPICA egy belgrádi asztalosműhelyben születik, valódi projekteken, valódi vevőknek. Ezért nincs benne semmi fölösleges: csak az, amivel a mester gyorsabban jut el a felméréstől a szabásig.", "uloga": "asztalos és a program szerzője, Belgrád"},
   "cena": {
     "nadnaslov": "Árak",
     "naslov": "A próbaverzió ingyenes.",
@@ -89,79 +57,22 @@
     "uskoro_tekst": "a teljes verzióért",
     "tekst": "Próbáld ki a programot a saját projekteden, fiók és bankkártya nélkül. A teljes verzió árát hamarosan közöljük.",
     "kupi": "Megveszem",
-    "obrazac": {
-      "naslov": "Szólj, ha megvan az ár",
-      "placeholder": "te@email.hu",
-      "dugme": "Értesítést kérek",
-      "predmet": "TOPICA: értesíts, ha kijön az ár",
-      "napomena": "Egyetlen üzenet, amikor az árat közzétesszük. Reklám nélkül.",
-      "hvala": "Köszönjük! Szólunk, amint közzétesszük az árat.",
-      "greska": "Nem sikerült elküldeni. Írj nekünk közvetlenül a lábléc e-mail-címére."
-    },
+    "obrazac": {"naslov": "Szólj, ha megvan az ár", "placeholder": "te@email.hu", "dugme": "Értesítést kérek", "predmet": "TOPICA: értesíts, ha kijön az ár", "napomena": "Egyetlen üzenet, amikor az árat közzétesszük. Reklám nélkül.", "hvala": "Köszönjük! Szólunk, amint közzétesszük az árat.", "greska": "Nem sikerült elküldeni. Írj nekünk közvetlenül a lábléc e-mail-címére."},
     "topi_alt": "Topi, a TOPICA kabalája fúrót és vonalzót tart"
   },
   "pitanja": {
+    "1": {"p": "Melyik Windowson fut?", "o": "Windows 10-en és Windows 11-en, 64 bites rendszeren. A program kicsi és gyors; egy átlagos műhelyi laptopon is fut."},
+    "2": {"p": "Kell hozzá internet?", "o": "Nem. A program offline és fiók nélkül működik. A projekt egyetlen fájl a számítógépeden."},
+    "3": {"p": "Milyen lapokat és anyagokat támogat?", "o": "18 mm-es laminált bútorlapot korpuszhoz és fronthoz, 0,45 és 1 mm-es élzárót, 3 mm-es farostlemezt hátfalnak; a vastagságokat és az élzárót a műhelybeállításokban módosítod. A dekort listából választod, vagy sajátot adsz hozzá."},
+    "4": {"p": "Mit kapok a végén?", "o": "Szabásjegyzéket szekrényenként és anyagonként, a „Méret szerint” nézetet másoláshoz, vasalatlistát, lapfelhasználást, árat és PDF-nyomtatást."},
+    "5": {"p": "Milyen nyelveken?", "o": "Szerbül és angolul. A nyelvet a programon belül váltod."},
+    "6": {"p": "Kap frissítéseket a program?", "o": "Igen. Rendszeresen jelennek meg új verziók, a próbaverzió pedig bármikor újra letölthető erről az oldalról."},
     "nadnaslov": "GYIK",
-    "naslov": "Amit az asztalosok kipróbálás előtt kérdeznek.",
-    "1": { "p": "Melyik Windowson fut?", "o": "Windows 10-en és Windows 11-en, 64 bites rendszeren. A program kicsi és gyors; egy átlagos műhelyi laptopon is fut." },
-    "2": { "p": "Kell hozzá internet?", "o": "Nem. A program offline és fiók nélkül működik. A projekt egyetlen fájl a számítógépeden." },
-    "3": { "p": "Milyen lapokat és anyagokat támogat?", "o": "18 mm-es laminált bútorlapot korpuszhoz és fronthoz, 0,45 és 1 mm-es élzárót, 3 mm-es farostlemezt hátfalnak; a vastagságokat és az élzárót a műhelybeállításokban módosítod. A dekort listából választod, vagy sajátot adsz hozzá." },
-    "4": { "p": "Mit kapok a végén?", "o": "Szabásjegyzéket szekrényenként és anyagonként, a „Méret szerint” nézetet másoláshoz, vasalatlistát, lapfelhasználást, árat és PDF-nyomtatást." },
-    "5": { "p": "Milyen nyelveken?", "o": "Szerbül és angolul. A nyelvet a programon belül váltod." },
-    "6": { "p": "Kap frissítéseket a program?", "o": "Igen. Rendszeresen jelennek meg új verziók, a próbaverzió pedig bármikor újra letölthető erről az oldalról." }
+    "naslov": "Amit az asztalosok kipróbálás előtt kérdeznek."
   },
-  "dno": {
-    "naslov": "Próbáld ki a következő projekteden.",
-    "tekst": "Windows 10/11. Fiók és bankkártya nélkül. Szabásjegyzék az első szekrényhez öt perc alatt.",
-    "uslovi": "Felhasználási feltételek",
-    "privatnost": "Adatvédelem"
-  },
-  "preuzimanje": {
-    "meta_naslov": "Töltsd le az ingyenes TOPICA próbaverziót Windowsra",
-    "meta_opis": "A bútortervező és szabásjegyzék-készítő program ingyenes próbaverziója. Windows 10/11, 64 bit, fiók nélkül. Telepítés három lépésben.",
-    "nadnaslov": "Letöltés",
-    "naslov": "Ingyenes próbaverzió Windowsra.",
-    "tekst": "Ingyenes, fiók és bankkártya nélkül. A telepítés egy perc, és öt perc múlva kész az első szekrényed szabásjegyzékkel.",
-    "email_naslov": "Ha szeretnéd, hagyd meg az e-mail-címed (nem kötelező)",
-    "email_tekst": "Csak az új verziókról és az árról írunk, ha megjelenik. Reklám nélkül, leiratkozás egy kattintással.",
-    "dugme": "Próbaverzió letöltése",
-    "datoteka": "TOPICA-trial.exe",
-    "bez_emaila": "E-mail nélkül:",
-    "direktno": "közvetlen letöltés",
-    "predmet": "TOPICA: új próbaverzió-letöltés",
-    "zahtevi_naslov": "Mi kell a számítógépnek",
-    "z1_naslov": "Rendszer", "z1": "Windows 10 vagy Windows 11, 64 bites.",
-    "z2_naslov": "Számítógép", "z2": "Egy átlagos műhelyi laptop elég: 4 GB memória és olyan grafika, amely böngészőben elbír 3D-t.",
-    "z3_naslov": "Internet", "z3": "Nem szükséges. A program offline működik, és nem hoz létre fiókot.",
-    "koraci_naslov": "Telepítés három lépésben",
-    "k1": "Kattints duplán a letöltött TOPICA-trial.exe fájlra.",
-    "k2": "Ha a Windows megkérdezi, megbízol-e a programban, kattints a „További információ”, majd a „Futtatás mindenképpen” gombra.",
-    "k3": "Nyisd meg a TOPICA-t az asztalról. Hozd létre az első projektet: add meg a helyiség méreteit, és helyezd el az első szekrényt.",
-    "slika_placeholder": "Hely a lépés képernyőképének (a tulajdonos adja hozzá)",
-    "upozorenje_naslov": "Windows-figyelmeztetés.",
-    "upozorenje": "A program még nincs digitálisan aláírva, ezért a Windows az első indításkor kék „A Windows megvédte a számítógépet” képernyőt mutat. Ez új, aláíratlan programoknál megszokott: kattints a „További információ”, majd a „Futtatás mindenképpen” gombra. Az aláírást intézzük, és a figyelmeztetés el fog tűnni.",
-    "pomoc": "Elakadtál? Írj nekünk, még aznap válaszolunk."
-  },
-  "hvala": {
-    "meta_naslov": "Köszönjük — a TOPICA próbaverzió letöltése folyamatban",
-    "meta_opis": "A TOPICA próbaverzió letöltése elindult. Három lépés az induláshoz.",
-    "nadnaslov": "Köszönjük",
-    "naslov": "A letöltés elindult.",
-    "tekst": "Ha nem indult el magától:",
-    "koraci_naslov": "Három lépés az induláshoz",
-    "k1": "Telepítsd a programot (a Windows-figyelmeztetésnél: „További információ”, majd „Futtatás mindenképpen”).",
-    "k2": "Hozz létre új projektet, és add meg a helyiség méreteit: szélesség, mélység és belmagasság.",
-    "k3": "Add hozzá az első alsószekrényt a katalógusból, és nyisd meg a „Szabásméretek” nézetet. Ez az első szabásjegyzéked.",
-    "snimak": "Három perc videó: a helyiségtől a szabásjegyzékig.",
-    "snimak_dugme": "Videó megtekintése"
-  },
-  "blog": {
-    "meta_naslov": "Útmutatók asztalosoknak: szabásjegyzék, System 32, élzárás, konyhaméretek — TOPICA",
-    "meta_opis": "Rövid, gyakorlatias cikkek méretre készülő lapszerkezetes bútorokat gyártó asztalosoknak: hogyan kell olvasni a szabásjegyzéket, System 32, élzárás, szabványos konyhaszekrény-méretek.",
-    "nadnaslov": "Útmutatók",
-    "naslov": "Asztalosmunka papíron, a műhely előtt.",
-    "tekst": "Rövid írások arról, amit minden asztalos csinál, egyszer leírva, hogy ne kelljen minden alkalommal elmagyaráznod.",
-    "poziv": "Próbáld ki a saját projekteden."
-  },
-  "clanak": { "citanje": "perc olvasás", "objavljeno": "Közzétéve" }
+  "dno": {"naslov": "Próbáld ki a következő projekteden.", "tekst": "Windows 10/11. Fiók és bankkártya nélkül. Szabásjegyzék az első szekrényhez öt perc alatt.", "uslovi": "Felhasználási feltételek", "privatnost": "Adatvédelem"},
+  "preuzimanje": {"meta_naslov": "Töltsd le az ingyenes TOPICA próbaverziót Windowsra", "meta_opis": "A bútortervező és szabásjegyzék-készítő program ingyenes próbaverziója. Windows 10/11, 64 bit, fiók nélkül. Telepítés három lépésben.", "nadnaslov": "Letöltés", "naslov": "Ingyenes próbaverzió Windowsra.", "tekst": "Ingyenes, fiók és bankkártya nélkül. A telepítés egy perc, és öt perc múlva kész az első szekrényed szabásjegyzékkel.", "email_naslov": "Ha szeretnéd, hagyd meg az e-mail-címed (nem kötelező)", "email_tekst": "Csak az új verziókról és az árról írunk, ha megjelenik. Reklám nélkül, leiratkozás egy kattintással.", "dugme": "Próbaverzió letöltése", "datoteka": "TOPICA-trial.exe", "bez_emaila": "E-mail nélkül:", "direktno": "közvetlen letöltés", "predmet": "TOPICA: új próbaverzió-letöltés", "zahtevi_naslov": "Mi kell a számítógépnek", "z1_naslov": "Rendszer", "z1": "Windows 10 vagy Windows 11, 64 bites.", "z2_naslov": "Számítógép", "z2": "Egy átlagos műhelyi laptop elég: 4 GB memória és olyan grafika, amely böngészőben elbír 3D-t.", "z3_naslov": "Internet", "z3": "Nem szükséges. A program offline működik, és nem hoz létre fiókot.", "koraci_naslov": "Telepítés három lépésben", "k1": "Kattints duplán a letöltött TOPICA-trial.exe fájlra.", "k2": "Ha a Windows megkérdezi, megbízol-e a programban, kattints a „További információ”, majd a „Futtatás mindenképpen” gombra.", "k3": "Nyisd meg a TOPICA-t az asztalról. Hozd létre az első projektet: add meg a helyiség méreteit, és helyezd el az első szekrényt.", "slika_placeholder": "Hely a lépés képernyőképének (a tulajdonos adja hozzá)", "upozorenje_naslov": "Windows-figyelmeztetés.", "upozorenje": "A program még nincs digitálisan aláírva, ezért a Windows az első indításkor kék „A Windows megvédte a számítógépet” képernyőt mutat. Ez új, aláíratlan programoknál megszokott: kattints a „További információ”, majd a „Futtatás mindenképpen” gombra. Az aláírást intézzük, és a figyelmeztetés el fog tűnni.", "pomoc": "Elakadtál? Írj nekünk, még aznap válaszolunk."},
+  "hvala": {"meta_naslov": "Köszönjük — a TOPICA próbaverzió letöltése folyamatban", "meta_opis": "A TOPICA próbaverzió letöltése elindult. Három lépés az induláshoz.", "nadnaslov": "Köszönjük", "naslov": "A letöltés elindult.", "tekst": "Ha nem indult el magától:", "koraci_naslov": "Három lépés az induláshoz", "k1": "Telepítsd a programot (a Windows-figyelmeztetésnél: „További információ”, majd „Futtatás mindenképpen”).", "k2": "Hozz létre új projektet, és add meg a helyiség méreteit: szélesség, mélység és belmagasság.", "k3": "Add hozzá az első alsószekrényt a katalógusból, és nyisd meg a „Szabásméretek” nézetet. Ez az első szabásjegyzéked.", "snimak": "Három perc videó: a helyiségtől a szabásjegyzékig.", "snimak_dugme": "Videó megtekintése"},
+  "blog": {"meta_naslov": "Útmutatók asztalosoknak: szabásjegyzék, System 32, élzárás, konyhaméretek — TOPICA", "meta_opis": "Rövid, gyakorlatias cikkek méretre készülő lapszerkezetes bútorokat gyártó asztalosoknak: hogyan kell olvasni a szabásjegyzéket, System 32, élzárás, szabványos konyhaszekrény-méretek.", "nadnaslov": "Útmutatók", "naslov": "Asztalosmunka papíron, a műhely előtt.", "tekst": "Rövid írások arról, amit minden asztalos csinál, egyszer leírva, hogy ne kelljen minden alkalommal elmagyaráznod.", "poziv": "Próbáld ki a saját projekteden."},
+  "clanak": {"citanje": "perc olvasás", "objavljeno": "Közzétéve"}
 }

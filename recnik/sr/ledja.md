@@ -18,6 +18,8 @@ slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 
 Leđa od ivice do ivice kroje se poslednja, po sklopljenom korpusu: nasloniš lesonit, poravnaš jedan ugao i tako proveriš da li je sanduk pod pravim uglom pre nego što ga zakucaš ili uheftaš. Falc je urednija varijanta za vidljive gornje elemente i plakare, ali traži glodanje pre sklapanja i tačniju meru. Česta greška: leđa krojena po crtežu, a korpus sklopljen za milimetar nakrivo, pa lesonit viri sa jedne strane; druga je zaboravljen prolaz za odvod i struju kod [sudopere](../blog/standardne-mere-kuhinje.html) i rerne.
 
+![Otvoren korpus u programu TOPICA sa vidljivim leđima iza police](../slike/web/snimak-52-ruka-jedna-vrata-1600.webp "Leđa drže korpus u pravom uglu: bez njih se sanduk „njiše“.")
+
 ## Kako to radi TOPICA
 
 Program podrazumeva leđa od ivice do ivice spolja i upiše ih u [krojnu listu](../blog/krojna-lista.html) kao lesonit 3 mm bez goda; debljinu i način menjaš u podešavanjima radionice za ceo projekat ([mogućnosti](../#mogucnosti)). Lesonit u boji prati dezen [korpusa](./korpus.html).

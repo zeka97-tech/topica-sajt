@@ -1,87 +1,55 @@
 {
-  "_jezik": { "ime": "Nederlands", "status": "za-proveru", "proverio": "" },
-  "meta": {
-    "naslov": "TOPICA — kastontwerpsoftware met zaaglijst, gemaakt voor meubelmakers",
-    "opis": "TOPICA is keukenontwerpsoftware voor meubelmakers en interieurbouwers op Windows: teken de ruimte, zet kasten uit de catalogus neer en je krijgt 3D, een zaaglijst op de millimeter, beslag en prijs. Gratis proefversie.",
-    "og_naslov": "TOPICA — van de ruimte naar de zaaglijst",
-    "og_opis": "Kastontwerpsoftware voor meubelmakers: ruimte, kasten uit de catalogus, 3D, zaaglijst op de millimeter en prijs. Gratis proefversie.",
-    "og_alt": "Mascotte Topi meet een kast op naast de woorden TOPICA — van de ruimte naar de zaaglijst",
-    "ld_opis": "Windows-programma voor het ontwerpen van plaatmeubelen op maat (keukens, kasten, kastenwanden) voor meubelmakerijen en interieurbouwers: ruimte in 3D, kasten uit de catalogus volgens de Europese standaard, zaaglijst op de millimeter, beslag en prijs."
-  },
-  "a11y": { "preskoci": "Naar de inhoud", "logo": "TOPICA, startpagina", "navigacija": "Hoofdnavigatie", "jezik": "Taal kiezen", "meni": "Menu" },
-  "nav": { "kako": "Hoe het werkt", "mogucnosti": "Functies", "galerija": "Galerij", "cena": "Prijs", "pitanja": "Vragen", "blog": "Gidsen", "preuzimanje": "Download" },
-  "cta": { "glavno": "Download de gratis proefversie", "kratko": "Download" },
-  "jezik": {
-    "napomena_program": "Het programma is nu beschikbaar in het Servisch en Engels. Nederlands komt eraan.",
-    "predlog_tekst": "Deze pagina is er ook in het Nederlands.",
-    "predlog_dugme": "Naar het Nederlands"
-  },
-  "hero": {
-    "naslov": "Van de ruimte naar de zaaglijst.",
-    "tekst": "TOPICA is ontwerpsoftware voor keukens en kasten op maat, gemaakt voor meubelmakers: je tekent de ruimte, zet de kasten langs de wand, en het programma kent de constructie al en geeft je meteen 3D, een zaaglijst op de millimeter, beslag en een prijs.",
-    "saznaj": "Bekijk hoe het werkt",
-    "sitno": "Windows 10/11 · Servisch en Engels · de proefversie is gratis",
-    "topi_alt": "Topi, de pluchen mascotte van TOPICA, meet met een rolmaat een keukenonderkast met open deur op",
-    "prozor_alt": "TOPICA, 3D-weergave van een keuken in een ruimte: onder- en bovenkasten met eiken fronten langs de wand, met de onderrij op 3200 mm en 400 mm vrije ruimte"
-  },
+  "_jezik": {"ime": "Nederlands", "status": "za-proveru", "proverio": ""},
+  "meta": {"naslov": "TOPICA — kastontwerpsoftware met zaaglijst, gemaakt voor meubelmakers", "opis": "TOPICA is keukenontwerpsoftware voor meubelmakers en interieurbouwers op Windows: teken de ruimte, zet kasten uit de catalogus neer en je krijgt 3D, een zaaglijst op de millimeter, beslag en prijs. Gratis proefversie.", "og_naslov": "TOPICA — van de ruimte naar de zaaglijst", "og_opis": "Kastontwerpsoftware voor meubelmakers: ruimte, kasten uit de catalogus, 3D, zaaglijst op de millimeter en prijs. Gratis proefversie.", "og_alt": "Mascotte Topi meet een kast op naast de woorden TOPICA — van de ruimte naar de zaaglijst", "ld_opis": "Windows-programma voor het ontwerpen van plaatmeubelen op maat (keukens, kasten, kastenwanden) voor meubelmakerijen en interieurbouwers: ruimte in 3D, kasten uit de catalogus volgens de Europese standaard, zaaglijst op de millimeter, beslag en prijs."},
+  "a11y": {"preskoci": "Naar de inhoud", "logo": "TOPICA, startpagina", "navigacija": "Hoofdnavigatie", "jezik": "Taal kiezen", "meni": "Menu"},
+  "nav": {"kako": "Hoe het werkt", "mogucnosti": "Functies", "galerija": "Galerij", "cena": "Prijs", "pitanja": "Vragen", "blog": "Gidsen", "preuzimanje": "Download"},
+  "cta": {"glavno": "Download de gratis proefversie", "kratko": "Download"},
+  "jezik": {"napomena_program": "Het programma is nu beschikbaar in het Servisch en Engels. Nederlands komt eraan.", "predlog_tekst": "Deze pagina is er ook in het Nederlands.", "predlog_dugme": "Naar het Nederlands"},
+  "hero": {"naslov": "Van de ruimte naar de zaaglijst.", "tekst": "TOPICA is ontwerpsoftware voor keukens en kasten op maat, gemaakt voor meubelmakers: je tekent de ruimte, zet de kasten langs de wand, en het programma kent de constructie al en geeft je meteen 3D, een zaaglijst op de millimeter, beslag en een prijs.", "saznaj": "Bekijk hoe het werkt", "sitno": "Windows 10/11 · Servisch en Engels · de proefversie is gratis", "topi_alt": "Topi, de pluchen mascotte van TOPICA, meet met een rolmaat een keukenonderkast met open deur op", "prozor_alt": "TOPICA, 3D-weergave van een keuken in een ruimte: onder- en bovenkasten met eiken fronten langs de wand, met de onderrij op 3200 mm en 400 mm vrije ruimte"},
   "cinjenice": {
-    "naslov": "Waarom software voor meubelmakers, geen tekenprogramma",
-    "1": { "naslov": "Op de millimeter", "tekst": "Elk paneel krijgt zijn exacte maat uit de echte kastconstructie, niet uit een schets op het oog." },
-    "2": { "naslov": "Europese standaard, System 32", "tekst": "Romp zonder frame, kantenband, potscharnieren 35 mm, lades en plint uit de catalogus. Niets opnieuw instellen." },
-    "3": { "naslov": "Zaaglijst klaar om te kopiëren", "tekst": "Gelijke maten op één regel, gegroepeerd per materiaal. Kopieer en stuur naar de opdeelzaag." }
+    "1": {"naslov": "Op de millimeter", "tekst": "Elk paneel krijgt zijn exacte maat uit de echte kastconstructie, niet uit een schets op het oog."},
+    "2": {"naslov": "Europese standaard, System 32", "tekst": "Romp zonder frame, kantenband, potscharnieren 35 mm, lades en plint uit de catalogus. Niets opnieuw instellen."},
+    "3": {"naslov": "Zaaglijst klaar om te kopiëren", "tekst": "Gelijke maten op één regel, gegroepeerd per materiaal. Kopieer en stuur naar de opdeelzaag."},
+    "naslov": "Waarom software voor meubelmakers, geen tekenprogramma"
   },
   "kako": {
+    "1": {"naslov": "Teken de ruimte", "tekst": "Voer de wanden, plafondhoogte, raam en aansluitingen in. De ruimte staat meteen in 3D, met de vloer en wanden die je klant echt heeft.", "alt": "TOPICA, stap 1: een ruimte van 3600 × 3000 mm met keuze van vloer en wanden, grijs laminaat en tegels achter de keuken"},
+    "2": {"naslov": "Zet kasten uit de catalogus neer", "tekst": "Onder-, boven-, hoge kast, spoelkast, ovenkast, hoekkast. Ze klikken tegen de wand en tegen de buurkast, en maten pas je live aan, op de millimeter.", "alt": "TOPICA, stap 2: een onderkast met deur van 600 × 720 × 560 mm tegen de wand, met maten tot de buurkast en het eigenschappenpaneel"},
+    "3": {"naslov": "Lees de zaaglijst en de prijs", "tekst": "Het programma kent de constructie: zijwanden, bodem, regels, achterwand, front. Zaaglijst, beslag en prijs zijn altijd actueel, zonder knop “herberekenen”.", "alt": "TOPICA, stap 3: de zaaglijst “Op maat” voor één kast, 8 panelen gegroepeerd per materiaal met maat, dikte, kantenband en prijs"},
     "nadnaslov": "Hoe het werkt",
-    "naslov": "Drie stappen naar een zaaglijst.",
-    "1": { "naslov": "Teken de ruimte", "tekst": "Voer de wanden, plafondhoogte, raam en aansluitingen in. De ruimte staat meteen in 3D, met de vloer en wanden die je klant echt heeft.", "alt": "TOPICA, stap 1: een ruimte van 3600 × 3000 mm met keuze van vloer en wanden, grijs laminaat en tegels achter de keuken" },
-    "2": { "naslov": "Zet kasten uit de catalogus neer", "tekst": "Onder-, boven-, hoge kast, spoelkast, ovenkast, hoekkast. Ze klikken tegen de wand en tegen de buurkast, en maten pas je live aan, op de millimeter.", "alt": "TOPICA, stap 2: een onderkast met deur van 600 × 720 × 560 mm tegen de wand, met maten tot de buurkast en het eigenschappenpaneel" },
-    "3": { "naslov": "Lees de zaaglijst en de prijs", "tekst": "Het programma kent de constructie: zijwanden, bodem, regels, achterwand, front. Zaaglijst, beslag en prijs zijn altijd actueel, zonder knop “herberekenen”.", "alt": "TOPICA, stap 3: de zaaglijst “Op maat” voor één kast, 8 panelen gegroepeerd per materiaal met maat, dikte, kantenband en prijs" }
+    "naslov": "Drie stappen naar een zaaglijst."
   },
   "korpus": {
     "naslov": "Eén kast. Elk paneel op de millimeter.",
-    "natpis": {
-      "1": "Een onderkast van 600 × 720 × 560 mm, zoals elke werkplaats ze maakt.",
-      "2": "Het programma haalt hem uit elkaar in panelen en geeft elk paneel zijn exacte maat, kantenband en dikte.",
-      "3": "De panelen liggen op de plaat als zaagplan: wit spaanplaat, eiken decor, hardboard.",
-      "4": "En de zaaglijst “Op maat” staat klaar om te kopiëren en naar de opdeelzaag te sturen."
-    },
-    "daska": { "bok": "Zijwand", "dno": "Bodem", "polica": "Legbord", "precka": "Regel", "front": "Front", "ledja": "Achterwand" },
+    "natpis": {"1": "Een onderkast van 600 × 720 × 560 mm, zoals elke werkplaats ze maakt.", "2": "Het programma haalt hem uit elkaar in panelen en geeft elk paneel zijn exacte maat, kantenband en dikte.", "3": "De panelen liggen op de plaat als zaagplan: wit spaanplaat, eiken decor, hardboard.", "4": "En de zaaglijst “Op maat” staat klaar om te kopiëren en naar de opdeelzaag te sturen."},
+    "daska": {"bok": "Zijwand", "dno": "Bodem", "polica": "Legbord", "precka": "Regel", "front": "Front", "ledja": "Achterwand"},
     "noscript_alt": "TOPICA, zaaglijst “Op maat” voor een onderkast van 600 × 720 × 560 mm",
     "posle": "Dit doet het programma voor elke kast in de keuken, zodra je hem tegen de wand zet."
   },
-  "niz": {
-    "nadnaslov": "Ruimte",
-    "naslov": "Bouw de rij, het programma maakt hem af.",
-    "tekst": "Kasten klikken tegen elkaar en tegen de wand, en het werkblad en de plint komen er met de totaalmaat bovenop, zonder tekenen."
-  },
+  "niz": {"nadnaslov": "Ruimte", "naslov": "Bouw de rij, het programma maakt hem af.", "tekst": "Kasten klikken tegen elkaar en tegen de wand, en het werkblad en de plint komen er met de totaalmaat bovenop, zonder tekenen."},
   "mogucnosti": {
+    "1": {"naslov": "Maten op de millimeter", "tekst": "Typ breedte, hoogte en diepte of sleep de schuif. Maten tot de wand, tot de buurkast en vanaf de vloer blijven altijd zichtbaar.", "alt": "Een kast in 3D met maten 600, 720 en 560 mm en markeringen tot de wand, tot de buurkast en vanaf de vloer"},
+    "2": {"naslov": "Catalogus volgens de standaard", "tekst": "Elk kasttype komt met een constructie volgens de Europese standaard, System 32.", "s1": "Onder, boven, hoog", "s2": "Spoelkast en ovenkast", "s3": "Hoekkast en kledingkast", "s4": "Lades, scharnieren, poten"},
+    "3": {"naslov": "“Op maat” om te kopiëren", "tekst": "Gelijke maten op één regel, per materiaal. De eerste maat is de nerfrichting.", "k1": "Maat · mm", "k2": "Dikte", "k3": "Kant", "k4": "Aant.", "r1": "1 lange", "r3": "2 lange, 2 korte"},
+    "4": {"naslov": "Echte decors en live 3D", "tekst": "Eiken, wit, marmer of je eigen decor van een foto. Wat je verandert, zie je meteen, in een 3D-keukenontwerp dat je klant begrijpt."},
+    "5": {"naslov": "Plint, werkblad en wangen, automatisch", "tekst": "Ze worden over de geselecteerde kasten gebouwd en schuiven mee als je ze verplaatst."},
+    "6": {"naslov": "Prijs per project", "tekst": "Voer je eigen prijzen in voor plaatmateriaal, kantenband, beslag en arbeid. Het programma telt per project op; de offerte maak jij.", "alt": "Werkplaatsinstellingen: arbeid per element 3000 RSD, marge 20 %"},
+    "7": {"naslov": "Geen internet, geen account", "tekst": "Een project is één bestand op je computer. Mail het naar een collega."},
     "nadnaslov": "Functies",
     "naslov": "Meubelontwerpsoftware die het vak kent.",
-    "tekst": "Keukens, inbouwkasten en kastenwanden. Jij bepaalt maten en decors; het programma doet de constructie en het rekenwerk.",
-    "1": { "naslov": "Maten op de millimeter", "tekst": "Typ breedte, hoogte en diepte of sleep de schuif. Maten tot de wand, tot de buurkast en vanaf de vloer blijven altijd zichtbaar.", "alt": "Een kast in 3D met maten 600, 720 en 560 mm en markeringen tot de wand, tot de buurkast en vanaf de vloer" },
-    "2": { "naslov": "Catalogus volgens de standaard", "tekst": "Elk kasttype komt met een constructie volgens de Europese standaard, System 32.", "s1": "Onder, boven, hoog", "s2": "Spoelkast en ovenkast", "s3": "Hoekkast en kledingkast", "s4": "Lades, scharnieren, poten" },
-    "3": { "naslov": "“Op maat” om te kopiëren", "tekst": "Gelijke maten op één regel, per materiaal. De eerste maat is de nerfrichting.", "k1": "Maat · mm", "k2": "Dikte", "k3": "Kant", "k4": "Aant.", "r1": "1 lange", "r3": "2 lange, 2 korte" },
-    "4": { "naslov": "Echte decors en live 3D", "tekst": "Eiken, wit, marmer of je eigen decor van een foto. Wat je verandert, zie je meteen, in een 3D-keukenontwerp dat je klant begrijpt." },
-    "5": { "naslov": "Plint, werkblad en wangen, automatisch", "tekst": "Ze worden over de geselecteerde kasten gebouwd en schuiven mee als je ze verplaatst." },
-    "6": { "naslov": "Prijs per project", "tekst": "Voer je eigen prijzen in voor plaatmateriaal, kantenband, beslag en arbeid. Het programma telt per project op; de offerte maak jij.", "alt": "Werkplaatsinstellingen: arbeid per element 3000 RSD, marge 20 %" },
-    "7": { "naslov": "Geen internet, geen account", "tekst": "Een project is één bestand op je computer. Mail het naar een collega." }
+    "tekst": "Keukens, inbouwkasten en kastenwanden. Jij bepaalt maten en decors; het programma doet de constructie en het rekenwerk."
   },
   "galerija": {
+    "1": {"tekst": "Een keukenrij, eiken decor en wit spaanplaat.", "alt": "Een keukenrij met eiken fronten, rompen van wit spaanplaat, grijze laminaatvloer"},
+    "2": {"tekst": "Zelfde project, ander decor: donker marmer en tegels.", "alt": "Dezelfde keuken met fronten in donker marmer en tegels op de wand"},
+    "3": {"tekst": "Van dichtbij: één kast, maten en constructie.", "alt": "Close-up van één kast van 600 × 720 × 570 mm met eiken deur en het matenpaneel"},
+    "4": {"tekst": "Open de fronten en kijk erin.", "alt": "Een kast met open deur in 3D met het legbord en de binnenkant, met maten tot de wand en de buurkast"},
+    "5": {"tekst": "Je eigen decor: voeg een foto toe van de plaat die je echt koopt.", "alt": "Keuze van frontdecors: wit, grijs, beige, zwart, hout, beton, marmer, rvs en een eigen decor"},
+    "6": {"tekst": "Lades met bak en geleiders uit de catalogus.", "alt": "Een onderkast met drie lades in 3D, met het paneel voor lades en geleiders"},
     "nadnaslov": "Galerij",
-    "naslov": "Keukenontwerp in 3D, rechtstreeks uit het programma.",
-    "1": { "tekst": "Een keukenrij, eiken decor en wit spaanplaat.", "alt": "Een keukenrij met eiken fronten, rompen van wit spaanplaat, grijze laminaatvloer" },
-    "2": { "tekst": "Zelfde project, ander decor: donker marmer en tegels.", "alt": "Dezelfde keuken met fronten in donker marmer en tegels op de wand" },
-    "3": { "tekst": "Van dichtbij: één kast, maten en constructie.", "alt": "Close-up van één kast van 600 × 720 × 570 mm met eiken deur en het matenpaneel" },
-    "4": { "tekst": "Open de fronten en kijk erin.", "alt": "Een kast met open deur in 3D met het legbord en de binnenkant, met maten tot de wand en de buurkast" },
-    "5": { "tekst": "Je eigen decor: voeg een foto toe van de plaat die je echt koopt.", "alt": "Keuze van frontdecors: wit, grijs, beige, zwart, hout, beton, marmer, rvs en een eigen decor" },
-    "6": { "tekst": "Lades met bak en geleiders uit de catalogus.", "alt": "Een onderkast met drie lades in 3D, met het paneel voor lades en geleiders" }
+    "naslov": "Keukenontwerp in 3D, rechtstreeks uit het programma."
   },
-  "zakoga": {
-    "nadnaslov": "Voor wie",
-    "naslov": "Gemaakt door een meubelmaker, voor meubelmakers.",
-    "tekst": "TOPICA wordt gebouwd in een meubelmakerij in Belgrado, op echte projecten voor echte klanten. Daarom zit er niets in wat je niet nodig hebt: alleen wat een vakman sneller van het inmeten naar het zagen brengt.",
-    "uloga": "meubelmaker en maker van het programma, Belgrado"
-  },
+  "zakoga": {"nadnaslov": "Voor wie", "naslov": "Gemaakt door een meubelmaker, voor meubelmakers.", "tekst": "TOPICA wordt gebouwd in een meubelmakerij in Belgrado, op echte projecten voor echte klanten. Daarom zit er niets in wat je niet nodig hebt: alleen wat een vakman sneller van het inmeten naar het zagen brengt.", "uloga": "meubelmaker en maker van het programma, Belgrado"},
   "cena": {
     "nadnaslov": "Prijs",
     "naslov": "De proefversie is gratis.",
@@ -89,79 +57,22 @@
     "uskoro_tekst": "voor de volledige versie",
     "tekst": "Probeer het programma op je eigen project, zonder account en zonder kaart. De prijs van de volledige versie wordt binnenkort bekendgemaakt.",
     "kupi": "Kopen",
-    "obrazac": {
-      "naslov": "Laat me weten wanneer de prijs er is",
-      "placeholder": "jij@email.com",
-      "dugme": "Houd me op de hoogte",
-      "predmet": "TOPICA: laat me weten wanneer de prijs bekend is",
-      "napomena": "Eén bericht zodra de prijs bekend is. Geen reclame.",
-      "hvala": "Bedankt! We laten het je weten zodra de prijs bekend is.",
-      "greska": "Dat is niet gelukt. Schrijf ons rechtstreeks op het e-mailadres onderaan de pagina."
-    },
+    "obrazac": {"naslov": "Laat me weten wanneer de prijs er is", "placeholder": "jij@email.com", "dugme": "Houd me op de hoogte", "predmet": "TOPICA: laat me weten wanneer de prijs bekend is", "napomena": "Eén bericht zodra de prijs bekend is. Geen reclame.", "hvala": "Bedankt! We laten het je weten zodra de prijs bekend is.", "greska": "Dat is niet gelukt. Schrijf ons rechtstreeks op het e-mailadres onderaan de pagina."},
     "topi_alt": "Topi, de mascotte van TOPICA, met een boormachine en een liniaal"
   },
   "pitanja": {
+    "1": {"p": "Op welke Windows draait het?", "o": "Windows 10 en Windows 11, 64-bit. Het programma is klein en snel; het draait op een gewone werkplaatslaptop."},
+    "2": {"p": "Heb ik internet nodig?", "o": "Nee. Het programma werkt offline en zonder account. Een project is één bestand op je computer."},
+    "3": {"p": "Welke platen en materialen ondersteunt het?", "o": "Spaanplaat 18 mm voor romp en fronten, kantenband 0,45 en 1 mm, hardboard 3 mm voor achterwanden; diktes en kantenband pas je aan in de werkplaatsinstellingen. Kies een decor uit de lijst of voeg je eigen decor toe."},
+    "4": {"p": "Wat krijg ik aan het eind?", "o": "Een zaaglijst per kast en per materiaal, de weergave “Op maat” om te kopiëren, een beslaglijst, plaatverbruik, prijs en afdrukken naar PDF."},
+    "5": {"p": "In welke talen?", "o": "Servisch en Engels. Je wisselt van taal in het programma."},
+    "6": {"p": "Krijgt het programma updates?", "o": "Ja. Nieuwe versies verschijnen regelmatig, en de proefversie kun je altijd opnieuw downloaden van deze pagina."},
     "nadnaslov": "Vragen",
-    "naslov": "Wat meubelmakers vragen voor ze het proberen.",
-    "1": { "p": "Op welke Windows draait het?", "o": "Windows 10 en Windows 11, 64-bit. Het programma is klein en snel; het draait op een gewone werkplaatslaptop." },
-    "2": { "p": "Heb ik internet nodig?", "o": "Nee. Het programma werkt offline en zonder account. Een project is één bestand op je computer." },
-    "3": { "p": "Welke platen en materialen ondersteunt het?", "o": "Spaanplaat 18 mm voor romp en fronten, kantenband 0,45 en 1 mm, hardboard 3 mm voor achterwanden; diktes en kantenband pas je aan in de werkplaatsinstellingen. Kies een decor uit de lijst of voeg je eigen decor toe." },
-    "4": { "p": "Wat krijg ik aan het eind?", "o": "Een zaaglijst per kast en per materiaal, de weergave “Op maat” om te kopiëren, een beslaglijst, plaatverbruik, prijs en afdrukken naar PDF." },
-    "5": { "p": "In welke talen?", "o": "Servisch en Engels. Je wisselt van taal in het programma." },
-    "6": { "p": "Krijgt het programma updates?", "o": "Ja. Nieuwe versies verschijnen regelmatig, en de proefversie kun je altijd opnieuw downloaden van deze pagina." }
+    "naslov": "Wat meubelmakers vragen voor ze het proberen."
   },
-  "dno": {
-    "naslov": "Probeer het op je volgende project.",
-    "tekst": "Windows 10/11. Geen account, geen kaart. Een zaaglijst voor je eerste kast in vijf minuten.",
-    "uslovi": "Gebruiksvoorwaarden",
-    "privatnost": "Privacy"
-  },
-  "preuzimanje": {
-    "meta_naslov": "Download de gratis proefversie van TOPICA voor Windows",
-    "meta_opis": "Gratis proefversie van de kastontwerp- en zaaglijstsoftware. Windows 10/11, 64-bit, geen account. Installatie in drie stappen.",
-    "nadnaslov": "Download",
-    "naslov": "Gratis proefversie voor Windows.",
-    "tekst": "Gratis, zonder account en zonder kaart. Installeren duurt een minuut, en binnen vijf heb je je eerste kast met zaaglijst.",
-    "email_naslov": "Laat je e-mailadres achter als je wilt (optioneel)",
-    "email_tekst": "We sturen alleen nieuwe versies en de prijs zodra die er is. Geen reclame, afmelden met één klik.",
-    "dugme": "Download de gratis proefversie",
-    "datoteka": "TOPICA-proef.exe",
-    "bez_emaila": "Zonder e-mail:",
-    "direktno": "direct downloaden",
-    "predmet": "TOPICA: nieuwe download van de proefversie",
-    "zahtevi_naslov": "Wat je computer nodig heeft",
-    "z1_naslov": "Systeem", "z1": "Windows 10 of Windows 11, 64-bit.",
-    "z2_naslov": "Computer", "z2": "Een gewone werkplaatslaptop is genoeg: 4 GB geheugen en een grafische kaart die 3D in een browser aankan.",
-    "z3_naslov": "Internet", "z3": "Niet nodig. Het programma werkt offline en maakt geen account aan.",
-    "koraci_naslov": "Installatie in drie stappen",
-    "k1": "Dubbelklik op het gedownloade bestand TOPICA-proef.exe.",
-    "k2": "Als Windows vraagt of je het programma vertrouwt, klik je op “Meer informatie” en dan op “Toch uitvoeren”.",
-    "k3": "Open TOPICA vanaf het bureaublad. Maak je eerste project: voer de maten van de ruimte in en zet de eerste kast neer.",
-    "slika_placeholder": "Ruimte voor een schermafbeelding van deze stap (voegt de eigenaar toe)",
-    "upozorenje_naslov": "Windows-waarschuwing.",
-    "upozorenje": "Het programma is nog niet digitaal ondertekend, dus bij de eerste start toont Windows een blauw scherm “Windows heeft uw pc beschermd”. Dat is normaal voor nieuwe, niet-ondertekende programma's: klik op “Meer informatie” en dan op “Toch uitvoeren”. We regelen een handtekening en dan verdwijnt de waarschuwing.",
-    "pomoc": "Loop je vast? Schrijf ons, we antwoorden dezelfde dag."
-  },
-  "hvala": {
-    "meta_naslov": "Bedankt — de proefversie van TOPICA wordt gedownload",
-    "meta_opis": "De download van de TOPICA-proefversie is gestart. Drie stappen om te beginnen.",
-    "nadnaslov": "Bedankt",
-    "naslov": "Je download is gestart.",
-    "tekst": "Als hij niet vanzelf is gestart:",
-    "koraci_naslov": "Drie stappen om te beginnen",
-    "k1": "Installeer het programma (bij de Windows-waarschuwing: “Meer informatie”, dan “Toch uitvoeren”).",
-    "k2": "Maak een nieuw project en voer de maten van de ruimte in: breedte, diepte en plafondhoogte.",
-    "k3": "Voeg de eerste onderkast uit de catalogus toe en open “Zaagmaten”. Dat is je eerste zaaglijst.",
-    "snimak": "Drie minuten video: van de ruimte naar de zaaglijst.",
-    "snimak_dugme": "Bekijk de video"
-  },
-  "blog": {
-    "meta_naslov": "Gidsen voor meubelmakers: zaaglijst, System 32, kantenband, keukenmaten — TOPICA",
-    "meta_opis": "Korte praktische artikelen voor meubelmakers die plaatmeubelen op maat bouwen: hoe je een zaaglijst leest, System 32, kantenband, standaardmaten van keukenkasten.",
-    "nadnaslov": "Gidsen",
-    "naslov": "Meubelmaken op papier, vóór de werkplaats.",
-    "tekst": "Korte artikelen over dingen die elke meubelmaker doet, één keer opgeschreven zodat je ze niet elke keer hoeft uit te leggen.",
-    "poziv": "Probeer dit op je eigen project."
-  },
-  "clanak": { "citanje": "min leestijd", "objavljeno": "Gepubliceerd" }
+  "dno": {"naslov": "Probeer het op je volgende project.", "tekst": "Windows 10/11. Geen account, geen kaart. Een zaaglijst voor je eerste kast in vijf minuten.", "uslovi": "Gebruiksvoorwaarden", "privatnost": "Privacy"},
+  "preuzimanje": {"meta_naslov": "Download de gratis proefversie van TOPICA voor Windows", "meta_opis": "Gratis proefversie van de kastontwerp- en zaaglijstsoftware. Windows 10/11, 64-bit, geen account. Installatie in drie stappen.", "nadnaslov": "Download", "naslov": "Gratis proefversie voor Windows.", "tekst": "Gratis, zonder account en zonder kaart. Installeren duurt een minuut, en binnen vijf heb je je eerste kast met zaaglijst.", "email_naslov": "Laat je e-mailadres achter als je wilt (optioneel)", "email_tekst": "We sturen alleen nieuwe versies en de prijs zodra die er is. Geen reclame, afmelden met één klik.", "dugme": "Download de gratis proefversie", "datoteka": "TOPICA-proef.exe", "bez_emaila": "Zonder e-mail:", "direktno": "direct downloaden", "predmet": "TOPICA: nieuwe download van de proefversie", "zahtevi_naslov": "Wat je computer nodig heeft", "z1_naslov": "Systeem", "z1": "Windows 10 of Windows 11, 64-bit.", "z2_naslov": "Computer", "z2": "Een gewone werkplaatslaptop is genoeg: 4 GB geheugen en een grafische kaart die 3D in een browser aankan.", "z3_naslov": "Internet", "z3": "Niet nodig. Het programma werkt offline en maakt geen account aan.", "koraci_naslov": "Installatie in drie stappen", "k1": "Dubbelklik op het gedownloade bestand TOPICA-proef.exe.", "k2": "Als Windows vraagt of je het programma vertrouwt, klik je op “Meer informatie” en dan op “Toch uitvoeren”.", "k3": "Open TOPICA vanaf het bureaublad. Maak je eerste project: voer de maten van de ruimte in en zet de eerste kast neer.", "slika_placeholder": "Ruimte voor een schermafbeelding van deze stap (voegt de eigenaar toe)", "upozorenje_naslov": "Windows-waarschuwing.", "upozorenje": "Het programma is nog niet digitaal ondertekend, dus bij de eerste start toont Windows een blauw scherm “Windows heeft uw pc beschermd”. Dat is normaal voor nieuwe, niet-ondertekende programma's: klik op “Meer informatie” en dan op “Toch uitvoeren”. We regelen een handtekening en dan verdwijnt de waarschuwing.", "pomoc": "Loop je vast? Schrijf ons, we antwoorden dezelfde dag."},
+  "hvala": {"meta_naslov": "Bedankt — de proefversie van TOPICA wordt gedownload", "meta_opis": "De download van de TOPICA-proefversie is gestart. Drie stappen om te beginnen.", "nadnaslov": "Bedankt", "naslov": "Je download is gestart.", "tekst": "Als hij niet vanzelf is gestart:", "koraci_naslov": "Drie stappen om te beginnen", "k1": "Installeer het programma (bij de Windows-waarschuwing: “Meer informatie”, dan “Toch uitvoeren”).", "k2": "Maak een nieuw project en voer de maten van de ruimte in: breedte, diepte en plafondhoogte.", "k3": "Voeg de eerste onderkast uit de catalogus toe en open “Zaagmaten”. Dat is je eerste zaaglijst.", "snimak": "Drie minuten video: van de ruimte naar de zaaglijst.", "snimak_dugme": "Bekijk de video"},
+  "blog": {"meta_naslov": "Gidsen voor meubelmakers: zaaglijst, System 32, kantenband, keukenmaten — TOPICA", "meta_opis": "Korte praktische artikelen voor meubelmakers die plaatmeubelen op maat bouwen: hoe je een zaaglijst leest, System 32, kantenband, standaardmaten van keukenkasten.", "nadnaslov": "Gidsen", "naslov": "Meubelmaken op papier, vóór de werkplaats.", "tekst": "Korte artikelen over dingen die elke meubelmaker doet, één keer opgeschreven zodat je ze niet elke keer hoeft uit te leggen.", "poziv": "Probeer dit op je eigen project."},
+  "clanak": {"citanje": "min leestijd", "objavljeno": "Gepubliceerd"}
 }

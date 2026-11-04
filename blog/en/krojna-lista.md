@@ -15,7 +15,7 @@ For panel furniture (kitchens, wardrobes, cabinets made of chipboard) one line o
 - **Length × width** in millimetres, the net size of the finished panel.
 - **Thickness**: 18 mm for carcass and fronts, 3 mm hardboard for backs, 8–10 mm for drawer bottoms.
 - **Material**: white chipboard, oak decor, coloured hardboard.
-- **Edging**: which edges get edge banding and which tape (0.45 mm for the carcass, 1 or 2 mm for fronts).
+- **[Edging](../recnik/kant.html)**: which edges get edge banding and which tape (0.45 mm for the carcass, 1 or 2 mm for fronts).
 - **Quantity**: two sides, one bottom, two rails.
 
 A good list is grouped by material and thickness, because that is how boards are cut: all white 18 mm chipboard first, then fronts, then hardboard.
@@ -26,7 +26,7 @@ With patterned decors (oak, walnut, sonoma) it matters how the panel sits on the
 
 ## Example: a 600 × 720 × 560 base cabinet
 
-An ordinary base kitchen cabinet with one door and one shelf has eight panels. The bottom sits over the sides (full width 600), so the sides are 702 high, not 720. The carcass depth is 539, because the front (18) and the back (3) are taken off the 560.
+An ordinary base [cabinet](../recnik/korpus.html) with one door and one shelf has eight panels. The bottom sits over the sides (full width 600), so the sides are 702 high, not 720. The carcass depth is 539, because the front (18) and the back (3) are taken off the 560.
 
 | Panel | Size (mm) | Thk. | Edging | Qty |
 |---|---|---|---|---|
@@ -46,5 +46,7 @@ In the program you don't write the cut list: it is calculated from the cabinets 
 ![The “By size” cut list in TOPICA for a 600 × 720 × 560 mm base cabinet: eight panels grouped by material, with size, thickness, edging and quantity](../slike/web/snimak-33-po-meri-1600.webp "The “By size” view for one cabinet: eight panels, three materials, 2.34 m² of board.")
 
 The program keeps the “first dimension = grain direction” rule by itself: a front is always written upright, and hardboard carries the “no grain” mark. If you later change the back thickness or the front edging in the workshop settings, the change flows through every panel in the project, including the ones you already looked at.
+
+Which tape goes where is covered in the guide [Edge banding: which thickness goes where](./kant-debljina-i-duzina.html), and the hole pattern in [System 32](./sistem-32.html).
 
 A cut list is not complicated. What is complicated is getting it right every time, for every unit, after the customer has changed their mind three times. That is what the program is for.

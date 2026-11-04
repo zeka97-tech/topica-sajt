@@ -19,6 +19,8 @@ slika: ../slike/web/snimak-19-krupni-prikaz-1600.webp
 
 Rupe za nosače buše se po šabloni sistema 32 pre sklapanja, u oba boka od iste ivice, da police ne stoje nakrivo. Polica se kroji malo kraća od unutrašnje mere, da se vadi bez zapinjanja, i uvlači od prednje ivice da se ne vidi iza zazora vrata. Česta greška: rupe bušene od različite ivice na levom i desnom boku, pa svaka polica stoji koso; druga je polica na punu unutrašnju meru koja se uglavi i izgrebe kant.
 
+![Korpus sa otvorenim vratima u programu TOPICA: jedna polica na sredini visine, kote do zida i od poda](../slike/web/snimak-52-ruka-jedna-vrata-1600.webp "Polica je uvučena od prednje ivice i kraća od unutrašnje širine da bi se vadila.")
+
 ## Kako to radi TOPICA
 
 Program za sve police u projektu drži jednu uvučenost i sam računa širinu po zazoru; broj polica menjaš u korpusu, a mere idu pravo u [krojnu listu](../blog/krojna-lista.html) ([mogućnosti](../#mogucnosti)).

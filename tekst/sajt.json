@@ -1,14 +1,1 @@
-{
-  "_napomena": "Podaci sajta koje vlasnik menja na jednom mestu. Posle izmene: npm run build (ili samo push — GitHub Actions gradi sam).",
-  "url": "https://zeka97-tech.github.io/topica-sajt/",
-  "kontaktEmail": "kontakt@primer.rs",
-  "vlasnikIme": "[Ime i prezime vlasnika]",
-  "preuzimanjeExe": "#",
-  "verzijaExe": "0.1 (probna)",
-  "velicinaExe": "~15 MB",
-  "formspreeId": "",
-  "usloviLink": "#",
-  "privatnostLink": "#",
-  "godina": "2026",
-  "youtubeLink": "#"
-}
+{"_napomena": "Podaci sajta koje vlasnik menja na jednom mestu. Posle izmene: npm run build (ili samo push — GitHub Actions gradi sam).", "url": "https://zeka97-tech.github.io/topica-sajt/", "kontaktEmail": "kontakt@primer.rs", "vlasnikIme": "[Ime i prezime vlasnika]", "preuzimanjeExe": "#", "verzijaExe": "0.1 (probna)", "velicinaExe": "~15 MB", "formspreeId": "", "usloviLink": "#", "privatnostLink": "#", "godina": "2026", "youtubeLink": "#"}

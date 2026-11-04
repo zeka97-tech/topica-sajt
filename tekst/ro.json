@@ -1,87 +1,55 @@
 {
-  "_jezik": { "ime": "Română", "status": "za-proveru", "proverio": "" },
-  "meta": {
-    "naslov": "TOPICA — program de proiectare mobilier cu listă de debitare, făcut pentru tâmplari",
-    "opis": "TOPICA este un program de proiectare bucătării pentru tâmplari, pe Windows: desenezi camera, așezi corpurile din catalog și primești 3D, lista de debitare la milimetru, feroneria și prețul. Versiune de probă gratuită.",
-    "og_naslov": "TOPICA — de la cameră la lista de debitare",
-    "og_opis": "Program de proiectare mobilier pentru tâmplari: cameră, corpuri din catalog, 3D, listă de debitare la milimetru și preț. Versiune de probă gratuită.",
-    "og_alt": "Mascota Topi măsoară un corp lângă textul TOPICA — de la cameră la lista de debitare",
-    "ld_opis": "Program pentru Windows de proiectare a mobilierului din PAL la comandă (bucătării, dulapuri, comode) pentru ateliere de tâmplărie: cameră în 3D, corpuri din catalog după standardul european, listă de debitare la milimetru, feronerie și preț."
-  },
-  "a11y": { "preskoci": "Sari la conținut", "logo": "TOPICA, pagina principală", "navigacija": "Navigare principală", "jezik": "Alege limba", "meni": "Meniu" },
-  "nav": { "kako": "Cum merge", "mogucnosti": "Funcții", "galerija": "Galerie", "cena": "Preț", "pitanja": "Întrebări", "blog": "Ghiduri", "preuzimanje": "Descarcă" },
-  "cta": { "glavno": "Descarcă versiunea de probă", "kratko": "Descarcă" },
-  "jezik": {
-    "napomena_program": "Programul este momentan disponibil în sârbă și engleză. Versiunea în română urmează.",
-    "predlog_tekst": "Această pagină există și în română.",
-    "predlog_dugme": "Treci la română"
-  },
-  "hero": {
-    "naslov": "De la cameră la lista de debitare.",
-    "tekst": "TOPICA este un program de proiectare mobilier făcut pentru tâmplari: desenezi camera, aliniezi corpurile de-a lungul peretelui, iar programul știe construcția și îți dă pe loc 3D, lista de debitare la milimetru, feroneria și prețul.",
-    "saznaj": "Vezi cum merge",
-    "sitno": "Windows 10/11 · sârbă și engleză · versiunea de probă este gratuită",
-    "topi_alt": "Topi, mascota de pluș a programului TOPICA, măsoară cu ruleta un corp inferior de bucătărie cu ușa deschisă",
-    "prozor_alt": "TOPICA, vedere 3D a unei bucătării în cameră: corpuri inferioare și suspendate cu fronturi de stejar de-a lungul peretelui, cu rândul de jos de 3200 mm și 400 mm spațiu liber"
-  },
+  "_jezik": {"ime": "Română", "status": "za-proveru", "proverio": ""},
+  "meta": {"naslov": "TOPICA — program de proiectare mobilier cu listă de debitare, făcut pentru tâmplari", "opis": "TOPICA este un program de proiectare bucătării pentru tâmplari, pe Windows: desenezi camera, așezi corpurile din catalog și primești 3D, lista de debitare la milimetru, feroneria și prețul. Versiune de probă gratuită.", "og_naslov": "TOPICA — de la cameră la lista de debitare", "og_opis": "Program de proiectare mobilier pentru tâmplari: cameră, corpuri din catalog, 3D, listă de debitare la milimetru și preț. Versiune de probă gratuită.", "og_alt": "Mascota Topi măsoară un corp lângă textul TOPICA — de la cameră la lista de debitare", "ld_opis": "Program pentru Windows de proiectare a mobilierului din PAL la comandă (bucătării, dulapuri, comode) pentru ateliere de tâmplărie: cameră în 3D, corpuri din catalog după standardul european, listă de debitare la milimetru, feronerie și preț."},
+  "a11y": {"preskoci": "Sari la conținut", "logo": "TOPICA, pagina principală", "navigacija": "Navigare principală", "jezik": "Alege limba", "meni": "Meniu"},
+  "nav": {"kako": "Cum merge", "mogucnosti": "Funcții", "galerija": "Galerie", "cena": "Preț", "pitanja": "Întrebări", "blog": "Ghiduri", "preuzimanje": "Descarcă"},
+  "cta": {"glavno": "Descarcă versiunea de probă", "kratko": "Descarcă"},
+  "jezik": {"napomena_program": "Programul este momentan disponibil în sârbă și engleză. Versiunea în română urmează.", "predlog_tekst": "Această pagină există și în română.", "predlog_dugme": "Treci la română"},
+  "hero": {"naslov": "De la cameră la lista de debitare.", "tekst": "TOPICA este un program de proiectare mobilier făcut pentru tâmplari: desenezi camera, aliniezi corpurile de-a lungul peretelui, iar programul știe construcția și îți dă pe loc 3D, lista de debitare la milimetru, feroneria și prețul.", "saznaj": "Vezi cum merge", "sitno": "Windows 10/11 · sârbă și engleză · versiunea de probă este gratuită", "topi_alt": "Topi, mascota de pluș a programului TOPICA, măsoară cu ruleta un corp inferior de bucătărie cu ușa deschisă", "prozor_alt": "TOPICA, vedere 3D a unei bucătării în cameră: corpuri inferioare și suspendate cu fronturi de stejar de-a lungul peretelui, cu rândul de jos de 3200 mm și 400 mm spațiu liber"},
   "cinjenice": {
-    "naslov": "Program pentru tâmplari, nu de desenat",
-    "1": { "naslov": "Exact la milimetru", "tekst": "Fiecare piesă își ia dimensiunea exactă din construcția reală a corpului, nu dintr-o schiță făcută din ochi." },
-    "2": { "naslov": "Standard european, System 32", "tekst": "Corp fără ramă, cant, balamale cu oală de 35 mm, sertare și plintă din catalog. Nimic de setat din nou." },
-    "3": { "naslov": "Listă de debitare gata de copiat", "tekst": "Aceleași dimensiuni pe un singur rând, grupate pe material. O copiezi și o trimiți la debitare." }
+    "1": {"naslov": "Exact la milimetru", "tekst": "Fiecare piesă își ia dimensiunea exactă din construcția reală a corpului, nu dintr-o schiță făcută din ochi."},
+    "2": {"naslov": "Standard european, System 32", "tekst": "Corp fără ramă, cant, balamale cu oală de 35 mm, sertare și plintă din catalog. Nimic de setat din nou."},
+    "3": {"naslov": "Listă de debitare gata de copiat", "tekst": "Aceleași dimensiuni pe un singur rând, grupate pe material. O copiezi și o trimiți la debitare."},
+    "naslov": "Program pentru tâmplari, nu de desenat"
   },
   "kako": {
+    "1": {"naslov": "Desenează camera", "tekst": "Introduci pereții, înălțimea tavanului, fereastra și instalațiile. Camera e imediat în 3D, cu podeaua și pereții pe care clientul îi are de fapt.", "alt": "TOPICA, pasul 1: o cameră de 3600 × 3000 mm cu alegerea podelei și a pereților, parchet gri și faianță în spatele bucătăriei"},
+    "2": {"naslov": "Așază corpurile din catalog", "tekst": "Inferioare, suspendate, coloane, de chiuvetă, de cuptor, de colț. Se lipesc de perete și de vecin, iar dimensiunile le schimbi pe loc, la milimetru.", "alt": "TOPICA, pasul 2: un corp inferior cu ușă de 600 × 720 × 560 mm lângă perete, cu cote până la vecin și panoul de proprietăți"},
+    "3": {"naslov": "Citește lista de debitare și prețul", "tekst": "Programul știe construcția: laterale, fund, traverse, spate, front. Lista de debitare, feroneria și prețul sunt mereu la zi, fără buton de „recalculează“.", "alt": "TOPICA, pasul 3: lista de debitare „După dimensiune“ pentru un corp, 8 piese grupate pe material, cu dimensiune, grosime, cant și preț"},
     "nadnaslov": "Cum merge",
-    "naslov": "Trei pași spre lista de debitare.",
-    "1": { "naslov": "Desenează camera", "tekst": "Introduci pereții, înălțimea tavanului, fereastra și instalațiile. Camera e imediat în 3D, cu podeaua și pereții pe care clientul îi are de fapt.", "alt": "TOPICA, pasul 1: o cameră de 3600 × 3000 mm cu alegerea podelei și a pereților, parchet gri și faianță în spatele bucătăriei" },
-    "2": { "naslov": "Așază corpurile din catalog", "tekst": "Inferioare, suspendate, coloane, de chiuvetă, de cuptor, de colț. Se lipesc de perete și de vecin, iar dimensiunile le schimbi pe loc, la milimetru.", "alt": "TOPICA, pasul 2: un corp inferior cu ușă de 600 × 720 × 560 mm lângă perete, cu cote până la vecin și panoul de proprietăți" },
-    "3": { "naslov": "Citește lista de debitare și prețul", "tekst": "Programul știe construcția: laterale, fund, traverse, spate, front. Lista de debitare, feroneria și prețul sunt mereu la zi, fără buton de „recalculează“.", "alt": "TOPICA, pasul 3: lista de debitare „După dimensiune“ pentru un corp, 8 piese grupate pe material, cu dimensiune, grosime, cant și preț" }
+    "naslov": "Trei pași spre lista de debitare."
   },
   "korpus": {
     "naslov": "Un corp. Fiecare piesă la milimetru.",
-    "natpis": {
-      "1": "Un corp inferior de 600 × 720 × 560 mm, așa cum se face în orice atelier.",
-      "2": "Programul îl desface în piese și îi dă fiecăreia dimensiunea exactă, cantul și grosimea.",
-      "3": "Piesele se așază pe placă ca plan de debitare: PAL alb, decor stejar, HDF.",
-      "4": "Iar lista de debitare „După dimensiune“ e gata de copiat și trimis la debitare."
-    },
-    "daska": { "bok": "Laterală", "dno": "Fund", "polica": "Poliță", "precka": "Traversă", "front": "Front", "ledja": "Spate" },
+    "natpis": {"1": "Un corp inferior de 600 × 720 × 560 mm, așa cum se face în orice atelier.", "2": "Programul îl desface în piese și îi dă fiecăreia dimensiunea exactă, cantul și grosimea.", "3": "Piesele se așază pe placă ca plan de debitare: PAL alb, decor stejar, HDF.", "4": "Iar lista de debitare „După dimensiune“ e gata de copiat și trimis la debitare."},
+    "daska": {"bok": "Laterală", "dno": "Fund", "polica": "Poliță", "precka": "Traversă", "front": "Front", "ledja": "Spate"},
     "noscript_alt": "TOPICA, lista de debitare „După dimensiune“ pentru un corp inferior de 600 × 720 × 560 mm",
     "posle": "Programul face asta pentru fiecare corp din bucătărie în clipa în care îl pui lângă perete."
   },
-  "niz": {
-    "nadnaslov": "Camera",
-    "naslov": "Tu așezi rândul, programul îl termină.",
-    "tekst": "Corpurile se lipesc unul de altul și de perete, iar blatul și plinta se așază deasupra cu dimensiunea totală, fără desen."
-  },
+  "niz": {"nadnaslov": "Camera", "naslov": "Tu așezi rândul, programul îl termină.", "tekst": "Corpurile se lipesc unul de altul și de perete, iar blatul și plinta se așază deasupra cu dimensiunea totală, fără desen."},
   "mogucnosti": {
+    "1": {"naslov": "Dimensiuni la milimetru", "tekst": "Tastezi lățimea, înălțimea și adâncimea sau tragi de cursor. Cotele până la perete, până la vecin și de la podea sunt mereu vizibile.", "alt": "Un corp în 3D cu cotele 600, 720 și 560 mm și marcaje până la perete, până la vecin și de la podea"},
+    "2": {"naslov": "Catalog după standard", "tekst": "Fiecare tip de corp vine cu construcția după standardul european, System 32.", "s1": "Inferioare, suspendate, coloane", "s2": "Chiuvetă și cuptor", "s3": "De colț și dulap", "s4": "Sertare, balamale, picioare"},
+    "3": {"naslov": "„După dimensiune“ pentru copiat", "tekst": "Aceleași dimensiuni pe un rând, pe material. Prima dimensiune este direcția fibrei.", "k1": "Dimensiune · mm", "k2": "Gros.", "k3": "Cant", "k4": "Buc.", "r1": "1 lungă", "r3": "2 lungi, 2 scurte"},
+    "4": {"naslov": "Decoruri reale și 3D în timp real", "tekst": "Stejar, alb, marmură sau decorul tău dintr-o fotografie. Orice schimbi vezi pe loc, într-un design de bucătărie 3D pe care clientul îl înțelege."},
+    "5": {"naslov": "Plintă, blat și panouri laterale, automat", "tekst": "Se construiesc peste corpurile selectate și se mută odată cu ele."},
+    "6": {"naslov": "Preț pe proiect", "tekst": "Introduci prețurile tale la plăci, cant, feronerie și manoperă. Programul adună pe proiect; tu faci oferta.", "alt": "Setările atelierului: manoperă pe corp 3000 RSD, adaos 20 %"},
+    "7": {"naslov": "Fără internet, fără cont", "tekst": "Un proiect este un singur fișier pe calculatorul tău. Îl trimiți pe e-mail unui coleg."},
     "nadnaslov": "Funcții",
     "naslov": "Proiectare mobilier care știe tâmplărie.",
-    "tekst": "Bucătării, dressinguri la comandă și comode. Tu hotărăști dimensiunile și decorurile; programul face construcția și socoteala.",
-    "1": { "naslov": "Dimensiuni la milimetru", "tekst": "Tastezi lățimea, înălțimea și adâncimea sau tragi de cursor. Cotele până la perete, până la vecin și de la podea sunt mereu vizibile.", "alt": "Un corp în 3D cu cotele 600, 720 și 560 mm și marcaje până la perete, până la vecin și de la podea" },
-    "2": { "naslov": "Catalog după standard", "tekst": "Fiecare tip de corp vine cu construcția după standardul european, System 32.", "s1": "Inferioare, suspendate, coloane", "s2": "Chiuvetă și cuptor", "s3": "De colț și dulap", "s4": "Sertare, balamale, picioare" },
-    "3": { "naslov": "„După dimensiune“ pentru copiat", "tekst": "Aceleași dimensiuni pe un rând, pe material. Prima dimensiune este direcția fibrei.", "k1": "Dimensiune · mm", "k2": "Gros.", "k3": "Cant", "k4": "Buc.", "r1": "1 lungă", "r3": "2 lungi, 2 scurte" },
-    "4": { "naslov": "Decoruri reale și 3D în timp real", "tekst": "Stejar, alb, marmură sau decorul tău dintr-o fotografie. Orice schimbi vezi pe loc, într-un design de bucătărie 3D pe care clientul îl înțelege." },
-    "5": { "naslov": "Plintă, blat și panouri laterale, automat", "tekst": "Se construiesc peste corpurile selectate și se mută odată cu ele." },
-    "6": { "naslov": "Preț pe proiect", "tekst": "Introduci prețurile tale la plăci, cant, feronerie și manoperă. Programul adună pe proiect; tu faci oferta.", "alt": "Setările atelierului: manoperă pe corp 3000 RSD, adaos 20 %" },
-    "7": { "naslov": "Fără internet, fără cont", "tekst": "Un proiect este un singur fișier pe calculatorul tău. Îl trimiți pe e-mail unui coleg." }
+    "tekst": "Bucătării, dressinguri la comandă și comode. Tu hotărăști dimensiunile și decorurile; programul face construcția și socoteala."
   },
   "galerija": {
+    "1": {"tekst": "Un rând de bucătărie, decor stejar și PAL alb.", "alt": "Un rând de bucătărie cu fronturi de stejar, corpuri din PAL alb, parchet gri pe jos"},
+    "2": {"tekst": "Același proiect, alt decor: marmură închisă și faianță.", "alt": "Aceeași bucătărie cu fronturi de marmură închisă și faianță pe perete"},
+    "3": {"tekst": "Prim-plan: un corp, dimensiuni și construcție.", "alt": "Prim-plan cu un corp de 600 × 720 × 570 mm cu ușă de stejar și panoul de dimensiuni"},
+    "4": {"tekst": "Deschide fronturile și uită-te înăuntru.", "alt": "Un corp cu ușa deschisă în 3D, cu polița și interiorul vizibile, cu cote până la perete și până la vecin"},
+    "5": {"tekst": "Decorul tău: adaugă o poză a plăcii pe care o cumperi de fapt.", "alt": "Alegerea decorului pentru front: alb, gri, bej, negru, lemn, beton, marmură, inox și decor propriu"},
+    "6": {"tekst": "Sertare cu cutie și glisiere din catalog.", "alt": "Un corp inferior cu trei sertare în 3D, cu panoul de sertare și glisiere"},
     "nadnaslov": "Galerie",
-    "naslov": "Design de bucătărie 3D, din program.",
-    "1": { "tekst": "Un rând de bucătărie, decor stejar și PAL alb.", "alt": "Un rând de bucătărie cu fronturi de stejar, corpuri din PAL alb, parchet gri pe jos" },
-    "2": { "tekst": "Același proiect, alt decor: marmură închisă și faianță.", "alt": "Aceeași bucătărie cu fronturi de marmură închisă și faianță pe perete" },
-    "3": { "tekst": "Prim-plan: un corp, dimensiuni și construcție.", "alt": "Prim-plan cu un corp de 600 × 720 × 570 mm cu ușă de stejar și panoul de dimensiuni" },
-    "4": { "tekst": "Deschide fronturile și uită-te înăuntru.", "alt": "Un corp cu ușa deschisă în 3D, cu polița și interiorul vizibile, cu cote până la perete și până la vecin" },
-    "5": { "tekst": "Decorul tău: adaugă o poză a plăcii pe care o cumperi de fapt.", "alt": "Alegerea decorului pentru front: alb, gri, bej, negru, lemn, beton, marmură, inox și decor propriu" },
-    "6": { "tekst": "Sertare cu cutie și glisiere din catalog.", "alt": "Un corp inferior cu trei sertare în 3D, cu panoul de sertare și glisiere" }
+    "naslov": "Design de bucătărie 3D, din program."
   },
-  "zakoga": {
-    "nadnaslov": "Pentru cine",
-    "naslov": "Făcut de un tâmplar, pentru tâmplari.",
-    "tekst": "TOPICA se naște într-un atelier de tâmplărie din Belgrad, pe proiecte adevărate pentru clienți adevărați. De aceea nu are nimic în plus: doar ce îl ajută pe meseriaș să ajungă mai repede de la măsurătoare la debitare.",
-    "uloga": "tâmplar și autorul programului, Belgrad"
-  },
+  "zakoga": {"nadnaslov": "Pentru cine", "naslov": "Făcut de un tâmplar, pentru tâmplari.", "tekst": "TOPICA se naște într-un atelier de tâmplărie din Belgrad, pe proiecte adevărate pentru clienți adevărați. De aceea nu are nimic în plus: doar ce îl ajută pe meseriaș să ajungă mai repede de la măsurătoare la debitare.", "uloga": "tâmplar și autorul programului, Belgrad"},
   "cena": {
     "nadnaslov": "Preț",
     "naslov": "Versiunea de probă este gratuită.",
@@ -89,79 +57,22 @@
     "uskoro_tekst": "pentru versiunea completă",
     "tekst": "Încearcă programul pe propriul proiect, fără cont și fără card. Prețul versiunii complete va fi anunțat în curând.",
     "kupi": "Cumpără",
-    "obrazac": {
-      "naslov": "Anunță-mă când apare prețul",
-      "placeholder": "tu@email.com",
-      "dugme": "Anunță-mă",
-      "predmet": "TOPICA: anunță-mă când apare prețul",
-      "napomena": "Un singur mesaj când prețul este anunțat. Fără reclame.",
-      "hvala": "Mulțumim! Te anunțăm de îndată ce prețul este publicat.",
-      "greska": "Nu a mers. Scrie-ne direct la adresa de e-mail din subsol."
-    },
+    "obrazac": {"naslov": "Anunță-mă când apare prețul", "placeholder": "tu@email.com", "dugme": "Anunță-mă", "predmet": "TOPICA: anunță-mă când apare prețul", "napomena": "Un singur mesaj când prețul este anunțat. Fără reclame.", "hvala": "Mulțumim! Te anunțăm de îndată ce prețul este publicat.", "greska": "Nu a mers. Scrie-ne direct la adresa de e-mail din subsol."},
     "topi_alt": "Topi, mascota TOPICA, ținând o bormașină și o riglă"
   },
   "pitanja": {
+    "1": {"p": "Pe ce Windows merge?", "o": "Pe Windows 10 și Windows 11, 64-bit. Programul e mic și rapid; merge pe un laptop obișnuit din atelier."},
+    "2": {"p": "Am nevoie de internet?", "o": "Nu. Programul merge offline și fără cont. Un proiect este un singur fișier pe calculatorul tău."},
+    "3": {"p": "Ce plăci și materiale suportă?", "o": "PAL de 18 mm pentru corp și fronturi, cant de 0,45 și 1 mm, HDF de 3 mm pentru spate; grosimile și cantul se schimbă din setările atelierului. Decorul îl alegi din listă sau îl adaugi pe al tău."},
+    "4": {"p": "Ce primesc la final?", "o": "Lista de debitare pe corp și pe material, vederea „După dimensiune“ pentru copiat, lista de feronerie, consumul de plăci, prețul și tipărire în PDF."},
+    "5": {"p": "În ce limbi este?", "o": "Sârbă și engleză. Limba o schimbi din program."},
+    "6": {"p": "Primește programul actualizări?", "o": "Da. Versiunile noi apar regulat, iar versiunea de probă poate fi descărcată oricând din nou de pe această pagină."},
     "nadnaslov": "Întrebări",
-    "naslov": "Ce întreabă tâmplarii înainte să încerce.",
-    "1": { "p": "Pe ce Windows merge?", "o": "Pe Windows 10 și Windows 11, 64-bit. Programul e mic și rapid; merge pe un laptop obișnuit din atelier." },
-    "2": { "p": "Am nevoie de internet?", "o": "Nu. Programul merge offline și fără cont. Un proiect este un singur fișier pe calculatorul tău." },
-    "3": { "p": "Ce plăci și materiale suportă?", "o": "PAL de 18 mm pentru corp și fronturi, cant de 0,45 și 1 mm, HDF de 3 mm pentru spate; grosimile și cantul se schimbă din setările atelierului. Decorul îl alegi din listă sau îl adaugi pe al tău." },
-    "4": { "p": "Ce primesc la final?", "o": "Lista de debitare pe corp și pe material, vederea „După dimensiune“ pentru copiat, lista de feronerie, consumul de plăci, prețul și tipărire în PDF." },
-    "5": { "p": "În ce limbi este?", "o": "Sârbă și engleză. Limba o schimbi din program." },
-    "6": { "p": "Primește programul actualizări?", "o": "Da. Versiunile noi apar regulat, iar versiunea de probă poate fi descărcată oricând din nou de pe această pagină." }
+    "naslov": "Ce întreabă tâmplarii înainte să încerce."
   },
-  "dno": {
-    "naslov": "Încearcă-l la următorul proiect.",
-    "tekst": "Windows 10/11. Fără cont, fără card. Lista de debitare pentru primul corp în cinci minute.",
-    "uslovi": "Condiții de utilizare",
-    "privatnost": "Confidențialitate"
-  },
-  "preuzimanje": {
-    "meta_naslov": "Descarcă versiunea de probă gratuită TOPICA pentru Windows",
-    "meta_opis": "Versiune de probă gratuită a programului de proiectare mobilier și liste de debitare. Windows 10/11, 64-bit, fără cont. Instalare în trei pași.",
-    "nadnaslov": "Descărcare",
-    "naslov": "Versiune de probă gratuită pentru Windows.",
-    "tekst": "Gratuit, fără cont și fără card. Instalarea durează un minut, iar primul corp cu listă de debitare îl ai în cinci.",
-    "email_naslov": "Lasă-ți e-mailul dacă vrei (opțional)",
-    "email_tekst": "Trimitem doar versiunile noi și prețul, când apare. Fără reclame, dezabonare cu un clic.",
-    "dugme": "Descarcă versiunea de probă",
-    "datoteka": "TOPICA-trial.exe",
-    "bez_emaila": "Fără e-mail:",
-    "direktno": "descarcă direct",
-    "predmet": "TOPICA: descărcare nouă a versiunii de probă",
-    "zahtevi_naslov": "De ce are nevoie calculatorul",
-    "z1_naslov": "Sistem", "z1": "Windows 10 sau Windows 11, 64-bit.",
-    "z2_naslov": "Calculator", "z2": "Un laptop obișnuit din atelier e suficient: 4 GB de memorie și o placă grafică ce poate rula 3D în browser.",
-    "z3_naslov": "Internet", "z3": "Nu e nevoie. Programul merge offline și nu creează niciun cont.",
-    "koraci_naslov": "Instalare în trei pași",
-    "k1": "Dă dublu clic pe fișierul descărcat TOPICA-trial.exe.",
-    "k2": "Dacă Windows te întreabă dacă ai încredere în program, apasă „Mai multe informații“, apoi „Se execută oricum“.",
-    "k3": "Deschide TOPICA de pe desktop. Creează primul proiect: introdu dimensiunile camerei și așază primul corp.",
-    "slika_placeholder": "Loc pentru o captură de ecran a acestui pas (o adaugă proprietarul)",
-    "upozorenje_naslov": "Avertismentul Windows.",
-    "upozorenje": "Programul nu este încă semnat digital, așa că la prima pornire Windows afișează un ecran albastru „Windows a protejat PC-ul“. E normal pentru programele noi, nesemnate: apasă „Mai multe informații“, apoi „Se execută oricum“. Obținem semnătura și avertismentul va dispărea.",
-    "pomoc": "Te-ai blocat? Scrie-ne, răspundem în aceeași zi."
-  },
-  "hvala": {
-    "meta_naslov": "Mulțumim — versiunea de probă TOPICA se descarcă",
-    "meta_opis": "Descărcarea versiunii de probă TOPICA a început. Trei pași ca să pornești.",
-    "nadnaslov": "Mulțumim",
-    "naslov": "Descărcarea a început.",
-    "tekst": "Dacă nu a pornit singură:",
-    "koraci_naslov": "Trei pași ca să pornești",
-    "k1": "Instalează programul (la avertismentul Windows: „Mai multe informații“, apoi „Se execută oricum“).",
-    "k2": "Creează un proiect nou și introdu dimensiunile camerei: lățime, adâncime și înălțimea tavanului.",
-    "k3": "Adaugă primul corp inferior din catalog și deschide „Dimensiuni de debitare“. Aceasta e prima ta listă de debitare.",
-    "snimak": "Trei minute de video: de la cameră la lista de debitare.",
-    "snimak_dugme": "Vezi videoclipul"
-  },
-  "blog": {
-    "meta_naslov": "Ghiduri pentru tâmplari: listă de debitare, System 32, cant, dimensiuni de bucătărie — TOPICA",
-    "meta_opis": "Articole scurte și practice pentru tâmplarii care fac mobilier din PAL la comandă: cum se citește o listă de debitare, System 32, cantul ABS, dimensiuni standard ale corpurilor de bucătărie.",
-    "nadnaslov": "Ghiduri",
-    "naslov": "Tâmplăria pe hârtie, înainte de atelier.",
-    "tekst": "Articole scurte despre lucruri pe care le face orice tâmplar, scrise o dată ca să nu le mai explici de fiecare dată.",
-    "poziv": "Încearcă asta pe propriul proiect."
-  },
-  "clanak": { "citanje": "min de citit", "objavljeno": "Publicat" }
+  "dno": {"naslov": "Încearcă-l la următorul proiect.", "tekst": "Windows 10/11. Fără cont, fără card. Lista de debitare pentru primul corp în cinci minute.", "uslovi": "Condiții de utilizare", "privatnost": "Confidențialitate"},
+  "preuzimanje": {"meta_naslov": "Descarcă versiunea de probă gratuită TOPICA pentru Windows", "meta_opis": "Versiune de probă gratuită a programului de proiectare mobilier și liste de debitare. Windows 10/11, 64-bit, fără cont. Instalare în trei pași.", "nadnaslov": "Descărcare", "naslov": "Versiune de probă gratuită pentru Windows.", "tekst": "Gratuit, fără cont și fără card. Instalarea durează un minut, iar primul corp cu listă de debitare îl ai în cinci.", "email_naslov": "Lasă-ți e-mailul dacă vrei (opțional)", "email_tekst": "Trimitem doar versiunile noi și prețul, când apare. Fără reclame, dezabonare cu un clic.", "dugme": "Descarcă versiunea de probă", "datoteka": "TOPICA-trial.exe", "bez_emaila": "Fără e-mail:", "direktno": "descarcă direct", "predmet": "TOPICA: descărcare nouă a versiunii de probă", "zahtevi_naslov": "De ce are nevoie calculatorul", "z1_naslov": "Sistem", "z1": "Windows 10 sau Windows 11, 64-bit.", "z2_naslov": "Calculator", "z2": "Un laptop obișnuit din atelier e suficient: 4 GB de memorie și o placă grafică ce poate rula 3D în browser.", "z3_naslov": "Internet", "z3": "Nu e nevoie. Programul merge offline și nu creează niciun cont.", "koraci_naslov": "Instalare în trei pași", "k1": "Dă dublu clic pe fișierul descărcat TOPICA-trial.exe.", "k2": "Dacă Windows te întreabă dacă ai încredere în program, apasă „Mai multe informații“, apoi „Se execută oricum“.", "k3": "Deschide TOPICA de pe desktop. Creează primul proiect: introdu dimensiunile camerei și așază primul corp.", "slika_placeholder": "Loc pentru o captură de ecran a acestui pas (o adaugă proprietarul)", "upozorenje_naslov": "Avertismentul Windows.", "upozorenje": "Programul nu este încă semnat digital, așa că la prima pornire Windows afișează un ecran albastru „Windows a protejat PC-ul“. E normal pentru programele noi, nesemnate: apasă „Mai multe informații“, apoi „Se execută oricum“. Obținem semnătura și avertismentul va dispărea.", "pomoc": "Te-ai blocat? Scrie-ne, răspundem în aceeași zi."},
+  "hvala": {"meta_naslov": "Mulțumim — versiunea de probă TOPICA se descarcă", "meta_opis": "Descărcarea versiunii de probă TOPICA a început. Trei pași ca să pornești.", "nadnaslov": "Mulțumim", "naslov": "Descărcarea a început.", "tekst": "Dacă nu a pornit singură:", "koraci_naslov": "Trei pași ca să pornești", "k1": "Instalează programul (la avertismentul Windows: „Mai multe informații“, apoi „Se execută oricum“).", "k2": "Creează un proiect nou și introdu dimensiunile camerei: lățime, adâncime și înălțimea tavanului.", "k3": "Adaugă primul corp inferior din catalog și deschide „Dimensiuni de debitare“. Aceasta e prima ta listă de debitare.", "snimak": "Trei minute de video: de la cameră la lista de debitare.", "snimak_dugme": "Vezi videoclipul"},
+  "blog": {"meta_naslov": "Ghiduri pentru tâmplari: listă de debitare, System 32, cant, dimensiuni de bucătărie — TOPICA", "meta_opis": "Articole scurte și practice pentru tâmplarii care fac mobilier din PAL la comandă: cum se citește o listă de debitare, System 32, cantul ABS, dimensiuni standard ale corpurilor de bucătărie.", "nadnaslov": "Ghiduri", "naslov": "Tâmplăria pe hârtie, înainte de atelier.", "tekst": "Articole scurte despre lucruri pe care le face orice tâmplar, scrise o dată ca să nu le mai explici de fiecare dată.", "poziv": "Încearcă asta pe propriul proiect."},
+  "clanak": {"citanje": "min de citit", "objavljeno": "Publicat"}
 }

@@ -1,87 +1,55 @@
 {
-  "_jezik": { "ime": "Polski", "status": "za-proveru", "proverio": "" },
-  "meta": {
-    "naslov": "TOPICA — program do projektowania mebli z listą cięcia, stworzony dla stolarzy",
-    "opis": "TOPICA to program do projektowania kuchni dla stolarzy na Windows: rysujesz pomieszczenie, ustawiasz szafki z katalogu, a program daje 3D, listę cięcia co do milimetra, okucia i cenę. Darmowa wersja próbna.",
-    "og_naslov": "TOPICA — od pomieszczenia do listy cięcia",
-    "og_opis": "Program do projektowania mebli dla stolarzy: pomieszczenie, szafki z katalogu, 3D, lista cięcia co do milimetra i cena. Darmowa wersja próbna.",
-    "og_alt": "Maskotka Topi mierzy korpus obok napisu TOPICA — od pomieszczenia do listy cięcia",
-    "ld_opis": "Program dla Windows do projektowania mebli płytowych na wymiar (kuchnie, szafy, komody) dla zakładów stolarskich: pomieszczenie w 3D, szafki z katalogu zbudowane według standardu europejskiego, lista cięcia co do milimetra, okucia i cena."
-  },
-  "a11y": { "preskoci": "Przejdź do treści", "logo": "TOPICA, strona główna", "navigacija": "Nawigacja główna", "jezik": "Wybierz język", "meni": "Menu" },
-  "nav": { "kako": "Jak działa", "mogucnosti": "Funkcje", "galerija": "Galeria", "cena": "Cennik", "pitanja": "Pytania", "blog": "Poradniki", "preuzimanje": "Pobierz" },
-  "cta": { "glavno": "Pobierz wersję próbną", "kratko": "Pobierz" },
-  "jezik": {
-    "napomena_program": "Program jest obecnie dostępny po serbsku i po angielsku. Wersja polska jest w przygotowaniu.",
-    "predlog_tekst": "Ta strona jest dostępna także po polsku.",
-    "predlog_dugme": "Przełącz na polski"
-  },
-  "hero": {
-    "naslov": "Od pomieszczenia do listy cięcia.",
-    "tekst": "TOPICA to program do projektowania mebli stworzony dla stolarzy: rysujesz pomieszczenie, ustawiasz szafki wzdłuż ściany, a program zna konstrukcję i od razu daje 3D, listę cięcia co do milimetra, okucia i cenę.",
-    "saznaj": "Zobacz, jak działa",
-    "sitno": "Windows 10/11 · serbski i angielski · wersja próbna jest darmowa",
-    "topi_alt": "Topi, pluszowa maskotka programu TOPICA, mierzy miarką dolną szafkę kuchenną z otwartymi drzwiami",
-    "prozor_alt": "TOPICA, widok 3D kuchni w pomieszczeniu: szafki dolne i górne z dębowymi frontami wzdłuż ściany, ciąg dolny 3200 mm i 400 mm wolnego miejsca"
-  },
+  "_jezik": {"ime": "Polski", "status": "za-proveru", "proverio": ""},
+  "meta": {"naslov": "TOPICA — program do projektowania mebli z listą cięcia, stworzony dla stolarzy", "opis": "TOPICA to program do projektowania kuchni dla stolarzy na Windows: rysujesz pomieszczenie, ustawiasz szafki z katalogu, a program daje 3D, listę cięcia co do milimetra, okucia i cenę. Darmowa wersja próbna.", "og_naslov": "TOPICA — od pomieszczenia do listy cięcia", "og_opis": "Program do projektowania mebli dla stolarzy: pomieszczenie, szafki z katalogu, 3D, lista cięcia co do milimetra i cena. Darmowa wersja próbna.", "og_alt": "Maskotka Topi mierzy korpus obok napisu TOPICA — od pomieszczenia do listy cięcia", "ld_opis": "Program dla Windows do projektowania mebli płytowych na wymiar (kuchnie, szafy, komody) dla zakładów stolarskich: pomieszczenie w 3D, szafki z katalogu zbudowane według standardu europejskiego, lista cięcia co do milimetra, okucia i cena."},
+  "a11y": {"preskoci": "Przejdź do treści", "logo": "TOPICA, strona główna", "navigacija": "Nawigacja główna", "jezik": "Wybierz język", "meni": "Menu"},
+  "nav": {"kako": "Jak działa", "mogucnosti": "Funkcje", "galerija": "Galeria", "cena": "Cennik", "pitanja": "Pytania", "blog": "Poradniki", "preuzimanje": "Pobierz"},
+  "cta": {"glavno": "Pobierz wersję próbną", "kratko": "Pobierz"},
+  "jezik": {"napomena_program": "Program jest obecnie dostępny po serbsku i po angielsku. Wersja polska jest w przygotowaniu.", "predlog_tekst": "Ta strona jest dostępna także po polsku.", "predlog_dugme": "Przełącz na polski"},
+  "hero": {"naslov": "Od pomieszczenia do listy cięcia.", "tekst": "TOPICA to program do projektowania mebli stworzony dla stolarzy: rysujesz pomieszczenie, ustawiasz szafki wzdłuż ściany, a program zna konstrukcję i od razu daje 3D, listę cięcia co do milimetra, okucia i cenę.", "saznaj": "Zobacz, jak działa", "sitno": "Windows 10/11 · serbski i angielski · wersja próbna jest darmowa", "topi_alt": "Topi, pluszowa maskotka programu TOPICA, mierzy miarką dolną szafkę kuchenną z otwartymi drzwiami", "prozor_alt": "TOPICA, widok 3D kuchni w pomieszczeniu: szafki dolne i górne z dębowymi frontami wzdłuż ściany, ciąg dolny 3200 mm i 400 mm wolnego miejsca"},
   "cinjenice": {
-    "naslov": "Dlaczego program dla stolarzy, a nie program do rysowania",
-    "1": { "naslov": "Co do milimetra", "tekst": "Każda formatka dostaje dokładny wymiar z rzeczywistej konstrukcji korpusu, nie ze szkicu na oko." },
-    "2": { "naslov": "Standard europejski, System 32", "tekst": "Korpus bezramowy, obrzeże, zawiasy puszkowe 35 mm, szuflady i cokół z katalogu. Niczego nie ustawiasz od nowa." },
-    "3": { "naslov": "Lista cięcia gotowa do skopiowania", "tekst": "Te same wymiary w jednym wierszu, pogrupowane według materiału. Skopiuj i wyślij na piłę panelową." }
+    "1": {"naslov": "Co do milimetra", "tekst": "Każda formatka dostaje dokładny wymiar z rzeczywistej konstrukcji korpusu, nie ze szkicu na oko."},
+    "2": {"naslov": "Standard europejski, System 32", "tekst": "Korpus bezramowy, obrzeże, zawiasy puszkowe 35 mm, szuflady i cokół z katalogu. Niczego nie ustawiasz od nowa."},
+    "3": {"naslov": "Lista cięcia gotowa do skopiowania", "tekst": "Te same wymiary w jednym wierszu, pogrupowane według materiału. Skopiuj i wyślij na piłę panelową."},
+    "naslov": "Dlaczego program dla stolarzy, a nie program do rysowania"
   },
   "kako": {
+    "1": {"naslov": "Narysuj pomieszczenie", "tekst": "Wpisz ściany, wysokość sufitu, okno i instalacje. Pomieszczenie od razu jest w 3D, z podłogą i ścianami, jakie naprawdę ma klient.", "alt": "TOPICA, krok 1: pomieszczenie 3600 × 3000 mm z wyborem podłogi i ścian, szary laminat i płytki za kuchnią"},
+    "2": {"naslov": "Ustaw szafki z katalogu", "tekst": "Dolne, górne, słupki, zlewozmywakowa, piekarnikowa, narożna. Dosuwają się do ściany i do sąsiada, a wymiary zmieniasz na żywo, co do milimetra.", "alt": "TOPICA, krok 2: szafka dolna z drzwiami 600 × 720 × 560 mm przy ścianie, z wymiarami do sąsiada i panelem właściwości"},
+    "3": {"naslov": "Odczytaj listę cięcia i cenę", "tekst": "Program zna konstrukcję: boki, dno, listwy, plecy, front. Lista cięcia, okucia i cena są zawsze aktualne, bez przycisku „przelicz”.", "alt": "TOPICA, krok 3: lista cięcia „Według wymiaru” dla jednej szafki, 8 formatek pogrupowanych według materiału z wymiarem, grubością, obrzeżem i ceną"},
     "nadnaslov": "Jak to działa",
-    "naslov": "Trzy kroki do listy cięcia.",
-    "1": { "naslov": "Narysuj pomieszczenie", "tekst": "Wpisz ściany, wysokość sufitu, okno i instalacje. Pomieszczenie od razu jest w 3D, z podłogą i ścianami, jakie naprawdę ma klient.", "alt": "TOPICA, krok 1: pomieszczenie 3600 × 3000 mm z wyborem podłogi i ścian, szary laminat i płytki za kuchnią" },
-    "2": { "naslov": "Ustaw szafki z katalogu", "tekst": "Dolne, górne, słupki, zlewozmywakowa, piekarnikowa, narożna. Dosuwają się do ściany i do sąsiada, a wymiary zmieniasz na żywo, co do milimetra.", "alt": "TOPICA, krok 2: szafka dolna z drzwiami 600 × 720 × 560 mm przy ścianie, z wymiarami do sąsiada i panelem właściwości" },
-    "3": { "naslov": "Odczytaj listę cięcia i cenę", "tekst": "Program zna konstrukcję: boki, dno, listwy, plecy, front. Lista cięcia, okucia i cena są zawsze aktualne, bez przycisku „przelicz”.", "alt": "TOPICA, krok 3: lista cięcia „Według wymiaru” dla jednej szafki, 8 formatek pogrupowanych według materiału z wymiarem, grubością, obrzeżem i ceną" }
+    "naslov": "Trzy kroki do listy cięcia."
   },
   "korpus": {
     "naslov": "Jedna szafka. Każda formatka co do milimetra.",
-    "natpis": {
-      "1": "Szafka dolna 600 × 720 × 560 mm, jaką robi każdy warsztat.",
-      "2": "Program rozkłada ją na formatki i każdej nadaje dokładny wymiar, obrzeże i grubość.",
-      "3": "Formatki układają się na płycie jako plan rozkroju: biała płyta wiórowa, dekor dąb, płyta HDF.",
-      "4": "A lista cięcia „Według wymiaru” jest gotowa do skopiowania i wysłania na piłę."
-    },
-    "daska": { "bok": "Bok", "dno": "Dno", "polica": "Półka", "precka": "Listwa", "front": "Front", "ledja": "Plecy" },
+    "natpis": {"1": "Szafka dolna 600 × 720 × 560 mm, jaką robi każdy warsztat.", "2": "Program rozkłada ją na formatki i każdej nadaje dokładny wymiar, obrzeże i grubość.", "3": "Formatki układają się na płycie jako plan rozkroju: biała płyta wiórowa, dekor dąb, płyta HDF.", "4": "A lista cięcia „Według wymiaru” jest gotowa do skopiowania i wysłania na piłę."},
+    "daska": {"bok": "Bok", "dno": "Dno", "polica": "Półka", "precka": "Listwa", "front": "Front", "ledja": "Plecy"},
     "noscript_alt": "TOPICA, lista cięcia „Według wymiaru” dla szafki dolnej 600 × 720 × 560 mm",
     "posle": "Program robi to dla każdej szafki w kuchni w chwili, gdy ustawisz ją przy ścianie."
   },
-  "niz": {
-    "nadnaslov": "Pomieszczenie",
-    "naslov": "Ustaw ciąg, program dokończy.",
-    "tekst": "Szafki dosuwają się do siebie i do ściany, a blat i cokół kładą się na nich z wymiarem całkowitym, bez rysowania."
-  },
+  "niz": {"nadnaslov": "Pomieszczenie", "naslov": "Ustaw ciąg, program dokończy.", "tekst": "Szafki dosuwają się do siebie i do ściany, a blat i cokół kładą się na nich z wymiarem całkowitym, bez rysowania."},
   "mogucnosti": {
+    "1": {"naslov": "Wymiary co do milimetra", "tekst": "Wpisz szerokość, wysokość i głębokość albo przeciągnij suwak. Wymiary do ściany, do sąsiada i od podłogi są zawsze widoczne.", "alt": "Szafka w 3D z wymiarami 600, 720 i 560 mm oraz znacznikami do ściany, do sąsiada i od podłogi"},
+    "2": {"naslov": "Katalog według standardu", "tekst": "Każdy typ szafki ma konstrukcję według standardu europejskiego, System 32.", "s1": "Dolne, górne, słupki", "s2": "Zlewozmywak i piekarnik", "s3": "Narożne i szafa", "s4": "Szuflady, zawiasy, nóżki"},
+    "3": {"naslov": "„Według wymiaru” do skopiowania", "tekst": "Te same wymiary w jednym wierszu, według materiału. Pierwszy wymiar to kierunek usłojenia.", "k1": "Wymiar · mm", "k2": "Gr.", "k3": "Obrzeże", "k4": "Szt.", "r1": "1 dłuższy", "r3": "2 dłuższe, 2 krótsze"},
+    "4": {"naslov": "Prawdziwe dekory i 3D na żywo", "tekst": "Dąb, biel, marmur albo własny dekor ze zdjęcia. Co zmienisz, widzisz od razu, w projekcie kuchni 3D, który klient rozumie."},
+    "5": {"naslov": "Cokół, blat i boki ozdobne automatycznie", "tekst": "Powstają nad wybranymi szafkami i przesuwają się razem z nimi."},
+    "6": {"naslov": "Cena za projekt", "tekst": "Wpisz własne ceny płyt, obrzeża, okuć i robocizny. Program sumuje je dla projektu; ty robisz wycenę.", "alt": "Ustawienia warsztatu: robocizna za szafkę 3000 RSD, marża 20 %"},
+    "7": {"naslov": "Bez internetu, bez konta", "tekst": "Projekt to jeden plik na twoim komputerze. Wyślij go e-mailem koledze."},
     "nadnaslov": "Funkcje",
     "naslov": "Program do projektowania mebli, który zna stolarkę.",
-    "tekst": "Kuchnie, szafy na wymiar i komody. Ty decydujesz o wymiarach i dekorach; konstrukcję i obliczenia robi program.",
-    "1": { "naslov": "Wymiary co do milimetra", "tekst": "Wpisz szerokość, wysokość i głębokość albo przeciągnij suwak. Wymiary do ściany, do sąsiada i od podłogi są zawsze widoczne.", "alt": "Szafka w 3D z wymiarami 600, 720 i 560 mm oraz znacznikami do ściany, do sąsiada i od podłogi" },
-    "2": { "naslov": "Katalog według standardu", "tekst": "Każdy typ szafki ma konstrukcję według standardu europejskiego, System 32.", "s1": "Dolne, górne, słupki", "s2": "Zlewozmywak i piekarnik", "s3": "Narożne i szafa", "s4": "Szuflady, zawiasy, nóżki" },
-    "3": { "naslov": "„Według wymiaru” do skopiowania", "tekst": "Te same wymiary w jednym wierszu, według materiału. Pierwszy wymiar to kierunek usłojenia.", "k1": "Wymiar · mm", "k2": "Gr.", "k3": "Obrzeże", "k4": "Szt.", "r1": "1 dłuższy", "r3": "2 dłuższe, 2 krótsze" },
-    "4": { "naslov": "Prawdziwe dekory i 3D na żywo", "tekst": "Dąb, biel, marmur albo własny dekor ze zdjęcia. Co zmienisz, widzisz od razu, w projekcie kuchni 3D, który klient rozumie." },
-    "5": { "naslov": "Cokół, blat i boki ozdobne automatycznie", "tekst": "Powstają nad wybranymi szafkami i przesuwają się razem z nimi." },
-    "6": { "naslov": "Cena za projekt", "tekst": "Wpisz własne ceny płyt, obrzeża, okuć i robocizny. Program sumuje je dla projektu; ty robisz wycenę.", "alt": "Ustawienia warsztatu: robocizna za szafkę 3000 RSD, marża 20 %" },
-    "7": { "naslov": "Bez internetu, bez konta", "tekst": "Projekt to jeden plik na twoim komputerze. Wyślij go e-mailem koledze." }
+    "tekst": "Kuchnie, szafy na wymiar i komody. Ty decydujesz o wymiarach i dekorach; konstrukcję i obliczenia robi program."
   },
   "galerija": {
+    "1": {"tekst": "Ciąg kuchenny, dekor dąb i biała płyta wiórowa.", "alt": "Ciąg kuchenny z dębowymi frontami, białe korpusy z płyty wiórowej, szara podłoga laminowana"},
+    "2": {"tekst": "Ten sam projekt, inny dekor: ciemny marmur i płytki.", "alt": "Ta sama kuchnia z frontami w ciemnym marmurze i płytkami na ścianie"},
+    "3": {"tekst": "Zbliżenie: jedna szafka, wymiary i konstrukcja.", "alt": "Zbliżenie jednej szafki 600 × 720 × 570 mm z dębowymi drzwiami i panelem wymiarów"},
+    "4": {"tekst": "Otwórz fronty i zajrzyj do środka.", "alt": "Szafka z otwartymi drzwiami w 3D, widać półkę i wnętrze, z wymiarami do ściany i do sąsiada"},
+    "5": {"tekst": "Własny dekor: dodaj zdjęcie płyty, którą naprawdę kupujesz.", "alt": "Wybór dekoru frontu: biały, szary, beżowy, czarny, drewno, beton, marmur, stal nierdzewna i własny dekor"},
+    "6": {"tekst": "Szuflady z bokami i prowadnicami z katalogu.", "alt": "Szafka dolna z trzema szufladami w 3D, z panelem szuflad i prowadnic"},
     "nadnaslov": "Galeria",
-    "naslov": "Projekt kuchni 3D prosto z programu.",
-    "1": { "tekst": "Ciąg kuchenny, dekor dąb i biała płyta wiórowa.", "alt": "Ciąg kuchenny z dębowymi frontami, białe korpusy z płyty wiórowej, szara podłoga laminowana" },
-    "2": { "tekst": "Ten sam projekt, inny dekor: ciemny marmur i płytki.", "alt": "Ta sama kuchnia z frontami w ciemnym marmurze i płytkami na ścianie" },
-    "3": { "tekst": "Zbliżenie: jedna szafka, wymiary i konstrukcja.", "alt": "Zbliżenie jednej szafki 600 × 720 × 570 mm z dębowymi drzwiami i panelem wymiarów" },
-    "4": { "tekst": "Otwórz fronty i zajrzyj do środka.", "alt": "Szafka z otwartymi drzwiami w 3D, widać półkę i wnętrze, z wymiarami do ściany i do sąsiada" },
-    "5": { "tekst": "Własny dekor: dodaj zdjęcie płyty, którą naprawdę kupujesz.", "alt": "Wybór dekoru frontu: biały, szary, beżowy, czarny, drewno, beton, marmur, stal nierdzewna i własny dekor" },
-    "6": { "tekst": "Szuflady z bokami i prowadnicami z katalogu.", "alt": "Szafka dolna z trzema szufladami w 3D, z panelem szuflad i prowadnic" }
+    "naslov": "Projekt kuchni 3D prosto z programu."
   },
-  "zakoga": {
-    "nadnaslov": "Dla kogo",
-    "naslov": "Robi go stolarz, dla stolarzy.",
-    "tekst": "TOPICA powstaje w warsztacie stolarskim w Belgradzie, na prawdziwych projektach dla prawdziwych klientów. Dlatego nie ma w niej niczego zbędnego: tylko to, co pozwala fachowcowi szybciej przejść od pomiaru do cięcia.",
-    "uloga": "stolarz i autor programu, Belgrad"
-  },
+  "zakoga": {"nadnaslov": "Dla kogo", "naslov": "Robi go stolarz, dla stolarzy.", "tekst": "TOPICA powstaje w warsztacie stolarskim w Belgradzie, na prawdziwych projektach dla prawdziwych klientów. Dlatego nie ma w niej niczego zbędnego: tylko to, co pozwala fachowcowi szybciej przejść od pomiaru do cięcia.", "uloga": "stolarz i autor programu, Belgrad"},
   "cena": {
     "nadnaslov": "Cennik",
     "naslov": "Wersja próbna jest darmowa.",
@@ -89,79 +57,22 @@
     "uskoro_tekst": "za pełną wersję",
     "tekst": "Wypróbuj program na własnym projekcie, bez konta i bez karty. Cenę pełnej wersji ogłosimy wkrótce.",
     "kupi": "Kup",
-    "obrazac": {
-      "naslov": "Daj mi znać, gdy pojawi się cena",
-      "placeholder": "ty@email.com",
-      "dugme": "Powiadom mnie",
-      "predmet": "TOPICA: powiadom mnie, gdy pojawi się cena",
-      "napomena": "Jedna wiadomość, gdy cena zostanie ogłoszona. Bez reklam.",
-      "hvala": "Dzięki! Damy znać, gdy tylko cena zostanie ogłoszona.",
-      "greska": "Nie udało się wysłać. Napisz do nas bezpośrednio na e-mail ze stopki."
-    },
+    "obrazac": {"naslov": "Daj mi znać, gdy pojawi się cena", "placeholder": "ty@email.com", "dugme": "Powiadom mnie", "predmet": "TOPICA: powiadom mnie, gdy pojawi się cena", "napomena": "Jedna wiadomość, gdy cena zostanie ogłoszona. Bez reklam.", "hvala": "Dzięki! Damy znać, gdy tylko cena zostanie ogłoszona.", "greska": "Nie udało się wysłać. Napisz do nas bezpośrednio na e-mail ze stopki."},
     "topi_alt": "Topi, maskotka programu TOPICA, trzyma wiertarkę i linijkę"
   },
   "pitanja": {
+    "1": {"p": "Na jakim Windowsie działa?", "o": "Na Windows 10 i Windows 11, 64-bit. Program jest mały i szybki; działa na zwykłym laptopie z warsztatu."},
+    "2": {"p": "Czy potrzebny jest internet?", "o": "Nie. Program działa offline i bez konta. Projekt to jeden plik na twoim komputerze."},
+    "3": {"p": "Jakie płyty i materiały obsługuje?", "o": "Płytę wiórową laminowaną 18 mm na korpus i fronty, obrzeże 0,45 i 1 mm, płytę HDF 3 mm na plecy; grubości i obrzeża zmieniasz w ustawieniach warsztatu. Dekor wybierasz z listy albo dodajesz własny."},
+    "4": {"p": "Co dostaję na końcu?", "o": "Listę cięcia na szafkę i na materiał, widok „Według wymiaru” do skopiowania, listę okuć, zużycie płyt, cenę i wydruk do PDF."},
+    "5": {"p": "W jakich językach?", "o": "Po serbsku i po angielsku. Język przełączasz w programie."},
+    "6": {"p": "Czy program dostaje aktualizacje?", "o": "Tak. Nowe wersje wychodzą regularnie, a wersję próbną zawsze można pobrać ponownie z tej strony."},
     "nadnaslov": "Pytania",
-    "naslov": "O co stolarze pytają przed wypróbowaniem.",
-    "1": { "p": "Na jakim Windowsie działa?", "o": "Na Windows 10 i Windows 11, 64-bit. Program jest mały i szybki; działa na zwykłym laptopie z warsztatu." },
-    "2": { "p": "Czy potrzebny jest internet?", "o": "Nie. Program działa offline i bez konta. Projekt to jeden plik na twoim komputerze." },
-    "3": { "p": "Jakie płyty i materiały obsługuje?", "o": "Płytę wiórową laminowaną 18 mm na korpus i fronty, obrzeże 0,45 i 1 mm, płytę HDF 3 mm na plecy; grubości i obrzeża zmieniasz w ustawieniach warsztatu. Dekor wybierasz z listy albo dodajesz własny." },
-    "4": { "p": "Co dostaję na końcu?", "o": "Listę cięcia na szafkę i na materiał, widok „Według wymiaru” do skopiowania, listę okuć, zużycie płyt, cenę i wydruk do PDF." },
-    "5": { "p": "W jakich językach?", "o": "Po serbsku i po angielsku. Język przełączasz w programie." },
-    "6": { "p": "Czy program dostaje aktualizacje?", "o": "Tak. Nowe wersje wychodzą regularnie, a wersję próbną zawsze można pobrać ponownie z tej strony." }
+    "naslov": "O co stolarze pytają przed wypróbowaniem."
   },
-  "dno": {
-    "naslov": "Wypróbuj na swoim następnym projekcie.",
-    "tekst": "Windows 10/11. Bez konta, bez karty. Lista cięcia pierwszej szafki w pięć minut.",
-    "uslovi": "Regulamin",
-    "privatnost": "Prywatność"
-  },
-  "preuzimanje": {
-    "meta_naslov": "Pobierz darmową wersję próbną TOPICA dla Windows",
-    "meta_opis": "Darmowa wersja próbna programu do projektowania mebli i list cięcia. Windows 10/11, 64-bit, bez konta. Instalacja w trzech krokach.",
-    "nadnaslov": "Pobieranie",
-    "naslov": "Darmowa wersja próbna dla Windows.",
-    "tekst": "Za darmo, bez konta i bez karty. Instalacja trwa minutę, a pierwszą szafkę z listą cięcia masz w pięć.",
-    "email_naslov": "Zostaw e-mail, jeśli chcesz (opcjonalnie)",
-    "email_tekst": "Wysyłamy tylko nowe wersje i cenę, gdy się pojawi. Bez reklam, wypisanie jednym kliknięciem.",
-    "dugme": "Pobierz wersję próbną",
-    "datoteka": "TOPICA-trial.exe",
-    "bez_emaila": "Bez e-maila:",
-    "direktno": "pobierz bezpośrednio",
-    "predmet": "TOPICA: nowe pobranie wersji próbnej",
-    "zahtevi_naslov": "Czego potrzebuje komputer",
-    "z1_naslov": "System", "z1": "Windows 10 lub Windows 11, 64-bit.",
-    "z2_naslov": "Komputer", "z2": "Zwykły laptop z warsztatu wystarczy: 4 GB pamięci i grafika, która uruchomi 3D w przeglądarce.",
-    "z3_naslov": "Internet", "z3": "Niepotrzebny. Program działa offline i nie tworzy konta.",
-    "koraci_naslov": "Instalacja w trzech krokach",
-    "k1": "Kliknij dwukrotnie pobrany plik TOPICA-trial.exe.",
-    "k2": "Jeśli Windows zapyta, czy ufasz programowi, kliknij „Więcej informacji”, a potem „Uruchom mimo to”.",
-    "k3": "Otwórz TOPICA z pulpitu. Utwórz pierwszy projekt: wpisz wymiary pomieszczenia i ustaw pierwszą szafkę.",
-    "slika_placeholder": "Miejsce na zrzut ekranu tego kroku (dodaje właściciel)",
-    "upozorenje_naslov": "Ostrzeżenie Windows.",
-    "upozorenje": "Program nie ma jeszcze podpisu cyfrowego, więc przy pierwszym uruchomieniu Windows pokazuje niebieski ekran „System Windows ochronił ten komputer”. To normalne dla nowych, niepodpisanych programów: kliknij „Więcej informacji”, a potem „Uruchom mimo to”. Uzyskujemy podpis i ostrzeżenie zniknie.",
-    "pomoc": "Utknąłeś? Napisz do nas, odpowiadamy tego samego dnia."
-  },
-  "hvala": {
-    "meta_naslov": "Dziękujemy — wersja próbna TOPICA się pobiera",
-    "meta_opis": "Pobieranie wersji próbnej TOPICA rozpoczęło się. Trzy kroki na start.",
-    "nadnaslov": "Dziękujemy",
-    "naslov": "Pobieranie rozpoczęte.",
-    "tekst": "Jeśli nie zaczęło się samo:",
-    "koraci_naslov": "Trzy kroki na start",
-    "k1": "Zainstaluj program (przy ostrzeżeniu Windows: „Więcej informacji”, potem „Uruchom mimo to”).",
-    "k2": "Utwórz nowy projekt i wpisz wymiary pomieszczenia: szerokość, głębokość i wysokość sufitu.",
-    "k3": "Dodaj pierwszą szafkę dolną z katalogu i otwórz „Wymiary cięcia”. To twoja pierwsza lista cięcia.",
-    "snimak": "Trzy minuty wideo: od pomieszczenia do listy cięcia.",
-    "snimak_dugme": "Obejrzyj wideo"
-  },
-  "blog": {
-    "meta_naslov": "Poradniki dla stolarzy: lista cięcia, System 32, obrzeże, wymiary kuchni — TOPICA",
-    "meta_opis": "Krótkie praktyczne artykuły dla stolarzy robiących meble płytowe na wymiar: jak czytać listę cięcia, System 32, obrzeże ABS, standardowe wymiary szafek kuchennych.",
-    "nadnaslov": "Poradniki",
-    "naslov": "Stolarka na papierze, przed warsztatem.",
-    "tekst": "Krótkie teksty o rzeczach, które robi każdy stolarz, spisane raz, żebyś nie musiał tłumaczyć ich za każdym razem.",
-    "poziv": "Wypróbuj to na własnym projekcie."
-  },
-  "clanak": { "citanje": "min czytania", "objavljeno": "Opublikowano" }
+  "dno": {"naslov": "Wypróbuj na swoim następnym projekcie.", "tekst": "Windows 10/11. Bez konta, bez karty. Lista cięcia pierwszej szafki w pięć minut.", "uslovi": "Regulamin", "privatnost": "Prywatność"},
+  "preuzimanje": {"meta_naslov": "Pobierz darmową wersję próbną TOPICA dla Windows", "meta_opis": "Darmowa wersja próbna programu do projektowania mebli i list cięcia. Windows 10/11, 64-bit, bez konta. Instalacja w trzech krokach.", "nadnaslov": "Pobieranie", "naslov": "Darmowa wersja próbna dla Windows.", "tekst": "Za darmo, bez konta i bez karty. Instalacja trwa minutę, a pierwszą szafkę z listą cięcia masz w pięć.", "email_naslov": "Zostaw e-mail, jeśli chcesz (opcjonalnie)", "email_tekst": "Wysyłamy tylko nowe wersje i cenę, gdy się pojawi. Bez reklam, wypisanie jednym kliknięciem.", "dugme": "Pobierz wersję próbną", "datoteka": "TOPICA-trial.exe", "bez_emaila": "Bez e-maila:", "direktno": "pobierz bezpośrednio", "predmet": "TOPICA: nowe pobranie wersji próbnej", "zahtevi_naslov": "Czego potrzebuje komputer", "z1_naslov": "System", "z1": "Windows 10 lub Windows 11, 64-bit.", "z2_naslov": "Komputer", "z2": "Zwykły laptop z warsztatu wystarczy: 4 GB pamięci i grafika, która uruchomi 3D w przeglądarce.", "z3_naslov": "Internet", "z3": "Niepotrzebny. Program działa offline i nie tworzy konta.", "koraci_naslov": "Instalacja w trzech krokach", "k1": "Kliknij dwukrotnie pobrany plik TOPICA-trial.exe.", "k2": "Jeśli Windows zapyta, czy ufasz programowi, kliknij „Więcej informacji”, a potem „Uruchom mimo to”.", "k3": "Otwórz TOPICA z pulpitu. Utwórz pierwszy projekt: wpisz wymiary pomieszczenia i ustaw pierwszą szafkę.", "slika_placeholder": "Miejsce na zrzut ekranu tego kroku (dodaje właściciel)", "upozorenje_naslov": "Ostrzeżenie Windows.", "upozorenje": "Program nie ma jeszcze podpisu cyfrowego, więc przy pierwszym uruchomieniu Windows pokazuje niebieski ekran „System Windows ochronił ten komputer”. To normalne dla nowych, niepodpisanych programów: kliknij „Więcej informacji”, a potem „Uruchom mimo to”. Uzyskujemy podpis i ostrzeżenie zniknie.", "pomoc": "Utknąłeś? Napisz do nas, odpowiadamy tego samego dnia."},
+  "hvala": {"meta_naslov": "Dziękujemy — wersja próbna TOPICA się pobiera", "meta_opis": "Pobieranie wersji próbnej TOPICA rozpoczęło się. Trzy kroki na start.", "nadnaslov": "Dziękujemy", "naslov": "Pobieranie rozpoczęte.", "tekst": "Jeśli nie zaczęło się samo:", "koraci_naslov": "Trzy kroki na start", "k1": "Zainstaluj program (przy ostrzeżeniu Windows: „Więcej informacji”, potem „Uruchom mimo to”).", "k2": "Utwórz nowy projekt i wpisz wymiary pomieszczenia: szerokość, głębokość i wysokość sufitu.", "k3": "Dodaj pierwszą szafkę dolną z katalogu i otwórz „Wymiary cięcia”. To twoja pierwsza lista cięcia.", "snimak": "Trzy minuty wideo: od pomieszczenia do listy cięcia.", "snimak_dugme": "Obejrzyj wideo"},
+  "blog": {"meta_naslov": "Poradniki dla stolarzy: lista cięcia, System 32, obrzeże, wymiary kuchni — TOPICA", "meta_opis": "Krótkie praktyczne artykuły dla stolarzy robiących meble płytowe na wymiar: jak czytać listę cięcia, System 32, obrzeże ABS, standardowe wymiary szafek kuchennych.", "nadnaslov": "Poradniki", "naslov": "Stolarka na papierze, przed warsztatem.", "tekst": "Krótkie teksty o rzeczach, które robi każdy stolarz, spisane raz, żebyś nie musiał tłumaczyć ich za każdym razem.", "poziv": "Wypróbuj to na własnym projekcie."},
+  "clanak": {"citanje": "min czytania", "objavljeno": "Opublikowano"}
 }

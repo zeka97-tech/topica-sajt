@@ -4,7 +4,7 @@ Rules: one post per group, never the same day in several groups; read and reply 
 
 ## Version 1 — “I built it for myself” (image: snimak-33-po-meri.png)
 
-I'm a cabinet maker from Belgrade; I build kitchens and wardrobes from melamine chipboard. For years I wrote my cut lists by hand, and at least once a month a panel was missing or 18 mm short. Last year I sat down and started building the program I needed: I draw the room, line the cabinets up along the wall, and it gives me the panels with edge banding, the hardware and the price. The cut list is always current; I copy it and send it to the panel saw. It's called TOPICA, the trial is free and it works offline. I'm not after anything, I'm honestly curious: how do you do your cut lists today — by hand, Excel, some program?
+I'm a cabinet maker from Belgrade; I build kitchens and wardrobes from chipboard. For years I wrote my cut lists by hand, and at least once a month a panel was missing or 18 mm short. Last year I started building the program I needed: I draw the room, line the cabinets up along the wall, and it gives me the panels with edge banding, the hardware and the price. The cut list is always current; I copy it and send it to the panel saw. It's called TOPICA, the trial is free and it works offline. I'm not selling anything, I'm honestly curious: how do you do your cut lists today — by hand, Excel, some program?
 
 ## Version 2 — “one cabinet, eight panels” (image: snimak-12-korpus-sa-vratima.png)
 

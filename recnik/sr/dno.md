@@ -21,6 +21,8 @@ Druga škola stavlja dno između bokova: bokovi pune visine, dno uže za 36 mm. 
 
 Dno se buši za ekscentre ili konfirmate prema čelu bokova i za nogice odozdo, pa se kantuje spreda pre sklapanja. Kod sudopere dno trpi vlagu, pa se kant i spojevi gledaju pažljivije. Česta greška: dno skrojeno na unutrašnju meru (564) iako su bokovi kraći, ili obrnuto, pa fali ili viri 36 mm po širini.
 
+![Donji korpus sa otvorenim vratima u 3D prikazu programa TOPICA: vidi se dno preko bokova, polica i leđa](../slike/web/snimak-52-ruka-jedna-vrata-1600.webp "Dno ide preko bokova u punoj širini korpusa, pa su bokovi kraći za debljinu ploče.")
+
 ## Kako to radi TOPICA
 
 U programu je „dno preko bokova" podrazumevano: upišeš širinu elementa i dno dobije punu meru, a bokovi se sami skrate ([kako radi](../#kako-radi)). Broj nogica program odredi po širini.

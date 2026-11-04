@@ -15,8 +15,8 @@ export function prednjiBlok(md) {
 function inline(s) {
   return s
     .replace(/&(?![a-z#0-9]+;)/g, "&amp;")
-    .replace(/!\[([^\]]*)\]\(([^)\s]+)(?:\s+"([^"]*)")?\)/g, (_, alt, src, opis) =>
-      `<figure><div class="prozor"><div class="prozor-traka" aria-hidden="true"><i></i><i></i><i></i></div><img src="${src}" alt="${alt}" loading="lazy" width="1366" height="768"></div>${opis ? `<figcaption>${opis}</figcaption>` : ""}</figure>`)
+    .replace(/!\[([^\]]*)\]\(([^)\s]+)(?:\s+"(.*)")?\)\s*$/g, (_, alt, src, opis) =>
+      `<figure><div class="prozor"><div class="prozor-traka" aria-hidden="true"><i></i><i></i><i></i></div><img src="${src}" alt="${alt.replace(/"/g, "&quot;")}" loading="lazy" width="1366" height="768"></div>${opis ? `<figcaption>${opis}</figcaption>` : ""}</figure>`)
     .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')
     .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
     .replace(/(^|[^*])\*([^*\n]+)\*(?!\*)/g, "$1<em>$2</em>");

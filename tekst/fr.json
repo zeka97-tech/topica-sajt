@@ -1,87 +1,55 @@
 {
-  "_jezik": { "ime": "Français", "status": "za-proveru", "proverio": "" },
-  "meta": {
-    "naslov": "TOPICA — logiciel de conception de meubles avec liste de débit, fait pour les menuisiers",
-    "opis": "TOPICA est un logiciel de conception de cuisines et de meubles sur mesure pour menuisiers agenceurs, sous Windows : tu dessines la pièce, tu poses les caissons du catalogue et tu obtiens la 3D, la liste de débit au millimètre, la quincaillerie et le prix. Essai gratuit.",
-    "og_naslov": "TOPICA — de la pièce à la liste de débit",
-    "og_opis": "Logiciel de conception de meubles pour menuisiers : pièce, caissons du catalogue, 3D, liste de débit au millimètre et prix. Essai gratuit.",
-    "og_alt": "La mascotte Topi mesure un caisson à côté des mots TOPICA — de la pièce à la liste de débit",
-    "ld_opis": "Logiciel Windows de conception de meubles sur mesure en panneaux (cuisines, placards, meubles) pour ateliers de menuiserie et d'agencement : pièce en 3D, caissons du catalogue construits selon le standard européen, liste de débit au millimètre, quincaillerie et prix."
-  },
-  "a11y": { "preskoci": "Aller au contenu", "logo": "TOPICA, page d'accueil", "navigacija": "Navigation principale", "jezik": "Choisir la langue", "meni": "Menu" },
-  "nav": { "kako": "Fonctionnement", "mogucnosti": "Fonctions", "galerija": "Galerie", "cena": "Tarif", "pitanja": "Questions", "blog": "Guides", "preuzimanje": "Télécharger" },
-  "cta": { "glavno": "Télécharger l'essai gratuit", "kratko": "Télécharger" },
-  "jezik": {
-    "napomena_program": "Le programme est aujourd'hui disponible en serbe et en anglais. Le français arrive.",
-    "predlog_tekst": "Cette page existe aussi en français.",
-    "predlog_dugme": "Passer au français"
-  },
-  "hero": {
-    "naslov": "De la pièce à la liste de débit.",
-    "tekst": "TOPICA est un logiciel de conception de cuisines et de placards sur mesure, fait pour les menuisiers : tu dessines la pièce, tu alignes les caissons le long du mur, et le programme connaît déjà la construction et te donne aussitôt la 3D, la liste de débit au millimètre, la quincaillerie et le prix.",
-    "saznaj": "Voir comment ça marche",
-    "sitno": "Windows 10/11 · serbe et anglais · l'essai est gratuit",
-    "topi_alt": "Topi, la mascotte en peluche de TOPICA, mesure au mètre ruban un meuble bas de cuisine à porte ouverte",
-    "prozor_alt": "TOPICA, vue 3D d'une cuisine dans la pièce : meubles bas et hauts à façades chêne le long du mur, avec la ligne de meubles bas à 3200 mm et 400 mm d'espace libre"
-  },
+  "_jezik": {"ime": "Français", "status": "za-proveru", "proverio": ""},
+  "meta": {"naslov": "TOPICA — logiciel de conception de meubles avec liste de débit, fait pour les menuisiers", "opis": "TOPICA est un logiciel de conception de cuisines et de meubles sur mesure pour menuisiers agenceurs, sous Windows : tu dessines la pièce, tu poses les caissons du catalogue et tu obtiens la 3D, la liste de débit au millimètre, la quincaillerie et le prix. Essai gratuit.", "og_naslov": "TOPICA — de la pièce à la liste de débit", "og_opis": "Logiciel de conception de meubles pour menuisiers : pièce, caissons du catalogue, 3D, liste de débit au millimètre et prix. Essai gratuit.", "og_alt": "La mascotte Topi mesure un caisson à côté des mots TOPICA — de la pièce à la liste de débit", "ld_opis": "Logiciel Windows de conception de meubles sur mesure en panneaux (cuisines, placards, meubles) pour ateliers de menuiserie et d'agencement : pièce en 3D, caissons du catalogue construits selon le standard européen, liste de débit au millimètre, quincaillerie et prix."},
+  "a11y": {"preskoci": "Aller au contenu", "logo": "TOPICA, page d'accueil", "navigacija": "Navigation principale", "jezik": "Choisir la langue", "meni": "Menu"},
+  "nav": {"kako": "Fonctionnement", "mogucnosti": "Fonctions", "galerija": "Galerie", "cena": "Tarif", "pitanja": "Questions", "blog": "Guides", "preuzimanje": "Télécharger"},
+  "cta": {"glavno": "Télécharger l'essai gratuit", "kratko": "Télécharger"},
+  "jezik": {"napomena_program": "Le programme est aujourd'hui disponible en serbe et en anglais. Le français arrive.", "predlog_tekst": "Cette page existe aussi en français.", "predlog_dugme": "Passer au français"},
+  "hero": {"naslov": "De la pièce à la liste de débit.", "tekst": "TOPICA est un logiciel de conception de cuisines et de placards sur mesure, fait pour les menuisiers : tu dessines la pièce, tu alignes les caissons le long du mur, et le programme connaît déjà la construction et te donne aussitôt la 3D, la liste de débit au millimètre, la quincaillerie et le prix.", "saznaj": "Voir comment ça marche", "sitno": "Windows 10/11 · serbe et anglais · l'essai est gratuit", "topi_alt": "Topi, la mascotte en peluche de TOPICA, mesure au mètre ruban un meuble bas de cuisine à porte ouverte", "prozor_alt": "TOPICA, vue 3D d'une cuisine dans la pièce : meubles bas et hauts à façades chêne le long du mur, avec la ligne de meubles bas à 3200 mm et 400 mm d'espace libre"},
   "cinjenice": {
-    "naslov": "Un logiciel pour menuisiers, pas un CAD",
-    "1": { "naslov": "Au millimètre près", "tekst": "Chaque panneau reçoit sa cote exacte à partir de la vraie construction du caisson, pas d'un croquis à l'œil." },
-    "2": { "naslov": "Standard européen, System 32", "tekst": "Caisson sans cadre, placage de chant, charnières à cuvette Ø35, tiroirs et plinthe du catalogue. Rien à reparamétrer." },
-    "3": { "naslov": "Liste de débit prête à copier", "tekst": "Les mêmes cotes sur une ligne, groupées par matériau. Copie-la et envoie-la à la scie à panneaux." }
+    "1": {"naslov": "Au millimètre près", "tekst": "Chaque panneau reçoit sa cote exacte à partir de la vraie construction du caisson, pas d'un croquis à l'œil."},
+    "2": {"naslov": "Standard européen, System 32", "tekst": "Caisson sans cadre, placage de chant, charnières à cuvette Ø35, tiroirs et plinthe du catalogue. Rien à reparamétrer."},
+    "3": {"naslov": "Liste de débit prête à copier", "tekst": "Les mêmes cotes sur une ligne, groupées par matériau. Copie-la et envoie-la à la scie à panneaux."},
+    "naslov": "Un logiciel pour menuisiers, pas un CAD"
   },
   "kako": {
+    "1": {"naslov": "Dessine la pièce", "tekst": "Saisis les murs, la hauteur sous plafond, la fenêtre et les arrivées. La pièce est tout de suite en 3D, avec le sol et les murs que ton client a vraiment.", "alt": "TOPICA, étape 1 : une pièce de 3600 × 3000 mm avec choix du sol et des murs, stratifié gris et carrelage derrière la cuisine"},
+    "2": {"naslov": "Pose les caissons du catalogue", "tekst": "Bas, haut, colonne, sous-évier, four, angle. Ils s'accrochent au mur et au voisin, et tu changes les cotes en direct, au millimètre.", "alt": "TOPICA, étape 2 : un meuble bas à porte de 600 × 720 × 560 mm contre le mur, avec les cotes jusqu'au voisin et le panneau des propriétés"},
+    "3": {"naslov": "Lis la liste de débit et le prix", "tekst": "Le programme connaît la construction : côtés, dessous, traverses, fond, façade. Liste de débit, quincaillerie et prix sont toujours à jour, sans bouton « recalculer ».", "alt": "TOPICA, étape 3 : la liste de débit « Par cote » d'un caisson, 8 panneaux groupés par matériau avec cote, épaisseur, chant et prix"},
     "nadnaslov": "Comment ça marche",
-    "naslov": "Trois étapes jusqu'à la liste de débit.",
-    "1": { "naslov": "Dessine la pièce", "tekst": "Saisis les murs, la hauteur sous plafond, la fenêtre et les arrivées. La pièce est tout de suite en 3D, avec le sol et les murs que ton client a vraiment.", "alt": "TOPICA, étape 1 : une pièce de 3600 × 3000 mm avec choix du sol et des murs, stratifié gris et carrelage derrière la cuisine" },
-    "2": { "naslov": "Pose les caissons du catalogue", "tekst": "Bas, haut, colonne, sous-évier, four, angle. Ils s'accrochent au mur et au voisin, et tu changes les cotes en direct, au millimètre.", "alt": "TOPICA, étape 2 : un meuble bas à porte de 600 × 720 × 560 mm contre le mur, avec les cotes jusqu'au voisin et le panneau des propriétés" },
-    "3": { "naslov": "Lis la liste de débit et le prix", "tekst": "Le programme connaît la construction : côtés, dessous, traverses, fond, façade. Liste de débit, quincaillerie et prix sont toujours à jour, sans bouton « recalculer ».", "alt": "TOPICA, étape 3 : la liste de débit « Par cote » d'un caisson, 8 panneaux groupés par matériau avec cote, épaisseur, chant et prix" }
+    "naslov": "Trois étapes jusqu'à la liste de débit."
   },
   "korpus": {
     "naslov": "Un caisson. Chaque panneau au millimètre.",
-    "natpis": {
-      "1": "Un meuble bas de 600 × 720 × 560 mm, comme on en fait dans chaque atelier.",
-      "2": "Le programme le décompose en panneaux et donne à chacun sa cote exacte, avec le chant et l'épaisseur.",
-      "3": "Les panneaux se posent sur la plaque comme un plan de débit : mélaminé blanc, décor chêne, isorel.",
-      "4": "Et la liste de débit « Par cote » est prête à copier et à envoyer à la scie à panneaux."
-    },
-    "daska": { "bok": "Côté", "dno": "Dessous", "polica": "Tablette", "precka": "Traverse", "front": "Façade", "ledja": "Fond" },
+    "natpis": {"1": "Un meuble bas de 600 × 720 × 560 mm, comme on en fait dans chaque atelier.", "2": "Le programme le décompose en panneaux et donne à chacun sa cote exacte, avec le chant et l'épaisseur.", "3": "Les panneaux se posent sur la plaque comme un plan de débit : mélaminé blanc, décor chêne, isorel.", "4": "Et la liste de débit « Par cote » est prête à copier et à envoyer à la scie à panneaux."},
+    "daska": {"bok": "Côté", "dno": "Dessous", "polica": "Tablette", "precka": "Traverse", "front": "Façade", "ledja": "Fond"},
     "noscript_alt": "TOPICA, liste de débit « Par cote » d'un meuble bas de 600 × 720 × 560 mm",
     "posle": "Le programme le fait pour chaque caisson de la cuisine dès que tu le poses contre le mur."
   },
-  "niz": {
-    "nadnaslov": "Pièce",
-    "naslov": "Monte la ligne, le programme la termine.",
-    "tekst": "Les caissons s'accrochent entre eux et au mur, et le plan de travail et la plinthe viennent se poser dessus avec la cote totale, sans rien dessiner."
-  },
+  "niz": {"nadnaslov": "Pièce", "naslov": "Monte la ligne, le programme la termine.", "tekst": "Les caissons s'accrochent entre eux et au mur, et le plan de travail et la plinthe viennent se poser dessus avec la cote totale, sans rien dessiner."},
   "mogucnosti": {
+    "1": {"naslov": "Cotes au millimètre", "tekst": "Tape la largeur, la hauteur et la profondeur ou fais glisser le curseur. Les cotes jusqu'au mur, jusqu'au voisin et depuis le sol restent toujours visibles.", "alt": "Un caisson en 3D avec les cotes 600, 720 et 560 mm et des repères jusqu'au mur, jusqu'au voisin et depuis le sol"},
+    "2": {"naslov": "Catalogue au standard", "tekst": "Chaque type de caisson arrive avec sa construction selon le standard européen, System 32.", "s1": "Bas, haut, colonne", "s2": "Sous-évier et four", "s3": "Angle et placard", "s4": "Tiroirs, charnières, pieds"},
+    "3": {"naslov": "« Par cote » pour copier", "tekst": "Les mêmes cotes sur une ligne, par matériau. La première cote est le sens du fil.", "k1": "Cote · mm", "k2": "Ép.", "k3": "Chant", "k4": "Qté", "r1": "1 long", "r3": "2 longs, 2 courts"},
+    "4": {"naslov": "Vrais décors et 3D en direct", "tekst": "Chêne, blanc, marbre ou ton propre décor à partir d'une photo. Ce que tu changes, tu le vois aussitôt, dans une cuisine en 3D que ton client comprend."},
+    "5": {"naslov": "Plinthe, plan de travail et joues, automatiques", "tekst": "Ils se construisent sur les caissons sélectionnés et les suivent quand tu les déplaces."},
+    "6": {"naslov": "Prix par projet", "tekst": "Saisis tes propres prix de panneaux, de chant, de quincaillerie et de main-d'œuvre. Le programme additionne par projet ; le devis, c'est toi qui le fais.", "alt": "Réglages de l'atelier : main-d'œuvre par élément 3000 RSD, marge 20 %"},
+    "7": {"naslov": "Sans internet, sans compte", "tekst": "Un projet, c'est un seul fichier sur ton ordinateur. Envoie-le par e-mail à un collègue."},
     "nadnaslov": "Fonctions",
     "naslov": "Un logiciel de conception qui connaît le métier.",
-    "tekst": "Cuisines, placards sur mesure et meubles. Tu décides des cotes et des décors ; le programme fait la construction et les calculs.",
-    "1": { "naslov": "Cotes au millimètre", "tekst": "Tape la largeur, la hauteur et la profondeur ou fais glisser le curseur. Les cotes jusqu'au mur, jusqu'au voisin et depuis le sol restent toujours visibles.", "alt": "Un caisson en 3D avec les cotes 600, 720 et 560 mm et des repères jusqu'au mur, jusqu'au voisin et depuis le sol" },
-    "2": { "naslov": "Catalogue au standard", "tekst": "Chaque type de caisson arrive avec sa construction selon le standard européen, System 32.", "s1": "Bas, haut, colonne", "s2": "Sous-évier et four", "s3": "Angle et placard", "s4": "Tiroirs, charnières, pieds" },
-    "3": { "naslov": "« Par cote » pour copier", "tekst": "Les mêmes cotes sur une ligne, par matériau. La première cote est le sens du fil.", "k1": "Cote · mm", "k2": "Ép.", "k3": "Chant", "k4": "Qté", "r1": "1 long", "r3": "2 longs, 2 courts" },
-    "4": { "naslov": "Vrais décors et 3D en direct", "tekst": "Chêne, blanc, marbre ou ton propre décor à partir d'une photo. Ce que tu changes, tu le vois aussitôt, dans une cuisine en 3D que ton client comprend." },
-    "5": { "naslov": "Plinthe, plan de travail et joues, automatiques", "tekst": "Ils se construisent sur les caissons sélectionnés et les suivent quand tu les déplaces." },
-    "6": { "naslov": "Prix par projet", "tekst": "Saisis tes propres prix de panneaux, de chant, de quincaillerie et de main-d'œuvre. Le programme additionne par projet ; le devis, c'est toi qui le fais.", "alt": "Réglages de l'atelier : main-d'œuvre par élément 3000 RSD, marge 20 %" },
-    "7": { "naslov": "Sans internet, sans compte", "tekst": "Un projet, c'est un seul fichier sur ton ordinateur. Envoie-le par e-mail à un collègue." }
+    "tekst": "Cuisines, placards sur mesure et meubles. Tu décides des cotes et des décors ; le programme fait la construction et les calculs."
   },
   "galerija": {
+    "1": {"tekst": "Une cuisine en ligne, décor chêne et mélaminé blanc.", "alt": "Une cuisine en ligne avec façades chêne, caissons en mélaminé blanc, sol en stratifié gris"},
+    "2": {"tekst": "Même projet, autre décor : marbre foncé et carrelage.", "alt": "La même cuisine avec façades en marbre foncé et carrelage au mur"},
+    "3": {"tekst": "De près : un caisson, cotes et construction.", "alt": "Gros plan sur un caisson de 600 × 720 × 570 mm avec porte chêne et le panneau des cotes"},
+    "4": {"tekst": "Ouvre les façades et regarde à l'intérieur.", "alt": "Un caisson porte ouverte en 3D montrant la tablette et l'intérieur, avec les cotes jusqu'au mur et au voisin"},
+    "5": {"tekst": "Ton propre décor : ajoute une photo du panneau que tu achètes vraiment.", "alt": "Choix de décors de façade : blanc, gris, beige, noir, bois, béton, marbre, inox et un décor personnalisé"},
+    "6": {"tekst": "Tiroirs avec caisson et coulisses du catalogue.", "alt": "Un meuble bas à trois tiroirs en 3D, avec le panneau des tiroirs et des coulisses"},
     "nadnaslov": "Galerie",
-    "naslov": "Cuisine en 3D, sortie directement du programme.",
-    "1": { "tekst": "Une cuisine en ligne, décor chêne et mélaminé blanc.", "alt": "Une cuisine en ligne avec façades chêne, caissons en mélaminé blanc, sol en stratifié gris" },
-    "2": { "tekst": "Même projet, autre décor : marbre foncé et carrelage.", "alt": "La même cuisine avec façades en marbre foncé et carrelage au mur" },
-    "3": { "tekst": "De près : un caisson, cotes et construction.", "alt": "Gros plan sur un caisson de 600 × 720 × 570 mm avec porte chêne et le panneau des cotes" },
-    "4": { "tekst": "Ouvre les façades et regarde à l'intérieur.", "alt": "Un caisson porte ouverte en 3D montrant la tablette et l'intérieur, avec les cotes jusqu'au mur et au voisin" },
-    "5": { "tekst": "Ton propre décor : ajoute une photo du panneau que tu achètes vraiment.", "alt": "Choix de décors de façade : blanc, gris, beige, noir, bois, béton, marbre, inox et un décor personnalisé" },
-    "6": { "tekst": "Tiroirs avec caisson et coulisses du catalogue.", "alt": "Un meuble bas à trois tiroirs en 3D, avec le panneau des tiroirs et des coulisses" }
+    "naslov": "Cuisine en 3D, sortie directement du programme."
   },
-  "zakoga": {
-    "nadnaslov": "Pour qui",
-    "naslov": "Fait par un menuisier, pour les menuisiers.",
-    "tekst": "TOPICA naît dans un atelier de menuiserie à Belgrade, sur de vrais projets pour de vrais clients. C'est pour ça qu'il n'y a rien d'inutile dedans : seulement ce qui fait passer un artisan plus vite de la prise de cotes au débit.",
-    "uloga": "menuisier et auteur du programme, Belgrade"
-  },
+  "zakoga": {"nadnaslov": "Pour qui", "naslov": "Fait par un menuisier, pour les menuisiers.", "tekst": "TOPICA naît dans un atelier de menuiserie à Belgrade, sur de vrais projets pour de vrais clients. C'est pour ça qu'il n'y a rien d'inutile dedans : seulement ce qui fait passer un artisan plus vite de la prise de cotes au débit.", "uloga": "menuisier et auteur du programme, Belgrade"},
   "cena": {
     "nadnaslov": "Tarif",
     "naslov": "L'essai est gratuit.",
@@ -89,79 +57,22 @@
     "uskoro_tekst": "pour la version complète",
     "tekst": "Essaie le programme sur ton propre projet, sans compte et sans carte. Le prix de la version complète sera annoncé bientôt.",
     "kupi": "Acheter",
-    "obrazac": {
-      "naslov": "Préviens-moi quand le prix sort",
-      "placeholder": "toi@email.com",
-      "dugme": "Prévenez-moi",
-      "predmet": "TOPICA : prévenez-moi quand le prix sera annoncé",
-      "napomena": "Un seul message quand le prix sera annoncé. Pas de pub.",
-      "hvala": "Merci ! On te prévient dès que le prix est annoncé.",
-      "greska": "Ça n'est pas passé. Écris-nous directement à l'e-mail en bas de page."
-    },
+    "obrazac": {"naslov": "Préviens-moi quand le prix sort", "placeholder": "toi@email.com", "dugme": "Prévenez-moi", "predmet": "TOPICA : prévenez-moi quand le prix sera annoncé", "napomena": "Un seul message quand le prix sera annoncé. Pas de pub.", "hvala": "Merci ! On te prévient dès que le prix est annoncé.", "greska": "Ça n'est pas passé. Écris-nous directement à l'e-mail en bas de page."},
     "topi_alt": "Topi, la mascotte de TOPICA, tenant une perceuse et une règle"
   },
   "pitanja": {
+    "1": {"p": "Sur quel Windows ça tourne ?", "o": "Windows 10 et Windows 11, 64 bits. Le programme est petit et rapide ; il tourne sur un portable d'atelier ordinaire."},
+    "2": {"p": "Il faut internet ?", "o": "Non. Le programme fonctionne hors ligne et sans compte. Un projet, c'est un seul fichier sur ton ordinateur."},
+    "3": {"p": "Quels panneaux et matériaux sont pris en charge ?", "o": "Panneau de particules mélaminé de 18 mm pour les caissons et les façades, chant de 0,45 et 1 mm, isorel de 3 mm pour les fonds ; les épaisseurs et les chants se changent dans les réglages de l'atelier. Choisis un décor dans la liste ou ajoute le tien."},
+    "4": {"p": "Qu'est-ce que j'obtiens à la fin ?", "o": "Une liste de débit par caisson et par matériau, la vue « Par cote » pour copier, une liste de quincaillerie, la consommation de panneaux, le prix et l'impression en PDF."},
+    "5": {"p": "En quelles langues ?", "o": "Serbe et anglais. La langue se change dans le programme."},
+    "6": {"p": "Le programme est-il mis à jour ?", "o": "Oui. De nouvelles versions sortent régulièrement, et l'essai peut toujours être retéléchargé depuis cette page."},
     "nadnaslov": "Questions",
-    "naslov": "Ce que les menuisiers demandent avant d'essayer.",
-    "1": { "p": "Sur quel Windows ça tourne ?", "o": "Windows 10 et Windows 11, 64 bits. Le programme est petit et rapide ; il tourne sur un portable d'atelier ordinaire." },
-    "2": { "p": "Il faut internet ?", "o": "Non. Le programme fonctionne hors ligne et sans compte. Un projet, c'est un seul fichier sur ton ordinateur." },
-    "3": { "p": "Quels panneaux et matériaux sont pris en charge ?", "o": "Panneau de particules mélaminé de 18 mm pour les caissons et les façades, chant de 0,45 et 1 mm, isorel de 3 mm pour les fonds ; les épaisseurs et les chants se changent dans les réglages de l'atelier. Choisis un décor dans la liste ou ajoute le tien." },
-    "4": { "p": "Qu'est-ce que j'obtiens à la fin ?", "o": "Une liste de débit par caisson et par matériau, la vue « Par cote » pour copier, une liste de quincaillerie, la consommation de panneaux, le prix et l'impression en PDF." },
-    "5": { "p": "En quelles langues ?", "o": "Serbe et anglais. La langue se change dans le programme." },
-    "6": { "p": "Le programme est-il mis à jour ?", "o": "Oui. De nouvelles versions sortent régulièrement, et l'essai peut toujours être retéléchargé depuis cette page." }
+    "naslov": "Ce que les menuisiers demandent avant d'essayer."
   },
-  "dno": {
-    "naslov": "Essaie-le sur ton prochain projet.",
-    "tekst": "Windows 10/11. Sans compte, sans carte. La liste de débit de ton premier caisson en cinq minutes.",
-    "uslovi": "Conditions d'utilisation",
-    "privatnost": "Confidentialité"
-  },
-  "preuzimanje": {
-    "meta_naslov": "Télécharger l'essai gratuit de TOPICA pour Windows",
-    "meta_opis": "Essai gratuit du logiciel de conception de meubles et de listes de débit. Windows 10/11, 64 bits, sans compte. Installation en trois étapes.",
-    "nadnaslov": "Télécharger",
-    "naslov": "Essai gratuit pour Windows.",
-    "tekst": "Gratuit, sans compte et sans carte. L'installation prend une minute, et en cinq tu as ton premier caisson avec sa liste de débit.",
-    "email_naslov": "Laisse ton e-mail si tu veux (facultatif)",
-    "email_tekst": "On n'envoie que les nouvelles versions et le prix quand il sort. Pas de pub, désinscription en un clic.",
-    "dugme": "Télécharger l'essai gratuit",
-    "datoteka": "TOPICA-essai.exe",
-    "bez_emaila": "Sans e-mail :",
-    "direktno": "télécharger directement",
-    "predmet": "TOPICA : nouveau téléchargement de l'essai",
-    "zahtevi_naslov": "Ce qu'il faut à ton ordinateur",
-    "z1_naslov": "Système", "z1": "Windows 10 ou Windows 11, 64 bits.",
-    "z2_naslov": "Ordinateur", "z2": "Un portable d'atelier ordinaire suffit : 4 Go de mémoire et une carte graphique qui fait tourner la 3D dans un navigateur.",
-    "z3_naslov": "Internet", "z3": "Pas nécessaire. Le programme fonctionne hors ligne et ne crée aucun compte.",
-    "koraci_naslov": "Installation en trois étapes",
-    "k1": "Double-clique sur le fichier téléchargé TOPICA-essai.exe.",
-    "k2": "Si Windows demande si tu fais confiance au programme, clique sur « Informations complémentaires », puis « Exécuter quand même ».",
-    "k3": "Ouvre TOPICA depuis le bureau. Crée ton premier projet : saisis les cotes de la pièce et pose le premier caisson.",
-    "slika_placeholder": "Emplacement pour une capture d'écran de cette étape (ajoutée par le propriétaire)",
-    "upozorenje_naslov": "Avertissement Windows.",
-    "upozorenje": "Le programme n'a pas encore de signature numérique, donc au premier lancement Windows affiche un écran bleu « Windows a protégé votre ordinateur ». C'est normal pour un programme nouveau et non signé : clique sur « Informations complémentaires », puis « Exécuter quand même ». Nous obtenons une signature et l'avertissement disparaîtra.",
-    "pomoc": "Bloqué ? Écris-nous, on répond le jour même."
-  },
-  "hvala": {
-    "meta_naslov": "Merci — l'essai de TOPICA se télécharge",
-    "meta_opis": "Le téléchargement de l'essai de TOPICA a commencé. Trois étapes pour démarrer.",
-    "nadnaslov": "Merci",
-    "naslov": "Le téléchargement a commencé.",
-    "tekst": "S'il n'a pas démarré tout seul :",
-    "koraci_naslov": "Trois étapes pour démarrer",
-    "k1": "Installe le programme (à l'avertissement Windows : « Informations complémentaires », puis « Exécuter quand même »).",
-    "k2": "Crée un nouveau projet et saisis les cotes de la pièce : largeur, profondeur et hauteur sous plafond.",
-    "k3": "Ajoute le premier meuble bas du catalogue et ouvre « Cotes de débit ». C'est ta première liste de débit.",
-    "snimak": "Trois minutes de vidéo : de la pièce à la liste de débit.",
-    "snimak_dugme": "Voir la vidéo"
-  },
-  "blog": {
-    "meta_naslov": "Guides pour menuisiers : liste de débit, System 32, chant, cotes de cuisine — TOPICA",
-    "meta_opis": "Articles courts et pratiques pour les menuisiers agenceurs qui fabriquent des meubles sur mesure en panneaux : lire une liste de débit, System 32, placage de chant, cotes standard des meubles de cuisine.",
-    "nadnaslov": "Guides",
-    "naslov": "La menuiserie sur papier, avant l'atelier.",
-    "tekst": "Des articles courts sur ce que chaque menuisier fait, écrits une fois pour que tu n'aies pas à l'expliquer à chaque fois.",
-    "poziv": "Essaie ça sur ton propre projet."
-  },
-  "clanak": { "citanje": "min de lecture", "objavljeno": "Publié" }
+  "dno": {"naslov": "Essaie-le sur ton prochain projet.", "tekst": "Windows 10/11. Sans compte, sans carte. La liste de débit de ton premier caisson en cinq minutes.", "uslovi": "Conditions d'utilisation", "privatnost": "Confidentialité"},
+  "preuzimanje": {"meta_naslov": "Télécharger l'essai gratuit de TOPICA pour Windows", "meta_opis": "Essai gratuit du logiciel de conception de meubles et de listes de débit. Windows 10/11, 64 bits, sans compte. Installation en trois étapes.", "nadnaslov": "Télécharger", "naslov": "Essai gratuit pour Windows.", "tekst": "Gratuit, sans compte et sans carte. L'installation prend une minute, et en cinq tu as ton premier caisson avec sa liste de débit.", "email_naslov": "Laisse ton e-mail si tu veux (facultatif)", "email_tekst": "On n'envoie que les nouvelles versions et le prix quand il sort. Pas de pub, désinscription en un clic.", "dugme": "Télécharger l'essai gratuit", "datoteka": "TOPICA-essai.exe", "bez_emaila": "Sans e-mail :", "direktno": "télécharger directement", "predmet": "TOPICA : nouveau téléchargement de l'essai", "zahtevi_naslov": "Ce qu'il faut à ton ordinateur", "z1_naslov": "Système", "z1": "Windows 10 ou Windows 11, 64 bits.", "z2_naslov": "Ordinateur", "z2": "Un portable d'atelier ordinaire suffit : 4 Go de mémoire et une carte graphique qui fait tourner la 3D dans un navigateur.", "z3_naslov": "Internet", "z3": "Pas nécessaire. Le programme fonctionne hors ligne et ne crée aucun compte.", "koraci_naslov": "Installation en trois étapes", "k1": "Double-clique sur le fichier téléchargé TOPICA-essai.exe.", "k2": "Si Windows demande si tu fais confiance au programme, clique sur « Informations complémentaires », puis « Exécuter quand même ».", "k3": "Ouvre TOPICA depuis le bureau. Crée ton premier projet : saisis les cotes de la pièce et pose le premier caisson.", "slika_placeholder": "Emplacement pour une capture d'écran de cette étape (ajoutée par le propriétaire)", "upozorenje_naslov": "Avertissement Windows.", "upozorenje": "Le programme n'a pas encore de signature numérique, donc au premier lancement Windows affiche un écran bleu « Windows a protégé votre ordinateur ». C'est normal pour un programme nouveau et non signé : clique sur « Informations complémentaires », puis « Exécuter quand même ». Nous obtenons une signature et l'avertissement disparaîtra.", "pomoc": "Bloqué ? Écris-nous, on répond le jour même."},
+  "hvala": {"meta_naslov": "Merci — l'essai de TOPICA se télécharge", "meta_opis": "Le téléchargement de l'essai de TOPICA a commencé. Trois étapes pour démarrer.", "nadnaslov": "Merci", "naslov": "Le téléchargement a commencé.", "tekst": "S'il n'a pas démarré tout seul :", "koraci_naslov": "Trois étapes pour démarrer", "k1": "Installe le programme (à l'avertissement Windows : « Informations complémentaires », puis « Exécuter quand même »).", "k2": "Crée un nouveau projet et saisis les cotes de la pièce : largeur, profondeur et hauteur sous plafond.", "k3": "Ajoute le premier meuble bas du catalogue et ouvre « Cotes de débit ». C'est ta première liste de débit.", "snimak": "Trois minutes de vidéo : de la pièce à la liste de débit.", "snimak_dugme": "Voir la vidéo"},
+  "blog": {"meta_naslov": "Guides pour menuisiers : liste de débit, System 32, chant, cotes de cuisine — TOPICA", "meta_opis": "Articles courts et pratiques pour les menuisiers agenceurs qui fabriquent des meubles sur mesure en panneaux : lire une liste de débit, System 32, placage de chant, cotes standard des meubles de cuisine.", "nadnaslov": "Guides", "naslov": "La menuiserie sur papier, avant l'atelier.", "tekst": "Des articles courts sur ce que chaque menuisier fait, écrits une fois pour que tu n'aies pas à l'expliquer à chaque fois.", "poziv": "Essaie ça sur ton propre projet."},
+  "clanak": {"citanje": "min de lecture", "objavljeno": "Publié"}
 }

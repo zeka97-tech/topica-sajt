@@ -10,9 +10,9 @@ Hello,
 
 I'm a cabinet maker from Belgrade and I've built TOPICA, a program for designing panel furniture: a student draws the room, places cabinets from a catalog built to the European standard (System 32, edge banding, hinges, drawers), and the program immediately shows 3D, a millimetre-exact cut list, a hardware list and a price. It runs on Windows, offline. The interface is in Serbian and English.
 
-I'd like to offer your school/association a free licence for teaching, with no expiry, for every computer in the classroom. In return I'd only ask for feedback from teachers and students: what's unclear, what's missing, where it gets things wrong. I'm happy to show the program live for one lesson, in person or over a video call.
+I'm offering your school/association a free licence for teaching, with no expiry, for every computer in the classroom. In return I'd only ask for feedback from teachers and students: what's unclear, what's missing, where it gets things wrong. I'm happy to show it live for one lesson, in person or by video call.
 
-The trial is on the website: [link]. If this sounds interesting, reply to this e-mail or give me a call.
+The trial is on the website: [link]. If you're interested, reply to this e-mail or call me.
 
 Kind regards,
 [Full name], cabinet maker, Belgrade · [phone] · [link]

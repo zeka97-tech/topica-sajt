@@ -1,87 +1,55 @@
 {
-  "_jezik": { "ime": "Hrvatski", "status": "pun", "proverio": "" },
-  "meta": {
-    "naslov": "TOPICA — program za kuhinje po mjeri i krojnu listu, napravljen za stolare",
-    "opis": "TOPICA je program za stolare na Windowsima: nacrtaš prostoriju, složiš korpuse iz kataloga, a program sam da 3D, krojnu listu u milimetar, okov i cijenu. Probna verzija je besplatna.",
-    "og_naslov": "TOPICA — od prostora do krojne liste",
-    "og_opis": "Program za stolare: prostorija, korpusi iz kataloga, 3D, krojna lista u milimetar i cijena. Probna verzija besplatna.",
-    "og_alt": "Maskota Topi mjeri korpus pokraj natpisa TOPICA — od prostora do krojne liste",
-    "ld_opis": "Windows program za projektiranje pločastog namještaja po mjeri (kuhinje, ormari, komode) za stolarske radionice: prostorija u 3D, korpusi iz kataloga po europskom standardu, krojna lista u milimetar, okov i cijena."
-  },
-  "a11y": { "preskoci": "Prijeđi na sadržaj", "logo": "TOPICA, početna stranica", "navigacija": "Glavna navigacija", "jezik": "Odabir jezika", "meni": "Izbornik" },
-  "nav": { "kako": "Kako radi", "mogucnosti": "Mogućnosti", "galerija": "Galerija", "cena": "Cijena", "pitanja": "Pitanja", "blog": "Savjeti", "preuzimanje": "Preuzimanje" },
-  "cta": { "glavno": "Preuzmi probnu verziju", "kratko": "Preuzmi" },
-  "jezik": {
-    "napomena_program": "Program je danas na srpskom i engleskom. Hrvatski dolazi.",
-    "predlog_tekst": "Ova stranica postoji i na hrvatskom.",
-    "predlog_dugme": "Prijeđi na hrvatski"
-  },
-  "hero": {
-    "naslov": "Od prostora do krojne liste.",
-    "tekst": "TOPICA je program za kuhinje i ormare po mjeri, napravljen za stolare: nacrtaš prostoriju, složiš korpuse uz zid, a program sam zna konstrukciju i odmah daje 3D, krojnu listu u milimetar, okov i cijenu.",
-    "saznaj": "Pogledaj kako radi",
-    "sitno": "Windows 10/11 · srpski i engleski · probna verzija je besplatna",
-    "topi_alt": "Topi, plišana maskota programa TOPICA, metrom mjeri donji kuhinjski korpus s otvorenim vratima",
-    "prozor_alt": "TOPICA, 3D prikaz kuhinje u prostoriji: donji i gornji korpusi s hrastovim frontama uz zid, s mjerama donjeg niza 3200 mm i slobodnog prostora 400 mm"
-  },
+  "_jezik": {"ime": "Hrvatski", "status": "pun", "proverio": ""},
+  "meta": {"naslov": "TOPICA — program za kuhinje po mjeri i krojnu listu, napravljen za stolare", "opis": "TOPICA je program za stolare na Windowsima: nacrtaš prostoriju, složiš korpuse iz kataloga, a program sam da 3D, krojnu listu u milimetar, okov i cijenu. Probna verzija je besplatna.", "og_naslov": "TOPICA — od prostora do krojne liste", "og_opis": "Program za stolare: prostorija, korpusi iz kataloga, 3D, krojna lista u milimetar i cijena. Probna verzija besplatna.", "og_alt": "Maskota Topi mjeri korpus pokraj natpisa TOPICA — od prostora do krojne liste", "ld_opis": "Windows program za projektiranje pločastog namještaja po mjeri (kuhinje, ormari, komode) za stolarske radionice: prostorija u 3D, korpusi iz kataloga po europskom standardu, krojna lista u milimetar, okov i cijena."},
+  "a11y": {"preskoci": "Prijeđi na sadržaj", "logo": "TOPICA, početna stranica", "navigacija": "Glavna navigacija", "jezik": "Odabir jezika", "meni": "Izbornik"},
+  "nav": {"kako": "Kako radi", "mogucnosti": "Mogućnosti", "galerija": "Galerija", "cena": "Cijena", "pitanja": "Pitanja", "blog": "Savjeti", "preuzimanje": "Preuzimanje"},
+  "cta": {"glavno": "Preuzmi probnu verziju", "kratko": "Preuzmi"},
+  "jezik": {"napomena_program": "Program je danas na srpskom i engleskom. Hrvatski dolazi.", "predlog_tekst": "Ova stranica postoji i na hrvatskom.", "predlog_dugme": "Prijeđi na hrvatski"},
+  "hero": {"naslov": "Od prostora do krojne liste.", "tekst": "TOPICA je program za kuhinje i ormare po mjeri, napravljen za stolare: nacrtaš prostoriju, složiš korpuse uz zid, a program sam zna konstrukciju i odmah daje 3D, krojnu listu u milimetar, okov i cijenu.", "saznaj": "Pogledaj kako radi", "sitno": "Windows 10/11 · srpski i engleski · probna verzija je besplatna", "topi_alt": "Topi, plišana maskota programa TOPICA, metrom mjeri donji kuhinjski korpus s otvorenim vratima", "prozor_alt": "TOPICA, 3D prikaz kuhinje u prostoriji: donji i gornji korpusi s hrastovim frontama uz zid, s mjerama donjeg niza 3200 mm i slobodnog prostora 400 mm"},
   "cinjenice": {
-    "naslov": "Zašto program za stolare, a ne alat za crtanje",
-    "1": { "naslov": "Mjere u milimetar", "tekst": "Svaki dio dobiva točnu mjeru iz stvarne konstrukcije korpusa, a ne iz crteža odoka." },
-    "2": { "naslov": "Europski standard, sustav 32", "tekst": "Korpus bez okvira, rubna traka, šarke s lončićem 35 mm, ladice i sokl po katalogu. Ništa ne podešavaš iznova." },
-    "3": { "naslov": "Krojna lista spremna za kopiranje", "tekst": "Iste mjere u jednom retku, grupirane po materijalu. Kopiraj i pošalji na rezanje." }
+    "1": {"naslov": "Mjere u milimetar", "tekst": "Svaki dio dobiva točnu mjeru iz stvarne konstrukcije korpusa, a ne iz crteža odoka."},
+    "2": {"naslov": "Europski standard, sustav 32", "tekst": "Korpus bez okvira, rubna traka, šarke s lončićem 35 mm, ladice i sokl po katalogu. Ništa ne podešavaš iznova."},
+    "3": {"naslov": "Krojna lista spremna za kopiranje", "tekst": "Iste mjere u jednom retku, grupirane po materijalu. Kopiraj i pošalji na rezanje."},
+    "naslov": "Zašto program za stolare, a ne alat za crtanje"
   },
   "kako": {
+    "1": {"naslov": "Nacrtaj prostoriju", "tekst": "Upiši zidove, visinu stropa, prozor i instalacije. Prostorija je odmah u 3D, s podom i zidovima kakve kupac stvarno ima.", "alt": "TOPICA, korak 1: prostorija 3600 × 3000 mm s odabirom poda i zidova, sivi laminat i pločice iza kuhinje"},
+    "2": {"naslov": "Složi korpuse iz kataloga", "tekst": "Donji, gornji, visoki, sudoper, pećnica, kutni. Prislone se uz zid i uz susjeda, a mjere mijenjaš uživo, u milimetar.", "alt": "TOPICA, korak 2: donji korpus s vratima 600 × 720 × 560 mm uz zid, s kotama do susjeda i panelom svojstava"},
+    "3": {"naslov": "Pročitaj krojnu listu i cijenu", "tekst": "Program sam zna konstrukciju: bokove, dno, prečke, leđa, frontu. Krojna lista, okov i cijena uvijek su ažurni, bez naredbe „preračunaj“.", "alt": "TOPICA, korak 3: krojna lista „Po mjeri“ za jedan korpus, 8 dijelova grupiranih po materijalu s mjerama, debljinom, rubnom trakom i cijenom"},
     "nadnaslov": "Kako radi",
-    "naslov": "Tri koraka do krojne liste.",
-    "1": { "naslov": "Nacrtaj prostoriju", "tekst": "Upiši zidove, visinu stropa, prozor i instalacije. Prostorija je odmah u 3D, s podom i zidovima kakve kupac stvarno ima.", "alt": "TOPICA, korak 1: prostorija 3600 × 3000 mm s odabirom poda i zidova, sivi laminat i pločice iza kuhinje" },
-    "2": { "naslov": "Složi korpuse iz kataloga", "tekst": "Donji, gornji, visoki, sudoper, pećnica, kutni. Prislone se uz zid i uz susjeda, a mjere mijenjaš uživo, u milimetar.", "alt": "TOPICA, korak 2: donji korpus s vratima 600 × 720 × 560 mm uz zid, s kotama do susjeda i panelom svojstava" },
-    "3": { "naslov": "Pročitaj krojnu listu i cijenu", "tekst": "Program sam zna konstrukciju: bokove, dno, prečke, leđa, frontu. Krojna lista, okov i cijena uvijek su ažurni, bez naredbe „preračunaj“.", "alt": "TOPICA, korak 3: krojna lista „Po mjeri“ za jedan korpus, 8 dijelova grupiranih po materijalu s mjerama, debljinom, rubnom trakom i cijenom" }
+    "naslov": "Tri koraka do krojne liste."
   },
   "korpus": {
     "naslov": "Jedan korpus. Svaki dio u milimetar.",
-    "natpis": {
-      "1": "Donji korpus 600 × 720 × 560 mm, kakav se radi u svakoj radionici.",
-      "2": "Program ga rastavi na dijelove i svakome da točnu mjeru, s rubnom trakom i debljinom.",
-      "3": "Dijelovi legnu na ploču kao plan rezanja: bijela iverica, dekor hrast, lesonit.",
-      "4": "A krojna lista „Po mjeri“ spremna je za kopiranje i slanje na rezanje."
-    },
-    "daska": { "bok": "Bok", "dno": "Dno", "polica": "Polica", "precka": "Prečka", "front": "Fronta", "ledja": "Leđa" },
+    "natpis": {"1": "Donji korpus 600 × 720 × 560 mm, kakav se radi u svakoj radionici.", "2": "Program ga rastavi na dijelove i svakome da točnu mjeru, s rubnom trakom i debljinom.", "3": "Dijelovi legnu na ploču kao plan rezanja: bijela iverica, dekor hrast, lesonit.", "4": "A krojna lista „Po mjeri“ spremna je za kopiranje i slanje na rezanje."},
+    "daska": {"bok": "Bok", "dno": "Dno", "polica": "Polica", "precka": "Prečka", "front": "Fronta", "ledja": "Leđa"},
     "noscript_alt": "TOPICA, krojna lista „Po mjeri“ za donji korpus 600 × 720 × 560 mm",
     "posle": "Ovo program napravi za svaki korpus u kuhinji, čim ga spustiš uz zid."
   },
-  "niz": {
-    "nadnaslov": "Prostorija",
-    "naslov": "Složi niz, program dovrši.",
-    "tekst": "Korpusi se prislone jedan uz drugi i uz zid, a radna ploča i sokl legnu preko njih s ukupnom mjerom, bez crtanja."
-  },
+  "niz": {"nadnaslov": "Prostorija", "naslov": "Složi niz, program dovrši.", "tekst": "Korpusi se prislone jedan uz drugi i uz zid, a radna ploča i sokl legnu preko njih s ukupnom mjerom, bez crtanja."},
   "mogucnosti": {
+    "1": {"naslov": "Mjere u milimetar", "tekst": "Širinu, visinu i dubinu upisuješ ili vučeš klizačem. Kote do zida, do susjeda i od poda stalno su vidljive.", "alt": "Korpus u 3D s kotama 600, 720 i 560 mm i oznakama do zida, do susjeda i od poda"},
+    "2": {"naslov": "Katalog po standardu", "tekst": "Svaki tip korpusa dolazi s konstrukcijom po europskom standardu, sustav 32.", "s1": "Donji, gornji, visoki", "s2": "Sudoper i pećnica", "s3": "Kutni i ormar", "s4": "Ladice, šarke, nožice"},
+    "3": {"naslov": "„Po mjeri“ za kopiranje", "tekst": "Iste mjere u jednom retku, po materijalu. Prva mjera je smjer vlakana.", "k1": "Mjera · mm", "k2": "Deb.", "k3": "Rub", "k4": "Kom", "r1": "1 duža", "r3": "2 duže, 2 kraće"},
+    "4": {"naslov": "Pravi dekori i 3D uživo", "tekst": "Hrast, bijela, mramor ili tvoj dekor sa slike. Što promijeniš, odmah vidiš, u dizajnu kuhinje u 3D koji kupac razumije."},
+    "5": {"naslov": "Sokl, radna ploča i završne stranice same", "tekst": "Nastaju preko odabranih korpusa i putuju s njima kad ih pomakneš."},
+    "6": {"naslov": "Cijena po projektu", "tekst": "Upiši svoje cijene ploča, rubne trake, okova i rada. Program zbraja po projektu, ti daješ ponudu.", "alt": "Postavke radionice: rad po elementu 3000 RSD, marža 20 %"},
+    "7": {"naslov": "Bez interneta, bez računa", "tekst": "Projekt je jedna datoteka na tvom računalu. Pošalji je e-mailom kolegi."},
     "nadnaslov": "Mogućnosti",
     "naslov": "Program za dizajn namještaja koji zna stolariju.",
-    "tekst": "Kuhinje, ormari po mjeri i komode. Ti odlučuješ o mjerama i dekoru, konstrukciju i obračun radi program.",
-    "1": { "naslov": "Mjere u milimetar", "tekst": "Širinu, visinu i dubinu upisuješ ili vučeš klizačem. Kote do zida, do susjeda i od poda stalno su vidljive.", "alt": "Korpus u 3D s kotama 600, 720 i 560 mm i oznakama do zida, do susjeda i od poda" },
-    "2": { "naslov": "Katalog po standardu", "tekst": "Svaki tip korpusa dolazi s konstrukcijom po europskom standardu, sustav 32.", "s1": "Donji, gornji, visoki", "s2": "Sudoper i pećnica", "s3": "Kutni i ormar", "s4": "Ladice, šarke, nožice" },
-    "3": { "naslov": "„Po mjeri“ za kopiranje", "tekst": "Iste mjere u jednom retku, po materijalu. Prva mjera je smjer vlakana.", "k1": "Mjera · mm", "k2": "Deb.", "k3": "Rub", "k4": "Kom", "r1": "1 duža", "r3": "2 duže, 2 kraće" },
-    "4": { "naslov": "Pravi dekori i 3D uživo", "tekst": "Hrast, bijela, mramor ili tvoj dekor sa slike. Što promijeniš, odmah vidiš, u dizajnu kuhinje u 3D koji kupac razumije." },
-    "5": { "naslov": "Sokl, radna ploča i završne stranice same", "tekst": "Nastaju preko odabranih korpusa i putuju s njima kad ih pomakneš." },
-    "6": { "naslov": "Cijena po projektu", "tekst": "Upiši svoje cijene ploča, rubne trake, okova i rada. Program zbraja po projektu, ti daješ ponudu.", "alt": "Postavke radionice: rad po elementu 3000 RSD, marža 20 %" },
-    "7": { "naslov": "Bez interneta, bez računa", "tekst": "Projekt je jedna datoteka na tvom računalu. Pošalji je e-mailom kolegi." }
+    "tekst": "Kuhinje, ormari po mjeri i komode. Ti odlučuješ o mjerama i dekoru, konstrukciju i obračun radi program."
   },
   "galerija": {
+    "1": {"tekst": "Kuhinja u nizu, dekor hrast i bijela iverica.", "alt": "Kuhinja u nizu s hrastovim frontama, bijela iverica korpusa, sivi laminat na podu"},
+    "2": {"tekst": "Isti projekt, drugi dekor: tamni mramor i pločice.", "alt": "Ista kuhinja s frontama u tamnom mramoru i pločicama na zidu"},
+    "3": {"tekst": "Krupni prikaz: jedan korpus, mjere i konstrukcija.", "alt": "Krupni prikaz jednog korpusa 600 × 720 × 570 mm s hrastovim vratima i panelom mjera"},
+    "4": {"tekst": "Otvori fronte i pogledaj unutra.", "alt": "Korpus s otvorenim vratima u 3D, vide se polica i unutrašnjost, kote do zida i do susjeda"},
+    "5": {"tekst": "Vlastiti dekor: dodaj sliku ploče koju stvarno kupuješ.", "alt": "Odabir dekora fronte: bijela, siva, bež, crna, drvo, beton, mramor, inox i vlastiti dekor"},
+    "6": {"tekst": "Ladice s kutijom i vodilicama po katalogu.", "alt": "Donji korpus s tri ladice u 3D, s panelom za ladice i vodilice"},
     "nadnaslov": "Galerija",
-    "naslov": "Dizajn kuhinje u 3D, iz programa.",
-    "1": { "tekst": "Kuhinja u nizu, dekor hrast i bijela iverica.", "alt": "Kuhinja u nizu s hrastovim frontama, bijela iverica korpusa, sivi laminat na podu" },
-    "2": { "tekst": "Isti projekt, drugi dekor: tamni mramor i pločice.", "alt": "Ista kuhinja s frontama u tamnom mramoru i pločicama na zidu" },
-    "3": { "tekst": "Krupni prikaz: jedan korpus, mjere i konstrukcija.", "alt": "Krupni prikaz jednog korpusa 600 × 720 × 570 mm s hrastovim vratima i panelom mjera" },
-    "4": { "tekst": "Otvori fronte i pogledaj unutra.", "alt": "Korpus s otvorenim vratima u 3D, vide se polica i unutrašnjost, kote do zida i do susjeda" },
-    "5": { "tekst": "Vlastiti dekor: dodaj sliku ploče koju stvarno kupuješ.", "alt": "Odabir dekora fronte: bijela, siva, bež, crna, drvo, beton, mramor, inox i vlastiti dekor" },
-    "6": { "tekst": "Ladice s kutijom i vodilicama po katalogu.", "alt": "Donji korpus s tri ladice u 3D, s panelom za ladice i vodilice" }
+    "naslov": "Dizajn kuhinje u 3D, iz programa."
   },
-  "zakoga": {
-    "nadnaslov": "Za koga",
-    "naslov": "Radi ga stolar, za stolare.",
-    "tekst": "TOPICA nastaje u stolarskoj radionici u Beogradu, uz prave projekte i prave kupce. Zato u njoj nema ničega suvišnog: samo ono što majstoru treba da brže stigne od mjere do rezanja.",
-    "uloga": "stolar i autor programa, Beograd"
-  },
+  "zakoga": {"nadnaslov": "Za koga", "naslov": "Radi ga stolar, za stolare.", "tekst": "TOPICA nastaje u stolarskoj radionici u Beogradu, uz prave projekte i prave kupce. Zato u njoj nema ničega suvišnog: samo ono što majstoru treba da brže stigne od mjere do rezanja.", "uloga": "stolar i autor programa, Beograd"},
   "cena": {
     "nadnaslov": "Cijena",
     "naslov": "Probna verzija je besplatna.",
@@ -89,79 +57,22 @@
     "uskoro_tekst": "za punu verziju",
     "tekst": "Isprobaj program na svom projektu, bez računa i bez kartice. Cijenu pune verzije objavljujemo uskoro.",
     "kupi": "Kupi",
-    "obrazac": {
-      "naslov": "Javi mi kad izađe cijena",
-      "placeholder": "tvoj@email.com",
-      "dugme": "Javi mi",
-      "predmet": "TOPICA: javi mi kad izađe cijena",
-      "napomena": "Samo jedna poruka kad cijena bude objavljena. Bez reklama.",
-      "hvala": "Hvala! Javit ćemo ti čim cijena bude objavljena.",
-      "greska": "Nije uspjelo. Piši nam izravno na e-mail iz podnožja."
-    },
+    "obrazac": {"naslov": "Javi mi kad izađe cijena", "placeholder": "tvoj@email.com", "dugme": "Javi mi", "predmet": "TOPICA: javi mi kad izađe cijena", "napomena": "Samo jedna poruka kad cijena bude objavljena. Bez reklama.", "hvala": "Hvala! Javit ćemo ti čim cijena bude objavljena.", "greska": "Nije uspjelo. Piši nam izravno na e-mail iz podnožja."},
     "topi_alt": "Topi, maskota programa TOPICA, drži bušilicu i ravnalo"
   },
   "pitanja": {
+    "1": {"p": "Na kojem Windowsu radi?", "o": "Na Windowsima 10 i 11, 64-bitnim. Program je malen i brz; radi i na običnom laptopu u radionici."},
+    "2": {"p": "Treba li internet?", "o": "Ne. Program radi bez interneta i bez korisničkog računa. Projekt je jedna datoteka na tvom računalu."},
+    "3": {"p": "Koje ploče i materijale podržava?", "o": "Ivericu 18 mm za korpus i frontu, rubnu traku 0,45 i 1 mm, lesonit 3 mm za leđa, a debljine i rubnu traku mijenjaš u postavkama radionice. Dekor biraš iz ponude ili dodaš vlastiti."},
+    "4": {"p": "Što dobivam na kraju?", "o": "Krojnu listu po korpusu i po materijalu, prikaz „Po mjeri“ za kopiranje, popis okova, utrošak ploča, cijenu i ispis u PDF."},
+    "5": {"p": "Na kojem je jeziku?", "o": "Na srpskom i engleskom. Jezik mijenjaš u programu. Hrvatski dolazi."},
+    "6": {"p": "Ažurira li se program?", "o": "Da. Nove verzije izlaze redovito, a probna verzija uvijek se može ponovno preuzeti s ove stranice."},
     "nadnaslov": "Pitanja",
-    "naslov": "Što stolari pitaju prije probe.",
-    "1": { "p": "Na kojem Windowsu radi?", "o": "Na Windowsima 10 i 11, 64-bitnim. Program je malen i brz; radi i na običnom laptopu u radionici." },
-    "2": { "p": "Treba li internet?", "o": "Ne. Program radi bez interneta i bez korisničkog računa. Projekt je jedna datoteka na tvom računalu." },
-    "3": { "p": "Koje ploče i materijale podržava?", "o": "Ivericu 18 mm za korpus i frontu, rubnu traku 0,45 i 1 mm, lesonit 3 mm za leđa, a debljine i rubnu traku mijenjaš u postavkama radionice. Dekor biraš iz ponude ili dodaš vlastiti." },
-    "4": { "p": "Što dobivam na kraju?", "o": "Krojnu listu po korpusu i po materijalu, prikaz „Po mjeri“ za kopiranje, popis okova, utrošak ploča, cijenu i ispis u PDF." },
-    "5": { "p": "Na kojem je jeziku?", "o": "Na srpskom i engleskom. Jezik mijenjaš u programu. Hrvatski dolazi." },
-    "6": { "p": "Ažurira li se program?", "o": "Da. Nove verzije izlaze redovito, a probna verzija uvijek se može ponovno preuzeti s ove stranice." }
+    "naslov": "Što stolari pitaju prije probe."
   },
-  "dno": {
-    "naslov": "Isprobaj na svom sljedećem projektu.",
-    "tekst": "Windows 10/11. Bez računa, bez kartice. Krojna lista za prvi korpus za pet minuta.",
-    "uslovi": "Uvjeti korištenja",
-    "privatnost": "Privatnost"
-  },
-  "preuzimanje": {
-    "meta_naslov": "Preuzmi probnu verziju programa TOPICA za Windows",
-    "meta_opis": "Besplatna probna verzija programa za kuhinje po mjeri i krojnu listu. Windows 10/11, 64-bitni, bez računa. Tri koraka instalacije.",
-    "nadnaslov": "Preuzimanje",
-    "naslov": "Probna verzija za Windows.",
-    "tekst": "Besplatno, bez računa i bez kartice. Instalacija traje minutu, a prvi korpus s krojnom listom imaš za pet.",
-    "email_naslov": "Ostavi e-mail ako želiš (nije obavezno)",
-    "email_tekst": "Javljamo ti samo nove verzije i cijenu kad izađe. Bez reklama, odjava jednim klikom.",
-    "dugme": "Preuzmi probnu verziju",
-    "datoteka": "TOPICA-proba.exe",
-    "bez_emaila": "Bez e-maila:",
-    "direktno": "preuzmi izravno",
-    "predmet": "TOPICA: novo preuzimanje probne verzije",
-    "zahtevi_naslov": "Što treba računalu",
-    "z1_naslov": "Sustav", "z1": "Windows 10 ili Windows 11, 64-bitni.",
-    "z2_naslov": "Računalo", "z2": "Običan laptop iz radionice je dovoljan: 4 GB memorije i grafika koja vrti 3D u pregledniku.",
-    "z3_naslov": "Internet", "z3": "Ne treba. Program radi bez interneta i ne otvara korisnički račun.",
-    "koraci_naslov": "Instalacija u tri koraka",
-    "k1": "Pokreni preuzetu datoteku TOPICA-proba.exe dvoklikom.",
-    "k2": "Ako Windows pita vjeruješ li programu, klikni „Dodatne informacije“, pa „Svejedno pokreni“.",
-    "k3": "Otvori TOPICA s radne površine. Napravi prvi projekt: upiši mjere prostorije i spusti prvi korpus.",
-    "slika_placeholder": "Mjesto za snimku zaslona ovog koraka (vlasnik dodaje)",
-    "upozorenje_naslov": "Upozorenje Windowsa.",
-    "upozorenje": "Program još nema digitalni potpis, pa Windows pri prvom pokretanju pokaže plavi prozor „Windows je zaštitio vaše računalo“. To je uobičajeno za nove, nepotpisane programe: klikni „Dodatne informacije“, pa „Svejedno pokreni“. Potpis nabavljamo i upozorenje će nestati.",
-    "pomoc": "Zapelo? Piši nam, odgovaramo isti dan."
-  },
-  "hvala": {
-    "meta_naslov": "Hvala — probna verzija programa TOPICA se preuzima",
-    "meta_opis": "Preuzimanje probne verzije programa TOPICA je počelo. Tri koraka za početak.",
-    "nadnaslov": "Hvala",
-    "naslov": "Preuzimanje je počelo.",
-    "tekst": "Ako nije krenulo samo:",
-    "koraci_naslov": "Tri koraka za početak",
-    "k1": "Instaliraj program (kod upozorenja Windowsa: „Dodatne informacije“, pa „Svejedno pokreni“).",
-    "k2": "Napravi novi projekt i upiši mjere prostorije: širinu, dubinu i visinu stropa.",
-    "k3": "Dodaj prvi donji korpus iz kataloga i otvori „Krojne mjere“. To je tvoja prva krojna lista.",
-    "snimak": "Tri minute snimke: od prostorije do krojne liste.",
-    "snimak_dugme": "Pogledaj snimku"
-  },
-  "blog": {
-    "meta_naslov": "Savjeti za stolare: krojna lista, sustav 32, rubna traka, mjere kuhinje — TOPICA",
-    "meta_opis": "Kratki stručni tekstovi za stolare koji rade pločasti namještaj po mjeri: kako se čita krojna lista (lista rezanja), sustav 32, rubna traka, mjere kuhinjskih elemenata.",
-    "nadnaslov": "Savjeti",
-    "naslov": "Stolarija na papiru, prije nego u radionici.",
-    "tekst": "Kratki tekstovi o stvarima koje svaki majstor radi, zapisani jednom da ih ne moraš objašnjavati svaki put.",
-    "poziv": "Isprobaj ovo na svom projektu."
-  },
-  "clanak": { "citanje": "min čitanja", "objavljeno": "Objavljeno" }
+  "dno": {"naslov": "Isprobaj na svom sljedećem projektu.", "tekst": "Windows 10/11. Bez računa, bez kartice. Krojna lista za prvi korpus za pet minuta.", "uslovi": "Uvjeti korištenja", "privatnost": "Privatnost"},
+  "preuzimanje": {"meta_naslov": "Preuzmi probnu verziju programa TOPICA za Windows", "meta_opis": "Besplatna probna verzija programa za kuhinje po mjeri i krojnu listu. Windows 10/11, 64-bitni, bez računa. Tri koraka instalacije.", "nadnaslov": "Preuzimanje", "naslov": "Probna verzija za Windows.", "tekst": "Besplatno, bez računa i bez kartice. Instalacija traje minutu, a prvi korpus s krojnom listom imaš za pet.", "email_naslov": "Ostavi e-mail ako želiš (nije obavezno)", "email_tekst": "Javljamo ti samo nove verzije i cijenu kad izađe. Bez reklama, odjava jednim klikom.", "dugme": "Preuzmi probnu verziju", "datoteka": "TOPICA-proba.exe", "bez_emaila": "Bez e-maila:", "direktno": "preuzmi izravno", "predmet": "TOPICA: novo preuzimanje probne verzije", "zahtevi_naslov": "Što treba računalu", "z1_naslov": "Sustav", "z1": "Windows 10 ili Windows 11, 64-bitni.", "z2_naslov": "Računalo", "z2": "Običan laptop iz radionice je dovoljan: 4 GB memorije i grafika koja vrti 3D u pregledniku.", "z3_naslov": "Internet", "z3": "Ne treba. Program radi bez interneta i ne otvara korisnički račun.", "koraci_naslov": "Instalacija u tri koraka", "k1": "Pokreni preuzetu datoteku TOPICA-proba.exe dvoklikom.", "k2": "Ako Windows pita vjeruješ li programu, klikni „Dodatne informacije“, pa „Svejedno pokreni“.", "k3": "Otvori TOPICA s radne površine. Napravi prvi projekt: upiši mjere prostorije i spusti prvi korpus.", "slika_placeholder": "Mjesto za snimku zaslona ovog koraka (vlasnik dodaje)", "upozorenje_naslov": "Upozorenje Windowsa.", "upozorenje": "Program još nema digitalni potpis, pa Windows pri prvom pokretanju pokaže plavi prozor „Windows je zaštitio vaše računalo“. To je uobičajeno za nove, nepotpisane programe: klikni „Dodatne informacije“, pa „Svejedno pokreni“. Potpis nabavljamo i upozorenje će nestati.", "pomoc": "Zapelo? Piši nam, odgovaramo isti dan."},
+  "hvala": {"meta_naslov": "Hvala — probna verzija programa TOPICA se preuzima", "meta_opis": "Preuzimanje probne verzije programa TOPICA je počelo. Tri koraka za početak.", "nadnaslov": "Hvala", "naslov": "Preuzimanje je počelo.", "tekst": "Ako nije krenulo samo:", "koraci_naslov": "Tri koraka za početak", "k1": "Instaliraj program (kod upozorenja Windowsa: „Dodatne informacije“, pa „Svejedno pokreni“).", "k2": "Napravi novi projekt i upiši mjere prostorije: širinu, dubinu i visinu stropa.", "k3": "Dodaj prvi donji korpus iz kataloga i otvori „Krojne mjere“. To je tvoja prva krojna lista.", "snimak": "Tri minute snimke: od prostorije do krojne liste.", "snimak_dugme": "Pogledaj snimku"},
+  "blog": {"meta_naslov": "Savjeti za stolare: krojna lista, sustav 32, rubna traka, mjere kuhinje — TOPICA", "meta_opis": "Kratki stručni tekstovi za stolare koji rade pločasti namještaj po mjeri: kako se čita krojna lista (lista rezanja), sustav 32, rubna traka, mjere kuhinjskih elemenata.", "nadnaslov": "Savjeti", "naslov": "Stolarija na papiru, prije nego u radionici.", "tekst": "Kratki tekstovi o stvarima koje svaki majstor radi, zapisani jednom da ih ne moraš objašnjavati svaki put.", "poziv": "Isprobaj ovo na svom projektu."},
+  "clanak": {"citanje": "min čitanja", "objavljeno": "Objavljeno"}
 }

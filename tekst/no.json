@@ -1,87 +1,55 @@
 {
-  "_jezik": { "ime": "Norsk", "status": "za-proveru", "proverio": "" },
-  "meta": {
-    "naslov": "TOPICA — tegneprogram for kjøkken og kappliste, laget for snekkere",
-    "opis": "TOPICA er et kjøkkentegneprogram for snekkere på Windows: tegn rommet, sett inn skrog fra katalogen, og få 3D, en kappliste på millimeteren, beslag og pris. Gratis prøveversjon.",
-    "og_naslov": "TOPICA — fra rommet til kapplisten",
-    "og_opis": "Program for møbelsnekkere: rom, skrog fra katalogen, 3D, kappliste på millimeteren og pris. Gratis prøveversjon.",
-    "og_alt": "Maskoten Topi måler et skrog ved siden av teksten TOPICA — fra rommet til kapplisten",
-    "ld_opis": "Windows-program for å tegne platemøbler etter mål (kjøkken, garderober, skap) for snekkerverksteder: rom i 3D, skrog fra katalogen etter europeisk standard, kappliste på millimeteren, beslag og pris."
-  },
-  "a11y": { "preskoci": "Hopp til innholdet", "logo": "TOPICA, forside", "navigacija": "Hovedmeny", "jezik": "Velg språk", "meni": "Meny" },
-  "nav": { "kako": "Slik virker", "mogucnosti": "Funksjoner", "galerija": "Galleri", "cena": "Pris", "pitanja": "Spørsmål", "blog": "Guider", "preuzimanje": "Last ned" },
-  "cta": { "glavno": "Last ned gratis prøveversjon", "kratko": "Last ned" },
-  "jezik": {
-    "napomena_program": "Programmet finnes i dag på serbisk og engelsk. Norsk er på vei.",
-    "predlog_tekst": "Denne siden finnes også på norsk.",
-    "predlog_dugme": "Bytt til norsk"
-  },
-  "hero": {
-    "naslov": "Fra rommet til kapplisten.",
-    "tekst": "TOPICA er et tegneprogram for skap og kjøkken, laget for snekkere: tegn rommet, still skrogene på rekke langs veggen, så kjenner programmet konstruksjonen og gir deg med én gang 3D, en kappliste på millimeteren, beslag og pris.",
-    "saznaj": "Se hvordan det virker",
-    "sitno": "Windows 10/11 · serbisk og engelsk · prøveversjonen er gratis",
-    "topi_alt": "Topi, TOPICAs plysjmaskot, måler et benkeskap med åpen dør med et målebånd",
-    "prozor_alt": "TOPICA, 3D-visning av et kjøkken i et rom: benke- og veggskap med eikefronter langs veggen, benkerekken på 3200 mm og 400 mm ledig plass"
-  },
+  "_jezik": {"ime": "Norsk", "status": "za-proveru", "proverio": ""},
+  "meta": {"naslov": "TOPICA — tegneprogram for kjøkken og kappliste, laget for snekkere", "opis": "TOPICA er et kjøkkentegneprogram for snekkere på Windows: tegn rommet, sett inn skrog fra katalogen, og få 3D, en kappliste på millimeteren, beslag og pris. Gratis prøveversjon.", "og_naslov": "TOPICA — fra rommet til kapplisten", "og_opis": "Program for møbelsnekkere: rom, skrog fra katalogen, 3D, kappliste på millimeteren og pris. Gratis prøveversjon.", "og_alt": "Maskoten Topi måler et skrog ved siden av teksten TOPICA — fra rommet til kapplisten", "ld_opis": "Windows-program for å tegne platemøbler etter mål (kjøkken, garderober, skap) for snekkerverksteder: rom i 3D, skrog fra katalogen etter europeisk standard, kappliste på millimeteren, beslag og pris."},
+  "a11y": {"preskoci": "Hopp til innholdet", "logo": "TOPICA, forside", "navigacija": "Hovedmeny", "jezik": "Velg språk", "meni": "Meny"},
+  "nav": {"kako": "Slik virker", "mogucnosti": "Funksjoner", "galerija": "Galleri", "cena": "Pris", "pitanja": "Spørsmål", "blog": "Guider", "preuzimanje": "Last ned"},
+  "cta": {"glavno": "Last ned gratis prøveversjon", "kratko": "Last ned"},
+  "jezik": {"napomena_program": "Programmet finnes i dag på serbisk og engelsk. Norsk er på vei.", "predlog_tekst": "Denne siden finnes også på norsk.", "predlog_dugme": "Bytt til norsk"},
+  "hero": {"naslov": "Fra rommet til kapplisten.", "tekst": "TOPICA er et tegneprogram for skap og kjøkken, laget for snekkere: tegn rommet, still skrogene på rekke langs veggen, så kjenner programmet konstruksjonen og gir deg med én gang 3D, en kappliste på millimeteren, beslag og pris.", "saznaj": "Se hvordan det virker", "sitno": "Windows 10/11 · serbisk og engelsk · prøveversjonen er gratis", "topi_alt": "Topi, TOPICAs plysjmaskot, måler et benkeskap med åpen dør med et målebånd", "prozor_alt": "TOPICA, 3D-visning av et kjøkken i et rom: benke- og veggskap med eikefronter langs veggen, benkerekken på 3200 mm og 400 mm ledig plass"},
   "cinjenice": {
-    "naslov": "Derfor et program for snekkere, ikke et tegneverktøy",
-    "1": { "naslov": "På millimeteren", "tekst": "Hver plate får sitt nøyaktige mål fra skrogets virkelige konstruksjon, ikke fra en skisse på øyemål." },
-    "2": { "naslov": "Europeisk standard, System 32", "tekst": "Rammeløst skrog, kantlist, kopphengsler 35 mm, skuffer og sokkel fra katalogen. Ingenting å sette opp på nytt." },
-    "3": { "naslov": "Kappliste klar til å kopiere", "tekst": "Like mål på én linje, gruppert etter materiale. Kopier den og send den til platesagen." }
+    "1": {"naslov": "På millimeteren", "tekst": "Hver plate får sitt nøyaktige mål fra skrogets virkelige konstruksjon, ikke fra en skisse på øyemål."},
+    "2": {"naslov": "Europeisk standard, System 32", "tekst": "Rammeløst skrog, kantlist, kopphengsler 35 mm, skuffer og sokkel fra katalogen. Ingenting å sette opp på nytt."},
+    "3": {"naslov": "Kappliste klar til å kopiere", "tekst": "Like mål på én linje, gruppert etter materiale. Kopier den og send den til platesagen."},
+    "naslov": "Derfor et program for snekkere, ikke et tegneverktøy"
   },
   "kako": {
+    "1": {"naslov": "Tegn rommet", "tekst": "Legg inn vegger, takhøyde, vindu og installasjoner. Rommet står i 3D med én gang, med det gulvet og de veggene kunden faktisk har.", "alt": "TOPICA, steg 1: et rom på 3600 × 3000 mm med valg av gulv og vegger, grå laminat og fliser bak kjøkkenet"},
+    "2": {"naslov": "Sett inn skrog fra katalogen", "tekst": "Benkeskap, veggskap, høyskap, vask, ovn, hjørne. De snapper til veggen og til naboen, og du endrer målene direkte, på millimeteren.", "alt": "TOPICA, steg 2: et benkeskap 600 × 720 × 560 mm med dør inntil veggen, med mål til naboen og egenskapspanelet"},
+    "3": {"naslov": "Les av kapplisten og prisen", "tekst": "Programmet kjenner konstruksjonen: sider, bunn, traverser, bakplate, front. Kappliste, beslag og pris er alltid oppdatert, uten noen «regn om»-knapp.", "alt": "TOPICA, steg 3: kapplisten «Etter mål» for ett skrog, 8 plater gruppert etter materiale med mål, tykkelse, kantlist og pris"},
     "nadnaslov": "Slik virker det",
-    "naslov": "Tre steg til en kappliste.",
-    "1": { "naslov": "Tegn rommet", "tekst": "Legg inn vegger, takhøyde, vindu og installasjoner. Rommet står i 3D med én gang, med det gulvet og de veggene kunden faktisk har.", "alt": "TOPICA, steg 1: et rom på 3600 × 3000 mm med valg av gulv og vegger, grå laminat og fliser bak kjøkkenet" },
-    "2": { "naslov": "Sett inn skrog fra katalogen", "tekst": "Benkeskap, veggskap, høyskap, vask, ovn, hjørne. De snapper til veggen og til naboen, og du endrer målene direkte, på millimeteren.", "alt": "TOPICA, steg 2: et benkeskap 600 × 720 × 560 mm med dør inntil veggen, med mål til naboen og egenskapspanelet" },
-    "3": { "naslov": "Les av kapplisten og prisen", "tekst": "Programmet kjenner konstruksjonen: sider, bunn, traverser, bakplate, front. Kappliste, beslag og pris er alltid oppdatert, uten noen «regn om»-knapp.", "alt": "TOPICA, steg 3: kapplisten «Etter mål» for ett skrog, 8 plater gruppert etter materiale med mål, tykkelse, kantlist og pris" }
+    "naslov": "Tre steg til en kappliste."
   },
   "korpus": {
     "naslov": "Ett skrog. Hver plate på millimeteren.",
-    "natpis": {
-      "1": "Et benkeskap 600 × 720 × 560 mm, den typen alle verksteder bygger.",
-      "2": "Programmet tar det fra hverandre i plater og gir hver av dem nøyaktig mål, kantlist og tykkelse.",
-      "3": "Platene legger seg på platen som en kapplan: hvit sponplate, eikedekor, hardplate.",
-      "4": "Og kapplisten «Etter mål» er klar til å kopiere og sende til platesagen."
-    },
-    "daska": { "bok": "Side", "dno": "Bunn", "polica": "Hylle", "precka": "Travers", "front": "Front", "ledja": "Bakplate" },
+    "natpis": {"1": "Et benkeskap 600 × 720 × 560 mm, den typen alle verksteder bygger.", "2": "Programmet tar det fra hverandre i plater og gir hver av dem nøyaktig mål, kantlist og tykkelse.", "3": "Platene legger seg på platen som en kapplan: hvit sponplate, eikedekor, hardplate.", "4": "Og kapplisten «Etter mål» er klar til å kopiere og sende til platesagen."},
+    "daska": {"bok": "Side", "dno": "Bunn", "polica": "Hylle", "precka": "Travers", "front": "Front", "ledja": "Bakplate"},
     "noscript_alt": "TOPICA, kapplisten «Etter mål» for et benkeskap 600 × 720 × 560 mm",
     "posle": "Dette gjør programmet for hvert skrog i kjøkkenet, i samme øyeblikk som du setter det inntil veggen."
   },
-  "niz": {
-    "nadnaslov": "Rommet",
-    "naslov": "Bygg rekken, programmet gjør den ferdig.",
-    "tekst": "Skrogene snapper til hverandre og til veggen, og benkeplate og sokkel legger seg oppå med totalmålet, uten at du tegner noe."
-  },
+  "niz": {"nadnaslov": "Rommet", "naslov": "Bygg rekken, programmet gjør den ferdig.", "tekst": "Skrogene snapper til hverandre og til veggen, og benkeplate og sokkel legger seg oppå med totalmålet, uten at du tegner noe."},
   "mogucnosti": {
+    "1": {"naslov": "Mål på millimeteren", "tekst": "Skriv inn bredde, høyde og dybde, eller dra i glidebryteren. Målene til veggen, til naboen og fra gulvet er alltid synlige.", "alt": "Et skrog i 3D med målene 600, 720 og 560 mm og markeringer til veggen, til naboen og fra gulvet"},
+    "2": {"naslov": "Katalog etter standarden", "tekst": "Hver skaptype kommer med konstruksjon etter europeisk standard, System 32.", "s1": "Benk, vegg, høy", "s2": "Vask og ovn", "s3": "Hjørne og garderobe", "s4": "Skuffer, hengsler, ben"},
+    "3": {"naslov": "«Etter mål» for kopiering", "tekst": "Like mål på én linje, per materiale. Første mål er fiberretningen.", "k1": "Mål · mm", "k2": "Tyk.", "k3": "Kant", "k4": "Stk", "r1": "1 lang", "r3": "2 lange, 2 korte"},
+    "4": {"naslov": "Ekte dekorer og 3D direkte", "tekst": "Eik, hvit, marmor eller din egen dekor fra et foto. Alt du endrer, ser du med én gang, i en 3D-kjøkkentegning kunden forstår."},
+    "5": {"naslov": "Sokkel, benkeplate og dekksider, automatisk", "tekst": "De bygges over de valgte skrogene og følger med når du flytter dem."},
+    "6": {"naslov": "Pris per prosjekt", "tekst": "Legg inn dine egne priser på plater, kantlist, beslag og arbeid. Programmet summerer per prosjekt; du skriver tilbudet.", "alt": "Verkstedinnstillinger: arbeid per enhet 3000 RSD, påslag 20 %"},
+    "7": {"naslov": "Ingen internett, ingen konto", "tekst": "Et prosjekt er én fil på datamaskinen din. Send den på e-post til en kollega."},
     "nadnaslov": "Funksjoner",
     "naslov": "Møbeltegneprogram som kan snekkerfaget.",
-    "tekst": "Kjøkken, innebygde garderober og skap. Du bestemmer mål og dekorer; programmet tar seg av konstruksjonen og regnestykket.",
-    "1": { "naslov": "Mål på millimeteren", "tekst": "Skriv inn bredde, høyde og dybde, eller dra i glidebryteren. Målene til veggen, til naboen og fra gulvet er alltid synlige.", "alt": "Et skrog i 3D med målene 600, 720 og 560 mm og markeringer til veggen, til naboen og fra gulvet" },
-    "2": { "naslov": "Katalog etter standarden", "tekst": "Hver skaptype kommer med konstruksjon etter europeisk standard, System 32.", "s1": "Benk, vegg, høy", "s2": "Vask og ovn", "s3": "Hjørne og garderobe", "s4": "Skuffer, hengsler, ben" },
-    "3": { "naslov": "«Etter mål» for kopiering", "tekst": "Like mål på én linje, per materiale. Første mål er fiberretningen.", "k1": "Mål · mm", "k2": "Tyk.", "k3": "Kant", "k4": "Stk", "r1": "1 lang", "r3": "2 lange, 2 korte" },
-    "4": { "naslov": "Ekte dekorer og 3D direkte", "tekst": "Eik, hvit, marmor eller din egen dekor fra et foto. Alt du endrer, ser du med én gang, i en 3D-kjøkkentegning kunden forstår." },
-    "5": { "naslov": "Sokkel, benkeplate og dekksider, automatisk", "tekst": "De bygges over de valgte skrogene og følger med når du flytter dem." },
-    "6": { "naslov": "Pris per prosjekt", "tekst": "Legg inn dine egne priser på plater, kantlist, beslag og arbeid. Programmet summerer per prosjekt; du skriver tilbudet.", "alt": "Verkstedinnstillinger: arbeid per enhet 3000 RSD, påslag 20 %" },
-    "7": { "naslov": "Ingen internett, ingen konto", "tekst": "Et prosjekt er én fil på datamaskinen din. Send den på e-post til en kollega." }
+    "tekst": "Kjøkken, innebygde garderober og skap. Du bestemmer mål og dekorer; programmet tar seg av konstruksjonen og regnestykket."
   },
   "galerija": {
+    "1": {"tekst": "En kjøkkenrekke, eikedekor og hvit sponplate.", "alt": "En kjøkkenrekke med eikefronter, skrog i hvit sponplate, grått laminatgulv"},
+    "2": {"tekst": "Samme prosjekt, annen dekor: mørk marmor og fliser.", "alt": "Samme kjøkken med fronter i mørk marmor og fliser på veggen"},
+    "3": {"tekst": "Nærbilde: ett skrog, mål og konstruksjon.", "alt": "Nærbilde av ett skrog 600 × 720 × 570 mm med eikedør og målpanelet"},
+    "4": {"tekst": "Åpne frontene og se inn.", "alt": "Et skrog med åpen dør i 3D som viser hyllen og innsiden, med mål til veggen og naboen"},
+    "5": {"tekst": "Din egen dekor: legg til et foto av platen du faktisk kjøper.", "alt": "Valg av frontdekor: hvit, grå, beige, svart, tre, betong, marmor, rustfritt stål og egen dekor"},
+    "6": {"tekst": "Skuffer med skuffekasse og skuffeskinner fra katalogen.", "alt": "Et benkeskap med tre skuffer i 3D, med panelet for skuffer og skuffeskinner"},
     "nadnaslov": "Galleri",
-    "naslov": "Kjøkkendesign i 3D, rett fra programmet.",
-    "1": { "tekst": "En kjøkkenrekke, eikedekor og hvit sponplate.", "alt": "En kjøkkenrekke med eikefronter, skrog i hvit sponplate, grått laminatgulv" },
-    "2": { "tekst": "Samme prosjekt, annen dekor: mørk marmor og fliser.", "alt": "Samme kjøkken med fronter i mørk marmor og fliser på veggen" },
-    "3": { "tekst": "Nærbilde: ett skrog, mål og konstruksjon.", "alt": "Nærbilde av ett skrog 600 × 720 × 570 mm med eikedør og målpanelet" },
-    "4": { "tekst": "Åpne frontene og se inn.", "alt": "Et skrog med åpen dør i 3D som viser hyllen og innsiden, med mål til veggen og naboen" },
-    "5": { "tekst": "Din egen dekor: legg til et foto av platen du faktisk kjøper.", "alt": "Valg av frontdekor: hvit, grå, beige, svart, tre, betong, marmor, rustfritt stål og egen dekor" },
-    "6": { "tekst": "Skuffer med skuffekasse og skuffeskinner fra katalogen.", "alt": "Et benkeskap med tre skuffer i 3D, med panelet for skuffer og skuffeskinner" }
+    "naslov": "Kjøkkendesign i 3D, rett fra programmet."
   },
-  "zakoga": {
-    "nadnaslov": "Hvem det er for",
-    "naslov": "Laget av en snekker, for snekkere.",
-    "tekst": "TOPICA blir til i et snekkerverksted i Beograd, på ekte prosjekter for ekte kunder. Derfor er det ingenting i det du ikke trenger: bare det som får en håndverker raskere fra oppmåling til kapping.",
-    "uloga": "møbelsnekker og programmets opphavsmann, Beograd"
-  },
+  "zakoga": {"nadnaslov": "Hvem det er for", "naslov": "Laget av en snekker, for snekkere.", "tekst": "TOPICA blir til i et snekkerverksted i Beograd, på ekte prosjekter for ekte kunder. Derfor er det ingenting i det du ikke trenger: bare det som får en håndverker raskere fra oppmåling til kapping.", "uloga": "møbelsnekker og programmets opphavsmann, Beograd"},
   "cena": {
     "nadnaslov": "Pris",
     "naslov": "Prøveversjonen er gratis.",
@@ -89,79 +57,22 @@
     "uskoro_tekst": "for fullversjonen",
     "tekst": "Prøv programmet på ditt eget prosjekt, uten konto og uten kort. Prisen på fullversjonen blir kunngjort snart.",
     "kupi": "Kjøp",
-    "obrazac": {
-      "naslov": "Si fra når prisen er klar",
-      "placeholder": "deg@epost.no",
-      "dugme": "Si fra",
-      "predmet": "TOPICA: si fra når prisen er klar",
-      "napomena": "Én melding når prisen er kunngjort. Ingen reklame.",
-      "hvala": "Takk! Vi sier fra så snart prisen er klar.",
-      "greska": "Det gikk ikke gjennom. Skriv direkte til e-postadressen i bunnteksten."
-    },
+    "obrazac": {"naslov": "Si fra når prisen er klar", "placeholder": "deg@epost.no", "dugme": "Si fra", "predmet": "TOPICA: si fra når prisen er klar", "napomena": "Én melding når prisen er kunngjort. Ingen reklame.", "hvala": "Takk! Vi sier fra så snart prisen er klar.", "greska": "Det gikk ikke gjennom. Skriv direkte til e-postadressen i bunnteksten."},
     "topi_alt": "Topi, TOPICAs maskot, holder en drill og en linjal"
   },
   "pitanja": {
+    "1": {"p": "Hvilken Windows kjører det på?", "o": "Windows 10 og Windows 11, 64-bit. Programmet er lite og raskt; det kjører på en vanlig verkstedlaptop."},
+    "2": {"p": "Trenger jeg internett?", "o": "Nei. Programmet virker uten nett og uten konto. Et prosjekt er én enkelt fil på datamaskinen din."},
+    "3": {"p": "Hvilke plater og materialer støtter det?", "o": "18 mm sponplate til skrog og fronter, kantlist 0,45 og 1 mm, 3 mm hardplate til bakplater; tykkelser og kantlist endrer du i verkstedinnstillingene. Velg en dekor fra listen, eller legg til din egen."},
+    "4": {"p": "Hva får jeg til slutt?", "o": "En kappliste per skrog og per materiale, visningen «Etter mål» for kopiering, beslagsliste, plateforbruk, pris og PDF-utskrift."},
+    "5": {"p": "Hvilke språk?", "o": "Serbisk og engelsk. Du bytter språk inne i programmet."},
+    "6": {"p": "Blir programmet oppdatert?", "o": "Ja. Nye versjoner kommer jevnlig, og prøveversjonen kan alltid lastes ned på nytt fra denne siden."},
     "nadnaslov": "Spørsmål",
-    "naslov": "Hva snekkere spør om før de prøver.",
-    "1": { "p": "Hvilken Windows kjører det på?", "o": "Windows 10 og Windows 11, 64-bit. Programmet er lite og raskt; det kjører på en vanlig verkstedlaptop." },
-    "2": { "p": "Trenger jeg internett?", "o": "Nei. Programmet virker uten nett og uten konto. Et prosjekt er én enkelt fil på datamaskinen din." },
-    "3": { "p": "Hvilke plater og materialer støtter det?", "o": "18 mm sponplate til skrog og fronter, kantlist 0,45 og 1 mm, 3 mm hardplate til bakplater; tykkelser og kantlist endrer du i verkstedinnstillingene. Velg en dekor fra listen, eller legg til din egen." },
-    "4": { "p": "Hva får jeg til slutt?", "o": "En kappliste per skrog og per materiale, visningen «Etter mål» for kopiering, beslagsliste, plateforbruk, pris og PDF-utskrift." },
-    "5": { "p": "Hvilke språk?", "o": "Serbisk og engelsk. Du bytter språk inne i programmet." },
-    "6": { "p": "Blir programmet oppdatert?", "o": "Ja. Nye versjoner kommer jevnlig, og prøveversjonen kan alltid lastes ned på nytt fra denne siden." }
+    "naslov": "Hva snekkere spør om før de prøver."
   },
-  "dno": {
-    "naslov": "Prøv det på ditt neste prosjekt.",
-    "tekst": "Windows 10/11. Ingen konto, ikke noe kort. En kappliste for ditt første skrog på fem minutter.",
-    "uslovi": "Bruksvilkår",
-    "privatnost": "Personvern"
-  },
-  "preuzimanje": {
-    "meta_naslov": "Last ned gratis prøveversjon av TOPICA for Windows",
-    "meta_opis": "Gratis prøveversjon av programmet for skaptegning og kappliste. Windows 10/11, 64-bit, ingen konto. Installasjon i tre steg.",
-    "nadnaslov": "Last ned",
-    "naslov": "Gratis prøveversjon for Windows.",
-    "tekst": "Gratis, ingen konto og ikke noe kort. Installasjonen tar ett minutt, og ditt første skrog med kappliste har du på fem.",
-    "email_naslov": "Legg igjen e-posten din om du vil (valgfritt)",
-    "email_tekst": "Vi sender bare nye versjoner og prisen når den er klar. Ingen reklame, meld deg av med ett klikk.",
-    "dugme": "Last ned gratis prøveversjon",
-    "datoteka": "TOPICA-proeve.exe",
-    "bez_emaila": "Uten e-post:",
-    "direktno": "last ned direkte",
-    "predmet": "TOPICA: ny nedlasting av prøveversjonen",
-    "zahtevi_naslov": "Hva datamaskinen din trenger",
-    "z1_naslov": "System", "z1": "Windows 10 eller Windows 11, 64-bit.",
-    "z2_naslov": "Datamaskin", "z2": "En vanlig verkstedlaptop holder: 4 GB minne og grafikk som klarer 3D i en nettleser.",
-    "z3_naslov": "Internett", "z3": "Trengs ikke. Programmet virker uten nett og oppretter ingen konto.",
-    "koraci_naslov": "Installasjon i tre steg",
-    "k1": "Dobbeltklikk på den nedlastede filen TOPICA-proeve.exe.",
-    "k2": "Hvis Windows spør om du stoler på programmet, klikk på «Mer info» og deretter «Kjør likevel».",
-    "k3": "Åpne TOPICA fra skrivebordet. Opprett ditt første prosjekt: skriv inn målene på rommet og sett inn det første skroget.",
-    "slika_placeholder": "Plass til et skjermbilde av dette steget (legges til av eieren)",
-    "upozorenje_naslov": "Windows-advarsel.",
-    "upozorenje": "Programmet er ennå ikke digitalt signert, så ved første start viser Windows et blått vindu «Windows beskyttet PC-en din». Det er normalt for nye, usignerte programmer: klikk på «Mer info» og deretter «Kjør likevel». Vi er i ferd med å skaffe en signatur, og da forsvinner advarselen.",
-    "pomoc": "Står du fast? Skriv til oss, vi svarer samme dag."
-  },
-  "hvala": {
-    "meta_naslov": "Takk — prøveversjonen av TOPICA lastes ned",
-    "meta_opis": "Nedlastingen av TOPICAs prøveversjon har startet. Tre steg for å komme i gang.",
-    "nadnaslov": "Takk",
-    "naslov": "Nedlastingen har startet.",
-    "tekst": "Hvis den ikke startet av seg selv:",
-    "koraci_naslov": "Tre steg for å komme i gang",
-    "k1": "Installer programmet (ved Windows-advarselen: «Mer info» og deretter «Kjør likevel»).",
-    "k2": "Opprett et nytt prosjekt og skriv inn målene på rommet: bredde, dybde og takhøyde.",
-    "k3": "Legg til det første benkeskapet fra katalogen og åpne «Kappmål». Det er din første kappliste.",
-    "snimak": "Tre minutter video: fra rommet til kapplisten.",
-    "snimak_dugme": "Se videoen"
-  },
-  "blog": {
-    "meta_naslov": "Guider for snekkere: kappliste, System 32, kantlist, kjøkkenmål — TOPICA",
-    "meta_opis": "Korte praktiske artikler for snekkere som bygger platemøbler etter mål: hvordan du leser en kappliste, System 32, kantlist, standardmål på kjøkkenskap.",
-    "nadnaslov": "Guider",
-    "naslov": "Snekring på papir, før verkstedet.",
-    "tekst": "Korte artikler om det enhver snekker gjør, skrevet ned én gang så du slipper å forklare det hver gang.",
-    "poziv": "Prøv dette på ditt eget prosjekt."
-  },
-  "clanak": { "citanje": "min lesing", "objavljeno": "Publisert" }
+  "dno": {"naslov": "Prøv det på ditt neste prosjekt.", "tekst": "Windows 10/11. Ingen konto, ikke noe kort. En kappliste for ditt første skrog på fem minutter.", "uslovi": "Bruksvilkår", "privatnost": "Personvern"},
+  "preuzimanje": {"meta_naslov": "Last ned gratis prøveversjon av TOPICA for Windows", "meta_opis": "Gratis prøveversjon av programmet for skaptegning og kappliste. Windows 10/11, 64-bit, ingen konto. Installasjon i tre steg.", "nadnaslov": "Last ned", "naslov": "Gratis prøveversjon for Windows.", "tekst": "Gratis, ingen konto og ikke noe kort. Installasjonen tar ett minutt, og ditt første skrog med kappliste har du på fem.", "email_naslov": "Legg igjen e-posten din om du vil (valgfritt)", "email_tekst": "Vi sender bare nye versjoner og prisen når den er klar. Ingen reklame, meld deg av med ett klikk.", "dugme": "Last ned gratis prøveversjon", "datoteka": "TOPICA-proeve.exe", "bez_emaila": "Uten e-post:", "direktno": "last ned direkte", "predmet": "TOPICA: ny nedlasting av prøveversjonen", "zahtevi_naslov": "Hva datamaskinen din trenger", "z1_naslov": "System", "z1": "Windows 10 eller Windows 11, 64-bit.", "z2_naslov": "Datamaskin", "z2": "En vanlig verkstedlaptop holder: 4 GB minne og grafikk som klarer 3D i en nettleser.", "z3_naslov": "Internett", "z3": "Trengs ikke. Programmet virker uten nett og oppretter ingen konto.", "koraci_naslov": "Installasjon i tre steg", "k1": "Dobbeltklikk på den nedlastede filen TOPICA-proeve.exe.", "k2": "Hvis Windows spør om du stoler på programmet, klikk på «Mer info» og deretter «Kjør likevel».", "k3": "Åpne TOPICA fra skrivebordet. Opprett ditt første prosjekt: skriv inn målene på rommet og sett inn det første skroget.", "slika_placeholder": "Plass til et skjermbilde av dette steget (legges til av eieren)", "upozorenje_naslov": "Windows-advarsel.", "upozorenje": "Programmet er ennå ikke digitalt signert, så ved første start viser Windows et blått vindu «Windows beskyttet PC-en din». Det er normalt for nye, usignerte programmer: klikk på «Mer info» og deretter «Kjør likevel». Vi er i ferd med å skaffe en signatur, og da forsvinner advarselen.", "pomoc": "Står du fast? Skriv til oss, vi svarer samme dag."},
+  "hvala": {"meta_naslov": "Takk — prøveversjonen av TOPICA lastes ned", "meta_opis": "Nedlastingen av TOPICAs prøveversjon har startet. Tre steg for å komme i gang.", "nadnaslov": "Takk", "naslov": "Nedlastingen har startet.", "tekst": "Hvis den ikke startet av seg selv:", "koraci_naslov": "Tre steg for å komme i gang", "k1": "Installer programmet (ved Windows-advarselen: «Mer info» og deretter «Kjør likevel»).", "k2": "Opprett et nytt prosjekt og skriv inn målene på rommet: bredde, dybde og takhøyde.", "k3": "Legg til det første benkeskapet fra katalogen og åpne «Kappmål». Det er din første kappliste.", "snimak": "Tre minutter video: fra rommet til kapplisten.", "snimak_dugme": "Se videoen"},
+  "blog": {"meta_naslov": "Guider for snekkere: kappliste, System 32, kantlist, kjøkkenmål — TOPICA", "meta_opis": "Korte praktiske artikler for snekkere som bygger platemøbler etter mål: hvordan du leser en kappliste, System 32, kantlist, standardmål på kjøkkenskap.", "nadnaslov": "Guider", "naslov": "Snekring på papir, før verkstedet.", "tekst": "Korte artikler om det enhver snekker gjør, skrevet ned én gang så du slipper å forklare det hver gang.", "poziv": "Prøv dette på ditt eget prosjekt."},
+  "clanak": {"citanje": "min lesing", "objavljeno": "Publisert"}
 }

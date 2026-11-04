@@ -8,11 +8,11 @@ Kurz, ehrlich, ohne Versprechen, die das Programm nicht hält. Unterschrift: Nam
 
 Sehr geehrte Damen und Herren,
 
-ich bin Tischler aus Belgrad und habe das Programm TOPICA zur Planung von Plattenmöbeln entwickelt: Der Schüler zeichnet den Raum, stellt Korpusse aus dem Katalog nach europäischem Standard (System 32, Kante, Topfbänder, Schubladen), und das Programm zeigt sofort 3D, eine millimetergenaue Schnittliste, die Beschlagliste und den Preis. Es läuft unter Windows, ohne Internet. Die Oberfläche ist derzeit auf Serbisch und Englisch; Deutsch ist geplant.
+ich bin Tischler aus Belgrad und habe das Programm TOPICA für Plattenmöbel entwickelt: Der Schüler zeichnet den Raum, stellt Korpusse aus dem Katalog nach europäischem Standard (System 32, Kante, Topfbänder, Schubladen), und das Programm zeigt sofort 3D, eine millimetergenaue Schnittliste, die Beschlagliste und den Preis. Es läuft unter Windows, ohne Internet. Die Oberfläche ist derzeit auf Serbisch und Englisch; Deutsch ist geplant.
 
-Ich biete Ihrer Schule/Innung eine kostenlose Lizenz für den Unterricht an, unbefristet und für alle Rechner im Klassenraum. Im Gegenzug wünsche ich mir nur Rückmeldungen von Lehrkräften und Schülern: Was ist unklar, was fehlt, wo rechnet es falsch. Gern zeige ich das Programm in einer Unterrichtsstunde live, vor Ort oder per Videoanruf.
+Ich biete Ihrer Schule/Innung eine kostenlose Lizenz für den Unterricht an, unbefristet und für alle Rechner im Klassenraum. Im Gegenzug wünsche ich mir nur Rückmeldungen von Lehrkräften und Schülern: Was ist unklar, was fehlt, wo rechnet es falsch. Gern zeige ich es in einer Unterrichtsstunde live, vor Ort oder per Video.
 
-Die Testversion finden Sie auf der Website: [Link]. Wenn das für Sie interessant ist, antworten Sie auf diese E-Mail oder rufen Sie mich an.
+Die Testversion finden Sie auf der Website: [Link]. Bei Interesse antworten Sie einfach auf diese E-Mail oder rufen Sie mich an.
 
 Mit freundlichen Grüßen
 [Ime i prezime], Tischler, Belgrad · [Telefon] · [Link]

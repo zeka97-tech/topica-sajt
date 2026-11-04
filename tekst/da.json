@@ -1,87 +1,55 @@
 {
-  "_jezik": { "ime": "Dansk", "status": "za-proveru", "proverio": "" },
-  "meta": {
-    "naslov": "TOPICA — tegneprogram til køkkener og skærelister, lavet til snedkere",
-    "opis": "TOPICA er et køkkentegneprogram til snedkere på Windows: tegn rummet, sæt korpusser ind fra kataloget, og få 3D, en skæreliste på millimeteren, beslag og pris. Gratis prøveversion.",
-    "og_naslov": "TOPICA — fra rummet til skærelisten",
-    "og_opis": "Program til møbelsnedkere: rum, korpusser fra kataloget, 3D, skæreliste på millimeteren og pris. Gratis prøveversion.",
-    "og_alt": "Maskotten Topi måler et korpus ved siden af teksten TOPICA — fra rummet til skærelisten",
-    "ld_opis": "Windows-program til at tegne pladeinventar efter mål (køkkener, garderobeskabe, skabe) til snedkerværksteder: rum i 3D, korpusser fra kataloget efter europæisk standard, skæreliste på millimeteren, beslag og pris."
-  },
-  "a11y": { "preskoci": "Spring til indhold", "logo": "TOPICA, forside", "navigacija": "Hovedmenu", "jezik": "Vælg sprog", "meni": "Menu" },
-  "nav": { "kako": "Sådan virker", "mogucnosti": "Funktioner", "galerija": "Galleri", "cena": "Pris", "pitanja": "Spørgsmål", "blog": "Guides", "preuzimanje": "Download" },
-  "cta": { "glavno": "Download gratis prøveversion", "kratko": "Download" },
-  "jezik": {
-    "napomena_program": "Programmet findes i dag på serbisk og engelsk. Dansk er på vej.",
-    "predlog_tekst": "Denne side findes også på dansk.",
-    "predlog_dugme": "Skift til dansk"
-  },
-  "hero": {
-    "naslov": "Fra rummet til skærelisten.",
-    "tekst": "TOPICA er et tegneprogram til skabe og køkkener, lavet til snedkere: tegn rummet, stil korpusserne på række langs væggen, så kender programmet konstruktionen og giver dig med det samme 3D, en skæreliste på millimeteren, beslag og pris.",
-    "saznaj": "Se hvordan det virker",
-    "sitno": "Windows 10/11 · serbisk og engelsk · prøveversionen er gratis",
-    "topi_alt": "Topi, TOPICAs plysmaskot, måler et underskab med åben låge med et målebånd",
-    "prozor_alt": "TOPICA, 3D-visning af et køkken i et rum: under- og overskabe med egefronter langs væggen, underrækken på 3200 mm og 400 mm fri plads"
-  },
+  "_jezik": {"ime": "Dansk", "status": "za-proveru", "proverio": ""},
+  "meta": {"naslov": "TOPICA — tegneprogram til køkkener og skærelister, lavet til snedkere", "opis": "TOPICA er et køkkentegneprogram til snedkere på Windows: tegn rummet, sæt korpusser ind fra kataloget, og få 3D, en skæreliste på millimeteren, beslag og pris. Gratis prøveversion.", "og_naslov": "TOPICA — fra rummet til skærelisten", "og_opis": "Program til møbelsnedkere: rum, korpusser fra kataloget, 3D, skæreliste på millimeteren og pris. Gratis prøveversion.", "og_alt": "Maskotten Topi måler et korpus ved siden af teksten TOPICA — fra rummet til skærelisten", "ld_opis": "Windows-program til at tegne pladeinventar efter mål (køkkener, garderobeskabe, skabe) til snedkerværksteder: rum i 3D, korpusser fra kataloget efter europæisk standard, skæreliste på millimeteren, beslag og pris."},
+  "a11y": {"preskoci": "Spring til indhold", "logo": "TOPICA, forside", "navigacija": "Hovedmenu", "jezik": "Vælg sprog", "meni": "Menu"},
+  "nav": {"kako": "Sådan virker", "mogucnosti": "Funktioner", "galerija": "Galleri", "cena": "Pris", "pitanja": "Spørgsmål", "blog": "Guides", "preuzimanje": "Download"},
+  "cta": {"glavno": "Download gratis prøveversion", "kratko": "Download"},
+  "jezik": {"napomena_program": "Programmet findes i dag på serbisk og engelsk. Dansk er på vej.", "predlog_tekst": "Denne side findes også på dansk.", "predlog_dugme": "Skift til dansk"},
+  "hero": {"naslov": "Fra rummet til skærelisten.", "tekst": "TOPICA er et tegneprogram til skabe og køkkener, lavet til snedkere: tegn rummet, stil korpusserne på række langs væggen, så kender programmet konstruktionen og giver dig med det samme 3D, en skæreliste på millimeteren, beslag og pris.", "saznaj": "Se hvordan det virker", "sitno": "Windows 10/11 · serbisk og engelsk · prøveversionen er gratis", "topi_alt": "Topi, TOPICAs plysmaskot, måler et underskab med åben låge med et målebånd", "prozor_alt": "TOPICA, 3D-visning af et køkken i et rum: under- og overskabe med egefronter langs væggen, underrækken på 3200 mm og 400 mm fri plads"},
   "cinjenice": {
-    "naslov": "Derfor et program til snedkere, ikke et tegneværktøj",
-    "1": { "naslov": "På millimeteren", "tekst": "Hver plade får sit nøjagtige mål fra korpussets rigtige konstruktion, ikke fra en skitse på øjemål." },
-    "2": { "naslov": "Europæisk standard, System 32", "tekst": "Rammeløst korpus, kantbånd, kophængsler 35 mm, skuffer og sokkel fra kataloget. Intet skal sættes op igen." },
-    "3": { "naslov": "Skæreliste klar til at kopiere", "tekst": "Ens mål på én linje, grupperet efter materiale. Kopiér den og send den til pladesaven." }
+    "1": {"naslov": "På millimeteren", "tekst": "Hver plade får sit nøjagtige mål fra korpussets rigtige konstruktion, ikke fra en skitse på øjemål."},
+    "2": {"naslov": "Europæisk standard, System 32", "tekst": "Rammeløst korpus, kantbånd, kophængsler 35 mm, skuffer og sokkel fra kataloget. Intet skal sættes op igen."},
+    "3": {"naslov": "Skæreliste klar til at kopiere", "tekst": "Ens mål på én linje, grupperet efter materiale. Kopiér den og send den til pladesaven."},
+    "naslov": "Derfor et program til snedkere, ikke et tegneværktøj"
   },
   "kako": {
+    "1": {"naslov": "Tegn rummet", "tekst": "Indtast vægge, loftshøjde, vindue og installationer. Rummet står i 3D med det samme, med det gulv og de vægge kunden faktisk har.", "alt": "TOPICA, trin 1: et rum på 3600 × 3000 mm med valg af gulv og vægge, gråt laminat og fliser bag køkkenet"},
+    "2": {"naslov": "Sæt korpusser ind fra kataloget", "tekst": "Underskab, overskab, højskab, vask, ovn, hjørne. De snapper til væggen og til naboen, og du ændrer målene live, på millimeteren.", "alt": "TOPICA, trin 2: et underskab 600 × 720 × 560 mm med låge op ad væggen, med mål til naboen og egenskabspanelet"},
+    "3": {"naslov": "Aflæs skærelisten og prisen", "tekst": "Programmet kender konstruktionen: sider, bund, tværstykker, bagklædning, front. Skæreliste, beslag og pris er altid opdateret, uden nogen »genberegn«-knap.", "alt": "TOPICA, trin 3: skærelisten »Efter mål« for ét korpus, 8 plader grupperet efter materiale med mål, tykkelse, kantbånd og pris"},
     "nadnaslov": "Sådan virker det",
-    "naslov": "Tre trin til en skæreliste.",
-    "1": { "naslov": "Tegn rummet", "tekst": "Indtast vægge, loftshøjde, vindue og installationer. Rummet står i 3D med det samme, med det gulv og de vægge kunden faktisk har.", "alt": "TOPICA, trin 1: et rum på 3600 × 3000 mm med valg af gulv og vægge, gråt laminat og fliser bag køkkenet" },
-    "2": { "naslov": "Sæt korpusser ind fra kataloget", "tekst": "Underskab, overskab, højskab, vask, ovn, hjørne. De snapper til væggen og til naboen, og du ændrer målene live, på millimeteren.", "alt": "TOPICA, trin 2: et underskab 600 × 720 × 560 mm med låge op ad væggen, med mål til naboen og egenskabspanelet" },
-    "3": { "naslov": "Aflæs skærelisten og prisen", "tekst": "Programmet kender konstruktionen: sider, bund, tværstykker, bagklædning, front. Skæreliste, beslag og pris er altid opdateret, uden nogen »genberegn«-knap.", "alt": "TOPICA, trin 3: skærelisten »Efter mål« for ét korpus, 8 plader grupperet efter materiale med mål, tykkelse, kantbånd og pris" }
+    "naslov": "Tre trin til en skæreliste."
   },
   "korpus": {
     "naslov": "Ét korpus. Hver plade på millimeteren.",
-    "natpis": {
-      "1": "Et underskab 600 × 720 × 560 mm, den slags alle værksteder bygger.",
-      "2": "Programmet skiller det ad i plader og giver hver af dem nøjagtigt mål, kantbånd og tykkelse.",
-      "3": "Pladerne lægger sig på pladen som en skæreplan: hvid spånplade, egedekor, hardboard.",
-      "4": "Og skærelisten »Efter mål« er klar til at kopiere og sende til pladesaven."
-    },
-    "daska": { "bok": "Side", "dno": "Bund", "polica": "Hylde", "precka": "Tværstykke", "front": "Front", "ledja": "Bagklædning" },
+    "natpis": {"1": "Et underskab 600 × 720 × 560 mm, den slags alle værksteder bygger.", "2": "Programmet skiller det ad i plader og giver hver af dem nøjagtigt mål, kantbånd og tykkelse.", "3": "Pladerne lægger sig på pladen som en skæreplan: hvid spånplade, egedekor, hardboard.", "4": "Og skærelisten »Efter mål« er klar til at kopiere og sende til pladesaven."},
+    "daska": {"bok": "Side", "dno": "Bund", "polica": "Hylde", "precka": "Tværstykke", "front": "Front", "ledja": "Bagklædning"},
     "noscript_alt": "TOPICA, skærelisten »Efter mål« for et underskab 600 × 720 × 560 mm",
     "posle": "Det gør programmet for hvert korpus i køkkenet, i samme øjeblik du stiller det op ad væggen."
   },
-  "niz": {
-    "nadnaslov": "Rummet",
-    "naslov": "Byg rækken, programmet gør den færdig.",
-    "tekst": "Korpusserne snapper til hinanden og til væggen, og bordplade og sokkel lægger sig ovenpå med det samlede mål, uden at du tegner noget."
-  },
+  "niz": {"nadnaslov": "Rummet", "naslov": "Byg rækken, programmet gør den færdig.", "tekst": "Korpusserne snapper til hinanden og til væggen, og bordplade og sokkel lægger sig ovenpå med det samlede mål, uden at du tegner noget."},
   "mogucnosti": {
+    "1": {"naslov": "Mål på millimeteren", "tekst": "Skriv bredde, højde og dybde, eller træk i skyderen. Målene til væggen, til naboen og fra gulvet er altid synlige.", "alt": "Et korpus i 3D med målene 600, 720 og 560 mm og markeringer til væggen, til naboen og fra gulvet"},
+    "2": {"naslov": "Katalog efter standarden", "tekst": "Hver skabstype kommer med konstruktion efter europæisk standard, System 32.", "s1": "Under, over, høj", "s2": "Vask og ovn", "s3": "Hjørne og garderobe", "s4": "Skuffer, hængsler, ben"},
+    "3": {"naslov": "»Efter mål« til kopiering", "tekst": "Ens mål på én linje, pr. materiale. Første mål er åreretningen.", "k1": "Mål · mm", "k2": "Tyk.", "k3": "Kant", "k4": "Stk", "r1": "1 lang", "r3": "2 lange, 2 korte"},
+    "4": {"naslov": "Rigtige dekorer og 3D live", "tekst": "Eg, hvid, marmor eller din egen dekor fra et foto. Alt, hvad du ændrer, ser du med det samme, i en 3D-køkkentegning kunden forstår."},
+    "5": {"naslov": "Sokkel, bordplade og dæksider, automatisk", "tekst": "De bygges hen over de valgte korpusser og følger med, når du flytter dem."},
+    "6": {"naslov": "Pris pr. projekt", "tekst": "Indtast dine egne priser på plader, kantbånd, beslag og arbejdsløn. Programmet lægger sammen pr. projekt; du skriver tilbuddet.", "alt": "Værkstedsindstillinger: arbejdsløn pr. enhed 3000 RSD, avance 20 %"},
+    "7": {"naslov": "Intet internet, ingen konto", "tekst": "Et projekt er én fil på din computer. Send den på mail til en kollega."},
     "nadnaslov": "Funktioner",
     "naslov": "Møbeltegneprogram, der kan snedkerhåndværk.",
-    "tekst": "Køkkener, indbyggede garderobeskabe og skabe. Du bestemmer mål og dekorer; programmet klarer konstruktionen og regnestykket.",
-    "1": { "naslov": "Mål på millimeteren", "tekst": "Skriv bredde, højde og dybde, eller træk i skyderen. Målene til væggen, til naboen og fra gulvet er altid synlige.", "alt": "Et korpus i 3D med målene 600, 720 og 560 mm og markeringer til væggen, til naboen og fra gulvet" },
-    "2": { "naslov": "Katalog efter standarden", "tekst": "Hver skabstype kommer med konstruktion efter europæisk standard, System 32.", "s1": "Under, over, høj", "s2": "Vask og ovn", "s3": "Hjørne og garderobe", "s4": "Skuffer, hængsler, ben" },
-    "3": { "naslov": "»Efter mål« til kopiering", "tekst": "Ens mål på én linje, pr. materiale. Første mål er åreretningen.", "k1": "Mål · mm", "k2": "Tyk.", "k3": "Kant", "k4": "Stk", "r1": "1 lang", "r3": "2 lange, 2 korte" },
-    "4": { "naslov": "Rigtige dekorer og 3D live", "tekst": "Eg, hvid, marmor eller din egen dekor fra et foto. Alt, hvad du ændrer, ser du med det samme, i en 3D-køkkentegning kunden forstår." },
-    "5": { "naslov": "Sokkel, bordplade og dæksider, automatisk", "tekst": "De bygges hen over de valgte korpusser og følger med, når du flytter dem." },
-    "6": { "naslov": "Pris pr. projekt", "tekst": "Indtast dine egne priser på plader, kantbånd, beslag og arbejdsløn. Programmet lægger sammen pr. projekt; du skriver tilbuddet.", "alt": "Værkstedsindstillinger: arbejdsløn pr. enhed 3000 RSD, avance 20 %" },
-    "7": { "naslov": "Intet internet, ingen konto", "tekst": "Et projekt er én fil på din computer. Send den på mail til en kollega." }
+    "tekst": "Køkkener, indbyggede garderobeskabe og skabe. Du bestemmer mål og dekorer; programmet klarer konstruktionen og regnestykket."
   },
   "galerija": {
+    "1": {"tekst": "En køkkenrække, egedekor og hvid spånplade.", "alt": "En køkkenrække med egefronter, korpusser i hvid spånplade, gråt laminatgulv"},
+    "2": {"tekst": "Samme projekt, anden dekor: mørk marmor og fliser.", "alt": "Samme køkken med fronter i mørk marmor og fliser på væggen"},
+    "3": {"tekst": "Nærbillede: ét korpus, mål og konstruktion.", "alt": "Nærbillede af ét korpus 600 × 720 × 570 mm med egelåge og målpanelet"},
+    "4": {"tekst": "Åbn fronterne og kig ind.", "alt": "Et korpus med åben låge i 3D, der viser hylden og indersiden, med mål til væggen og naboen"},
+    "5": {"tekst": "Din egen dekor: tilføj et foto af den plade, du faktisk køber.", "alt": "Valg af frontdekor: hvid, grå, beige, sort, træ, beton, marmor, rustfrit stål og egen dekor"},
+    "6": {"tekst": "Skuffer med skuffekasse og skuffeskinner fra kataloget.", "alt": "Et underskab med tre skuffer i 3D, med panelet for skuffer og skuffeskinner"},
     "nadnaslov": "Galleri",
-    "naslov": "Køkkendesign i 3D, direkte fra programmet.",
-    "1": { "tekst": "En køkkenrække, egedekor og hvid spånplade.", "alt": "En køkkenrække med egefronter, korpusser i hvid spånplade, gråt laminatgulv" },
-    "2": { "tekst": "Samme projekt, anden dekor: mørk marmor og fliser.", "alt": "Samme køkken med fronter i mørk marmor og fliser på væggen" },
-    "3": { "tekst": "Nærbillede: ét korpus, mål og konstruktion.", "alt": "Nærbillede af ét korpus 600 × 720 × 570 mm med egelåge og målpanelet" },
-    "4": { "tekst": "Åbn fronterne og kig ind.", "alt": "Et korpus med åben låge i 3D, der viser hylden og indersiden, med mål til væggen og naboen" },
-    "5": { "tekst": "Din egen dekor: tilføj et foto af den plade, du faktisk køber.", "alt": "Valg af frontdekor: hvid, grå, beige, sort, træ, beton, marmor, rustfrit stål og egen dekor" },
-    "6": { "tekst": "Skuffer med skuffekasse og skuffeskinner fra kataloget.", "alt": "Et underskab med tre skuffer i 3D, med panelet for skuffer og skuffeskinner" }
+    "naslov": "Køkkendesign i 3D, direkte fra programmet."
   },
-  "zakoga": {
-    "nadnaslov": "Hvem er det til",
-    "naslov": "Lavet af en snedker, til snedkere.",
-    "tekst": "TOPICA bliver til i et snedkerværksted i Beograd, på rigtige projekter til rigtige kunder. Derfor er der ikke noget i det, du ikke har brug for: kun det, der får en håndværker hurtigere fra opmåling til opskæring.",
-    "uloga": "møbelsnedker og programmets ophavsmand, Beograd"
-  },
+  "zakoga": {"nadnaslov": "Hvem er det til", "naslov": "Lavet af en snedker, til snedkere.", "tekst": "TOPICA bliver til i et snedkerværksted i Beograd, på rigtige projekter til rigtige kunder. Derfor er der ikke noget i det, du ikke har brug for: kun det, der får en håndværker hurtigere fra opmåling til opskæring.", "uloga": "møbelsnedker og programmets ophavsmand, Beograd"},
   "cena": {
     "nadnaslov": "Pris",
     "naslov": "Prøveversionen er gratis.",
@@ -89,79 +57,22 @@
     "uskoro_tekst": "for den fulde version",
     "tekst": "Prøv programmet på dit eget projekt, uden konto og uden kort. Prisen på den fulde version bliver meldt ud snart.",
     "kupi": "Køb",
-    "obrazac": {
-      "naslov": "Giv mig besked, når prisen er klar",
-      "placeholder": "dig@email.dk",
-      "dugme": "Giv mig besked",
-      "predmet": "TOPICA: giv mig besked, når prisen er klar",
-      "napomena": "Én besked, når prisen er meldt ud. Ingen reklamer.",
-      "hvala": "Tak! Vi giver besked, så snart prisen er klar.",
-      "greska": "Det gik ikke igennem. Skriv direkte til e-mailadressen i sidefoden."
-    },
+    "obrazac": {"naslov": "Giv mig besked, når prisen er klar", "placeholder": "dig@email.dk", "dugme": "Giv mig besked", "predmet": "TOPICA: giv mig besked, når prisen er klar", "napomena": "Én besked, når prisen er meldt ud. Ingen reklamer.", "hvala": "Tak! Vi giver besked, så snart prisen er klar.", "greska": "Det gik ikke igennem. Skriv direkte til e-mailadressen i sidefoden."},
     "topi_alt": "Topi, TOPICAs maskot, holder en boremaskine og en lineal"
   },
   "pitanja": {
+    "1": {"p": "Hvilken Windows kører det på?", "o": "Windows 10 og Windows 11, 64-bit. Programmet er lille og hurtigt; det kører på en almindelig værkstedslaptop."},
+    "2": {"p": "Skal jeg have internet?", "o": "Nej. Programmet virker offline og uden konto. Et projekt er én enkelt fil på din computer."},
+    "3": {"p": "Hvilke plader og materialer understøtter det?", "o": "18 mm spånplade til korpus og fronter, kantbånd 0,45 og 1 mm, 3 mm hardboard til bagklædninger; tykkelser og kantbånd ændrer du i værkstedsindstillingerne. Vælg en dekor fra listen, eller tilføj din egen."},
+    "4": {"p": "Hvad får jeg til sidst?", "o": "En skæreliste pr. korpus og pr. materiale, visningen »Efter mål« til kopiering, beslagsliste, pladeforbrug, pris og PDF-udskrift."},
+    "5": {"p": "Hvilke sprog?", "o": "Serbisk og engelsk. Du skifter sprog inde i programmet."},
+    "6": {"p": "Bliver programmet opdateret?", "o": "Ja. Der kommer nye versioner jævnligt, og prøveversionen kan altid hentes igen fra denne side."},
     "nadnaslov": "Spørgsmål",
-    "naslov": "Hvad snedkere spørger om, før de prøver.",
-    "1": { "p": "Hvilken Windows kører det på?", "o": "Windows 10 og Windows 11, 64-bit. Programmet er lille og hurtigt; det kører på en almindelig værkstedslaptop." },
-    "2": { "p": "Skal jeg have internet?", "o": "Nej. Programmet virker offline og uden konto. Et projekt er én enkelt fil på din computer." },
-    "3": { "p": "Hvilke plader og materialer understøtter det?", "o": "18 mm spånplade til korpus og fronter, kantbånd 0,45 og 1 mm, 3 mm hardboard til bagklædninger; tykkelser og kantbånd ændrer du i værkstedsindstillingerne. Vælg en dekor fra listen, eller tilføj din egen." },
-    "4": { "p": "Hvad får jeg til sidst?", "o": "En skæreliste pr. korpus og pr. materiale, visningen »Efter mål« til kopiering, beslagsliste, pladeforbrug, pris og PDF-udskrift." },
-    "5": { "p": "Hvilke sprog?", "o": "Serbisk og engelsk. Du skifter sprog inde i programmet." },
-    "6": { "p": "Bliver programmet opdateret?", "o": "Ja. Der kommer nye versioner jævnligt, og prøveversionen kan altid hentes igen fra denne side." }
+    "naslov": "Hvad snedkere spørger om, før de prøver."
   },
-  "dno": {
-    "naslov": "Prøv det på dit næste projekt.",
-    "tekst": "Windows 10/11. Ingen konto, intet kort. En skæreliste til dit første korpus på fem minutter.",
-    "uslovi": "Brugsvilkår",
-    "privatnost": "Privatliv"
-  },
-  "preuzimanje": {
-    "meta_naslov": "Download gratis prøveversion af TOPICA til Windows",
-    "meta_opis": "Gratis prøveversion af programmet til skabstegning og skærelister. Windows 10/11, 64-bit, ingen konto. Installation i tre trin.",
-    "nadnaslov": "Download",
-    "naslov": "Gratis prøveversion til Windows.",
-    "tekst": "Gratis, ingen konto og intet kort. Installationen tager et minut, og dit første korpus med skæreliste har du på fem.",
-    "email_naslov": "Efterlad din e-mail, hvis du vil (valgfrit)",
-    "email_tekst": "Vi sender kun nye versioner og prisen, når den er klar. Ingen reklamer, afmeld med ét klik.",
-    "dugme": "Download gratis prøveversion",
-    "datoteka": "TOPICA-proeve.exe",
-    "bez_emaila": "Uden e-mail:",
-    "direktno": "download direkte",
-    "predmet": "TOPICA: ny download af prøveversionen",
-    "zahtevi_naslov": "Hvad din computer skal kunne",
-    "z1_naslov": "System", "z1": "Windows 10 eller Windows 11, 64-bit.",
-    "z2_naslov": "Computer", "z2": "En almindelig værkstedslaptop er nok: 4 GB hukommelse og grafik, der kan køre 3D i en browser.",
-    "z3_naslov": "Internet", "z3": "Ikke nødvendigt. Programmet virker offline og opretter ingen konto.",
-    "koraci_naslov": "Installation i tre trin",
-    "k1": "Dobbeltklik på den hentede fil TOPICA-proeve.exe.",
-    "k2": "Hvis Windows spørger, om du stoler på programmet, så klik på »Flere oplysninger« og derefter »Kør alligevel«.",
-    "k3": "Åbn TOPICA fra skrivebordet. Opret dit første projekt: indtast rummets mål og sæt det første korpus ind.",
-    "slika_placeholder": "Plads til et skærmbillede af dette trin (tilføjes af ejeren)",
-    "upozorenje_naslov": "Windows-advarsel.",
-    "upozorenje": "Programmet er endnu ikke digitalt signeret, så ved første start viser Windows en blå skærm »Windows beskyttede din pc«. Det er normalt for nye, usignerede programmer: klik på »Flere oplysninger« og derefter »Kør alligevel«. Vi er ved at skaffe en signatur, og så forsvinder advarslen.",
-    "pomoc": "Gået i stå? Skriv til os, vi svarer samme dag."
-  },
-  "hvala": {
-    "meta_naslov": "Tak — prøveversionen af TOPICA hentes",
-    "meta_opis": "Download af TOPICAs prøveversion er startet. Tre trin for at komme i gang.",
-    "nadnaslov": "Tak",
-    "naslov": "Din download er startet.",
-    "tekst": "Hvis den ikke startede af sig selv:",
-    "koraci_naslov": "Tre trin for at komme i gang",
-    "k1": "Installer programmet (ved Windows-advarslen: »Flere oplysninger« og derefter »Kør alligevel«).",
-    "k2": "Opret et nyt projekt, og indtast rummets mål: bredde, dybde og loftshøjde.",
-    "k3": "Tilføj det første underskab fra kataloget, og åbn »Skæremål«. Det er din første skæreliste.",
-    "snimak": "Tre minutters video: fra rummet til skærelisten.",
-    "snimak_dugme": "Se videoen"
-  },
-  "blog": {
-    "meta_naslov": "Guides til snedkere: skæreliste, System 32, kantbånd, køkkenmål — TOPICA",
-    "meta_opis": "Korte praktiske artikler til snedkere, der bygger pladeinventar efter mål: hvordan man læser en skæreliste, System 32, kantbånd, standardmål på køkkenskabe.",
-    "nadnaslov": "Guides",
-    "naslov": "Snedkeri på papir, før værkstedet.",
-    "tekst": "Korte artikler om det, enhver snedker gør, skrevet ned én gang, så du ikke skal forklare det hver gang.",
-    "poziv": "Prøv det her på dit eget projekt."
-  },
-  "clanak": { "citanje": "min. læsning", "objavljeno": "Udgivet" }
+  "dno": {"naslov": "Prøv det på dit næste projekt.", "tekst": "Windows 10/11. Ingen konto, intet kort. En skæreliste til dit første korpus på fem minutter.", "uslovi": "Brugsvilkår", "privatnost": "Privatliv"},
+  "preuzimanje": {"meta_naslov": "Download gratis prøveversion af TOPICA til Windows", "meta_opis": "Gratis prøveversion af programmet til skabstegning og skærelister. Windows 10/11, 64-bit, ingen konto. Installation i tre trin.", "nadnaslov": "Download", "naslov": "Gratis prøveversion til Windows.", "tekst": "Gratis, ingen konto og intet kort. Installationen tager et minut, og dit første korpus med skæreliste har du på fem.", "email_naslov": "Efterlad din e-mail, hvis du vil (valgfrit)", "email_tekst": "Vi sender kun nye versioner og prisen, når den er klar. Ingen reklamer, afmeld med ét klik.", "dugme": "Download gratis prøveversion", "datoteka": "TOPICA-proeve.exe", "bez_emaila": "Uden e-mail:", "direktno": "download direkte", "predmet": "TOPICA: ny download af prøveversionen", "zahtevi_naslov": "Hvad din computer skal kunne", "z1_naslov": "System", "z1": "Windows 10 eller Windows 11, 64-bit.", "z2_naslov": "Computer", "z2": "En almindelig værkstedslaptop er nok: 4 GB hukommelse og grafik, der kan køre 3D i en browser.", "z3_naslov": "Internet", "z3": "Ikke nødvendigt. Programmet virker offline og opretter ingen konto.", "koraci_naslov": "Installation i tre trin", "k1": "Dobbeltklik på den hentede fil TOPICA-proeve.exe.", "k2": "Hvis Windows spørger, om du stoler på programmet, så klik på »Flere oplysninger« og derefter »Kør alligevel«.", "k3": "Åbn TOPICA fra skrivebordet. Opret dit første projekt: indtast rummets mål og sæt det første korpus ind.", "slika_placeholder": "Plads til et skærmbillede af dette trin (tilføjes af ejeren)", "upozorenje_naslov": "Windows-advarsel.", "upozorenje": "Programmet er endnu ikke digitalt signeret, så ved første start viser Windows en blå skærm »Windows beskyttede din pc«. Det er normalt for nye, usignerede programmer: klik på »Flere oplysninger« og derefter »Kør alligevel«. Vi er ved at skaffe en signatur, og så forsvinder advarslen.", "pomoc": "Gået i stå? Skriv til os, vi svarer samme dag."},
+  "hvala": {"meta_naslov": "Tak — prøveversionen af TOPICA hentes", "meta_opis": "Download af TOPICAs prøveversion er startet. Tre trin for at komme i gang.", "nadnaslov": "Tak", "naslov": "Din download er startet.", "tekst": "Hvis den ikke startede af sig selv:", "koraci_naslov": "Tre trin for at komme i gang", "k1": "Installer programmet (ved Windows-advarslen: »Flere oplysninger« og derefter »Kør alligevel«).", "k2": "Opret et nyt projekt, og indtast rummets mål: bredde, dybde og loftshøjde.", "k3": "Tilføj det første underskab fra kataloget, og åbn »Skæremål«. Det er din første skæreliste.", "snimak": "Tre minutters video: fra rummet til skærelisten.", "snimak_dugme": "Se videoen"},
+  "blog": {"meta_naslov": "Guides til snedkere: skæreliste, System 32, kantbånd, køkkenmål — TOPICA", "meta_opis": "Korte praktiske artikler til snedkere, der bygger pladeinventar efter mål: hvordan man læser en skæreliste, System 32, kantbånd, standardmål på køkkenskabe.", "nadnaslov": "Guides", "naslov": "Snedkeri på papir, før værkstedet.", "tekst": "Korte artikler om det, enhver snedker gør, skrevet ned én gang, så du ikke skal forklare det hver gang.", "poziv": "Prøv det her på dit eget projekt."},
+  "clanak": {"citanje": "min. læsning", "objavljeno": "Udgivet"}
 }

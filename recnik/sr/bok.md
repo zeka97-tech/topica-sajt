@@ -19,6 +19,8 @@ slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 
 Bokovi se kroje u paru i odmah obeleže kao levi i desni, jer su rupe za šarke i vođice ogledalo jedna drugoj. Kad bok ima falc za leđa dubine 10 mm, falc se glođe pre bušenja. Česta greška: oba boka izbušena kao levi, pa šarka padne na pogrešnu stranu; druga je bok sečen na punu visinu korpusa iako dno ide preko, pa element strši 18 mm iznad suseda.
 
+![Krupni prikaz donjeg korpusa u programu TOPICA: beli bok sa prednje strane kantovan, hrastov front, nogice ispod](../slike/web/snimak-19-krupni-prikaz-1600.webp "Bok nosi konstrukciju: na njemu su šarke, nosači polica i vođice.")
+
 ## Kako to radi TOPICA
 
 Program izvede oba boka iz mera korpusa, sam ih skrati za debljinu dna i upiše kant na prednju ivicu; u [krojnoj listi](../blog/krojna-lista.html) stoje kao „bok ×2" ([mogućnosti](../#mogucnosti)). Vidljiv bok na kraju niza dobija ukrasnu stranu koja putuje sa korpusom.

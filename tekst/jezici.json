@@ -2,29 +2,5 @@
   "_napomena": "Registar jezika. kod = folder (/sr/), ime = ime jezika na tom jeziku (prekidač), status: 'pun' (proveren prevod) ili 'za-proveru'. x-default je en. Novi jezik = red ovde + tekst/<kod>.json sa istim ključevima + blog/<kod>/.",
   "podrazumevani": "sr",
   "xDefault": "en",
-  "jezici": [
-    { "kod": "sr", "ime": "Srpski",      "ogLocale": "sr_RS", "status": "pun",        "programNaJeziku": true },
-    { "kod": "en", "ime": "English",     "ogLocale": "en_US", "status": "pun",        "programNaJeziku": true },
-    { "kod": "hr", "ime": "Hrvatski",    "ogLocale": "hr_HR", "status": "pun",        "programNaJeziku": false },
-    { "kod": "de", "ime": "Deutsch",     "ogLocale": "de_DE", "status": "pun",        "programNaJeziku": false },
-    { "kod": "sl", "ime": "Slovenščina", "ogLocale": "sl_SI", "status": "za-proveru", "programNaJeziku": false },
-    { "kod": "hu", "ime": "Magyar",      "ogLocale": "hu_HU", "status": "za-proveru", "programNaJeziku": false },
-    { "kod": "pl", "ime": "Polski",      "ogLocale": "pl_PL", "status": "za-proveru", "programNaJeziku": false },
-    { "kod": "ru", "ime": "Русский",     "ogLocale": "ru_RU", "status": "za-proveru", "programNaJeziku": false },
-    { "kod": "cs", "ime": "Čeština",     "ogLocale": "cs_CZ", "status": "za-proveru", "programNaJeziku": false },
-    { "kod": "sk", "ime": "Slovenčina",  "ogLocale": "sk_SK", "status": "za-proveru", "programNaJeziku": false },
-    { "kod": "it", "ime": "Italiano",    "ogLocale": "it_IT", "status": "za-proveru", "programNaJeziku": false },
-    { "kod": "es", "ime": "Español",     "ogLocale": "es_ES", "status": "za-proveru", "programNaJeziku": false },
-    { "kod": "fr", "ime": "Français",    "ogLocale": "fr_FR", "status": "za-proveru", "programNaJeziku": false },
-    { "kod": "ro", "ime": "Română",      "ogLocale": "ro_RO", "status": "za-proveru", "programNaJeziku": false },
-    { "kod": "bg", "ime": "Български",   "ogLocale": "bg_BG", "status": "za-proveru", "programNaJeziku": false },
-    { "kod": "nl", "ime": "Nederlands",  "ogLocale": "nl_NL", "status": "za-proveru", "programNaJeziku": false },
-    { "kod": "pt", "ime": "Português",   "ogLocale": "pt_PT", "status": "za-proveru", "programNaJeziku": false },
-    { "kod": "el", "ime": "Ελληνικά",    "ogLocale": "el_GR", "status": "za-proveru", "programNaJeziku": false },
-    { "kod": "sv", "ime": "Svenska",     "ogLocale": "sv_SE", "status": "za-proveru", "programNaJeziku": false },
-    { "kod": "da", "ime": "Dansk",       "ogLocale": "da_DK", "status": "za-proveru", "programNaJeziku": false },
-    { "kod": "no", "ime": "Norsk",       "ogLocale": "nb_NO", "status": "za-proveru", "programNaJeziku": false },
-    { "kod": "fi", "ime": "Suomi",       "ogLocale": "fi_FI", "status": "za-proveru", "programNaJeziku": false },
-    { "kod": "uk", "ime": "Українська",  "ogLocale": "uk_UA", "status": "za-proveru", "programNaJeziku": false }
-  ]
+  "jezici": [{"kod":"sr","ime":"Srpski","ogLocale":"sr_RS","status":"pun","programNaJeziku":true},{"kod":"en","ime":"English","ogLocale":"en_US","status":"pun","programNaJeziku":true},{"kod":"hr","ime":"Hrvatski","ogLocale":"hr_HR","status":"pun","programNaJeziku":false},{"kod":"de","ime":"Deutsch","ogLocale":"de_DE","status":"pun","programNaJeziku":false},{"kod":"sl","ime":"Slovenščina","ogLocale":"sl_SI","status":"za-proveru","programNaJeziku":false},{"kod":"hu","ime":"Magyar","ogLocale":"hu_HU","status":"za-proveru","programNaJeziku":false},{"kod":"pl","ime":"Polski","ogLocale":"pl_PL","status":"za-proveru","programNaJeziku":false},{"kod":"ru","ime":"Русский","ogLocale":"ru_RU","status":"za-proveru","programNaJeziku":false},{"kod":"cs","ime":"Čeština","ogLocale":"cs_CZ","status":"za-proveru","programNaJeziku":false},{"kod":"sk","ime":"Slovenčina","ogLocale":"sk_SK","status":"za-proveru","programNaJeziku":false},{"kod":"it","ime":"Italiano","ogLocale":"it_IT","status":"za-proveru","programNaJeziku":false},{"kod":"es","ime":"Español","ogLocale":"es_ES","status":"za-proveru","programNaJeziku":false},{"kod":"fr","ime":"Français","ogLocale":"fr_FR","status":"za-proveru","programNaJeziku":false},{"kod":"ro","ime":"Română","ogLocale":"ro_RO","status":"za-proveru","programNaJeziku":false},{"kod":"bg","ime":"Български","ogLocale":"bg_BG","status":"za-proveru","programNaJeziku":false},{"kod":"nl","ime":"Nederlands","ogLocale":"nl_NL","status":"za-proveru","programNaJeziku":false},{"kod":"pt","ime":"Português","ogLocale":"pt_PT","status":"za-proveru","programNaJeziku":false},{"kod":"el","ime":"Ελληνικά","ogLocale":"el_GR","status":"za-proveru","programNaJeziku":false},{"kod":"sv","ime":"Svenska","ogLocale":"sv_SE","status":"za-proveru","programNaJeziku":false},{"kod":"da","ime":"Dansk","ogLocale":"da_DK","status":"za-proveru","programNaJeziku":false},{"kod":"no","ime":"Norsk","ogLocale":"nb_NO","status":"za-proveru","programNaJeziku":false},{"kod":"fi","ime":"Suomi","ogLocale":"fi_FI","status":"za-proveru","programNaJeziku":false},{"kod":"uk","ime":"Українська","ogLocale":"uk_UA","status":"za-proveru","programNaJeziku":false}]
 }
