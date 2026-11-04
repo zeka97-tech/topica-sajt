@@ -74,6 +74,8 @@ const postoji = (kod, putanja) => {
   const [folder, fajl] = putanja.split("/");
   const z = clanciPoJeziku[kod]?.[folder];
   if (!z) return false;
+  // zbirka se gradi samo ako jezik ima njene naslove (tekst.<kljuc>) ili index.md — inače ni prekidač ne sme da vodi tamo
+  if (!tekstovi[kod][ZBIRKE.find((x) => x.folder === folder).kljuc] && !z.some((c) => c.slug === "index")) return false;
   if (fajl === "index.html") return z.length > 0 && (!!tekstovi[kod][ZBIRKE.find((x) => x.folder === folder).kljuc] || z.some((c) => c.slug === "index"));
   return z.some((c) => c.slug + ".html" === fajl);
 };
