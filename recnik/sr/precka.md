@@ -19,7 +19,7 @@ slika: ../slike/web/snimak-14-sudopera-1600.webp
 
 Prečke se postavljaju u ravni gornje ivice bokova i vežu ekscentrom ili konfirmatom kroz bok. Prednja obično ide položena, da ne uđe u hod gornje fioke; zadnja može i uspravno, radi krutosti. Česta greška: majstor stavi zadnju prečku i kod sudopere, pa se sifon ne može namestiti bez sečenja; druga je gornja [fioka](./fioka-i-vodjica.html) čiji sanduk udara u prednju prečku, jer se visina prečke nije uračunala u otvor.
 
-![Element sudopere 800 × 720 × 560 u programu TOPICA pored korpusa sa vratima; u panelu desno piše „2 prečke, nogice" i „2 vrata"](../slike/web/snimak-14-sudopera-1600.webp "Sudopera iz kataloga: prednja prečka ostaje, zadnja se izostavlja zbog sifona.")
+![Element sudopere 800 × 720 × 560 u programu TOPICA pored korpusa sa vratima, sa kotama do zida, do suseda i do poda](../slike/web/snimak-14-sudopera-1600.webp "Sudopera iz kataloga: ispod radne ploče idu prečke, ne krov.")
 
 ## Kako to radi TOPICA
 
