@@ -3,9 +3,41 @@
   <url>
     <loc>https://zeka97-tech.github.io/topica-sajt/sr/</loc>
     <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zeka97-tech.github.io/topica-sajt/en/"/>
   </url>
   <url>
     <loc>https://zeka97-tech.github.io/topica-sajt/sr/preuzimanje.html</loc>
     <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/preuzimanje.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zeka97-tech.github.io/topica-sajt/en/preuzimanje.html"/>
+  </url>
+  <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/blog/krojna-lista.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/blog/krojna-lista.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zeka97-tech.github.io/topica-sajt/en/blog/krojna-lista.html"/>
+  </url>
+  <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/blog/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/blog/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zeka97-tech.github.io/topica-sajt/en/blog/index.html"/>
+  </url>
+  <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/en/</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zeka97-tech.github.io/topica-sajt/en/"/>
+  </url>
+  <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/en/preuzimanje.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/preuzimanje.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zeka97-tech.github.io/topica-sajt/en/preuzimanje.html"/>
+  </url>
+  <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/en/blog/krojna-lista.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/blog/krojna-lista.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zeka97-tech.github.io/topica-sajt/en/blog/krojna-lista.html"/>
+  </url>
+  <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/en/blog/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/blog/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zeka97-tech.github.io/topica-sajt/en/blog/index.html"/>
   </url>
 </urlset>

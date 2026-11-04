@@ -28,7 +28,7 @@ export function pokreniKorpus() {
 
   if (smanjeno || !gsap) { // bez animacije: rastavljen korpus sa kotama i krojna lista pored
     DASKE.forEach((d, i) => gsap.set(elementi[i], { x: (d.x + (d.eks.x || 0)) * MM, y: (d.y + (d.eks.y || 0)) * MM, z: (d.z + (d.eks.z || 0)) * MM }));
-    gsap.set(kote, { opacity: 1 }); gsap.set(kamera, { x: -330 }); gsap.set(krojna, { opacity: 1, x: 280 });
+    gsap.set(kote, { opacity: 1 }); gsap.set(kamera, { x: -370 }); gsap.set(krojna, { opacity: 1, x: 300 });
     return;
   }
   const tl = gsap.timeline({ defaults: { ease: "power1.inOut" },
@@ -53,9 +53,9 @@ export function pokreniKorpus() {
   tl.to({}, { duration: 1 });
   // d) krojna lista pored plana
   tl.add("lista");
-  tl.to([kamera, ploca], { x: -330, duration: 1.4 }, "lista");
+  tl.to([kamera, ploca], { x: -370, duration: 1.4 }, "lista");
   tl.to(scena, { "--sk": SK_LISTA, duration: 1.4 }, "lista");
-  tl.fromTo(krojna, { x: 460, opacity: 0 }, { x: 280, opacity: 1, duration: 1.4 }, "lista");
+  tl.fromTo(krojna, { x: 460, opacity: 0 }, { x: 300, opacity: 1, duration: 1.4 }, "lista");
   tl.to(natpisi[2], { opacity: 0, duration: 0.4 }, "lista").to(natpisi[3], { opacity: 1, duration: 0.4 }, "lista+=0.5");
   tl.to({}, { duration: 1.2 });
 }

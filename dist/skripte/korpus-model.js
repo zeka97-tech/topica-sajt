@@ -5,14 +5,14 @@ export const MM = 0.5;
 
 // pozicije su centri dasaka u mm, koordinatni početak u sredini korpusa; y raste nadole, z ka gledaocu
 export const DASKE = [
-  { id: "bok-l", naziv: "bok", w: 539, h: 702, t: 18, mat: "bela", rotY: 90, x: -291, y: -9, z: -7.5, mera: "702 × 539", eks: { x: -240 }, plan: { x: 381, y: 309.5, rot: 90 } },
+  { id: "bok-l", naziv: "bok", w: 539, h: 702, t: 18, mat: "bela", rotY: 90, x: -291, y: -9, z: -7.5, mera: "702 × 539", eks: { x: -240 }, kota: { x: -40, y: -190 }, plan: { x: 381, y: 309.5, rot: 90 } },
   { id: "bok-d", naziv: "bok", w: 539, h: 702, t: 18, mat: "bela", rotY: 90, x: 291, y: -9, z: -7.5, mera: "702 × 539", eks: { x: 240 }, plan: { x: 1113, y: 309.5, rot: 90 } },
-  { id: "dno", naziv: "dno", w: 600, h: 539, t: 18, mat: "bela", rotX: 90, x: 0, y: 351, z: -7.5, mera: "600 × 539", eks: { y: 200 }, plan: { x: 330, y: 878.5 } },
-  { id: "polica", naziv: "polica", w: 562, h: 519, t: 18, mat: "bela", rotX: 90, x: 0, y: 0, z: -17.5, mera: "562 × 519", eks: { z: 120, y: 40 }, plan: { x: 941, y: 868.5 } },
+  { id: "dno", naziv: "dno", w: 600, h: 539, t: 18, mat: "bela", rotX: 90, x: 0, y: 351, z: -7.5, mera: "600 × 539", eks: { y: 200 }, kota: { x: 130, y: 20 }, plan: { x: 330, y: 878.5 } },
+  { id: "polica", naziv: "polica", w: 562, h: 519, t: 18, mat: "bela", rotX: 90, x: 0, y: 0, z: -17.5, mera: "562 × 519", eks: { z: 120, y: 40 }, kota: { x: 120, y: 10 }, plan: { x: 941, y: 868.5 } },
   { id: "precka-p", naziv: "precka", w: 564, h: 100, t: 18, mat: "bela", x: 0, y: -310, z: 253, mera: "564 × 100", eks: { y: -140 }, plan: { x: 1534, y: 659 } },
   { id: "precka-z", naziv: "precka", w: 564, h: 100, t: 18, mat: "bela", x: 0, y: -310, z: -268, mera: "564 × 100", eks: { y: -140, z: -40 }, plan: { x: 1534, y: 789 } },
   { id: "front", naziv: "front", w: 597, h: 717, t: 18, mat: "hrast", x: 0, y: -1.5, z: 271, mera: "717 × 597", eks: { z: 300 }, plan: { x: 1792.5, y: 398.5 } },
-  { id: "ledja", naziv: "ledja", w: 597, h: 717, t: 3, mat: "lesonit", x: 0, y: -1.5, z: -278.5, mera: "717 × 597", eks: { z: -240 }, plan: { x: 2419.5, y: 398.5 } },
+  { id: "ledja", naziv: "ledja", w: 597, h: 717, t: 3, mat: "lesonit", x: 0, y: -1.5, z: -278.5, mera: "717 × 597", eks: { z: -240 }, kota: { x: 30, y: -90 }, plan: { x: 2419.5, y: 398.5 } },
 ];
 export const PLOCA = { w: 2800, h: 1200 }; // deo table 2800 mm širine koji ove daske zauzmu (visina za prikaz), mm
 
@@ -45,7 +45,7 @@ export function napraviDasku(d, nazivi, kamera) {
   kota.innerHTML = `${d.mera}<small>${naziv}</small>`;
   // „bilbord": poništi rotaciju daske i kamere da natpis uvek gleda u ekran
   const inv = d.rotY ? `rotateY(${-d.rotY}deg)` : d.rotX ? `rotateX(${-d.rotX}deg)` : "";
-  kota.style.transform = `${inv} rotateY(${-kamera.cy}deg) rotateX(${-kamera.cx}deg) translateZ(260px) translate(-50%, -50%)`;
+  kota.style.transform = `${inv} rotateY(${-kamera.cy}deg) rotateX(${-kamera.cx}deg) translateZ(260px) translate(${d.kota?.x || 0}px, ${d.kota?.y || 0}px) translate(-50%, -50%)`;
   const plan = document.createElement("div");
   plan.className = "kota-plan";
   plan.innerHTML = `${d.mera}<small>${naziv}</small>`;
