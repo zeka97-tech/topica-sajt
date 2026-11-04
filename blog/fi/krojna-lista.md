@@ -1,6 +1,6 @@
 ---
 naslov: Mikä sahauslista on ja miten sitä luetaan
-opis: Sahauslista on luettelo kalusteen jokaisesta levystä tarkkoine mittoineen, paksuuksineen, reunanauhoineen ja kappalemäärineen. Miltä se näyttää, mitä ”ensimmäinen mitta = syysuunta” tarkoittaa ja miten TOPICA tekee sen automaattisesti.
+opis: Sahauslista on luettelo kalusteen jokaisesta levystä mittoineen, paksuuksineen ja reunanauhoineen. Miltä se näyttää, mitä ”ensimmäinen mitta = syysuunta” on.
 datum: 2026-11-04
 slika: ../slike/web/snimak-33-po-meri-1600.webp
 ---

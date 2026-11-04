@@ -1,6 +1,6 @@
 ---
 naslov: Miten keittiö mitataan ennen suunnittelua (seinät, liitännät, laitteet)
-opis: Mitä mitataan ja kirjataan ennen mittatilauskeittiön suunnittelua: seinät kolmelta korkeudelta, katto, ikkuna ja ovi, vesi, viemäri, sähkö ja kaasu, laitteet, suoran kulman tarkistus. Mukaan otettava lista ja syöttö ohjelmaan.
+opis: Mitä mitataan ennen mittatilauskeittiön suunnittelua: seinät kolmelta korkeudelta, katto, ikkuna, vesi, viemäri, sähkö, kaasu, laitteet, suora kulma.
 datum: 2026-11-04
 slika: ../slike/web/snimak-44-soba-pod-zid-1600.webp
 status: za-proveru

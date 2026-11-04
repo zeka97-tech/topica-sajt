@@ -1,6 +1,6 @@
 ---
 naslov: Reunanauha: mikä paksuus minne (0,45 / 1 / 2 mm) ja miten pituus lasketaan
-opis: Reunanauha 0,45 mm tulee runkoon, 1 mm oviin, 2 mm kovemmin rasitettuihin reunoihin. Mitä nettomitta reunanauhan jälkeen tarkoittaa ja miten nauhan pituus lasketaan 10 % hukalla, esimerkkinä runko 600 × 720 × 560.
+opis: Reunanauha 0,45 mm runkoon, 1 mm oviin, 2 mm koville reunoille. Mitä nettomitta tarkoittaa ja miten nauhan pituus lasketaan 10 % hukalla, esimerkein.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

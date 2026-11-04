@@ -1,6 +1,6 @@
 ---
 naslov: Asentajille ja niille, jotka sahauttavat muualla
-opis: Ohjelma keittiöasentajille ja tekijöille, jotka sahauttavat levyt levypalvelussa: ”Mitoittain”-sahauslista kopioitavaksi ja lähetettäväksi, helat kappaleelta, projekti yhtenä tiedostona. Windows.
+opis: Ohjelma keittiöasentajille ja levypalvelussa sahauttaville: ”Mitoittain”-sahauslista kopioitavaksi, helat kappaleelta, projekti yhtenä tiedostona. Windows.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

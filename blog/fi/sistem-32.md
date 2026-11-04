@@ -1,6 +1,6 @@
 ---
 naslov: System 32: miksi eurooppalaisissa kalusteissa reiät ovat 32 mm välein
-opis: System 32 (järjestelmä 32) on Ø5 mm reikärivi 32 mm jaolla, ensimmäinen 37 mm sivun etureunasta. Mistä se tulee, miten hyllyt, saranat ja kiskot johdetaan siitä ja miten porataan ilman CNC:tä.
+opis: System 32 on Ø5 mm reikärivi 32 mm jaolla, ensimmäinen 37 mm sivun etureunasta. Mistä se tulee, miten hyllyt, saranat ja kiskot johdetaan, poraus ilman CNC:tä.
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 status: za-proveru

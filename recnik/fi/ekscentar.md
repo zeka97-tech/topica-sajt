@@ -1,6 +1,6 @@
 ---
 naslov: Epäkeskoliitin (minifix) ja Confirmat-ruuvi
-opis: Epäkeskoliitin (minifix) ja Confirmat-ruuvi ovat heloja rungon levyjen liittämiseen suorassa kulmassa. Reikien mitat, kumpi milloinkin valitaan ja yleiset porausvirheet.
+opis: Epäkeskoliitin (minifix) ja Confirmat-ruuvi liittävät rungon levyt suorassa kulmassa. Reikien mitat, kumpi milloinkin valitaan ja yleiset porausvirheet.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

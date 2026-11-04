@@ -1,6 +1,6 @@
 ---
 naslov: Runko
-opis: Runko on kaapin 18 mm lastulevystä tehty laatikko: kaksi sivua, pohja, kansi tai tukirimat, taustalevy ja hylly. Vakiomitat, kokoaminen ja miten TOPICA laskee sen.
+opis: Runko on kaapin laatikko 18 mm lastulevystä: kaksi sivua, pohja, kansi tai tukirimat, taustalevy ja hylly. Vakiomitat, kokoaminen ja miten TOPICA laskee sen.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

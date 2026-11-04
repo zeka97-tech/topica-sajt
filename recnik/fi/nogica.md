@@ -1,6 +1,6 @@
 ---
 naslov: Säätöjalka
-opis: Säätöjalka on keittiön alakaapin muovinen säädettävä jalka, 100 mm, 4 kpl 800 mm leveyteen asti. Miten rivi vaaitaan, missä erehdytään ja miten ohjelma laskee ne.
+opis: Säätöjalka on alakaapin muovinen säädettävä jalka, 100 mm, 4 kpl 800 mm leveyteen asti. Miten rivi vaaitaan, missä erehdytään ja miten ohjelma laskee ne.
 datum: 2026-11-04
 slika: ../slike/web/snimak-39-cokla-1600.webp
 status: za-proveru

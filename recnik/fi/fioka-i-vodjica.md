@@ -1,6 +1,6 @@
 ---
 naslov: Laatikko ja laatikkokisko
-opis: Laatikko on kiskoilla kulkeva laatikkorunko etusarjan takana: puinen runko 13 mm välyksellä per sivu tai metallilaatikko luettelon mukaan. Mitat, kiskojen pituudet ja välykset.
+opis: Laatikko on kiskoilla kulkeva laatikkorunko etusarjan takana: puinen runko 13 mm välyksellä per sivu tai metallilaatikko luettelosta. Mitat, kiskot, välykset.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 status: za-proveru

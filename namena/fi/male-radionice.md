@@ -1,6 +1,6 @@
 ---
 naslov: Pienille verstaille
-opis: Ohjelma pienille puusepänverstaille: yksi tekijä, läppäri työpöydällä, ilman koulutusta ja ilman nettiä. Sahauslista ja hinta ensimmäiselle rungolle viidessä minuutissa.
+opis: Ohjelma pienille puusepänverstaille: yksi tekijä, läppäri työpöydällä, ilman koulutusta ja nettiä. Sahauslista ja hinta ensimmäiselle rungolle 5 minuutissa.
 datum: 2026-11-04
 slika: ../slike/web/snimak-33-po-meri-1600.webp
 status: za-proveru

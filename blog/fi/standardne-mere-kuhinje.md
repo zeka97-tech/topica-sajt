@@ -1,6 +1,6 @@
 ---
 naslov: Keittiökaappien vakiomitat
-opis: Taulukko mittatilauskeittiön vakiomitoista: ala- ja yläkaapit, korkeat kaapit, työtaso, sokkeli, etäisyys yläkaappeihin, leveydet. TOPICA-ohjelman oletusarvot ja milloin niistä poiketaan.
+opis: Taulukko keittiön vakiomitoista: ala- ja yläkaapit, korkeat kaapit, työtaso, sokkeli, etäisyys yläkaappeihin, leveydet. TOPICAn oletusarvot ja milloin poiketa.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

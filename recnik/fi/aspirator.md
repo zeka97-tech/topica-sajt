@@ -1,6 +1,6 @@
 ---
 naslov: Liesituuletin (kaappi ja asennuskorkeus)
-opis: Liesituuletin on keittotason yläpuolinen laite; liesituuletinkaappi on lyhennetty yläkaappi. Asennuskorkeus 650 mm sähkö / 750 mm kaasu, leveydet, putki ja virheet.
+opis: Liesituuletin on keittotason yläpuolinen laite; sen kaappi on lyhennetty yläkaappi. Asennuskorkeus 650 mm sähkö / 750 mm kaasu, leveydet, putki ja virheet.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

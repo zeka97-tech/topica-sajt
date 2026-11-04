@@ -1,6 +1,6 @@
 ---
 naslov: Huoneesta sahauslistaan 10 minuutissa — vaihe vaiheelta TOPICAssa
-opis: Miten TOPICA-ohjelmassa päästään huoneen mitoista keittiön sahauslistaan ja hintaan: uusi projekti, ensimmäinen runko, laatikot, ylärivi, sokkeli ja työtaso, ”Mitoittain”. Kuvakaappauksin ja todellisin ajoin per vaihe.
+opis: Miten TOPICAssa päästään huoneen mitoista sahauslistaan ja hintaan: projekti, ensimmäinen runko, laatikot, ylärivi, sokkeli, työtaso, ”Mitoittain”. Ajat mukana.
 datum: 2026-11-04
 slika: ../slike/web/snimak-44-soba-pod-zid-1600.webp
 status: za-proveru

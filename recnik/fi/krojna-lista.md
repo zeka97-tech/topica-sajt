@@ -1,6 +1,6 @@
 ---
 naslov: Sahauslista
-opis: Sahauslista on luettelo kalusteen jokaisesta levystä mittoineen, paksuuksineen, materiaaleineen, reunanauhoineen ja kappalemäärineen. Mitan, syysuunnan ja reunanauhan säännöt lyhyesti.
+opis: Sahauslista on luettelo kalusteen jokaisesta levystä: mitta, paksuus, materiaali, reunanauha ja kappalemäärä. Mitan, syysuunnan ja reunanauhan säännöt lyhyesti.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

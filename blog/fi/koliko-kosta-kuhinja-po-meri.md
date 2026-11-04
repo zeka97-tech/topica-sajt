@@ -1,6 +1,6 @@
 ---
 naslov: Mitä mittatilauskeittiö maksaa — miten puuseppä laskee hinnan
-opis: Mittatilauskeittiön hinta koostuu materiaalista per m², reunanauhasta metriltä, heloista kappaleelta, työstä ja katteesta. Mitä laskentaan kuuluu, mitä unohdetaan ja miten ohjelma laskee yhteen puusepän syöttämistä hinnoista.
+opis: Mittatilauskeittiön hinta: materiaali per m², reunanauha metriltä, helat kappaleelta, työ ja kate. Mitä unohdetaan ja miten ohjelma laskee puusepän hinnoista.
 datum: 2026-11-04
 slika: ../slike/web/snimak-37-cena-1600.webp
 status: za-proveru

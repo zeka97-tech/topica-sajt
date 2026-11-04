@@ -1,6 +1,6 @@
 ---
 naslov: Sarana
-opis: Kalustesarana 35 mm kupilla: päällelyövä, puolipäällelyövä ja sisäänlyövä (peitto 18/9/0), poraus, paikka System 32:n mukaan ja saranoiden määrä oven korkeuden mukaan.
+opis: Kuppisarana 35 mm: päällelyövä, puolipäällelyövä ja sisäänlyövä (peitto 18/9/0), poraus, paikka System 32:n mukaan ja saranoiden määrä oven korkeuden mukaan.
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 status: za-proveru

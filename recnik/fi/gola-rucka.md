@@ -1,6 +1,6 @@
 ---
 naslov: Gola-profiili (vedinprofiili)
-opis: Gola-profiili on runkoon upotettu alumiininen C- tai L-profiili vetimen sijasta. Mikä muuttuu ovessa, sivussa ja allaskaapissa, yleiset virheet ja miten ohjelma käsittelee profiilin.
+opis: Gola-profiili on runkoon upotettu alumiininen C- tai L-profiili vetimen sijasta. Mikä muuttuu ovessa, sivussa ja allaskaapissa, virheet ja ohjelman tapa.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 status: za-proveru

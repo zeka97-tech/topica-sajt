@@ -1,6 +1,6 @@
 ---
 naslov: Väliseinä
-opis: Väliseinä on pystylevy, joka jakaa rungon leveyssuunnassa kahteen aukkoon. Mitat, reunanauha, saranat yhteisessä levyssä ja miksi leveä kaappi vaatii väliseinän.
+opis: Väliseinä on pystylevy, joka jakaa rungon leveyssuunnassa kahteen aukkoon. Mitat, reunanauha, saranat yhteisessä levyssä ja miksi leveä kaappi vaatii sen.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

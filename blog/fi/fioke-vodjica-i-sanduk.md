@@ -1,6 +1,6 @@
 ---
 naslov: Laatikot: miten kisko valitaan ja laatikkorunko lasketaan
-opis: Kuulakisko, rullakisko vai metallilaatikko — kuinka suuri välys per sivu, miten kiskon pituus valitaan ja miten laatikkorunko lasketaan 600 mm rungolle, tarkoin luvuin.
+opis: Kuulakisko, rullakisko vai metallilaatikko: välys per sivu, kiskon pituuden valinta ja laatikkorungon laskenta 600 mm rungolle, tarkoin luvuin.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 status: za-proveru

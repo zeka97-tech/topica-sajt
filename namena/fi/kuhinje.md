@@ -1,6 +1,6 @@
 ---
 naslov: Ohjelma mittatilauskeittiöille
-opis: Keittiösuunnitteluohjelma puusepille: piirrät huoneen, asetat rungot luettelosta, ja ohjelma antaa 3D:n, millintarkan sahauslistan, helat ja hinnan. Windows, ilman nettiä.
+opis: Keittiösuunnitteluohjelma puusepille: piirrät huoneen, asetat rungot luettelosta, saat 3D:n, millintarkan sahauslistan, helat ja hinnan. Windows, ilman nettiä.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

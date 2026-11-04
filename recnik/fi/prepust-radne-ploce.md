@@ -1,6 +1,6 @@
 ---
 naslov: Työtason ylitys
-opis: Työtason ylitys on tason osa, joka ulottuu 20–30 mm oven yli ja sivulle, missä ei ole seinää. Miksi taso on 600 syvä, miten se sovitetaan seinään ja missä erehdytään.
+opis: Työtason ylitys on tason osa, joka ulottuu 20–30 mm oven yli ja sivulle ilman seinää. Miksi taso on 600 syvä, sovitus seinään ja missä erehdytään.
 datum: 2026-11-04
 slika: ../slike/web/snimak-45-kuhinja-plocice-mermer-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Rungon pohja
-opis: Rungon pohja on kaapin alin levy; eurooppalaisessa käytännössä ja TOPICA-ohjelmassa se menee sivujen alle täydessä leveydessä. Pohjan mitat, reunanauha, säätöjalat ja sahaus.
+opis: Rungon pohja on kaapin alin levy; eurooppalaisessa käytännössä ja TOPICAssa se menee sivujen alle täydessä leveydessä. Mitat, reunanauha, säätöjalat, sahaus.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

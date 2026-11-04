@@ -1,6 +1,6 @@
 ---
 naslov: Puuseppien kysymyksiä keittiösuunnittelu- ja sahauslistaohjelmasta
-opis: Kaksikymmentä oikeaa kysymystä, joita tekijät kysyvät keittiö-, vaatekaappi- ja sahauslistaohjelmasta: hinta, Windows, netti, helat, reunanauha, CNC, levyt, asennus. Lyhyet ja rehelliset vastaukset.
+opis: Kaksikymmentä oikeaa kysymystä keittiö-, vaatekaappi- ja sahauslistaohjelmasta: hinta, Windows, netti, helat, reunanauha, CNC, levyt, asennus. Lyhyesti.
 datum: 2026-11-04
 slika: ../slike/web/snimak-33-po-meri-1600.webp
 tip: pitanja

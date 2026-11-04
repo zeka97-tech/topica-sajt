@@ -1,6 +1,6 @@
 ---
 naslov: Ohjelma mittatilausvaatekaapeille
-opis: Vaatekaappiohjelma puusepille: runko syvyydeltään 600, saranaovet saranoilla korkeuden mukaan, hyllyt ja laatikot System 32:n mukaan, sahauslista ja hinta. Windows, ilman nettiä.
+opis: Vaatekaappiohjelma puusepille: runko 600 syvä, saranaovet saranoilla korkeuden mukaan, hyllyt ja laatikot System 32:n mukaan, sahauslista ja hinta. Windows.
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 status: za-proveru

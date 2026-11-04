@@ -1,6 +1,6 @@
 ---
 naslov: Reunanauha
-opis: Reunanauha on ABS-nauha, joka peittää lastulevyn reunan: 0,45 mm runkoon, 1 mm oviin, 2 mm koville reunoille. Mitkä reunat nauhoitetaan ja miten nauhan pituus lasketaan.
+opis: Reunanauha on ABS-nauha lastulevyn reunassa: 0,45 mm runkoon, 1 mm oviin, 2 mm koville reunoille. Mitkä reunat nauhoitetaan ja miten pituus lasketaan.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru
