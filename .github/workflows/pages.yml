@@ -1,5 +1,6 @@
 # GitHub Pages: pri svakom push-u na main izgradi dist/ iz šablona + tekst/*.json i objavi.
-# Uključivanje: Settings → Pages → Source: "GitHub Actions". Ništa drugo ne treba (build nema zavisnosti).
+# Uključivanje: workflow sam uključi Pages (enablement: true). Ako to padne (privatni repo bez Pages plana),
+# vlasnik jednom: Settings → Pages → Source: "GitHub Actions". Build nema zavisnosti.
 name: Objavi sajt (GitHub Pages)
 on:
   push:
@@ -23,6 +24,8 @@ jobs:
       - name: Build (šabloni + tekst → dist/)
         run: node skripte/jezici.mjs
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true  # sam uključi Pages (izvor: GitHub Actions) ako još nije
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
