@@ -17,7 +17,7 @@ const BRZO = process.argv.includes("--brzo");
 const BEZ_LH = process.argv.includes("--bez-lighthouse") || BRZO;
 const SAMO_LH = process.argv.includes("--samo-lighthouse");
 const SEO = process.argv.includes("--seo"); // Lighthouse SEO + pristupačnost na 10 stranica po jeziku
-const PORT = 8788;
+const PORT = Number(arg("port")) || 8788;
 const greske = [];
 const upozorenja = [];
 
