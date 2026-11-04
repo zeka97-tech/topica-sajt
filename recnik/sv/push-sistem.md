@@ -1,6 +1,6 @@
 ---
 naslov: Push-to-open (tryck för att öppna)
-opis: Push-to-open öppnar en front utan handtag med ett tryck på fronten. Gångjärn utan fjäder, utkastare i stommen, större frontspalt och vanliga fel i verkstaden.
+opis: Push-to-open öppnar en front utan handtag med ett tryck. Gångjärn utan fjäder, utkastare i stommen, större frontspalt och vanliga fel i verkstaden.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

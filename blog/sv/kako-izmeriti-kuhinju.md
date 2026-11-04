@@ -1,6 +1,6 @@
 ---
 naslov: Så mäter du ett kök före ritningen (vägg, installationer, vitvaror)
-opis: Vad som mäts och antecknas innan ett platsbyggt kök ritas: väggar på tre höjder, tak, fönster och dörrar, vatten, avlopp, el och gas, vitvaror, kontroll av rät vinkel. Packlista och inmatning i programmet.
+opis: Vad som mäts innan ett platsbyggt kök ritas: väggar på tre höjder, tak, fönster, vatten, avlopp, el, gas, vitvaror, rät vinkel. Packlista och inmatning.
 datum: 2026-11-04
 slika: ../slike/web/snimak-44-soba-pod-zid-1600.webp
 status: za-proveru

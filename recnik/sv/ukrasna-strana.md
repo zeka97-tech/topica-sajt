@@ -1,6 +1,6 @@
 ---
 naslov: Täcksida
-opis: Täcksidan är en 18 mm skiva i frontens dekor som täcker stommens synliga sida i slutet av raden. Mått, kantlist, vanliga fel och hur programmet hanterar den.
+opis: Täcksidan är en 18 mm skiva i frontens dekor som täcker stommens synliga sida i radens slut. Mått, kantlist, vanliga fel och hur programmet hanterar den.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

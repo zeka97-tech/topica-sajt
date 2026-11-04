@@ -1,6 +1,6 @@
 ---
 naslov: Gola-profil (greppfris)
-opis: Gola-profilen är en C- eller L-profil i aluminium inbyggd i stommen i stället för handtag. Vad som ändras på front, sida och diskbänksskåp, vanliga fel och hur programmet hanterar profilen.
+opis: Gola-profilen är en C- eller L-profil i aluminium i stommen i stället för handtag. Vad som ändras på front, sida och diskbänksskåp, och vanliga fel.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 status: za-proveru

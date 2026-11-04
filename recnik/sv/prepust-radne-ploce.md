@@ -1,6 +1,6 @@
 ---
 naslov: Bänkskivans överhäng
-opis: Bänkskivans överhäng är den del av skivan som sticker ut 20–30 mm framför fronten och på sidan där ingen vägg finns. Varför skivan är 600 djup, hur den skärs efter väggen och var det går fel.
+opis: Bänkskivans överhäng sticker ut 20–30 mm framför fronten och på sidan utan vägg. Varför skivan är 600 djup, hur den skärs efter väggen och var det går fel.
 datum: 2026-11-04
 slika: ../slike/web/snimak-45-kuhinja-plocice-mermer-1600.webp
 status: za-proveru

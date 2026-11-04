@@ -15,7 +15,7 @@ Levykalusteissa (keittiöt, vaatekaapit, lastulevystä tehdyt kaapistot) yksi li
 - **Pituus × leveys** millimetreinä, valmiin levyn nettomitta.
 - **Paksuus**: 18 mm runkoon ja oviin, 3 mm kovalevy taustoihin, 8–10 mm laatikonpohjiin.
 - **Materiaali**: valkoinen lastulevy, tammidekori, värillinen kovalevy.
-- **Reunanauha**: mitkä reunat nauhoitetaan ja millä nauhalla (0,45 mm rungossa, 1 tai 2 mm ovissa).
+- **[Reunanauha](../recnik/kant.html)**: mitkä reunat nauhoitetaan ja millä nauhalla (0,45 mm rungossa, 1 tai 2 mm ovissa).
 - **Kappalemäärä**: kaksi sivua, yksi pohja, kaksi tukirimaa.
 
 Hyvä lista on ryhmitelty materiaalin ja paksuuden mukaan, koska niin levyt sahataan: ensin kaikki valkoinen 18 mm lastulevy, sitten ovet, sitten kovalevy.
@@ -26,7 +26,7 @@ Kuvioiduilla dekoreilla (tammi, pähkinä, sonoma) on väliä, miten levy asettu
 
 ## Esimerkki: alakaappi 600 × 720 × 560
 
-Tavallisessa keittiön alakaapissa, jossa on yksi ovi ja yksi hylly, on kahdeksan levyä. Pohja on sivujen päällä (täysi leveys 600), joten sivut ovat 702 korkeita, eivät 720. Rungon syvyys on 539, koska ovi (18) ja tausta (3) vähennetään 560:stä.
+Tavallisen keittiön alakaapin [rungossa](../recnik/korpus.html), jossa on yksi ovi ja yksi hylly, on kahdeksan levyä. Pohja on sivujen päällä (täysi leveys 600), joten sivut ovat 702 korkeita, eivät 720. Rungon syvyys on 539, koska ovi (18) ja tausta (3) vähennetään 560:stä.
 
 | Levy | Mitta (mm) | Paks. | Reuna | Kpl |
 |---|---|---|---|---|
@@ -46,5 +46,7 @@ Ohjelmassa et kirjoita sahauslistaa: se lasketaan huoneeseen asettamistasi rungo
 ![”Mitoittain”-sahauslista TOPICAssa 600 × 720 × 560 mm alakaapille: kahdeksan levyä ryhmiteltynä materiaalin mukaan, mittoineen, paksuuksineen, reunanauhoineen ja kappalemäärineen](../slike/web/snimak-33-po-meri-1600.webp "”Mitoittain”-näkymä yhdelle rungolle: kahdeksan levyä, kolme materiaalia, 2,34 m² levyä.")
 
 Ohjelma pitää itse huolen säännöstä ”ensimmäinen mitta = syysuunta”: ovi kirjoitetaan aina pystyyn, ja kovalevy saa merkinnän ”ei syysuuntaa”. Jos muutat myöhemmin taustan paksuutta tai oven reunanauhaa verstaan asetuksissa, muutos kulkee läpi projektin jokaiseen levyyn, myös niihin, jotka jo katsoit.
+
+Lisää siitä, mihin mikäkin nauha tulee, lukee oppaassa [Reunanauha: mikä paksuus minne](./kant-debljina-i-duzina.html), ja reikäjaosta oppaassa [System 32](./sistem-32.html).
 
 Sahauslista ei ole monimutkainen. Monimutkaista on saada se oikein joka kerta, jokaiselle kaapille, sen jälkeen kun asiakas on muuttanut mieltään kolme kertaa. Sitä varten ohjelma on.

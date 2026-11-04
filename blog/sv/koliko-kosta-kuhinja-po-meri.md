@@ -1,6 +1,6 @@
 ---
 naslov: Vad kostar ett platsbyggt kök — så räknar snickaren fram priset
-opis: Priset på ett platsbyggt kök sätts ihop av material per m², kantlist per meter, beslag per styck, arbete och påslag. Vad som ingår, vad som glöms och hur programmet summerar ur de priser snickaren lägger in.
+opis: Priset på ett platsbyggt kök: material per m², kantlist per meter, beslag per styck, arbete och påslag. Vad som glöms och hur programmet summerar dina priser.
 datum: 2026-11-04
 slika: ../slike/web/snimak-37-cena-1600.webp
 status: za-proveru

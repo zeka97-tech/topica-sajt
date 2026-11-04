@@ -1,6 +1,6 @@
 ---
 naslov: System 32: därför har europeiska möbler hål på 32 mm
-opis: System 32 är en rad hål Ø5 mm med 32 mm delning, det första 37 mm från sidans framkant. Varifrån det kommer, hur hyllplan, gångjärn och lådskenor tas ur det och hur man borrar utan CNC.
+opis: System 32 är en rad hål Ø5 mm med 32 mm delning, det första 37 mm från sidans framkant. Varifrån det kommer, vad som tas ur det och hur man borrar utan CNC.
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 status: za-proveru

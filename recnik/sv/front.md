@@ -1,6 +1,6 @@
 ---
 naslov: Front
-opis: Fronten är luckor och lådfronter, skåpets synliga sida av 18 mm spånskiva med 1 eller 2 mm kantlist. Frontens mått, spalt 3 mm och hur den räknas ur stommen.
+opis: Fronten är luckor och lådfronter, skåpets synliga sida av 18 mm spånskiva med 1 eller 2 mm kantlist. Mått, spalt 3 mm och hur den räknas ur stommen.
 datum: 2026-11-04
 slika: ../slike/web/snimak-19-krupni-prikaz-1600.webp
 status: za-proveru

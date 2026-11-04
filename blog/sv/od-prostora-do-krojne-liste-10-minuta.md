@@ -1,6 +1,6 @@
 ---
 naslov: Från rummet till kaplistan på 10 minuter — steg för steg i TOPICA
-opis: Hur man i programmet TOPICA går från rummets mått till kökets kaplista och pris: nytt projekt, första stommen, lådor, överrad, sockel och bänkskiva, ”Efter mått”. Med skärmbilder och verklig tid per steg.
+opis: Från rummets mått till kökets kaplista och pris i TOPICA: nytt projekt, första stommen, lådor, överrad, sockel och bänkskiva, ”Efter mått”. Tid per steg.
 datum: 2026-11-04
 slika: ../slike/web/snimak-44-soba-pod-zid-1600.webp
 status: za-proveru

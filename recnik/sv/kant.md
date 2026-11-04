@@ -1,6 +1,6 @@
 ---
 naslov: Kantlist
-opis: Kantlist är ABS-bandet som täcker spånskivans kant: 0,45 mm på stommen, 1 mm på fronter, 2 mm på hårt belastade kanter. Vilka kanter som kantas och hur längden räknas.
+opis: Kantlist är ABS-bandet på spånskivans kant: 0,45 mm på stommen, 1 mm på fronter, 2 mm på belastade kanter. Vilka kanter som kantas och hur längden räknas.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

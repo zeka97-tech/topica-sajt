@@ -15,7 +15,7 @@ För skivmöbler (kök, garderober, skåp i spånskiva) bär en rad i listan oft
 - **Längd × bredd** i millimeter, den färdiga skivans nettomått.
 - **Tjocklek**: 18 mm för stomme och fronter, 3 mm hardboard för baksidor, 8–10 mm för lådbottnar.
 - **Material**: vit spånskiva, ekdekor, färgad hardboard.
-- **Kantlist**: vilka kanter som får kantband och vilken list (0,45 mm på stommen, 1 eller 2 mm på fronter).
+- **[Kantlist](../recnik/kant.html)**: vilka kanter som får kantband och vilken list (0,45 mm på stommen, 1 eller 2 mm på fronter).
 - **Antal**: två sidor, en botten, två reglar.
 
 En bra lista är grupperad efter material och tjocklek, för det är så skivorna kapas: all vit 18 mm spånskiva först, sedan fronter, sedan hardboard.
@@ -26,7 +26,7 @@ Med mönstrade dekorer (ek, valnöt, sonoma) spelar det roll hur skivan ligger p
 
 ## Exempel: en bänkstomme 600 × 720 × 560
 
-En vanlig bänkstomme för kök med en lucka och en hylla har åtta skivor. Botten ligger över sidorna (full bredd 600), så sidorna är 702 höga, inte 720. Stommens djup är 539, eftersom fronten (18) och baksidan (3) dras av från 560.
+En vanlig [bänkstomme](../recnik/korpus.html) för kök med en lucka och en hylla har åtta skivor. Botten ligger över sidorna (full bredd 600), så sidorna är 702 höga, inte 720. Stommens djup är 539, eftersom fronten (18) och baksidan (3) dras av från 560.
 
 | Skiva | Mått (mm) | Tj. | Kant | Ant |
 |---|---|---|---|---|
@@ -46,5 +46,7 @@ I programmet skriver du inte kaplistan: den räknas fram ur stommarna du har st�
 ![Kaplistan ”Efter mått” i TOPICA för en bänkstomme 600 × 720 × 560 mm: åtta skivor grupperade efter material, med mått, tjocklek, kantlist och antal](../slike/web/snimak-33-po-meri-1600.webp "Vyn ”Efter mått” för en stomme: åtta skivor, tre material, 2,34 m² skiva.")
 
 Programmet håller själv regeln ”första måttet = fiberriktningen”: en front skrivs alltid stående, och hardboard får märkningen ”utan fiberriktning”. Ändrar du senare baksidans tjocklek eller frontens kantlist i verkstadsinställningarna slår ändringen igenom i varje skiva i projektet, även de du redan har tittat på.
+
+Mer om var vilket band ska sitta står i guiden [Kantlist: vilken tjocklek som sitter var](./kant-debljina-i-duzina.html), och om hålens placering i [System 32](./sistem-32.html).
 
 En kaplista är inte komplicerad. Det komplicerade är att få den rätt varje gång, för varje skåp, efter att kunden har ändrat sig tre gånger. Det är det programmet är till för.

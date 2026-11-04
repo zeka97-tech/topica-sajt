@@ -1,6 +1,6 @@
 ---
 naslov: Lådor: så väljer du lådskena och räknar ut lådlådan
-opis: Kulskena, rullskena eller metallåda — hur stort spelet per sida är, hur skenans längd väljs och hur lådlådan räknas för en stomme på 600 mm, med exakta tal.
+opis: Kulskena, rullskena eller metallåda — spelet per sida, hur skenans längd väljs och hur lådlådan räknas för en stomme på 600 mm, med exakta tal.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Standardmått för köksskåp
-opis: Tabell över standardmått för platsbyggda kök: bänk- och väggskåp, högskåp, bänkskiva, sockel, avstånd till överraden, bredder. Förvalda värden i programmet TOPICA och när man avviker från dem.
+opis: Tabell över standardmått för kök: bänk- och väggskåp, högskåp, bänkskiva, sockel, avstånd till överraden, bredder. Förval i TOPICA och när man avviker.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

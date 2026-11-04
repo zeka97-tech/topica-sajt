@@ -1,6 +1,6 @@
 ---
 naslov: Kantlist: vilken tjocklek som sitter var (0,45 / 1 / 2 mm) och hur längden räknas
-opis: Kantlist 0,45 mm går på stommen, 1 mm på fronter, 2 mm på hårt belastade kanter. Vad nettomått efter kantlist betyder och hur bandets längd räknas med 10 % spill, på exemplet stomme 600 × 720 × 560.
+opis: Kantlist 0,45 mm på stommen, 1 mm på fronter, 2 mm på belastade kanter. Vad nettomått efter kantlist betyder och hur längden räknas med 10 % spill.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

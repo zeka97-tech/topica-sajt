@@ -1,6 +1,6 @@
 ---
 naslov: Mellanvägg
-opis: Mellanväggen är en stående skiva som delar stommen på bredden i två öppningar. Mått, kantlist, gångjärn på gemensam skiva och varför ett brett skåp behöver mellanvägg.
+opis: Mellanväggen är en stående skiva som delar stommen i två öppningar. Mått, kantlist, gångjärn på gemensam skiva och varför ett brett skåp behöver en.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

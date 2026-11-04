@@ -1,6 +1,6 @@
 ---
 naslov: Dekor och fiberriktning
-opis: Dekoren är den melaminbelagda spånskivans mönster och färg, fiberriktningen är mönstrets riktning. Regeln ”första måttet = fiberriktningen”, fronter stående, och var det oftast går fel.
+opis: Dekoren är spånskivans mönster och färg, fiberriktningen mönstrets riktning. Regeln ”första måttet = fiberriktningen”, fronter stående, och var det går fel.
 datum: 2026-11-04
 slika: ../slike/web/snimak-47-svoj-dezen-1600.webp
 status: za-proveru

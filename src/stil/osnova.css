@@ -56,7 +56,7 @@ p { margin: 0; }
 .dugme-malo { height: var(--s-dugme-malo); padding: 0 var(--s-dugme-malo-pad); font-size: var(--f-15); }
 .dugme-belo { background: var(--c-belo); color: var(--c-tekst); border: var(--d-linija) solid var(--c-linija); }
 .dugme-belo:hover { background: var(--c-podloga-3); }
-.sitno a, .clanak p a, .clanak li a, .obrazac-poruka a { text-decoration: underline; text-underline-offset: var(--r-1); }
+.sitno a, .clanak p a, .clanak li a, .clanak td a, .obrazac-poruka a { text-decoration: underline; text-underline-offset: var(--r-1); }
 .veza { display: inline-flex; align-items: center; gap: var(--r-1); font-weight: var(--w-600); color: var(--c-plava); font-size: var(--f-17); height: var(--s-dugme); transition: color var(--t-brzo) var(--t-krivulja); }
 .veza:hover { color: var(--c-plava-hover); }
 .veza .strelica { transition: transform var(--t-brzo) var(--t-krivulja); display: inline-block; }

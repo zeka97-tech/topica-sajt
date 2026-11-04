@@ -1,6 +1,6 @@
 ---
 naslov: Regel
-opis: Regeln är en bindande list av 18 mm spånskiva, 100 mm hög, som på bänkskåp ersätter toppen: den håller sidorna på avstånd och tar bänkskivans skruvar.
+opis: Regeln är en list av 18 mm spånskiva, 100 mm hög, som på bänkskåp ersätter toppen: den håller sidorna på avstånd och tar bänkskivans skruvar.
 datum: 2026-11-04
 slika: ../slike/web/snimak-14-sudopera-1600.webp
 status: za-proveru

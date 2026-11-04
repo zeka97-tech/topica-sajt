@@ -1,6 +1,6 @@
 ---
 naslov: Stomme
-opis: Stommen är skåpets låda av 18 mm spånskiva: två sidor, botten, topp eller reglar, rygg och hyllplan. Standardmått, hur den monteras och hur TOPICA räknar den.
+opis: Stommen är skåpets låda av 18 mm spånskiva: två sidor, botten, topp eller reglar, rygg och hyllplan. Standardmått, montering och hur TOPICA räknar den.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru
