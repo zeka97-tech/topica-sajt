@@ -15,7 +15,7 @@ Za pločasti namještaj (kuhinje, ormari, komode od iverice) jedan redak liste o
 - **Dužina × širina** u milimetrima, neto mjera gotovog dijela.
 - **Debljina**: 18 mm za korpus i frontu, 3 mm lesonit za leđa, 8–10 mm za dno ladice.
 - **Materijal**: bijela iverica (iveral), dekor hrast, lesonit u boji.
-- **Rubna traka**: koji se rubovi kantiraju i kojom trakom (ABS 0,45 mm za korpus, 1 ili 2 mm za frontu).
+- **[Rubna traka](../recnik/kant.html)**: koji se rubovi kantiraju i kojom trakom (ABS 0,45 mm za korpus, 1 ili 2 mm za frontu).
 - **Komada**: bokova su dva, dno jedno, prečke dvije.
 
 Dobra lista grupirana je po materijalu i debljini, jer se tako i reže: prvo sva bijela iverica 18 mm, pa fronte, pa lesonit.
@@ -26,7 +26,7 @@ Kod dekora s teksturom (hrast, orah, sonoma) nije svejedno kako je dio okrenut n
 
 ## Primjer: donji korpus 600 × 720 × 560
 
-Običan donji kuhinjski element s jednim vratima i jednom policom ima osam dijelova. Dno ide preko bokova (puna širina 600), pa su bokovi visoki 702, a ne 720. Dubina korpusa je 539, jer se od 560 oduzmu fronta (18) i leđa (3).
+Običan donji [korpus](../recnik/korpus.html) s jednim vratima i jednom policom ima osam dijelova. Dno ide preko bokova (puna širina 600), pa su bokovi visoki 702, a ne 720. Dubina korpusa je 539, jer se od 560 oduzmu fronta (18) i leđa (3).
 
 | Dio | Mjera (mm) | Deb. | Rub | Kom |
 |---|---|---|---|---|
@@ -46,5 +46,7 @@ U programu krojnu listu ne pišeš: ona se računa iz korpusa koje si složio u 
 ![Krojna lista „Po mjeri“ u programu TOPICA za donji korpus 600 × 720 × 560 mm: osam dijelova grupiranih po materijalu, s mjerom, debljinom, rubnom trakom i brojem komada](../slike/web/snimak-33-po-meri-1600.webp "Prikaz „Po mjeri“ za jedan korpus: osam dijelova, tri materijala, 2,34 m² ploče.")
 
 Pravilo „prva mjera = smjer vlakana“ program drži sam: fronta je uvijek upisana uspravno, a lesonit nosi oznaku „bez smjera“. Ako poslije u postavkama radionice promijeniš debljinu leđa ili rubnu traku fronti, promjena se odrazi na sve dijelove u projektu, i na one koje si već pogledao.
+
+Više o tome gdje koja traka ide piše u vodiču [Rubna traka: koja debljina gdje ide](./kant-debljina-i-duzina.html), a o rasporedu rupa u [Sustav 32](./sistem-32.html).
 
 Krojna lista nije komplicirana. Komplicirano je da bude točna svaki put, za svaki element, i nakon što je kupac tri puta promijenio mišljenje. Za to služi program.

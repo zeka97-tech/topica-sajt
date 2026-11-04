@@ -15,7 +15,7 @@ For platemøbler (kjøkken, garderober, skap i sponplate) bærer én linje i lis
 - **Lengde × bredde** i millimeter, den ferdige platens nettomål.
 - **Tykkelse**: 18 mm for skrog og fronter, 3 mm hardplate for bakplater, 8–10 mm for skuffebunner.
 - **Materiale**: hvit sponplate, eikedekor, farget hardplate.
-- **Kantlist**: hvilke kanter som får kantlist, og hvilken list (0,45 mm på skroget, 1 eller 2 mm på fronter).
+- **[Kantlist](../recnik/kant.html)**: hvilke kanter som får kantlist, og hvilken list (0,45 mm på skroget, 1 eller 2 mm på fronter).
 - **Antall**: to sider, én bunn, to traverser.
 
 En god liste er gruppert etter materiale og tykkelse, for slik kappes platene: all hvit 18 mm sponplate først, så fronter, så hardplate.
@@ -26,7 +26,7 @@ Med mønstrede dekorer (eik, valnøtt, sonoma) har det noe å si hvordan platen 
 
 ## Eksempel: et benkeskap 600 × 720 × 560
 
-Et vanlig benkeskap til kjøkken med én dør og én hylle har åtte plater. Bunnen ligger over sidene (full bredde 600), så sidene er 702 høye, ikke 720. Skrogdybden er 539, fordi fronten (18) og bakplaten (3) trekkes fra de 560.
+Et vanlig [benkeskrog](../recnik/korpus.html) til kjøkken med én dør og én hylle har åtte plater. Bunnen ligger over sidene (full bredde 600), så sidene er 702 høye, ikke 720. Skrogdybden er 539, fordi fronten (18) og bakplaten (3) trekkes fra de 560.
 
 | Plate | Mål (mm) | Tyk. | Kant | Stk |
 |---|---|---|---|---|
@@ -46,5 +46,7 @@ I programmet skriver du ikke kapplisten: den beregnes ut fra skrogene du har sat
 ![Kapplisten «Etter mål» i TOPICA for et benkeskap 600 × 720 × 560 mm: åtte plater gruppert etter materiale, med mål, tykkelse, kantlist og antall](../slike/web/snimak-33-po-meri-1600.webp "Visningen «Etter mål» for ett skrog: åtte plater, tre materialer, 2,34 m² plate.")
 
 Programmet holder selv regelen «første mål = fiberretning»: en front skrives alltid stående, og hardplate får merket «uten fiberretning». Endrer du senere tykkelsen på bakplaten eller kantlisten på fronten i verkstedinnstillingene, slår endringen gjennom på hver plate i prosjektet, også de du allerede har sett på.
+
+Mer om hvor hvilken list skal sitte står i guiden [Kantlist: hvilken tykkelse hvor](./kant-debljina-i-duzina.html), og om hullrasteret i [System 32](./sistem-32.html).
 
 En kappliste er ikke komplisert. Det kompliserte er å få den riktig hver gang, for hvert skap, etter at kunden har ombestemt seg tre ganger. Det er det programmet er til for.

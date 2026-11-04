@@ -1,6 +1,6 @@
 ---
 naslov: Cam fitting (minifix) and confirmat screw
-opis: The cam fitting (minifix) and the confirmat screw are the hardware for joining carcass panels at right angles. Hole sizes, when to choose which, and common drilling mistakes.
+opis: Cam fitting (minifix) and confirmat screw: the hardware for joining carcass panels at right angles. Hole sizes, when to use which, common drilling mistakes.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 ---

@@ -1,6 +1,6 @@
 ---
 naslov: Side panel
-opis: The side is the upright panel of the carcass, 18 mm chipboard that carries the shelves, hinges and runners. Side sizes, System 32 holes and a common cutting mistake.
+opis: The side panel is the upright of the carcass, 18 mm chipboard carrying shelves, hinges and runners. Sizes, System 32 holes and a common cutting mistake.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 ---

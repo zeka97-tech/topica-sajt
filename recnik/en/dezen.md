@@ -1,6 +1,6 @@
 ---
 naslov: Decor and grain direction
-opis: The decor is the pattern and colour of melamine chipboard, and grain direction is the way the pattern runs. The “first dimension = grain direction” rule, fronts upright, and where it most often goes wrong.
+opis: Decor is the pattern and colour of melamine chipboard; grain direction is the way it runs. The “first dimension = grain” rule, fronts upright, common mistakes.
 datum: 2026-11-04
 slika: ../slike/web/snimak-47-svoj-dezen-1600.webp
 ---

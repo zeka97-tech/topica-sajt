@@ -1,6 +1,6 @@
 ---
 naslov: Carcass bottom
-opis: The bottom is the lowest panel of the unit; in European practice and in TOPICA it sits over the sides at full width. Bottom sizes, edging, legs and how it is cut.
+opis: The carcass bottom is the lowest panel; in European practice and in TOPICA it sits over the sides at full width. Sizes, edging, legs and how it is cut.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 ---

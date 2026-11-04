@@ -1,6 +1,6 @@
 ---
 naslov: Cooker hood (unit and mounting height)
-opis: A cooker hood is the appliance above the hob; the hood unit is a shortened wall cabinet. Mounting height 650 mm electric / 750 mm gas, widths, ducting and common mistakes.
+opis: Cooker hood: the appliance above the hob, in a shortened wall unit. Mounting height 650 mm electric / 750 mm gas, widths, ducting and common mistakes.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 ---
