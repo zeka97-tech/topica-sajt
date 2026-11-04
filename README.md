@@ -122,8 +122,8 @@ Isto važi za `recnik/`, `namena/` i `pitanja/` (indeks i naslovi su u `tekst/<k
 
 ## Uključivanje GitHub Pages
 
-1. GitHub → repozitorijum → **Settings → Pages → Build and deployment → Source: „GitHub Actions“**.
-2. Pri sledećem push-u na `main` pokreće se `.github/workflows/pages.yml` (build bez zavisnosti) i sajt je na `https://zeka97-tech.github.io/topica-sajt/`.
+1. GitHub → repozitorijum → **Settings → Pages → Build and deployment → Source: „GitHub Actions“**. (Workflow pokušava i sam da uključi Pages, ali GitHub to ne dozvoljava tokenu radnje na ovom repozitorijumu, pa je ovaj klik obavezan. **Važno:** Pages na *privatnom* repozitorijumu postoji samo uz GitHub Pro/Team; na besplatnom nalogu repozitorijum mora da bude javan — Settings → General → Danger zone → Change visibility. Sajt je ionako javan.)
+2. Posle toga: Actions → „Objavi sajt (GitHub Pages)“ → **Re-run jobs** (ili bilo koji novi push na `main`). Workflow gradi `dist/` bez zavisnosti i objavljuje; sajt je na `https://zeka97-tech.github.io/topica-sajt/` (preusmerava na jezik), npr. `/sr/`, `/en/`, `/de/`.
 3. Sopstveni domen: Settings → Pages → Custom domain; zatim promeni `url` u `tekst/sajt.json` (canonical, sitemap i og slike koriste tu adresu) i `git push`.
 
 ## Link za preuzimanje i dugme za kupovinu

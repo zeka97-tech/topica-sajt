@@ -15,7 +15,7 @@ Per i mobili in pannello (cucine, armadi, mobili in nobilitato) una riga della l
 - **Lunghezza × larghezza** in millimetri, la misura netta del pannello finito.
 - **Spessore**: 18 mm per carcassa e frontali, 3 mm di faesite per gli schienali, 8–10 mm per i fondi dei cassetti.
 - **Materiale**: nobilitato bianco, decoro rovere, faesite colorata.
-- **Bordo**: quali lati ricevono la bordatura e con quale bordo (0,45 mm per la carcassa, 1 o 2 mm per i frontali).
+- **[Bordo](../recnik/kant.html)**: quali lati ricevono la bordatura e con quale bordo (0,45 mm per la carcassa, 1 o 2 mm per i frontali).
 - **Quantità**: due fianchi, un fondo, due traverse.
 
 Una buona lista è raggruppata per materiale e spessore, perché è così che si sezionano le lastre: prima tutto il nobilitato bianco da 18 mm, poi i frontali, poi la faesite.
@@ -26,7 +26,7 @@ Con i decori venati (rovere, noce, sonoma) conta come il pannello sta sulla last
 
 ## Esempio: una base da 600 × 720 × 560
 
-Una normale base da cucina con un'anta e un ripiano ha otto pannelli. Il fondo appoggia sopra i fianchi (larghezza piena 600), quindi i fianchi sono alti 702, non 720. La profondità della carcassa è 539, perché dai 560 si tolgono il frontale (18) e lo schienale (3).
+Una normale base da cucina ([carcassa](../recnik/korpus.html)) con un'anta e un ripiano ha otto pannelli. Il fondo appoggia sopra i fianchi (larghezza piena 600), quindi i fianchi sono alti 702, non 720. La profondità della carcassa è 539, perché dai 560 si tolgono il frontale (18) e lo schienale (3).
 
 | Pannello | Misura (mm) | Sp. | Bordo | Pz |
 |---|---|---|---|---|
@@ -46,5 +46,7 @@ Nel programma la lista di taglio non la scrivi: viene calcolata dai mobili che h
 ![La lista di taglio “Per misura” in TOPICA per una base da 600 × 720 × 560 mm: otto pannelli raggruppati per materiale, con misura, spessore, bordo e quantità](../slike/web/snimak-33-po-meri-1600.webp "La vista “Per misura” di un mobile: otto pannelli, tre materiali, 2,34 m² di pannello.")
 
 Il programma rispetta da solo la regola “prima misura = senso vena”: un frontale è sempre scritto in verticale, e la faesite porta il segno “senza vena”. Se più tardi cambi lo spessore dello schienale o il bordo dei frontali nelle impostazioni del laboratorio, la modifica passa su ogni pannello del progetto, compresi quelli che avevi già guardato.
+
+Dove va ogni bordo lo spiega la guida [Bordo: quale spessore dove](./kant-debljina-i-duzina.html), e lo schema dei fori la guida [System 32](./sistem-32.html).
 
 Una lista di taglio non è complicata. Complicato è farla giusta ogni volta, per ogni elemento, dopo che il cliente ha cambiato idea tre volte. Il programma serve a questo.

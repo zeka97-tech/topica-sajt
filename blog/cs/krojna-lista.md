@@ -15,7 +15,7 @@ U deskového nábytku (kuchyně, skříně, komody z lamina) nese jeden řádek 
 - **Délka × šířka** v milimetrech, čistý rozměr hotového dílce.
 - **Tloušťka**: 18 mm na korpus a dvířka, 3 mm sololit na záda, 8–10 mm na dna zásuvek.
 - **Materiál**: bílé lamino, dekor dub, barevný sololit.
-- **Hrana**: které hrany se olepují a jakou páskou (0,45 mm na korpus, 1 nebo 2 mm na dvířka).
+- **[Hrana](../recnik/kant.html)**: které hrany se olepují a jakou páskou (0,45 mm na korpus, 1 nebo 2 mm na dvířka).
 - **Počet kusů**: dva boky, jedno dno, dvě příčky.
 
 Dobrý plán je seskupený podle materiálu a tloušťky, protože tak se desky řežou: nejdřív všechno bílé lamino 18 mm, pak dvířka, nakonec sololit.
@@ -26,7 +26,7 @@ U dekorů s kresbou (dub, ořech, sonoma) záleží na tom, jak dílec na desce 
 
 ## Příklad: spodní skříňka 600 × 720 × 560
 
-Obyčejná spodní kuchyňská skříňka s jedněmi dvířky a jednou policí má osm dílců. Dno sedí na bocích (plná šířka 600), takže boky jsou vysoké 702, ne 720. Hloubka korpusu je 539, protože z 560 se odečtou dvířka (18) a záda (3).
+Obyčejný spodní kuchyňský [korpus](../recnik/korpus.html) s jedněmi dvířky a jednou policí má osm dílců. Dno sedí na bocích (plná šířka 600), takže boky jsou vysoké 702, ne 720. Hloubka korpusu je 539, protože z 560 se odečtou dvířka (18) a záda (3).
 
 | Dílec | Rozměr (mm) | Tl. | Hrana | Ks |
 |---|---|---|---|---|
@@ -46,5 +46,7 @@ V programu nářezový plán nepíšete: počítá se ze skříněk, které jste
 ![Nářezový plán „Podle rozměru“ v programu TOPICA pro spodní skříňku 600 × 720 × 560 mm: osm dílců seskupených podle materiálu, s rozměrem, tloušťkou, hranou a počtem kusů](../slike/web/snimak-33-po-meri-1600.webp "Pohled „Podle rozměru“ pro jednu skříňku: osm dílců, tři materiály, 2,34 m² desky.")
 
 Pravidlo „první rozměr = směr kresby“ program hlídá sám: dvířka jsou vždy zapsaná nastojato a sololit nese značku „bez směru“. Když později v nastavení dílny změníte tloušťku zad nebo hranu dvířek, změna projde každým dílcem v projektu, i těmi, které jste si už prohlédli.
+
+Více o tom, kam která páska patří, najdete v návodu [Hrana: jaká tloušťka kam patří](./kant-debljina-i-duzina.html), a o rozteči otvorů v návodu [System 32](./sistem-32.html).
 
 Nářezový plán není složitý. Složité je udělat ho správně pokaždé, pro každou skříňku, poté, co si zákazník třikrát rozmyslel, co chce. Od toho je program.
