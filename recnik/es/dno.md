@@ -1,6 +1,6 @@
 ---
 naslov: Base del cuerpo
-opis: La base es la pieza inferior del módulo; en la práctica europea y en TOPICA va sobre los costados a todo el ancho. Medidas de la base, canto, patas y cómo se corta.
+opis: La base es la pieza inferior del módulo; en la práctica europea y en TOPICA va sobre los costados a todo el ancho. Medidas, canto, patas y cómo se corta.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

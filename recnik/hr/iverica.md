@@ -1,6 +1,6 @@
 ---
 naslov: Iverica 18 mm
-opis: Iverica 18 mm (oplemenjena, melaminska) osnovna je ploča pločastog namještaja. Debljine, uobičajeni formati ploča, rezanje i česte greške u računanju materijala.
+opis: Iverica 18 mm (oplemenjena, melaminska) osnovna je ploča pločastog namještaja. Debljine, formati ploča, rezanje i česte greške u računanju materijala.
 datum: 2026-11-04
 slika: ../slike/web/snimak-46-izbliza-front-1600.webp
 ---

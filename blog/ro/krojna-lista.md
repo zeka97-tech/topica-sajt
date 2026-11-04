@@ -15,7 +15,7 @@ Pentru mobilierul din PAL (bucătării, dulapuri, comode) un rând din listă po
 - **Lungime × lățime** în milimetri, dimensiunea netă a piesei finite.
 - **Grosimea**: 18 mm pentru corp și fronturi, 3 mm HDF pentru spate, 8–10 mm pentru fundurile de sertar.
 - **Materialul**: PAL alb, decor stejar, HDF colorat.
-- **Cantul**: care muchii se cantuiesc și cu ce bandă (0,45 mm pentru corp, 1 sau 2 mm pentru fronturi).
+- **[Cantul](../recnik/kant.html)**: care muchii se cantuiesc și cu ce bandă (0,45 mm pentru corp, 1 sau 2 mm pentru fronturi).
 - **Cantitatea**: două laterale, un fund, două traverse.
 
 O listă bună este grupată pe material și grosime, pentru că așa se taie plăcile: întâi tot PAL-ul alb de 18 mm, apoi fronturile, apoi HDF-ul.
@@ -26,7 +26,7 @@ La decorurile cu desen (stejar, nuc, sonoma) contează cum stă piesa pe placă.
 
 ## Exemplu: un corp inferior de 600 × 720 × 560
 
-Un corp inferior obișnuit de bucătărie, cu o ușă și o poliță, are opt piese. Fundul stă peste laterale (lățime totală 600), deci lateralele au 702 înălțime, nu 720. Adâncimea corpului este 539, pentru că din 560 se scad frontul (18) și spatele (3).
+Un [corp](../recnik/korpus.html) inferior obișnuit de bucătărie, cu o ușă și o poliță, are opt piese. Fundul stă peste laterale (lățime totală 600), deci lateralele au 702 înălțime, nu 720. Adâncimea corpului este 539, pentru că din 560 se scad frontul (18) și spatele (3).
 
 | Piesă | Dimensiune (mm) | Gros. | Cant | Buc. |
 |---|---|---|---|---|
@@ -46,5 +46,7 @@ Cineva trebuie să calculeze fiecare dintre aceste numere. Pentru un corp însea
 ![Lista de debitare „După dimensiune“ în TOPICA pentru un corp inferior de 600 × 720 × 560 mm: opt piese grupate pe material, cu dimensiune, grosime, cant și cantitate](../slike/web/snimak-33-po-meri-1600.webp "Vederea „După dimensiune“ pentru un corp: opt piese, trei materiale, 2,34 m² de placă.")
 
 Regula „prima dimensiune = direcția fibrei“ programul o ține singur: un front este scris întotdeauna pe verticală, iar HDF-ul poartă marcajul „fără fibră“. Dacă mai târziu schimbi grosimea spatelui sau cantul fronturilor din setările atelierului, schimbarea trece prin fiecare piesă din proiect, inclusiv prin cele la care te-ai uitat deja.
+
+Mai multe despre ce bandă unde merge scrie în ghidul [Cant: ce grosime unde merge](./kant-debljina-i-duzina.html), iar despre așezarea găurilor în [Sistem 32](./sistem-32.html).
 
 O listă de debitare nu e complicată. Complicat e să iasă corect de fiecare dată, pentru fiecare corp, după ce clientul s-a răzgândit de trei ori. Pentru asta e programul.

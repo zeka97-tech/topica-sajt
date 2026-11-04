@@ -15,7 +15,7 @@ For pladeinventar (køkkener, garderobeskabe, skabe i spånplade) bærer én lin
 - **Længde × bredde** i millimeter, den færdige plades nettomål.
 - **Tykkelse**: 18 mm til korpus og fronter, 3 mm hardboard til bagklædninger, 8–10 mm til skuffebunde.
 - **Materiale**: hvid spånplade, egedekor, farvet hardboard.
-- **Kantbånd**: hvilke kanter der får kantbånd, og hvilket bånd (0,45 mm på korpus, 1 eller 2 mm på fronter).
+- **[Kantbånd](../recnik/kant.html)**: hvilke kanter der får kantbånd, og hvilket bånd (0,45 mm på korpus, 1 eller 2 mm på fronter).
 - **Antal**: to sider, én bund, to tværstykker.
 
 En god liste er grupperet efter materiale og tykkelse, for sådan skæres pladerne: al hvid 18 mm spånplade først, så fronter, så hardboard.
@@ -26,7 +26,7 @@ Med mønstrede dekorer (eg, valnød, sonoma) betyder det noget, hvordan pladen l
 
 ## Eksempel: et underskab 600 × 720 × 560
 
-Et almindeligt underskab til køkken med én låge og én hylde har otte plader. Bunden ligger hen over siderne (fuld bredde 600), så siderne er 702 høje, ikke 720. Korpusdybden er 539, fordi fronten (18) og bagklædningen (3) trækkes fra de 560.
+Et almindeligt under[korpus](../recnik/korpus.html) til køkken med én låge og én hylde har otte plader. Bunden ligger hen over siderne (fuld bredde 600), så siderne er 702 høje, ikke 720. Korpusdybden er 539, fordi fronten (18) og bagklædningen (3) trækkes fra de 560.
 
 | Plade | Mål (mm) | Tyk. | Kant | Stk |
 |---|---|---|---|---|
@@ -46,5 +46,7 @@ I programmet skriver du ikke skærelisten: den beregnes ud fra de korpusser, du 
 ![Skærelisten »Efter mål« i TOPICA for et underskab 600 × 720 × 560 mm: otte plader grupperet efter materiale, med mål, tykkelse, kantbånd og antal](../slike/web/snimak-33-po-meri-1600.webp "Visningen »Efter mål« for ét korpus: otte plader, tre materialer, 2,34 m² plade.")
 
 Programmet overholder selv reglen »første mål = åreretning«: en front skrives altid stående, og hardboard får mærket »uden åreretning«. Ændrer du senere bagklædningens tykkelse eller frontens kantbånd i værkstedsindstillingerne, slår ændringen igennem på hver plade i projektet, også dem du allerede har kigget på.
+
+Mere om, hvor hvilket bånd hører til, står i guiden [Kantbånd: hvilken tykkelse hvor](./kant-debljina-i-duzina.html), og om hullernes fordeling i [System 32](./sistem-32.html).
 
 En skæreliste er ikke kompliceret. Det komplicerede er at få den rigtig hver gang, for hvert skab, efter at kunden har ombestemt sig tre gange. Det er det, programmet er til.

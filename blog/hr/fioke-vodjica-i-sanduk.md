@@ -1,6 +1,6 @@
 ---
 naslov: Ladice: kako odabrati vodilicu i izračunati kutiju
-opis: Kuglična, valjkasta ili metalna kutija — koliki je zazor po strani, kako se bira dužina vodilice i kako se računa kutija ladice za korpus od 600 mm, s točnim brojevima.
+opis: Kuglična, valjkasta ili metalna kutija: koliki je zazor po strani, kako se bira dužina vodilice i kako se računa kutija ladice za korpus od 600 mm, u brojevima.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 ---

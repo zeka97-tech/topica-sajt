@@ -1,6 +1,6 @@
 ---
 naslov: Napa (element i visina montaže)
-opis: Napa (aspirator) je uređaj iznad ploče za kuhanje; element za napu je skraćeni gornji korpus. Visina montaže 650 mm struja / 750 mm plin, širine, cijev i greške.
+opis: Napa (aspirator) je uređaj iznad ploče za kuhanje; element za napu je skraćeni gornji korpus. Visina montaže 650 mm struja / 750 mm plin, širine, cijev, greške.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 ---

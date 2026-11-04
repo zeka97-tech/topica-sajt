@@ -1,6 +1,6 @@
 ---
 naslov: División (costado intermedio)
-opis: La división es la pieza vertical que parte el cuerpo a lo ancho en dos huecos. Medidas, canto, bisagras sobre la pieza común y por qué un módulo ancho pide división.
+opis: La división es la pieza vertical que parte el cuerpo en dos huecos. Medidas, canto, bisagras sobre la pieza común y por qué un módulo ancho pide división.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

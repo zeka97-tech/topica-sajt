@@ -1,6 +1,6 @@
 ---
 naslov: Krojna lista
-opis: Krojna lista (lista rezanja) popis je svih dijelova jednog komada namještaja s mjerom, debljinom, materijalom, rubnom trakom i brojem komada. Pravila mjere, vlakana i ruba ukratko.
+opis: Krojna lista (lista rezanja) je popis svih dijelova namještaja s mjerom, debljinom, materijalom, rubnom trakom i brojem komada. Pravila mjere, vlakana i ruba.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 ---

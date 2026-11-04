@@ -1,6 +1,6 @@
 ---
 naslov: Mueble rinconero (rincón ciego y rincón en L)
-opis: El rinconero cierra la esquina de la cocina: rincón ciego de 1000–1200 con frente de 450–600 o rincón en L de 900 × 900. Medidas, ventajas, errores de medición y montaje.
+opis: El rinconero cierra la esquina de la cocina: rincón ciego de 1000–1200 con frente de 450–600 o rincón en L de 900 × 900. Medidas, errores de medición y montaje.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

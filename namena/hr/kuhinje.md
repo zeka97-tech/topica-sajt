@@ -1,6 +1,6 @@
 ---
 naslov: Program za kuhinje po mjeri
-opis: Program za kuhinje po mjeri za stolare: nacrtaš prostoriju, složiš korpuse iz kataloga, a program da 3D, krojnu listu u milimetar, okov i cijenu. Windows, bez interneta.
+opis: Program za kuhinje po mjeri za stolare: nacrtaš prostoriju, složiš korpuse iz kataloga, a program da 3D, krojnu listu u milimetar, okov i cijenu. Bez interneta.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 ---

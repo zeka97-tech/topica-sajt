@@ -1,6 +1,6 @@
 ---
 naslov: Kako izmjeriti kuhinju prije projektiranja (zid, instalacije, uređaji)
-opis: Što se mjeri i zapisuje prije projektiranja kuhinje po mjeri: zidovi na tri visine, strop, prozor i vrata, voda, odvod, struja i plin, uređaji, provjera pravog kuta. Popis za ponijeti i unos u program.
+opis: Što se mjeri prije projektiranja kuhinje po mjeri: zidovi na tri visine, strop, prozor i vrata, voda, odvod, struja i plin, uređaji, pravi kut. Popis i unos u program.
 datum: 2026-11-04
 slika: ../slike/web/snimak-44-soba-pod-zid-1600.webp
 ---

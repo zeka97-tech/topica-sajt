@@ -15,7 +15,7 @@ No mobiliário em placa (cozinhas, roupeiros, móveis em aglomerado) uma linha d
 - **Comprimento × largura** em milímetros, a medida líquida da peça acabada.
 - **Espessura**: 18 mm para corpo e frentes, 3 mm de platex para as costas, 8–10 mm para fundos de gaveta.
 - **Material**: aglomerado branco, decor carvalho, platex de cor.
-- **Orla**: que lados levam orla e qual (0,45 mm no corpo, 1 ou 2 mm nas frentes).
+- **[Orla](../recnik/kant.html)**: que lados levam orla e qual (0,45 mm no corpo, 1 ou 2 mm nas frentes).
 - **Quantidade**: duas ilhargas, um fundo, duas travessas.
 
 Uma boa lista está agrupada por material e espessura, porque é assim que se cortam as placas: primeiro todo o aglomerado branco de 18 mm, depois as frentes, depois o platex.
@@ -26,7 +26,7 @@ Com decors de veio (carvalho, nogueira, sonoma) importa como a peça assenta na 
 
 ## Exemplo: um módulo inferior de 600 × 720 × 560
 
-Um módulo inferior de cozinha normal, com uma porta e uma prateleira, tem oito peças. O fundo assenta sobre as ilhargas (largura total 600), por isso as ilhargas têm 702 de altura, não 720. A profundidade do corpo é 539, porque aos 560 se tiram a frente (18) e as costas (3).
+Um [módulo](../recnik/korpus.html) inferior de cozinha normal, com uma porta e uma prateleira, tem oito peças. O fundo assenta sobre as ilhargas (largura total 600), por isso as ilhargas têm 702 de altura, não 720. A profundidade do corpo é 539, porque aos 560 se tiram a frente (18) e as costas (3).
 
 | Peça | Medida (mm) | Esp. | Orla | Qtd. |
 |---|---|---|---|---|
@@ -46,5 +46,7 @@ No programa a lista de corte não se escreve: é calculada a partir dos módulos
 ![A lista de corte “Por medida” na TOPICA para um módulo inferior de 600 × 720 × 560 mm: oito peças agrupadas por material, com medida, espessura, orla e quantidade](../slike/web/snimak-33-po-meri-1600.webp "A vista “Por medida” de um módulo: oito peças, três materiais, 2,34 m² de placa.")
 
 O programa cumpre sozinho a regra “primeira medida = sentido do veio”: uma frente é sempre escrita ao alto, e o platex leva a marca “sem veio”. Se mais tarde mudares a espessura das costas ou a orla das frentes nas definições da oficina, a alteração passa para todas as peças do projeto, incluindo as que já tinhas visto.
+
+Mais sobre que fita vai onde está no guia [Orla: que espessura vai onde](./kant-debljina-i-duzina.html), e sobre a disposição dos furos em [System 32](./sistem-32.html).
 
 Uma lista de corte não é complicada. Complicado é acertá-la sempre, em todos os módulos, depois de o cliente ter mudado de ideias três vezes. É para isso que serve o programa.

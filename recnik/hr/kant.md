@@ -1,6 +1,6 @@
 ---
 naslov: Rubna traka (kant)
-opis: Rubna traka (kant) je ABS traka koja pokriva rub iverice: 0,45 mm za korpus, 1 mm za fronte, 2 mm za jače rubove. Koji se rubovi kantiraju i kako se računa dužina trake.
+opis: Rubna traka (kant) je ABS traka na rubu iverice: 0,45 mm za korpus, 1 mm za fronte, 2 mm za jače rubove. Koji se rubovi kantiraju i kako se računa dužina.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 ---

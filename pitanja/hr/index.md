@@ -1,6 +1,6 @@
 ---
 naslov: Pitanja stolara o programu za kuhinje i krojnu listu
-opis: Dvadeset pravih pitanja koja majstori postavljaju o programu za kuhinje, ormare i krojnu listu: cijena, Windows, internet, okov, rubna traka, CNC, ploče, instalacija. Kratki i iskreni odgovori.
+opis: Dvadeset pravih pitanja stolara o programu za kuhinje, ormare i krojnu listu: cijena, Windows, internet, okov, rubna traka, CNC, ploče, instalacija. Iskreni odgovori.
 datum: 2026-11-04
 slika: ../slike/web/snimak-33-po-meri-1600.webp
 tip: pitanja

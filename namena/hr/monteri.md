@@ -1,6 +1,6 @@
 ---
 naslov: Za montere i one koji režu kod drugoga
-opis: Program za montere kuhinja i majstore koji režu ploče u servisu: krojna lista „Po mjeri“ za kopiranje i slanje, okov po komadu, projekt kao jedna datoteka. Windows.
+opis: Program za montere kuhinja i majstore koji režu ploče u servisu: krojna lista „Po mjeri“ za kopiranje i slanje, okov po komadu, projekt kao jedna datoteka.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 ---

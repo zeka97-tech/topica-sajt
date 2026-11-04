@@ -15,7 +15,7 @@ Dla mebli płytowych (kuchnie, szafy, komody z płyty wiórowej) jeden wiersz li
 - **Długość × szerokość** w milimetrach, wymiar netto gotowej formatki.
 - **Grubość**: 18 mm na korpus i fronty, 3 mm HDF na plecy, 8–10 mm na dna szuflad.
 - **Materiał**: biała płyta wiórowa, dekor dąb, HDF kolorowy.
-- **Obrzeże**: które krawędzie dostają obrzeże i jaką taśmę (0,45 mm na korpus, 1 lub 2 mm na fronty).
+- **[Obrzeże](../recnik/kant.html)**: które krawędzie dostają obrzeże i jaką taśmę (0,45 mm na korpus, 1 lub 2 mm na fronty).
 - **Ilość**: dwa boki, jedno dno, dwie listwy.
 
 Dobra lista jest pogrupowana według materiału i grubości, bo tak właśnie tnie się płyty: najpierw cała biała płyta 18 mm, potem fronty, na końcu HDF.
@@ -26,7 +26,7 @@ Przy dekorach z rysunkiem (dąb, orzech, sonoma) ma znaczenie, jak formatka leż
 
 ## Przykład: szafka dolna 600 × 720 × 560
 
-Zwykła dolna szafka kuchenna z jednymi drzwiami i jedną półką ma osiem formatek. Dno leży na bokach (pełna szerokość 600), więc boki mają 702 wysokości, nie 720. Głębokość korpusu to 539, bo od 560 odejmuje się front (18) i plecy (3).
+Zwykły dolny [korpus](../recnik/korpus.html) kuchenny z jednymi drzwiami i jedną półką ma osiem formatek. Dno leży na bokach (pełna szerokość 600), więc boki mają 702 wysokości, nie 720. Głębokość korpusu to 539, bo od 560 odejmuje się front (18) i plecy (3).
 
 | Formatka | Wymiar (mm) | Gr. | Obrzeże | Szt. |
 |---|---|---|---|---|
@@ -46,5 +46,7 @@ W programie nie pisze się listy cięcia: jest liczona z szafek, które ustawił
 ![Lista cięcia „Według wymiaru” w programie TOPICA dla szafki dolnej 600 × 720 × 560 mm: osiem formatek pogrupowanych według materiału, z wymiarem, grubością, obrzeżem i ilością](../slike/web/snimak-33-po-meri-1600.webp "Widok „Według wymiaru” dla jednej szafki: osiem formatek, trzy materiały, 2,34 m² płyty.")
 
 Zasadę „pierwszy wymiar = kierunek usłojenia” program pilnuje sam: front jest zawsze zapisany pionowo, a HDF ma oznaczenie „bez usłojenia”. Jeśli później zmienisz w ustawieniach warsztatu grubość pleców albo obrzeże frontów, zmiana przechodzi przez każdą formatkę w projekcie, także przez te, które już oglądałeś.
+
+Więcej o tym, gdzie idzie która taśma, pisze w poradniku [Obrzeże: jaka grubość gdzie idzie](./kant-debljina-i-duzina.html), a o rozstawie otworów w [System 32](./sistem-32.html).
 
 Lista cięcia nie jest skomplikowana. Skomplikowane jest zrobienie jej dobrze za każdym razem, dla każdej szafki, po tym, jak klient trzy razy zmienił zdanie. Od tego jest program.

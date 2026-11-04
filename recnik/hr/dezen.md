@@ -1,6 +1,6 @@
 ---
 naslov: Dekor (dezen) i smjer vlakana
-opis: Dekor (dezen) je tekstura i boja oplemenjene iverice, a smjer vlakana smjer teksture. Pravilo „prva mjera = smjer vlakana“, fronte uspravno, i gdje se najčešće griješi.
+opis: Dekor (dezen) je tekstura i boja oplemenjene iverice, a smjer vlakana smjer teksture. Pravilo „prva mjera = smjer vlakana“, fronte uspravno, česte greške.
 datum: 2026-11-04
 slika: ../slike/web/snimak-47-svoj-dezen-1600.webp
 ---

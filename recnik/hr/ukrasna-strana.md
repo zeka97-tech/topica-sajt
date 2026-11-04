@@ -1,6 +1,6 @@
 ---
 naslov: Završna (ukrasna) stranica
-opis: Završna (ukrasna) stranica ploča je 18 mm u dekoru fronte koja pokriva vidljivi bok korpusa na kraju niza. Mjere, rubna traka, česte greške i kako je program vodi.
+opis: Završna (ukrasna) stranica je ploča 18 mm u dekoru fronte koja pokriva vidljivi bok korpusa na kraju niza. Mjere, rubna traka, greške i kako je program vodi.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 ---

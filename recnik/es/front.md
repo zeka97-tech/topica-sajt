@@ -1,6 +1,6 @@
 ---
 naslov: Frente
-opis: Los frentes son las puertas y frentes de cajón, la cara vista del módulo, en melamina de 18 mm con canto de 1 o 2 mm. Medidas del frente, holgura de 3 mm y cómo se calcula por cuerpo.
+opis: Los frentes son puertas y frentes de cajón, la cara vista del módulo, melamina de 18 mm con canto de 1 o 2 mm. Medidas, holgura de 3 mm y cálculo por cuerpo.
 datum: 2026-11-04
 slika: ../slike/web/snimak-19-krupni-prikaz-1600.webp
 status: za-proveru
