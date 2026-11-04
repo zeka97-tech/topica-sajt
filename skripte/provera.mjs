@@ -3,6 +3,7 @@
 // node skripte/provera.mjs --brzo            — bez Lighthouse-a i snimaka
 // node skripte/provera.mjs --jezici=sr,de    — samo ti jezici u pregledaču
 // node skripte/provera.mjs --bez-lighthouse  — sve osim Lighthouse-a;  --samo-lighthouse — samo Lighthouse (uzorak)
+// node skripte/provera.mjs --seo [--jezici=…]  — Lighthouse SEO i pristupačnost na 10 stranica po jeziku
 import { readFileSync, existsSync, mkdirSync, readdirSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -15,6 +16,7 @@ const arg = (ime) => (process.argv.find((a) => a.startsWith(`--${ime}=`)) || "")
 const BRZO = process.argv.includes("--brzo");
 const BEZ_LH = process.argv.includes("--bez-lighthouse") || BRZO;
 const SAMO_LH = process.argv.includes("--samo-lighthouse");
+const SEO = process.argv.includes("--seo"); // Lighthouse SEO + pristupačnost na 10 stranica po jeziku
 const PORT = 8788;
 const greske = [];
 const upozorenja = [];
@@ -35,7 +37,7 @@ const jezici = JSON.parse(readFileSync(path.join(KOREN, "tekst", "jezici.json"),
 const izabrani = arg("jezici") ? arg("jezici").split(",") : jezici;
 const dozvoljenTaraba = sajt.preuzimanjeExe === "#" ? ["#"] : [];
 let brojStranica = 0;
-for (const kod of SAMO_LH ? [] : izabrani) {
+for (const kod of SAMO_LH || SEO ? [] : izabrani) {
   const dir = path.join(KOREN, "dist", kod);
   const stranice = [];
   const skupi = (d, rel) => { for (const e of readdirSync(d, { withFileTypes: true })) { if (e.isDirectory()) skupi(path.join(d, e.name), rel + e.name + "/"); else if (e.name.endsWith(".html")) stranice.push(rel + e.name); } };
@@ -49,14 +51,14 @@ for (const kod of SAMO_LH ? [] : izabrani) {
   }
 }
 console.log(`2) pregledač: ${brojStranica} stranica, ${greske.length ? greske.length + " grešaka ukupno" : "✓"}`);
-if (!SAMO_LH) {
+if (!SAMO_LH && !SEO) {
   const rm = await proveriSmanjenoKretanje(browser, `http://localhost:${PORT}/sr/`);
   greske.push(...rm);
   console.log(`3) smanjeno kretanje: ${rm.length ? "✗" : "✓"}`);
 }
 
 // 3) snimci (sr i de, 1440 i 390)
-if (!BRZO && !SAMO_LH) {
+if (!BRZO && !SAMO_LH && !SEO) {
   const dirSnimci = path.join(KOREN, "docs", "snimci");
   mkdirSync(dirSnimci, { recursive: true });
   for (const kod of ["sr", "de"].filter((k) => jezici.includes(k))) {
@@ -68,7 +70,29 @@ if (!BRZO && !SAMO_LH) {
 await browser.close();
 
 // 4) Lighthouse na uzorku
-if (!BEZ_LH) {
+if (SEO) {
+  const { default: lighthouse } = await import("lighthouse");
+  const { launch } = await import("chrome-launcher");
+  const chrome = await launch({ chromePath: process.env.CHROME_PATH || "/opt/pw-browsers/chromium", chromeFlags: ["--headless=new", "--no-sandbox", "--disable-gpu"] });
+  for (const kod of izabrani) {
+    const dir = path.join(KOREN, "dist", kod);
+    const sve = [];
+    const skupi = (d, rel) => { for (const e of readdirSync(d, { withFileTypes: true })) { if (e.isDirectory()) skupi(path.join(d, e.name), rel + e.name + "/"); else if (e.name.endsWith(".html") && e.name !== "hvala.html") sve.push(rel + e.name); } };
+    skupi(dir, "");
+    const uzorak = ["index.html", "preuzimanje.html", ...sve.filter((s) => s.includes("/"))].filter((v, i, a) => a.indexOf(v) === i).filter((_, i, a) => i < 2 || i % Math.max(1, Math.floor((a.length - 2) / 8)) === 0).slice(0, 10);
+    const red = [];
+    for (const u of uzorak) {
+      const rez = await lighthouse(`http://localhost:${PORT}/${kod}/${u}`, { port: chrome.port, output: "json", logLevel: "silent", onlyCategories: ["seo", "accessibility"] });
+      const seo = Math.round(rez.lhr.categories.seo.score * 100), a11y = Math.round(rez.lhr.categories.accessibility.score * 100);
+      red.push(`${u.replace(".html", "")} ${seo}/${a11y}`);
+      if (seo < 95) greske.push(`Lighthouse SEO ${kod}/${u}: ${seo} < 95`);
+      if (a11y < 90) greske.push(`Lighthouse a11y ${kod}/${u}: ${a11y} < 90`);
+    }
+    console.log(`   ${kod}: ${red.join(" · ")}`);
+  }
+  await chrome.kill();
+}
+if (!BEZ_LH && !SEO) {
   const { default: lighthouse } = await import("lighthouse");
   const { launch } = await import("chrome-launcher");
   const chrome = await launch({ chromePath: process.env.CHROME_PATH || "/opt/pw-browsers/chromium", chromeFlags: ["--headless=new", "--no-sandbox", "--disable-gpu"] });

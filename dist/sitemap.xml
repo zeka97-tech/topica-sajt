@@ -57,6 +57,10 @@
     <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/blog/fioke-vodjica-i-sanduk.html"/>
   </url>
   <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/blog/kako-izmeriti-kuhinju.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/blog/kako-izmeriti-kuhinju.html"/>
+  </url>
+  <url>
     <loc>https://zeka97-tech.github.io/topica-sajt/sr/blog/kant-debljina-i-duzina.html</loc>
     <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/blog/kant-debljina-i-duzina.html"/>
   </url>
@@ -99,6 +103,10 @@
     <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/blog/sistem-32.html"/>
   </url>
   <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/blog/standardne-mere-kuhinje.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/blog/standardne-mere-kuhinje.html"/>
+  </url>
+  <url>
     <loc>https://zeka97-tech.github.io/topica-sajt/sr/blog/index.html</loc>
     <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/blog/index.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://zeka97-tech.github.io/topica-sajt/en/blog/index.html"/>
@@ -123,6 +131,114 @@
     <xhtml:link rel="alternate" hreflang="no" href="https://zeka97-tech.github.io/topica-sajt/no/blog/index.html"/>
     <xhtml:link rel="alternate" hreflang="fi" href="https://zeka97-tech.github.io/topica-sajt/fi/blog/index.html"/>
     <xhtml:link rel="alternate" hreflang="uk" href="https://zeka97-tech.github.io/topica-sajt/uk/blog/index.html"/>
+  </url>
+  <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/recnik/aspirator.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/recnik/aspirator.html"/>
+  </url>
+  <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/recnik/bok.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/recnik/bok.html"/>
+  </url>
+  <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/recnik/dezen.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/recnik/dezen.html"/>
+  </url>
+  <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/recnik/dno.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/recnik/dno.html"/>
+  </url>
+  <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/recnik/ekscentar.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/recnik/ekscentar.html"/>
+  </url>
+  <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/recnik/element-za-rernu.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/recnik/element-za-rernu.html"/>
+  </url>
+  <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/recnik/gola-rucka.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/recnik/gola-rucka.html"/>
+  </url>
+  <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/recnik/iverica.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/recnik/iverica.html"/>
+  </url>
+  <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/recnik/korpus.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/recnik/korpus.html"/>
+  </url>
+  <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/recnik/krojna-lista.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/recnik/krojna-lista.html"/>
+  </url>
+  <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/recnik/krov.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/recnik/krov.html"/>
+  </url>
+  <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/recnik/nogica.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/recnik/nogica.html"/>
+  </url>
+  <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/recnik/precka.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/recnik/precka.html"/>
+  </url>
+  <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/recnik/prepust-radne-ploce.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/recnik/prepust-radne-ploce.html"/>
+  </url>
+  <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/recnik/push-sistem.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/recnik/push-sistem.html"/>
+  </url>
+  <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/recnik/sudopera-element.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/recnik/sudopera-element.html"/>
+  </url>
+  <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/recnik/ugaoni-element.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/recnik/ugaoni-element.html"/>
+  </url>
+  <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/recnik/ukrasna-strana.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/recnik/ukrasna-strana.html"/>
+  </url>
+  <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/recnik/zazor-fronta.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/recnik/zazor-fronta.html"/>
+  </url>
+  <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/recnik/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/recnik/index.html"/>
+  </url>
+  <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/namena/komode.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/namena/komode.html"/>
+  </url>
+  <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/namena/kuhinje.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/namena/kuhinje.html"/>
+  </url>
+  <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/namena/male-radionice.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/namena/male-radionice.html"/>
+  </url>
+  <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/namena/monteri.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/namena/monteri.html"/>
+  </url>
+  <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/namena/plakari.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/namena/plakari.html"/>
+  </url>
+  <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/namena/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/namena/index.html"/>
+  </url>
+  <url>
+    <loc>https://zeka97-tech.github.io/topica-sajt/sr/pitanja/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://zeka97-tech.github.io/topica-sajt/sr/pitanja/index.html"/>
   </url>
   <url>
     <loc>https://zeka97-tech.github.io/topica-sajt/en/</loc>

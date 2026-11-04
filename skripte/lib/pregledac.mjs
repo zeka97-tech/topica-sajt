@@ -26,6 +26,9 @@ export async function proveriStranicu(ctx, url, opcije = {}) {
       slomljene: slike.filter((i) => i.complete && i.naturalWidth === 0 && i.getAttribute("src")).map((i) => i.getAttribute("src")),
       linkovi: [...document.querySelectorAll("a[href]")].map((a) => a.getAttribute("href")),
       jezik: document.documentElement.lang,
+      clanak: !!document.querySelector(".clanak"),
+      unutrasnjiLinkovi: [...document.querySelectorAll(".clanak a[href]")].filter((a) => !a.closest(".clanak-poziv") && !/^(https?:|mailto:)/.test(a.getAttribute("href"))).length,
+      slikaUClanku: !!document.querySelector(".clanak img"),
     };
   });
   if (r.neprevedeno.length) greske.push(`neprevedeni ključevi: ${r.neprevedeno.join(", ")}`);
@@ -36,6 +39,8 @@ export async function proveriStranicu(ctx, url, opcije = {}) {
   if (r.hreflang < 2 && !url.includes("hvala")) greske.push("nema hreflang");
   if (!r.ld) greske.push("nema JSON-LD");
   if (r.bezAlta.length) greske.push(`slike bez alt atributa: ${r.bezAlta.length}`);
+  if (r.clanak && !url.endsWith("/index.html") && !/\/(preuzimanje|hvala)\.html$/.test(url) && !r.unutrasnjiLinkovi) greske.push("članak bez unutrašnjeg linka");
+  if (r.clanak && /\/(blog|recnik|namena|pitanja)\/(?!index\.html)[^/]+\.html$/.test(url) && !r.slikaUClanku) greske.push("članak bez slike");
   if (r.slomljene.length) greske.push(`slomljene slike: ${r.slomljene.join(", ")}`);
   const dozvoljenTaraba = new Set(opcije.dozvoljenTaraba || []);
   for (const h of r.linkovi) {

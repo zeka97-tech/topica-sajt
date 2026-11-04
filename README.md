@@ -157,3 +157,11 @@ Lokalno treba Chromium (Playwright): `npx playwright install chromium` jednom.
 - `docs/ODLUKE.md` — šta je odlučeno samostalno i zašto.
 - `slike/IZVORI.md` — poreklo i licenca svake slike.
 - `docs/PREVODJENJE.md` — pravila i rečnik za prevodioce.
+
+## Tag v0.1 (vlasnik gura)
+
+Tag postoji u repozitorijumu lokalno u sesiji, ali okruženje nije smelo da ga pošalje. Na svom računaru:
+
+```bash
+git fetch origin && git tag -a v0.1 -m "Sajt TOPICA v0.1" origin/main && git push origin v0.1
+```

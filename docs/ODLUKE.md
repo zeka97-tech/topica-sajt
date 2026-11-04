@@ -22,3 +22,15 @@ Zadatak je rekao: odluke donosi sam i zapiši ih. Ovo je spisak, od najvažnijih
 18. **Lighthouse ciljevi (perf ≥ 90, a11y ≥ 90, SEO ≥ 95) mere se u `npm run check`** na uzorku stranica; prag važi i za telefon (Lighthouse podrazumevano meri mobilni).
 19. **Jedan 3D prikaz je prikazan u prozoru sa tri tačke** (Apple stil), ali snimci zadržavaju i traku samog programa — iskreno pokazuje kako program izgleda.
 20. **Prečice u šablonima:** ključevi se pišu `{{deo.kljuc}}`, podaci sajta `{{sajt.x}}`, a vrednosti koje računa build `{{sistem.x}}`. Prazna vrednost je dozvoljena samo za `sajt.*` i `sistem.*`; prazan prevod obara build.
+
+## Zadatak 2 i 3 (sadržaj i marketing)
+
+21. **Tekstovi su Markdown sa zaglavljem** (`blog/<kod>/`, `recnik/<kod>/`, `namena/<kod>/`, `pitanja/<kod>/index.md`), ne JSON: duži tekst se lakše piše i prevodi, a build ih pretvara u stranice sa istim okvirom (traka, podnožje, JSON-LD, hreflang, dugme). Naslovi indeksa zbirki su u `tekst/<kod>.json` (`recnik`, `namena`, `pitanja_strane`).
+22. **Pitanja su jedna stranica** (`pitanja/<kod>/index.html`) sa 20 pitanja kao H2 + odgovor; iz toga build pravi FAQ JSON-LD. Dvadeset zasebnih stranica bi bilo tanko za Google i naporno za čitanje.
+23. **Rečnik ima 28 pojmova** (zadatih 27 + „prepust radne ploče“ koji je bio u spisku kao poslednji); slugovi su isti u svim jezicima da hreflang radi.
+24. **Brojevi struke su na jednom mestu** (`docs/CINJENICE-STRUKA.md`): podrazumevane vrednosti programa + evropska praksa; tekstovi smeju da navode samo te brojeve ili da kažu „po katalogu proizvođača“. Tako prevodi ne mogu da „poprave“ broj.
+25. **Vodič 1 je postojeći „Šta je krojna lista“** (već pokriva „prva mera = pravac goda“); nije dupliran.
+26. **Provera za članke:** svaka stranica članka mora da ima bar jedan unutrašnji link u tekstu i bar jednu sliku; `--seo` režim meri Lighthouse SEO i pristupačnost na 10 stranica po jeziku (SEO-only audit je brz; pun Lighthouse na 1000+ stranica bi trajao satima).
+27. **Marketing tekstovi su u prvom licu vlasnika i bez brojeva** koje ne znamo; sve što nije provereno u `gde-su-majstori.md` nosi oznaku „proveriti“. Wikipedia se ne prijavljuje.
+28. **Sličice za YouTube** prave se iz istog šablona kao OG slika (Topi + naslov), 1280 × 720, `marketing/youtube/`.
+29. **Tag `v0.1` je napravljen lokalno**, ali proxy sesije ne dozvoljava `git push --tags` ni API za tagove; vlasnik ga gura komandom iz README (jedna linija).
