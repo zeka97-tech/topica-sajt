@@ -1,0 +1,32 @@
+/* mogucnosti.css — „bento" raspored kartica različitih veličina */
+.bento { display: grid; grid-template-columns: repeat(6, 1fr); grid-auto-rows: minmax(var(--s-kartica-min), auto); gap: var(--r-4); }
+.kartica { position: relative; overflow: hidden; border-radius: var(--rad-kartica); background: var(--c-podloga-2); padding: var(--r-8); display: flex; flex-direction: column; gap: var(--r-2); }
+.kartica-bela { background: var(--c-belo); border: var(--d-linija) solid var(--c-linija); }
+.kartica h3 { max-width: 16ch; }
+.kartica p { color: var(--c-tekst-2); font-size: var(--f-17); max-width: 30ch; }
+.kartica-velika { grid-column: span 3; grid-row: span 2; }
+.kartica-siroka { grid-column: span 4; }
+.kartica-obicna { grid-column: span 3; }
+.kartica-uska { grid-column: span 2; }
+.kartica-slika { margin-top: auto; border-radius: var(--rad-slika); overflow: hidden; box-shadow: var(--senka-slika); border: var(--d-linija) solid var(--c-linija); background: var(--c-belo); }
+.kartica-slika img { width: 100%; }
+.kartica-tamna { background: var(--c-plava-tamna); color: var(--c-belo); }
+.kartica-tamna p { color: var(--c-na-tamnom-2); }
+.kartica-tamna h3 { color: var(--c-belo); }
+.kartica-pozadina { position: absolute; inset: 0; z-index: 0; }
+.kartica-pozadina img { width: 100%; height: 100%; object-fit: cover; opacity: var(--o-pozadina-slike); }
+.kartica-pozadina::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, var(--c-plava-tamna) 30%, transparent 100%); }
+.kartica-tamna > :not(.kartica-pozadina) { position: relative; z-index: 1; }
+.kartica-spisak { list-style: none; padding: 0; margin: var(--r-1) 0 0; display: grid; grid-template-columns: 1fr 1fr; gap: var(--r-2) var(--r-4); font-size: var(--f-16); color: var(--c-tekst-2); }
+.kartica-spisak li { display: flex; gap: var(--r-2); align-items: center; }
+.kartica-spisak li::before { content: ""; width: var(--s-kvadratic); height: var(--s-kvadratic); border-radius: var(--d-linija-2); background: var(--c-plava); flex: 0 0 auto; }
+.mini-tabela { margin-top: auto; background: var(--c-belo); border-radius: var(--rad-slika); border: var(--d-linija) solid var(--c-linija); font-variant-numeric: tabular-nums; font-size: var(--f-15); overflow: hidden; }
+.mini-tabela div { display: grid; grid-template-columns: 1.3fr .6fr 1.2fr .5fr; gap: var(--r-2); padding: var(--r-2) var(--r-4); border-top: var(--d-linija) solid var(--c-linija); color: var(--c-tekst-2); }
+.mini-tabela div:first-child { border-top: 0; background: var(--c-podloga-3); font-weight: var(--w-700); color: var(--c-tekst-3); font-size: var(--f-13); }
+.mini-tabela b { color: var(--c-tekst); }
+.mini-tabela .kant { font-size: var(--f-12); background: var(--c-plava-svetla); color: var(--c-plava); padding: 0 var(--r-2); border-radius: var(--rad-pilula); justify-self: start; }
+@media (max-width: 960px) {
+  .bento { grid-template-columns: 1fr 1fr; grid-auto-rows: auto; }
+  .kartica-velika, .kartica-siroka, .kartica-obicna, .kartica-uska { grid-column: span 2; grid-row: auto; }
+  .kartica { padding: var(--r-6); }
+}

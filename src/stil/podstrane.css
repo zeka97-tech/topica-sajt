@@ -1,0 +1,38 @@
+/* podstrane.css — stranica preuzimanja, članci (blog, rečnik, namena, pitanja) */
+.podstrana { padding: var(--r-16) 0 var(--r-14); }
+.podstrana h1 { margin-bottom: var(--r-5); max-width: 18ch; }
+.podstrana .vodeci { margin-bottom: var(--r-8); }
+.clanak { max-width: var(--s-clanak); }
+.clanak h2 { font-size: var(--f-30); margin: var(--r-10) 0 var(--r-3); }
+.clanak h3 { margin: var(--r-7) 0 var(--r-2); }
+.clanak p, .clanak li { color: var(--c-tekst-2); margin-bottom: var(--r-4); }
+.clanak ul, .clanak ol { padding-left: var(--r-5); }
+.clanak .prozor, .clanak figure { margin: var(--r-7) 0; }
+.clanak figure { margin-inline: 0; }
+.clanak figcaption { font-size: var(--f-15); color: var(--c-tekst-3); margin-top: var(--r-2); }
+.clanak table { width: 100%; border-collapse: collapse; font-size: var(--f-16); margin: var(--r-5) 0 var(--r-7); font-variant-numeric: tabular-nums; }
+.clanak th, .clanak td { text-align: left; padding: var(--r-2) var(--r-3); border-bottom: var(--d-linija) solid var(--c-linija); color: var(--c-tekst-2); vertical-align: top; }
+.clanak th { color: var(--c-tekst); font-weight: var(--w-700); background: var(--c-podloga-3); }
+.clanak strong { color: var(--c-tekst); }
+.clanak-poziv { margin-top: var(--r-10); padding: var(--r-8); border-radius: var(--rad-kartica); background: var(--c-podloga-2); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--r-5); }
+.clanak-poziv p { margin: 0; color: var(--c-tekst); font-weight: var(--w-600); max-width: 32ch; }
+.clanak-meta { font-size: var(--f-15); color: var(--c-tekst-3); margin-bottom: var(--r-6); }
+.spisak-kartica { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--r-4); margin-top: var(--r-8); }
+.spisak-kartica a { display: block; padding: var(--r-5) var(--r-6); border-radius: var(--rad-korak); background: var(--c-podloga-2); color: var(--c-tekst); font-weight: var(--w-700); transition: background-color var(--t-brzo) var(--t-krivulja); }
+.spisak-kartica a:hover { background: var(--c-plava-svetla); }
+.spisak-kartica small { display: block; font-weight: var(--w-400); color: var(--c-tekst-3); font-size: var(--f-15); margin-top: var(--r-1); }
+.zahtevi { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--r-4); margin: var(--r-9) 0; }
+.zahtev { background: var(--c-podloga-2); border-radius: var(--rad-prozor); padding: var(--r-5); font-size: var(--f-16); }
+.zahtev b { display: block; font-size: var(--f-15); color: var(--c-tekst-3); margin-bottom: var(--r-1); font-weight: var(--w-600); }
+.koraci-instalacije { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--r-4); margin: var(--r-5) 0 var(--r-9); }
+.korak-instalacije { background: var(--c-podloga-2); border-radius: var(--rad-korak); padding: var(--r-6); }
+.korak-instalacije .korak-broj { margin-bottom: var(--r-3); }
+.korak-instalacije p { font-size: var(--f-16); color: var(--c-tekst-2); }
+.slika-placeholder { aspect-ratio: 4 / 3; border-radius: var(--rad-12); border: var(--d-linija-2) dashed var(--c-linija-jaka); background: var(--c-belo); display: grid; place-items: center; color: var(--c-tekst-3); font-size: var(--f-14); text-align: center; padding: var(--r-3); margin-bottom: var(--r-4); }
+.napomena { background: var(--c-upozorenje-podloga); border: var(--d-linija) solid var(--c-upozorenje-ivica); color: var(--c-upozorenje-tekst); border-radius: var(--rad-16); padding: var(--r-4) var(--r-5); font-size: var(--f-16); }
+.napomena b { color: var(--c-upozorenje-jako); }
+.preuzmi-kartica { background: var(--c-podloga-2); border-radius: var(--rad-kartica); padding: var(--r-8); display: grid; gap: var(--r-4); margin: var(--r-8) 0; }
+.preuzmi-kartica .radnje { gap: var(--r-4); }
+.preuzmi-polje { display: flex; gap: var(--r-2); flex-wrap: wrap; align-items: center; }
+.preuzmi-polje input { height: var(--s-dugme); border-radius: var(--rad-pilula); border: var(--d-linija) solid var(--c-linija-jaka); padding: 0 var(--r-5); font: var(--w-500) var(--f-16) var(--font); min-width: 0; flex: 1 1 var(--s-polje-min); background: var(--c-belo); }
+@media (max-width: 860px) { .zahtevi, .koraci-instalacije, .spisak-kartica { grid-template-columns: 1fr; } .podstrana { padding-top: var(--r-15); } }

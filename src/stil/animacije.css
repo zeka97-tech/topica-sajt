@@ -1,0 +1,19 @@
+/* animacije.css — jedina CSS animacija (Topi lebdi) i isključivanje svega pri prefers-reduced-motion */
+@media (prefers-reduced-motion: no-preference) {
+  .hero-topi img { animation: lebdi var(--lebdi-trajanje) ease-in-out infinite; }
+}
+@keyframes lebdi { 0%, 100% { transform: translateY(calc(-1 * var(--lebdi-pomak))); } 50% { transform: translateY(var(--lebdi-pomak)); } }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition-duration: 0s !important; animation: none !important; }
+  .korpus-visina, .galerija-visina, .kako-visina { height: auto; }
+  .korpus-lepljivo, .galerija-lepljivo, .kako-lepljivo { position: static; height: auto; }
+  .korak { opacity: 1; background: var(--c-belo); }
+  .kako-ekran { position: relative; opacity: 1; margin-bottom: var(--r-4); }
+  .natpis { position: static; opacity: 1; margin-bottom: var(--r-2); }
+  .korpus-natpisi { height: auto; }
+  .galerija-traka { overflow-x: auto; padding: 0 var(--r-6) var(--r-4); }
+  .kota, .krojna-lista, .ploca-podloga { opacity: 1; }
+  .niz-ploca, .niz-mera { --vidljivo: 1; --od-gore: 0; }
+  .niz-korpus { --od: 0; }
+}

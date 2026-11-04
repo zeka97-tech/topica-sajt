@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="{{sistem.kod}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{sistem.naslov}}</title>
+<meta name="description" content="{{sistem.opis}}">
+<link rel="canonical" href="{{sistem.url}}">
+{{sistem.hreflang}}
+<meta property="og:type" content="{{sistem.ogTip}}">
+<meta property="og:site_name" content="TOPICA">
+<meta property="og:title" content="{{sistem.ogNaslov}}">
+<meta property="og:description" content="{{sistem.ogOpis}}">
+<meta property="og:url" content="{{sistem.url}}">
+<meta property="og:image" content="{{sistem.ogSlika}}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{{meta.og_alt}}">
+<meta property="og:locale" content="{{sistem.ogLocale}}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{sistem.ogNaslov}}">
+<meta name="twitter:description" content="{{sistem.ogOpis}}">
+<meta name="twitter:image" content="{{sistem.ogSlika}}">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="{{sistem.koren}}slike/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="{{sistem.koren}}slike/favicon-180.png" sizes="180x180">
+<link rel="preload" href="{{sistem.koren}}fontovi/manrope-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{sistem.koren}}fontovi/manrope-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="{{sistem.koren}}stil.css">
+<script type="application/ld+json">{{sistem.ldJson}}</script>
+</head>
+<body data-kod="{{sistem.kod}}" data-koren="{{sistem.koren}}" data-putanja="{{sistem.putanja}}">
+<a class="preskoci" href="#glavno">{{a11y.preskoci}}</a>
+{{sistem.traka}}
+{{sistem.napomenaJezika}}
+<main id="glavno">
+{{sistem.sadrzaj}}
+</main>
+{{sistem.podnozje}}
+<div class="jezik-predlog" id="jezik-predlog" hidden></div>
+{{sistem.skripte}}
+</body>
+</html>

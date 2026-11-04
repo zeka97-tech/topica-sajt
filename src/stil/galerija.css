@@ -1,0 +1,14 @@
+/* galerija.css — tamno; horizontalni red vezan za vertikalni skrol (na telefonu običan horizontalni skrol) */
+.galerija { background: var(--c-plava-tamna); color: var(--c-belo); overflow: clip; }
+.galerija-visina { height: 300vh; }
+.galerija-lepljivo { position: sticky; top: 0; height: 100vh; display: flex; flex-direction: column; justify-content: center; gap: var(--r-8); padding: var(--r-13) 0 var(--r-9); }
+.galerija-traka { display: flex; gap: var(--r-7); padding-left: max(var(--r-6), calc((100vw - var(--s-okvir)) / 2)); will-change: transform; }
+.galerija-stavka { flex: 0 0 auto; width: min(var(--s-galerija), var(--s-galerija-max)); }
+.galerija-stavka figure { margin: 0; }
+.galerija-stavka figcaption { margin-top: var(--r-3); font-size: var(--f-16); color: var(--c-na-tamnom-2); }
+@media (max-width: 860px) {
+  .galerija-visina { height: auto; }
+  .galerija-lepljivo { position: static; height: auto; padding: var(--r-13) 0; }
+  .galerija-traka { overflow-x: auto; scroll-snap-type: x mandatory; padding: 0 var(--r-4) var(--r-4); gap: var(--r-4); -webkit-overflow-scrolling: touch; }
+  .galerija-stavka { width: var(--s-galerija-mob); scroll-snap-align: center; }
+}

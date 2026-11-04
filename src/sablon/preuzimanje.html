@@ -1,0 +1,32 @@
+<section class="podstrana" aria-labelledby="preuzmi-naslov">
+  <div class="okvir">
+    <div class="clanak">
+      <span class="nadnaslov">{{preuzimanje.nadnaslov}}</span>
+      <h1 id="preuzmi-naslov">{{preuzimanje.naslov}}</h1>
+      <p class="vodeci">{{preuzimanje.tekst}}</p>
+      <form class="preuzmi-kartica" id="preuzmi-obrazac" action="{{sistem.formspreeUrl}}" method="POST" data-formspree="{{sajt.formspreeId}}" data-exe="{{sajt.preuzimanjeExe}}" data-hvala="hvala.html">
+        <label for="preuzmi-email"><strong>{{preuzimanje.email_naslov}}</strong><br><span class="sitno">{{preuzimanje.email_tekst}}</span></label>
+        <div class="preuzmi-polje">
+          <input type="email" id="preuzmi-email" name="email" autocomplete="email" placeholder="{{cena.obrazac.placeholder}}">
+          <input type="hidden" name="_subject" value="{{preuzimanje.predmet}}">
+          <button class="dugme dugme-glavno" type="submit" id="preuzmi-dugme">{{preuzimanje.dugme}}</button>
+        </div>
+        <p class="sitno">{{preuzimanje.datoteka}} · {{sajt.verzijaExe}} · {{sajt.velicinaExe}} · {{preuzimanje.bez_emaila}} <a href="{{sajt.preuzimanjeExe}}" id="preuzmi-direktno">{{preuzimanje.direktno}}</a></p>
+      </form>
+      <h2>{{preuzimanje.zahtevi_naslov}}</h2>
+      <div class="zahtevi">
+        <div class="zahtev"><b>{{preuzimanje.z1_naslov}}</b>{{preuzimanje.z1}}</div>
+        <div class="zahtev"><b>{{preuzimanje.z2_naslov}}</b>{{preuzimanje.z2}}</div>
+        <div class="zahtev"><b>{{preuzimanje.z3_naslov}}</b>{{preuzimanje.z3}}</div>
+      </div>
+      <h2>{{preuzimanje.koraci_naslov}}</h2>
+      <div class="koraci-instalacije">
+        <div class="korak-instalacije"><div class="slika-placeholder">{{preuzimanje.slika_placeholder}}</div><span class="korak-broj" aria-hidden="true">1</span><p>{{preuzimanje.k1}}</p></div>
+        <div class="korak-instalacije"><div class="slika-placeholder">{{preuzimanje.slika_placeholder}}</div><span class="korak-broj" aria-hidden="true">2</span><p>{{preuzimanje.k2}}</p></div>
+        <div class="korak-instalacije"><div class="slika-placeholder">{{preuzimanje.slika_placeholder}}</div><span class="korak-broj" aria-hidden="true">3</span><p>{{preuzimanje.k3}}</p></div>
+      </div>
+      <p class="napomena"><b>{{preuzimanje.upozorenje_naslov}}</b> {{preuzimanje.upozorenje}}</p>
+      <div class="clanak-poziv"><p>{{preuzimanje.pomoc}}</p><a class="veza" href="mailto:{{sajt.kontaktEmail}}"><span>{{sajt.kontaktEmail}}</span> <span class="strelica" aria-hidden="true">›</span></a></div>
+    </div>
+  </div>
+</section>

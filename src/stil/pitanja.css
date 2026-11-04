@@ -1,0 +1,8 @@
+/* pitanja.css — akordeon (details/summary, radi i bez JS) */
+.pitanja-lista { max-width: var(--s-pitanja); margin: 0 auto; }
+.pitanje { border-bottom: var(--d-linija) solid var(--c-linija); }
+.pitanje summary { list-style: none; cursor: pointer; display: flex; justify-content: space-between; align-items: center; gap: var(--r-5); padding: var(--r-5) 0; font-weight: var(--w-700); font-size: var(--f-19); }
+.pitanje summary::-webkit-details-marker { display: none; }
+.pitanje summary::after { content: ""; width: var(--s-strelica); height: var(--s-strelica); border-right: var(--d-linija-2) solid var(--c-tekst-3); border-bottom: var(--d-linija-2) solid var(--c-tekst-3); transform: rotate(45deg); transition: transform var(--t-brzo) var(--t-krivulja); flex: 0 0 auto; margin-right: var(--r-1); }
+.pitanje[open] summary::after { transform: rotate(225deg); }
+.pitanje p { color: var(--c-tekst-2); padding: 0 0 var(--r-5); max-width: 60ch; }

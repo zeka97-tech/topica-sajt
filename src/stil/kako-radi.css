@@ -1,0 +1,22 @@
+/* kako-radi.css — tri koraka, zakačeno (pin): tekst levo, ekran desno */
+.kako { background: var(--c-podloga-2); }
+.kako-visina { height: 300vh; }
+.kako-lepljivo { position: sticky; top: 0; height: 100vh; display: grid; grid-template-columns: .9fr 1.1fr; gap: var(--r-11); align-items: center; padding: var(--r-14) 0 var(--r-12); }
+.koraci { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--r-2); }
+.korak { padding: var(--r-5) var(--r-6); border-radius: var(--rad-korak); transition: background-color var(--t-brzo) var(--t-krivulja), opacity var(--t-brzo) var(--t-krivulja); opacity: var(--o-neaktivno); }
+.korak.aktivan { background: var(--c-belo); opacity: 1; box-shadow: var(--senka-korak); }
+.korak-broj { display: inline-grid; place-items: center; width: var(--s-korak-broj); height: var(--s-korak-broj); border-radius: 50%; background: var(--c-plava); color: var(--c-belo); font-weight: var(--w-800); font-size: var(--f-15); margin-bottom: var(--r-3); }
+.korak h3 { margin-bottom: var(--r-1); }
+.korak p { color: var(--c-tekst-2); font-size: var(--f-17); }
+.kako-ekrani { position: relative; }
+.kako-slog { position: relative; }
+.kako-ekran { position: absolute; inset: 0; opacity: 0; }
+.kako-ekran:first-child { position: relative; opacity: 1; }
+.kako-napredak { position: absolute; left: var(--r-6); right: var(--r-6); bottom: calc(-1 * var(--r-7)); height: var(--s-napredak); background: var(--c-linija); border-radius: var(--s-napredak); overflow: hidden; }
+.kako-napredak i { display: block; height: 100%; width: 0; background: var(--c-plava); }
+@media (max-width: 860px) {
+  .kako-visina { height: auto; }
+  .kako-lepljivo { position: static; height: auto; grid-template-columns: 1fr; gap: var(--r-7); padding: var(--r-13) 0 var(--r-10); }
+  .koraci { order: 2; }
+  .korak { opacity: 1; background: var(--c-belo); }
+}

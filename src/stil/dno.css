@@ -1,0 +1,9 @@
+/* dno.css — poslednji poziv + podnožje */
+.dno-poziv { text-align: center; padding: var(--r-odeljak) 0 var(--r-12); }
+.dno-poziv h2 { margin-bottom: var(--r-3); }
+.dno-poziv .vodeci { margin: 0 auto var(--r-8); }
+.dno { border-top: var(--d-linija) solid var(--c-linija); padding: var(--r-8) 0 var(--r-9); font-size: var(--f-15); color: var(--c-tekst-3); }
+.dno .okvir { display: flex; flex-wrap: wrap; gap: var(--r-3) var(--r-7); align-items: center; justify-content: space-between; }
+.dno a { color: var(--c-tekst-2); }
+.dno a:hover { color: var(--c-tekst); }
+.dno ul { display: flex; gap: var(--r-5); list-style: none; margin: 0; padding: 0; flex-wrap: wrap; }

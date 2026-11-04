@@ -1,0 +1,8 @@
+/* cinjenice.css — tri činjenice sa ikonicom */
+.cinjenice { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--r-8); }
+.cinjenica { padding: var(--r-8) var(--r-8); border-radius: var(--rad-kartica); background: var(--c-podloga-2); }
+.ikona { width: var(--s-ikona); height: var(--s-ikona); border-radius: var(--s-ikona-rad); background: var(--c-plava-svetla); color: var(--c-plava); display: grid; place-items: center; margin-bottom: var(--r-5); }
+.ikona svg { width: var(--s-ikona-svg); height: var(--s-ikona-svg); }
+.cinjenica h3 { margin-bottom: var(--r-2); }
+.cinjenica p { color: var(--c-tekst-2); font-size: var(--f-17); }
+@media (max-width: 860px) { .cinjenice { grid-template-columns: 1fr; gap: var(--r-4); } }

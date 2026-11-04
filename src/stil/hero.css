@@ -1,0 +1,17 @@
+/* hero.css — naslov, rečenica, glavno dugme, Topi koji lebdi, veliki prozor programa */
+.hero { padding: var(--r-16) 0 0; overflow: hidden; }
+.hero-mreza { display: grid; grid-template-columns: 1.15fr .85fr; gap: var(--r-9); align-items: center; }
+.hero h1 { max-width: 12ch; margin-bottom: var(--r-6); }
+.hero .vodeci { margin-bottom: var(--r-8); }
+.hero .radnje { margin-bottom: var(--r-5); }
+.hero-topi { position: relative; display: flex; justify-content: center; }
+.hero-topi img { width: min(100%, var(--s-topi)); filter: var(--senka-topi); }
+.hero-prozor { margin-top: var(--r-13); }
+.hero-prozor .prozor { transform-origin: 50% 100%; }
+@media (max-width: 860px) {
+  .hero { padding-top: var(--r-15); }
+  .hero-mreza { grid-template-columns: 1fr; gap: var(--r-6); }
+  .hero-topi { order: -1; }
+  .hero-topi img { width: min(60%, var(--s-topi-mob)); }
+  .hero-prozor { margin-top: var(--r-10); }
+}

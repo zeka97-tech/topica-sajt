@@ -1,0 +1,8 @@
+/* zakoga.css — „Pravi ga stolar, za stolare." sa mestom za ime i fotografiju vlasnika */
+.zakoga { background: var(--c-podloga-2); }
+.vlasnik { display: flex; align-items: center; gap: var(--r-4); margin-top: var(--r-8); }
+.vlasnik-slika { width: var(--s-vlasnik); height: var(--s-vlasnik); border-radius: 50%; background: var(--c-siva-ikona); display: grid; place-items: center; color: var(--c-tekst-3); border: var(--d-linija-2) dashed var(--c-linija-jaka); flex: 0 0 auto; overflow: hidden; }
+.vlasnik-slika svg { width: var(--s-vlasnik-svg); height: var(--s-vlasnik-svg); }
+.vlasnik-slika img { width: 100%; height: 100%; object-fit: cover; }
+.vlasnik b { display: block; font-size: var(--f-18); }
+.vlasnik span { color: var(--c-tekst-3); font-size: var(--f-15); }

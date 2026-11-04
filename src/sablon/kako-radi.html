@@ -1,0 +1,26 @@
+<section class="kako" id="kako-radi" aria-labelledby="kako-naslov">
+  <div class="kako-visina" id="kako-visina">
+    <div class="kako-lepljivo okvir" id="kako-lepljivo">
+      <div>
+        <span class="nadnaslov">{{kako.nadnaslov}}</span>
+        <h2 id="kako-naslov" class="naslov-odeljka">{{kako.naslov}}</h2>
+        <ol class="koraci" id="koraci">
+          <li class="korak aktivan" data-korak="0"><span class="korak-broj" aria-hidden="true">1</span><h3>{{kako.1.naslov}}</h3><p>{{kako.1.tekst}}</p></li>
+          <li class="korak" data-korak="1"><span class="korak-broj" aria-hidden="true">2</span><h3>{{kako.2.naslov}}</h3><p>{{kako.2.tekst}}</p></li>
+          <li class="korak" data-korak="2"><span class="korak-broj" aria-hidden="true">3</span><h3>{{kako.3.naslov}}</h3><p>{{kako.3.tekst}}</p></li>
+        </ol>
+      </div>
+      <div class="kako-ekrani">
+        <div class="prozor">
+          <div class="prozor-traka" aria-hidden="true"><i></i><i></i><i></i></div>
+          <div class="kako-slog">
+            <img class="kako-ekran" data-ekran="0" src="{{sistem.koren}}slike/web/snimak-44-soba-pod-zid-800.webp" srcset="{{sistem.koren}}slike/web/snimak-44-soba-pod-zid-800.webp 800w, {{sistem.koren}}slike/web/snimak-44-soba-pod-zid-1600.webp 1366w" sizes="(max-width: 860px) 100vw, 620px" width="1366" height="768" loading="lazy" alt="{{kako.1.alt}}">
+            <img class="kako-ekran" data-ekran="1" src="{{sistem.koren}}slike/web/snimak-12-korpus-sa-vratima-800.webp" srcset="{{sistem.koren}}slike/web/snimak-12-korpus-sa-vratima-800.webp 800w, {{sistem.koren}}slike/web/snimak-12-korpus-sa-vratima-1600.webp 1366w" sizes="(max-width: 860px) 100vw, 620px" width="1366" height="768" loading="lazy" alt="{{kako.2.alt}}">
+            <img class="kako-ekran" data-ekran="2" src="{{sistem.koren}}slike/web/snimak-33-po-meri-800.webp" srcset="{{sistem.koren}}slike/web/snimak-33-po-meri-800.webp 800w, {{sistem.koren}}slike/web/snimak-33-po-meri-1600.webp 1366w" sizes="(max-width: 860px) 100vw, 620px" width="1366" height="768" loading="lazy" alt="{{kako.3.alt}}">
+          </div>
+        </div>
+        <div class="kako-napredak" aria-hidden="true"><i id="kako-napredak"></i></div>
+      </div>
+    </div>
+  </div>
+</section>

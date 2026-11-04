@@ -1,0 +1,18 @@
+/* jezik.css — prekidač jezika (lista sa imenima na tom jeziku), predlog jezika pregledača, napomena o jeziku programa */
+.jezik { position: relative; }
+.jezik > summary { list-style: none; cursor: pointer; display: inline-flex; align-items: center; gap: var(--r-1); font-size: var(--f-14); font-weight: var(--w-600); color: var(--c-tekst-2); letter-spacing: var(--ls-jezik); padding: var(--r-1) var(--r-2); border-radius: var(--rad-pilula); border: var(--d-linija) solid var(--c-linija); transition: background-color var(--t-brzo) var(--t-krivulja); text-transform: uppercase; }
+.jezik > summary::-webkit-details-marker { display: none; }
+.jezik > summary:hover { background: var(--c-podloga-hover); }
+.jezik-lista { position: absolute; right: 0; top: calc(100% + var(--r-2)); width: var(--s-jezik-meni); max-height: 70vh; overflow: auto; background: var(--c-belo); border: var(--d-linija) solid var(--c-linija); border-radius: var(--rad-16); box-shadow: var(--senka-meni); padding: var(--r-2); margin: 0; list-style: none; z-index: var(--z-meni); columns: 2; column-gap: 0; }
+.jezik-lista li { break-inside: avoid; }
+.jezik-lista a { display: flex; justify-content: space-between; gap: var(--r-2); padding: var(--r-2) var(--r-3); border-radius: var(--rad-10); color: var(--c-tekst); font-size: var(--f-15); font-weight: var(--w-500); }
+.jezik-lista a:hover { background: var(--c-podloga-hover); }
+.jezik-lista a[aria-current] { color: var(--c-plava); font-weight: var(--w-700); }
+.jezik-lista a small { color: var(--c-tekst-3); font-size: var(--f-12); align-self: center; }
+.jezik-predlog { position: fixed; left: 50%; bottom: var(--r-6); transform: translateX(-50%); z-index: var(--z-meni); display: none; align-items: center; gap: var(--r-3); background: var(--c-plava-tamna); color: var(--c-belo); padding: var(--r-3) var(--r-3) var(--r-3) var(--r-5); border-radius: var(--rad-pilula); font-size: var(--f-15); max-width: calc(100vw - var(--r-okvir-mob)); box-shadow: var(--senka-meni); }
+.jezik-predlog.vidljivo { display: flex; }
+.jezik-predlog a { color: var(--c-plava-na-tamnom); font-weight: var(--w-700); white-space: nowrap; }
+.jezik-predlog button { background: transparent; border: 0; color: var(--c-na-tamnom-3); cursor: pointer; font-size: var(--f-18); line-height: var(--lh-1); padding: 0 var(--r-1); }
+.jezik-napomena { background: var(--c-plava-svetla); color: var(--c-tekst-2); font-size: var(--f-15); text-align: center; padding: var(--r-2) var(--r-4); margin-top: var(--s-traka); }
+.jezik-napomena + main .hero { padding-top: var(--r-12); }
+.jezik-napomena + main .podstrana { padding-top: var(--r-12); }

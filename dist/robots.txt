@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /*/hvala.html
+Sitemap: https://zeka97-tech.github.io/topica-sajt/sitemap.xml

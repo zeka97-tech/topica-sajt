@@ -1,0 +1,24 @@
+/* cena.css — tamno: probna besplatna, cena uskoro, e-mail obrazac, Topi sa bušilicom */
+.cena-mreza { display: grid; grid-template-columns: 1.2fr .8fr; gap: var(--r-10); align-items: center; }
+.cena-kartica { background: var(--c-tamno-kartica); border: var(--d-linija) solid var(--c-tamno-linija); border-radius: var(--rad-kartica); padding: var(--r-9); }
+.cena-kartica .vodeci { max-width: none; margin-bottom: var(--r-6); }
+.cena-red { display: flex; align-items: baseline; gap: var(--r-3); margin: var(--r-4) 0 var(--r-2); }
+.cena-red b { font-size: var(--f-cena); letter-spacing: var(--ls-naslov); font-weight: var(--w-800); }
+.cena-red span { color: var(--c-na-tamnom-2); font-size: var(--f-17); }
+.cena-topi { display: flex; justify-content: center; }
+.cena-topi img { width: min(100%, var(--s-topi-cena)); filter: var(--senka-topi-tamno); }
+.obrazac { margin-top: var(--r-8); padding-top: var(--r-7); border-top: var(--d-linija) solid var(--c-tamno-linija); }
+.obrazac label { display: block; font-weight: var(--w-700); margin-bottom: var(--r-2); }
+.obrazac-red { display: flex; gap: var(--r-2); }
+.obrazac input { flex: 1 1 auto; min-width: 0; height: var(--s-dugme); border-radius: var(--rad-pilula); border: var(--d-linija) solid var(--c-tamno-polje-ivica); background: var(--c-tamno-polje); color: var(--c-belo); padding: 0 var(--r-5); font: var(--w-500) var(--f-16) var(--font); }
+.obrazac input::placeholder { color: var(--c-na-tamnom-4); }
+.obrazac input:focus { outline: var(--d-linija-2) solid var(--c-plava-na-tamnom); outline-offset: var(--d-linija-2); }
+.obrazac .dugme-belo { color: var(--c-plava-tamna); }
+.obrazac-poruka { margin-top: var(--r-2); font-size: var(--f-15); color: var(--c-na-tamnom-2); min-height: 1.4em; }
+@media (max-width: 860px) {
+  .cena-mreza { grid-template-columns: 1fr; }
+  .cena-topi { order: -1; }
+  .cena-topi img { width: min(55%, var(--s-topi-cena-mob)); }
+  .cena-kartica { padding: var(--r-7) var(--r-5); }
+  .obrazac-red { flex-direction: column; }
+}

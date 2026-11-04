@@ -1,0 +1,28 @@
+<section class="odeljak tamno" id="cena" aria-labelledby="cena-naslov">
+  <div class="okvir cena-mreza">
+    <div class="cena-kartica">
+      <span class="nadnaslov">{{cena.nadnaslov}}</span>
+      <h2 id="cena-naslov">{{cena.naslov}}</h2>
+      <div class="cena-red"><b>{{cena.uskoro}}</b><span>{{cena.uskoro_tekst}}</span></div>
+      <p class="vodeci">{{cena.tekst}}</p>
+      <a class="dugme dugme-glavno" href="preuzimanje.html">{{cta.glavno}}</a>
+      <!--
+        DUGME „KUPI" — uključiti kad cena bude objavljena (Paddle ili Lemon Squeezy). Belo, nikad drugo narandžasto:
+        <a class="dugme dugme-belo" href="https://PRODAVNICA.lemonsqueezy.com/checkout/buy/XXXX">{{cena.kupi}}</a>
+        Paddle: <a class="dugme dugme-belo" href="#" data-paddle-product="pro_XXXX">{{cena.kupi}}</a> + Paddle.js skripta u skripte.html
+      -->
+      <form class="obrazac" id="obrazac" action="{{sistem.formspreeUrl}}" method="POST" data-formspree="{{sajt.formspreeId}}" data-email="{{sajt.kontaktEmail}}">
+        <label for="email">{{cena.obrazac.naslov}}</label>
+        <div class="obrazac-red">
+          <input type="email" id="email" name="email" required autocomplete="email" placeholder="{{cena.obrazac.placeholder}}">
+          <input type="hidden" name="_subject" value="{{cena.obrazac.predmet}}">
+          <button class="dugme dugme-belo" type="submit">{{cena.obrazac.dugme}}</button>
+        </div>
+        <p class="obrazac-poruka" id="obrazac-poruka" aria-live="polite" data-hvala="{{cena.obrazac.hvala}}" data-greska="{{cena.obrazac.greska}}">{{cena.obrazac.napomena}}</p>
+      </form>
+    </div>
+    <div class="cena-topi">
+      <img src="{{sistem.koren}}slike/web/topi-busilica-isecen-800.webp" srcset="{{sistem.koren}}slike/web/topi-busilica-isecen-800.webp 800w, {{sistem.koren}}slike/web/topi-busilica-isecen-1600.webp 1080w" sizes="(max-width: 860px) 220px, 380px" width="1080" height="1070" loading="lazy" alt="{{cena.topi_alt}}">
+    </div>
+  </div>
+</section>

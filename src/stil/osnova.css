@@ -1,0 +1,73 @@
+/* osnova.css — font, reset, tipografija, dugmad, veze, prozor aplikacije, pomoćne klase */
+@font-face { font-family: "Manrope"; font-style: normal; font-weight: 400; font-display: swap; src: url("fontovi/manrope-latin-400-normal.woff2") format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "Manrope"; font-style: normal; font-weight: 500; font-display: swap; src: url("fontovi/manrope-latin-500-normal.woff2") format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "Manrope"; font-style: normal; font-weight: 600; font-display: swap; src: url("fontovi/manrope-latin-600-normal.woff2") format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "Manrope"; font-style: normal; font-weight: 700; font-display: swap; src: url("fontovi/manrope-latin-700-normal.woff2") format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "Manrope"; font-style: normal; font-weight: 800; font-display: swap; src: url("fontovi/manrope-latin-800-normal.woff2") format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "Manrope"; font-style: normal; font-weight: 400; font-display: swap; src: url("fontovi/manrope-latin-ext-400-normal.woff2") format("woff2"); unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: "Manrope"; font-style: normal; font-weight: 500; font-display: swap; src: url("fontovi/manrope-latin-ext-500-normal.woff2") format("woff2"); unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: "Manrope"; font-style: normal; font-weight: 600; font-display: swap; src: url("fontovi/manrope-latin-ext-600-normal.woff2") format("woff2"); unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: "Manrope"; font-style: normal; font-weight: 700; font-display: swap; src: url("fontovi/manrope-latin-ext-700-normal.woff2") format("woff2"); unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: "Manrope"; font-style: normal; font-weight: 800; font-display: swap; src: url("fontovi/manrope-latin-ext-800-normal.woff2") format("woff2"); unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+/* ćirilica (ru, bg, uk) i grčki (el) padaju na sistemski font iz --font; Manrope ih nema. */
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-stopped { overflow: hidden; }
+body { margin: 0; font-family: var(--font); font-size: var(--f-18); line-height: var(--lh-tekst); color: var(--c-tekst); background: var(--c-podloga); -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+img, picture, svg { display: block; max-width: 100%; }
+img { height: auto; }
+a { color: var(--c-plava); text-decoration: none; }
+h1, h2, h3, h4 { margin: 0; font-weight: var(--w-800); letter-spacing: var(--ls-naslov); line-height: var(--lh-naslov); color: inherit; }
+h1 { font-size: var(--f-h1); }
+h2 { font-size: var(--f-h2); }
+h3 { font-size: var(--f-24); letter-spacing: var(--ls-h3); line-height: var(--lh-h3); }
+p { margin: 0; }
+.vodeci { font-size: var(--f-vodeci); line-height: var(--lh-vodeci); color: var(--c-tekst-2); max-width: 36em; }
+.tamno .vodeci { color: var(--c-na-tamnom-2); }
+.sitno { font-size: var(--f-15); color: var(--c-tekst-3); }
+.tamno .sitno { color: var(--c-na-tamnom-3); }
+.okvir { width: min(var(--s-okvir), 100% - var(--r-okvir)); margin-inline: auto; }
+@media (max-width: 640px) { .okvir { width: calc(100% - var(--r-okvir-mob)); } }
+.vizuelno-skriveno { position: absolute !important; width: var(--d-linija); height: var(--d-linija); overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+:focus-visible { outline: var(--d-fokus) solid var(--c-plava); outline-offset: var(--d-fokus); border-radius: var(--rad-malo); }
+.preskoci { position: absolute; left: var(--r-4); top: var(--r-preskoci); background: var(--c-plava); color: var(--c-belo); padding: var(--r-2) var(--r-4); border-radius: var(--rad-pilula); z-index: var(--z-preskoci); }
+.preskoci:focus { top: var(--r-3); }
+
+/* odeljci */
+.odeljak { padding: var(--r-odeljak) 0; position: relative; }
+.tamno { background: var(--c-plava-tamna); color: var(--c-belo); }
+.tamno h2, .tamno h3 { color: var(--c-belo); }
+.svetlo-sivo { background: var(--c-podloga-2); }
+.naslov-odeljka { max-width: 24ch; margin-bottom: var(--r-5); }
+.naslov-odeljka + .vodeci { margin-bottom: var(--r-11); }
+.centrirano { text-align: center; }
+.centrirano .naslov-odeljka, .centrirano .vodeci { margin-inline: auto; }
+.nadnaslov { display: inline-block; font-size: var(--f-14); font-weight: var(--w-700); letter-spacing: var(--ls-nadnaslov); text-transform: uppercase; color: var(--c-plava); margin-bottom: var(--r-4); }
+.tamno .nadnaslov { color: var(--c-plava-na-tamnom); }
+
+/* dugmad: pilula 48 px, miran hover */
+.dugme { display: inline-flex; align-items: center; justify-content: center; gap: var(--r-2); height: var(--s-dugme); padding: 0 var(--s-dugme-pad); border-radius: var(--rad-pilula); font: var(--w-600) var(--f-17) / var(--lh-1) var(--font); white-space: nowrap; cursor: pointer; border: 0; transition: background-color var(--t-brzo) var(--t-krivulja), color var(--t-brzo) var(--t-krivulja); text-decoration: none; }
+.dugme-glavno { background: var(--c-narandzasta); color: var(--c-belo); box-shadow: 0 var(--d-linija) var(--d-linija-2) var(--c-narandzasta-senka); }
+.dugme-glavno:hover { background: var(--c-narandzasta-hover); }
+.dugme-glavno:active { background: var(--c-narandzasta-aktivno); }
+.dugme-malo { height: var(--s-dugme-malo); padding: 0 var(--s-dugme-malo-pad); font-size: var(--f-15); }
+.dugme-belo { background: var(--c-belo); color: var(--c-tekst); border: var(--d-linija) solid var(--c-linija); }
+.dugme-belo:hover { background: var(--c-podloga-3); }
+.veza { display: inline-flex; align-items: center; gap: var(--r-1); font-weight: var(--w-600); color: var(--c-plava); font-size: var(--f-17); height: var(--s-dugme); transition: color var(--t-brzo) var(--t-krivulja); }
+.veza:hover { color: var(--c-plava-hover); }
+.veza .strelica { transition: transform var(--t-brzo) var(--t-krivulja); display: inline-block; }
+.veza:hover .strelica { transform: translateX(var(--r-1)); }
+.tamno .veza { color: var(--c-plava-na-tamnom); }
+.tamno .veza:hover { color: var(--c-plava-na-tamnom-hover); }
+.radnje { display: flex; align-items: center; gap: var(--r-6); flex-wrap: wrap; }
+
+/* prozor aplikacije: zaobljen okvir, tri tačke */
+.prozor { background: var(--c-belo); border-radius: var(--rad-prozor); overflow: hidden; box-shadow: var(--senka-prozor); border: var(--d-linija) solid var(--c-linija); }
+.prozor-traka { height: var(--s-prozor-traka); display: flex; align-items: center; gap: var(--r-2); padding: 0 var(--r-4); background: var(--c-prozor-traka); border-bottom: var(--d-linija) solid var(--c-linija); }
+.prozor-traka i { width: var(--s-tacka); height: var(--s-tacka); border-radius: 50%; }
+.prozor-traka i:nth-child(1) { background: var(--c-tacka-1); } .prozor-traka i:nth-child(2) { background: var(--c-tacka-2); } .prozor-traka i:nth-child(3) { background: var(--c-tacka-3); }
+.prozor img { width: 100%; }
+.tamno .prozor, .korpus .prozor, .galerija .prozor { border-color: var(--c-tamno-linija); box-shadow: var(--senka-prozor-tamno); }

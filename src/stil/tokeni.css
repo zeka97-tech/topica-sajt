@@ -1,0 +1,130 @@
+/* tokeni.css — JEDINO mesto za boje, razmake, veličine slova, radijuse, senke i trajanja.
+   Ostali CSS fajlovi koriste samo var(--…). Izuzetak koji CSS ne dozvoljava kao promenljivu:
+   prelomi u @media (640 / 860 / 960 px) — zapisani su ovde radi evidencije. */
+:root {
+  /* boje — jedine jake: plava i narandžasta */
+  --c-plava: #2563eb;
+  --c-plava-hover: #1d4ed8;
+  --c-plava-tamna: #0b1b3a;
+  --c-plava-svetla: #e8efff;
+  --c-plava-na-tamnom: #8fb0ff;
+  --c-plava-na-tamnom-hover: #b7cbff;
+  --c-narandzasta: #f97316;
+  --c-narandzasta-hover: #fb8a3c;
+  --c-narandzasta-aktivno: #ea6a0c;
+  --c-narandzasta-senka: rgba(249, 115, 22, .3);
+  --c-tekst: #0f172a;
+  --c-tekst-2: #4b5563;
+  --c-tekst-3: #6b7280;
+  --c-belo: #ffffff;
+  --c-podloga: #ffffff;
+  --c-podloga-2: #f5f5f7;
+  --c-podloga-3: #f9fafb;
+  --c-podloga-hover: #f1f1f4;
+  --c-topla-siva: #efe9e1;
+  --c-linija: rgba(15, 23, 42, .08);
+  --c-linija-jaka: #cbd5e1;
+  --c-siva-ikona: #e5e7eb;
+  --c-na-tamnom-2: rgba(255, 255, 255, .72);
+  --c-na-tamnom-3: rgba(255, 255, 255, .5);
+  --c-na-tamnom-4: rgba(255, 255, 255, .45);
+  --c-tamno-polje: rgba(255, 255, 255, .08);
+  --c-tamno-polje-ivica: rgba(255, 255, 255, .2);
+  --c-tamno-kartica: rgba(255, 255, 255, .06);
+  --c-tamno-linija: rgba(255, 255, 255, .12);
+  --c-tamno-linija-2: rgba(255, 255, 255, .14);
+  --c-tamno-ploca-1: rgba(255, 255, 255, .07);
+  --c-tamno-ploca-2: rgba(255, 255, 255, .04);
+  --c-staklo: rgba(255, 255, 255, .72);
+  --c-staklo-meni: rgba(255, 255, 255, .96);
+  --c-senka-tamna: rgba(11, 27, 58, .35);
+  --c-senka-tamna-2: rgba(11, 27, 58, .2);
+  --c-senka-tamna-3: rgba(11, 27, 58, .25);
+  --c-senka-tamna-4: rgba(11, 27, 58, .18);
+  --c-crna-senka: rgba(0, 0, 0, .5);
+  --c-crna-senka-2: rgba(0, 0, 0, .7);
+  --c-crna-senka-3: rgba(0, 0, 0, .55);
+  --c-crna-senka-4: rgba(0, 0, 0, .4);
+  --c-crna-linija: rgba(0, 0, 0, .08);
+  --c-upozorenje-podloga: #fff7ed;
+  --c-upozorenje-ivica: #fed7aa;
+  --c-upozorenje-tekst: #7c2d12;
+  --c-upozorenje-jako: #9a3412;
+  --c-tacka-1: #fb7185; --c-tacka-2: #fbbf24; --c-tacka-3: #34d399;
+  --c-prozor-traka: #f3f4f6;
+  /* materijali nacrtanog korpusa */
+  --c-bela-1: #faf8f3; --c-bela-2: #efece5; --c-bela-3: #e6e2d9; --c-bela-ivica-1: #e4e0d7; --c-bela-ivica-2: #cfcac0;
+  --c-hrast-ivica: #9a6a3a;
+  --c-lesonit-1: #c9b79a; --c-lesonit-2: #b39b79; --c-lesonit-ivica: #8f7a5c;
+  --c-zid-1: #f1efe9; --c-zid-2: #e7e3da; --c-pod-1: #d9d2c5; --c-pod-2: #cfc7b8;
+  --c-radna-ploca-1: #4b4b4f; --c-radna-ploca-2: #2d2d31; --c-nogica: #3a3a3a;
+
+  /* razmaci */
+  --r-1: 4px; --r-2: 8px; --r-3: 12px; --r-4: 16px; --r-5: 20px; --r-6: 24px; --r-7: 28px;
+  --r-8: 32px; --r-9: 40px; --r-10: 48px; --r-11: 56px; --r-12: 64px; --r-13: 72px;
+  --r-14: 96px; --r-15: 104px; --r-16: 136px;
+  --r-odeljak: clamp(80px, 10vw, 140px);
+  --r-okvir: 48px; --r-okvir-mob: 32px;
+  --r-pin-gore: 84px; --r-pin-dole: 40px;
+
+  /* slova */
+  --font: "Manrope", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --f-12: 12px; --f-13: 13px; --f-14: 14px; --f-15: 15px; --f-16: 16px; --f-17: 17px; --f-18: 18px;
+  --f-19: 19px; --f-20: 20px; --f-24: 24px; --f-30: 30px; --f-34: 34px;
+  --f-vodeci: clamp(19px, 1.6vw, 23px);
+  --f-natpis: clamp(17px, 1.5vw, 21px);
+  --f-h1: clamp(40px, 6vw, 76px);
+  --f-h2: clamp(36px, 4.8vw, 60px);
+  --f-cena: clamp(36px, 4vw, 52px);
+  --lh-tekst: 1.6; --lh-vodeci: 1.5; --lh-naslov: 1.08; --lh-h3: 1.25; --lh-1: 1;
+  --ls-naslov: -.03em; --ls-h3: -.02em; --ls-nadnaslov: .12em; --ls-jezik: .04em;
+  --w-400: 400; --w-500: 500; --w-600: 600; --w-700: 700; --w-800: 800;
+
+  /* veličine */
+  --s-okvir: 1120px;
+  --s-traka: 56px;
+  --s-dugme: 48px; --s-dugme-malo: 36px; --s-dugme-pad: 26px; --s-dugme-malo-pad: 16px;
+  --s-ikona: 48px; --s-ikona-svg: 24px; --s-ikona-rad: 14px;
+  --s-logo: 26px; --s-logo-svg: 16px; --s-logo-rad: 7px;
+  --s-korak-broj: 32px;
+  --s-vlasnik: 72px; --s-vlasnik-svg: 28px;
+  --s-meni: 40px; --s-meni-crta: 2px;
+  --s-tacka: 11px; --s-prozor-traka: 36px;
+  --s-topi: 440px; --s-topi-mob: 260px; --s-topi-cena: 380px; --s-topi-cena-mob: 220px;
+  --s-scena: 1100px; --s-scena-v: 560px; --s-krojna: 640px; --s-ploca: 1400px; --s-ploca-v: 600px;
+  --s-senka-korpusa: 520px; --s-senka-korpusa-v: 120px;
+  --s-niz: 820px; --s-galerija: 820px; --s-galerija-mob: 86vw; --s-galerija-max: 80vw;
+  --s-clanak: 720px; --s-pitanja: 760px;
+  --s-kvadratic: 8px; --s-strelica: 12px;
+  --s-napredak: 3px;
+  --s-jezik-meni: 240px;
+  --korpus-perspektiva: 2200px; --korpus-cx: -20deg; --korpus-cy: -35deg; --korpus-sk: 1; --korpus-sk-plan: .55; --korpus-mm: .5;
+  --blur-staklo: 20px; --blur-senka: 10px;
+  --s-senka-pomak: 180px; --s-kartica-min: 220px; --s-polje-min: 240px; --r-preskoci: -60px;
+  --d-linija: 1px; --d-linija-2: 2px; --d-fokus: 3px;
+
+  /* radijusi */
+  --rad-kartica: 24px; --rad-prozor: 18px; --rad-slika: 14px; --rad-korak: 20px; --rad-pilula: 999px;
+  --rad-malo: 6px; --rad-10: 10px; --rad-12: 12px; --rad-16: 16px; --rad-krojna: 14px; --rad-prozor-tamno: 14px;
+
+  /* senke */
+  --senka-prozor: 0 30px 80px -20px var(--c-senka-tamna), 0 10px 30px -10px var(--c-senka-tamna-2);
+  --senka-prozor-tamno: 0 40px 100px -30px var(--c-crna-senka-2);
+  --senka-korak: 0 10px 30px -18px var(--c-senka-tamna-3);
+  --senka-slika: 0 20px 40px -20px var(--c-senka-tamna);
+  --senka-kota: 0 6px 18px -6px var(--c-crna-senka);
+  --senka-topi: drop-shadow(0 30px 40px var(--c-senka-tamna-4));
+  --senka-topi-tamno: drop-shadow(0 30px 40px var(--c-crna-senka-4));
+  --senka-ploca: 0 8px 20px -8px var(--c-crna-senka);
+  --senka-meni: 0 20px 50px -20px var(--c-senka-tamna);
+
+  /* kretanje */
+  --t-brzo: 180ms; --t-krivulja: cubic-bezier(.4, 0, .2, 1);
+  --lebdi-trajanje: 4s; --lebdi-pomak: 8px;
+
+  /* prozirnost */
+  --o-neaktivno: .45; --o-pozadina-slike: .55; --o-cokla: .85; --o-kota-naziv: .55;
+
+  /* slojevi */
+  --z-traka: 50; --z-preskoci: 100; --z-meni: 60;
+}
