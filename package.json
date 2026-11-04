@@ -1,0 +1,16 @@
+{
+  "name": "topica-sajt",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sajt za prodaju programa TOPICA (statičan: index.html, style.css, app.js)",
+  "type": "module",
+  "scripts": {
+    "slike": "node skripte/slike.mjs",
+    "prevod": "node skripte/prevod.mjs",
+    "posluzi": "node skripte/posluzi.mjs",
+    "provera": "node skripte/provera.mjs"
+  },
+  "devDependencies": {
+    "sharp": "^0.33.5"
+  }
+}
