@@ -1,6 +1,6 @@
 ---
 naslov: Push-to-open
-opis: Push-to-open öffnet die grifflose Front durch Druck auf die Front. Topfbänder ohne Feder, Auswerfer im Korpus, größere Frontfuge und häufige Fehler in der Werkstatt.
+opis: Push-to-open öffnet die grifflose Front durch Druck. Topfbänder ohne Feder, Auswerfer im Korpus, größere Frontfuge und häufige Fehler in der Werkstatt.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 ---

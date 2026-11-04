@@ -1,6 +1,6 @@
 ---
 naslov: Szuflada i prowadnica
-opis: Szuflada to skrzynka na prowadnicach za frontem: skrzynka drewniana z luzem 13 mm na stronę albo szuflada metalowa według katalogu. Wymiary, długości prowadnic i luzy.
+opis: Szuflada to skrzynka na prowadnicach za frontem: skrzynka drewniana z luzem 13 mm na stronę albo szuflada metalowa z katalogu. Wymiary, długości prowadnic.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 status: za-proveru

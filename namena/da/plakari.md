@@ -1,6 +1,6 @@
 ---
 naslov: Program til garderobeskabe efter mål
-opis: Program til garderobeskabe efter mål til snedkere: korpus 600 dybt, hængslede låger med hængsler efter højden, hylder og skuffer efter System 32, skæreliste og pris. Windows, uden internet.
+opis: Program til garderobeskabe efter mål: korpus 600 dybt, låger med hængsler efter højden, hylder og skuffer efter System 32, skæreliste og pris. Windows.
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Cassetti: come scegliere la guida e calcolare la cassa
-opis: Guide a sfere, a rulli o cassetto metallico: quanto è il gioco per lato, come si sceglie la lunghezza della guida e come si calcola la cassa del cassetto per una carcassa da 600 mm, con i numeri esatti.
+opis: Guide a sfere, a rulli o cassetto metallico: il gioco per lato, come si sceglie la lunghezza della guida e come si calcola la cassa per una base da 600.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 status: za-proveru

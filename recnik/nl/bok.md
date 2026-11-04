@@ -1,6 +1,6 @@
 ---
 naslov: Zijwand
-opis: De zijwand is de zijkant van de romp, een paneel spaanplaat 18 mm dat legborden, scharnieren en ladegeleiders draagt. Maten, boringen volgens System 32 en een veelgemaakte zaagfout.
+opis: De zijwand is de zijkant van de romp, spaanplaat 18 mm die legborden, scharnieren en geleiders draagt. Maten, boringen volgens System 32, veelgemaakte zaagfout.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

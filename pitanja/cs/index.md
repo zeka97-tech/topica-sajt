@@ -1,6 +1,6 @@
 ---
 naslov: Otázky truhlářů k programu pro kuchyně a nářezový plán
-opis: Dvacet skutečných otázek řemeslníků k programu pro kuchyně, skříně a nářezový plán: cena, Windows, internet, kování, hrana, CNC, desky, instalace. Upřímné odpovědi.
+opis: Dvacet skutečných otázek řemeslníků k programu pro kuchyně, skříně a nářezový plán: cena, Windows, internet, kování, hrana, CNC, desky, instalace.
 datum: 2026-11-04
 slika: ../slike/web/snimak-33-po-meri-1600.webp
 tip: pitanja

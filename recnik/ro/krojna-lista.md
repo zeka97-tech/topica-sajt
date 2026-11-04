@@ -1,6 +1,6 @@
 ---
 naslov: Listă de debitare
-opis: Lista de debitare este lista tuturor pieselor unei piese de mobilier cu dimensiune, grosime, material, cant și număr de bucăți. Regulile dimensiunii, ale fibrei și ale cantului pe scurt.
+opis: Lista de debitare este lista tuturor pieselor unei mobile cu dimensiune, grosime, material, cant și bucăți. Regulile dimensiunii, fibrei și cantului pe scurt.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Kommoden und Korpusmöbel
-opis: Software für Kommoden, TV-Möbel, Regale und andere Korpusmöbel nach Maß: Schubladen auf Führungen nach Katalog, Türen, Fachböden, Schnittliste und Preis. Für Tischler.
+opis: Software für Kommoden, TV-Möbel, Regale und Korpusmöbel nach Maß: Schubladen auf Führungen nach Katalog, Türen, Fachböden, Schnittliste und Preis. Für Tischler.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 ---

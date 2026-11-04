@@ -1,6 +1,6 @@
 ---
 naslov: Fiókok: hogyan válassz sínt, és hogyan számold ki a fiókdobozt
-opis: Golyós, görgős vagy fémoldalas fiók — mekkora az oldalankénti hézag, hogyan választják a sín hosszát, és hogyan számolják a fiókdobozt egy 600 mm-es korpuszhoz, pontos számokkal.
+opis: Golyós, görgős vagy fémoldalas fiók: mekkora az oldalankénti hézag, hogyan választják a sín hosszát, és hogyan számolják a fiókdobozt egy 600 mm-es korpuszhoz.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 status: za-proveru

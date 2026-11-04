@@ -1,6 +1,6 @@
 ---
 naslov: Fianco
-opis: Il fianco è la spalla della carcassa, un pannello di nobilitato da 18 mm che porta ripiani, cerniere e guide. Misure del fianco, fori a System 32 e l'errore frequente al taglio.
+opis: Il fianco è la spalla della carcassa, nobilitato 18 mm che porta ripiani, cerniere e guide. Misure, fori a System 32 e l'errore frequente al taglio.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

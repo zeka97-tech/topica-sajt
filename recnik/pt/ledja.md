@@ -1,6 +1,6 @@
 ---
 naslov: Costas
-opis: As costas do corpo são platex (HDF) de 3 mm que fecha o módulo por trás e o mantém em esquadria. Rebaixo ou de aresta a aresta, medidas e como se cortam.
+opis: As costas do corpo são platex (HDF) de 3 mm que fecha o módulo por trás e o mantém em esquadria. Rebaixo ou de aresta a aresta, medidas e corte.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

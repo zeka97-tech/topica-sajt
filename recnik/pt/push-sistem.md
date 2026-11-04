@@ -1,6 +1,6 @@
 ---
 naslov: Sistema push (push-to-open)
-opis: O sistema push (push-to-open) abre a frente sem puxador com um toque na frente. Dobradiças sem mola, ejetor no corpo, folga da frente maior e erros frequentes na oficina.
+opis: O sistema push (push-to-open) abre a frente sem puxador com um toque. Dobradiças sem mola, ejetor no corpo, folga maior da frente e erros na oficina.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

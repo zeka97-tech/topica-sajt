@@ -1,6 +1,6 @@
 ---
 naslov: Dækside (afslutningsside)
-opis: Dæksiden (afslutningssiden) er en 18 mm plade i frontens dekor, der dækker korpussets synlige side for enden af rækken. Mål, kantbånd, typiske fejl og hvordan programmet fører den.
+opis: Dæksiden er en 18 mm plade i frontens dekor, der dækker korpussets synlige side ved rækkens ende. Mål, kantbånd, typiske fejl og hvordan programmet fører den.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

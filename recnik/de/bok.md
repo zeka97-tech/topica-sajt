@@ -1,6 +1,6 @@
 ---
 naslov: Seite (Korpusseite)
-opis: Die Seite ist die Seitenwand des Korpus, eine Spanplatte 18 mm, die Fachböden, Topfbänder und Führungen trägt. Maße der Seite, Lochreihe nach System 32 und ein häufiger Fehler beim Zuschnitt.
+opis: Die Seite ist die Seitenwand des Korpus, Spanplatte 18 mm, trägt Fachböden, Topfbänder und Führungen. Maße, Lochreihe nach System 32 und ein häufiger Fehler.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 ---

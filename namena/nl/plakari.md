@@ -1,6 +1,6 @@
 ---
 naslov: Software voor kledingkasten op maat
-opis: Software voor kledingkasten op maat voor meubelmakers: romp 600 diep, draaideuren met scharnieren naar de hoogte, legborden en lades volgens System 32, zaaglijst en prijs. Windows, zonder internet.
+opis: Software voor kledingkasten op maat voor meubelmakers: romp 600 diep, draaideuren met scharnieren naar de hoogte, legborden en lades, zaaglijst en prijs.
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Bancada
-opis: A bancada é o tampo de 38 mm sobre os módulos inferiores da cozinha: profundidade 600, saliência 20–30 mm, altura desde o chão cerca de 858 mm. Medidas, juntas e recortes.
+opis: A bancada é o tampo de 38 mm sobre os módulos inferiores: profundidade 600, saliência 20–30 mm, altura desde o chão cerca de 858 mm. Medidas, juntas e recortes.
 datum: 2026-11-04
 slika: ../slike/web/snimak-45-kuhinja-plocice-mermer-1600.webp
 status: za-proveru

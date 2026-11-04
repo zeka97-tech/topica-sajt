@@ -1,6 +1,6 @@
 ---
 naslov: Balama
-opis: Balama de mobilier cu oală Ø35 mm: dreaptă, semicotită și cotită (acoperire 18/9/0), găurire, poziție pe sistem 32 și numărul de balamale după înălțimea frontului.
+opis: Balama de mobilier cu oală Ø35 mm: dreaptă, semicotită și cotită (acoperire 18/9/0), găurire, poziție pe sistem 32 și număr de balamale după înălțimea ușii.
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 status: za-proveru

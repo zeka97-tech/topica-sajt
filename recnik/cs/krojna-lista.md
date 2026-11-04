@@ -1,6 +1,6 @@
 ---
 naslov: Nářezový plán (kusovník)
-opis: Nářezový plán (kusovník) je seznam všech dílců kusu nábytku s rozměrem, tloušťkou, materiálem, hranou a počtem kusů. Pravidla rozměru, kresby a hrany ve zkratce.
+opis: Nářezový plán (kusovník) je seznam všech dílců kusu nábytku s rozměrem, tloušťkou, materiálem, hranou a počtem kusů. Pravidla rozměru, kresby a hrany.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Wysunięcie blatu
-opis: Wysunięcie blatu to część blatu, która wystaje 20–30 mm przed front i z boku tam, gdzie nie ma ściany. Dlaczego blat ma 600 głębokości, jak się go docina do ściany i gdzie są błędy.
+opis: Wysunięcie blatu to część blatu wystająca 20–30 mm przed front i z boku bez ściany. Dlaczego blat ma 600 głębokości, jak dociąć go do ściany i gdzie są błędy.
 datum: 2026-11-04
 slika: ../slike/web/snimak-45-kuhinja-plocice-mermer-1600.webp
 status: za-proveru

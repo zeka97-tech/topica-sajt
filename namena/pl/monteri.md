@@ -1,6 +1,6 @@
 ---
 naslov: Dla monterów i tych, którzy tną na usługę
-opis: Program dla monterów kuchni i stolarzy, którzy zlecają rozkrój płyt w składzie: lista cięcia „Według wymiaru” do skopiowania i wysłania, okucia na sztuki, projekt jako jeden plik. Windows.
+opis: Program dla monterów kuchni i stolarzy zlecających rozkrój płyt: lista cięcia „Według wymiaru” do skopiowania, okucia na sztuki, projekt jako jeden plik.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

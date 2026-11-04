@@ -1,6 +1,6 @@
 ---
 naslov: Gavetas: como escolher a corrediça e calcular a caixa
-opis: Corrediça de esferas, de rodízios ou caixa metálica — qual é a folga por lado, como se escolhe o comprimento da corrediça e como se calcula a caixa da gaveta para um corpo de 600 mm, com números exatos.
+opis: Corrediça de esferas, de rodízios ou caixa metálica: folga por lado, escolha do comprimento da corrediça e cálculo da caixa da gaveta para um corpo de 600 mm.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 status: za-proveru

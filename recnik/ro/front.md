@@ -1,6 +1,6 @@
 ---
 naslov: Front
-opis: Frontul este ușa și fața sertarului, partea vizibilă a corpului, din PAL de 18 mm cu cant de 1 sau 2 mm. Dimensiunile frontului, rostul de 3 mm și cum se calculează după corp.
+opis: Frontul este ușa și fața sertarului, partea vizibilă a corpului, PAL de 18 mm cu cant de 1 sau 2 mm. Dimensiuni, rostul de 3 mm și calculul după corp.
 datum: 2026-11-04
 slika: ../slike/web/snimak-19-krupni-prikaz-1600.webp
 status: za-proveru

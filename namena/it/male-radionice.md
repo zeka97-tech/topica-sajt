@@ -1,6 +1,6 @@
 ---
 naslov: Per i piccoli laboratori
-opis: Software per piccole falegnamerie: un artigiano, il portatile sul banco, senza corsi e senza internet. Lista di taglio e prezzo del primo mobile in cinque minuti.
+opis: Software per piccole falegnamerie: un artigiano, il portatile sul banco, senza corsi e senza internet. Lista di taglio e prezzo del primo mobile in 5 minuti.
 datum: 2026-11-04
 slika: ../slike/web/snimak-33-po-meri-1600.webp
 status: za-proveru

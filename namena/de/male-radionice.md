@@ -1,6 +1,6 @@
 ---
 naslov: Für kleine Werkstätten
-opis: Software für kleine Tischlereien: ein Mann, ein Laptop auf der Werkbank, ohne Schulung und ohne Internet. Schnittliste und Preis für den ersten Korpus in fünf Minuten.
+opis: Software für kleine Tischlereien: ein Mann, ein Laptop auf der Werkbank, ohne Schulung und Internet. Schnittliste und Preis für den ersten Korpus in 5 Minuten.
 datum: 2026-11-04
 slika: ../slike/web/snimak-33-po-meri-1600.webp
 ---

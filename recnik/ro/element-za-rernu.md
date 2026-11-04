@@ -1,6 +1,6 @@
 ---
 naslov: Corp pentru cuptor (nișă)
-opis: Corpul pentru cuptor este un corp inferior cu nișă pentru cuptor încorporabil, lată de cel puțin 568 mm. Dimensiunile nișei, sertarul de dedesubt, plita de deasupra și greșeli frecvente.
+opis: Corpul pentru cuptor este un corp inferior cu nișă pentru cuptor încorporabil, lată de cel puțin 568 mm. Dimensiunile nișei, sertarul, plita și greșeli.
 datum: 2026-11-04
 slika: ../slike/web/snimak-45-kuhinja-plocice-mermer-1600.webp
 status: za-proveru

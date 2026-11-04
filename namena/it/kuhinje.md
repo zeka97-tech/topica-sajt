@@ -1,6 +1,6 @@
 ---
 naslov: Software per cucine su misura
-opis: Software per cucine su misura per falegnami: disegni la stanza, componi i mobili dal catalogo, e il programma dà 3D, lista di taglio al millimetro, ferramenta e prezzo. Windows, senza internet.
+opis: Software per cucine su misura per falegnami: disegni la stanza, componi i mobili dal catalogo e hai 3D, lista di taglio al millimetro, ferramenta e prezzo.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Excentric (minifix) și confirmat
-opis: Excentricul (minifix) și confirmatul sunt feronerie pentru îmbinarea plăcilor corpului în unghi drept. Dimensiunile găurilor, când se alege care și greșeli frecvente la găurire.
+opis: Excentricul (minifix) și confirmatul sunt feroneria de îmbinare a plăcilor corpului în unghi drept. Dimensiunile găurilor, când se alege care, greșeli.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

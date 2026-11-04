@@ -1,6 +1,6 @@
 ---
 naslov: Élzárás: melyik vastagság hová megy (0,45 / 1 / 2 mm), és hogyan számolják a hosszát
-opis: A 0,45 mm-es élzáró a korpuszra megy, az 1 mm-es a frontokra, a 2 mm-es az erősebben igénybe vett élekre. Mit jelent a nettó méret élzárás után, és hogyan számolják a szalag hosszát 10 % hulladékkal, egy 600 × 720 × 560-as korpusz példáján.
+opis: 0,45 mm élzáró a korpuszra, 1 mm a frontokra, 2 mm az erősebb élekre. Nettó méret élzárás után, és hogyan számolják a szalag hosszát 10 % hulladékkal.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Obrzeże
-opis: Obrzeże to taśma ABS, która zakrywa krawędź płyty wiórowej: 0,45 mm na korpus, 1 mm na fronty, 2 mm na mocniejsze krawędzie. Które krawędzie się okleja i jak liczy się długość obrzeża.
+opis: Obrzeże to taśma ABS na krawędzi płyty wiórowej: 0,45 mm na korpus, 1 mm na fronty, 2 mm na mocniejsze krawędzie. Które krawędzie okleić i jak liczyć długość.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

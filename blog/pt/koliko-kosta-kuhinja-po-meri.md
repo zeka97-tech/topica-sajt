@@ -1,6 +1,6 @@
 ---
 naslov: Quanto custa uma cozinha por medida — como o marceneiro calcula o preço
-opis: O preço de uma cozinha por medida compõe-se de material ao m², orla ao metro, ferragens à unidade, mão de obra e margem. O que entra na conta, o que se esquece e como o programa soma a partir dos preços que o marceneiro escreve.
+opis: O preço de uma cozinha por medida: material ao m², orla ao metro, ferragens à unidade, mão de obra e margem. O que entra na conta e como o programa soma.
 datum: 2026-11-04
 slika: ../slike/web/snimak-37-cena-1600.webp
 status: za-proveru

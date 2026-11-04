@@ -1,6 +1,6 @@
 ---
 naslov: Fundul corpului
-opis: Fundul corpului este piesa de jos a corpului; în practica europeană și în programul TOPICA merge peste laterale pe toată lățimea. Dimensiunile fundului, cantul, picioarele și cum se debitează.
+opis: Fundul corpului este piesa de jos; în practica europeană și în TOPICA merge peste laterale pe toată lățimea. Dimensiuni, cant, picioare și debitare.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

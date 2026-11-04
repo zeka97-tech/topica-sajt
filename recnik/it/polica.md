@@ -1,6 +1,6 @@
 ---
 naslov: Ripiano
-opis: Il ripiano è il pannello mobile dentro la carcassa su quattro reggipiano a System 32. Misure del ripiano, arretramento, bordo 0,45 mm e passo dei fori di 32 mm nel fianco.
+opis: Il ripiano è il pannello mobile nella carcassa su quattro reggipiano a System 32. Misure, arretramento, bordo 0,45 mm e passo dei fori di 32 mm nel fianco.
 datum: 2026-11-04
 slika: ../slike/web/snimak-19-krupni-prikaz-1600.webp
 status: za-proveru

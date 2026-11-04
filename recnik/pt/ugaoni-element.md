@@ -1,6 +1,6 @@
 ---
 naslov: Módulo de canto (canto cego e canto em L)
-opis: O módulo de canto fecha o canto da cozinha: canto cego de 1000–1200 com frente de 450–600 ou canto em L de 900 × 900. Medidas, vantagens, erros na medição e na montagem.
+opis: O módulo de canto fecha o canto da cozinha: canto cego de 1000–1200 com frente de 450–600 ou canto em L de 900 × 900. Medidas, vantagens e erros de medição.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

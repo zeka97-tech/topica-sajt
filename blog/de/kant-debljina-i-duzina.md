@@ -1,6 +1,6 @@
 ---
 naslov: Kante: welche Stärke wohin gehört (0,45 / 1 / 2 mm) und wie man die Länge rechnet
-opis: Kantenband 0,45 mm kommt an den Korpus, 1 mm an die Fronten, 2 mm an stärker belastete Kanten. Was Fertigmaß nach dem Bekanten heißt und wie man die Bandlänge mit 10 % Verschnitt rechnet, am Beispiel des Korpus 600 × 720 × 560.
+opis: Kantenband 0,45 mm für den Korpus, 1 mm für Fronten, 2 mm für belastete Kanten. Fertigmaß nach dem Bekanten und Bandlänge mit 10 % Verschnitt am Beispiel.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 ---

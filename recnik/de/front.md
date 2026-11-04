@@ -1,6 +1,6 @@
 ---
 naslov: Front
-opis: Die Front sind Türen und Schubladenblenden, die sichtbare Seite des Schranks aus Spanplatte 18 mm mit Kante 1 oder 2 mm. Frontmaße, Fuge 3 mm und wie sie sich aus dem Korpus ergibt.
+opis: Die Front sind Türen und Schubladenblenden, die Sichtseite des Schranks aus Spanplatte 18 mm mit Kante 1 oder 2 mm. Frontmaße, Fuge 3 mm, Maß aus dem Korpus.
 datum: 2026-11-04
 slika: ../slike/web/snimak-19-krupni-prikaz-1600.webp
 ---

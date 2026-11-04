@@ -1,6 +1,6 @@
 ---
 naslov: Sockel
-opis: Der Sockel ist eine Platte von 18 mm unter den Küchenunterschränken, die die Stellfüße verdeckt: Höhe 100 mm (80–150), zurückgesetzt, in einer Linie, im Dekor der Fronten.
+opis: Der Sockel ist die Platte 18 mm unter den Küchenunterschränken, die die Stellfüße verdeckt: Höhe 100 mm (80–150), zurückgesetzt, in einer Linie, im Frontdekor.
 datum: 2026-11-04
 slika: ../slike/web/snimak-39-cokla-1600.webp
 ---

@@ -1,6 +1,6 @@
 ---
 naslov: Traverse
-opis: Die Traverse ist eine Verbindungsleiste aus Spanplatte 18 mm, 100 mm hoch, die bei Unterschränken den Oberboden ersetzt: Sie hält die Seiten auf Abstand und nimmt die Schrauben der Arbeitsplatte auf.
+opis: Die Traverse ist eine Leiste aus Spanplatte 18 mm, 100 mm hoch, die bei Unterschränken den Oberboden ersetzt: hält die Seiten und trägt die Arbeitsplatte.
 datum: 2026-11-04
 slika: ../slike/web/snimak-14-sudopera-1600.webp
 ---

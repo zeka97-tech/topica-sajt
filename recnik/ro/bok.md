@@ -1,6 +1,6 @@
 ---
 naslov: Laterală
-opis: Laterala este peretele lateral al corpului, o piesă de PAL de 18 mm care poartă polițele, balamalele și glisierele. Dimensiunile lateralei, găurile pe sistem 32 și o greșeală frecventă la debitare.
+opis: Laterala este peretele lateral al corpului, PAL de 18 mm care poartă polițe, balamale și glisiere. Dimensiuni, găuri pe sistem 32 și greșeli la debitare.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Bordo: quale spessore dove (0,45 / 1 / 2 mm) e come si calcola la lunghezza
-opis: Il bordo da 0,45 mm va sulla carcassa, 1 mm sui frontali, 2 mm sui lati più sollecitati. Cosa significa misura netta dopo il bordo e come si calcola la lunghezza del nastro con il 10 % di sfrido, sull'esempio di una base 600 × 720 × 560.
+opis: Bordo da 0,45 mm sulla carcassa, 1 mm sui frontali, 2 mm sui lati sollecitati. Cosa vuol dire misura netta dopo il bordo e come si calcola il nastro.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

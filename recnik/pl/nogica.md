@@ -1,6 +1,6 @@
 ---
 naslov: Nóżka (regulowana)
-opis: Nóżka to plastikowa regulowana noga dolnej szafki kuchennej, 100 mm, 4 sztuki do 800 mm szerokości. Jak poziomuje się ciąg, gdzie są błędy i jak liczy je program.
+opis: Nóżka to plastikowa regulowana noga dolnej szafki kuchennej, 100 mm, 4 sztuki do 800 mm szerokości. Jak poziomować ciąg, gdzie są błędy i jak liczy je program.
 datum: 2026-11-04
 slika: ../slike/web/snimak-39-cokla-1600.webp
 status: za-proveru

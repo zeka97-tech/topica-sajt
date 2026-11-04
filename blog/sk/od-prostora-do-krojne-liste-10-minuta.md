@@ -1,6 +1,6 @@
 ---
 naslov: Od miestnosti k nárezovému plánu za 10 minút — krok za krokom v programe TOPICA
-opis: Ako sa v programe TOPICA od rozmerov miestnosti dostanete k nárezovému plánu a cene kuchyne: nový projekt, prvý korpus, zásuvky, horný rad, sokel a pracovná doska, „Podľa rozmeru“. So snímkami a skutočným časom na krok.
+opis: Ako sa v programe TOPICA od rozmerov miestnosti dostanete k nárezovému plánu a cene kuchyne: prvý korpus, zásuvky, horný rad, sokel, doska, „Podľa rozmeru“.
 datum: 2026-11-04
 slika: ../slike/web/snimak-44-soba-pod-zid-1600.webp
 status: za-proveru

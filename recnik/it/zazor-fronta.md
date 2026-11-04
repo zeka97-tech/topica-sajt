@@ -1,6 +1,6 @@
 ---
 naslov: Gioco del frontale
-opis: Il gioco del frontale è la distanza tra frontali vicini (3 mm) e dal bordo del mobile (1,5 mm). Come si calcola la misura del frontale, esempio 600 → 597, ed errori frequenti.
+opis: Il gioco del frontale è la distanza tra frontali vicini (3 mm) e dal bordo del mobile (1,5 mm). Calcolo della misura del frontale, esempio 600 → 597, errori.
 datum: 2026-11-04
 slika: ../slike/web/isecak-front-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Pentru montatori și cei care debitează la terți
-opis: Program pentru montatori de bucătării și meseriași care debitează plăcile la un serviciu de debitare: listă de debitare „După dimensiune” de copiat și trimis, feronerie pe bucată, proiectul ca un singur fișier. Windows.
+opis: Program pentru montatori de bucătării și cei care debitează la terți: listă de debitare „După dimensiune” de copiat și trimis, feronerie pe bucată, un fișier.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

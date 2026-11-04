@@ -1,6 +1,6 @@
 ---
 naslov: Program na návrh vstavaných skríň na mieru
-opis: Program na návrh vstavaných skríň a šatníkov na mieru pre stolárov: korpus hĺbky 600, krídlové dvere so závesmi podľa výšky, police a zásuvky podľa System 32, nárezový plán a cena. Windows, bez internetu.
+opis: Program na vstavané skrine na mieru pre stolárov: korpus hĺbky 600, krídlové dvere so závesmi podľa výšky, police a zásuvky podľa System 32, nárezový plán.
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Asztalosok kérdései a konyhatervező és szabásjegyzék-programról
-opis: Húsz valódi kérdés, amelyet mesterek tesznek fel a konyha-, gardrób- és szabásjegyzék-programról: ár, Windows, internet, vasalat, élzárás, CNC, lapok, telepítés. Rövid, őszinte válaszok.
+opis: Húsz valódi kérdés a konyha-, gardrób- és szabásjegyzék-programról: ár, Windows, internet, vasalat, élzárás, CNC, lapok, telepítés. Rövid, őszinte válaszok.
 datum: 2026-11-04
 slika: ../slike/web/snimak-33-po-meri-1600.webp
 tip: pitanja

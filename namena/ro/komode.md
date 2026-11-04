@@ -1,6 +1,6 @@
 ---
 naslov: Comode și mobilier de corp
-opis: Program pentru comode, corpuri TV, rafturi și alt mobilier de corp la comandă: sertare pe glisiere după catalog, uși, polițe, listă de debitare și preț. Pentru tâmplari.
+opis: Program pentru comode, corpuri TV, rafturi și alt mobilier de corp la comandă: sertare pe glisiere după catalog, uși, polițe, listă de debitare și preț.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 status: za-proveru

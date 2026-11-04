@@ -1,6 +1,6 @@
 ---
 naslov: Programa para cozinhas por medida
-opis: Programa para cozinhas por medida para marceneiros: desenhas a divisão, montas os corpos do catálogo, e o programa dá 3D, lista de corte ao milímetro, ferragens e preço. Windows, sem internet.
+opis: Programa para cozinhas por medida para marceneiros: desenhas a divisão, montas os corpos do catálogo, e tens 3D, lista de corte ao milímetro, ferragens e preço.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

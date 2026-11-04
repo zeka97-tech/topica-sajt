@@ -1,6 +1,6 @@
 ---
 naslov: Dimensiuni standard ale corpurilor de bucătărie
-opis: Tabel cu dimensiunile standard ale bucătăriei la comandă: corpuri inferioare și suspendate, coloane, blat, plintă, distanța până la cele de sus, lățimi. Valorile implicite ale programului TOPICA și când să te abați de la ele.
+opis: Tabel cu dimensiunile standard ale bucătăriei la comandă: corpuri inferioare și suspendate, coloane, blat, plintă, lățimi. Valorile implicite TOPICA.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

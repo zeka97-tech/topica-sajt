@@ -1,6 +1,6 @@
 ---
 naslov: Dekor og fiberretning
-opis: Dekoren er mønsteret og fargen på melaminbelagt sponplate, fiberretningen er retningen på mønsteret. Regelen «første mål = fiberretning», stående fronter og vanlige feil.
+opis: Dekoren er mønster og farge på melaminbelagt sponplate, fiberretningen er mønsterets retning. Regelen «første mål = fiberretning», stående fronter og feil.
 datum: 2026-11-04
 slika: ../slike/web/snimak-47-svoj-dezen-1600.webp
 status: za-proveru

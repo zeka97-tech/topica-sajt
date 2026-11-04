@@ -1,6 +1,6 @@
 ---
 naslov: Takarólap (záróoldal)
-opis: A takarólap (záróoldal) 18 mm-es lap a front dekorjában, amely a sor végén a korpusz látszó oldalát fedi. Méretek, élzárás, gyakori hibák és hogyan kezeli a program.
+opis: A takarólap 18 mm-es lap a front dekorjában, amely a sor végén a korpusz látszó oldalát fedi. Méretek, élzárás, gyakori hibák és hogyan kezeli a program.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Overstek van het werkblad
-opis: Het overstek van het werkblad is het deel dat 20–30 mm over het front uitsteekt en opzij waar geen wand is. Waarom het blad 600 diep is, hoe je het op de wand aftekent en waar het misgaat.
+opis: Het overstek van het werkblad is het deel dat 20–30 mm over het front uitsteekt en opzij waar geen wand is. Waarom het blad 600 diep is en waar het misgaat.
 datum: 2026-11-04
 slika: ../slike/web/snimak-45-kuhinja-plocice-mermer-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: System 32: dlaczego europejskie meble mają otwory co 32 mm
-opis: System 32 to rząd otworów Ø5 mm w rozstawie 32 mm, pierwszy 37 mm od przedniej krawędzi boku. Skąd się wziął, jak z niego bierze się półki, zawiasy i prowadnice i jak wiercić bez CNC.
+opis: System 32 to rząd otworów Ø5 mm co 32 mm, pierwszy 37 mm od przedniej krawędzi boku. Skąd się wziął, jak daje półki, zawiasy i prowadnice i jak wiercić bez CNC.
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 status: za-proveru

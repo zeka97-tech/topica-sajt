@@ -1,6 +1,6 @@
 ---
 naslov: Bordo
-opis: Il bordo è il nastro ABS che copre il lato del truciolare: 0,45 mm per la carcassa, 1 mm per i frontali, 2 mm per i lati più sollecitati. Quali lati si bordano e come si calcola la lunghezza del bordo.
+opis: Il bordo è il nastro ABS sul lato del truciolare: 0,45 mm carcassa, 1 mm frontali, 2 mm lati sollecitati. Quali lati si bordano e come si calcola la lunghezza.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

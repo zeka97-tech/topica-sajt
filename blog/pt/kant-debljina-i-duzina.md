@@ -1,6 +1,6 @@
 ---
 naslov: Orla: que espessura vai onde (0,45 / 1 / 2 mm) e como se calcula o comprimento
-opis: A orla de 0,45 mm vai no corpo, 1 mm nas frentes, 2 mm nas arestas mais solicitadas. O que é a medida líquida depois da orla e como se calcula o comprimento da fita com 10 % de desperdício, no exemplo de um corpo de 600 × 720 × 560.
+opis: Orla de 0,45 mm no corpo, 1 mm nas frentes, 2 mm nas arestas fortes. Medida líquida depois da orla e cálculo do comprimento com 10 % de desperdício.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

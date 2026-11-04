@@ -1,6 +1,6 @@
 ---
 naslov: Fachboden
-opis: Der Fachboden ist das verstellbare Teil im Korpus auf vier Bodenträgern nach System 32. Maße des Fachbodens, Rücksprung, Kante 0,45 mm und Lochabstand 32 mm in der Seite.
+opis: Der Fachboden ist das verstellbare Teil im Korpus auf vier Bodenträgern nach System 32. Maße, Rücksprung, Kante 0,45 mm und Lochabstand 32 mm in der Seite.
 datum: 2026-11-04
 slika: ../slike/web/snimak-19-krupni-prikaz-1600.webp
 ---

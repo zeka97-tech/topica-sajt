@@ -1,6 +1,6 @@
 ---
 naslov: Divisória
-opis: A divisória é a peça vertical que divide o corpo na largura em dois vãos. Medidas, orla, dobradiças numa peça partilhada e porque é que um módulo largo pede divisória.
+opis: A divisória é a peça vertical que divide o corpo em dois vãos. Medidas, orla, dobradiças numa peça partilhada e porque é que um módulo largo pede divisória.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

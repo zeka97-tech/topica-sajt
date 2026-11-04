@@ -1,6 +1,6 @@
 ---
 naslov: Vprašanja mizarjev o programu za kuhinje in razrezni seznam
-opis: Dvajset pravih vprašanj mojstrov o programu za kuhinje, omare in razrezni seznam: cena, Windows, internet, okovje, rob, CNC, plošče, namestitev. Pošteni.
+opis: Dvajset vprašanj mojstrov o programu za kuhinje, omare in razrezni seznam: cena, Windows, internet, okovje, rob, CNC, plošče, namestitev. Kratki odgovori.
 datum: 2026-11-04
 slika: ../slike/web/snimak-33-po-meri-1600.webp
 tip: pitanja

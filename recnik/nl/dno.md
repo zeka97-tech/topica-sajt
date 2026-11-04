@@ -1,6 +1,6 @@
 ---
 naslov: Bodem van de romp
-opis: De bodem is het onderste paneel van de kast; in de Europese praktijk en in TOPICA ligt hij over de zijwanden in de volle breedte. Maten van de bodem, kantenband, stelpoten en zagen.
+opis: De bodem is het onderste paneel van de kast; in de Europese praktijk en in TOPICA ligt hij over de zijwanden in de volle breedte. Maten, kantenband, stelpoten.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

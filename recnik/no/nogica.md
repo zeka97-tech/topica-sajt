@@ -1,6 +1,6 @@
 ---
 naslov: Fot (justerbar sokkelfot)
-opis: Foten er den justerbare plastfoten under benkeskapet, 100 mm, 4 stk opp til 800 mm bredde. Hvordan rekken vatres, hvor det går galt og hvordan programmet teller dem.
+opis: Foten er den justerbare plastfoten under benkeskapet, 100 mm, 4 stk opp til 800 mm bredde. Vatring av rekken, vanlige feil og hvordan programmet teller dem.
 datum: 2026-11-04
 slika: ../slike/web/snimak-39-cokla-1600.webp
 status: za-proveru

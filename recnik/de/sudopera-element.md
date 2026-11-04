@@ -1,6 +1,6 @@
 ---
 naslov: Spülenunterschrank
-opis: Der Spülenunterschrank ist ein Küchenunterschrank ohne hintere Traverse, mit Platz für den Siphon und Ausschnitt in der Arbeitsplatte nach Schablone. Breiten, Traversen und häufige Fehler.
+opis: Der Spülenunterschrank ist ein Unterschrank ohne hintere Traverse, mit Platz für den Siphon und Ausschnitt in der Arbeitsplatte nach Schablone. Breiten, Fehler.
 datum: 2026-11-04
 slika: ../slike/web/snimak-14-sudopera-1600.webp
 ---

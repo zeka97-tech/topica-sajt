@@ -1,6 +1,6 @@
 ---
 naslov: Jak zmierzyć kuchnię przed projektowaniem (ściany, instalacje, sprzęt AGD)
-opis: Co mierzy się i zapisuje przed projektowaniem kuchni na wymiar: ściany na trzech wysokościach, sufit, okno i drzwi, woda, odpływ, prąd i gaz, sprzęt AGD, sprawdzenie kąta prostego. Lista do zabrania i wpisanie do programu.
+opis: Co mierzyć przed projektowaniem kuchni na wymiar: ściany na trzech wysokościach, sufit, okno, woda, odpływ, prąd, gaz, sprzęt AGD, kąt prosty. Lista na pomiar.
 datum: 2026-11-04
 slika: ../slike/web/snimak-44-soba-pod-zid-1600.webp
 status: za-proveru

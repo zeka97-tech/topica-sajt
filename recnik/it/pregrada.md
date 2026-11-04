@@ -1,6 +1,6 @@
 ---
 naslov: Divisorio
-opis: Il divisorio è il pannello verticale che divide la carcassa in larghezza in due vani. Misure, bordo, cerniere sullo stesso pannello e perché un mobile largo chiede un divisorio.
+opis: Il divisorio è il pannello verticale che divide la carcassa in due vani. Misure, bordo, cerniere sullo stesso pannello e perché un mobile largo lo richiede.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

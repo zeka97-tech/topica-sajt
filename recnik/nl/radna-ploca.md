@@ -1,6 +1,6 @@
 ---
 naslov: Werkblad
-opis: Het werkblad is het blad van 38 mm over de keukenonderkasten: diepte 600, overstek 20–30 mm, hoogte vanaf de vloer ongeveer 858 mm. Maten, verbindingen en uitsparingen.
+opis: Het werkblad is het blad van 38 mm over de keukenonderkasten: diepte 600, overstek 20–30 mm, hoogte vanaf de vloer ca. 858 mm. Maten, verbindingen.
 datum: 2026-11-04
 slika: ../slike/web/snimak-45-kuhinja-plocice-mermer-1600.webp
 status: za-proveru

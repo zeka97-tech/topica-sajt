@@ -1,6 +1,6 @@
 ---
 naslov: Backofenschrank (Nische)
-opis: Der Backofenschrank ist ein Unterschrank mit Nische für den Einbaubackofen, mindestens 568 mm breit. Nischenmaße, Schublade darunter, Kochfeld darüber und häufige Fehler.
+opis: Der Backofenschrank ist ein Unterschrank mit Nische für den Einbaubackofen, mindestens 568 mm breit. Nischenmaße, Schublade darunter, Kochfeld, Fehler.
 datum: 2026-11-04
 slika: ../slike/web/snimak-45-kuhinja-plocice-mermer-1600.webp
 ---

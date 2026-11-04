@@ -1,6 +1,6 @@
 ---
 naslov: Standaardmaten van keukenkasten
-opis: Tabel met standaardmaten van een keuken op maat: onder- en bovenkasten, hoge kasten, werkblad, plint, afstand tot de bovenkasten, breedtes. Standaardwaarden van TOPICA en wanneer je ervan afwijkt.
+opis: Tabel met standaardmaten van een keuken op maat: onder- en bovenkasten, hoge kasten, werkblad, plint, afstand tot de bovenkasten, breedtes.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

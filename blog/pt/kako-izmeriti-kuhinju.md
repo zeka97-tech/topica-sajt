@@ -1,6 +1,6 @@
 ---
 naslov: Como medir uma cozinha antes de projetar (parede, instalações, eletrodomésticos)
-opis: O que se mede e anota antes de projetar uma cozinha por medida: paredes a três alturas, teto, janela e porta, água, esgoto, eletricidade e gás, eletrodomésticos, verificação do esquadro. Lista para levar e introdução no programa.
+opis: O que medir antes de projetar uma cozinha por medida: paredes a três alturas, teto, janela e porta, água, esgoto, eletricidade, gás, eletrodomésticos, esquadro.
 datum: 2026-11-04
 slika: ../slike/web/snimak-44-soba-pod-zid-1600.webp
 status: za-proveru

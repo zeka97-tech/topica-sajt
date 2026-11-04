@@ -1,6 +1,6 @@
 ---
 naslov: Tussenschot
-opis: Het tussenschot is een staand paneel dat de romp in de breedte in twee openingen deelt. Maten, kantenband, scharnieren op het gedeelde paneel en waarom een brede kast een tussenschot vraagt.
+opis: Het tussenschot is een staand paneel dat de romp in twee openingen deelt. Maten, kantenband, scharnieren op het gedeelde paneel en de reden bij brede kasten.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

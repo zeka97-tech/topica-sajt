@@ -1,6 +1,6 @@
 ---
 naslov: Hrana: aká hrúbka kam patrí (0,45 / 1 / 2 mm) a ako sa počíta dĺžka
-opis: ABS hrana 0,45 mm ide na korpus, 1 mm na čelá, 2 mm na viac namáhané hrany. Čo znamená čistý rozmer po olepení a ako sa počíta dĺžka pásky s 10 % odpadu, na príklade korpusu 600 × 720 × 560.
+opis: ABS hrana 0,45 mm ide na korpus, 1 mm na čelá, 2 mm na namáhané hrany. Čistý rozmer po olepení a výpočet dĺžky pásky s 10 % odpadu na príklade korpusu.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

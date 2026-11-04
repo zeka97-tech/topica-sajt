@@ -1,6 +1,6 @@
 ---
 naslov: Romp
-opis: De romp is de kast zelf van spaanplaat 18 mm: twee zijwanden, bodem, bovenblad of regels, achterwand en legbord. Standaardmaten, hoe hij in elkaar gaat en hoe TOPICA hem berekent.
+opis: De romp is de kast zelf van spaanplaat 18 mm: twee zijwanden, bodem, bovenblad of regels, achterwand en legbord. Standaardmaten, montage, berekening in TOPICA.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

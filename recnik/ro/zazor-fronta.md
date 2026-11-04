@@ -1,6 +1,6 @@
 ---
 naslov: Rostul frontului
-opis: Rostul frontului este distanța dintre fronturile vecine (3 mm) și față de muchia corpului (1,5 mm). Cum se calculează dimensiunea frontului, exemplu 600 → 597, și greșeli frecvente.
+opis: Rostul frontului este distanța dintre fronturile vecine (3 mm) și față de muchia corpului (1,5 mm). Calculul dimensiunii frontului, exemplu 600 → 597, greșeli.
 datum: 2026-11-04
 slika: ../slike/web/isecak-front-1600.webp
 status: za-proveru

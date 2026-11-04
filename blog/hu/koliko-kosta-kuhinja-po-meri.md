@@ -1,6 +1,6 @@
 ---
 naslov: Mennyibe kerül egy méretre készült konyha — hogyan számolja a mester az árat
-opis: A méretre készült konyha ára az anyag m²-enkénti, az élzáró méterenkénti, a vasalat darabonkénti árából, a munkadíjból és az árrésből áll össze. Mi kerül a számításba, mit felejtenek el, és hogyan ad össze a program a mester által beírt árakból.
+opis: A méretre készült konyha ára: anyag m²-re, élzáró méterre, vasalat darabra, munkadíj, árrés. Mi kerül bele, mit felejtenek el, hogyan ad össze a program.
 datum: 2026-11-04
 slika: ../slike/web/snimak-37-cena-1600.webp
 status: za-proveru

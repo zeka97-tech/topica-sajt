@@ -1,6 +1,6 @@
 ---
 naslov: Dunstabzugshaube (Schrank und Montagehöhe)
-opis: Die Dunstabzugshaube sitzt über dem Kochfeld; der Haubenschrank ist ein gekürzter Oberschrank. Montagehöhe 650 mm Elektro / 750 mm Gas, Breiten, Abluftrohr und Fehler.
+opis: Die Dunstabzugshaube sitzt über dem Kochfeld; der Haubenschrank ist ein gekürzter Oberschrank. Montagehöhe 650 mm Elektro / 750 mm Gas, Breiten, Rohr, Fehler.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 ---

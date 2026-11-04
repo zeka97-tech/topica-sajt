@@ -1,6 +1,6 @@
 ---
 naslov: Spoelkast
-opis: De spoelkast is een keukenonderkast zonder achterste regel, met plaats voor de sifon en een uitsparing in het werkblad volgens sjabloon. Breedtes, regels en veelgemaakte fouten.
+opis: De spoelkast is een keukenonderkast zonder achterste regel, met plaats voor de sifon en een uitsparing in het werkblad volgens sjabloon. Breedtes, regels.
 datum: 2026-11-04
 slika: ../slike/web/snimak-14-sudopera-1600.webp
 status: za-proveru

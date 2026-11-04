@@ -1,6 +1,6 @@
 ---
 naslov: Sporgenza del piano di lavoro
-opis: La sporgenza del piano di lavoro è la parte di piano che sporge 20–30 mm oltre il frontale e sul lato dove non c'è parete. Perché il piano è profondo 600, come si taglia sulla parete e dove si sbaglia.
+opis: La sporgenza del piano di lavoro: 20–30 mm oltre il frontale e sul lato senza parete. Perché il piano è profondo 600, come si taglia sulla parete, errori.
 datum: 2026-11-04
 slika: ../slike/web/snimak-45-kuhinja-plocice-mermer-1600.webp
 status: za-proveru

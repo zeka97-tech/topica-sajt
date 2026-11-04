@@ -1,6 +1,6 @@
 ---
 naslov: Blat
-opis: Blatul este placa de 38 mm de peste corpurile inferioare de bucătărie: adâncime 600, debord 20–30 mm, înălțime de la podea cam 858 mm. Dimensiuni, îmbinări și decupaje.
+opis: Blatul este placa de 38 mm de peste corpurile inferioare de bucătărie: adâncime 600, debord 20–30 mm, înălțime de la podea cam 858 mm. Îmbinări și decupaje.
 datum: 2026-11-04
 slika: ../slike/web/snimak-45-kuhinja-plocice-mermer-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Base angolare (angolo cieco e angolo a L)
-opis: La base angolare chiude l'angolo della cucina: angolo cieco 1000–1200 con frontale 450–600 o angolo a L 900 × 900. Misure, vantaggi, errori di misura e di posa.
+opis: La base angolare chiude l'angolo della cucina: angolo cieco 1000–1200 con frontale 450–600 o angolo a L 900 × 900. Misure, vantaggi, errori di misura e posa.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru
@@ -11,8 +11,8 @@ La base angolare è la base che chiude l'angolo della cucina dove si incontrano 
 ## Misure standard
 
 - Angolo cieco: larghezza **1000–1200 mm**, frontale **450–600 mm**; il resto è la parte cieca davanti alla quale si ferma la fila adiacente.
-- Angolo a L: **900 × 900** o **1000 × 1000 mm**, frontale spezzato nell'angolo (due ante ad angolo retto).
-- Profondità 560, altezza 720, zoccolo 100 come nelle altre basi; il [piano di lavoro](./radna-ploca.html) nell'angolo si unisce a 45° o con un profilo.
+- Angolo a L: **900 × 900** o **1000 × 1000 mm**, frontale spezzato nell'angolo (due ante in squadra).
+- Profondità 560, altezza 720, zoccolo 100 come nelle altre basi; il [piano di lavoro](./radna-ploca.html) nell'angolo si unisce a quartabuono o con un profilo.
 
 ## In laboratorio
 

@@ -1,6 +1,6 @@
 ---
 naslov: Cassettiere e mobili a carcassa
-opis: Software per cassettiere, mobili TV, librerie e altri mobili a carcassa su misura: cassetti su guide da catalogo, ante, ripiani, lista di taglio e prezzo. Per falegnami.
+opis: Software per cassettiere, mobili TV, librerie e mobili a carcassa su misura: cassetti su guide da catalogo, ante, ripiani, lista di taglio e prezzo.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 status: za-proveru

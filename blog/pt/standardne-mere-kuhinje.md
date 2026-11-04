@@ -1,6 +1,6 @@
 ---
 naslov: Medidas padrão dos módulos de cozinha
-opis: Tabela de medidas padrão da cozinha por medida: módulos inferiores e superiores, colunas, bancada, rodapé, distância aos superiores, larguras. Valores predefinidos da TOPICA e quando fugir deles.
+opis: Tabela de medidas padrão da cozinha por medida: inferiores, superiores, colunas, bancada, rodapé, distância aos superiores, larguras. Predefinições da TOPICA.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

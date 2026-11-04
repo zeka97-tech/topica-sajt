@@ -1,6 +1,6 @@
 ---
 naslov: Ilharga de remate
-opis: A ilharga de remate é uma placa de 18 mm no decor da frente que cobre a ilharga à vista do corpo no fim da fila. Medidas, orla, erros frequentes e como o programa a trata.
+opis: A ilharga de remate é uma placa de 18 mm no decor da frente que cobre a ilharga à vista no fim da fila. Medidas, orla, erros e como o programa a trata.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Przegroda
-opis: Przegroda to pionowa formatka, która dzieli korpus po szerokości na dwa otwory. Wymiary, obrzeże, zawiasy na wspólnej formatce i dlaczego szeroka szafka potrzebuje przegrody.
+opis: Przegroda to pionowa formatka dzieląca korpus po szerokości na dwa otwory. Wymiary, obrzeże, zawiasy na wspólnej formatce i czemu szeroka szafka jej potrzebuje.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

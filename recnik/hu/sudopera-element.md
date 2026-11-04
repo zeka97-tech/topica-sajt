@@ -1,6 +1,6 @@
 ---
 naslov: Mosogatós elem
-opis: A mosogatós elem alsó konyhai korpusz hátsó heveder nélkül, hellyel a szifonnak és sablon szerinti kivágással a munkalapban. Szélességek, hevederek és gyakori hibák.
+opis: A mosogatós elem alsó korpusz hátsó heveder nélkül, hellyel a szifonnak és sablon szerinti kivágással a munkalapban. Szélességek, hevederek, gyakori hibák.
 datum: 2026-11-04
 slika: ../slike/web/snimak-14-sudopera-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Snedkeres spørgsmål om køkkenprogrammet og skærelisten
-opis: Tyve ægte spørgsmål, snedkere stiller om programmet til køkkener, garderobeskabe og skærelister: pris, Windows, internet, beslag, kantbånd, CNC, plader, installation. Korte og ærlige svar.
+opis: Tyve ægte spørgsmål fra snedkere om programmet til køkkener, garderobeskabe og skærelister: pris, Windows, internet, beslag, kantbånd, CNC, plader, installation
 datum: 2026-11-04
 slika: ../slike/web/snimak-33-po-meri-1600.webp
 tip: pitanja

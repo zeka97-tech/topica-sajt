@@ -1,6 +1,6 @@
 ---
 naslov: Decor en nerfrichting
-opis: Het decor is de tekening en kleur van gemelamineerd spaanplaat, de nerfrichting de richting van de tekening. De regel “eerste maat = nerfrichting”, fronten staand, en waar het vaak misgaat.
+opis: Het decor is de tekening en kleur van gemelamineerd spaanplaat, de nerfrichting de richting ervan. De regel “eerste maat = nerfrichting”, fronten staand.
 datum: 2026-11-04
 slika: ../slike/web/snimak-47-svoj-dezen-1600.webp
 status: za-proveru

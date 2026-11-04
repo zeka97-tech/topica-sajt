@@ -1,6 +1,6 @@
 ---
 naslov: Od pomieszczenia do listy cięcia w 10 minut — krok po kroku w programie TOPICA
-opis: Jak w programie TOPICA od wymiarów pomieszczenia dojść do listy cięcia i ceny kuchni: nowy projekt, pierwszy korpus, szuflady, górny rząd, cokół i blat, „Według wymiaru”. Ze zrzutami i realnym czasem na krok.
+opis: Jak w programie TOPICA od wymiarów pomieszczenia dojść do listy cięcia i ceny kuchni: pierwszy korpus, szuflady, górny rząd, cokół, blat, „Według wymiaru”.
 datum: 2026-11-04
 slika: ../slike/web/snimak-44-soba-pod-zid-1600.webp
 status: za-proveru

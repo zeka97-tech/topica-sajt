@@ -1,6 +1,6 @@
 ---
 naslov: Capac
-opis: Capacul este placa de sus a corpului la corpurile suspendate și la dulapuri; corpurile inferioare de bucătărie au în loc de capac două traverse de 100 mm. Dimensiuni și motive.
+opis: Capacul este placa de sus a corpului la corpurile suspendate și dulapuri; corpurile inferioare de bucătărie au în loc două traverse de 100 mm.
 datum: 2026-11-04
 slika: ../slike/web/snimak-19-krupni-prikaz-1600.webp
 status: za-proveru

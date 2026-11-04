@@ -1,6 +1,6 @@
 ---
 naslov: Cant: ce grosime unde merge (0,45 / 1 / 2 mm) și cum se calculează lungimea
-opis: Cantul de 0,45 mm merge pe corp, 1 mm pe fronturi, 2 mm pe muchiile mai solicitate. Ce înseamnă dimensiune netă după cant și cum se calculează lungimea benzii cu 10 % deșeu, pe exemplul unui corp de 600 × 720 × 560.
+opis: Cant de 0,45 mm pe corp, 1 mm pe fronturi, 2 mm pe muchii solicitate. Ce înseamnă dimensiune netă după cant și calculul lungimii benzii cu 10 % deșeu.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

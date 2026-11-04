@@ -1,6 +1,6 @@
 ---
 naslov: Debordul blatului
-opis: Debordul blatului este partea de blat care iese 20–30 mm peste front și pe partea unde nu e perete. De ce blatul are 600 adâncime, cum se taie după perete și unde se greșește.
+opis: Debordul blatului este partea de blat care iese 20–30 mm peste front și pe partea fără perete. De ce blatul are 600 adâncime, tăierea după perete și greșeli.
 datum: 2026-11-04
 slika: ../slike/web/snimak-45-kuhinja-plocice-mermer-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Program do projektowania kuchni na wymiar
-opis: Program do projektowania kuchni na wymiar dla stolarzy: rysujesz pomieszczenie, ustawiasz korpusy z katalogu, a program daje 3D, listę cięcia co do milimetra, okucia i cenę. Windows, bez internetu.
+opis: Program do projektowania kuchni na wymiar dla stolarzy: pomieszczenie, korpusy z katalogu, 3D, lista cięcia co do milimetra, okucia i cena. Windows, offline.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

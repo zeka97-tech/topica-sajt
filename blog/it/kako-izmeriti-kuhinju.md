@@ -1,6 +1,6 @@
 ---
 naslov: Come misurare la cucina prima di progettare (parete, impianti, elettrodomestici)
-opis: Cosa si misura e si annota prima di progettare una cucina su misura: pareti a tre altezze, soffitto, finestra e porta, acqua, scarico, corrente e gas, elettrodomestici, verifica dell'angolo retto. Lista da portare e inserimento nel programma.
+opis: Cosa misurare prima di progettare una cucina su misura: pareti a tre altezze, soffitto, finestra, acqua, scarico, corrente, gas, elettrodomestici, angolo retto.
 datum: 2026-11-04
 slika: ../slike/web/snimak-44-soba-pod-zid-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Fianco di finitura
-opis: Il fianco di finitura è un pannello da 18 mm nel decoro del frontale che copre il fianco a vista della carcassa a fine fila. Misure, bordo, errori frequenti e come lo gestisce il programma.
+opis: Il fianco di finitura è un pannello da 18 mm nel decoro del frontale che copre il fianco a vista a fine fila. Misure, bordo, errori e gestione nel programma.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

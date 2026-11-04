@@ -1,6 +1,6 @@
 ---
 naslov: Piano di lavoro
-opis: Il piano di lavoro è il pannello da 38 mm sopra le basi della cucina: profondità 600, sporgenza 20–30 mm, altezza da terra circa 858 mm. Misure, giunzioni e fori.
+opis: Il piano di lavoro è il pannello da 38 mm sopra le basi: profondità 600, sporgenza 20–30 mm, altezza da terra circa 858 mm. Misure, giunzioni e fori.
 datum: 2026-11-04
 slika: ../slike/web/snimak-45-kuhinja-plocice-mermer-1600.webp
 status: za-proveru
@@ -14,7 +14,7 @@ Il **piano di lavoro** (top) è il pannello spesso che appoggia su tutte le basi
 - Profondità **600 mm** (620/635 con mobili più profondi): carcassa 560 + frontale 18 + sporgenza **~20–30 mm** oltre il frontale. Di lato 20–30 mm di sporgenza quando non c'è parete.
 - Altezza del bordo superiore da terra ≈ **858 mm** (720 carcassa + 100 piedini + 38 piano); in pratica 850–920, secondo l'altezza di chi lo usa.
 - Distanza dai pensili: bordo inferiore dei pensili a **1400 mm da terra** (programma), quindi ≈ 500–550 mm sopra il piano.
-- Giunzione a 45° o con profilo in alluminio; foro per lavello e piano cottura **secondo la dima del produttore**, mai a occhio.
+- Giunzione a quartabuono o con profilo in alluminio; foro per lavello e piano cottura **secondo la dima del produttore**, mai a occhio.
 - Bordo: nei piani senza bordo arrotondato **2 mm** ABS sul lato anteriore e sulle teste.
 
 ## In laboratorio

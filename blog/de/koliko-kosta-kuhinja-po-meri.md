@@ -1,6 +1,6 @@
 ---
 naslov: Was kostet eine Küche nach Maß — wie der Handwerker den Preis rechnet
-opis: Der Preis einer Küche nach Maß setzt sich aus Material pro m², Kante pro Meter, Beschlägen pro Stück, Arbeit und Aufschlag zusammen. Was in die Rechnung gehört, was vergessen wird und wie das Programm aus den Preisen des Handwerkers summiert.
+opis: Der Preis einer Küche nach Maß: Material pro m², Kante pro Meter, Beschläge pro Stück, Arbeit und Aufschlag. Was in die Rechnung gehört und was vergessen wird.
 datum: 2026-11-04
 slika: ../slike/web/snimak-37-cena-1600.webp
 ---

@@ -1,6 +1,6 @@
 ---
 naslov: Frontfuge
-opis: Die Frontfuge ist der Abstand zwischen benachbarten Fronten (3 mm) und zur Schrankkante (1,5 mm). Wie sich das Frontmaß ergibt, Beispiel 600 → 597, und häufige Fehler.
+opis: Die Frontfuge ist der Abstand zwischen Fronten (3 mm) und zur Schrankkante (1,5 mm). Wie sich das Frontmaß ergibt, Beispiel 600 → 597, und häufige Fehler.
 datum: 2026-11-04
 slika: ../slike/web/isecak-front-1600.webp
 ---

@@ -1,6 +1,6 @@
 ---
 naslov: Piedino (regolabile)
-opis: Il piedino è il piede regolabile in plastica della base da cucina, 100 mm, 4 pezzi fino a 800 mm di larghezza. Come si mette in bolla la fila, dove si sbaglia e come li conta il programma.
+opis: Il piedino regolabile in plastica della base da cucina: 100 mm, 4 pezzi fino a 800 mm di larghezza. Messa in bolla della fila, errori e conteggio.
 datum: 2026-11-04
 slika: ../slike/web/snimak-39-cokla-1600.webp
 status: za-proveru

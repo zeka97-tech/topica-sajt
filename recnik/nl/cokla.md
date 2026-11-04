@@ -1,6 +1,6 @@
 ---
 naslov: Plint
-opis: De plint is een paneel van 18 mm onder de keukenonderkasten dat de stelpoten verbergt: hoogte 100 mm (80–150), teruggezet, in één lijn, in het decor van de fronten.
+opis: De plint is een paneel van 18 mm onder de keukenonderkasten dat de stelpoten verbergt: hoogte 100 mm (80–150), teruggezet, in één lijn.
 datum: 2026-11-04
 slika: ../slike/web/snimak-39-cokla-1600.webp
 status: za-proveru

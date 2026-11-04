@@ -1,6 +1,6 @@
 ---
 naslov: Wie man eine Küche vor der Planung aufmisst (Wand, Anschlüsse, Geräte)
-opis: Was vor der Planung einer Küche nach Maß gemessen und notiert wird: Wände auf drei Höhen, Decke, Fenster und Tür, Wasser, Abfluss, Strom und Gas, Geräte, Prüfung des rechten Winkels. Checkliste zum Mitnehmen und Eingabe ins Programm.
+opis: Was man vor der Küchenplanung misst: Wände auf drei Höhen, Decke, Fenster und Tür, Wasser, Abfluss, Strom, Gas, Geräte, rechter Winkel. Checkliste und Eingabe.
 datum: 2026-11-04
 slika: ../slike/web/snimak-44-soba-pod-zid-1600.webp
 ---

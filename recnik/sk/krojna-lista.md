@@ -1,6 +1,6 @@
 ---
 naslov: Nárezový plán
-opis: Nárezový plán je zoznam všetkých dielcov jedného kusu nábytku s rozmerom, hrúbkou, materiálom, hranou a počtom kusov. Pravidlá rozmeru, kresby a hrany v skratke.
+opis: Nárezový plán je zoznam všetkých dielcov kusu nábytku s rozmerom, hrúbkou, materiálom, hranou a počtom kusov. Pravidlá rozmeru, kresby a hrany v skratke.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

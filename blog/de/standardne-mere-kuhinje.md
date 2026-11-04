@@ -1,6 +1,6 @@
 ---
 naslov: Standardmaße von Küchenschränken
-opis: Tabelle der Standardmaße einer Küche nach Maß: Unter- und Oberschränke, Hochschränke, Arbeitsplatte, Sockel, Abstand zu den Oberschränken, Breiten. Standardwerte von TOPICA und wann man davon abweicht.
+opis: Tabelle der Standardmaße der Küche: Unter-, Ober- und Hochschränke, Arbeitsplatte, Sockel, Abstand, Breiten. Standardwerte von TOPICA und wann man abweicht.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 ---

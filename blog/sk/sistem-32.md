@@ -1,6 +1,6 @@
 ---
 naslov: System 32: prečo má európsky nábytok otvory po 32 mm
-opis: System 32 je rad otvorov Ø5 mm s rozstupom 32 mm, prvý 37 mm od prednej hrany boku. Odkiaľ pochádza, ako sa z neho odvodzujú police, závesy a výsuvy a ako sa vŕta bez CNC.
+opis: System 32 je rad otvorov Ø5 mm s rozstupom 32 mm, prvý 37 mm od prednej hrany boku. Odkiaľ pochádza, ako z neho idú police, závesy a výsuvy, vŕtanie bez CNC.
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 status: za-proveru

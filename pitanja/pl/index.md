@@ -1,6 +1,6 @@
 ---
 naslov: Pytania stolarzy o program do projektowania kuchni i listy cięcia
-opis: Dwadzieścia prawdziwych pytań, które stolarze zadają o program do kuchni, szaf i listy cięcia: cena, Windows, internet, okucia, obrzeże, CNC, płyty, instalacja. Krótkie i szczere odpowiedzi.
+opis: Dwadzieścia pytań stolarzy o program do kuchni, szaf i listy cięcia: cena, Windows, internet, okucia, obrzeże, CNC, płyty, instalacja. Krótkie odpowiedzi.
 datum: 2026-11-04
 slika: ../slike/web/snimak-33-po-meri-1600.webp
 tip: pitanja

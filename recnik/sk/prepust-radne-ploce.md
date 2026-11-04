@@ -1,6 +1,6 @@
 ---
 naslov: Presah pracovnej dosky
-opis: Presah pracovnej dosky je časť dosky, ktorá prečnieva 20–30 mm cez čelo a na strane bez steny. Prečo je doska hlboká 600, ako sa reže podľa steny a kde sa chybuje.
+opis: Presah pracovnej dosky je časť dosky, ktorá prečnieva 20–30 mm cez čelo a na strane bez steny. Prečo je doska hlboká 600, rez podľa steny a chyby.
 datum: 2026-11-04
 slika: ../slike/web/snimak-45-kuhinja-plocice-mermer-1600.webp
 status: za-proveru

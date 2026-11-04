@@ -1,6 +1,6 @@
 ---
 naslov: Corp
-opis: Corpul este cutia unui element de mobilier din PAL de 18 mm: două laterale, fund, capac sau traverse, spate și poliță. Dimensiuni standard, cum se asamblează și cum îl calculează TOPICA.
+opis: Corpul este cutia elementului din PAL de 18 mm: două laterale, fund, capac sau traverse, spate și poliță. Dimensiuni standard, asamblare și calculul în TOPICA.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

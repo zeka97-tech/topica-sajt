@@ -1,6 +1,6 @@
 ---
 naslov: Schienale
-opis: Lo schienale della carcassa è faesite (HDF) da 3 mm che chiude il mobile dietro e lo tiene in squadra. In battuta o a filo esterno, misure e come si taglia.
+opis: Lo schienale della carcassa è faesite (HDF) 3 mm che chiude il mobile dietro e lo tiene in squadra. In battuta o a filo esterno, misure e taglio.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

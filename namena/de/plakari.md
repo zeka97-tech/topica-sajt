@@ -1,6 +1,6 @@
 ---
 naslov: Software für Kleiderschränke nach Maß
-opis: Software für Kleiderschränke nach Maß für Tischler: Korpus 600 tief, Drehtüren mit Bändern nach Höhe, Fachböden und Schubladen nach System 32, Schnittliste und Preis. Windows, ohne Internet.
+opis: Software für Kleiderschränke nach Maß: Korpus 600 tief, Drehtüren mit Bändern nach Höhe, Fachböden und Schubladen nach System 32, Schnittliste und Preis.
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 ---

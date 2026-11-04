@@ -1,6 +1,6 @@
 ---
 naslov: Szabásjegyzék
-opis: A szabásjegyzék egy bútor összes lapjának listája mérettel, vastagsággal, anyaggal, élzárással és darabszámmal. A méret, a szálirány és az élzárás szabályai röviden.
+opis: A szabásjegyzék egy bútor összes lapjának listája mérettel, vastagsággal, anyaggal, élzárással és darabszámmal. Méret, szálirány és élzárás szabályai röviden.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

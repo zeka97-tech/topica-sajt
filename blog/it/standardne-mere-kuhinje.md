@@ -1,6 +1,6 @@
 ---
 naslov: Misure standard dei mobili da cucina
-opis: Tabella delle misure standard della cucina su misura: basi e pensili, colonne, piano di lavoro, zoccolo, distanza dai pensili, larghezze. Valori predefiniti del programma TOPICA e quando discostarsene.
+opis: Tabella delle misure standard della cucina: basi, pensili, colonne, piano di lavoro, zoccolo, distanza dai pensili, larghezze. Valori predefiniti di TOPICA.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

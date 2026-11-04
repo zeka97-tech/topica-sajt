@@ -1,6 +1,6 @@
 ---
 naslov: Kantenband: welke dikte waar (0,45 / 1 / 2 mm) en hoe je de lengte berekent
-opis: Kantenband 0,45 mm gaat op de romp, 1 mm op de fronten, 2 mm op zwaarder belaste kanten. Wat de nettomaat na kantenband betekent en hoe je de lengte berekent met 10 % afval, aan de hand van een romp 600 × 720 × 560.
+opis: Kantenband 0,45 mm op de romp, 1 mm op de fronten, 2 mm op zwaarder belaste kanten. Nettomaat na kantenband en de lengte berekenen met 10 % afval.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

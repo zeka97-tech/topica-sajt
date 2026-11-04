@@ -1,6 +1,6 @@
 ---
 naslov: Mittelseite
-opis: Die Mittelseite ist ein senkrechtes Teil, das den Korpus in der Breite in zwei Öffnungen teilt. Maße, Kante, Topfbänder auf einer gemeinsamen Platte und warum ein breiter Schrank eine Mittelseite braucht.
+opis: Die Mittelseite teilt den Korpus in der Breite in zwei Öffnungen. Maße, Kante, Topfbänder auf einer gemeinsamen Platte, warum ein breiter Schrank sie braucht.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 ---

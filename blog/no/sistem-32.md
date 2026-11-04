@@ -1,6 +1,6 @@
 ---
 naslov: System 32: hvorfor europeiske møbler har hull på 32 mm
-opis: System 32 er en rad hull Ø5 mm med 32 mm avstand, det første 37 mm fra sidens forkant. Hvor det kommer fra, hvordan hyller, hengsler og skinner hentes fra det, og hvordan du borer uten CNC.
+opis: System 32 er en rad hull Ø5 mm med 32 mm avstand, det første 37 mm fra forkanten. Hvor det kommer fra, hva hyller, hengsler og skinner henter fra det.
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 status: za-proveru

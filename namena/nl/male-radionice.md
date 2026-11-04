@@ -1,6 +1,6 @@
 ---
 naslov: Voor kleine werkplaatsen
-opis: Software voor kleine meubelmakerijen: één vakman, een laptop op de werkbank, zonder opleiding en zonder internet. Zaaglijst en prijs voor de eerste kast in vijf minuten.
+opis: Software voor kleine meubelmakerijen: één vakman, een laptop op de werkbank, geen opleiding, geen internet. Zaaglijst en prijs voor de eerste kast in 5 minuten.
 datum: 2026-11-04
 slika: ../slike/web/snimak-33-po-meri-1600.webp
 status: za-proveru

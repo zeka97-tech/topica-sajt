@@ -1,6 +1,6 @@
 ---
 naslov: Sistem push (push-to-open)
-opis: Sistemul push (push-to-open) deschide frontul fără mâner, prin apăsare pe front. Balamale fără arc, împingător în corp, rost mai mare al frontului și greșeli frecvente în atelier.
+opis: Sistemul push (push-to-open) deschide frontul fără mâner, prin apăsare. Balamale fără arc, împingător în corp, rost mai mare și greșeli frecvente în atelier.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

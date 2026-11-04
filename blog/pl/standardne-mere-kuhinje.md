@@ -1,6 +1,6 @@
 ---
 naslov: Standardowe wymiary szafek kuchennych
-opis: Tabela standardowych wymiarów kuchni na wymiar: szafki dolne i górne, słupki, blat, cokół, odstęp do górnych, szerokości. Wartości domyślne programu TOPICA i kiedy od nich odstąpić.
+opis: Tabela standardowych wymiarów kuchni na wymiar: szafki dolne i górne, słupki, blat, cokół, odstęp do górnych, szerokości. Domyślne wartości i kiedy odstąpić.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

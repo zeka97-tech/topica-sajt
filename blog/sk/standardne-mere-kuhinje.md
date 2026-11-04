@@ -1,6 +1,6 @@
 ---
 naslov: Štandardné rozmery kuchynských skriniek
-opis: Tabuľka štandardných rozmerov kuchyne na mieru: spodné a horné skrinky, vysoké, pracovná doska, sokel, odstup k horným, šírky. Predvolené hodnoty programu TOPICA a kedy sa od nich odchýliť.
+opis: Tabuľka štandardných rozmerov kuchyne na mieru: spodné a horné skrinky, pracovná doska, sokel, odstup, šírky. Predvolené hodnoty TOPICA a kedy sa odchýliť.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

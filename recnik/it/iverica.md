@@ -1,6 +1,6 @@
 ---
 naslov: Nobilitato 18 mm (truciolare)
-opis: Il truciolare nobilitato (melaminico) da 18 mm è il pannello base del mobile in pannello. Spessori, misure consuete delle lastre, taglio ed errori frequenti nel calcolo del materiale.
+opis: Il truciolare nobilitato (melaminico) da 18 mm è il pannello base del mobile. Spessori, misure delle lastre, taglio ed errori nel calcolo del materiale.
 datum: 2026-11-04
 slika: ../slike/web/snimak-46-izbliza-front-1600.webp
 status: za-proveru

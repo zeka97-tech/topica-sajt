@@ -1,6 +1,6 @@
 ---
 naslov: Fenéklap
-opis: A fenéklap a korpusz alsó lapja; az európai gyakorlatban és a TOPICA programban az oldalak fölött, teljes szélességben megy. A fenéklap méretei, élzárás, lábak és szabás.
+opis: A fenéklap a korpusz alsó lapja; az európai gyakorlatban és a TOPICA programban az oldalak fölött, teljes szélességben megy. Méretek, élzárás, lábak, szabás.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

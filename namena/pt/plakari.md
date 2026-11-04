@@ -1,6 +1,6 @@
 ---
 naslov: Programa para roupeiros por medida
-opis: Programa para roupeiros por medida para marceneiros: corpo com 600 de profundidade, portas de batente com dobradiças pela altura, prateleiras e gavetas segundo o System 32, lista de corte e preço. Windows, sem internet.
+opis: Programa para roupeiros por medida: corpo com 600 de fundo, portas de batente com dobradiças pela altura, prateleiras e gavetas System 32, lista de corte.
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 status: za-proveru

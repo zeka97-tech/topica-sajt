@@ -1,6 +1,6 @@
 ---
 naslov: O que é uma lista de corte e como se lê
-opis: A lista de corte é a relação de todas as peças de um móvel com medidas exatas, espessura, orla e quantidade. Como é, o que quer dizer “primeira medida = sentido do veio” e como a TOPICA a gera sozinha.
+opis: A lista de corte é a relação das peças de um móvel com medidas, espessura.
 datum: 2026-11-04
 slika: ../slike/web/snimak-33-po-meri-1600.webp
 ---

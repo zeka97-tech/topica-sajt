@@ -1,6 +1,6 @@
 ---
 naslov: Software voor keukens op maat
-opis: Keukenontwerpsoftware voor meubelmakers: teken de ruimte, zet kasten uit de catalogus neer en het programma geeft 3D, een zaaglijst op de millimeter, beslag en prijs. Windows, zonder internet.
+opis: Keukenontwerpsoftware voor meubelmakers: teken de ruimte, zet kasten uit de catalogus neer en krijg 3D, zaaglijst op de millimeter, beslag en prijs. Windows.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

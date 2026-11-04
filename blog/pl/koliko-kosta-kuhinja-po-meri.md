@@ -1,6 +1,6 @@
 ---
 naslov: Ile kosztuje kuchnia na wymiar — jak stolarz liczy cenę
-opis: Cena kuchni na wymiar składa się z materiału za m², obrzeża za metr, okuć za sztukę, robocizny i marży. Co wchodzi do rachunku, o czym się zapomina i jak program sumuje z cen, które wpisuje stolarz.
+opis: Cena kuchni na wymiar to materiał za m², obrzeże za metr, okucia za sztukę, robocizna i marża. Co wchodzi do rachunku, o czym się zapomina i jak sumuje program.
 datum: 2026-11-04
 slika: ../slike/web/snimak-37-cena-1600.webp
 status: za-proveru

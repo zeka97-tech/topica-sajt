@@ -1,6 +1,6 @@
 ---
 naslov: System 32: waarom Europese meubelen gaten op 32 mm hebben
-opis: System 32 is een rij gaten Ø5 mm op 32 mm afstand, de eerste op 37 mm vanaf de voorkant van de zijwand. Waar het vandaan komt, hoe legborden, scharnieren en geleiders eruit volgen en hoe je boort zonder CNC.
+opis: System 32 is een rij gaten Ø5 mm op 32 mm afstand, de eerste op 37 mm vanaf de voorkant van de zijwand. Herkomst, legborden, scharnieren.
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 status: za-proveru

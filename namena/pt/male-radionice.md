@@ -1,6 +1,6 @@
 ---
 naslov: Para pequenas oficinas
-opis: Programa para pequenas oficinas de marcenaria: um marceneiro, um portátil na bancada, sem formação e sem internet. Lista de corte e preço do primeiro corpo em cinco minutos.
+opis: Programa para pequenas oficinas de marcenaria: um marceneiro, um portátil na bancada.
 datum: 2026-11-04
 slika: ../slike/web/snimak-33-po-meri-1600.webp
 status: za-proveru

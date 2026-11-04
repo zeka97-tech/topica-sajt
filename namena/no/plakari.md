@@ -1,6 +1,6 @@
 ---
 naslov: Program for garderober etter mål
-opis: Program for garderobeskap etter mål for snekkere: skrog med dybde 600, slagdører med hengsler etter høyden, hyller og skuffer etter System 32, kappliste og pris. Windows, uten internett.
+opis: Program for garderobeskap etter mål: skrog med dybde 600, slagdører med hengsler etter høyden, hyller og skuffer etter System 32, kappliste og pris. Windows.
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 status: za-proveru

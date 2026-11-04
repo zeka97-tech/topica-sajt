@@ -1,6 +1,6 @@
 ---
 naslov: Gola (maniglia a gola)
-opis: La gola è un profilo in alluminio a C o a L inserito nella carcassa al posto della maniglia. Cosa cambia su frontale, fianco e base lavello, errori frequenti e come il programma gestisce il profilo.
+opis: La gola è un profilo in alluminio a C o a L al posto della maniglia. Cosa cambia su frontale, fianco e base lavello, errori e come la gestisce il programma.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Sådan måler du et køkken op før tegningen (vægge, installationer, hvidevarer)
-opis: Hvad der måles og noteres, før et køkken efter mål tegnes: vægge i tre højder, loft, vindue og dør, vand, afløb, el og gas, hvidevarer, kontrol af ret vinkel. Huskeliste og indtastning i programmet.
+opis: Sådan måler du et køkken op: vægge i tre højder, loft, vindue og dør, vand, afløb, el og gas, hvidevarer, ret vinkel. Huskeliste og indtastning i programmet.
 datum: 2026-11-04
 slika: ../slike/web/snimak-44-soba-pod-zid-1600.webp
 status: za-proveru

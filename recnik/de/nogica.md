@@ -1,6 +1,6 @@
 ---
 naslov: Stellfuß (verstellbar)
-opis: Der Stellfuß ist der verstellbare Kunststofffuß des Küchenunterschranks, 100 mm, 4 Stück bis 800 mm Breite. Wie man die Zeile ausrichtet, wo Fehler passieren und wie das Programm sie zählt.
+opis: Der Stellfuß ist der verstellbare Kunststofffuß des Küchenunterschranks, 100 mm, 4 Stück bis 800 mm Breite. Zeile ausrichten, Fehler, wie das Programm zählt.
 datum: 2026-11-04
 slika: ../slike/web/snimak-39-cokla-1600.webp
 ---

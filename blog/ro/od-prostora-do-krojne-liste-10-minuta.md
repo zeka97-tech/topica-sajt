@@ -1,6 +1,6 @@
 ---
 naslov: De la cameră la lista de debitare în 10 minute — pas cu pas în TOPICA
-opis: Cum se ajunge în programul TOPICA de la dimensiunile camerei la lista de debitare și prețul bucătăriei: proiect nou, primul corp, sertare, rândul de sus, plintă și blat, „După dimensiune”. Cu capturi și timp real pe pas.
+opis: Cum se ajunge în TOPICA de la dimensiunile camerei la lista de debitare și preț: proiect nou, primul corp, sertare, rândul de sus, plintă și blat.
 datum: 2026-11-04
 slika: ../slike/web/snimak-44-soba-pod-zid-1600.webp
 status: za-proveru

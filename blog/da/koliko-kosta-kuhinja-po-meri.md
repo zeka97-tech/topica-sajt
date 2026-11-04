@@ -1,6 +1,6 @@
 ---
 naslov: Hvad koster et køkken efter mål? Sådan regner snedkeren prisen ud
-opis: Prisen på et køkken efter mål sættes sammen af materiale pr. m², kantbånd pr. meter, beslag pr. stk., arbejdsløn og avance. Hvad der indgår, hvad der glemmes, og hvordan programmet lægger sammen ud fra de priser, snedkeren indtaster.
+opis: Prisen på et køkken efter mål: materiale pr. m², kantbånd pr. meter, beslag pr. stk., arbejdsløn og avance. Hvad der indgår, og hvordan programmet regner.
 datum: 2026-11-04
 slika: ../slike/web/snimak-37-cena-1600.webp
 status: za-proveru

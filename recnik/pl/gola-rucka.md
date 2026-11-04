@@ -1,6 +1,6 @@
 ---
 naslov: Uchwyt gola
-opis: Uchwyt gola to aluminiowy profil C lub L wbudowany w korpus zamiast uchwytu. Co zmienia się na froncie, boku i szafce zlewozmywakowej, częste błędy i jak program prowadzi profil.
+opis: Uchwyt gola to aluminiowy profil C lub L w korpusie zamiast uchwytu. Co zmienia na froncie, boku i szafce zlewozmywakowej, błędy i jak program prowadzi profil.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 status: za-proveru

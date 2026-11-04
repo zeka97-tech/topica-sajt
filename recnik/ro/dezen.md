@@ -1,6 +1,6 @@
 ---
 naslov: Decor și direcția fibrei
-opis: Decorul este desenul și culoarea PAL-ului melaminat, iar direcția fibrei este sensul desenului. Regula „prima dimensiune = direcția fibrei”, fronturile pe verticală și unde se greșește cel mai des.
+opis: Decorul este desenul și culoarea PAL-ului melaminat, direcția fibrei este sensul desenului. Regula „prima dimensiune = direcția fibrei” și greșeli.
 datum: 2026-11-04
 slika: ../slike/web/snimak-47-svoj-dezen-1600.webp
 status: za-proveru

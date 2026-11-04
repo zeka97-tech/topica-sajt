@@ -1,6 +1,6 @@
 ---
 naslov: Van de ruimte naar de zaaglijst in 10 minuten — stap voor stap in TOPICA
-opis: Hoe je in TOPICA van de maten van de ruimte bij de zaaglijst en de prijs van een keuken komt: nieuw project, eerste kast, lades, bovenrij, plint en werkblad, “Op maat”. Met schermafbeeldingen en de echte tijd per stap.
+opis: Hoe je in TOPICA van de maten van de ruimte bij de zaaglijst en prijs van een keuken komt: nieuw project, eerste kast, lades, bovenrij, plint en werkblad.
 datum: 2026-11-04
 slika: ../slike/web/snimak-44-soba-pod-zid-1600.webp
 status: za-proveru

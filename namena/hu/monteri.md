@@ -1,6 +1,6 @@
 ---
 naslov: Szerelőknek és azoknak, akik máshol szabatnak
-opis: Program konyhaszerelőknek és lapszabászatban szabató mestereknek: „Méret szerint” szabásjegyzék másolásra és küldésre, vasalat darabonként, a projekt egyetlen fájl. Windows.
+opis: Program konyhaszerelőknek és lapszabászatban szabató mestereknek: „Méret szerint” szabásjegyzék másolásra, vasalat darabonként, a projekt egy fájl. Windows.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

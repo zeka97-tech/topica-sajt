@@ -1,6 +1,6 @@
 ---
 naslov: Kantlist
-opis: Kantlisten er ABS-listen som dekker kanten på sponplaten: 0,45 mm på skrog, 1 mm på fronter, 2 mm på harde kanter. Hvilke kanter som kantes og hvordan lengden regnes.
+opis: Kantlisten er ABS-listen på kanten av sponplaten: 0,45 mm på skrog, 1 mm på fronter, 2 mm på harde kanter. Hvilke kanter som kantes og hvordan lengden regnes.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Wat kost een keuken op maat — hoe de vakman de prijs berekent
-opis: De prijs van een keuken op maat is opgebouwd uit materiaal per m², kantenband per meter, beslag per stuk, arbeid en marge. Wat erin zit, wat men vergeet en hoe het programma optelt uit de prijzen die de vakman invult.
+opis: De prijs van een keuken op maat: materiaal per m², kantenband per meter, beslag per stuk, arbeid en marge. Wat erin zit.
 datum: 2026-11-04
 slika: ../slike/web/snimak-37-cena-1600.webp
 status: za-proveru

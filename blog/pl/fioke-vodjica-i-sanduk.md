@@ -1,6 +1,6 @@
 ---
 naslov: Szuflady: jak wybrać prowadnicę i policzyć skrzynkę
-opis: Prowadnica kulkowa, rolkowa czy szuflada metalowa — jaki jest luz na stronę, jak dobiera się długość prowadnicy i jak liczy się skrzynkę szuflady do korpusu 600 mm, z dokładnymi liczbami.
+opis: Prowadnica kulkowa, rolkowa czy szuflada metalowa: jaki luz na stronę, jak dobrać długość prowadnicy i jak policzyć skrzynkę szuflady do korpusu 600 mm.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 status: za-proveru

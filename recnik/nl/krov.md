@@ -1,6 +1,6 @@
 ---
 naslov: Bovenblad van de romp
-opis: Het bovenblad is het bovenste paneel van de romp bij bovenkasten en kledingkasten; keukenonderkasten hebben in plaats daarvan twee regels van 100 mm. Maten en redenen.
+opis: Het bovenblad is het bovenste paneel van de romp bij bovenkasten en kledingkasten; keukenonderkasten hebben in plaats daarvan twee regels van 100 mm.
 datum: 2026-11-04
 slika: ../slike/web/snimak-19-krupni-prikaz-1600.webp
 status: za-proveru

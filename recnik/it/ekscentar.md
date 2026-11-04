@@ -1,6 +1,6 @@
 ---
 naslov: Eccentrico (minifix) e vite confirmat
-opis: Eccentrico (minifix) e confirmat sono le ferramenta per unire i pannelli della carcassa ad angolo retto. Misure dei fori, quando si sceglie l'uno o l'altro ed errori di foratura.
+opis: Eccentrico (minifix) e vite confirmat uniscono i pannelli della carcassa ad angolo retto. Misure dei fori, quando scegliere l'uno o l'altro, errori di foratura.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

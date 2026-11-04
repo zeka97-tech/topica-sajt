@@ -1,6 +1,6 @@
 ---
 naslov: Legbord
-opis: Het legbord is een verstelbare plank in de romp op vier legbordsteunen volgens System 32. Maten van het legbord, terugsprong, kantenband 0,45 mm en gatafstand 32 mm in de zijwand.
+opis: Het legbord is een verstelbare plank in de romp op vier steunen volgens System 32. Maten, terugsprong, kantenband 0,45 mm en gatafstand 32 mm in de zijwand.
 datum: 2026-11-04
 slika: ../slike/web/snimak-19-krupni-prikaz-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Regel
-opis: De regel is een verbindingsstrook van spaanplaat 18 mm, 100 mm hoog, die bij onderkasten het bovenblad vervangt: hij houdt de zijwanden op afstand en neemt de schroeven van het werkblad op.
+opis: De regel is een verbindingsstrook van spaanplaat 18 mm, 100 mm hoog, die bij onderkasten het bovenblad vervangt: houdt de zijwanden op afstand.
 datum: 2026-11-04
 slika: ../slike/web/snimak-14-sudopera-1600.webp
 status: za-proveru

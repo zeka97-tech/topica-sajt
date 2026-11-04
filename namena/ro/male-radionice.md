@@ -1,6 +1,6 @@
 ---
 naslov: Pentru ateliere mici
-opis: Program pentru ateliere mici de tâmplărie: un singur meseriaș, laptop pe banc, fără instruire și fără internet. Listă de debitare și preț pentru primul corp în cinci minute.
+opis: Program pentru ateliere mici de tâmplărie: un meseriaș, laptop pe banc, fără instruire și fără internet. Listă de debitare și preț în 5 minute.
 datum: 2026-11-04
 slika: ../slike/web/snimak-33-po-meri-1600.webp
 status: za-proveru

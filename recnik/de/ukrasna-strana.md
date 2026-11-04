@@ -1,6 +1,6 @@
 ---
 naslov: Wange (Abschlusswange)
-opis: Die Wange (Abschlusswange) ist eine Platte 18 mm im Frontdekor, die die sichtbare Korpusseite am Ende der Zeile abdeckt. Maße, Kante, häufige Fehler und wie das Programm sie führt.
+opis: Die Wange (Abschlusswange) ist eine Platte 18 mm im Frontdekor, die die sichtbare Korpusseite am Ende der Zeile deckt. Maße, Kante, Fehler, Programm.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 ---

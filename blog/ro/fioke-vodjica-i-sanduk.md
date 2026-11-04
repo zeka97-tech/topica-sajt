@@ -1,6 +1,6 @@
 ---
 naslov: Sertare: cum alegi glisiera și cum calculezi cutia
-opis: Cu bile, cu role sau cutie metalică — cât e jocul pe parte, cum se alege lungimea glisierei și cum se calculează cutia sertarului pentru un corp de 600 mm, cu numere exacte.
+opis: Cu bile, cu role sau cutie metalică: cât e jocul pe parte, cum se alege lungimea glisierei și cum se calculează cutia sertarului pentru un corp de 600 mm.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 status: za-proveru

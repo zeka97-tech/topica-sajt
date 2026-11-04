@@ -1,6 +1,6 @@
 ---
 naslov: Nožička (nastaviteľná)
-opis: Nožička je plastová nastaviteľná noha spodnej kuchynskej skrinky, 100 mm, 4 kusy do šírky 800 mm. Ako sa vyrovnáva zostava, kde sa chybuje a ako ich program počíta.
+opis: Nožička je plastová nastaviteľná noha spodnej kuchynskej skrinky, 100 mm, 4 kusy do šírky 800 mm. Ako sa vyrovnáva zostava a ako ich program počíta.
 datum: 2026-11-04
 slika: ../slike/web/snimak-39-cokla-1600.webp
 status: za-proveru

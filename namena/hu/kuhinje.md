@@ -1,6 +1,6 @@
 ---
 naslov: Konyhatervező program asztalosoknak
-opis: Konyhatervező program méretre készülő konyhákhoz, asztalosoknak: megrajzolod a helyiséget, összerakod a katalógus korpuszait, a program adja a 3D-t, a milliméterpontos szabásjegyzéket, a vasalatot és az árat. Windows, internet nélkül.
+opis: Konyhatervező program asztalosoknak: megrajzolod a helyiséget, összerakod a korpuszokat, a program adja a 3D-t, a szabásjegyzéket, a vasalatot és az árat.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

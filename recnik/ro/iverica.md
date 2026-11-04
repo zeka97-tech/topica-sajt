@@ -1,6 +1,6 @@
 ---
 naslov: PAL de 18 mm
-opis: PAL-ul de 18 mm (melaminat) este placa de bază a mobilierului din plăci. Grosimi, dimensiuni uzuale ale plăcilor, debitare și greșeli frecvente la calculul materialului.
+opis: PAL-ul melaminat de 18 mm este placa de bază a mobilierului din plăci. Grosimi, dimensiuni uzuale ale plăcilor, debitare și greșeli la calculul materialului.
 datum: 2026-11-04
 slika: ../slike/web/snimak-46-izbliza-front-1600.webp
 status: za-proveru

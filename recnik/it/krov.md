@@ -1,6 +1,6 @@
 ---
 naslov: Cielo
-opis: Il cielo è il pannello superiore della carcassa nei pensili e negli armadi; le basi della cucina al posto del cielo hanno due traverse da 100 mm. Misure e motivi.
+opis: Il cielo è il pannello superiore della carcassa in pensili e armadi; le basi della cucina al suo posto hanno due traverse da 100 mm. Misure e motivi.
 datum: 2026-11-04
 slika: ../slike/web/snimak-19-krupni-prikaz-1600.webp
 status: za-proveru

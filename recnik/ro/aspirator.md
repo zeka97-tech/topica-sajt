@@ -1,6 +1,6 @@
 ---
 naslov: Hotă (corp și înălțime de montaj)
-opis: Hota este aparatul de deasupra plitei; corpul pentru hotă este un corp suspendat scurtat. Înălțime de montaj 650 mm electric / 750 mm gaz, lățimi, tubulatură și greșeli.
+opis: Hota și corpul pentru hotă: înălțime de montaj 650 mm la plită electrică, 750 mm la gaz, lățimi 600/900, tubulatură și greșeli frecvente la debitare.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

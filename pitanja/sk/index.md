@@ -1,6 +1,6 @@
 ---
 naslov: Otázky stolárov o programe na kuchyne a nárezový plán
-opis: Dvadsať skutočných otázok, ktoré majstri kladú o programe na kuchyne, vstavané skrine a nárezový plán: cena, Windows, internet, kovanie, hrana, CNC, dosky, inštalácia. Krátke a úprimné odpovede.
+opis: Dvadsať skutočných otázok majstrov o programe na kuchyne, skrine a nárezový plán: cena, Windows, internet, kovanie, hrana, CNC, dosky, inštalácia.
 datum: 2026-11-04
 slika: ../slike/web/snimak-33-po-meri-1600.webp
 tip: pitanja

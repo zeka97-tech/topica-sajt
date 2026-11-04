@@ -1,6 +1,6 @@
 ---
 naslov: Program for kjøkken etter mål
-opis: Kjøkkenprogram for snekkere: du tegner rommet, setter skrog fra katalogen på rekke, og programmet gir 3D, kappliste på millimeteren, beslag og pris. Windows, uten internett.
+opis: Kjøkkenprogram for snekkere: tegn rommet, sett skrog fra katalogen på rekke, og få 3D, kappliste på millimeteren, beslag og pris. Windows, uten internett.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

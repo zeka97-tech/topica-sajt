@@ -1,6 +1,6 @@
 ---
 naslov: Push-to-open (trykkåpner)
-opis: Push-to-open (trykkåpner) åpner fronten uten håndtak ved et trykk på fronten. Hengsler uten fjær, utstøter i skroget, større frontspalte og vanlige feil på verkstedet.
+opis: Push-to-open (trykkåpner) åpner fronten uten håndtak ved et trykk. Hengsler uten fjær, utstøter i skroget, større frontspalte og vanlige feil på verkstedet.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

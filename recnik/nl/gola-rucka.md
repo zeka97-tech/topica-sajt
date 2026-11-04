@@ -1,6 +1,6 @@
 ---
 naslov: Gola-profiel (greeploos)
-opis: Het gola-profiel is een aluminium C- of L-profiel in de romp in plaats van een greep. Wat er verandert aan front, zijwand en spoelkast, veelgemaakte fouten en hoe het programma het profiel bijhoudt.
+opis: Het gola-profiel is een aluminium C- of L-profiel in de romp in plaats van een greep. Wat er verandert aan front, zijwand en spoelkast, en veelgemaakte fouten.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 status: za-proveru

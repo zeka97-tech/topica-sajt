@@ -1,6 +1,6 @@
 ---
 naslov: Kivetőpánt
-opis: Bútorpánt Ø35 mm-es csészével: ráütődő, félig ráütődő és beütődő (ráütés 18/9/0), fúrás, helyzet a 32-es rendszer szerint és a pántok száma a front magassága szerint.
+opis: Kivetőpánt Ø35 mm-es csészével: ráütődő, félig ráütődő, beütődő (ráütés 18/9/0), fúrás, helyzet a 32-es rendszer szerint, pántszám a front magassága szerint.
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Für Monteure und alle, die beim Zuschnittservice sägen lassen
-opis: Software für Küchenmonteure und Handwerker, die Platten im Zuschnittservice schneiden lassen: Schnittliste „Nach Maß“ zum Kopieren und Schicken, Beschläge pro Stück, Projekt als eine Datei. Windows.
+opis: Software für Küchenmonteure und alle, die im Zuschnittservice sägen lassen: Schnittliste „Nach Maß“ zum Kopieren, Beschläge pro Stück, Projekt als eine Datei.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 ---

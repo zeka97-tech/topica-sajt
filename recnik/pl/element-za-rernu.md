@@ -1,6 +1,6 @@
 ---
 naslov: Szafka pod piekarnik (wnęka)
-opis: Szafka pod piekarnik to korpus dolny z wnęką na piekarnik do zabudowy, o szerokości co najmniej 568 mm. Wymiary wnęki, szuflada pod spodem, płyta grzewcza nad nią i częste błędy.
+opis: Szafka pod piekarnik to korpus dolny z wnęką na piekarnik do zabudowy, szeroką co najmniej 568 mm. Wymiary wnęki, szuflada pod spodem, płyta grzewcza, błędy.
 datum: 2026-11-04
 slika: ../slike/web/snimak-45-kuhinja-plocice-mermer-1600.webp
 status: za-proveru

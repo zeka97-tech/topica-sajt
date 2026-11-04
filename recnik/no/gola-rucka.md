@@ -1,6 +1,6 @@
 ---
 naslov: Grepsprofil (gola)
-opis: Grepsprofilen (gola) er en C- eller L-profil i aluminium bygd inn i skroget i stedet for håndtak. Hva som endres på front, side og vaskeskap, vanlige feil og hvordan programmet håndterer profilen.
+opis: Grepsprofilen (gola) er en C- eller L-profil i aluminium i skroget i stedet for håndtak. Hva som endres på front, side og vaskeskap, og vanlige feil.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 status: za-proveru

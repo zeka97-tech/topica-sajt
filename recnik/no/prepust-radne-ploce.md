@@ -1,6 +1,6 @@
 ---
 naslov: Overheng på benkeplaten
-opis: Overhenget er den delen av benkeplaten som stikker 20–30 mm ut over fronten og på siden uten vegg. Hvorfor platen er 600 dyp, hvordan den skjæres etter veggen og hvor det går galt.
+opis: Overhenget er delen av benkeplaten som stikker 20–30 mm ut over fronten og på siden uten vegg. Hvorfor platen er 600 dyp, tilpassing til veggen og feil.
 datum: 2026-11-04
 slika: ../slike/web/snimak-45-kuhinja-plocice-mermer-1600.webp
 status: za-proveru

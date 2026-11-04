@@ -1,6 +1,6 @@
 ---
 naslov: Kantbånd: hvilken tykkelse hvor (0,45 / 1 / 2 mm), og hvordan længden regnes ud
-opis: Kantbånd 0,45 mm til korpus, 1 mm til fronter, 2 mm til hårdt belastede kanter. Hvad nettomål efter kantbånd betyder, og hvordan båndlængden regnes med 10 % spild, med et korpus 600 × 720 × 560 som eksempel.
+opis: Kantbånd 0,45 mm til korpus, 1 mm til fronter, 2 mm til hårde kanter. Nettomål efter kantbånd og båndlængde med 10 % spild, på et korpus 600 × 720 × 560.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

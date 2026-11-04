@@ -1,6 +1,6 @@
 ---
 naslov: Überstand der Arbeitsplatte
-opis: Der Überstand der Arbeitsplatte ist der Teil der Platte, der 20–30 mm über die Front und an der Seite ohne Wand hinausragt. Warum die Platte 600 tief ist, wie sie an der Wand angepasst wird und wo Fehler passieren.
+opis: Der Überstand der Arbeitsplatte ragt 20–30 mm über die Front und an der Seite ohne Wand. Warum die Platte 600 tief ist, Anpassen an der Wand und Fehler.
 datum: 2026-11-04
 slika: ../slike/web/snimak-45-kuhinja-plocice-mermer-1600.webp
 ---

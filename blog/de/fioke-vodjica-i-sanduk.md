@@ -1,6 +1,6 @@
 ---
 naslov: Schubladen: wie man die Führung wählt und die Zarge rechnet
-opis: Kugelauszug, Rollenführung oder Metallzarge — wie viel Luft pro Seite, wie man die Führungslänge wählt und wie man die Schubladenzarge für einen Korpus von 600 mm rechnet, mit genauen Zahlen.
+opis: Kugelauszug, Rollenführung oder Metallzarge: wie viel Luft pro Seite, wie man die Führungslänge wählt und die Zarge für einen Korpus von 600 mm rechnet.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 ---

@@ -1,6 +1,6 @@
 ---
 naslov: Da divisão à lista de corte em 10 minutos — passo a passo na TOPICA
-opis: Como na TOPICA se chega das medidas da divisão à lista de corte e ao preço da cozinha: projeto novo, primeiro corpo, gavetas, linha superior, rodapé e bancada, “Por medida”. Com capturas e tempo real por passo.
+opis: Como se chega na TOPICA das medidas da divisão à lista de corte e ao preço: projeto novo, primeiro corpo, gavetas, linha superior, rodapé e bancada, Por medida.
 datum: 2026-11-04
 slika: ../slike/web/snimak-44-soba-pod-zid-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Dekor i kierunek usłojenia
-opis: Dekor to rysunek i kolor płyty wiórowej laminowanej, a kierunek usłojenia to kierunek rysunku. Zasada „pierwszy wymiar = kierunek usłojenia”, fronty pionowo i gdzie najczęściej są błędy.
+opis: Dekor to rysunek i kolor płyty laminowanej, kierunek usłojenia to kierunek rysunku. Zasada „pierwszy wymiar = kierunek usłojenia”, fronty pionowo i błędy.
 datum: 2026-11-04
 slika: ../slike/web/snimak-47-svoj-dezen-1600.webp
 status: za-proveru

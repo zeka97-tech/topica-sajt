@@ -1,6 +1,6 @@
 ---
 naslov: Spanplatte 18 mm
-opis: Die Spanplatte 18 mm (melaminbeschichtet) ist die Grundplatte des Plattenmöbels. Stärken, übliche Plattenformate, Zuschnitt und häufige Fehler bei der Materialrechnung.
+opis: Die Spanplatte 18 mm (melaminbeschichtet) ist die Grundplatte des Plattenmöbels. Stärken, übliche Plattenformate, Zuschnitt und Fehler bei der Materialrechnung.
 datum: 2026-11-04
 slika: ../slike/web/snimak-46-izbliza-front-1600.webp
 ---

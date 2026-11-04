@@ -15,7 +15,7 @@ Pour le meuble en panneaux (cuisines, placards, meubles en mélaminé), une lign
 - **Longueur × largeur** en millimètres, la cote finie du panneau.
 - **Épaisseur** : 18 mm pour le caisson et les façades, 3 mm d'isorel pour les fonds, 8–10 mm pour les fonds de tiroir.
 - **Matériau** : mélaminé blanc, décor chêne, isorel de couleur.
-- **Chant** : quels côtés reçoivent un chant et lequel (0,45 mm pour le caisson, 1 ou 2 mm pour les façades).
+- **[Chant](../recnik/kant.html)** : quels côtés reçoivent un chant et lequel (0,45 mm pour le caisson, 1 ou 2 mm pour les façades).
 - **Quantité** : deux côtés, un dessous, deux traverses.
 
 Une bonne liste est groupée par matériau et par épaisseur, parce que c'est comme ça qu'on débite les panneaux : d'abord tout le mélaminé blanc de 18 mm, puis les façades, puis l'isorel.
@@ -26,7 +26,7 @@ Avec les décors veinés (chêne, noyer, sonoma), la façon dont le panneau est 
 
 ## Exemple : un meuble bas de 600 × 720 × 560
 
-Un meuble bas de cuisine ordinaire, avec une porte et une tablette, compte huit panneaux. Le dessous repose sur les côtés (pleine largeur 600), donc les côtés font 702 de haut, pas 720. La profondeur du caisson est de 539, parce qu'on retire la façade (18) et le fond (3) des 560.
+Un meuble bas de cuisine ordinaire, avec une porte et une tablette, compte huit panneaux. Le dessous repose sur les côtés (pleine largeur 600), donc les côtés font 702 de haut, pas 720. La profondeur du [caisson](../recnik/korpus.html) est de 539, parce qu'on retire la façade (18) et le fond (3) des 560.
 
 | Panneau | Cote (mm) | Ép. | Chant | Qté |
 |---|---|---|---|---|
@@ -46,5 +46,7 @@ Dans le programme, la liste de débit ne s'écrit pas : elle se calcule à part
 ![La liste de débit « Par cote » dans TOPICA pour un meuble bas de 600 × 720 × 560 mm : huit panneaux groupés par matériau, avec cote, épaisseur, chant et quantité](../slike/web/snimak-33-po-meri-1600.webp "La vue « Par cote » pour un caisson : huit panneaux, trois matériaux, 2,34 m² de panneau.")
 
 Le programme respecte tout seul la règle « première cote = sens du fil » : une façade est toujours écrite debout, et l'isorel porte le repère « sans fil ». Si tu changes plus tard l'épaisseur du fond ou le chant des façades dans les réglages de l'atelier, la modification se propage à chaque panneau du projet, y compris ceux que tu avais déjà regardés.
+
+Plus sur l'endroit où va chaque bande dans le guide [Chant : quelle épaisseur où](./kant-debljina-i-duzina.html), et sur la trame de perçage dans [System 32](./sistem-32.html).
 
 Une liste de débit, ce n'est pas compliqué. Ce qui est compliqué, c'est qu'elle soit juste à chaque fois, pour chaque élément, après que le client a changé d'avis trois fois. C'est à ça que sert le programme.

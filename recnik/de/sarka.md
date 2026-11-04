@@ -1,6 +1,6 @@
 ---
 naslov: Topfband (Scharnier)
-opis: Möbelscharnier mit Topf Ø35 mm: gerade, gekröpft und stark gekröpft (Aufschlag 18/9/0), Bohrung, Position nach System 32 und Zahl der Bänder nach Fronthöhe.
+opis: Topfband mit Topf Ø35 mm: gerade, gekröpft und stark gekröpft (Aufschlag 18/9/0), Bohrung, Position nach System 32 und Zahl der Bänder nach Fronthöhe.
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 ---

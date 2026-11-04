@@ -1,6 +1,6 @@
 ---
 naslov: Software per armadi su misura
-opis: Software per armadi su misura per falegnami: carcassa profonda 600, ante a battente con cerniere per altezza, ripiani e cassetti a System 32, lista di taglio e prezzo. Windows, senza internet.
+opis: Software per armadi su misura per falegnami: carcassa profonda 600, ante con cerniere per altezza, ripiani e cassetti a System 32, lista di taglio e prezzo.
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 status: za-proveru

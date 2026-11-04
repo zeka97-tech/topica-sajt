@@ -1,6 +1,6 @@
 ---
 naslov: System 32: perché il mobile europeo ha i fori a 32 mm
-opis: Il System 32 è una fila di fori Ø5 mm con passo 32 mm, il primo a 37 mm dal bordo anteriore del fianco. Da dove viene, come se ne ricavano ripiani, cerniere e guide e come si fora senza CNC.
+opis: Il System 32 è una fila di fori Ø5 mm a passo 32 mm, il primo a 37 mm dal bordo del fianco. Da dove viene, come dà ripiani, cerniere e guide, come si fora.
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 status: za-proveru

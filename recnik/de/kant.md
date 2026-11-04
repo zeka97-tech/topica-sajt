@@ -1,6 +1,6 @@
 ---
 naslov: Kante (Umleimer)
-opis: Die Kante ist ein ABS-Band, das die Schnittkante der Spanplatte abdeckt: 0,45 mm für den Korpus, 1 mm für Fronten, 2 mm für stärker belastete Kanten. Welche Kanten bekantet werden und wie man die Kantenlänge rechnet.
+opis: Die Kante ist ein ABS-Band auf der Schnittkante der Spanplatte: 0,45 mm Korpus, 1 mm Fronten, 2 mm belastete Kanten. Welche Kanten bekantet werden, Kantenlänge.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 ---

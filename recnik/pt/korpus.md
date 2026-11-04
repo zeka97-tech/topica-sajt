@@ -1,6 +1,6 @@
 ---
 naslov: Corpo
-opis: O corpo é a caixa do módulo em aglomerado de 18 mm: duas ilhargas, fundo, tampo ou travessas, costas e prateleira. Medidas padrão, como se monta e como a TOPICA o calcula.
+opis: O corpo é a caixa do módulo em aglomerado de 18 mm: duas ilhargas, fundo, tampo ou travessas, costas e prateleira. Medidas padrão, montagem e cálculo na TOPICA.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

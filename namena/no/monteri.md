@@ -1,6 +1,6 @@
 ---
 naslov: For montører og de som får kappet hos andre
-opis: Program for kjøkkenmontører og snekkere som får platene kappet hos en kappeservice: kappliste «Etter mål» til å kopiere og sende, beslag per stykk, prosjektet som én fil. Windows.
+opis: Program for kjøkkenmontører og snekkere som får kappet hos en kappeservice: kappliste «Etter mål» til å kopiere og sende, beslag per stykk.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

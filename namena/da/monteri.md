@@ -1,6 +1,6 @@
 ---
 naslov: Til montører og dem, der får skåret ude i byen
-opis: Program til køkkenmontører og håndværkere, der får pladerne skåret hos en opskæringsservice: skæreliste »Efter mål« til at kopiere og sende, beslag pr. stk., projektet som én fil. Windows.
+opis: Program til køkkenmontører og dem, der får skåret hos en service: skæreliste »Efter mål« til at kopiere og sende, beslag pr. stk., projektet som én fil. Windows
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

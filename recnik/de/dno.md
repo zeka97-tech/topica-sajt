@@ -1,6 +1,6 @@
 ---
 naslov: Korpusboden
-opis: Der Boden ist das untere Teil des Korpus; in der europäischen Praxis und in TOPICA läuft er über die Seiten in voller Breite. Maße des Bodens, Kante, Stellfüße und Zuschnitt.
+opis: Der Korpusboden ist das untere Teil des Schranks; in der europäischen Praxis und in TOPICA läuft er über die Seiten. Maße, Kante, Stellfüße und Zuschnitt.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 ---

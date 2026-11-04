@@ -1,6 +1,6 @@
 ---
 naslov: Profil Gola
-opis: Profilul Gola este un profil de aluminiu C sau L montat în corp în locul mânerului. Ce se schimbă la front, la laterală și la chiuvetă, greșeli frecvente și cum ține programul profilul.
+opis: Profilul Gola este un profil de aluminiu C sau L montat în corp în locul mânerului. Ce se schimbă la front, laterală și chiuvetă și greșeli frecvente.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Zoccolo
-opis: Lo zoccolo è un pannello da 18 mm sotto le basi della cucina che nasconde i piedini: altezza 100 mm (80–150), arretrato, in linea, nel decoro dei frontali.
+opis: Lo zoccolo è il pannello da 18 mm sotto le basi della cucina che nasconde i piedini: alto 100 mm (80–150), arretrato, in linea, nel decoro dei frontali.
 datum: 2026-11-04
 slika: ../slike/web/snimak-39-cokla-1600.webp
 status: za-proveru
@@ -14,7 +14,7 @@ Lo **zoccolo** è il pannello che chiude lo spazio tra il pavimento e il fondo d
 - Pannello **18 mm** nel decoro dei frontali; di norma si borda almeno il lato superiore. In una cucina bianca o grigia al posto del pannello va spesso un profilo in alluminio.
 - **Arretrato** rispetto al filo del frontale, così la punta del piede non ci sbatte; nel programma l'arretramento si scrive una volta e vale per tutto il progetto.
 - In **un'unica linea** per tutta la fila, senza interruzioni; **sempre davanti alla lavastoviglie**, perché la macchina non ha un frontale fino a terra.
-- Su clip per piedini; nell'angolo si unisce a 45° o con un angolare.
+- Su clip per piedini; nell'angolo si unisce a quartabuono o con un angolare.
 
 ## In laboratorio
 

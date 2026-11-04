@@ -1,6 +1,6 @@
 ---
 naslov: Skuffer: sådan vælger du skinne og regner skuffekassen ud
-opis: Kuglelejeskinne, rulleskinne eller metalkasse: hvor stor luft pr. side, hvordan skinnelængden vælges, og hvordan skuffekassen regnes ud til et korpus på 600 mm, med nøjagtige tal.
+opis: Kuglelejeskinne, rulleskinne eller metalkasse: luft pr. side, valg af skinnelængde, og beregning af skuffekassen til et korpus på 600 mm, med nøjagtige tal.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 status: za-proveru

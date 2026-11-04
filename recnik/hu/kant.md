@@ -1,6 +1,6 @@
 ---
 naslov: Élzárás (élzáró)
-opis: Az élzáró ABS szalag, amely a bútorlap élét fedi: 0,45 mm a korpuszra, 1 mm a frontokra, 2 mm az erősebb élekre. Mely éleket zárják, és hogyan számolják az élzáró hosszát.
+opis: Az élzáró ABS szalag a bútorlap élén: 0,45 mm a korpuszra, 1 mm a frontokra, 2 mm az erősebb élekre. Mely éleket zárják, és hogyan számolják a hosszát.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

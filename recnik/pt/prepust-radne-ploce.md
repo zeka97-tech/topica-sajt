@@ -1,6 +1,6 @@
 ---
 naslov: Saliência da bancada
-opis: A saliência da bancada é a parte do tampo que sobressai 20–30 mm além da frente e de lado onde não há parede. Porque é que a bancada tem 600 de fundo, como se corta pela parede e onde se erra.
+opis: A saliência da bancada sobressai 20–30 mm além da frente e de lado sem parede. Porque é que a bancada tem 600 de fundo, o corte pela parede e os erros.
 datum: 2026-11-04
 slika: ../slike/web/snimak-45-kuhinja-plocice-mermer-1600.webp
 status: za-proveru

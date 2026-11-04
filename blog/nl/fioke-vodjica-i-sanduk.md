@@ -1,6 +1,6 @@
 ---
 naslov: Lades: hoe je de geleider kiest en de bak berekent
-opis: Kogelgeleider, rolgeleider of metalen ladesysteem — hoeveel speling per kant, hoe je de geleiderlengte kiest en hoe je de ladebak berekent voor een romp van 600 mm, met exacte getallen.
+opis: Kogelgeleider, rolgeleider of metalen ladesysteem: hoeveel speling per kant, hoe je de geleiderlengte kiest en de ladebak berekent voor een romp van 600 mm.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 status: za-proveru

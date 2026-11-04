@@ -1,6 +1,6 @@
 ---
 naslov: Front
-opis: Fronten zijn de deuren en ladefronten, de zichtzijde van de kast van spaanplaat 18 mm met kantenband 1 of 2 mm. Frontmaten, voeg 3 mm en hoe ze uit de romp worden berekend.
+opis: Fronten zijn deuren en ladefronten, de zichtzijde van de kast van spaanplaat 18 mm met kantenband 1 of 2 mm. Frontmaten, voeg 3 mm en berekening uit de romp.
 datum: 2026-11-04
 slika: ../slike/web/snimak-19-krupni-prikaz-1600.webp
 status: za-proveru

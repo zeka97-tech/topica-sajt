@@ -1,6 +1,6 @@
 ---
 naslov: Páraelszívó (elem és beépítési magasság)
-opis: A páraelszívó a főzőlap feletti készülék; a páraelszívós elem rövidített felső korpusz. Beépítési magasság 650 mm villany / 750 mm gáz, szélességek, cső és hibák.
+opis: A páraelszívó a főzőlap feletti készülék; eleme rövidített felső korpusz. Beépítési magasság 650 mm villany / 750 mm gáz, szélességek, cső és hibák.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

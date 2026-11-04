@@ -1,6 +1,6 @@
 ---
 naslov: Vragen van meubelmakers over keukensoftware en de zaaglijst
-opis: Twintig echte vragen van vakmensen over software voor keukens, kasten en zaaglijsten: prijs, Windows, internet, beslag, kantenband, CNC, platen, installatie. Korte en eerlijke antwoorden.
+opis: Twintig echte vragen van vakmensen over software voor keukens, kasten en zaaglijsten: prijs, Windows, internet, beslag, kantenband, CNC, platen, installatie.
 datum: 2026-11-04
 slika: ../slike/web/snimak-33-po-meri-1600.webp
 tip: pitanja

@@ -1,6 +1,6 @@
 ---
 naslov: Para montadores e para quem manda cortar fora
-opis: Programa para montadores de cozinhas e marceneiros que mandam cortar as placas num serviço de corte: lista de corte “Por medida” para copiar e enviar, ferragens à unidade, projeto num só ficheiro. Windows.
+opis: Programa para montadores de cozinhas e quem manda cortar fora: lista de corte “Por medida” para copiar e enviar, ferragens à unidade, projeto num só ficheiro.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

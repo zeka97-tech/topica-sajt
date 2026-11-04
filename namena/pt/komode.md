@@ -1,6 +1,6 @@
 ---
 naslov: Cómodas e móveis de corpo
-opis: Programa para cómodas, móveis de TV, estantes e outros móveis de corpo por medida: gavetas sobre corrediças do catálogo, portas, prateleiras, lista de corte e preço. Para marceneiros.
+opis: Programa para cómodas, móveis de TV, estantes e outros móveis de corpo por medida: gavetas com corrediças do catálogo, portas, prateleiras, lista de corte.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 status: za-proveru

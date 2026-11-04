@@ -1,6 +1,6 @@
 ---
 naslov: Folga da frente
-opis: A folga da frente é a distância entre frentes vizinhas (3 mm) e à aresta do módulo (1,5 mm). Como se calcula a medida da frente, exemplo 600 → 597, e erros frequentes.
+opis: A folga da frente é a distância entre frentes vizinhas (3 mm) e à aresta do módulo (1,5 mm). Como se calcula a frente, exemplo 600 → 597, e erros frequentes.
 datum: 2026-11-04
 slika: ../slike/web/isecak-front-1600.webp
 status: za-proveru

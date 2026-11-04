@@ -1,6 +1,6 @@
 ---
 naslov: Koľko stojí kuchyňa na mieru — ako majster počíta cenu
-opis: Cena kuchyne na mieru sa skladá z materiálu za m², hrany za meter, kovania za kus, práce a marže. Čo vstupuje do výpočtu, na čo sa zabúda a ako program sčítava z cien, ktoré zadá majster.
+opis: Cena kuchyne na mieru: materiál za m², hrana za meter, kovanie za kus, práca a marža. Čo vstupuje do výpočtu, na čo sa zabúda a ako sčítava program.
 datum: 2026-11-04
 slika: ../slike/web/snimak-37-cena-1600.webp
 status: za-proveru

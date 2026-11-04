@@ -1,6 +1,6 @@
 ---
 naslov: Griffleiste (grifflos)
-opis: Die Griffleiste ist ein C- oder L-Profil aus Aluminium, das statt eines Griffs in den Korpus eingebaut wird. Was sich an Front, Seite und Spülenschrank ändert, häufige Fehler und wie das Programm das Profil führt.
+opis: Die Griffleiste ist ein C- oder L-Profil aus Aluminium statt eines Griffs. Was sich an Front, Seite und Spülenschrank ändert, Fehler und Programm.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 ---

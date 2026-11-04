@@ -1,6 +1,6 @@
 ---
 naslov: Plintă (soclu)
-opis: Plinta (soclul) este o placă de 18 mm sub corpurile inferioare de bucătărie care ascunde picioarele: înălțime 100 mm (80–150), retrasă, pe o singură linie, în decorul fronturilor.
+opis: Plinta (soclul) este placa de 18 mm de sub corpurile inferioare care ascunde picioarele: înălțime 100 mm (80–150), retrasă, pe o linie, în decorul fronturilor.
 datum: 2026-11-04
 slika: ../slike/web/snimak-39-cokla-1600.webp
 status: za-proveru

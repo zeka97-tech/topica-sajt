@@ -1,6 +1,6 @@
 ---
 naslov: Pre montérov a tých, ktorí si dávajú rezať
-opis: Program pre montérov kuchýň a majstrov, ktorí si dávajú rezať dosky v nárezovom centre: nárezový plán „Podľa rozmeru“ na kopírovanie a odoslanie, kovanie za kus, projekt ako jeden súbor. Windows.
+opis: Program pre montérov kuchýň a majstrov, ktorí si dávajú rezať v nárezovom centre: plán „Podľa rozmeru“ na kopírovanie, kovanie za kus, projekt ako jeden súbor.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

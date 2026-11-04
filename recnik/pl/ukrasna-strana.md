@@ -1,6 +1,6 @@
 ---
 naslov: Bok ozdobny (maskujący)
-opis: Bok ozdobny (maskujący) to płyta 18 mm w dekorze frontu, która zakrywa widoczny bok korpusu na końcu ciągu. Wymiary, obrzeże, częste błędy i jak prowadzi go program.
+opis: Bok ozdobny (maskujący) to płyta 18 mm w dekorze frontu, która zakrywa widoczny bok korpusu na końcu ciągu. Wymiary, obrzeże, błędy i jak prowadzi go program.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Tampo do corpo
-opis: O tampo é a placa de cima do corpo nos módulos superiores e roupeiros; os módulos inferiores de cozinha têm, em vez de tampo, duas travessas de 100 mm. Medidas e razões.
+opis: O tampo é a placa de cima do corpo nos superiores e roupeiros; os inferiores de cozinha têm em vez dele duas travessas de 100 mm. Medidas e razões.
 datum: 2026-11-04
 slika: ../slike/web/snimak-19-krupni-prikaz-1600.webp
 status: za-proveru

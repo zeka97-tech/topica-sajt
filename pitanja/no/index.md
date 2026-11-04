@@ -1,6 +1,6 @@
 ---
 naslov: Snekkeres spørsmål om programmet for kjøkken og kappliste
-opis: Tjue ekte spørsmål snekkere stiller om programmet for kjøkken, garderober og kappliste: pris, Windows, internett, beslag, kantlist, CNC, plater, installasjon. Korte og ærlige svar.
+opis: Tjue ekte spørsmål fra snekkere om programmet for kjøkken, garderober og kappliste: pris, Windows, internett, beslag, kantlist, CNC, plater. Ærlige svar.
 datum: 2026-11-04
 slika: ../slike/web/snimak-33-po-meri-1600.webp
 tip: pitanja

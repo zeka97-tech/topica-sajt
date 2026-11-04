@@ -1,6 +1,6 @@
 ---
 naslov: Panou lateral decorativ (de capăt)
-opis: Panoul lateral decorativ (de capăt) este o placă de 18 mm în decorul frontului care acoperă laterala vizibilă a corpului de la capătul rândului. Dimensiuni, cant, greșeli frecvente și cum îl ține programul.
+opis: Panoul lateral decorativ (de capăt) este o placă de 18 mm în decorul frontului care acoperă laterala vizibilă de la capătul rândului. Dimensiuni, cant, greșeli.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

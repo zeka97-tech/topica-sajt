@@ -1,6 +1,6 @@
 ---
 naslov: Kantenband
-opis: Kantenband is de ABS-band die de kant van spaanplaat afdekt: 0,45 mm voor de romp, 1 mm voor fronten, 2 mm voor zwaardere kanten. Welke kanten band krijgen en hoe je de lengte berekent.
+opis: Kantenband is de ABS-band op de kant van spaanplaat: 0,45 mm voor de romp, 1 mm voor fronten, 2 mm voor zwaardere kanten. Welke kanten band krijgen, lengte.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

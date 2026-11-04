@@ -1,6 +1,6 @@
 ---
 naslov: Gardróbtervező program asztalosoknak
-opis: Program méretre készülő gardróbszekrényekhez asztalosoknak: 600 mély korpusz, nyíló ajtók magasság szerinti pántokkal, polcok és fiókok a 32-es rendszer szerint, szabásjegyzék és ár. Windows, internet nélkül.
+opis: Gardróbtervező program asztalosoknak: 600 mély korpusz, nyíló ajtók magasság szerinti pántokkal, polcok és fiókok a 32-es rendszer szerint, szabásjegyzék, ár.
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 status: za-proveru

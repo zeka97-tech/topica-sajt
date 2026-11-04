@@ -1,6 +1,6 @@
 ---
 naslov: Küchenplaner für Küchen nach Maß
-opis: Küchenplaner für Tischler: Du zeichnest den Raum, stellst Korpusse aus dem Katalog, und das Programm liefert 3D, millimetergenaue Schnittliste, Beschläge und Preis. Windows, ohne Internet.
+opis: Küchenplaner für Tischler: Raum zeichnen, Korpusse aus dem Katalog stellen, das Programm liefert 3D, Schnittliste in mm, Beschläge und Preis. Windows, offline.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 ---

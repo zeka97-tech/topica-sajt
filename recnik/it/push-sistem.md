@@ -1,6 +1,6 @@
 ---
 naslov: Push-to-open (apertura a pressione)
-opis: Il push-to-open apre il frontale senza maniglia con una pressione sul frontale. Cerniere senza molla, espulsore nella carcassa, gioco maggiore del frontale ed errori frequenti in laboratorio.
+opis: Il push-to-open apre il frontale senza maniglia con una pressione. Cerniere senza molla, espulsore nella carcassa, gioco maggiore ed errori frequenti.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

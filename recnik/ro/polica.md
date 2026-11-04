@@ -1,6 +1,6 @@
 ---
 naslov: Poliță
-opis: Polița este piesa mobilă din corp, pe patru suporți pe sistem 32. Dimensiunile poliței, retragerea, cantul de 0,45 mm și pasul găurilor de 32 mm din laterală.
+opis: Polița este piesa mobilă din corp, pe patru suporți pe sistem 32. Dimensiuni, retragere, cant de 0,45 mm și pasul găurilor de 32 mm din laterală.
 datum: 2026-11-04
 slika: ../slike/web/snimak-19-krupni-prikaz-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Za monterje in tiste, ki dajo rezati drugam
-opis: Program za monterje kuhinj in mojstre, ki dajo plošče rezati v servis: razrezni seznam „Po meri“ za kopiranje, okovje po kosu, projekt kot ena datoteka..
+opis: Program za monterje kuhinj in mojstre, ki dajo plošče rezati v servis: razrezni seznam „Po meri“ za kopiranje, okovje po kosu, projekt kot ena datoteka.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

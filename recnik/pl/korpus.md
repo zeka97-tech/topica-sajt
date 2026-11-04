@@ -1,6 +1,6 @@
 ---
 naslov: Korpus
-opis: Korpus to skrzynia szafki z płyty wiórowej 18 mm: dwa boki, dno, wieniec górny lub listwy, plecy i półka. Wymiary standardowe, jak się go składa i jak liczy go TOPICA.
+opis: Korpus to skrzynia szafki z płyty wiórowej 18 mm: dwa boki, dno, wieniec górny lub listwy, plecy i półka. Wymiary standardowe, składanie i jak liczy go TOPICA.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

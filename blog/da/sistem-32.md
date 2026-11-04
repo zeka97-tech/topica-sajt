@@ -1,6 +1,6 @@
 ---
 naslov: System 32: hvorfor europæiske møbler har huller for hver 32 mm
-opis: System 32 er en række Ø5 mm huller med 32 mm afstand, det første 37 mm fra sidens forkant. Hvor det kommer fra, hvordan hylder, hængsler og skuffeskinner tages fra det, og hvordan man borer uden CNC.
+opis: System 32 er en række Ø5 mm huller med 32 mm afstand, det første 37 mm fra forkanten. Hvor det kommer fra, hvad der tages fra det, og hvordan man borer uden CNC
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 status: za-proveru

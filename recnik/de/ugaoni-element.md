@@ -1,6 +1,6 @@
 ---
 naslov: Eckschrank (Blindeckschrank und L-Eckschrank)
-opis: Der Eckschrank schließt die Küchenecke: Blindeckschrank 1000–1200 mit Front 450–600 oder L-Eckschrank 900 × 900. Maße, Vorteile, Fehler beim Aufmaß und bei der Montage.
+opis: Der Eckschrank schließt die Küchenecke: Blindeckschrank 1000–1200 mit Front 450–600 oder L-Eckschrank 900 × 900. Maße, Vorteile, Fehler bei Aufmaß und Montage.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 ---

@@ -1,6 +1,6 @@
 ---
 naslov: Program til køkkener efter mål
-opis: Køkkentegneprogram til snedkere: tegn rummet, sæt korpusser ind fra kataloget, og programmet giver 3D, skæreliste på millimeteren, beslag og pris. Windows, uden internet.
+opis: Køkkentegneprogram til snedkere: tegn rummet, sæt korpusser ind fra kataloget, og få 3D, skæreliste på millimeteren, beslag og pris. Windows, uden internet.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

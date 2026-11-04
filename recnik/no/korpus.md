@@ -1,6 +1,6 @@
 ---
 naslov: Skrog (korpus)
-opis: Skroget er skapets kasse i 18 mm sponplate: to sider, bunn, topp eller traverser, bakplate og hylle. Standardmål, hvordan det settes sammen og hvordan TOPICA regner det ut.
+opis: Skroget er skapets kasse i 18 mm sponplate: to sider, bunn, topp eller traverser, bakplate og hylle. Standardmål, sammensetting og hvordan TOPICA regner det ut.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

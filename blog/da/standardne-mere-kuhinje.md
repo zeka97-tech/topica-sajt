@@ -1,6 +1,6 @@
 ---
 naslov: Standardmål for køkkenskabe
-opis: Tabel over standardmål for køkkener efter mål: under- og overskabe, højskabe, bordplade, sokkel, afstand til overskabe, bredder. Programmet TOPICAs standardværdier, og hvornår man afviger fra dem.
+opis: Tabel over standardmål for køkkener: under- og overskabe, højskabe, bordplade, sokkel, afstand til overskabe, bredder. TOPICAs standardværdier, og afvigelser.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

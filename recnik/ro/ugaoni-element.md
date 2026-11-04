@@ -1,6 +1,6 @@
 ---
 naslov: Corp de colț (colț orb și colț în L)
-opis: Corpul de colț închide colțul bucătăriei: colț orb (blind) de 1000–1200 cu front de 450–600 sau colț în L de 900 × 900. Dimensiuni, avantaje, greșeli la măsurare și montaj.
+opis: Corpul de colț închide colțul bucătăriei: colț orb de 1000–1200 cu front de 450–600 sau colț în L de 900 × 900. Dimensiuni, avantaje și greșeli la măsurare.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

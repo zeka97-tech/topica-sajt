@@ -1,6 +1,6 @@
 ---
 naslov: Voor monteurs en wie elders laat zagen
-opis: Software voor keukenmonteurs en vakmensen die hun platen bij een zaagservice laten zagen: zaaglijst “Op maat” om te kopiëren en te versturen, beslag per stuk, project als één bestand. Windows.
+opis: Software voor keukenmonteurs en wie bij een zaagservice laat zagen: zaaglijst “Op maat” om te kopiëren en te versturen, beslag per stuk.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

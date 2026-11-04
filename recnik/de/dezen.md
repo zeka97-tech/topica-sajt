@@ -1,6 +1,6 @@
 ---
 naslov: Dekor und Faserrichtung
-opis: Das Dekor ist Muster und Farbe der beschichteten Spanplatte, die Faserrichtung der Lauf der Maserung. Die Regel „erstes Maß = Faserrichtung“, Fronten stehend, und wo am häufigsten der Fehler passiert.
+opis: Das Dekor ist Muster und Farbe der Spanplatte, die Faserrichtung der Lauf der Maserung. Regel „erstes Maß = Faserrichtung“, Fronten stehend, häufige Fehler.
 datum: 2026-11-04
 slika: ../slike/web/snimak-47-svoj-dezen-1600.webp
 ---

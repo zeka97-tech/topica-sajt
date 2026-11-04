@@ -1,6 +1,6 @@
 ---
 naslov: Schublade und Führung
-opis: Die Schublade ist eine Zarge auf Führungen hinter der Front: Holzzarge mit 13 mm Luft pro Seite oder Metallzarge nach Katalog. Maße, Führungslängen und Fugen.
+opis: Die Schublade ist eine Zarge auf Führungen hinter der Front: Holzzarge mit 13 mm Luft pro Seite oder Metallzarge nach Katalog. Maße, Führungslängen, Fugen.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 ---

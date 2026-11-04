@@ -1,6 +1,6 @@
 ---
 naslov: System 32: Warum europäische Möbel Löcher im Abstand von 32 mm haben
-opis: System 32 ist eine Lochreihe Ø5 mm im Abstand 32 mm, das erste Loch 37 mm von der Vorderkante der Seite. Woher es kommt, wie sich Fachböden, Topfbänder und Führungen daraus ergeben und wie man ohne CNC bohrt.
+opis: System 32 ist eine Lochreihe Ø5 mm im Abstand 32 mm, das erste Loch 37 mm von der Vorderkante. Woher es kommt, was sich daraus ergibt, Bohren ohne CNC.
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 ---

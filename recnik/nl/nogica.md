@@ -1,6 +1,6 @@
 ---
 naslov: Stelpoot (verstelbaar)
-opis: De stelpoot is de kunststof verstelbare poot van een keukenonderkast, 100 mm, 4 stuks tot 800 mm breedte. Hoe je de rij waterpas zet, waar het misgaat en hoe het programma ze telt.
+opis: De stelpoot is de kunststof verstelbare poot van een keukenonderkast, 100 mm, 4 stuks tot 800 mm breedte. De rij waterpas zetten.
 datum: 2026-11-04
 slika: ../slike/web/snimak-39-cokla-1600.webp
 status: za-proveru

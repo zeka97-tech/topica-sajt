@@ -1,12 +1,12 @@
 ---
 naslov: 32-es rendszer: miért 32 mm-enként vannak a furatok az európai bútorban
-opis: A 32-es rendszer Ø5 mm-es furatsor 32 mm-es osztással, az első 37 mm-re az oldal elülső élétől. Honnan ered, hogyan jönnek belőle a polcok, pántok és sínek, és hogyan fúrják CNC nélkül.
+opis: A 32-es rendszer Ø5 mm-es furatsor 32 mm-es osztással, az első 37 mm-re az elülső éltől. Honnan ered, hogyan jön belőle polc, pánt és sín, fúrás CNC nélkül.
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 status: za-proveru
 ---
 
-A 32-es rendszer (System 32) az a megállapodás, amely szerint a korpusz oldalába 5 mm átmérőjű furatokat fúrnak sorban, 32 mm-es osztással, úgy, hogy ugyanazokba a furatokba illeszkedjenek a polctartók, a pántok szerelőtalpai és a fióksínek. Nem törvény és nem pecsétes szabvány, hanem konvenció, amelyet a vasalatgyártók (Blum, Hettich, Grass, GTV) és a fúrógépgyártók tartanak. Aki betartja, bármelyiküktől vehet vasalatot, és az bele fog illeni a már kifúrt furatokba.
+A 32-es rendszer az a megállapodás, amely szerint a korpusz oldalába 5 mm átmérőjű furatokat fúrnak sorban, 32 mm-es osztással, úgy, hogy ugyanazokba a furatokba illeszkedjenek a polctartók, a pántok szerelőtalpai és a fióksínek. Nem törvény és nem pecsétes szabvány, hanem konvenció, amelyet a vasalatgyártók (Blum, Hettich, Grass, GTV) és a fúrógépgyártók tartanak. Aki betartja, bármelyiküktől vehet vasalatot, és az bele fog illeni a már kifúrt furatokba.
 
 ## Honnan éppen 32 mm
 

@@ -1,6 +1,6 @@
 ---
 naslov: Cassetto e guida
-opis: Il cassetto è una cassa su guide dietro il frontale: cassa in legno con gioco di 13 mm per lato o cassetto metallico da catalogo. Misure, lunghezze delle guide e giochi.
+opis: Il cassetto è una cassa su guide dietro il frontale: cassa in legno con gioco 13 mm per lato o cassetto metallico da catalogo. Misure, guide e giochi.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Exzenterverbinder (Minifix) und Konfirmat
-opis: Exzenterverbinder (Minifix) und Konfirmatschraube sind Beschläge zum rechtwinkligen Verbinden von Korpusplatten. Bohrmaße, wann man welchen nimmt und häufige Bohrfehler.
+opis: Exzenterverbinder (Minifix) und Konfirmatschraube verbinden Korpusplatten im rechten Winkel. Bohrmaße, wann man welchen nimmt und häufige Bohrfehler.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 ---

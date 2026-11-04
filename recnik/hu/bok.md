@@ -1,6 +1,6 @@
 ---
 naslov: Oldal (korpuszoldal)
-opis: Az oldal a korpusz oldallapja, 18 mm-es bútorlap, amely a polcokat, pántokat és fióksíneket hordja. Az oldal méretei, furatok a 32-es rendszer szerint és a gyakori szabási hiba.
+opis: Az oldal a korpusz oldallapja, 18 mm-es bútorlap, amely a polcokat, pántokat és fióksíneket hordja. Méretek, furatok a 32-es rendszer szerint, szabási hiba.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

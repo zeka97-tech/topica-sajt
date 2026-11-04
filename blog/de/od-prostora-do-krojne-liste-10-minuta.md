@@ -1,6 +1,6 @@
 ---
 naslov: Vom Raum zur Schnittliste in 10 Minuten — Schritt für Schritt in TOPICA
-opis: Wie man in TOPICA von den Raummaßen zur Schnittliste und zum Preis einer Küche kommt: neues Projekt, erster Korpus, Schubladen, Oberzeile, Sockel und Arbeitsplatte, „Nach Maß“. Mit Screenshots und realer Zeit pro Schritt.
+opis: Von den Raummaßen zur Schnittliste und zum Preis in TOPICA: neues Projekt, erster Korpus, Schubladen, Oberzeile, Sockel, Arbeitsplatte, „Nach Maß“. Mit Zeiten.
 datum: 2026-11-04
 slika: ../slike/web/snimak-44-soba-pod-zid-1600.webp
 ---

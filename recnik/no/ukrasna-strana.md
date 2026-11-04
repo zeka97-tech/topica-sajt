@@ -1,6 +1,6 @@
 ---
 naslov: Dekkside (endeside)
-opis: Dekksiden (endesiden) er en 18 mm plate i frontens dekor som dekker den synlige skrogsiden i enden av rekken. Mål, kantlist, vanlige feil og hvordan programmet håndterer den.
+opis: Dekksiden (endesiden) er en 18 mm plate i frontens dekor som dekker den synlige skrogsiden i enden av rekken. Mål, kantlist, vanlige feil og programmet.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

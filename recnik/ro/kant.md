@@ -1,6 +1,6 @@
 ---
 naslov: Cant
-opis: Cantul este banda ABS care acoperă muchia PAL-ului: 0,45 mm pentru corp, 1 mm pentru fronturi, 2 mm pentru muchii solicitate. Ce muchii se cantuiesc și cum se calculează lungimea cantului.
+opis: Cantul este banda ABS de pe muchia PAL-ului: 0,45 mm pentru corp, 1 mm pentru fronturi, 2 mm pentru muchii solicitate. Ce muchii se cantuiesc și lungimea.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

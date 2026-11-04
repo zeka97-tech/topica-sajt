@@ -1,6 +1,6 @@
 ---
 naslov: Ce este lista de debitare și cum se citește
-opis: Lista de debitare este lista tuturor pieselor dintr-o piesă de mobilier, cu dimensiuni exacte, grosime, cant și cantitate. Cum arată, ce înseamnă „prima dimensiune = direcția fibrei“ și cum o generează TOPICA automat.
+opis: Lista de debitare este lista tuturor pieselor unei mobile, cu dimensiuni, grosime, cant și cantitate. Cum arată, „prima dimensiune = direcția fibrei”, TOPICA.
 datum: 2026-11-04
 slika: ../slike/web/snimak-33-po-meri-1600.webp
 ---

@@ -1,6 +1,6 @@
 ---
 naslov: Base forno (vano)
-opis: La base forno è una base con il vano per il forno a incasso, larga almeno 568 mm. Misure del vano, cassetto sotto, piano cottura sopra ed errori frequenti.
+opis: La base forno è una base con il vano per il forno a incasso, largo almeno 568 mm. Misure del vano, cassetto sotto, piano cottura sopra ed errori frequenti.
 datum: 2026-11-04
 slika: ../slike/web/snimak-45-kuhinja-plocice-mermer-1600.webp
 status: za-proveru

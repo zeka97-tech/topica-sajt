@@ -1,6 +1,6 @@
 ---
 naslov: Lista di taglio
-opis: La lista di taglio è l'elenco di tutti i pannelli di un mobile con misura, spessore, materiale, bordo e quantità. Le regole di misura, vena e bordo in breve.
+opis: La lista di taglio è l'elenco dei pannelli di un mobile con misura, spessore, materiale, bordo e quantità. Le regole di misura, vena e bordo in breve.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

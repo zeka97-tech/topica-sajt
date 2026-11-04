@@ -1,6 +1,6 @@
 ---
 naslov: Quanto costa una cucina su misura — come l'artigiano calcola il prezzo
-opis: Il prezzo di una cucina su misura si compone di materiale al m², bordo al metro, ferramenta al pezzo, manodopera e margine. Cosa entra nel conto, cosa si dimentica e come il programma somma dai prezzi che inserisce l'artigiano.
+opis: Il prezzo di una cucina su misura: materiale al m², bordo al metro, ferramenta al pezzo, manodopera e margine. Cosa entra, cosa si dimentica, come somma TOPICA.
 datum: 2026-11-04
 slika: ../slike/web/snimak-37-cena-1600.webp
 status: za-proveru

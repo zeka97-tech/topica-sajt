@@ -1,6 +1,6 @@
 ---
 naslov: Hoe je een keuken opmeet vóór het ontwerpen (wand, aansluitingen, apparatuur)
-opis: Wat je meet en noteert vóór het ontwerpen van een keuken op maat: wanden op drie hoogtes, plafond, raam en deur, water, afvoer, stroom en gas, apparatuur, controle van de haakse hoek. Checklist om mee te nemen en invoer in het programma.
+opis: Wat je meet en noteert vóór het ontwerpen van een keuken op maat: wanden op drie hoogtes, plafond, raam, water, afvoer, stroom, gas, apparatuur, haakse hoek.
 datum: 2026-11-04
 slika: ../slike/web/snimak-44-soba-pod-zid-1600.webp
 status: za-proveru

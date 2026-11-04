@@ -1,6 +1,6 @@
 ---
 naslov: System 32: porque é que o mobiliário europeu tem furos de 32 em 32 mm
-opis: O System 32 é uma fiada de furos Ø5 mm com passo de 32 mm, o primeiro a 37 mm da aresta da frente da ilharga. De onde vem, como dele saem prateleiras, dobradiças e corrediças e como se fura sem CNC.
+opis: O System 32 é uma fiada de furos Ø5 mm com passo de 32 mm, o primeiro a 37 mm da aresta da ilharga. De onde vem, o que dele sai e como se fura sem CNC.
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 status: za-proveru

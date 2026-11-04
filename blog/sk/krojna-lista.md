@@ -15,7 +15,7 @@ Pri plošnom nábytku (kuchyne, skrine, komody z LTD) nesie jeden riadok plánu 
 - **Dĺžka × šírka** v milimetroch, čistý rozmer hotového dielca.
 - **Hrúbka**: 18 mm na korpus a dvierka, 3 mm sololit na chrbát, 8–10 mm na dná zásuviek.
 - **Materiál**: biela LTD, dekor dub, farebný sololit.
-- **Hrana**: ktoré hrany sa olepujú a akou páskou (0,45 mm na korpus, 1 alebo 2 mm na dvierka).
+- **[Hrana](../recnik/kant.html)**: ktoré hrany sa olepujú a akou páskou (0,45 mm na korpus, 1 alebo 2 mm na dvierka).
 - **Počet kusov**: dva boky, jedno dno, dve priečky.
 
 Dobrý plán je zoskupený podľa materiálu a hrúbky, pretože tak sa dosky režú: najprv všetka biela LTD 18 mm, potom dvierka, nakoniec sololit.
@@ -26,7 +26,7 @@ Pri dekoroch s kresbou (dub, orech, sonoma) záleží na tom, ako dielec na dosk
 
 ## Príklad: spodná skrinka 600 × 720 × 560
 
-Obyčajná spodná kuchynská skrinka s jednými dvierkami a jednou policou má osem dielcov. Dno sedí na bokoch (plná šírka 600), takže boky sú vysoké 702, nie 720. Hĺbka korpusu je 539, pretože z 560 sa odpočítajú dvierka (18) a chrbát (3).
+Obyčajný spodný kuchynský [korpus](../recnik/korpus.html) s jednými dvierkami a jednou policou má osem dielcov. Dno sedí na bokoch (plná šírka 600), takže boky sú vysoké 702, nie 720. Hĺbka korpusu je 539, pretože z 560 sa odpočítajú dvierka (18) a chrbát (3).
 
 | Dielec | Rozmer (mm) | Hr. | Hrana | Ks |
 |---|---|---|---|---|
@@ -46,5 +46,7 @@ V programe nárezový plán nepíšete: počíta sa zo skriniek, ktoré ste post
 ![Nárezový plán „Podľa rozmeru“ v programe TOPICA pre spodnú skrinku 600 × 720 × 560 mm: osem dielcov zoskupených podľa materiálu, s rozmerom, hrúbkou, hranou a počtom kusov](../slike/web/snimak-33-po-meri-1600.webp "Pohľad „Podľa rozmeru“ pre jednu skrinku: osem dielcov, tri materiály, 2,34 m² dosky.")
 
 Pravidlo „prvý rozmer = smer kresby“ program stráži sám: dvierka sú vždy zapísané nastojato a sololit nesie značku „bez smeru“. Keď neskôr v nastaveniach dielne zmeníte hrúbku chrbta alebo hranu dvierok, zmena prejde každým dielcom v projekte, aj tými, ktoré ste si už pozreli.
+
+Viac o tom, ktorá páska kam patrí, je v návode [Hrana: aká hrúbka kam patrí](./kant-debljina-i-duzina.html) a o rozmiestnení otvorov v [System 32](./sistem-32.html).
 
 Nárezový plán nie je zložitý. Zložité je urobiť ho správne zakaždým, pre každú skrinku, po tom, čo si zákazník trikrát rozmyslel, čo chce. Na to je program.

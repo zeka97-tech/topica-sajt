@@ -1,6 +1,6 @@
 ---
 naslov: Gola profil (bezúchytkový systém)
-opis: Gola profil je hliníkový C alebo L profil zabudovaný do korpusu namiesto úchytky. Čo sa mení na čele, boku a drezovej skrinke, časté chyby a ako program profil vedie.
+opis: Gola profil je hliníkový C alebo L profil v korpuse namiesto úchytky. Čo sa mení na čele, boku a drezovej skrinke, časté chyby a ako ho program vedie.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 status: za-proveru

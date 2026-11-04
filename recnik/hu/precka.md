@@ -1,6 +1,6 @@
 ---
 naslov: Heveder
-opis: A heveder 18 mm-es bútorlapból készült, 100 mm magas összekötő léc, amely az alsó elemeknél a tetőlapot helyettesíti: távtartja az oldalakat, és felveszi a munkalap csavarjait.
+opis: A heveder 18 mm-es, 100 mm magas összekötő léc, amely az alsó elemeknél a tetőlapot helyettesíti: távtartja az oldalakat, és felveszi a munkalap csavarjait.
 datum: 2026-11-04
 slika: ../slike/web/snimak-14-sudopera-1600.webp
 status: za-proveru

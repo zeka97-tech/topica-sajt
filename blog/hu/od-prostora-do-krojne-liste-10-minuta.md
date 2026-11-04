@@ -1,6 +1,6 @@
 ---
 naslov: A helyiségtől a szabásjegyzékig 10 perc alatt — lépésről lépésre a TOPICA-ban
-opis: Hogyan jutsz a TOPICA programban a helyiség méreteitől a konyha szabásjegyzékéig és áráig: új projekt, első korpusz, fiókok, felső sor, lábazat és munkalap, „Méret szerint”. Képernyőképekkel és valós idővel lépésenként.
+opis: A helyiség méreteitől a szabásjegyzékig és az árig a TOPICA-ban: új projekt, első korpusz, fiókok, felső sor, lábazat és munkalap, „Méret szerint”. Lépésenként.
 datum: 2026-11-04
 slika: ../slike/web/snimak-44-soba-pod-zid-1600.webp
 status: za-proveru

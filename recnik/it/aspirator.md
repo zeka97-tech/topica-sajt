@@ -1,6 +1,6 @@
 ---
 naslov: Cappa (mobile e altezza di montaggio)
-opis: La cappa è l'apparecchio sopra il piano cottura; il mobile cappa è un pensile accorciato. Altezza di montaggio 650 mm elettrico / 750 mm gas, larghezze, tubo ed errori.
+opis: Cappa: l'apparecchio sopra il piano cottura; il mobile cappa è un pensile accorciato. Altezza di montaggio 650 mm elettrico / 750 mm gas, larghezze, tubo.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

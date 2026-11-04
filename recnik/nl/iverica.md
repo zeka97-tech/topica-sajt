@@ -1,6 +1,6 @@
 ---
 naslov: Spaanplaat 18 mm
-opis: Spaanplaat 18 mm (gemelamineerd) is de basisplaat van plaatmeubelen. Diktes, gebruikelijke plaatmaten, zagen en veelgemaakte fouten bij het berekenen van materiaal.
+opis: Spaanplaat 18 mm (gemelamineerd) is de basisplaat van plaatmeubelen. Diktes, gebruikelijke plaatmaten.
 datum: 2026-11-04
 slika: ../slike/web/snimak-46-izbliza-front-1600.webp
 status: za-proveru

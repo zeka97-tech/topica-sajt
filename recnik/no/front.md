@@ -1,6 +1,6 @@
 ---
 naslov: Front
-opis: Fronten er dørene og skuffefrontene, skapets synlige side i 18 mm sponplate med 1 eller 2 mm kantlist. Frontmål, 3 mm spalte og hvordan den regnes ut fra skroget.
+opis: Fronten er dører og skuffefronter, skapets synlige side i 18 mm sponplate med 1 eller 2 mm kantlist. Frontmål, 3 mm spalte og utregning fra skroget.
 datum: 2026-11-04
 slika: ../slike/web/snimak-19-krupni-prikaz-1600.webp
 status: za-proveru

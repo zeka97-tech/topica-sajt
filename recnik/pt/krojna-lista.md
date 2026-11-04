@@ -1,6 +1,6 @@
 ---
 naslov: Lista de corte
-opis: A lista de corte é a relação de todas as peças de um móvel com medida, espessura, material, orla e quantidade. As regras da medida, do veio e da orla em resumo.
+opis: A lista de corte é a relação de todas as peças de um móvel com medida, espessura, material, orla e quantidade. Regras da medida, do veio e da orla em resumo.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

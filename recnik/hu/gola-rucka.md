@@ -1,6 +1,6 @@
 ---
 naslov: Gola fogantyúprofil
-opis: A Gola fogantyúprofil a korpuszba épített alumínium C vagy L profil fogantyú helyett. Mi változik a fronton, az oldalon és a mosogatós elemen, gyakori hibák és a program.
+opis: A Gola profil a korpuszba épített alumínium C vagy L fogantyúprofil. Mi változik a fronton, az oldalon és a mosogatós elemen, hibák és a program.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 status: za-proveru

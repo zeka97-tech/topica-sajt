@@ -1,6 +1,6 @@
 ---
 naslov: Frontale
-opis: I frontali sono le ante e i frontalini dei cassetti, la parte a vista del mobile in nobilitato 18 mm con bordo 1 o 2 mm. Misure del frontale, gioco di 3 mm e come si calcola dalla carcassa.
+opis: I frontali sono ante e frontalini dei cassetti, la parte a vista in nobilitato 18 mm con bordo 1 o 2 mm. Misure, gioco di 3 mm e calcolo dalla carcassa.
 datum: 2026-11-04
 slika: ../slike/web/snimak-19-krupni-prikaz-1600.webp
 status: za-proveru

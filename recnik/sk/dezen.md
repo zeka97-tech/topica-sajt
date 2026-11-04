@@ -1,6 +1,6 @@
 ---
 naslov: Dekor a smer kresby
-opis: Dekor je vzor a farba laminovanej drevotriesky, smer kresby je smer letokruhov. Pravidlo „prvý rozmer = smer kresby“, čelá nastojato a kde sa najčastejšie chybuje.
+opis: Dekor je vzor a farba LTD, smer kresby je smer letokruhov. Pravidlo „prvý rozmer = smer kresby“, čelá nastojato a kde sa najčastejšie chybuje.
 datum: 2026-11-04
 slika: ../slike/web/snimak-47-svoj-dezen-1600.webp
 status: za-proveru

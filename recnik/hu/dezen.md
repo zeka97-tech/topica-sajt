@@ -1,6 +1,6 @@
 ---
 naslov: Dekor (minta) és szálirány
-opis: A dekor a laminált bútorlap mintája és színe, a szálirány pedig a minta futása. Az „első méret = szálirány” szabály, frontok állva, és hol hibáznak a leggyakrabban.
+opis: A dekor a laminált bútorlap mintája és színe, a szálirány a minta futása. Az „első méret = szálirány” szabály, frontok állva, és hol hibáznak leggyakrabban.
 datum: 2026-11-04
 slika: ../slike/web/snimak-47-svoj-dezen-1600.webp
 status: za-proveru

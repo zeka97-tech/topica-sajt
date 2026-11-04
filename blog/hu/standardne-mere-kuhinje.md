@@ -1,6 +1,6 @@
 ---
 naslov: Konyhaelemek szabványos méretei
-opis: A méretre készülő konyha szabványos méreteinek táblázata: alsó és felső elemek, magas elemek, munkalap, lábazat, távolság a felsőkig, szélességek. A TOPICA program alapértelmezett értékei, és mikor térj el tőlük.
+opis: Szabványos konyhaméretek táblázata: alsó, felső és magas elemek, munkalap, lábazat, távolság a felsőkig, szélességek. A TOPICA alapértékei, és mikor térj el.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

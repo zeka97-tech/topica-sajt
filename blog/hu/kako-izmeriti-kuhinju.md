@@ -1,6 +1,6 @@
 ---
 naslov: Hogyan mérj fel egy konyhát a tervezés előtt (fal, gépészet, készülékek)
-opis: Mit mérnek és jegyeznek fel a méretre készülő konyha tervezése előtt: falak három magasságban, mennyezet, ablak és ajtó, víz, lefolyó, áram és gáz, készülékek, derékszög ellenőrzése. Lista magaddal és bevitel a programba.
+opis: Mit mérsz fel a konyha tervezése előtt: falak három magasságban, mennyezet, ablak, ajtó, víz, lefolyó, áram, gáz, készülékek, derékszög. Lista és bevitel.
 datum: 2026-11-04
 slika: ../slike/web/snimak-44-soba-pod-zid-1600.webp
 status: za-proveru

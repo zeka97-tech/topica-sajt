@@ -1,6 +1,6 @@
 ---
 naslov: Întrebările tâmplarilor despre programul pentru bucătării și listă de debitare
-opis: Douăzeci de întrebări adevărate pe care meseriașii le pun despre programul pentru bucătării, dulapuri și listă de debitare: preț, Windows, internet, feronerie, cant, CNC, plăci, instalare. Răspunsuri scurte și sincere.
+opis: Douăzeci de întrebări adevărate ale meseriașilor despre programul pentru bucătării, dulapuri și listă de debitare: preț, Windows, internet, feronerie, CNC.
 datum: 2026-11-04
 slika: ../slike/web/snimak-33-po-meri-1600.webp
 tip: pitanja

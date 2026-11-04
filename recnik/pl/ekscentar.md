@@ -1,6 +1,6 @@
 ---
 naslov: Złącze mimośrodowe (minifix) i konfirmat
-opis: Złącze mimośrodowe (minifix) i konfirmat to okucia do łączenia płyt korpusu pod kątem prostym. Wymiary otworów, kiedy które wybrać i częste błędy przy wierceniu.
+opis: Złącze mimośrodowe (minifix) i konfirmat to okucia do łączenia płyt korpusu pod kątem prostym. Wymiary otworów, kiedy które wybrać i błędy wiercenia.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

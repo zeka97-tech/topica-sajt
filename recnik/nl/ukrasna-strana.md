@@ -1,6 +1,6 @@
 ---
 naslov: Afdekwang (eindpaneel)
-opis: De afdekwang (eindpaneel) is een plaat van 18 mm in het decor van het front die de zichtbare zijwand aan het eind van de rij afdekt. Maten, kantenband, veelgemaakte fouten en hoe het programma hem bijhoudt.
+opis: De afdekwang (eindpaneel) is een plaat van 18 mm in het frontdecor die de zichtbare zijwand aan het eind van de rij afdekt. Maten, kantenband, fouten.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

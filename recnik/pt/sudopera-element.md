@@ -1,6 +1,6 @@
 ---
 naslov: Módulo de lava-loiça
-opis: O módulo de lava-loiça é um corpo inferior de cozinha sem travessa de trás, com lugar para o sifão e recorte na bancada pelo gabarito. Larguras, travessas e erros frequentes.
+opis: O módulo de lava-loiça é um corpo inferior sem travessa de trás, com lugar para o sifão e recorte na bancada pelo gabarito. Larguras, travessas e erros.
 datum: 2026-11-04
 slika: ../slike/web/snimak-14-sudopera-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Program na návrh kuchýň na mieru
-opis: Program na návrh kuchýň na mieru pre stolárov: nakreslíte miestnosť, rozmiestnite korpusy z katalógu a program dá 3D, nárezový plán na milimeter, kovanie a cenu. Windows, bez internetu.
+opis: Program na návrh kuchýň na mieru pre stolárov: nakreslíte miestnosť, rozmiestnite korpusy z katalógu a program dá 3D, nárezový plán, kovanie a cenu. Offline.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

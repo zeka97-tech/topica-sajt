@@ -1,6 +1,6 @@
 ---
 naslov: Ako zamerať kuchyňu pred návrhom (stena, rozvody, spotrebiče)
-opis: Čo sa meria a zapisuje pred návrhom kuchyne na mieru: steny v troch výškach, strop, okno a dvere, voda, odpad, elektrina a plyn, spotrebiče, kontrola pravého uhla. Zoznam so sebou a zadanie do programu.
+opis: Čo merať pred návrhom kuchyne na mieru: steny v troch výškach, strop, okno a dvere, voda, odpad, elektrina, plyn, spotrebiče, pravý uhol a zadanie do programu.
 datum: 2026-11-04
 slika: ../slike/web/snimak-44-soba-pod-zid-1600.webp
 status: za-proveru

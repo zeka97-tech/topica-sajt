@@ -1,6 +1,6 @@
 ---
 naslov: Program pentru bucătării la comandă
-opis: Program pentru bucătării la comandă pentru tâmplari: desenezi camera, așezi corpurile din catalog, iar programul dă 3D, lista de debitare la milimetru, feroneria și prețul. Windows, fără internet.
+opis: Program pentru bucătării la comandă pentru tâmplari: desenezi camera, așezi corpurile din catalog și primești 3D, listă de debitare la milimetru și preț.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

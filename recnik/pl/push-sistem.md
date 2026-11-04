@@ -1,6 +1,6 @@
 ---
 naslov: System push (push-to-open)
-opis: System push (push-to-open) otwiera front bez uchwytu przez naciśnięcie frontu. Zawiasy bez sprężyny, wyrzutnik w korpusie, większa szczelina frontu i częste błędy w warsztacie.
+opis: System push (push-to-open) otwiera front bez uchwytu przez naciśnięcie. Zawiasy bez sprężyny, wyrzutnik w korpusie, większa szczelina frontu i częste błędy.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

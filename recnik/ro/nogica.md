@@ -1,6 +1,6 @@
 ---
 naslov: Picior reglabil
-opis: Piciorul este piciorul reglabil din plastic al corpului inferior de bucătărie, 100 mm, 4 bucăți până la 800 mm lățime. Cum se nivelează rândul, unde se greșește și cum le numără programul.
+opis: Piciorul reglabil din plastic al corpului inferior de bucătărie, 100 mm, 4 bucăți până la 800 mm lățime. Cum se nivelează rândul și cum le numără programul.
 datum: 2026-11-04
 slika: ../slike/web/snimak-39-cokla-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Dalla stanza alla lista di taglio in 10 minuti — passo per passo in TOPICA
-opis: Come nel programma TOPICA dalle misure della stanza si arriva alla lista di taglio e al prezzo della cucina: nuovo progetto, primo mobile, cassetti, fila dei pensili, zoccolo e piano di lavoro, “Per misura”. Con schermate e tempi reali per passo.
+opis: Come in TOPICA dalle misure della stanza si arriva alla lista di taglio e al prezzo: progetto, primo mobile, cassetti, pensili, zoccolo, piano, “Per misura”.
 datum: 2026-11-04
 slika: ../slike/web/snimak-44-soba-pod-zid-1600.webp
 status: za-proveru

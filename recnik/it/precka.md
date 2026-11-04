@@ -1,6 +1,6 @@
 ---
 naslov: Traversa
-opis: La traversa è una fascia di collegamento in nobilitato 18 mm, alta 100 mm, che nelle basi sostituisce il cielo: tiene i fianchi a distanza e riceve le viti del piano di lavoro.
+opis: La traversa è una fascia di nobilitato 18 mm, alta 100 mm, che nelle basi sostituisce il cielo: tiene i fianchi a distanza e riceve le viti del piano di lavoro.
 datum: 2026-11-04
 slika: ../slike/web/snimak-14-sudopera-1600.webp
 status: za-proveru

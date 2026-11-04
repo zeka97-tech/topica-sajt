@@ -1,6 +1,6 @@
 ---
 naslov: Despărțitor
-opis: Despărțitorul este piesa verticală care împarte corpul pe lățime în două goluri. Dimensiuni, cant, balamale pe o piesă comună și de ce un corp lat cere despărțitor.
+opis: Despărțitorul este piesa verticală care împarte corpul pe lățime în două goluri. Dimensiuni, cant, balamale pe piesă comună și când corpul cere despărțitor.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

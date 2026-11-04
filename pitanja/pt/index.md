@@ -1,6 +1,6 @@
 ---
 naslov: Perguntas de marceneiros sobre o programa de cozinhas e lista de corte
-opis: Vinte perguntas reais que os marceneiros fazem sobre o programa para cozinhas, roupeiros e lista de corte: preço, Windows, internet, ferragens, orla, CNC, placas, instalação. Respostas curtas e honestas.
+opis: Vinte perguntas reais de marceneiros sobre o programa para cozinhas, roupeiros e lista de corte: preço, Windows, internet, ferragens, orla, CNC, instalação.
 datum: 2026-11-04
 slika: ../slike/web/snimak-33-po-meri-1600.webp
 tip: pitanja

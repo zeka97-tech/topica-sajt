@@ -1,6 +1,6 @@
 ---
 naslov: Decoro (finitura) e senso vena
-opis: Il decoro (finitura) è disegno e colore del nobilitato, il senso vena la direzione del disegno. La regola “prima misura = senso vena”, frontali in verticale e dove si sbaglia di più.
+opis: Il decoro (finitura) è disegno e colore del nobilitato, il senso vena la direzione del disegno. La regola “prima misura = senso vena” e dove si sbaglia.
 datum: 2026-11-04
 slika: ../slike/web/snimak-47-svoj-dezen-1600.webp
 status: za-proveru

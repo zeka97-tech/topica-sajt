@@ -1,6 +1,6 @@
 ---
 naslov: Komody i meble skrzyniowe
-opis: Program do komód, szafek RTV, regałów i innych mebli skrzyniowych na wymiar: szuflady na prowadnicach według katalogu, drzwi, półki, lista cięcia i cena. Dla stolarzy.
+opis: Program do komód, szafek RTV, regałów i mebli skrzyniowych na wymiar: szuflady na prowadnicach z katalogu, drzwi, półki, lista cięcia i cena. Dla stolarzy.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 status: za-proveru

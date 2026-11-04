@@ -1,6 +1,6 @@
 ---
 naslov: Base lavello
-opis: La base lavello è una base da cucina senza traversa posteriore, con posto per il sifone e foro nel piano di lavoro secondo la dima. Larghezze, traverse ed errori frequenti.
+opis: La base lavello è una base senza traversa posteriore, con posto per il sifone e foro nel piano secondo la dima. Larghezze, traverse ed errori frequenti.
 datum: 2026-11-04
 slika: ../slike/web/snimak-14-sudopera-1600.webp
 status: za-proveru

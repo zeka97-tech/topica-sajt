@@ -1,6 +1,6 @@
 ---
 naslov: Arbeitsplatte
-opis: Die Arbeitsplatte ist die Platte von 38 mm über den Küchenunterschränken: Tiefe 600, Überstand 20–30 mm, Höhe über dem Boden rund 858 mm. Maße, Stöße und Ausschnitte.
+opis: Die Arbeitsplatte ist die Platte von 38 mm über den Küchenunterschränken: Tiefe 600, Überstand 20–30 mm, Höhe rund 858 mm. Maße, Stöße und Ausschnitte.
 datum: 2026-11-04
 slika: ../slike/web/snimak-45-kuhinja-plocice-mermer-1600.webp
 ---

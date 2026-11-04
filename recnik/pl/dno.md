@@ -1,6 +1,6 @@
 ---
 naslov: Dno korpusu
-opis: Dno korpusu to dolna formatka szafki; w praktyce europejskiej i w programie TOPICA leży na bokach na pełną szerokość. Wymiary dna, obrzeże, nóżki i jak się je tnie.
+opis: Dno korpusu to dolna formatka szafki; w praktyce europejskiej i w programie TOPICA leży na bokach na pełną szerokość. Wymiary dna, obrzeże, nóżki i rozkrój.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

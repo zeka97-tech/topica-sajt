@@ -1,6 +1,6 @@
 ---
 naslov: Korpusz
-opis: A korpusz az elem doboza 18 mm-es bútorlapból: két oldal, fenéklap, tetőlap vagy hevederek, hátfal és polc. Szabványos méretek, összeszerelés és hogyan számolja a TOPICA.
+opis: A korpusz az elem doboza 18 mm-es bútorlapból: két oldal, fenéklap, tetőlap vagy hevederek, hátfal, polc. Szabványos méretek, összeszerelés, a TOPICA számítása.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

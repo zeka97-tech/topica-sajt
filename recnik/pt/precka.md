@@ -1,6 +1,6 @@
 ---
 naslov: Travessa
-opis: A travessa é uma régua de ligação em aglomerado de 18 mm, com 100 mm de altura, que nos módulos inferiores substitui o tampo: mantém as ilhargas afastadas e recebe os parafusos da bancada.
+opis: A travessa é uma régua de ligação em aglomerado de 18 mm, 100 mm de altura, que nos inferiores substitui o tampo: afasta as ilhargas e segura a bancada.
 datum: 2026-11-04
 slika: ../slike/web/snimak-14-sudopera-1600.webp
 status: za-proveru

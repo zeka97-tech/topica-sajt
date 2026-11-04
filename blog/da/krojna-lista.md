@@ -1,6 +1,6 @@
 ---
 naslov: Hvad en skæreliste er, og hvordan du læser den
-opis: En skæreliste er listen over hver plade i et møbel med nøjagtige mål, tykkelse, kantbånd og antal. Hvordan den ser ud, hvad »første mål = åreretning« betyder, og hvordan TOPICA laver den automatisk.
+opis: En skæreliste er listen over hver plade i et møbel med mål, tykkelse, kantbånd og antal. Hvad »første mål = åreretning« betyder, og hvordan TOPICA laver den.
 datum: 2026-11-04
 slika: ../slike/web/snimak-33-po-meri-1600.webp
 ---

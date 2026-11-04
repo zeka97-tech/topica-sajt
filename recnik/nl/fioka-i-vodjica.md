@@ -1,6 +1,6 @@
 ---
 naslov: Lade en ladegeleider
-opis: Een lade is een bak op geleiders achter het ladefront: een houten bak met 13 mm speling per kant of een metalen ladesysteem volgens de catalogus. Maten, geleiderlengtes en spelingen.
+opis: Een lade is een bak op geleiders achter het ladefront: houten bak met 13 mm speling per kant of metalen ladesysteem volgens catalogus. Maten, geleiderlengtes.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 status: za-proveru

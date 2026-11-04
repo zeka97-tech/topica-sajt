@@ -1,6 +1,6 @@
 ---
 naslov: Per installatori e chi fa tagliare da altri
-opis: Software per installatori di cucine e artigiani che fanno sezionare i pannelli al centro di taglio: lista di taglio “Per misura” da copiare e mandare, ferramenta al pezzo, progetto in un solo file. Windows.
+opis: Software per installatori di cucine e chi fa tagliare al centro di taglio: lista “Per misura” da copiare e mandare, ferramenta al pezzo, progetto in un file.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Ladekasten en kastmeubelen
-opis: Software voor ladekasten, tv-meubels, open kasten en ander kastmeubilair op maat: lades op geleiders volgens de catalogus, deuren, legborden, zaaglijst en prijs. Voor meubelmakers.
+opis: Software voor ladekasten, tv-meubels, open kasten en ander kastmeubilair op maat: lades volgens de catalogus, deuren, legborden, zaaglijst en prijs.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 status: za-proveru

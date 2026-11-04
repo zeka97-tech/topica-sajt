@@ -1,6 +1,6 @@
 ---
 naslov: Corp de chiuvetă
-opis: Corpul de chiuvetă este un corp inferior de bucătărie fără traversa din spate, cu loc pentru sifon și decupaj în blat după șablon. Lățimi, traverse și greșeli frecvente.
+opis: Corpul de chiuvetă este un corp inferior fără traversa din spate, cu loc pentru sifon și decupaj în blat după șablon. Lățimi, traverse și greșeli frecvente.
 datum: 2026-11-04
 slika: ../slike/web/snimak-14-sudopera-1600.webp
 status: za-proveru

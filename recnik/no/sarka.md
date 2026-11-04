@@ -1,6 +1,6 @@
 ---
 naslov: Hengsel
-opis: Møbelhengsel med kopp Ø35 mm: rett, halvt utenpåliggende og innenforliggende (overdekning 18/9/0), boring, plassering etter System 32 og antall hengsler etter fronthøyden.
+opis: Møbelhengsel med kopp Ø35 mm: rett, halvt utenpåliggende og innenforliggende (overdekning 18/9/0), boring, plassering etter System 32 og antall etter høyden.
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Program pentru dulapuri la comandă
-opis: Program pentru dulapuri la comandă pentru tâmplari: corp de 600 adâncime, uși batante cu balamale după înălțime, polițe și sertare pe sistem 32, listă de debitare și preț. Windows, fără internet.
+opis: Program pentru dulapuri la comandă pentru tâmplari: corp de 600 adâncime, uși batante cu balamale după înălțime, polițe și sertare pe sistem 32, preț.
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 status: za-proveru

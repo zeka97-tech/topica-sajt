@@ -1,6 +1,6 @@
 ---
 naslov: Prateleira
-opis: A prateleira é a peça amovível do corpo sobre quatro suportes segundo o System 32. Medidas da prateleira, recuo, orla de 0,45 mm e passo de 32 mm dos furos na ilharga.
+opis: A prateleira é a peça amovível do corpo sobre quatro suportes System 32. Medidas, recuo, orla de 0,45 mm e passo de 32 mm dos furos na ilharga.
 datum: 2026-11-04
 slika: ../slike/web/snimak-19-krupni-prikaz-1600.webp
 status: za-proveru

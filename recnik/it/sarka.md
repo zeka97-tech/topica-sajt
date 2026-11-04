@@ -1,6 +1,6 @@
 ---
 naslov: Cerniera
-opis: Cerniera per mobili con tazza Ø35 mm: collo dritto, mezzo collo e collo alto (sormonto 18/9/0), foratura, posizione a System 32 e numero di cerniere per altezza del frontale.
+opis: Cerniera a tazza Ø35 mm: collo dritto, mezzo collo e collo alto (sormonto 18/9/0), foratura, posizione a System 32 e numero di cerniere per altezza.
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Le domande dei falegnami sul software per cucine e liste di taglio
-opis: Venti domande vere che gli artigiani fanno su un software per cucine, armadi e liste di taglio: prezzo, Windows, internet, ferramenta, bordo, CNC, pannelli, installazione. Risposte brevi e oneste.
+opis: Venti domande vere dei falegnami su un software per cucine, armadi e liste di taglio: prezzo, Windows, internet, ferramenta, bordo, CNC, pannelli.
 datum: 2026-11-04
 slika: ../slike/web/snimak-33-po-meri-1600.webp
 tip: pitanja

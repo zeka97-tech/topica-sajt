@@ -1,6 +1,6 @@
 ---
 naslov: Fragen von Tischlern zur Küchenplaner- und Schnittlisten-Software
-opis: Zwanzig echte Fragen, die Handwerker zur Software für Küchen, Schränke und Schnittliste stellen: Preis, Windows, Internet, Beschläge, Kante, CNC, Platten, Installation. Kurze, ehrliche Antworten.
+opis: Zwanzig echte Fragen von Handwerkern zur Software für Küchen, Schränke und Schnittliste: Preis, Windows, Internet, Beschläge, Kante, CNC, Platten. Ehrlich beant
 datum: 2026-11-04
 slika: ../slike/web/snimak-33-po-meri-1600.webp
 tip: pitanja

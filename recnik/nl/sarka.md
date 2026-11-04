@@ -1,6 +1,6 @@
 ---
 naslov: Scharnier
-opis: Potscharnier voor meubelen met pot Ø35 mm: opliggend, half opliggend en inliggend (opdek 18/9/0), boren, positie volgens System 32 en aantal scharnieren per fronthoogte.
+opis: Potscharnier met pot Ø35 mm: opliggend, half opliggend en inliggend (opdek 18/9/0), boren, positie volgens System 32 en aantal scharnieren per fronthoogte.
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 status: za-proveru

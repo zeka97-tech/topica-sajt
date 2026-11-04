@@ -1,6 +1,6 @@
 ---
 naslov: Traversă
-opis: Traversa este o șipcă de legătură din PAL de 18 mm, înaltă de 100 mm, care la corpurile inferioare înlocuiește capacul: ține lateralele la distanță și primește șuruburile blatului.
+opis: Traversa este o șipcă de legătură din PAL de 18 mm, înaltă de 100 mm, care la corpurile inferioare înlocuiește capacul și primește șuruburile blatului.
 datum: 2026-11-04
 slika: ../slike/web/snimak-14-sudopera-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Cât costă o bucătărie la comandă — cum calculează meseriașul prețul
-opis: Prețul unei bucătării la comandă se compune din material pe m², cant pe metru, feronerie pe bucată, manoperă și adaos. Ce intră în calcul, ce se uită și cum adună programul din prețurile introduse de meseriaș.
+opis: Prețul unei bucătării la comandă: material pe m², cant pe metru, feronerie pe bucată, manoperă și adaos. Ce intră în calcul, ce se uită și cum adună programul.
 datum: 2026-11-04
 slika: ../slike/web/snimak-37-cena-1600.webp
 status: za-proveru

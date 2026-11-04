@@ -1,6 +1,6 @@
 ---
 naslov: Obrzeże: jaka grubość gdzie idzie (0,45 / 1 / 2 mm) i jak liczyć długość
-opis: Obrzeże 0,45 mm idzie na korpus, 1 mm na fronty, 2 mm na mocniej obciążone krawędzie. Co znaczy wymiar netto po oklejeniu i jak liczy się długość taśmy z 10 % odpadu, na przykładzie korpusu 600 × 720 × 560.
+opis: Obrzeże 0,45 mm na korpus, 1 mm na fronty, 2 mm na obciążone krawędzie. Co znaczy wymiar netto po oklejeniu i jak liczyć długość taśmy z 10 % odpadu.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

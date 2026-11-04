@@ -1,6 +1,6 @@
 ---
 naslov: Fondo della carcassa
-opis: Il fondo è il pannello inferiore del mobile; nella pratica europea e nel programma TOPICA passa sopra i fianchi a tutta larghezza. Misure del fondo, bordo, piedini e come si taglia.
+opis: Il fondo è il pannello inferiore del mobile; in TOPICA e nella pratica europea passa sopra i fianchi a tutta larghezza. Misure, bordo, piedini e taglio.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

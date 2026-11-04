@@ -1,6 +1,6 @@
 ---
 naslov: Sistem 32: de ce mobilierul european are găuri la 32 mm
-opis: Sistemul 32 este un șir de găuri Ø5 mm la pas de 32 mm, prima la 37 mm de muchia din față a lateralei. De unde vine, cum se iau din el polițele, balamalele și glisierele și cum se găurește fără CNC.
+opis: Sistemul 32: șir de găuri Ø5 mm la pas de 32 mm, prima la 37 mm de muchia din față. De unde vine, cum ies din el polițe, balamale și glisiere, fără CNC.
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 status: za-proveru

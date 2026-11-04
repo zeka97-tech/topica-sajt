@@ -1,6 +1,6 @@
 ---
 naslov: Fra rummet til skærelisten på 10 minutter, trin for trin i TOPICA
-opis: Sådan kommer man i programmet TOPICA fra rummets mål til skæreliste og pris på et køkken: nyt projekt, første korpus, skuffer, overrække, sokkel og bordplade, »Efter mål«. Med skærmbilleder og realistisk tid pr. trin.
+opis: Fra rummets mål til skæreliste og pris på et køkken i TOPICA: nyt projekt, første korpus, skuffer, overrække, sokkel og bordplade, »Efter mål«. Med tid pr. trin
 datum: 2026-11-04
 slika: ../slike/web/snimak-44-soba-pod-zid-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Oberboden
-opis: Der Oberboden ist die obere Platte des Korpus bei Oberschränken und Kleiderschränken; Küchenunterschränke haben statt des Oberbodens zwei Traversen von 100 mm. Maße und Gründe.
+opis: Der Oberboden ist die obere Platte des Korpus bei Ober- und Kleiderschränken; Küchenunterschränke haben stattdessen zwei Traversen von 100 mm. Maße und Gründe.
 datum: 2026-11-04
 slika: ../slike/web/snimak-19-krupni-prikaz-1600.webp
 ---

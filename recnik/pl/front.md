@@ -1,6 +1,6 @@
 ---
 naslov: Front
-opis: Front to drzwi i czoła szuflad, widoczna strona szafki z płyty wiórowej 18 mm z obrzeżem 1 lub 2 mm. Wymiary frontu, szczelina 3 mm i jak liczy się go z korpusu.
+opis: Front to drzwi i czoła szuflad, widoczna strona szafki z płyty 18 mm z obrzeżem 1 lub 2 mm. Wymiary frontu, szczelina 3 mm i jak liczy się go z korpusu.
 datum: 2026-11-04
 slika: ../slike/web/snimak-19-krupni-prikaz-1600.webp
 status: za-proveru

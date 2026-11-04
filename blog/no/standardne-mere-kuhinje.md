@@ -1,6 +1,6 @@
 ---
 naslov: Standardmål for kjøkkenskap
-opis: Tabell over standardmål for kjøkken etter mål: benkeskap og veggskap, høyskap, benkeplate, sokkel, avstand til veggskap, bredder. Standardverdiene i TOPICA og når du bør fravike dem.
+opis: Standardmål for kjøkken i tabell: benkeskap, veggskap, høyskap, benkeplate, sokkel, avstand til veggskap, bredder. Standardverdier i TOPICA og når du fraviker.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

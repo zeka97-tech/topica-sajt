@@ -1,6 +1,6 @@
 ---
 naslov: Program do projektowania szaf na wymiar
-opis: Program do projektowania szaf na wymiar dla stolarzy: korpus głębokości 600, drzwi uchylne z zawiasami według wysokości, półki i szuflady w Systemie 32, lista cięcia i cena. Windows, bez internetu.
+opis: Program do projektowania szaf na wymiar dla stolarzy: korpus 600 głębokości, drzwi z zawiasami według wysokości, półki i szuflady w Systemie 32, lista cięcia.
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 status: za-proveru

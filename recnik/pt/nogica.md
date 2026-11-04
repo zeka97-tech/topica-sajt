@@ -1,6 +1,6 @@
 ---
 naslov: Pé regulável
-opis: O pé é a perna de plástico regulável do módulo inferior de cozinha, 100 mm, 4 unidades até 800 mm de largura. Como se nivela a fila, onde se erra e como o programa os conta.
+opis: Pé regulável do módulo inferior de cozinha: 100 mm, 4 unidades até 800 mm de largura. Como se nivela a fila, onde se erra e como o programa os conta.
 datum: 2026-11-04
 slika: ../slike/web/snimak-39-cokla-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Cum se măsoară bucătăria înainte de proiectare (perete, instalații, aparate)
-opis: Ce se măsoară și se notează înainte de proiectarea unei bucătării la comandă: pereții la trei înălțimi, tavanul, fereastra și ușa, apa, scurgerea, curentul și gazul, aparatele, verificarea unghiului drept. Listă de luat cu tine și introducerea în program.
+opis: Ce se măsoară înainte de proiectarea unei bucătării la comandă: pereți la trei înălțimi, tavan, fereastră, apă, scurgere, curent, gaz, aparate, unghi drept.
 datum: 2026-11-04
 slika: ../slike/web/snimak-44-soba-pod-zid-1600.webp
 status: za-proveru

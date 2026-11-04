@@ -1,6 +1,6 @@
 ---
 naslov: Dobradiça
-opis: Dobradiça de móvel com caneco Ø35 mm: reta, curva e supercurva (sobreposição 18/9/0), furação, posição segundo o System 32 e número de dobradiças pela altura da frente.
+opis: Dobradiça de caneco Ø35 mm: reta, curva e supercurva (sobreposição 18/9/0), furação, posição System 32 e número de dobradiças pela altura da frente.
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Orla
-opis: A orla é a fita ABS que cobre a aresta do aglomerado: 0,45 mm no corpo, 1 mm nas frentes, 2 mm nas arestas mais solicitadas. Que arestas se orlam e como se calcula o comprimento da orla.
+opis: A orla é a fita ABS que cobre a aresta do aglomerado: 0,45 mm no corpo, 1 mm nas frentes, 2 mm nas arestas fortes. Que arestas se orlam e como se calcula.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

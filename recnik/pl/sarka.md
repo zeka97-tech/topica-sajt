@@ -1,6 +1,6 @@
 ---
 naslov: Zawias
-opis: Zawias meblowy puszkowy Ø35 mm: prosty, półnakładany i wpuszczany (nałożenie 18/9/0), wiercenie, położenie w Systemie 32 i liczba zawiasów według wysokości frontu.
+opis: Zawias puszkowy Ø35 mm: prosty, półnakładany i wpuszczany (nałożenie 18/9/0), wiercenie, położenie w Systemie 32 i liczba zawiasów według wysokości frontu.
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 status: za-proveru

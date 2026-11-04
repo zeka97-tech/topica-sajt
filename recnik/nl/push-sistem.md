@@ -1,6 +1,6 @@
 ---
 naslov: Push-to-open
-opis: Push-to-open opent een greeploos front door erop te drukken. Scharnieren zonder veer, een drukker in de romp, grotere voeg en veelgemaakte fouten in de werkplaats.
+opis: Push-to-open opent een greeploos front door erop te drukken. Scharnieren zonder veer, drukker in de romp, grotere voeg en veelgemaakte fouten in de werkplaats.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

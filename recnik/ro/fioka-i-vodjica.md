@@ -1,6 +1,6 @@
 ---
 naslov: Sertar și glisieră
-opis: Sertarul este o cutie pe glisiere în spatele frontului: cutie de lemn cu joc de 13 mm pe parte sau cutie metalică după catalog. Dimensiuni, lungimi de glisiere și jocuri.
+opis: Sertarul este o cutie pe glisiere în spatele frontului: cutie de lemn cu joc de 13 mm pe parte sau cutie metalică după catalog. Dimensiuni, lungimi și jocuri.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 status: za-proveru
