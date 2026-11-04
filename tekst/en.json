@@ -1,5 +1,9 @@
 {
-  "_jezik": { "ime": "English", "status": "pun", "proverio": "" },
+  "_jezik": {
+    "ime": "English",
+    "status": "pun",
+    "proverio": ""
+  },
   "meta": {
     "naslov": "TOPICA — cabinet design software with cut lists, built for cabinet makers",
     "opis": "TOPICA is kitchen design software for cabinet makers on Windows: draw the room, place cabinets from the catalog, and get 3D, a millimetre-exact cut list, hardware and price. Free trial.",
@@ -8,9 +12,26 @@
     "og_alt": "Topi the mascot measuring a cabinet next to the words TOPICA — from the room to the cut list",
     "ld_opis": "Windows software for designing custom panel furniture (kitchens, wardrobes, cabinets) for joinery workshops: room in 3D, catalog cabinets built to the European standard, millimetre-exact cut list, hardware and price."
   },
-  "a11y": { "preskoci": "Skip to content", "logo": "TOPICA, home page", "navigacija": "Main navigation", "jezik": "Choose language", "meni": "Menu" },
-  "nav": { "kako": "How it works", "mogucnosti": "Features", "galerija": "Gallery", "cena": "Pricing", "pitanja": "FAQ", "blog": "Guides", "preuzimanje": "Download" },
-  "cta": { "glavno": "Download the free trial", "kratko": "Download" },
+  "a11y": {
+    "preskoci": "Skip to content",
+    "logo": "TOPICA, home page",
+    "navigacija": "Main navigation",
+    "jezik": "Choose language",
+    "meni": "Menu"
+  },
+  "nav": {
+    "kako": "How it works",
+    "mogucnosti": "Features",
+    "galerija": "Gallery",
+    "cena": "Pricing",
+    "pitanja": "FAQ",
+    "blog": "Guides",
+    "preuzimanje": "Download"
+  },
+  "cta": {
+    "glavno": "Download the free trial",
+    "kratko": "Download"
+  },
   "jezik": {
     "napomena_program": "The program is currently available in Serbian and English. This language is coming.",
     "predlog_tekst": "This page is also available in English.",
@@ -26,16 +47,37 @@
   },
   "cinjenice": {
     "naslov": "Why software for cabinet makers, not a drawing tool",
-    "1": { "naslov": "Millimetre-exact", "tekst": "Every panel gets its exact size from the real cabinet construction, not from a sketch by eye." },
-    "2": { "naslov": "European standard, System 32", "tekst": "Frameless carcass, edge banding, 35 mm cup hinges, drawers and plinth from the catalog. Nothing to set up again." },
-    "3": { "naslov": "Cut list ready to copy", "tekst": "Same sizes on one line, grouped by material. Copy it and send it to the panel saw." }
+    "1": {
+      "naslov": "Millimetre-exact",
+      "tekst": "Every panel gets its exact size from the real cabinet construction, not from a sketch by eye."
+    },
+    "2": {
+      "naslov": "European standard, System 32",
+      "tekst": "Frameless carcass, edge banding, 35 mm cup hinges, drawers and plinth from the catalog. Nothing to set up again."
+    },
+    "3": {
+      "naslov": "Cut list ready to copy",
+      "tekst": "Same sizes on one line, grouped by material. Copy it and send it to the panel saw."
+    }
   },
   "kako": {
     "nadnaslov": "How it works",
     "naslov": "Three steps to a cut list.",
-    "1": { "naslov": "Draw the room", "tekst": "Enter the walls, ceiling height, window and services. The room is in 3D right away, with the floor and walls your customer actually has.", "alt": "TOPICA, step 1: a 3600 × 3000 mm room with floor and wall choices, grey laminate and tiles behind the kitchen" },
-    "2": { "naslov": "Place cabinets from the catalog", "tekst": "Base, wall, tall, sink, oven, corner. They snap to the wall and to the neighbour, and you change sizes live, to the millimetre.", "alt": "TOPICA, step 2: a 600 × 720 × 560 mm base cabinet with a door against the wall, with dimensions to the neighbour and the properties panel" },
-    "3": { "naslov": "Read the cut list and the price", "tekst": "The program knows the construction: sides, bottom, rails, back, front. Cut list, hardware and price are always current, with no “recalculate” button.", "alt": "TOPICA, step 3: the “By size” cut list for one cabinet, 8 panels grouped by material with size, thickness, edging and price" }
+    "1": {
+      "naslov": "Draw the room",
+      "tekst": "Enter the walls, ceiling height, window and services. The room is in 3D right away, with the floor and walls your customer actually has.",
+      "alt": "TOPICA, step 1: a 3600 × 3000 mm room with floor and wall choices, grey laminate and tiles behind the kitchen"
+    },
+    "2": {
+      "naslov": "Place cabinets from the catalog",
+      "tekst": "Base, wall, tall, sink, oven, corner. They snap to the wall and to the neighbour, and you change sizes live, to the millimetre.",
+      "alt": "TOPICA, step 2: a 600 × 720 × 560 mm base cabinet with a door against the wall, with dimensions to the neighbour and the properties panel"
+    },
+    "3": {
+      "naslov": "Read the cut list and the price",
+      "tekst": "The program knows the construction: sides, bottom, rails, back, front. Cut list, hardware and price are always current, with no “recalculate” button.",
+      "alt": "TOPICA, step 3: the “By size” cut list for one cabinet, 8 panels grouped by material with size, thickness, edging and price"
+    }
   },
   "korpus": {
     "naslov": "One cabinet. Every panel to the millimetre.",
@@ -45,7 +87,14 @@
       "3": "The panels lie down on the sheet as a cutting plan: white chipboard, oak decor, hardboard.",
       "4": "And the “By size” cut list is ready to copy and send to the panel saw."
     },
-    "daska": { "bok": "Side", "dno": "Bottom", "polica": "Shelf", "precka": "Rail", "front": "Front", "ledja": "Back" },
+    "daska": {
+      "bok": "Side",
+      "dno": "Bottom",
+      "polica": "Shelf",
+      "precka": "Rail",
+      "front": "Front",
+      "ledja": "Back"
+    },
     "noscript_alt": "TOPICA, “By size” cut list for a 600 × 720 × 560 mm base cabinet",
     "posle": "The program does this for every cabinet in the kitchen the moment you set it against the wall."
   },
@@ -58,23 +107,74 @@
     "nadnaslov": "Features",
     "naslov": "Furniture design software that knows joinery.",
     "tekst": "Kitchens, fitted wardrobes and cabinets. You decide sizes and decors; the program does the construction and the maths.",
-    "1": { "naslov": "Millimetre-exact sizes", "tekst": "Type width, height and depth or drag the slider. Dimensions to the wall, to the neighbour and from the floor are always visible.", "alt": "A cabinet in 3D with dimensions 600, 720 and 560 mm and markers to the wall, to the neighbour and from the floor" },
-    "2": { "naslov": "Catalog built to the standard", "tekst": "Every cabinet type comes with construction to the European standard, System 32.", "s1": "Base, wall, tall", "s2": "Sink and oven", "s3": "Corner and wardrobe", "s4": "Drawers, hinges, legs" },
-    "3": { "naslov": "“By size” for copying", "tekst": "Same sizes on one line, by material. The first dimension is the grain direction.", "k1": "Size · mm", "k2": "Thk.", "k3": "Edging", "k4": "Qty", "r1": "1 long", "r3": "2 long, 2 short" },
-    "4": { "naslov": "Real decors and live 3D", "tekst": "Oak, white, marble or your own decor from a photo. Whatever you change, you see at once, in a 3D kitchen design your customer understands." },
-    "5": { "naslov": "Plinth, worktop and end panels, automatically", "tekst": "They are built over the selected cabinets and travel with them when you move them." },
-    "6": { "naslov": "Price per project", "tekst": "Enter your own prices for boards, edging, hardware and labour. The program adds it up per project; you make the quote.", "alt": "Workshop settings: labour per unit 3000 RSD, margin 20 %" },
-    "7": { "naslov": "No internet, no account", "tekst": "A project is one file on your computer. E-mail it to a colleague." }
+    "1": {
+      "naslov": "Millimetre-exact sizes",
+      "tekst": "Type width, height and depth or drag the slider. Dimensions to the wall, to the neighbour and from the floor are always visible.",
+      "alt": "A cabinet in 3D with dimensions 600, 720 and 560 mm and markers to the wall, to the neighbour and from the floor"
+    },
+    "2": {
+      "naslov": "Catalog built to the standard",
+      "tekst": "Every cabinet type comes with construction to the European standard, System 32.",
+      "s1": "Base, wall, tall",
+      "s2": "Sink and oven",
+      "s3": "Corner and wardrobe",
+      "s4": "Drawers, hinges, legs"
+    },
+    "3": {
+      "naslov": "“By size” for copying",
+      "tekst": "Same sizes on one line, by material. The first dimension is the grain direction.",
+      "k1": "Size · mm",
+      "k2": "Thk.",
+      "k3": "Edging",
+      "k4": "Qty",
+      "r1": "1 long",
+      "r3": "2 long, 2 short"
+    },
+    "4": {
+      "naslov": "Real decors and live 3D",
+      "tekst": "Oak, white, marble or your own decor from a photo. Whatever you change, you see at once, in a 3D kitchen design your customer understands."
+    },
+    "5": {
+      "naslov": "Plinth, worktop and end panels, automatically",
+      "tekst": "They are built over the selected cabinets and travel with them when you move them."
+    },
+    "6": {
+      "naslov": "Price per project",
+      "tekst": "Enter your own prices for boards, edging, hardware and labour. The program adds it up per project; you make the quote.",
+      "alt": "Workshop settings: labour per unit 3000 RSD, margin 20 %"
+    },
+    "7": {
+      "naslov": "No internet, no account",
+      "tekst": "A project is one file on your computer. E-mail it to a colleague."
+    }
   },
   "galerija": {
     "nadnaslov": "Gallery",
     "naslov": "3D kitchen design, straight from the program.",
-    "1": { "tekst": "A kitchen run, oak decor and white chipboard.", "alt": "A kitchen run with oak fronts, white chipboard carcasses, grey laminate floor" },
-    "2": { "tekst": "Same project, different decor: dark marble and tiles.", "alt": "The same kitchen with dark marble fronts and tiles on the wall" },
-    "3": { "tekst": "Close-up: one cabinet, sizes and construction.", "alt": "Close-up of one 600 × 720 × 570 mm cabinet with an oak door and the size panel" },
-    "4": { "tekst": "Open the fronts and look inside.", "alt": "A cabinet with an open door in 3D showing the shelf and interior, with dimensions to the wall and neighbour" },
-    "5": { "tekst": "Your own decor: add a photo of the board you actually buy.", "alt": "Front decor choices: white, grey, beige, black, wood, concrete, marble, stainless and a custom decor" },
-    "6": { "tekst": "Drawers with box and runners from the catalog.", "alt": "A base cabinet with three drawers in 3D, with the drawer and runner panel" }
+    "1": {
+      "tekst": "A kitchen run, oak decor and white chipboard.",
+      "alt": "A kitchen run with oak fronts, white chipboard carcasses, grey laminate floor"
+    },
+    "2": {
+      "tekst": "Same project, different decor: dark marble and tiles.",
+      "alt": "The same kitchen with dark marble fronts and tiles on the wall"
+    },
+    "3": {
+      "tekst": "Close-up: one cabinet, sizes and construction.",
+      "alt": "Close-up of one 600 × 720 × 570 mm cabinet with an oak door and the size panel"
+    },
+    "4": {
+      "tekst": "Open the fronts and look inside.",
+      "alt": "A cabinet with an open door in 3D showing the shelf and interior, with dimensions to the wall and neighbour"
+    },
+    "5": {
+      "tekst": "Your own decor: add a photo of the board you actually buy.",
+      "alt": "Front decor choices: white, grey, beige, black, wood, concrete, marble, stainless and a custom decor"
+    },
+    "6": {
+      "tekst": "Drawers with box and runners from the catalog.",
+      "alt": "A base cabinet with three drawers in 3D, with the drawer and runner panel"
+    }
   },
   "zakoga": {
     "nadnaslov": "Who it is for",
@@ -103,12 +203,30 @@
   "pitanja": {
     "nadnaslov": "FAQ",
     "naslov": "What cabinet makers ask before trying it.",
-    "1": { "p": "Which Windows does it run on?", "o": "Windows 10 and Windows 11, 64-bit. The program is small and fast; it runs on an ordinary workshop laptop." },
-    "2": { "p": "Do I need internet?", "o": "No. The program works offline and without an account. A project is a single file on your computer." },
-    "3": { "p": "Which boards and materials does it support?", "o": "18 mm chipboard for carcass and fronts, 0.45 and 1 mm edging, 3 mm hardboard for backs; thicknesses and edging are changed in the workshop settings. Pick a decor from the list or add your own." },
-    "4": { "p": "What do I get at the end?", "o": "A cut list per cabinet and per material, the “By size” view for copying, a hardware list, board usage, price and PDF printing." },
-    "5": { "p": "Which languages?", "o": "Serbian and English. You switch the language inside the program." },
-    "6": { "p": "Does the program get updates?", "o": "Yes. New versions come out regularly, and the trial can always be downloaded again from this page." }
+    "1": {
+      "p": "Which Windows does it run on?",
+      "o": "Windows 10 and Windows 11, 64-bit. The program is small and fast; it runs on an ordinary workshop laptop."
+    },
+    "2": {
+      "p": "Do I need internet?",
+      "o": "No. The program works offline and without an account. A project is a single file on your computer."
+    },
+    "3": {
+      "p": "Which boards and materials does it support?",
+      "o": "18 mm chipboard for carcass and fronts, 0.45 and 1 mm edging, 3 mm hardboard for backs; thicknesses and edging are changed in the workshop settings. Pick a decor from the list or add your own."
+    },
+    "4": {
+      "p": "What do I get at the end?",
+      "o": "A cut list per cabinet and per material, the “By size” view for copying, a hardware list, board usage, price and PDF printing."
+    },
+    "5": {
+      "p": "Which languages?",
+      "o": "Serbian and English. You switch the language inside the program."
+    },
+    "6": {
+      "p": "Does the program get updates?",
+      "o": "Yes. New versions come out regularly, and the trial can always be downloaded again from this page."
+    }
   },
   "dno": {
     "naslov": "Try it on your next project.",
@@ -130,9 +248,12 @@
     "direktno": "download directly",
     "predmet": "TOPICA: new trial download",
     "zahtevi_naslov": "What your computer needs",
-    "z1_naslov": "System", "z1": "Windows 10 or Windows 11, 64-bit.",
-    "z2_naslov": "Computer", "z2": "An ordinary workshop laptop is enough: 4 GB of memory and graphics that can run 3D in a browser.",
-    "z3_naslov": "Internet", "z3": "Not needed. The program works offline and creates no account.",
+    "z1_naslov": "System",
+    "z1": "Windows 10 or Windows 11, 64-bit.",
+    "z2_naslov": "Computer",
+    "z2": "An ordinary workshop laptop is enough: 4 GB of memory and graphics that can run 3D in a browser.",
+    "z3_naslov": "Internet",
+    "z3": "Not needed. The program works offline and creates no account.",
     "koraci_naslov": "Installation in three steps",
     "k1": "Double-click the downloaded file TOPICA-trial.exe.",
     "k2": "If Windows asks whether you trust the program, click “More info”, then “Run anyway”.",
@@ -163,5 +284,32 @@
     "tekst": "Short articles about things every cabinet maker does, written down once so you don't have to explain them every time.",
     "poziv": "Try this on your own project."
   },
-  "clanak": { "citanje": "min read", "objavljeno": "Published" }
+  "clanak": {
+    "citanje": "min read",
+    "objavljeno": "Published"
+  },
+  "recnik": {
+    "meta_naslov": "Cabinet making glossary: carcass, edge banding, System 32, cut list — TOPICA",
+    "meta_opis": "Short, accurate definitions of panel furniture terms with standard sizes from European practice: carcass, side, rail, edging, hinge, drawer, plinth, worktop, cam fitting, cut list.",
+    "nadnaslov": "Glossary",
+    "naslov": "Cabinet making glossary.",
+    "tekst": "One page per term: what it is, the standard sizes, and how the program handles it.",
+    "poziv": "See how the program works this out for your cabinet."
+  },
+  "namena": {
+    "meta_naslov": "Software for custom kitchens, wardrobes and cabinets — who TOPICA is for",
+    "meta_opis": "Same program, different jobs: custom kitchens, fitted wardrobes, cabinets, small workshops and installers. What TOPICA gives you in each case.",
+    "nadnaslov": "Use cases",
+    "naslov": "For each job, what the program gives you.",
+    "tekst": "Kitchens, fitted wardrobes, cabinets, small workshops and installers: the same program seen from your side of the bench.",
+    "poziv": "Try it on your next job."
+  },
+  "pitanja_strane": {
+    "meta_naslov": "Cabinet makers' questions about kitchen design and cut list software — TOPICA",
+    "meta_opis": "Twenty real questions tradesmen ask about furniture design software and cut lists, with short answers.",
+    "nadnaslov": "Questions and answers",
+    "naslov": "What cabinet makers ask.",
+    "tekst": "Short answers to real questions from the workshop.",
+    "poziv": "The best answer is a trial on your own project."
+  }
 }

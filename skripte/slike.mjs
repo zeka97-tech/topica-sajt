@@ -37,8 +37,8 @@ async function obradi(ime, ulaz, meta) {
     const w = Math.min(s, meta.width);
     const out = path.join(WEB, `${osnova}-${s}.webp`);
     const kvalitet = /^topi-/.test(osnova) ? 74 : 82; // pliš maskote je šumovit, niži kvalitet se ne vidi
-    await ulaz.clone().resize({ width: w, withoutEnlargement: true }).webp({ quality: kvalitet, effort: 5 }).toFile(out);
-    izlazi.push({ datoteka: path.basename(out), sirina: w });
+    const info = await ulaz.clone().resize({ width: w, withoutEnlargement: true }).webp({ quality: kvalitet, effort: 5 }).toFile(out);
+    izlazi.push({ datoteka: path.basename(out), sirina: info.width, visina: info.height });
   }
   return [osnova, izlazi];
 }

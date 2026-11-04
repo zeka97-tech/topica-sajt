@@ -47,6 +47,14 @@ const pisi = (kod, putanja, html) => {
   writeFileSync(p, html);
   sitemap.push({ kod, putanja });
 };
+const manifest = existsSync(path.join(KOREN, "slike", "web", "manifest.json")) ? json(path.join(KOREN, "slike", "web", "manifest.json")) : {};
+/** width/height za <img> iz manifesta (CLS), po imenu fajla. */
+const mereSlika = (html) => html.replace(/<img src="([^"]*\/slike\/web\/([^"]+?)-(400|800|1600)\.webp)" alt="([^"]*)" loading="lazy" width="1366" height="768">/g, (ceo, src, ime, w, alt) => {
+  const u = (manifest[ime] || []).find((x) => x.datoteka.endsWith(`-${w}.webp`));
+  return u && u.visina ? `<img src="${src}" alt="${alt}" loading="lazy" width="${u.sirina}" height="${u.visina}">` : ceo;
+});
+/** Parovi pitanje/odgovor iz H2 + pasusa (za FAQ JSON-LD). */
+const paroviPitanja = (html) => [...html.matchAll(/<h2[^>]*>([^<]+)<\/h2>\s*((?:<p>[\s\S]*?<\/p>\s*)+)/g)].map((m) => [m[1].trim(), m[2].replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim()]);
 const clanciPoJeziku = {}; // kod → { folder → [ {slug, meta, reci} ] }
 function ucitajZbirku(kod, folder) {
   const dir = path.join(KOREN, folder, kod);
@@ -54,7 +62,7 @@ function ucitajZbirku(kod, folder) {
   return readdirSync(dir).filter((f) => f.endsWith(".md")).sort().map((f) => {
     const { meta, telo } = prednjiBlok(readFileSync(path.join(dir, f), "utf8"));
     const { html, brojReci } = markdownUHtml(telo);
-    return { slug: f.replace(/\.md$/, ""), meta, html: html.replace(/(src|href)="(\.\.\/)+slike\//g, '$1="{{sistem.koren}}slike/'), brojReci, folder };
+    return { slug: f.replace(/\.md$/, ""), meta, html: mereSlika(html).replace(/(src|href)="(\.\.\/)+slike\//g, '$1="{{sistem.koren}}slike/'), brojReci, folder };
   });
 }
 for (const j of aktivni) {
@@ -66,7 +74,7 @@ const postoji = (kod, putanja) => {
   const [folder, fajl] = putanja.split("/");
   const z = clanciPoJeziku[kod]?.[folder];
   if (!z) return false;
-  if (fajl === "index.html") return z.length > 0 && !!tekstovi[kod][ZBIRKE.find((x) => x.folder === folder).kljuc];
+  if (fajl === "index.html") return z.length > 0 && (!!tekstovi[kod][ZBIRKE.find((x) => x.folder === folder).kljuc] || z.some((c) => c.slug === "index"));
   return z.some((c) => c.slug + ".html" === fajl);
 };
 
@@ -82,14 +90,15 @@ for (const j of aktivni) {
   for (const z of ZBIRKE) {
     const clanci = clanciPoJeziku[kod][z.folder];
     const tz = t[z.kljuc];
-    if (!clanci.length || !tz) continue;
+    if (!clanci.length || (!tz && !clanci.some((c) => c.slug === "index"))) continue;
     for (const c of clanci) {
       const putanja = `${z.folder}/${c.slug}.html`;
       const minuta = Math.max(1, Math.round(c.brojReci / 200));
-      const ld = c.meta.tip === "pitanja" && c.meta.parovi ? ldPitanja(JSON.parse(c.meta.parovi)) : ldClanak(sajt, kod, putanja, c.meta, t);
+      const ld = c.meta.tip === "pitanja" ? ldPitanja(paroviPitanja(c.html)) : ldClanak(sajt, kod, putanja, c.meta, t);
       pisi(kod, putanja, g.stranica({ kod, putanja, naslov: c.meta.naslov + " — TOPICA", opis: c.meta.opis, ogNaslov: c.meta.naslov, ogOpis: c.meta.opis, ogTip: "article", sadrzaj: g.sablon("clanak"), ldJson: ld, postoji,
-        sistem: { clanakNadnaslov: c.meta.nadnaslov || tz.nadnaslov, clanakNaslov: c.meta.naslov, clanakMeta: `${minuta} ${t.clanak.citanje}`, clanakTelo: c.html, clanakPoziv: c.meta.poziv || tz.poziv } }));
+        sistem: { clanakNadnaslov: c.meta.nadnaslov || tz?.nadnaslov, clanakNaslov: c.meta.naslov, clanakMeta: `${minuta} ${t.clanak.citanje}`, clanakTelo: c.html, clanakPoziv: c.meta.poziv || tz?.poziv || t.blog.poziv } }));
     }
+    if (clanci.some((c) => c.slug === "index")) continue; // index.md je sam indeks zbirke (npr. pitanja)
     const stavke = clanci.map((c) => `<a href="${c.slug}.html">${c.meta.naslov}<small>${c.meta.opis}</small></a>`).join("");
     pisi(kod, `${z.folder}/index.html`, g.stranica({ kod, putanja: `${z.folder}/index.html`, naslov: tz.meta_naslov, opis: tz.meta_opis, sadrzaj: g.sablon("spisak"), postoji, ldJson: ldStrana(sajt, kod, `${z.folder}/`, tz.meta_naslov, tz.meta_opis, "CollectionPage"),
       sistem: { spisakNadnaslov: tz.nadnaslov, spisakNaslov: tz.naslov, spisakTekst: tz.tekst, spisakStavke: stavke } }));
