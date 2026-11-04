@@ -51,6 +51,9 @@ export class Graditelj {
       hreflang: hreflang.join("\n"), ldJson: JSON.stringify(o.ldJson || {}),
       formspreeUrl: this.sajt.formspreeId ? `https://formspree.io/f/${this.sajt.formspreeId}` : "",
       jezikLista, trakaKlasa: o.putanja === "index.html" ? "" : " uvek-cta",
+      // placeholder linkovi (#) se prikazuju kao običan tekst dok ih vlasnik ne upiše u tekst/sajt.json
+      usloviHtml: this.sajt.usloviLink && this.sajt.usloviLink !== "#" ? `<a href="${this.sajt.usloviLink}">${tekst.dno.uslovi}</a>` : `<span>${tekst.dno.uslovi}</span>`,
+      privatnostHtml: this.sajt.privatnostLink && this.sajt.privatnostLink !== "#" ? `<a href="${this.sajt.privatnostLink}">${tekst.dno.privatnost}</a>` : `<span>${tekst.dno.privatnost}</span>`,
       ...(o.sistem || {}),
     };
     const izvori = { tekst, sajt: this.sajt, sistem };
@@ -89,6 +92,10 @@ export function ldClanak(sajt, kod, putanja, meta, tekst) {
     image: meta.slika ? sajt.url + meta.slika.replace(/^(\.\.\/)+/, "") : sajt.url + "slike/og.webp",
     author: { "@type": "Organization", name: "TOPICA" }, publisher: { "@type": "Organization", name: "TOPICA", url: sajt.url },
   };
+}
+
+export function ldStrana(sajt, kod, putanja, naslov, opis, tip = "WebPage") {
+  return { "@context": "https://schema.org", "@type": tip, name: naslov, description: opis, inLanguage: kod, url: sajt.url + kod + "/" + putanja, isPartOf: { "@type": "WebSite", name: "TOPICA", url: sajt.url } };
 }
 
 export function ldPitanja(parovi) {

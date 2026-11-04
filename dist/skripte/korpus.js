@@ -1,5 +1,5 @@
 // korpus.js — zakačena animacija: sastavljen korpus → daske se razmaknu sa kotama → legnu na ploču → krojna lista
-import { gsap, ScrollTrigger, smanjeno } from "./kretanje.js";
+import { gsap, ScrollTrigger, smanjeno, mobilni } from "./kretanje.js";
 import { DASKE, MM, PLOCA, napraviDasku, naziviDasaka } from "./korpus-model.js";
 
 const KAMERA = { cx: -20, cy: -35 }; // isto kao --korpus-cx / --korpus-cy u tokeni.css
@@ -28,7 +28,7 @@ export function pokreniKorpus() {
 
   if (smanjeno || !gsap) { // bez animacije: rastavljen korpus sa kotama i krojna lista pored
     DASKE.forEach((d, i) => gsap.set(elementi[i], { x: (d.x + (d.eks.x || 0)) * MM, y: (d.y + (d.eks.y || 0)) * MM, z: (d.z + (d.eks.z || 0)) * MM }));
-    gsap.set(kote, { opacity: 1 }); gsap.set(kamera, { x: -370 }); gsap.set(krojna, { opacity: 1, x: 300 });
+    gsap.set(kote, { opacity: 1 }); gsap.set(kamera, { x: mobilni ? 0 : -370 }); gsap.set(krojna, { opacity: 1, x: mobilni ? 0 : 300 });
     return;
   }
   const tl = gsap.timeline({ defaults: { ease: "power1.inOut" },
@@ -53,9 +53,14 @@ export function pokreniKorpus() {
   tl.to({}, { duration: 1 });
   // d) krojna lista pored plana
   tl.add("lista");
-  tl.to([kamera, ploca], { x: -370, duration: 1.4 }, "lista");
-  tl.to(scena, { "--sk": SK_LISTA, duration: 1.4 }, "lista");
-  tl.fromTo(krojna, { x: 460, opacity: 0 }, { x: 300, opacity: 1, duration: 1.4 }, "lista");
+  if (mobilni) { // na telefonu plan se povuče, lista dođe preko cele širine
+    tl.to(scena, { opacity: 0, duration: 1 }, "lista");
+    tl.fromTo(krojna, { y: 60, opacity: 0 }, { y: 0, opacity: 1, duration: 1.2 }, "lista+=0.3");
+  } else {
+    tl.to([kamera, ploca], { x: -370, duration: 1.4 }, "lista");
+    tl.to(scena, { "--sk": SK_LISTA, duration: 1.4 }, "lista");
+    tl.fromTo(krojna, { x: 460, opacity: 0 }, { x: 300, opacity: 1, duration: 1.4 }, "lista");
+  }
   tl.to(natpisi[2], { opacity: 0, duration: 0.4 }, "lista").to(natpisi[3], { opacity: 1, duration: 0.4 }, "lista+=0.5");
   tl.to({}, { duration: 1.2 });
 }
@@ -63,6 +68,6 @@ export function pokreniKorpus() {
 /** Scena je crtana za 1100 × 560 px; na manjem ekranu se smanji cela. */
 function skalirajScenu(scena) {
   const okvir = scena.parentElement;
-  const s = Math.min(0.94, (okvir.clientWidth - 16) / 1100, (okvir.clientHeight - 8) / 560);
-  scena.style.transform = `scale(${s.toFixed(3)})`;
+  const s = Math.min(0.94, (okvir.clientWidth + 120) / 1100, (okvir.clientHeight - 8) / 560);
+  scena.style.transform = `translate(-50%, -50%) scale(${s.toFixed(3)})`;
 }

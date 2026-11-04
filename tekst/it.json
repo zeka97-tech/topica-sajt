@@ -1,0 +1,167 @@
+{
+  "_jezik": { "ime": "Italiano", "status": "za-proveru", "proverio": "" },
+  "meta": {
+    "naslov": "TOPICA — software per progettare mobili con lista di taglio, fatto per falegnami",
+    "opis": "TOPICA è un software per la progettazione di cucine e mobili su misura per falegnami, su Windows: disegni la stanza, inserisci i mobili dal catalogo e ottieni 3D, lista di taglio al millimetro, ferramenta e prezzo. Prova gratuita.",
+    "og_naslov": "TOPICA — dalla stanza alla lista di taglio",
+    "og_opis": "Software di progettazione mobili per falegnami: stanza, mobili da catalogo, 3D, lista di taglio al millimetro e prezzo. Prova gratuita.",
+    "og_alt": "La mascotte Topi misura un mobile accanto alla scritta TOPICA — dalla stanza alla lista di taglio",
+    "ld_opis": "Software Windows per la progettazione di mobili su misura in pannello (cucine, armadi, mobili) per falegnamerie: stanza in 3D, mobili da catalogo costruiti secondo lo standard europeo, lista di taglio al millimetro, ferramenta e prezzo."
+  },
+  "a11y": { "preskoci": "Vai al contenuto", "logo": "TOPICA, pagina iniziale", "navigacija": "Navigazione principale", "jezik": "Scegli la lingua", "meni": "Menu" },
+  "nav": { "kako": "Come funziona", "mogucnosti": "Funzioni", "galerija": "Galleria", "cena": "Prezzo", "pitanja": "Domande", "blog": "Guide", "preuzimanje": "Scarica" },
+  "cta": { "glavno": "Scarica la prova gratuita", "kratko": "Scarica" },
+  "jezik": {
+    "napomena_program": "Il programma è oggi disponibile in serbo e in inglese. L'italiano è in arrivo.",
+    "predlog_tekst": "Questa pagina è disponibile anche in italiano.",
+    "predlog_dugme": "Passa all'italiano"
+  },
+  "hero": {
+    "naslov": "Dalla stanza alla lista di taglio.",
+    "tekst": "TOPICA è un software per progettare cucine e armadi su misura, fatto per falegnami: disegni la stanza, allinei i mobili lungo la parete e il programma conosce già la costruzione e ti dà subito il 3D, la lista di taglio al millimetro, la ferramenta e il prezzo.",
+    "saznaj": "Guarda come funziona",
+    "sitno": "Windows 10/11 · serbo e inglese · la prova è gratuita",
+    "topi_alt": "Topi, la mascotte di peluche di TOPICA, misura con il metro una base da cucina con l'anta aperta",
+    "prozor_alt": "TOPICA, vista 3D di una cucina nella stanza: basi e pensili con frontali in rovere lungo la parete, con la fila delle basi di 3200 mm e 400 mm di spazio libero"
+  },
+  "cinjenice": {
+    "naslov": "Software per falegnami, non un CAD",
+    "1": { "naslov": "Misure al millimetro", "tekst": "Ogni pannello prende la misura esatta dalla costruzione reale del mobile, non da uno schizzo a occhio." },
+    "2": { "naslov": "Standard europeo, System 32", "tekst": "Carcassa senza telaio, bordatura, cerniere a tazza 35 mm, cassetti e zoccolo da catalogo. Niente da impostare di nuovo." },
+    "3": { "naslov": "Lista di taglio pronta da copiare", "tekst": "Misure uguali su una riga, raggruppate per materiale. Copia e manda alla sezionatrice." }
+  },
+  "kako": {
+    "nadnaslov": "Come funziona",
+    "naslov": "Tre passi alla lista di taglio.",
+    "1": { "naslov": "Disegna la stanza", "tekst": "Inserisci pareti, altezza del soffitto, finestra e impianti. La stanza è subito in 3D, con il pavimento e le pareti che il cliente ha davvero.", "alt": "TOPICA, passo 1: una stanza di 3600 × 3000 mm con scelta di pavimento e pareti, laminato grigio e piastrelle dietro la cucina" },
+    "2": { "naslov": "Inserisci i mobili dal catalogo", "tekst": "Basi, pensili, colonne, lavello, forno, angolo. Si agganciano alla parete e al mobile vicino, e le misure le cambi dal vivo, al millimetro.", "alt": "TOPICA, passo 2: una base con anta da 600 × 720 × 560 mm contro la parete, con le quote al mobile vicino e il pannello delle proprietà" },
+    "3": { "naslov": "Leggi lista di taglio e prezzo", "tekst": "Il programma conosce la costruzione: fianchi, fondo, traverse, schienale, frontale. Lista di taglio, ferramenta e prezzo sono sempre aggiornati, senza nessun tasto “ricalcola”.", "alt": "TOPICA, passo 3: la lista di taglio “Per misura” di un mobile, 8 pannelli raggruppati per materiale con misura, spessore, bordo e prezzo" }
+  },
+  "korpus": {
+    "naslov": "Un mobile. Ogni pannello al millimetro.",
+    "natpis": {
+      "1": "Una base da 600 × 720 × 560 mm, di quelle che si fanno in ogni laboratorio.",
+      "2": "Il programma la scompone in pannelli e dà a ciascuno la misura esatta, con bordo e spessore.",
+      "3": "I pannelli si dispongono sulla lastra come schema di taglio: nobilitato bianco, decoro rovere, faesite.",
+      "4": "E la lista di taglio “Per misura” è pronta da copiare e mandare alla sezionatrice."
+    },
+    "daska": { "bok": "Fianco", "dno": "Fondo", "polica": "Ripiano", "precka": "Traversa", "front": "Frontale", "ledja": "Schienale" },
+    "noscript_alt": "TOPICA, lista di taglio “Per misura” di una base da 600 × 720 × 560 mm",
+    "posle": "Il programma lo fa per ogni mobile della cucina, appena lo appoggi alla parete."
+  },
+  "niz": {
+    "nadnaslov": "Stanza",
+    "naslov": "Componi la fila, il programma la finisce.",
+    "tekst": "I mobili si agganciano tra loro e alla parete, e il piano di lavoro e lo zoccolo si posano sopra con la misura complessiva, senza disegnare nulla."
+  },
+  "mogucnosti": {
+    "nadnaslov": "Funzioni",
+    "naslov": "Progettazione mobili che conosce il mestiere.",
+    "tekst": "Cucine, armadi su misura e mobili. Tu decidi misure e decori; il programma fa la costruzione e i conti.",
+    "1": { "naslov": "Misure al millimetro", "tekst": "Scrivi larghezza, altezza e profondità o trascina il cursore. Le quote alla parete, al mobile vicino e da terra sono sempre visibili.", "alt": "Un mobile in 3D con quote 600, 720 e 560 mm e indicatori alla parete, al mobile vicino e da terra" },
+    "2": { "naslov": "Catalogo a standard", "tekst": "Ogni tipo di mobile arriva con la costruzione secondo lo standard europeo, System 32.", "s1": "Basi, pensili, colonne", "s2": "Lavello e forno", "s3": "Angolo e armadio", "s4": "Cassetti, cerniere, piedini" },
+    "3": { "naslov": "“Per misura” da copiare", "tekst": "Misure uguali su una riga, per materiale. La prima misura è il senso vena.", "k1": "Misura · mm", "k2": "Sp.", "k3": "Bordo", "k4": "Pz", "r1": "1 lungo", "r3": "2 lunghi, 2 corti" },
+    "4": { "naslov": "Decori veri e 3D dal vivo", "tekst": "Rovere, bianco, marmo o il tuo decoro da una foto. Quello che cambi lo vedi subito, in un progetto di cucina 3D che il cliente capisce." },
+    "5": { "naslov": "Zoccolo, top e fianchi, da soli", "tekst": "Si costruiscono sopra i mobili selezionati e si spostano insieme a loro." },
+    "6": { "naslov": "Prezzo per progetto", "tekst": "Inserisci i tuoi prezzi di pannelli, bordo, ferramenta e manodopera. Il programma somma per progetto; il preventivo lo fai tu.", "alt": "Impostazioni del laboratorio: manodopera per elemento 3000 RSD, margine 20 %" },
+    "7": { "naslov": "Senza internet, senza account", "tekst": "Un progetto è un solo file sul tuo computer. Mandalo per e-mail a un collega." }
+  },
+  "galerija": {
+    "nadnaslov": "Galleria",
+    "naslov": "Cucina in 3D, direttamente dal programma.",
+    "1": { "tekst": "Una cucina in linea, decoro rovere e nobilitato bianco.", "alt": "Una cucina in linea con frontali in rovere, carcasse in nobilitato bianco, pavimento in laminato grigio" },
+    "2": { "tekst": "Stesso progetto, altro decoro: marmo scuro e piastrelle.", "alt": "La stessa cucina con frontali in marmo scuro e piastrelle alla parete" },
+    "3": { "tekst": "Da vicino: un mobile, misure e costruzione.", "alt": "Primo piano di un mobile da 600 × 720 × 570 mm con anta in rovere e il pannello delle misure" },
+    "4": { "tekst": "Apri i frontali e guarda dentro.", "alt": "Un mobile con anta aperta in 3D che mostra il ripiano e l'interno, con quote alla parete e al mobile vicino" },
+    "5": { "tekst": "Il tuo decoro: aggiungi la foto del pannello che compri davvero.", "alt": "Scelta dei decori del frontale: bianco, grigio, beige, nero, legno, cemento, marmo, inox e un decoro personalizzato" },
+    "6": { "tekst": "Cassetti con cassa e guide da catalogo.", "alt": "Una base con tre cassetti in 3D, con il pannello di cassetti e guide" }
+  },
+  "zakoga": {
+    "nadnaslov": "Per chi è",
+    "naslov": "Fatto da un falegname, per falegnami.",
+    "tekst": "TOPICA nasce in una falegnameria di Belgrado, su progetti veri per clienti veri. Per questo dentro non c'è niente di superfluo: solo quello che serve a un artigiano per arrivare prima dal rilievo al taglio.",
+    "uloga": "falegname e autore del programma, Belgrado"
+  },
+  "cena": {
+    "nadnaslov": "Prezzo",
+    "naslov": "La prova è gratuita.",
+    "uskoro": "Prezzo in arrivo",
+    "uskoro_tekst": "per la versione completa",
+    "tekst": "Prova il programma su un tuo progetto, senza account e senza carta. Il prezzo della versione completa sarà annunciato a breve.",
+    "kupi": "Acquista",
+    "obrazac": {
+      "naslov": "Avvisami quando esce il prezzo",
+      "placeholder": "tu@email.com",
+      "dugme": "Avvisami",
+      "predmet": "TOPICA: avvisami quando esce il prezzo",
+      "napomena": "Un solo messaggio quando il prezzo sarà annunciato. Niente pubblicità.",
+      "hvala": "Grazie! Ti avviseremo appena il prezzo sarà annunciato.",
+      "greska": "Non è andata a buon fine. Scrivici direttamente all'e-mail in fondo alla pagina."
+    },
+    "topi_alt": "Topi, la mascotte di TOPICA, con un trapano e un righello in mano"
+  },
+  "pitanja": {
+    "nadnaslov": "Domande",
+    "naslov": "Cosa chiedono i falegnami prima di provarlo.",
+    "1": { "p": "Su quale Windows gira?", "o": "Windows 10 e Windows 11, 64 bit. Il programma è piccolo e veloce; gira su un normale portatile da laboratorio." },
+    "2": { "p": "Serve internet?", "o": "No. Il programma funziona offline e senza account. Un progetto è un solo file sul tuo computer." },
+    "3": { "p": "Quali pannelli e materiali supporta?", "o": "Nobilitato da 18 mm per carcassa e frontali, bordo da 0,45 e 1 mm, faesite da 3 mm per gli schienali; spessori e bordi si cambiano nelle impostazioni del laboratorio. Scegli un decoro dall'elenco o aggiungi il tuo." },
+    "4": { "p": "Cosa ottengo alla fine?", "o": "Una lista di taglio per mobile e per materiale, la vista “Per misura” da copiare, l'elenco della ferramenta, il consumo di pannelli, il prezzo e la stampa in PDF." },
+    "5": { "p": "In quali lingue?", "o": "Serbo e inglese. La lingua si cambia dentro il programma." },
+    "6": { "p": "Il programma riceve aggiornamenti?", "o": "Sì. Le nuove versioni escono regolarmente, e la prova si può sempre scaricare di nuovo da questa pagina." }
+  },
+  "dno": {
+    "naslov": "Provalo sul tuo prossimo progetto.",
+    "tekst": "Windows 10/11. Senza account, senza carta. La lista di taglio del primo mobile in cinque minuti.",
+    "uslovi": "Condizioni d'uso",
+    "privatnost": "Privacy"
+  },
+  "preuzimanje": {
+    "meta_naslov": "Scarica la prova gratuita di TOPICA per Windows",
+    "meta_opis": "Prova gratuita del software per progettare mobili e liste di taglio. Windows 10/11, 64 bit, senza account. Installazione in tre passi.",
+    "nadnaslov": "Scarica",
+    "naslov": "Prova gratuita per Windows.",
+    "tekst": "Gratis, senza account e senza carta. L'installazione dura un minuto, e in cinque hai il primo mobile con la lista di taglio.",
+    "email_naslov": "Lascia la tua e-mail se vuoi (facoltativo)",
+    "email_tekst": "Ti scriviamo solo per le nuove versioni e per il prezzo quando esce. Niente pubblicità, disiscrizione con un clic.",
+    "dugme": "Scarica la prova gratuita",
+    "datoteka": "TOPICA-prova.exe",
+    "bez_emaila": "Senza e-mail:",
+    "direktno": "scarica direttamente",
+    "predmet": "TOPICA: nuovo download della prova",
+    "zahtevi_naslov": "Cosa serve al computer",
+    "z1_naslov": "Sistema", "z1": "Windows 10 o Windows 11, 64 bit.",
+    "z2_naslov": "Computer", "z2": "Basta un normale portatile da laboratorio: 4 GB di memoria e una scheda grafica che regge il 3D nel browser.",
+    "z3_naslov": "Internet", "z3": "Non serve. Il programma funziona offline e non crea nessun account.",
+    "koraci_naslov": "Installazione in tre passi",
+    "k1": "Fai doppio clic sul file scaricato TOPICA-prova.exe.",
+    "k2": "Se Windows chiede se ti fidi del programma, clicca “Ulteriori informazioni”, poi “Esegui comunque”.",
+    "k3": "Apri TOPICA dal desktop. Crea il primo progetto: inserisci le misure della stanza e posa il primo mobile.",
+    "slika_placeholder": "Spazio per uno screenshot di questo passo (lo aggiunge il titolare)",
+    "upozorenje_naslov": "Avviso di Windows.",
+    "upozorenje": "Il programma non ha ancora la firma digitale, quindi al primo avvio Windows mostra una schermata blu “PC protetto da Windows”. È normale per i programmi nuovi e non firmati: clicca “Ulteriori informazioni”, poi “Esegui comunque”. Stiamo ottenendo la firma e l'avviso sparirà.",
+    "pomoc": "Ti sei bloccato? Scrivici, rispondiamo in giornata."
+  },
+  "hvala": {
+    "meta_naslov": "Grazie — la prova di TOPICA si sta scaricando",
+    "meta_opis": "Il download della prova di TOPICA è iniziato. Tre passi per cominciare.",
+    "nadnaslov": "Grazie",
+    "naslov": "Il download è iniziato.",
+    "tekst": "Se non è partito da solo:",
+    "koraci_naslov": "Tre passi per cominciare",
+    "k1": "Installa il programma (all'avviso di Windows: “Ulteriori informazioni”, poi “Esegui comunque”).",
+    "k2": "Crea un nuovo progetto e inserisci le misure della stanza: larghezza, profondità e altezza del soffitto.",
+    "k3": "Aggiungi la prima base dal catalogo e apri “Misure di taglio”. Questa è la tua prima lista di taglio.",
+    "snimak": "Tre minuti di video: dalla stanza alla lista di taglio.",
+    "snimak_dugme": "Guarda il video"
+  },
+  "blog": {
+    "meta_naslov": "Guide per falegnami: lista di taglio, System 32, bordatura, misure cucina — TOPICA",
+    "meta_opis": "Brevi articoli pratici per falegnami che fanno mobili su misura in pannello: come si legge una lista di taglio, System 32, bordatura, misure standard dei mobili da cucina.",
+    "nadnaslov": "Guide",
+    "naslov": "Falegnameria su carta, prima del laboratorio.",
+    "tekst": "Brevi articoli sulle cose che ogni falegname fa, scritte una volta sola così non devi spiegarle ogni volta.",
+    "poziv": "Provalo su un tuo progetto."
+  },
+  "clanak": { "citanje": "min di lettura", "objavljeno": "Pubblicato" }
+}

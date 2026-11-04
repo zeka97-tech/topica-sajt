@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="{{kod}}">
+<head>
+<meta charset="utf-8">
+<style>
+  @font-face { font-family: "Manrope"; font-weight: 800; src: url("../../../fontovi/manrope-latin-800-normal.woff2") format("woff2"); }
+  @font-face { font-family: "Manrope"; font-weight: 800; src: url("../../../fontovi/manrope-latin-ext-800-normal.woff2") format("woff2"); unicode-range: U+0100-02AF, U+1E00-1EFF; }
+  @font-face { font-family: "Manrope"; font-weight: 500; src: url("../../../fontovi/manrope-latin-500-normal.woff2") format("woff2"); }
+  @font-face { font-family: "Manrope"; font-weight: 500; src: url("../../../fontovi/manrope-latin-ext-500-normal.woff2") format("woff2"); unicode-range: U+0100-02AF, U+1E00-1EFF; }
+  html, body { margin: 0; }
+  body { width: 1200px; height: 630px; overflow: hidden; font-family: "Manrope", system-ui, sans-serif; background: #ffffff; color: #0f172a; position: relative; }
+  .tekst { position: absolute; left: 72px; top: 0; bottom: 0; width: 540px; display: flex; flex-direction: column; justify-content: center; gap: 22px; }
+  .logo { display: flex; align-items: center; gap: 12px; font-weight: 800; font-size: 28px; letter-spacing: -.02em; }
+  .logo i { width: 36px; height: 36px; border-radius: 9px; background: #2563eb; display: inline-block; }
+  h1 { margin: 0; font-weight: 800; font-size: {{velicina}}px; line-height: 1.04; letter-spacing: -.035em; }
+  p { margin: 0; font-weight: 500; font-size: 26px; line-height: 1.4; color: #4b5563; }
+  .dugme { display: inline-block; align-self: flex-start; margin-top: 8px; background: #f97316; color: #fff; font-weight: 800; font-size: 24px; padding: 16px 30px; border-radius: 999px; }
+  .topi { position: absolute; right: 36px; top: 40px; width: 520px; height: 560px; object-fit: contain; }
+</style>
+</head>
+<body>
+  <div class="tekst">
+    <div class="logo"><i></i>TOPICA</div>
+    <h1>{{naslov}}</h1>
+    <p>{{opis}}</p>
+    <span class="dugme">{{dugme}}</span>
+  </div>
+  <img class="topi" src="../../../slike/izvor/topi-meri-korpus-isecen.png" alt="">
+</body>
+</html>

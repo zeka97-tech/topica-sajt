@@ -1,0 +1,167 @@
+{
+  "_jezik": { "ime": "Español", "status": "za-proveru", "proverio": "" },
+  "meta": {
+    "naslov": "TOPICA — software de diseño de muebles con lista de corte, hecho para carpinteros",
+    "opis": "TOPICA es un programa de diseño de cocinas y muebles a medida para carpinteros, en Windows: dibujas la estancia, colocas los módulos del catálogo y obtienes 3D, lista de corte al milímetro, herrajes y precio. Prueba gratuita.",
+    "og_naslov": "TOPICA — de la estancia a la lista de corte",
+    "og_opis": "Software de diseño de muebles para carpinteros: estancia, módulos de catálogo, 3D, lista de corte al milímetro y precio. Prueba gratuita.",
+    "og_alt": "La mascota Topi mide un módulo junto al texto TOPICA — de la estancia a la lista de corte",
+    "ld_opis": "Programa para Windows de diseño de mobiliario a medida en tablero (cocinas, armarios, muebles) para talleres de carpintería: estancia en 3D, módulos de catálogo construidos según el estándar europeo, lista de corte al milímetro, herrajes y precio."
+  },
+  "a11y": { "preskoci": "Saltar al contenido", "logo": "TOPICA, página de inicio", "navigacija": "Navegación principal", "jezik": "Elegir idioma", "meni": "Menú" },
+  "nav": { "kako": "Cómo funciona", "mogucnosti": "Funciones", "galerija": "Galería", "cena": "Precio", "pitanja": "Preguntas", "blog": "Guías", "preuzimanje": "Descargar" },
+  "cta": { "glavno": "Descarga la prueba gratuita", "kratko": "Descargar" },
+  "jezik": {
+    "napomena_program": "El programa está hoy disponible en serbio y en inglés. El español está en camino.",
+    "predlog_tekst": "Esta página también está disponible en español.",
+    "predlog_dugme": "Cambiar a español"
+  },
+  "hero": {
+    "naslov": "De la estancia a la lista de corte.",
+    "tekst": "TOPICA es un programa de diseño de cocinas y armarios a medida, hecho para carpinteros: dibujas la estancia, alineas los módulos contra la pared y el programa ya conoce la construcción y te da al momento el 3D, la lista de corte al milímetro, los herrajes y el precio.",
+    "saznaj": "Mira cómo funciona",
+    "sitno": "Windows 10/11 · serbio e inglés · la prueba es gratuita",
+    "topi_alt": "Topi, la mascota de peluche de TOPICA, midiendo con un flexómetro un mueble bajo de cocina con la puerta abierta",
+    "prozor_alt": "TOPICA, vista 3D de una cocina en la estancia: muebles bajos y altos con frentes de roble a lo largo de la pared, con la línea de bajos de 3200 mm y 400 mm de espacio libre"
+  },
+  "cinjenice": {
+    "naslov": "Programa para carpinteros, no un CAD",
+    "1": { "naslov": "Medidas al milímetro", "tekst": "Cada pieza toma su medida exacta de la construcción real del módulo, no de un croquis a ojo." },
+    "2": { "naslov": "Estándar europeo, System 32", "tekst": "Cuerpo sin marco, canto, bisagras de cazoleta de 35 mm, cajones y zócalo según catálogo. Nada que volver a configurar." },
+    "3": { "naslov": "Lista de corte lista para copiar", "tekst": "Las mismas medidas en una línea, agrupadas por material. Cópiala y mándala a la seccionadora." }
+  },
+  "kako": {
+    "nadnaslov": "Cómo funciona",
+    "naslov": "Tres pasos hasta la lista de corte.",
+    "1": { "naslov": "Dibuja la estancia", "tekst": "Introduce las paredes, la altura del techo, la ventana y las instalaciones. La estancia está en 3D al momento, con el suelo y las paredes que tiene tu cliente.", "alt": "TOPICA, paso 1: una estancia de 3600 × 3000 mm con elección de suelo y paredes, laminado gris y azulejos detrás de la cocina" },
+    "2": { "naslov": "Coloca los módulos del catálogo", "tekst": "Bajo, alto, columna, fregadero, horno, rinconero. Se ajustan a la pared y al módulo vecino, y las medidas las cambias en directo, al milímetro.", "alt": "TOPICA, paso 2: un mueble bajo con puerta de 600 × 720 × 560 mm contra la pared, con cotas al módulo vecino y el panel de propiedades" },
+    "3": { "naslov": "Lee la lista de corte y el precio", "tekst": "El programa conoce la construcción: costados, base, travesaños, trasera, frente. Lista de corte, herrajes y precio siempre al día, sin botón de “recalcular”.", "alt": "TOPICA, paso 3: la lista de corte “Por medida” de un módulo, 8 piezas agrupadas por material con medida, grosor, canto y precio" }
+  },
+  "korpus": {
+    "naslov": "Un módulo. Cada pieza al milímetro.",
+    "natpis": {
+      "1": "Un mueble bajo de 600 × 720 × 560 mm, de los que se hacen en cualquier taller.",
+      "2": "El programa lo despieza y da a cada pieza su medida exacta, con canto y grosor.",
+      "3": "Las piezas se colocan sobre el tablero como plano de corte: melamina blanca, decor roble, tablex.",
+      "4": "Y la lista de corte “Por medida” queda lista para copiar y mandar a la seccionadora."
+    },
+    "daska": { "bok": "Costado", "dno": "Base", "polica": "Balda", "precka": "Travesaño", "front": "Frente", "ledja": "Trasera" },
+    "noscript_alt": "TOPICA, lista de corte “Por medida” de un mueble bajo de 600 × 720 × 560 mm",
+    "posle": "El programa hace esto con cada módulo de la cocina en cuanto lo apoyas contra la pared."
+  },
+  "niz": {
+    "nadnaslov": "Estancia",
+    "naslov": "Monta la línea, el programa la remata.",
+    "tekst": "Los módulos se ajustan entre sí y a la pared, y la encimera y el zócalo se colocan encima con la medida total, sin dibujar nada."
+  },
+  "mogucnosti": {
+    "nadnaslov": "Funciones",
+    "naslov": "Diseño de muebles que entiende el oficio.",
+    "tekst": "Cocinas, armarios a medida y muebles. Tú decides medidas y decors; el programa hace la construcción y las cuentas.",
+    "1": { "naslov": "Medidas al milímetro", "tekst": "Escribe ancho, alto y fondo o arrastra el control. Las cotas a la pared, al módulo vecino y desde el suelo siempre están a la vista.", "alt": "Un módulo en 3D con cotas de 600, 720 y 560 mm y marcas a la pared, al módulo vecino y desde el suelo" },
+    "2": { "naslov": "Catálogo según el estándar", "tekst": "Cada tipo de módulo viene con su construcción según el estándar europeo, System 32.", "s1": "Bajo, alto, columna", "s2": "Fregadero y horno", "s3": "Rinconero y armario", "s4": "Cajones, bisagras, patas" },
+    "3": { "naslov": "“Por medida” para copiar", "tekst": "Las mismas medidas en una línea, por material. La primera medida es el sentido de la veta.", "k1": "Medida · mm", "k2": "Gr.", "k3": "Canto", "k4": "Ud.", "r1": "1 largo", "r3": "2 largos, 2 cortos" },
+    "4": { "naslov": "Decors reales y 3D en directo", "tekst": "Roble, blanco, mármol o tu propio decor a partir de una foto. Lo que cambies lo ves al instante, en un diseño de cocina en 3D que tu cliente entiende." },
+    "5": { "naslov": "Zócalo, encimera y costados vistos, solos", "tekst": "Se construyen sobre los módulos seleccionados y se mueven con ellos cuando los desplazas." },
+    "6": { "naslov": "Precio por proyecto", "tekst": "Introduce tus precios de tablero, canto, herrajes y mano de obra. El programa suma por proyecto; el presupuesto lo haces tú.", "alt": "Ajustes del taller: mano de obra por módulo 3000 RSD, margen 20 %" },
+    "7": { "naslov": "Sin internet, sin cuenta", "tekst": "Un proyecto es un solo archivo en tu ordenador. Mándaselo por correo a un compañero." }
+  },
+  "galerija": {
+    "nadnaslov": "Galería",
+    "naslov": "Diseño de cocinas en 3D, directo del programa.",
+    "1": { "tekst": "Una cocina en línea, decor roble y melamina blanca.", "alt": "Una cocina en línea con frentes de roble, cuerpos de melamina blanca y suelo de laminado gris" },
+    "2": { "tekst": "El mismo proyecto, otro decor: mármol oscuro y azulejos.", "alt": "La misma cocina con frentes de mármol oscuro y azulejos en la pared" },
+    "3": { "tekst": "De cerca: un módulo, medidas y construcción.", "alt": "Primer plano de un módulo de 600 × 720 × 570 mm con puerta de roble y el panel de medidas" },
+    "4": { "tekst": "Abre los frentes y mira dentro.", "alt": "Un módulo con la puerta abierta en 3D que muestra la balda y el interior, con cotas a la pared y al módulo vecino" },
+    "5": { "tekst": "Tu propio decor: añade una foto del tablero que compras de verdad.", "alt": "Opciones de decor del frente: blanco, gris, beige, negro, madera, hormigón, mármol, inox y un decor personalizado" },
+    "6": { "tekst": "Cajones con cubeta y guías de catálogo.", "alt": "Un mueble bajo con tres cajones en 3D, con el panel de cajones y guías" }
+  },
+  "zakoga": {
+    "nadnaslov": "Para quién es",
+    "naslov": "Hecho por un carpintero, para carpinteros.",
+    "tekst": "TOPICA nace en un taller de carpintería de Belgrado, con proyectos reales para clientes reales. Por eso no tiene nada que no necesites: solo lo que a un profesional le hace llegar antes de la toma de medidas al corte.",
+    "uloga": "carpintero y autor del programa, Belgrado"
+  },
+  "cena": {
+    "nadnaslov": "Precio",
+    "naslov": "La prueba es gratuita.",
+    "uskoro": "Precio próximamente",
+    "uskoro_tekst": "de la versión completa",
+    "tekst": "Prueba el programa en tu propio proyecto, sin cuenta y sin tarjeta. El precio de la versión completa se anunciará pronto.",
+    "kupi": "Comprar",
+    "obrazac": {
+      "naslov": "Avísame cuando salga el precio",
+      "placeholder": "tu@email.com",
+      "dugme": "Avísame",
+      "predmet": "TOPICA: avísame cuando salga el precio",
+      "napomena": "Un solo mensaje cuando se anuncie el precio. Sin publicidad.",
+      "hvala": "¡Gracias! Te avisaremos en cuanto se anuncie el precio.",
+      "greska": "No se ha enviado. Escríbenos directamente al correo del pie de página."
+    },
+    "topi_alt": "Topi, la mascota de TOPICA, con un taladro y una regla"
+  },
+  "pitanja": {
+    "nadnaslov": "Preguntas",
+    "naslov": "Lo que preguntan los carpinteros antes de probarlo.",
+    "1": { "p": "¿En qué Windows funciona?", "o": "Windows 10 y Windows 11, de 64 bits. El programa es pequeño y rápido; va bien en un portátil normal de taller." },
+    "2": { "p": "¿Necesito internet?", "o": "No. El programa funciona sin conexión y sin cuenta. Un proyecto es un solo archivo en tu ordenador." },
+    "3": { "p": "¿Qué tableros y materiales admite?", "o": "Aglomerado de melamina de 18 mm para cuerpo y frentes, canto de 0,45 y 1 mm, tablex de 3 mm para traseras; los grosores y el canto se cambian en los ajustes del taller. Elige un decor de la lista o añade el tuyo." },
+    "4": { "p": "¿Qué obtengo al final?", "o": "Una lista de corte por módulo y por material, la vista “Por medida” para copiar, la lista de herrajes, el consumo de tablero, el precio y la impresión en PDF." },
+    "5": { "p": "¿En qué idiomas está?", "o": "Serbio e inglés. El idioma se cambia dentro del programa." },
+    "6": { "p": "¿Se actualiza el programa?", "o": "Sí. Salen versiones nuevas con regularidad, y la prueba siempre se puede volver a descargar desde esta página." }
+  },
+  "dno": {
+    "naslov": "Pruébalo en tu próximo proyecto.",
+    "tekst": "Windows 10/11. Sin cuenta, sin tarjeta. La lista de corte de tu primer módulo en cinco minutos.",
+    "uslovi": "Condiciones de uso",
+    "privatnost": "Privacidad"
+  },
+  "preuzimanje": {
+    "meta_naslov": "Descarga la prueba gratuita de TOPICA para Windows",
+    "meta_opis": "Prueba gratuita del software de diseño de muebles y listas de corte. Windows 10/11, 64 bits, sin cuenta. Instalación en tres pasos.",
+    "nadnaslov": "Descargar",
+    "naslov": "Prueba gratuita para Windows.",
+    "tekst": "Gratis, sin cuenta y sin tarjeta. La instalación tarda un minuto, y en cinco tienes tu primer módulo con lista de corte.",
+    "email_naslov": "Deja tu correo si quieres (opcional)",
+    "email_tekst": "Solo te escribimos con las versiones nuevas y el precio cuando salga. Sin publicidad, baja con un clic.",
+    "dugme": "Descarga la prueba gratuita",
+    "datoteka": "TOPICA-prueba.exe",
+    "bez_emaila": "Sin correo:",
+    "direktno": "descarga directa",
+    "predmet": "TOPICA: nueva descarga de la prueba",
+    "zahtevi_naslov": "Qué necesita tu ordenador",
+    "z1_naslov": "Sistema", "z1": "Windows 10 o Windows 11, de 64 bits.",
+    "z2_naslov": "Ordenador", "z2": "Basta un portátil normal de taller: 4 GB de memoria y una gráfica que mueva 3D en el navegador.",
+    "z3_naslov": "Internet", "z3": "No hace falta. El programa funciona sin conexión y no crea ninguna cuenta.",
+    "koraci_naslov": "Instalación en tres pasos",
+    "k1": "Haz doble clic en el archivo descargado TOPICA-prueba.exe.",
+    "k2": "Si Windows pregunta si confías en el programa, pulsa “Más información” y luego “Ejecutar de todas formas”.",
+    "k3": "Abre TOPICA desde el escritorio. Crea tu primer proyecto: introduce las medidas de la estancia y coloca el primer módulo.",
+    "slika_placeholder": "Espacio para una captura de este paso (la añade el propietario)",
+    "upozorenje_naslov": "Aviso de Windows.",
+    "upozorenje": "El programa aún no tiene firma digital, así que al abrirlo por primera vez Windows muestra una pantalla azul “Windows protegió su PC”. Es normal en programas nuevos sin firmar: pulsa “Más información” y luego “Ejecutar de todas formas”. Estamos tramitando la firma y el aviso desaparecerá.",
+    "pomoc": "¿Te has atascado? Escríbenos, respondemos el mismo día."
+  },
+  "hvala": {
+    "meta_naslov": "Gracias — la prueba de TOPICA se está descargando",
+    "meta_opis": "La descarga de la prueba de TOPICA ha empezado. Tres pasos para arrancar.",
+    "nadnaslov": "Gracias",
+    "naslov": "La descarga ha empezado.",
+    "tekst": "Si no ha arrancado sola:",
+    "koraci_naslov": "Tres pasos para arrancar",
+    "k1": "Instala el programa (en el aviso de Windows: “Más información” y luego “Ejecutar de todas formas”).",
+    "k2": "Crea un proyecto nuevo e introduce las medidas de la estancia: ancho, fondo y altura del techo.",
+    "k3": "Añade el primer mueble bajo del catálogo y abre “Medidas de corte”. Esa es tu primera lista de corte.",
+    "snimak": "Tres minutos de vídeo: de la estancia a la lista de corte.",
+    "snimak_dugme": "Ver el vídeo"
+  },
+  "blog": {
+    "meta_naslov": "Guías para carpinteros: lista de corte, System 32, canto, medidas de cocina — TOPICA",
+    "meta_opis": "Artículos cortos y prácticos para carpinteros que hacen muebles a medida en tablero: cómo se lee una lista de corte, System 32, canteado, medidas estándar de los módulos de cocina.",
+    "nadnaslov": "Guías",
+    "naslov": "Carpintería sobre el papel, antes del taller.",
+    "tekst": "Artículos cortos sobre cosas que todo carpintero hace, escritas una vez para que no tengas que explicarlas cada vez.",
+    "poziv": "Pruébalo en tu propio proyecto."
+  },
+  "clanak": { "citanje": "min de lectura", "objavljeno": "Publicado" }
+}

@@ -5,12 +5,15 @@
   "description": "Sajt za prodaju programa TOPICA (statičan: index.html, style.css, app.js)",
   "type": "module",
   "scripts": {
+    "build": "node skripte/jezici.mjs",
     "slike": "node skripte/slike.mjs",
-    "prevod": "node skripte/prevod.mjs",
+    "og": "node skripte/og.mjs",
     "posluzi": "node skripte/posluzi.mjs",
-    "provera": "node skripte/provera.mjs"
+    "check": "node skripte/jezici.mjs && node skripte/provera.mjs"
   },
   "devDependencies": {
-    "sharp": "^0.33.5"
+    "sharp": "^0.33.5",
+    "playwright": "^1.48.0",
+    "lighthouse": "^12.2.1"
   }
 }

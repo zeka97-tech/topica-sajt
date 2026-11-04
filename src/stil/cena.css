@@ -20,5 +20,7 @@
   .cena-topi { order: -1; }
   .cena-topi img { width: min(55%, var(--s-topi-cena-mob)); }
   .cena-kartica { padding: var(--r-7) var(--r-5); }
+  .cena-red { flex-wrap: wrap; gap: var(--r-1) var(--r-3); }
+  .cena-red b { font-size: var(--f-34); }
   .obrazac-red { flex-direction: column; }
 }

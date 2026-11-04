@@ -4,8 +4,8 @@
 .korpus-lepljivo { position: sticky; top: 0; height: 100vh; display: grid; grid-template-rows: auto 1fr auto; padding: var(--r-pin-gore) 0 var(--r-pin-dole); }
 .korpus-naslov { text-align: center; }
 .korpus-naslov h2 { margin-bottom: var(--r-2); }
-.korpus-scena-okvir { position: relative; display: grid; place-items: center; min-height: 0; }
-.korpus-scena { position: relative; width: var(--s-scena); height: var(--s-scena-v); transform-origin: 50% 50%; --cx: var(--korpus-cx); --cy: var(--korpus-cy); --sk: var(--korpus-sk); }
+.korpus-scena-okvir { position: relative; min-height: 0; }
+.korpus-scena { position: absolute; left: 50%; top: 50%; width: var(--s-scena); height: var(--s-scena-v); transform: translate(-50%, -50%); transform-origin: 50% 50%; --cx: var(--korpus-cx); --cy: var(--korpus-cy); --sk: var(--korpus-sk); }
 .kamera { position: absolute; inset: 0; perspective: var(--korpus-perspektiva); perspective-origin: 50% 45%; }
 .svet { position: absolute; left: 50%; top: 50%; width: 0; height: 0; transform-style: preserve-3d; transform: scale(var(--sk)) rotateX(var(--cx)) rotateY(var(--cy)); }
 .daska { position: absolute; left: 0; top: 0; transform-style: preserve-3d; will-change: transform; }
@@ -22,7 +22,7 @@
 .kota small { font-weight: var(--w-600); opacity: var(--o-kota-naziv); margin-left: var(--r-1); }
 .ploca-podloga { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%) scale(var(--sk)); width: var(--s-ploca); height: var(--s-ploca-v); border-radius: var(--rad-12); background: linear-gradient(180deg, var(--c-tamno-ploca-1), var(--c-tamno-ploca-2)); border: var(--d-linija) solid var(--c-tamno-linija-2); opacity: 0; }
 .senka-korpusa { position: absolute; left: 50%; top: 50%; width: var(--s-senka-korpusa); height: var(--s-senka-korpusa-v); margin: var(--s-senka-pomak) 0 0 calc(-1 * var(--s-senka-korpusa) / 2); border-radius: 50%; background: radial-gradient(closest-side, var(--c-crna-senka-3), transparent); filter: blur(var(--blur-senka)); }
-.krojna-lista { position: absolute; left: 50%; top: 50%; width: var(--s-krojna); transform: translate(-50%, -50%); opacity: 0; }
+.krojna-lista { position: absolute; left: 50%; top: 50%; width: var(--s-krojna); max-width: calc(100% - var(--r-okvir-mob)); transform: translate(-50%, -50%); opacity: 0; }
 .krojna-lista .prozor { border-radius: var(--rad-krojna); }
 .korpus-natpisi { position: relative; height: var(--r-12); text-align: center; }
 .natpis { position: absolute; inset: 0; margin-inline: auto; max-width: 42em; font-size: var(--f-natpis); color: var(--c-na-tamnom-2); opacity: 0; }

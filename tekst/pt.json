@@ -1,0 +1,167 @@
+{
+  "_jezik": { "ime": "Português", "status": "za-proveru", "proverio": "" },
+  "meta": {
+    "naslov": "TOPICA — software de projeto de móveis com lista de corte, feito para marceneiros",
+    "opis": "A TOPICA é um programa de projeto de cozinhas e móveis por medida para marceneiros, em Windows: desenhas a divisão, colocas os módulos do catálogo e obténs 3D, lista de corte ao milímetro, ferragens e preço. Versão de teste gratuita.",
+    "og_naslov": "TOPICA — da divisão à lista de corte",
+    "og_opis": "Software de projeto de móveis para marceneiros: divisão, módulos do catálogo, 3D, lista de corte ao milímetro e preço. Teste gratuito.",
+    "og_alt": "A mascote Topi a medir um módulo ao lado das palavras TOPICA — da divisão à lista de corte",
+    "ld_opis": "Programa Windows para projetar mobiliário por medida em placa (cozinhas, roupeiros, móveis) para oficinas de marcenaria: divisão em 3D, módulos do catálogo construídos segundo a norma europeia, lista de corte ao milímetro, ferragens e preço."
+  },
+  "a11y": { "preskoci": "Saltar para o conteúdo", "logo": "TOPICA, página inicial", "navigacija": "Navegação principal", "jezik": "Escolher idioma", "meni": "Menu" },
+  "nav": { "kako": "Como funciona", "mogucnosti": "Funções", "galerija": "Galeria", "cena": "Preço", "pitanja": "Perguntas", "blog": "Guias", "preuzimanje": "Transferir" },
+  "cta": { "glavno": "Transferir a versão de teste", "kratko": "Transferir" },
+  "jezik": {
+    "napomena_program": "O programa está hoje disponível em sérvio e em inglês. O português está a caminho.",
+    "predlog_tekst": "Esta página também existe em português.",
+    "predlog_dugme": "Mudar para português"
+  },
+  "hero": {
+    "naslov": "Da divisão à lista de corte.",
+    "tekst": "A TOPICA é um programa de projeto de cozinhas e roupeiros por medida, feito para marceneiros: desenhas a divisão, alinhas os módulos ao longo da parede, e o programa já conhece a construção e dá-te logo o 3D, a lista de corte ao milímetro, as ferragens e o preço.",
+    "saznaj": "Vê como funciona",
+    "sitno": "Windows 10/11 · sérvio e inglês · a versão de teste é gratuita",
+    "topi_alt": "Topi, a mascote de peluche da TOPICA, a medir com uma fita métrica um módulo inferior de cozinha com a porta aberta",
+    "prozor_alt": "TOPICA, vista 3D de uma cozinha na divisão: módulos inferiores e superiores com frentes em carvalho ao longo da parede, com a linha de inferiores a 3200 mm e 400 mm de espaço livre"
+  },
+  "cinjenice": {
+    "naslov": "Programa para marceneiros, não um CAD",
+    "1": { "naslov": "Medidas ao milímetro", "tekst": "Cada peça recebe a medida exata a partir da construção real do módulo, não de um esboço a olho." },
+    "2": { "naslov": "Norma europeia, System 32", "tekst": "Corpo sem aro, orla, dobradiças de caneco de 35 mm, gavetas e rodapé do catálogo. Nada para voltar a configurar." },
+    "3": { "naslov": "Lista de corte pronta a copiar", "tekst": "As mesmas medidas numa linha, agrupadas por material. Copia e envia para a seccionadora." }
+  },
+  "kako": {
+    "nadnaslov": "Como funciona",
+    "naslov": "Três passos até à lista de corte.",
+    "1": { "naslov": "Desenha a divisão", "tekst": "Introduz as paredes, o pé-direito, a janela e as instalações. A divisão fica logo em 3D, com o chão e as paredes que o teu cliente tem mesmo.", "alt": "TOPICA, passo 1: uma divisão de 3600 × 3000 mm com escolha de chão e paredes, laminado cinzento e azulejo atrás da cozinha" },
+    "2": { "naslov": "Coloca os módulos do catálogo", "tekst": "Inferior, superior, coluna, lava-loiça, forno, canto. Encostam à parede e ao vizinho, e as medidas mudas ao vivo, ao milímetro.", "alt": "TOPICA, passo 2: um módulo inferior com porta de 600 × 720 × 560 mm encostado à parede, com cotas até ao vizinho e o painel de propriedades" },
+    "3": { "naslov": "Lê a lista de corte e o preço", "tekst": "O programa conhece a construção: ilhargas, fundo, travessas, costas, frente. Lista de corte, ferragens e preço estão sempre atualizados, sem botão “recalcular”.", "alt": "TOPICA, passo 3: a lista de corte “Por medida” de um módulo, 8 peças agrupadas por material com medida, espessura, orla e preço" }
+  },
+  "korpus": {
+    "naslov": "Um módulo. Cada peça ao milímetro.",
+    "natpis": {
+      "1": "Um módulo inferior de 600 × 720 × 560 mm, daqueles que se fazem em qualquer oficina.",
+      "2": "O programa desmonta-o em peças e dá a cada uma a medida exata, com orla e espessura.",
+      "3": "As peças assentam na placa como plano de corte: aglomerado branco, decor carvalho, platex.",
+      "4": "E a lista de corte “Por medida” fica pronta a copiar e a enviar para a seccionadora."
+    },
+    "daska": { "bok": "Ilharga", "dno": "Fundo", "polica": "Prateleira", "precka": "Travessa", "front": "Frente", "ledja": "Costas" },
+    "noscript_alt": "TOPICA, lista de corte “Por medida” de um módulo inferior de 600 × 720 × 560 mm",
+    "posle": "O programa faz isto para cada módulo da cozinha assim que o encostas à parede."
+  },
+  "niz": {
+    "nadnaslov": "Divisão",
+    "naslov": "Monta a linha, o programa termina.",
+    "tekst": "Os módulos encostam uns aos outros e à parede, e a bancada e o rodapé assentam por cima com a medida total, sem desenhar nada."
+  },
+  "mogucnosti": {
+    "nadnaslov": "Funções",
+    "naslov": "Projeto de móveis que percebe do ofício.",
+    "tekst": "Cozinhas, roupeiros por medida e móveis. Tu decides medidas e decors; o programa trata da construção e das contas.",
+    "1": { "naslov": "Medidas ao milímetro", "tekst": "Escreve largura, altura e profundidade ou arrasta o cursor. As cotas até à parede, até ao vizinho e desde o chão estão sempre à vista.", "alt": "Um módulo em 3D com cotas de 600, 720 e 560 mm e marcas até à parede, até ao vizinho e desde o chão" },
+    "2": { "naslov": "Catálogo segundo a norma", "tekst": "Cada tipo de módulo vem com a construção segundo a norma europeia, System 32.", "s1": "Inferior, superior, coluna", "s2": "Lava-loiça e forno", "s3": "Canto e roupeiro", "s4": "Gavetas, dobradiças, pés" },
+    "3": { "naslov": "“Por medida” para copiar", "tekst": "As mesmas medidas numa linha, por material. A primeira medida é o sentido do veio.", "k1": "Medida · mm", "k2": "Esp.", "k3": "Orla", "k4": "Qtd.", "r1": "1 comprido", "r3": "2 compridos, 2 curtos" },
+    "4": { "naslov": "Decors reais e 3D ao vivo", "tekst": "Carvalho, branco, mármore ou o teu próprio decor a partir de uma foto. O que mudas, vês logo, num projeto de cozinha em 3D que o teu cliente percebe." },
+    "5": { "naslov": "Rodapé, bancada e ilhargas de remate, sozinhos", "tekst": "Constroem-se sobre os módulos selecionados e acompanham-nos quando os moves." },
+    "6": { "naslov": "Preço por projeto", "tekst": "Introduz os teus preços de placa, orla, ferragens e mão de obra. O programa soma por projeto; o orçamento fazes tu.", "alt": "Definições da oficina: mão de obra por módulo 3000 RSD, margem 20 %" },
+    "7": { "naslov": "Sem internet, sem conta", "tekst": "Um projeto é um único ficheiro no teu computador. Envia-o por e-mail a um colega." }
+  },
+  "galerija": {
+    "nadnaslov": "Galeria",
+    "naslov": "Cozinha em 3D, diretamente do programa.",
+    "1": { "tekst": "Uma cozinha em linha, decor carvalho e aglomerado branco.", "alt": "Uma cozinha em linha com frentes em carvalho, corpos em aglomerado branco, chão em laminado cinzento" },
+    "2": { "tekst": "O mesmo projeto, outro decor: mármore escuro e azulejo.", "alt": "A mesma cozinha com frentes em mármore escuro e azulejo na parede" },
+    "3": { "tekst": "De perto: um módulo, medidas e construção.", "alt": "Grande plano de um módulo de 600 × 720 × 570 mm com porta em carvalho e o painel de medidas" },
+    "4": { "tekst": "Abre as frentes e espreita lá dentro.", "alt": "Um módulo com a porta aberta em 3D a mostrar a prateleira e o interior, com cotas até à parede e ao vizinho" },
+    "5": { "tekst": "O teu próprio decor: junta uma foto da placa que compras de facto.", "alt": "Opções de decor da frente: branco, cinzento, bege, preto, madeira, betão, mármore, inox e um decor personalizado" },
+    "6": { "tekst": "Gavetas com caixa e corrediças do catálogo.", "alt": "Um módulo inferior com três gavetas em 3D, com o painel de gavetas e corrediças" }
+  },
+  "zakoga": {
+    "nadnaslov": "Para quem é",
+    "naslov": "Feito por um marceneiro, para marceneiros.",
+    "tekst": "A TOPICA nasce numa oficina de marcenaria em Belgrado, com projetos reais para clientes reais. Por isso não tem nada a mais: só o que faz um profissional chegar mais depressa da medição ao corte.",
+    "uloga": "marceneiro e autor do programa, Belgrado"
+  },
+  "cena": {
+    "nadnaslov": "Preço",
+    "naslov": "A versão de teste é gratuita.",
+    "uskoro": "Preço em breve",
+    "uskoro_tekst": "da versão completa",
+    "tekst": "Experimenta o programa no teu próprio projeto, sem conta e sem cartão. O preço da versão completa será anunciado em breve.",
+    "kupi": "Comprar",
+    "obrazac": {
+      "naslov": "Avisa-me quando sair o preço",
+      "placeholder": "tu@email.com",
+      "dugme": "Avisa-me",
+      "predmet": "TOPICA: avisa-me quando sair o preço",
+      "napomena": "Uma única mensagem quando o preço for anunciado. Sem publicidade.",
+      "hvala": "Obrigado! Avisamos-te assim que o preço for anunciado.",
+      "greska": "Não foi enviado. Escreve-nos diretamente para o e-mail no rodapé."
+    },
+    "topi_alt": "Topi, a mascote da TOPICA, com um berbequim e uma régua na mão"
+  },
+  "pitanja": {
+    "nadnaslov": "Perguntas",
+    "naslov": "O que os marceneiros perguntam antes de experimentar.",
+    "1": { "p": "Em que Windows corre?", "o": "Windows 10 e Windows 11, 64 bits. O programa é pequeno e rápido; corre num portátil normal de oficina." },
+    "2": { "p": "Preciso de internet?", "o": "Não. O programa funciona offline e sem conta. Um projeto é um único ficheiro no teu computador." },
+    "3": { "p": "Que placas e materiais suporta?", "o": "Aglomerado melamínico de 18 mm para corpo e frentes, orla de 0,45 e 1 mm, platex de 3 mm para as costas; as espessuras e a orla mudam-se nas definições da oficina. Escolhe um decor da lista ou junta o teu." },
+    "4": { "p": "O que recebo no fim?", "o": "Uma lista de corte por módulo e por material, a vista “Por medida” para copiar, a lista de ferragens, o consumo de placa, o preço e a impressão em PDF." },
+    "5": { "p": "Em que idiomas?", "o": "Sérvio e inglês. O idioma muda-se dentro do programa." },
+    "6": { "p": "O programa recebe atualizações?", "o": "Sim. Saem versões novas com regularidade, e a versão de teste pode sempre voltar a ser transferida a partir desta página." }
+  },
+  "dno": {
+    "naslov": "Experimenta no teu próximo projeto.",
+    "tekst": "Windows 10/11. Sem conta, sem cartão. A lista de corte do primeiro módulo em cinco minutos.",
+    "uslovi": "Condições de utilização",
+    "privatnost": "Privacidade"
+  },
+  "preuzimanje": {
+    "meta_naslov": "Transferir a versão de teste gratuita da TOPICA para Windows",
+    "meta_opis": "Versão de teste gratuita do software de projeto de móveis e listas de corte. Windows 10/11, 64 bits, sem conta. Instalação em três passos.",
+    "nadnaslov": "Transferir",
+    "naslov": "Versão de teste gratuita para Windows.",
+    "tekst": "Grátis, sem conta e sem cartão. A instalação demora um minuto, e em cinco tens o primeiro módulo com lista de corte.",
+    "email_naslov": "Deixa o teu e-mail se quiseres (opcional)",
+    "email_tekst": "Só te escrevemos com as versões novas e o preço quando sair. Sem publicidade, cancelas com um clique.",
+    "dugme": "Transferir a versão de teste",
+    "datoteka": "TOPICA-teste.exe",
+    "bez_emaila": "Sem e-mail:",
+    "direktno": "transferir diretamente",
+    "predmet": "TOPICA: nova transferência da versão de teste",
+    "zahtevi_naslov": "O que o computador precisa",
+    "z1_naslov": "Sistema", "z1": "Windows 10 ou Windows 11, 64 bits.",
+    "z2_naslov": "Computador", "z2": "Um portátil normal de oficina chega: 4 GB de memória e uma gráfica que aguente 3D no browser.",
+    "z3_naslov": "Internet", "z3": "Não é precisa. O programa funciona offline e não cria nenhuma conta.",
+    "koraci_naslov": "Instalação em três passos",
+    "k1": "Faz duplo clique no ficheiro transferido TOPICA-teste.exe.",
+    "k2": "Se o Windows perguntar se confias no programa, clica em “Mais informações” e depois em “Executar mesmo assim”.",
+    "k3": "Abre a TOPICA a partir do ambiente de trabalho. Cria o primeiro projeto: introduz as medidas da divisão e coloca o primeiro módulo.",
+    "slika_placeholder": "Espaço para uma captura de ecrã deste passo (adicionada pelo proprietário)",
+    "upozorenje_naslov": "Aviso do Windows.",
+    "upozorenje": "O programa ainda não tem assinatura digital, por isso na primeira execução o Windows mostra um ecrã azul “O Windows protegeu o seu PC”. É normal em programas novos e não assinados: clica em “Mais informações” e depois em “Executar mesmo assim”. Estamos a tratar da assinatura e o aviso vai desaparecer.",
+    "pomoc": "Ficaste preso? Escreve-nos, respondemos no próprio dia."
+  },
+  "hvala": {
+    "meta_naslov": "Obrigado — a versão de teste da TOPICA está a ser transferida",
+    "meta_opis": "A transferência da versão de teste da TOPICA começou. Três passos para arrancar.",
+    "nadnaslov": "Obrigado",
+    "naslov": "A transferência começou.",
+    "tekst": "Se não arrancou sozinha:",
+    "koraci_naslov": "Três passos para arrancar",
+    "k1": "Instala o programa (no aviso do Windows: “Mais informações” e depois “Executar mesmo assim”).",
+    "k2": "Cria um projeto novo e introduz as medidas da divisão: largura, profundidade e pé-direito.",
+    "k3": "Junta o primeiro módulo inferior do catálogo e abre “Medidas de corte”. É a tua primeira lista de corte.",
+    "snimak": "Três minutos de vídeo: da divisão à lista de corte.",
+    "snimak_dugme": "Ver o vídeo"
+  },
+  "blog": {
+    "meta_naslov": "Guias para marceneiros: lista de corte, System 32, orla, medidas de cozinha — TOPICA",
+    "meta_opis": "Artigos curtos e práticos para marceneiros que fazem móveis por medida em placa: como se lê uma lista de corte, System 32, orlagem, medidas padrão dos módulos de cozinha.",
+    "nadnaslov": "Guias",
+    "naslov": "Marcenaria no papel, antes da oficina.",
+    "tekst": "Artigos curtos sobre coisas que todos os marceneiros fazem, escritas uma vez para não teres de as explicar de cada vez.",
+    "poziv": "Experimenta isto no teu próprio projeto."
+  },
+  "clanak": { "citanje": "min de leitura", "objavljeno": "Publicado" }
+}

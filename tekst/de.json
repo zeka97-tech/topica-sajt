@@ -1,0 +1,167 @@
+{
+  "_jezik": { "ime": "Deutsch", "status": "pun", "proverio": "" },
+  "meta": {
+    "naslov": "TOPICA — Küchenplaner Software mit Schnittliste, gemacht für Schreiner und Tischler",
+    "opis": "TOPICA ist Möbelplanungssoftware für Tischler unter Windows: Raum zeichnen, Korpusse aus dem Katalog stellen, und das Programm liefert von selbst 3D, eine millimetergenaue Schnittliste, Beschläge und den Preis. Die Testversion ist kostenlos.",
+    "og_naslov": "TOPICA — vom Raum zur Schnittliste",
+    "og_opis": "Software für Tischler: Raum, Korpusse aus dem Katalog, 3D, millimetergenaue Schnittliste und Preis. Testversion kostenlos.",
+    "og_alt": "Maskottchen Topi misst einen Korpus neben dem Schriftzug TOPICA — vom Raum zur Schnittliste",
+    "ld_opis": "Windows-Programm zur Planung von Plattenmöbeln nach Maß (Küchen, Schränke, Kommoden) für Tischlereien und Schreinereien: Raum in 3D, Korpusse aus dem Katalog nach europäischem Standard, millimetergenaue Schnittliste, Beschläge und Preis."
+  },
+  "a11y": { "preskoci": "Zum Inhalt springen", "logo": "TOPICA, Startseite", "navigacija": "Hauptnavigation", "jezik": "Sprache wählen", "meni": "Menü" },
+  "nav": { "kako": "So geht’s", "mogucnosti": "Funktionen", "galerija": "Galerie", "cena": "Preis", "pitanja": "Fragen", "blog": "Ratgeber", "preuzimanje": "Download" },
+  "cta": { "glavno": "Testversion laden", "kratko": "Download" },
+  "jezik": {
+    "napomena_program": "Das Programm gibt es derzeit auf Serbisch und Englisch. Deutsch kommt.",
+    "predlog_tekst": "Diese Seite gibt es auch auf Deutsch.",
+    "predlog_dugme": "Zu Deutsch wechseln"
+  },
+  "hero": {
+    "naslov": "Vom Raum zur Schnittliste.",
+    "tekst": "TOPICA ist ein Küchenplaner für Schreiner und Tischler: Du zeichnest den Raum, stellst die Korpusse an die Wand, und das Programm kennt die Konstruktion und liefert sofort 3D, eine millimetergenaue Schnittliste, Beschläge und den Preis.",
+    "saznaj": "So funktioniert’s",
+    "sitno": "Windows 10/11 · Serbisch und Englisch · Testversion kostenlos",
+    "topi_alt": "Topi, das Plüsch-Maskottchen von TOPICA, misst mit dem Maßband einen Küchenunterschrank mit offener Tür",
+    "prozor_alt": "TOPICA, 3D-Ansicht einer Küche im Raum: Unter- und Oberschränke mit Eichenfronten an der Wand, Unterzeile 3200 mm und 400 mm freier Platz"
+  },
+  "cinjenice": {
+    "naslov": "Warum Software für Tischler und kein Zeichenprogramm",
+    "1": { "naslov": "Maße auf den Millimeter", "tekst": "Jedes Teil bekommt sein genaues Maß aus der echten Korpuskonstruktion, nicht aus einer Skizze nach Augenmaß." },
+    "2": { "naslov": "Europäischer Standard, System 32", "tekst": "Korpus ohne Rahmen, Kante, Topfbänder mit 35-mm-Topf, Schubladen und Sockel aus dem Katalog. Nichts musst du neu einstellen." },
+    "3": { "naslov": "Schnittliste fertig zum Kopieren", "tekst": "Gleiche Maße in einer Zeile, nach Material gruppiert. Kopieren und an den Zuschnitt schicken." }
+  },
+  "kako": {
+    "nadnaslov": "So geht’s",
+    "naslov": "Drei Schritte zur Schnittliste.",
+    "1": { "naslov": "Raum zeichnen", "tekst": "Wände, Deckenhöhe, Fenster und Anschlüsse eingeben. Der Raum steht sofort in 3D, mit Boden und Wänden, wie sie der Kunde wirklich hat.", "alt": "TOPICA, Schritt 1: Raum 3600 × 3000 mm mit Auswahl von Boden und Wänden, graues Laminat und Fliesen hinter der Küche" },
+    "2": { "naslov": "Korpusse aus dem Katalog stellen", "tekst": "Unterschrank, Oberschrank, Hochschrank, Spüle, Backofen, Eckschrank. Sie rasten an der Wand und am Nachbarn ein, und die Maße änderst du live, auf den Millimeter.", "alt": "TOPICA, Schritt 2: Unterschrank mit Tür 600 × 720 × 560 mm an der Wand, mit Maßen zum Nachbarn und dem Eigenschaften-Panel" },
+    "3": { "naslov": "Schnittliste und Preis ablesen", "tekst": "Das Programm kennt die Konstruktion: Seiten, Boden, Traversen, Rückwand, Front. Schnittliste, Beschläge und Preis sind immer aktuell, ohne Knopf „Neu berechnen“.", "alt": "TOPICA, Schritt 3: Schnittliste „Nach Maß“ für einen Korpus, 8 Teile nach Material gruppiert, mit Maß, Stärke, Kante und Preis" }
+  },
+  "korpus": {
+    "naslov": "Ein Korpus. Jedes Teil auf den Millimeter.",
+    "natpis": {
+      "1": "Unterschrank 600 × 720 × 560 mm, wie ihn jede Werkstatt baut.",
+      "2": "Das Programm zerlegt ihn in Teile und gibt jedem sein genaues Maß, mit Kante und Stärke.",
+      "3": "Die Teile legen sich auf die Platte wie ein Schnittplan: weiße Spanplatte, Dekor Eiche, HDF.",
+      "4": "Und die Schnittliste „Nach Maß“ ist fertig zum Kopieren und für den Zuschnitt."
+    },
+    "daska": { "bok": "Seite", "dno": "Boden", "polica": "Fachboden", "precka": "Traverse", "front": "Front", "ledja": "Rückwand" },
+    "noscript_alt": "TOPICA, Schnittliste „Nach Maß“ für einen Unterschrank 600 × 720 × 560 mm",
+    "posle": "Das macht das Programm für jeden Korpus in der Küche, sobald du ihn an die Wand stellst."
+  },
+  "niz": {
+    "nadnaslov": "Raum",
+    "naslov": "Zeile stellen, das Programm macht den Rest.",
+    "tekst": "Die Korpusse rasten aneinander und an der Wand ein, und Arbeitsplatte und Sockel legen sich mit dem Gesamtmaß darüber, ohne Zeichnen."
+  },
+  "mogucnosti": {
+    "nadnaslov": "Funktionen",
+    "naslov": "Möbelplanungssoftware, die das Tischlerhandwerk kennt.",
+    "tekst": "Küchen, Schränke nach Maß und Kommoden. Du entscheidest über Maße und Dekor, Konstruktion und Kalkulation macht das Programm.",
+    "1": { "naslov": "Maße auf den Millimeter", "tekst": "Breite, Höhe und Tiefe tippst du ein oder ziehst den Schieberegler. Die Maße zur Wand, zum Nachbarn und vom Boden sind ständig sichtbar.", "alt": "Korpus in 3D mit den Maßen 600, 720 und 560 mm und Markierungen zur Wand, zum Nachbarn und vom Boden" },
+    "2": { "naslov": "Katalog nach Standard", "tekst": "Jeder Korpustyp kommt mit Konstruktion nach europäischem Standard, System 32.", "s1": "Unter-, Ober-, Hochschrank", "s2": "Spüle und Backofen", "s3": "Eckschrank und Kleiderschrank", "s4": "Schubladen, Topfbänder, Stellfüße" },
+    "3": { "naslov": "„Nach Maß“ zum Kopieren", "tekst": "Gleiche Maße in einer Zeile, nach Material. Das erste Maß ist die Faserrichtung.", "k1": "Maß · mm", "k2": "Stärke", "k3": "Kante", "k4": "Stk.", "r1": "1 lang", "r3": "2 lang, 2 kurz" },
+    "4": { "naslov": "Echte Dekore und 3D live", "tekst": "Eiche, Weiß, Marmor oder dein eigenes Dekor vom Foto. Was du änderst, siehst du sofort, in einer 3D-Küchenplanung, die der Kunde versteht." },
+    "5": { "naslov": "Sockel, Arbeitsplatte und Wangen von selbst", "tekst": "Sie entstehen über den gewählten Korpussen und wandern mit, wenn du die Korpusse verschiebst." },
+    "6": { "naslov": "Preis pro Projekt", "tekst": "Trag deine Preise für Platten, Kanten, Beschläge und Arbeit ein. Das Programm rechnet pro Projekt zusammen, du machst das Angebot.", "alt": "Werkstatt-Einstellungen: Arbeit pro Element 3000 RSD, Aufschlag 20 %" },
+    "7": { "naslov": "Ohne Internet, ohne Konto", "tekst": "Das Projekt ist eine einzige Datei auf deinem Rechner. Schick sie dem Kollegen per E-Mail." }
+  },
+  "galerija": {
+    "nadnaslov": "Galerie",
+    "naslov": "Küchenplanung in 3D, direkt aus dem Programm.",
+    "1": { "tekst": "Küchenzeile, Dekor Eiche und weiße Spanplatte.", "alt": "Küchenzeile mit Eichenfronten, Korpusse aus weißer Spanplatte, graues Laminat am Boden" },
+    "2": { "tekst": "Gleiches Projekt, anderes Dekor: dunkler Marmor und Fliesen.", "alt": "Dieselbe Küche mit Fronten in dunklem Marmor und Fliesen an der Wand" },
+    "3": { "tekst": "Nahaufnahme: ein Korpus, Maße und Konstruktion.", "alt": "Nahaufnahme eines Korpus 600 × 720 × 570 mm mit Eichentür und dem Maß-Panel" },
+    "4": { "tekst": "Öffne die Fronten und schau hinein.", "alt": "Korpus mit offener Tür in 3D, Fachboden und Innenraum sichtbar, Maße zur Wand und zum Nachbarn" },
+    "5": { "tekst": "Eigenes Dekor: Füge ein Foto der Platte hinzu, die du wirklich kaufst.", "alt": "Auswahl der Frontdekore: Weiß, Grau, Beige, Schwarz, Holz, Beton, Marmor, Edelstahl und eigenes Dekor" },
+    "6": { "tekst": "Schubladen mit Zarge und Führungen aus dem Katalog.", "alt": "Unterschrank mit drei Schubladen in 3D, mit dem Panel für Schubladen und Führungen" }
+  },
+  "zakoga": {
+    "nadnaslov": "Für wen",
+    "naslov": "Vom Tischler gemacht, für Tischler.",
+    "tekst": "TOPICA entsteht in einer Tischlerwerkstatt in Belgrad, an echten Projekten für echte Kunden. Deshalb ist nichts Überflüssiges drin: nur das, was der Handwerker braucht, um schneller vom Aufmaß zum Zuschnitt zu kommen.",
+    "uloga": "Tischler und Autor des Programms, Belgrad"
+  },
+  "cena": {
+    "nadnaslov": "Preis",
+    "naslov": "Die Testversion ist kostenlos.",
+    "uskoro": "Preis folgt in Kürze",
+    "uskoro_tekst": "für die Vollversion",
+    "tekst": "Probier das Programm an deinem eigenen Projekt aus, ohne Konto und ohne Karte. Den Preis der Vollversion geben wir in Kürze bekannt.",
+    "kupi": "Kaufen",
+    "obrazac": {
+      "naslov": "Sag mir Bescheid, wenn der Preis da ist",
+      "placeholder": "du@email.de",
+      "dugme": "Bescheid geben",
+      "predmet": "TOPICA: Bescheid geben, wenn der Preis da ist",
+      "napomena": "Nur eine einzige Nachricht, wenn der Preis veröffentlicht ist. Keine Werbung.",
+      "hvala": "Danke! Wir melden uns, sobald der Preis veröffentlicht ist.",
+      "greska": "Das hat nicht geklappt. Schreib uns direkt an die E-Mail-Adresse in der Fußzeile."
+    },
+    "topi_alt": "Topi, das Maskottchen von TOPICA, hält eine Bohrmaschine und ein Lineal"
+  },
+  "pitanja": {
+    "nadnaslov": "Fragen",
+    "naslov": "Was Tischler vor dem Testen fragen.",
+    "1": { "p": "Auf welchem Windows läuft es?", "o": "Auf Windows 10 und Windows 11, 64-Bit. Das Programm ist klein und schnell; es läuft auch auf einem normalen Werkstatt-Laptop." },
+    "2": { "p": "Brauche ich Internet?", "o": "Nein. Das Programm läuft ohne Internet und ohne Konto. Das Projekt ist eine einzige Datei auf deinem Rechner." },
+    "3": { "p": "Welche Platten und Materialien werden unterstützt?", "o": "Spanplatte 18 mm für Korpus und Front, Kante 0,45 und 1 mm, HDF 3 mm für die Rückwand; Stärken und Kanten änderst du in den Werkstatt-Einstellungen. Das Dekor wählst du aus der Liste oder fügst dein eigenes hinzu." },
+    "4": { "p": "Was bekomme ich am Ende?", "o": "Schnittliste pro Korpus und pro Material, die Ansicht „Nach Maß“ zum Kopieren, Beschlagliste, Plattenverbrauch, Preis und Druck als PDF." },
+    "5": { "p": "In welcher Sprache?", "o": "Auf Serbisch und Englisch. Die Sprache stellst du im Programm um." },
+    "6": { "p": "Wird das Programm aktualisiert?", "o": "Ja. Neue Versionen erscheinen regelmäßig, und die Testversion kannst du jederzeit wieder von dieser Seite laden." }
+  },
+  "dno": {
+    "naslov": "Probier es an deinem nächsten Projekt.",
+    "tekst": "Windows 10/11. Kein Konto, keine Karte. Die Schnittliste für den ersten Korpus in fünf Minuten.",
+    "uslovi": "Nutzungsbedingungen",
+    "privatnost": "Datenschutz"
+  },
+  "preuzimanje": {
+    "meta_naslov": "TOPICA Testversion für Windows herunterladen",
+    "meta_opis": "Kostenlose Testversion der Küchenplaner- und Schnittlisten-Software. Windows 10/11, 64-Bit, ohne Konto. Installation in drei Schritten.",
+    "nadnaslov": "Download",
+    "naslov": "Testversion für Windows.",
+    "tekst": "Kostenlos, ohne Konto und ohne Karte. Die Installation dauert eine Minute, den ersten Korpus mit Schnittliste hast du in fünf.",
+    "email_naslov": "Hinterlass deine E-Mail, wenn du magst (freiwillig)",
+    "email_tekst": "Wir melden nur neue Versionen und den Preis, wenn er da ist. Keine Werbung, Abmeldung mit einem Klick.",
+    "dugme": "Testversion laden",
+    "datoteka": "TOPICA-test.exe",
+    "bez_emaila": "Ohne E-Mail:",
+    "direktno": "direkt herunterladen",
+    "predmet": "TOPICA: neuer Download der Testversion",
+    "zahtevi_naslov": "Was der Rechner braucht",
+    "z1_naslov": "System", "z1": "Windows 10 oder Windows 11, 64-Bit.",
+    "z2_naslov": "Rechner", "z2": "Ein normaler Werkstatt-Laptop reicht: 4 GB Arbeitsspeicher und eine Grafik, die 3D im Browser schafft.",
+    "z3_naslov": "Internet", "z3": "Nicht nötig. Das Programm läuft offline und legt kein Konto an.",
+    "koraci_naslov": "Installation in drei Schritten",
+    "k1": "Starte die heruntergeladene Datei TOPICA-test.exe per Doppelklick.",
+    "k2": "Wenn Windows fragt, ob du dem Programm vertraust, klick auf „Weitere Informationen“ und dann auf „Trotzdem ausführen“.",
+    "k3": "Öffne TOPICA vom Desktop aus. Leg das erste Projekt an: Raummaße eingeben und den ersten Korpus stellen.",
+    "slika_placeholder": "Platz für einen Screenshot dieses Schritts (fügt der Betreiber hinzu)",
+    "upozorenje_naslov": "Windows-Warnung.",
+    "upozorenje": "Das Programm hat noch keine digitale Signatur, deshalb zeigt Windows beim ersten Start das blaue Fenster „Der Computer wurde durch Windows geschützt“. Das ist bei neuen, unsignierten Programmen üblich: Klick auf „Weitere Informationen“ und dann auf „Trotzdem ausführen“. Die Signatur ist beantragt, dann verschwindet die Warnung.",
+    "pomoc": "Hängt es irgendwo? Schreib uns, wir antworten noch am selben Tag."
+  },
+  "hvala": {
+    "meta_naslov": "Danke — die TOPICA-Testversion wird heruntergeladen",
+    "meta_opis": "Der Download der TOPICA-Testversion hat begonnen. Drei Schritte zum Start.",
+    "nadnaslov": "Danke",
+    "naslov": "Der Download hat begonnen.",
+    "tekst": "Falls er nicht von selbst gestartet ist:",
+    "koraci_naslov": "Drei Schritte zum Start",
+    "k1": "Installiere das Programm (bei der Windows-Warnung: „Weitere Informationen“, dann „Trotzdem ausführen“).",
+    "k2": "Leg ein neues Projekt an und gib die Raummaße ein: Breite, Tiefe und Deckenhöhe.",
+    "k3": "Füge den ersten Unterschrank aus dem Katalog hinzu und öffne „Zuschnittmaße“. Das ist deine erste Schnittliste.",
+    "snimak": "Drei Minuten Video: vom Raum zur Schnittliste.",
+    "snimak_dugme": "Video ansehen"
+  },
+  "blog": {
+    "meta_naslov": "Ratgeber für Tischler: Schnittliste, System 32, Kante, Küchenmaße — TOPICA",
+    "meta_opis": "Kurze Fachtexte für Tischler und Schreiner, die Plattenmöbel nach Maß bauen: wie man eine Schnittliste liest, System 32, Kanten, Maße von Küchenschränken.",
+    "nadnaslov": "Ratgeber",
+    "naslov": "Tischlerei auf dem Papier, bevor es in die Werkstatt geht.",
+    "tekst": "Kurze Texte über Dinge, die jeder Handwerker macht, einmal aufgeschrieben, damit du sie nicht jedes Mal erklären musst.",
+    "poziv": "Probier das an deinem eigenen Projekt aus."
+  },
+  "clanak": { "citanje": "Min. Lesezeit", "objavljeno": "Veröffentlicht" }
+}

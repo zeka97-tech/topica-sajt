@@ -3,7 +3,7 @@
 import { readFileSync, writeFileSync, mkdirSync, rmSync, cpSync, readdirSync, existsSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { Graditelj, ldSoftver, ldClanak, ldPitanja } from "./lib/stranice.mjs";
+import { Graditelj, ldSoftver, ldClanak, ldPitanja, ldStrana } from "./lib/stranice.mjs";
 import { markdownUHtml, prednjiBlok } from "./lib/markdown.mjs";
 import { ucitaj } from "./lib/sablon.mjs";
 
@@ -54,7 +54,7 @@ function ucitajZbirku(kod, folder) {
   return readdirSync(dir).filter((f) => f.endsWith(".md")).sort().map((f) => {
     const { meta, telo } = prednjiBlok(readFileSync(path.join(dir, f), "utf8"));
     const { html, brojReci } = markdownUHtml(telo);
-    return { slug: f.replace(/\.md$/, ""), meta, html, brojReci, folder };
+    return { slug: f.replace(/\.md$/, ""), meta, html: html.replace(/(src|href)="(\.\.\/)+slike\//g, '$1="{{sistem.koren}}slike/'), brojReci, folder };
   });
 }
 for (const j of aktivni) {
@@ -77,7 +77,7 @@ for (const j of aktivni) {
   pisi(kod, "index.html", g.stranica({ kod, putanja: "index.html", naslov: t.meta.naslov, opis: t.meta.opis, ogNaslov: t.meta.og_naslov, ogOpis: t.meta.og_opis, sadrzaj, ldJson: ldSoftver(sajt, t, kod, jezici), postoji }));
   // preuzimanje i hvala
   pisi(kod, "preuzimanje.html", g.stranica({ kod, putanja: "preuzimanje.html", naslov: t.preuzimanje.meta_naslov, opis: t.preuzimanje.meta_opis, sadrzaj: g.sablon("preuzimanje"), ldJson: ldSoftver(sajt, t, kod, jezici), postoji }));
-  pisi(kod, "hvala.html", g.stranica({ kod, putanja: "hvala.html", naslov: t.hvala.meta_naslov, opis: t.hvala.meta_opis, sadrzaj: g.sablon("hvala"), postoji, sistem: { robots: "noindex" } }));
+  pisi(kod, "hvala.html", g.stranica({ kod, putanja: "hvala.html", naslov: t.hvala.meta_naslov, opis: t.hvala.meta_opis, sadrzaj: g.sablon("hvala"), postoji, ldJson: ldStrana(sajt, kod, "hvala.html", t.hvala.meta_naslov, t.hvala.meta_opis) }));
   // zbirke
   for (const z of ZBIRKE) {
     const clanci = clanciPoJeziku[kod][z.folder];
@@ -88,10 +88,10 @@ for (const j of aktivni) {
       const minuta = Math.max(1, Math.round(c.brojReci / 200));
       const ld = c.meta.tip === "pitanja" && c.meta.parovi ? ldPitanja(JSON.parse(c.meta.parovi)) : ldClanak(sajt, kod, putanja, c.meta, t);
       pisi(kod, putanja, g.stranica({ kod, putanja, naslov: c.meta.naslov + " — TOPICA", opis: c.meta.opis, ogNaslov: c.meta.naslov, ogOpis: c.meta.opis, ogTip: "article", sadrzaj: g.sablon("clanak"), ldJson: ld, postoji,
-        sistem: { clanakNadnaslov: c.meta.nadnaslov || tz.nadnaslov, clanakNaslov: c.meta.naslov, clanakMeta: `${c.brojReci} ${t.clanak.reci || ""} · ${minuta} ${t.clanak.citanje}`, clanakTelo: c.html, clanakPoziv: c.meta.poziv || tz.poziv } }));
+        sistem: { clanakNadnaslov: c.meta.nadnaslov || tz.nadnaslov, clanakNaslov: c.meta.naslov, clanakMeta: `${minuta} ${t.clanak.citanje}`, clanakTelo: c.html, clanakPoziv: c.meta.poziv || tz.poziv } }));
     }
     const stavke = clanci.map((c) => `<a href="${c.slug}.html">${c.meta.naslov}<small>${c.meta.opis}</small></a>`).join("");
-    pisi(kod, `${z.folder}/index.html`, g.stranica({ kod, putanja: `${z.folder}/index.html`, naslov: tz.meta_naslov, opis: tz.meta_opis, sadrzaj: g.sablon("spisak"), postoji,
+    pisi(kod, `${z.folder}/index.html`, g.stranica({ kod, putanja: `${z.folder}/index.html`, naslov: tz.meta_naslov, opis: tz.meta_opis, sadrzaj: g.sablon("spisak"), postoji, ldJson: ldStrana(sajt, kod, `${z.folder}/`, tz.meta_naslov, tz.meta_opis, "CollectionPage"),
       sistem: { spisakNadnaslov: tz.nadnaslov, spisakNaslov: tz.naslov, spisakTekst: tz.tekst, spisakStavke: stavke } }));
   }
 }

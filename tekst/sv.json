@@ -1,0 +1,167 @@
+{
+  "_jezik": { "ime": "Svenska", "status": "za-proveru", "proverio": "" },
+  "meta": {
+    "naslov": "TOPICA — ritprogram för kök och kaplista, byggt för snickare",
+    "opis": "TOPICA är ett köksritningsprogram för snickare på Windows: rita rummet, ställ in stommar från katalogen och få 3D, en kaplista på millimetern, beslag och pris. Gratis provversion.",
+    "og_naslov": "TOPICA — från rummet till kaplistan",
+    "og_opis": "Program för möbelsnickare: rum, stommar från katalogen, 3D, kaplista på millimetern och pris. Gratis provversion.",
+    "og_alt": "Maskoten Topi mäter en stomme bredvid texten TOPICA — från rummet till kaplistan",
+    "ld_opis": "Windows-program för att rita måttbeställda skivmöbler (kök, garderober, skåp) för snickerier: rum i 3D, stommar från katalogen enligt europeisk standard, kaplista på millimetern, beslag och pris."
+  },
+  "a11y": { "preskoci": "Hoppa till innehållet", "logo": "TOPICA, startsida", "navigacija": "Huvudmeny", "jezik": "Välj språk", "meni": "Meny" },
+  "nav": { "kako": "Så funkar det", "mogucnosti": "Funktioner", "galerija": "Galleri", "cena": "Pris", "pitanja": "Frågor", "blog": "Guider", "preuzimanje": "Ladda ner" },
+  "cta": { "glavno": "Ladda ner gratis provversion", "kratko": "Ladda ner" },
+  "jezik": {
+    "napomena_program": "Programmet finns i dag på serbiska och engelska. Svenska är på väg.",
+    "predlog_tekst": "Den här sidan finns också på svenska.",
+    "predlog_dugme": "Byt till svenska"
+  },
+  "hero": {
+    "naslov": "Från rummet till kaplistan.",
+    "tekst": "TOPICA är ett ritprogram för skåp och kök, byggt för snickare: rita rummet, ställ stommarna på rad längs väggen, så kan programmet konstruktionen och ger dig direkt 3D, en kaplista på millimetern, beslag och pris.",
+    "saznaj": "Se hur det funkar",
+    "sitno": "Windows 10/11 · serbiska och engelska · provversionen är gratis",
+    "topi_alt": "Topi, TOPICAs plyschmaskot, mäter en bänkstomme med öppen lucka med måttband",
+    "prozor_alt": "TOPICA, 3D-vy av ett kök i ett rum: bänk- och väggstommar med ekfronter längs väggen, bänkraden 3200 mm och 400 mm fritt utrymme"
+  },
+  "cinjenice": {
+    "naslov": "Därför ett program för snickare, inte ett ritverktyg",
+    "1": { "naslov": "På millimetern", "tekst": "Varje skiva får sitt exakta mått från stommens verkliga konstruktion, inte från en skiss på fri hand." },
+    "2": { "naslov": "Europeisk standard, System 32", "tekst": "Ramlös stomme, kantlist, gångjärn med 35 mm kopp, lådor och sockel från katalogen. Inget att ställa in på nytt." },
+    "3": { "naslov": "Kaplista klar att kopiera", "tekst": "Lika mått på en rad, grupperade efter material. Kopiera och skicka till justersågen." }
+  },
+  "kako": {
+    "nadnaslov": "Så funkar det",
+    "naslov": "Tre steg till en kaplista.",
+    "1": { "naslov": "Rita rummet", "tekst": "Mata in väggar, takhöjd, fönster och installationer. Rummet står i 3D direkt, med det golv och de väggar kunden faktiskt har.", "alt": "TOPICA, steg 1: ett rum 3600 × 3000 mm med val av golv och väggar, grå laminat och kakel bakom köket" },
+    "2": { "naslov": "Ställ in stommar från katalogen", "tekst": "Bänk-, vägg-, högskåp, diskbänk, ugn, hörn. De snäpper mot väggen och mot grannen, och du ändrar måtten live, på millimetern.", "alt": "TOPICA, steg 2: en bänkstomme 600 × 720 × 560 mm med lucka mot väggen, med mått till grannen och egenskapspanelen" },
+    "3": { "naslov": "Läs av kaplistan och priset", "tekst": "Programmet kan konstruktionen: sidor, botten, reglar, baksida, front. Kaplista, beslag och pris är alltid aktuella, utan någon ”räkna om”-knapp.", "alt": "TOPICA, steg 3: kaplistan ”Efter mått” för en stomme, 8 skivor grupperade efter material med mått, tjocklek, kantlist och pris" }
+  },
+  "korpus": {
+    "naslov": "En stomme. Varje skiva på millimetern.",
+    "natpis": {
+      "1": "En bänkstomme 600 × 720 × 560 mm, den sort varje verkstad bygger.",
+      "2": "Programmet plockar isär den i skivor och ger varje skiva exakt mått, kantlist och tjocklek.",
+      "3": "Skivorna läggs ut på plattan som en kapplan: vit spånskiva, ekdekor, hardboard.",
+      "4": "Och kaplistan ”Efter mått” är klar att kopiera och skicka till justersågen."
+    },
+    "daska": { "bok": "Sida", "dno": "Botten", "polica": "Hylla", "precka": "Regel", "front": "Front", "ledja": "Baksida" },
+    "noscript_alt": "TOPICA, kaplistan ”Efter mått” för en bänkstomme 600 × 720 × 560 mm",
+    "posle": "Det här gör programmet för varje stomme i köket i samma stund som du ställer den mot väggen."
+  },
+  "niz": {
+    "nadnaslov": "Rummet",
+    "naslov": "Bygg raden, programmet gör klart.",
+    "tekst": "Stommarna snäpper mot varandra och mot väggen, och bänkskiva och sockel lägger sig ovanpå med totalmåttet, utan att du ritar något."
+  },
+  "mogucnosti": {
+    "nadnaslov": "Funktioner",
+    "naslov": "Ritprogram för möbler som kan snickeri.",
+    "tekst": "Kök, platsbyggda garderober och skåp. Du bestämmer mått och dekorer; programmet sköter konstruktionen och räknandet.",
+    "1": { "naslov": "Mått på millimetern", "tekst": "Skriv in bredd, höjd och djup eller dra i reglaget. Måtten till väggen, till grannen och från golvet syns hela tiden.", "alt": "En stomme i 3D med måtten 600, 720 och 560 mm och markeringar till väggen, till grannen och från golvet" },
+    "2": { "naslov": "Katalog enligt standard", "tekst": "Varje skåptyp kommer med konstruktion enligt europeisk standard, System 32.", "s1": "Bänk, vägg, högskåp", "s2": "Diskbänk och ugn", "s3": "Hörn och garderob", "s4": "Lådor, gångjärn, ben" },
+    "3": { "naslov": "”Efter mått” för kopiering", "tekst": "Lika mått på en rad, per material. Första måttet är fiberriktningen.", "k1": "Mått · mm", "k2": "Tj.", "k3": "Kant", "k4": "Ant", "r1": "1 lång", "r3": "2 långa, 2 korta" },
+    "4": { "naslov": "Riktiga dekorer och 3D live", "tekst": "Ek, vit, marmor eller din egen dekor från ett foto. Allt du ändrar ser du direkt, i en 3D-köksritning som kunden förstår." },
+    "5": { "naslov": "Sockel, bänkskiva och täcksidor, automatiskt", "tekst": "De byggs över de markerade stommarna och följer med när du flyttar dem." },
+    "6": { "naslov": "Pris per projekt", "tekst": "Lägg in dina egna priser på skivor, kantlist, beslag och arbete. Programmet summerar per projekt; du skriver offerten.", "alt": "Verkstadsinställningar: arbete per enhet 3000 RSD, påslag 20 %" },
+    "7": { "naslov": "Inget internet, inget konto", "tekst": "Ett projekt är en fil på din dator. Mejla den till en kollega." }
+  },
+  "galerija": {
+    "nadnaslov": "Galleri",
+    "naslov": "Köksdesign i 3D, direkt ur programmet.",
+    "1": { "tekst": "En köksrad, ekdekor och vit spånskiva.", "alt": "En köksrad med ekfronter, stommar i vit spånskiva, grått laminatgolv" },
+    "2": { "tekst": "Samma projekt, annan dekor: mörk marmor och kakel.", "alt": "Samma kök med fronter i mörk marmor och kakel på väggen" },
+    "3": { "tekst": "Närbild: en stomme, mått och konstruktion.", "alt": "Närbild av en stomme 600 × 720 × 570 mm med eklucka och måttpanelen" },
+    "4": { "tekst": "Öppna fronterna och titta in.", "alt": "En stomme med öppen lucka i 3D som visar hyllan och insidan, med mått till väggen och grannen" },
+    "5": { "tekst": "Egen dekor: lägg till ett foto av skivan du faktiskt köper.", "alt": "Val av frontdekor: vit, grå, beige, svart, trä, betong, marmor, rostfritt och egen dekor" },
+    "6": { "tekst": "Lådor med lådsida och lådskenor från katalogen.", "alt": "En bänkstomme med tre lådor i 3D, med panelen för lådor och lådskenor" }
+  },
+  "zakoga": {
+    "nadnaslov": "För vem",
+    "naslov": "Byggt av en snickare, för snickare.",
+    "tekst": "TOPICA byggs i ett snickeri i Belgrad, på riktiga projekt för riktiga kunder. Därför finns det inget i programmet du inte behöver: bara det som tar en hantverkare snabbare från uppmätning till kapning.",
+    "uloga": "möbelsnickare och programmets upphovsman, Belgrad"
+  },
+  "cena": {
+    "nadnaslov": "Pris",
+    "naslov": "Provversionen är gratis.",
+    "uskoro": "Pris kommer snart",
+    "uskoro_tekst": "för fullversionen",
+    "tekst": "Prova programmet på ditt eget projekt, utan konto och utan kort. Priset på fullversionen meddelas snart.",
+    "kupi": "Köp",
+    "obrazac": {
+      "naslov": "Säg till när priset är klart",
+      "placeholder": "du@epost.se",
+      "dugme": "Meddela mig",
+      "predmet": "TOPICA: meddela mig när priset är klart",
+      "napomena": "Ett meddelande när priset är klart. Ingen reklam.",
+      "hvala": "Tack! Vi hör av oss så fort priset är klart.",
+      "greska": "Det gick inte igenom. Skriv direkt till e-postadressen i sidfoten."
+    },
+    "topi_alt": "Topi, TOPICAs maskot, håller en borrmaskin och en linjal"
+  },
+  "pitanja": {
+    "nadnaslov": "Frågor",
+    "naslov": "Vad snickare frågar innan de provar.",
+    "1": { "p": "Vilken Windows funkar det på?", "o": "Windows 10 och Windows 11, 64-bitars. Programmet är litet och snabbt; det går på en vanlig verkstadslaptop." },
+    "2": { "p": "Behöver jag internet?", "o": "Nej. Programmet funkar offline och utan konto. Ett projekt är en enda fil på din dator." },
+    "3": { "p": "Vilka skivor och material stöder det?", "o": "18 mm spånskiva till stomme och fronter, kantlist 0,45 och 1 mm, 3 mm hardboard till baksidor; tjocklekar och kantlist ändrar du i verkstadsinställningarna. Välj dekor ur listan eller lägg till din egen." },
+    "4": { "p": "Vad får jag i slutändan?", "o": "En kaplista per stomme och per material, vyn ”Efter mått” för kopiering, beslagslista, skivåtgång, pris och PDF-utskrift." },
+    "5": { "p": "Vilka språk?", "o": "Serbiska och engelska. Du byter språk inne i programmet." },
+    "6": { "p": "Uppdateras programmet?", "o": "Ja. Nya versioner kommer regelbundet, och provversionen kan alltid laddas ner igen från den här sidan." }
+  },
+  "dno": {
+    "naslov": "Prova på ditt nästa projekt.",
+    "tekst": "Windows 10/11. Inget konto, inget kort. En kaplista för din första stomme på fem minuter.",
+    "uslovi": "Användarvillkor",
+    "privatnost": "Integritet"
+  },
+  "preuzimanje": {
+    "meta_naslov": "Ladda ner gratis provversion av TOPICA för Windows",
+    "meta_opis": "Gratis provversion av programmet för skåpritning och kaplista. Windows 10/11, 64-bitars, inget konto. Installation i tre steg.",
+    "nadnaslov": "Ladda ner",
+    "naslov": "Gratis provversion för Windows.",
+    "tekst": "Gratis, inget konto och inget kort. Installationen tar en minut, och din första stomme med kaplista har du på fem.",
+    "email_naslov": "Lämna din e-post om du vill (frivilligt)",
+    "email_tekst": "Vi skickar bara nya versioner och priset när det är klart. Ingen reklam, avsluta med ett klick.",
+    "dugme": "Ladda ner gratis provversion",
+    "datoteka": "TOPICA-prov.exe",
+    "bez_emaila": "Utan e-post:",
+    "direktno": "ladda ner direkt",
+    "predmet": "TOPICA: ny nedladdning av provversionen",
+    "zahtevi_naslov": "Vad din dator behöver",
+    "z1_naslov": "System", "z1": "Windows 10 eller Windows 11, 64-bitars.",
+    "z2_naslov": "Dator", "z2": "En vanlig verkstadslaptop räcker: 4 GB minne och grafik som klarar 3D i en webbläsare.",
+    "z3_naslov": "Internet", "z3": "Behövs inte. Programmet funkar offline och skapar inget konto.",
+    "koraci_naslov": "Installation i tre steg",
+    "k1": "Dubbelklicka på den nedladdade filen TOPICA-prov.exe.",
+    "k2": "Om Windows frågar om du litar på programmet, klicka på ”Mer information” och sedan ”Kör ändå”.",
+    "k3": "Öppna TOPICA från skrivbordet. Skapa ditt första projekt: skriv in rummets mått och ställ in den första stommen.",
+    "slika_placeholder": "Plats för en skärmbild av det här steget (läggs till av ägaren)",
+    "upozorenje_naslov": "Windows-varning.",
+    "upozorenje": "Programmet är ännu inte digitalt signerat, så vid första starten visar Windows en blå ruta ”Windows skyddade datorn”. Det är normalt för nya, osignerade program: klicka på ”Mer information” och sedan ”Kör ändå”. Vi håller på att skaffa en signatur, och då försvinner varningen.",
+    "pomoc": "Kört fast? Skriv till oss, vi svarar samma dag."
+  },
+  "hvala": {
+    "meta_naslov": "Tack — provversionen av TOPICA laddas ner",
+    "meta_opis": "Nedladdningen av TOPICAs provversion har startat. Tre steg för att komma igång.",
+    "nadnaslov": "Tack",
+    "naslov": "Nedladdningen har startat.",
+    "tekst": "Om den inte startade av sig själv:",
+    "koraci_naslov": "Tre steg för att komma igång",
+    "k1": "Installera programmet (vid Windows-varningen: ”Mer information” och sedan ”Kör ändå”).",
+    "k2": "Skapa ett nytt projekt och skriv in rummets mått: bredd, djup och takhöjd.",
+    "k3": "Lägg till den första bänkstommen från katalogen och öppna ”Kapmått”. Det är din första kaplista.",
+    "snimak": "Tre minuter video: från rummet till kaplistan.",
+    "snimak_dugme": "Se videon"
+  },
+  "blog": {
+    "meta_naslov": "Guider för snickare: kaplista, System 32, kantlist, köksmått — TOPICA",
+    "meta_opis": "Korta praktiska artiklar för snickare som bygger måttbeställda skivmöbler: hur man läser en kaplista, System 32, kantlist, standardmått på köksstommar.",
+    "nadnaslov": "Guider",
+    "naslov": "Snickeri på papper, före verkstaden.",
+    "tekst": "Korta artiklar om sådant varje snickare gör, nedskrivet en gång så att du slipper förklara det varje gång.",
+    "poziv": "Prova det här på ditt eget projekt."
+  },
+  "clanak": { "citanje": "min läsning", "objavljeno": "Publicerad" }
+}

@@ -2,3 +2,5 @@ node_modules/
 .DS_Store
 Thumbs.db
 docs/snimci/*.tmp.png
+src/sablon/og-tmp/
+dist/
