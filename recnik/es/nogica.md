@@ -1,6 +1,6 @@
 ---
 naslov: Pata regulable
-opis: La pata es el pie regulable de plástico del mueble bajo de cocina, 100 mm, 4 unidades hasta 800 mm de ancho. Cómo se nivela la fila, dónde se falla y cómo las cuenta el programa.
+opis: La pata es el pie regulable de plástico del mueble bajo de cocina, 100 mm, 4 unidades hasta 800 mm de ancho. Cómo se nivela la fila y dónde se falla.
 datum: 2026-11-04
 slika: ../slike/web/snimak-39-cokla-1600.webp
 status: za-proveru

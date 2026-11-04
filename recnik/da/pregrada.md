@@ -1,6 +1,6 @@
 ---
 naslov: Mellemside
-opis: Mellemsiden er en lodret plade, der deler korpusset i to åbninger i bredden. Mål, kantbånd, hængsler på en fælles plade, og hvorfor et bredt skab kræver mellemside.
+opis: Mellemsiden er en lodret plade, der deler korpusset i to åbninger. Mål, kantbånd, hængsler på en fælles plade, og hvorfor et bredt skab kræver mellemside.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

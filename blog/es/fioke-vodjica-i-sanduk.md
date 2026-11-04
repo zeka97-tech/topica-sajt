@@ -1,6 +1,6 @@
 ---
 naslov: Cajones: cómo elegir la guía y calcular la cubeta
-opis: Guías de bolas, de rodillos o cajón metálico: cuánta holgura por lado, cómo se elige el largo de la guía y cómo se calcula la cubeta del cajón para un cuerpo de 600 mm, con números exactos.
+opis: Guías de bolas, de rodillos o cajón metálico: holgura por lado, cómo elegir el largo de la guía y cómo calcular la cubeta del cajón para un cuerpo de 600 mm.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 status: za-proveru

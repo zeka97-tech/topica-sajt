@@ -1,6 +1,6 @@
 ---
 naslov: Ilharga
-opis: A ilharga é o lado do corpo, uma peça de aglomerado de 18 mm que suporta prateleiras, dobradiças e corrediças. Medidas da ilharga, furação System 32 e o erro frequente no corte.
+opis: A ilharga é o lado do corpo, aglomerado de 18 mm que suporta prateleiras, dobradiças e corrediças. Medidas, furação System 32 e o erro frequente no corte.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Grebliste (gola)
-opis: Greblisten er et C- eller L-profil i aluminium indbygget i korpusset i stedet for greb. Hvad der ændrer sig på front, side og vaskeskab, typiske fejl og hvordan programmet styrer profilet.
+opis: Greblisten er et C- eller L-profil i aluminium indbygget i korpusset i stedet for greb. Hvad der ændrer sig på front, side og vaskeskab, og typiske fejl.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 status: za-proveru

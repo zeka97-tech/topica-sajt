@@ -1,6 +1,6 @@
 ---
 naslov: Přesah pracovní desky
-opis: Přesah pracovní desky je část desky, která přečnívá 20–30 mm přes dvířka a na boku, kde není stěna. Proč je deska hluboká 600, jak se řeže podle stěny a kde se chybuje.
+opis: Přesah pracovní desky je část desky přečnívající 20–30 mm přes dvířka a na boku bez stěny. Proč je deska hluboká 600, jak se řeže podle stěny a kde se chybuje.
 datum: 2026-11-04
 slika: ../slike/web/snimak-45-kuhinja-plocice-mermer-1600.webp
 status: za-proveru

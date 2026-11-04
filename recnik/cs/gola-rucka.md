@@ -1,6 +1,6 @@
 ---
 naslov: Profil Gola (úchytová lišta)
-opis: Profil Gola je hliníkový profil C nebo L zabudovaný do korpusu místo úchytky. Co se mění na dvířkách, boku a dřezové skříňce, časté chyby a jak program profil vede.
+opis: Profil Gola je hliníkový profil C nebo L v korpusu místo úchytky. Co se mění na dvířkách, boku a dřezové skříňce, časté chyby a jak program profil vede.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 status: za-proveru

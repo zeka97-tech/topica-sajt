@@ -1,6 +1,6 @@
 ---
 naslov: Cómo medir una cocina antes de diseñarla (pared, instalaciones, electrodomésticos)
-opis: Qué se mide y se anota antes de diseñar una cocina a medida: paredes a tres alturas, techo, ventana y puerta, agua, desagüe, luz y gas, electrodomésticos, comprobación de la escuadra. Lista para llevar e introducción en el programa.
+opis: Qué medir antes de diseñar una cocina a medida: paredes a tres alturas, techo, ventana, agua, desagüe, luz, gas, electrodomésticos, escuadra. Lista para llevar.
 datum: 2026-11-04
 slika: ../slike/web/snimak-44-soba-pod-zid-1600.webp
 status: za-proveru

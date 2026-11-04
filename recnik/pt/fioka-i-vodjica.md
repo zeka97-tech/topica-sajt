@@ -1,6 +1,6 @@
 ---
 naslov: Gaveta e corrediça
-opis: A gaveta é uma caixa sobre corrediças atrás da frente: caixa de madeira com folga de 13 mm por lado ou caixa metálica segundo o catálogo. Medidas, comprimentos de corrediças e folgas.
+opis: A gaveta é uma caixa sobre corrediças atrás da frente: caixa de madeira com folga de 13 mm por lado ou caixa metálica do catálogo. Medidas, corrediças e folgas.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 status: za-proveru

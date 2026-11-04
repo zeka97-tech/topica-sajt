@@ -1,6 +1,6 @@
 ---
 naslov: Fundo do corpo
-opis: O fundo do corpo é a peça de baixo do módulo; na prática europeia e na TOPICA assenta sobre as ilhargas, à largura total. Medidas do fundo, orla, pés e como se corta.
+opis: O fundo é a peça de baixo do módulo; na prática europeia e na TOPICA assenta sobre as ilhargas à largura total. Medidas, orla, pés e como se corta.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

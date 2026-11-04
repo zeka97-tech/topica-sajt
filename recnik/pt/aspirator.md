@@ -1,6 +1,6 @@
 ---
 naslov: Exaustor (módulo e altura de montagem)
-opis: O exaustor é o aparelho por cima da placa de cozinha; o módulo de exaustor é um módulo superior encurtado. Altura de montagem 650 mm elétrica / 750 mm gás, larguras, tubo e erros.
+opis: O exaustor fica por cima da placa de cozinha; o módulo de exaustor é um superior encurtado. Altura 650 mm elétrica / 750 mm gás, larguras, tubo e erros.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

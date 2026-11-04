@@ -1,6 +1,6 @@
 ---
 naslov: Bok
-opis: Bok to ścianka boczna korpusu, formatka z płyty wiórowej 18 mm, która niesie półki, zawiasy i prowadnice. Wymiary boku, otwory w Systemie 32 i częsty błąd przy rozkroju.
+opis: Bok to ścianka boczna korpusu z płyty wiórowej 18 mm, która niesie półki, zawiasy i prowadnice. Wymiary boku, otwory w Systemie 32 i częsty błąd rozkroju.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Aglomerado de 18 mm
-opis: O aglomerado de 18 mm (melamínico) é a placa base do mobiliário em placa. Espessuras, medidas habituais das placas, corte e erros frequentes no cálculo do material.
+opis: O aglomerado melamínico de 18 mm é a placa base do mobiliário em placa. Espessuras, medidas habituais das placas, corte e erros no cálculo do material.
 datum: 2026-11-04
 slika: ../slike/web/snimak-46-izbliza-front-1600.webp
 status: za-proveru

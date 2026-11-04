@@ -1,6 +1,6 @@
 ---
 naslov: Side (gavl)
-opis: Siden (gavlen) er korpussets lodrette plade, 18 mm spånplade, der bærer hylder, hængsler og skuffeskinner. Sidens mål, huller efter System 32 og en typisk skærefejl.
+opis: Siden (gavlen) er korpussets lodrette plade i 18 mm spånplade, der bærer hylder, hængsler og skuffeskinner. Mål, huller efter System 32 og en typisk skærefejl.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

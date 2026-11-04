@@ -1,6 +1,6 @@
 ---
 naslov: Rodapé
-opis: O rodapé é uma placa de 18 mm por baixo dos módulos inferiores da cozinha que esconde os pés: altura 100 mm (80–150), recuado, numa só linha, no decor das frentes.
+opis: O rodapé é uma placa de 18 mm sob os módulos inferiores que esconde os pés: altura 100 mm (80–150), recuado, numa só linha, no decor das frentes.
 datum: 2026-11-04
 slika: ../slike/web/snimak-39-cokla-1600.webp
 status: za-proveru

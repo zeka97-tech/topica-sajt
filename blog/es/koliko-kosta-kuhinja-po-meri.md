@@ -1,6 +1,6 @@
 ---
 naslov: Cuánto cuesta una cocina a medida — cómo calcula el precio el carpintero
-opis: El precio de una cocina a medida se compone de material por m², canto por metro, herrajes por unidad, mano de obra y margen. Qué entra en la cuenta, qué se olvida y cómo suma el programa con los precios que escribe el carpintero.
+opis: El precio de una cocina a medida son material por m², canto por metro, herrajes por unidad, mano de obra y margen. Qué entra en la cuenta y qué se olvida.
 datum: 2026-11-04
 slika: ../slike/web/snimak-37-cena-1600.webp
 status: za-proveru

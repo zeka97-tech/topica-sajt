@@ -1,6 +1,6 @@
 ---
 naslov: Frente
-opis: A frente são as portas e as frentes de gaveta, o lado visível do módulo em aglomerado de 18 mm com orla de 1 ou 2 mm. Medidas da frente, folga de 3 mm e como se calcula pelo corpo.
+opis: A frente são as portas e frentes de gaveta, o lado visível do módulo em aglomerado de 18 mm com orla de 1 ou 2 mm. Medidas, folga de 3 mm e cálculo pelo corpo.
 datum: 2026-11-04
 slika: ../slike/web/snimak-19-krupni-prikaz-1600.webp
 status: za-proveru

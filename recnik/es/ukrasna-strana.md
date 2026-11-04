@@ -1,6 +1,6 @@
 ---
 naslov: Costado de terminación
-opis: El costado de terminación es un tablero de 18 mm en el decor del frente que cubre el costado visto del cuerpo al final de la fila. Medidas, canto, errores y cómo lo lleva el programa.
+opis: Costado de terminación: tablero de 18 mm en decor del frente que cubre el costado visto al final de la fila. Medidas, canto, errores.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

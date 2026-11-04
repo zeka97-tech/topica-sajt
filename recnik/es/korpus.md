@@ -1,6 +1,6 @@
 ---
 naslov: Cuerpo (casco)
-opis: El cuerpo es el casco del módulo en melamina de 18 mm: dos costados, base, techo o travesaños, trasera y balda. Medidas estándar, cómo se monta y cómo lo calcula TOPICA.
+opis: El cuerpo es el casco del módulo en melamina de 18 mm: dos costados, base, techo o travesaños, trasera y balda. Medidas estándar, montaje y cálculo en TOPICA.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

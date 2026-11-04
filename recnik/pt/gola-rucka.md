@@ -1,6 +1,6 @@
 ---
 naslov: Perfil gola
-opis: O perfil gola é um perfil de alumínio em C ou L embutido no corpo em vez de puxador. O que muda na frente, na ilharga e no lava-loiça, erros frequentes e como o programa trata o perfil.
+opis: O perfil gola é um perfil de alumínio em C ou L embutido no corpo em vez de puxador. O que muda na frente, na ilharga e no lava-loiça, e os erros frequentes.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 status: za-proveru

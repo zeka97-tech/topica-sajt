@@ -1,6 +1,6 @@
 ---
 naslov: Dekor a směr kresby
-opis: Dekor je vzor a barva laminované dřevotřísky, směr kresby (let) je směr vzoru. Pravidlo „první rozměr = směr kresby“, dvířka nastojato a kde se nejčastěji chybuje.
+opis: Dekor je vzor a barva LTD, směr kresby (let) je směr vzoru. Pravidlo „první rozměr = směr kresby“, dvířka nastojato a kde se nejčastěji chybuje.
 datum: 2026-11-04
 slika: ../slike/web/snimak-47-svoj-dezen-1600.webp
 status: za-proveru

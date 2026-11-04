@@ -1,6 +1,6 @@
 ---
 naslov: Módulo de forno (nicho)
-opis: O módulo de forno é um corpo inferior com nicho para forno de encastrar, com pelo menos 568 mm de largura. Medidas do nicho, gaveta por baixo, placa por cima e erros frequentes.
+opis: O módulo de forno é um corpo inferior com nicho para forno de encastrar, com pelo menos 568 mm. Medidas do nicho, gaveta por baixo, placa por cima e erros.
 datum: 2026-11-04
 slika: ../slike/web/snimak-45-kuhinja-plocice-mermer-1600.webp
 status: za-proveru

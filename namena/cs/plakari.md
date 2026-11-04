@@ -1,6 +1,6 @@
 ---
 naslov: Program pro vestavěné a šatní skříně na míru
-opis: Program pro šatní skříně na míru pro truhláře: korpus hloubky 600, otevírací dveře se závěsy podle výšky, police a zásuvky podle System 32, nářezový plán a cena. Windows, bez internetu.
+opis: Program pro šatní skříně na míru: korpus hloubky 600, otevírací dveře se závěsy podle výšky, police a zásuvky podle System 32, nářezový plán a cena. Windows.
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Para instaladores y para quien corta fuera
-opis: Programa para instaladores de cocinas y carpinteros que cortan los tableros en un centro de corte: lista de corte «Por medida» para copiar y enviar, herrajes por unidad, el proyecto como un solo archivo. Windows.
+opis: Programa para instaladores de cocinas y carpinteros que cortan en un centro de corte: lista «Por medida» para enviar, herrajes por unidad, un solo archivo.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

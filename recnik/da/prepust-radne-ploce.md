@@ -1,6 +1,6 @@
 ---
 naslov: Bordpladens udhæng
-opis: Bordpladens udhæng er den del af pladen, der rager 20–30 mm ud over fronten og i siden, hvor der ikke er væg. Hvorfor pladen er 600 dyb, hvordan den skæres efter væggen, og hvor der fejles.
+opis: Bordpladens udhæng rager 20–30 mm ud over fronten og i siden uden væg. Hvorfor pladen er 600 dyb, hvordan den skæres efter væggen, og hvor der fejles.
 datum: 2026-11-04
 slika: ../slike/web/snimak-45-kuhinja-plocice-mermer-1600.webp
 status: za-proveru

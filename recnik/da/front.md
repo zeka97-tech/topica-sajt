@@ -1,6 +1,6 @@
 ---
 naslov: Front
-opis: Fronten er låger og skuffefronter, skabets synlige side i 18 mm spånplade med 1 eller 2 mm kantbånd. Frontens mål, fuge 3 mm og hvordan den regnes ud fra korpusset.
+opis: Fronten er låger og skuffefronter, skabets synlige side i 18 mm spånplade med 1 eller 2 mm kantbånd. Frontens mål, fuge 3 mm og beregning ud fra korpusset.
 datum: 2026-11-04
 slika: ../slike/web/snimak-19-krupni-prikaz-1600.webp
 status: za-proveru

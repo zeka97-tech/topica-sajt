@@ -1,6 +1,6 @@
 ---
 naslov: Zócalo
-opis: El zócalo es un tablero de 18 mm bajo los muebles bajos de cocina que oculta las patas: altura 100 mm (80–150), remetido, en una sola línea, en el decor de los frentes.
+opis: El zócalo es un tablero de 18 mm bajo los bajos de cocina que oculta las patas: altura 100 mm (80–150), remetido, en una línea, en el decor de los frentes.
 datum: 2026-11-04
 slika: ../slike/web/snimak-39-cokla-1600.webp
 status: za-proveru

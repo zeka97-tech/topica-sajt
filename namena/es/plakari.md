@@ -1,6 +1,6 @@
 ---
 naslov: Programa para armarios a medida
-opis: Programa para armarios a medida para carpinteros: cuerpo de 600 de fondo, puertas batientes con bisagras según altura, baldas y cajones según System 32, lista de corte y precio. Windows, sin internet.
+opis: Programa para armarios a medida para carpinteros: cuerpo de 600 de fondo, puertas con bisagras según altura, baldas y cajones System 32, lista de corte, precio.
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Okap (szafka pod okap i wysokość montażu)
-opis: Okap to urządzenie nad płytą grzewczą; szafka pod okap to skrócony korpus górny. Wysokość montażu 650 mm płyta elektryczna / 750 mm gaz, szerokości, rura i błędy.
+opis: Okap to urządzenie nad płytą grzewczą; szafka pod okap to skrócony korpus górny. Wysokość montażu 650 mm prąd / 750 mm gaz, szerokości, rura i błędy.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

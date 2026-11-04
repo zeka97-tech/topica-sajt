@@ -1,6 +1,6 @@
 ---
 naslov: Standardne mere kuhinjskih elementov
-opis: Tabela standardnih mer kuhinje po meri: spodnji in zgornji elementi, visoki, delovni pult, podnožje, širine. Privzete vrednosti TOPICE in kdaj od njih.
+opis: Tabela standardnih mer kuhinje po meri: spodnji in zgornji elementi, visoki, delovni pult, podnožje, širine. Privzete vrednosti TOPICE in kdaj odstopiti.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

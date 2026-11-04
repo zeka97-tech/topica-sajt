@@ -1,6 +1,6 @@
 ---
 naslov: Dekor og åreretning
-opis: Dekoren er mønster og farve på den melaminbelagte spånplade, åreretningen er mønstrets retning. Reglen »første mål = åreretning«, fronter stående, og hvor der oftest fejles.
+opis: Dekoren er mønster og farve på melaminbelagt spånplade, åreretningen er mønstrets retning. Reglen »første mål = åreretning«, fronter stående, typiske fejl.
 datum: 2026-11-04
 slika: ../slike/web/snimak-47-svoj-dezen-1600.webp
 status: za-proveru

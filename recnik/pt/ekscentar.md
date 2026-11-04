@@ -1,6 +1,6 @@
 ---
 naslov: Excêntrico (minifix) e confirmat
-opis: O excêntrico (minifix) e o confirmat são ferragens para unir as placas do corpo em esquadria. Medidas dos furos, quando se escolhe cada um e erros frequentes na furação.
+opis: Excêntrico (minifix) e confirmat são ferragens para unir as placas do corpo em esquadria. Medidas dos furos, quando escolher cada um e erros na furação.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

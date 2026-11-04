@@ -1,6 +1,6 @@
 ---
 naslov: Kantbånd
-opis: Kantbånd er ABS-bånd, der dækker spånpladens kant: 0,45 mm til korpus, 1 mm til fronter, 2 mm til hårdere kanter. Hvilke kanter der kantes, og hvordan længden regnes ud.
+opis: Kantbånd er ABS-bånd på spånpladens kant: 0,45 mm til korpus, 1 mm til fronter, 2 mm til hårde kanter. Hvilke kanter der kantes, og hvordan længden regnes ud.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

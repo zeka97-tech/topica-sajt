@@ -1,6 +1,6 @@
 ---
 naslov: Decor e sentido do veio
-opis: O decor é o desenho e a cor do aglomerado melamínico, e o sentido do veio é a direção do desenho. A regra “primeira medida = sentido do veio”, frentes ao alto e onde mais se erra.
+opis: O decor é o desenho e a cor do aglomerado melamínico, o veio a sua direção. A regra “primeira medida = sentido do veio”, frentes ao alto e onde se erra.
 datum: 2026-11-04
 slika: ../slike/web/snimak-47-svoj-dezen-1600.webp
 status: za-proveru
