@@ -34,3 +34,6 @@ Zadatak je rekao: odluke donosi sam i zapiši ih. Ovo je spisak, od najvažnijih
 27. **Marketing tekstovi su u prvom licu vlasnika i bez brojeva** koje ne znamo; sve što nije provereno u `gde-su-majstori.md` nosi oznaku „proveriti“. Wikipedia se ne prijavljuje.
 28. **Sličice za YouTube** prave se iz istog šablona kao OG slika (Topi + naslov), 1280 × 720, `marketing/youtube/`.
 29. **Tag `v0.1` je napravljen lokalno**, ali proxy sesije ne dozvoljava `git push --tags` ni API za tagove; vlasnik ga gura komandom iz README (jedna linija).
+30. **`dist/` je uklonjen iz git-a** (bio je greškom ubačen u ranom commitu pre pravila u .gitignore); gradi ga samo GitHub Actions i lokalni `npm run build`.
+31. **Provera ima `--port=N`** da bi dva merenja mogla da idu istovremeno (npr. `--seo` i puna provera) bez sudara na istom portu.
+32. **Prevodi koji su pali na limitu (el, sv, fi, uk) nisu rađeni ponovo:** nastavljeni su od sačuvanog stanja, samo fajlovi koji su falili; provera ključeva (`tabela.mjs` u izveštaju) potvrđuje 206/206 ključeva u svim 23 JSON-a.
