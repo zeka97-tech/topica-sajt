@@ -1,6 +1,6 @@
 ---
 naslov: Stranica
-opis: Stranica (bok) je pokončna plošča korpusa iz iverke 18 mm, ki nosi police, spone in vodila. Mere stranice, vrtine po sistemu 32 in pogosta napaka pri razrezu.
+opis: Stranica (bok) je pokončna plošča korpusa iz iverke 18 mm, ki nosi police, spone in vodila. Mere, vrtine po sistemu 32 in pogosta napaka pri razrezu.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

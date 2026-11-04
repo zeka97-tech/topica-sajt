@@ -1,6 +1,6 @@
 ---
 naslov: Sistem 32: zakaj ima evropsko pohištvo vrtine na 32 mm
-opis: Sistem 32 je niz vrtin Ø5 mm na razmiku 32 mm, prva na 37 mm od sprednjega roba stranice. Od kod izvira, kako se iz njega določijo police, spone in vodila in kako se vrta brez CNC-ja.
+opis: Sistem 32 je niz vrtin Ø5 mm na razmiku 32 mm, prva na 37 mm od sprednjega roba stranice. Od kod izvira, kako se iz njega določijo police, spone in vodila.
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 status: za-proveru

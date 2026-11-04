@@ -1,6 +1,6 @@
 ---
 naslov: ABS rob: katera debelina kam gre (0,45 / 1 / 2 mm) in kako se računa dolžina
-opis: Robni trak 0,45 mm gre na korpus, 1 mm na fronte, 2 mm na bolj obremenjene robove. Kaj pomeni neto mera po robu in kako se računa dolžina traku z 10 % odpadka, na primeru korpusa 600 × 720 × 560.
+opis: Robni trak 0,45 mm gre na korpus, 1 mm na fronte, 2 mm na obremenjene robove. Neto mera po robu in dolžina traku z 10 % odpadka na primeru korpusa 600 × 720 ×.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

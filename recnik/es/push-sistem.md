@@ -1,6 +1,6 @@
 ---
 naslov: Push-to-open (apertura por presión)
-opis: El push-to-open abre el frente sin tirador presionando sobre él. Bisagras sin muelle, expulsor en el cuerpo, mayor holgura del frente y errores frecuentes en el taller.
+opis: El push-to-open abre el frente sin tirador presionándolo. Bisagras sin muelle, expulsor en el cuerpo, mayor holgura del frente y errores en el taller.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

@@ -5,7 +5,7 @@ datum: 2026-11-04
 slika: ../slike/web/snimak-39-cokla-1600.webp
 ---
 
-Nožica je plastična podesiva noga na koju staje donji kuhinjski element; drži korpus iznad poda i daje visinu za sokl. Podešava se zavrtanjem, pa se niz elemenata nivelira i na krivom podu, a [sokl](./cokla.html) se kači na nožice kopčama.
+Nožica je plastična podesiva noga na koju staje donji kuhinjski element; drži korpus iznad poda i daje visinu za sokl. Podešava se okretanjem, pa se niz elemenata nivelira i na krivom podu, a [sokl](./cokla.html) se kači na nožice kopčama.
 
 ## Standardne mjere
 

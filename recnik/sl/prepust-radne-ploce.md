@@ -1,6 +1,6 @@
 ---
 naslov: Previs delovnega pulta
-opis: Previs delovnega pulta je del pulta, ki štrli 20–30 mm čez fronto in ob strani, kjer ni stene. Zakaj je pult globok 600, kako se reže po steni in kje se zmoti.
+opis: Previs delovnega pulta je del pulta, ki štrli 20–30 mm čez fronto in ob strani brez stene. Zakaj je pult globok 600, kako se reže po steni, kje se zmoti.
 datum: 2026-11-04
 slika: ../slike/web/snimak-45-kuhinja-plocice-mermer-1600.webp
 status: za-proveru

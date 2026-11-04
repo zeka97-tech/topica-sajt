@@ -1,6 +1,6 @@
 ---
 naslov: Standardne mjere kuhinjskih elemenata
-opis: Tablica standardnih mjera kuhinje po mjeri: donji i gornji elementi, visoki, radna ploča, sokl, razmak do gornjih, širine. Zadane mjere programa i kada odstupiti.
+opis: Tablica standardnih mjera kuhinje po mjeri: donji i gornji elementi, visoki, radna ploča, sokl, razmak do gornjih, širine. Zadane mjere i kada odstupiti.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 ---

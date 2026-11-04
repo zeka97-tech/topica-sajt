@@ -15,7 +15,7 @@ Bei Plattenmöbeln (Küchen, Schränke, Kommoden aus Spanplatte) trägt eine Zei
 - **Länge × Breite** in Millimetern, das Fertigmaß des Teils.
 - **Stärke**: 18 mm für Korpus und Fronten, 3 mm HDF für die Rückwand, 8–10 mm für Schubladenböden.
 - **Material**: weiße Spanplatte, Dekor Eiche, farbige Hartfaserplatte.
-- **Kante**: welche Kanten bekantet werden und mit welcher Kante (0,45 mm am Korpus, 1 oder 2 mm an der Front).
+- **[Kante](../recnik/kant.html)**: welche Kanten bekantet werden und mit welcher Kante (0,45 mm am Korpus, 1 oder 2 mm an der Front).
 - **Stückzahl**: zwei Seiten, ein Boden, zwei Traversen.
 
 Eine gute Liste ist nach Material und Stärke gruppiert, denn so wird auch zugeschnitten: zuerst die ganze weiße Spanplatte 18 mm, dann die Fronten, dann das HDF.
@@ -26,7 +26,7 @@ Bei Dekoren mit Maserung (Eiche, Nussbaum, Sonoma) ist es nicht egal, wie das Te
 
 ## Beispiel: Unterschrank 600 × 720 × 560
 
-Ein gewöhnlicher Küchenunterschrank mit einer Tür und einem Fachboden hat acht Teile. Der Boden liegt über den Seiten (volle Breite 600), die Seiten sind also 702 hoch, nicht 720. Die Korpustiefe ist 539, weil von den 560 die Front (18) und die Rückwand (3) abgezogen werden.
+Ein gewöhnlicher [Korpus](../recnik/korpus.html) eines Küchenunterschranks mit einer Tür und einem Fachboden hat acht Teile. Der Boden liegt über den Seiten (volle Breite 600), die Seiten sind also 702 hoch, nicht 720. Die Korpustiefe ist 539, weil von den 560 die Front (18) und die Rückwand (3) abgezogen werden.
 
 | Teil | Maß (mm) | Stärke | Kante | Stk. |
 |---|---|---|---|---|
@@ -46,5 +46,7 @@ Im Programm schreibst du die Schnittliste nicht: Sie wird aus den Korpussen bere
 ![Die Schnittliste „Nach Maß“ in TOPICA für einen Unterschrank 600 × 720 × 560 mm: acht Teile nach Material gruppiert, mit Maß, Stärke, Kante und Stückzahl](../slike/web/snimak-33-po-meri-1600.webp "Die Ansicht „Nach Maß“ für einen Korpus: acht Teile, drei Materialien, 2,34 m² Platte.")
 
 Die Regel „erstes Maß = Faserrichtung“ hält das Programm von selbst ein: Eine Front wird immer stehend geschrieben, und HDF trägt den Vermerk „ohne Faser“. Änderst du später in den Werkstatt-Einstellungen die Rückwandstärke oder die Frontkante, zieht sich die Änderung durch alle Teile im Projekt, auch durch die, die du schon angeschaut hast.
+
+Mehr dazu, welches Band wohin gehört, steht im Ratgeber [Kante: welche Stärke wohin gehört](./kant-debljina-i-duzina.html), und zur Lochreihe im Ratgeber [System 32](./sistem-32.html).
 
 Eine Schnittliste ist nicht kompliziert. Kompliziert ist, dass sie jedes Mal stimmt, für jedes Element, und auch nachdem der Kunde dreimal seine Meinung geändert hat. Dafür ist das Programm da.

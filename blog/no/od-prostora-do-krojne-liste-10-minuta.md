@@ -1,6 +1,6 @@
 ---
 naslov: Fra rommet til kapplisten på 10 minutter — steg for steg i TOPICA
-opis: Slik kommer du i TOPICA fra rommets mål til kappliste og pris på kjøkkenet: nytt prosjekt, første skrog, skuffer, veggskapsrekke, sokkel og benkeplate, «Etter mål». Med skjermbilder og reell tid per steg.
+opis: Fra rommets mål til kappliste og pris i TOPICA: nytt prosjekt, første skrog, skuffer, veggskap, sokkel og benkeplate, «Etter mål». Med reell tid per steg.
 datum: 2026-11-04
 slika: ../slike/web/snimak-44-soba-pod-zid-1600.webp
 status: za-proveru

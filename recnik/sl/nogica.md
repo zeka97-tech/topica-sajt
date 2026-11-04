@@ -1,6 +1,6 @@
 ---
 naslov: Nogica (nastavljiva)
-opis: Nogica je plastična nastavljiva noga spodnjega kuhinjskega elementa, 100 mm, 4 kosi do širine 800 mm. Kako se niz nivelira, kje se zmoti in kako jih program šteje.
+opis: Nogica je plastična nastavljiva noga spodnjega kuhinjskega elementa, 100 mm, 4 kosi do širine 800 mm. Kako se niz nivelira in kako jih program šteje.
 datum: 2026-11-04
 slika: ../slike/web/snimak-39-cokla-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Rubna traka: koja debljina gdje ide (0,45 / 1 / 2 mm) i kako se računa dužina
-opis: Rubna traka 0,45 mm ide na korpus, 1 mm na fronte, 2 mm na jače rubove. Što je neto mjera nakon kantiranja i kako se računa dužina trake s 10 % otpada, na primjeru.
+opis: Rubna traka 0,45 mm ide na korpus, 1 mm na fronte, 2 mm na jače rubove. Što je neto mjera nakon kantiranja i kako se računa dužina trake s 10 % otpada.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 ---

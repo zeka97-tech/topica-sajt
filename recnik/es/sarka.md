@@ -1,6 +1,6 @@
 ---
 naslov: Bisagra
-opis: Bisagra de cazoleta Ø35 mm para muebles: recta, acodada y superacodada (recubrimiento 18/9/0), taladrado, posición según System 32 y número de bisagras por altura del frente.
+opis: Bisagra de cazoleta Ø35 mm: recta, acodada y superacodada (recubrimiento 18/9/0), taladrado, posición según System 32 y bisagras por altura del frente.
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 status: za-proveru

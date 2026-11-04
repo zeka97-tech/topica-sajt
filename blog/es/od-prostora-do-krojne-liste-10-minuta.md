@@ -1,6 +1,6 @@
 ---
 naslov: De la estancia a la lista de corte en 10 minutos — paso a paso en TOPICA
-opis: Cómo se llega en el programa TOPICA de las medidas de la estancia a la lista de corte y el precio de la cocina: proyecto nuevo, primer cuerpo, cajones, fila de altos, zócalo y encimera, «Por medida». Con capturas y tiempo real por paso.
+opis: Cómo llegar en TOPICA de las medidas de la estancia a la lista de corte y el precio: proyecto, primer cuerpo, cajones, altos, zócalo, encimera, «Por medida».
 datum: 2026-11-04
 slika: ../slike/web/snimak-44-soba-pod-zid-1600.webp
 status: za-proveru

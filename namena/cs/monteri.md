@@ -1,6 +1,6 @@
 ---
 naslov: Pro montážníky a ty, kdo řežou u někoho jiného
-opis: Program pro montážníky kuchyní a řemeslníky, kteří si nechávají řezat desky v nářezovém centru: nářezový plán „Podle rozměru“ ke kopírování a odeslání, kování po kusech, projekt jako jeden soubor. Windows.
+opis: Program pro montážníky kuchyní a ty, kdo řežou v nářezovém centru: plán „Podle rozměru“ ke kopírování, kování po kusech, projekt jako jeden soubor. Windows.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: System 32: por qué el mueble europeo lleva taladros cada 32 mm
-opis: El System 32 es una hilera de taladros Ø5 mm cada 32 mm, el primero a 37 mm del borde delantero del costado. De dónde viene, cómo salen de él baldas, bisagras y guías y cómo taladrar sin CNC.
+opis: El System 32 es una hilera de taladros Ø5 mm cada 32 mm, el primero a 37 mm del borde delantero. De dónde viene, qué sale de él y cómo taladrar sin CNC.
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 status: za-proveru

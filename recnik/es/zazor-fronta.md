@@ -1,6 +1,6 @@
 ---
 naslov: Holgura del frente
-opis: La holgura del frente es la separación entre frentes contiguos (3 mm) y respecto al borde del módulo (1,5 mm). Cómo se calcula la medida del frente, ejemplo 600 → 597 y errores frecuentes.
+opis: La holgura del frente es la separación entre frentes (3 mm) y al borde del módulo (1,5 mm). Cálculo de la medida del frente, ejemplo 600 → 597 y errores.
 datum: 2026-11-04
 slika: ../slike/web/isecak-front-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Preguntas de carpinteros sobre el programa de cocinas y lista de corte
-opis: Veinte preguntas reales que hacen los carpinteros sobre el programa para cocinas, armarios y lista de corte: precio, Windows, internet, herrajes, canto, CNC, tableros, instalación. Respuestas cortas y honestas.
+opis: Veinte preguntas reales de carpinteros sobre el programa de cocinas, armarios y lista de corte: precio, Windows, internet, herrajes, canto, CNC, tableros.
 datum: 2026-11-04
 slika: ../slike/web/snimak-33-po-meri-1600.webp
 tip: pitanja

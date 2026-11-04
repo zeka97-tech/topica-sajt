@@ -1,6 +1,6 @@
 ---
 naslov: Balda
-opis: La balda es la pieza móvil del cuerpo sobre cuatro soportes según System 32. Medidas de la balda, remetido, canto de 0,45 mm y paso de taladros de 32 mm en el costado.
+opis: La balda es la pieza móvil del cuerpo sobre cuatro soportes según System 32. Medidas, remetido, canto de 0,45 mm y paso de taladros de 32 mm en el costado.
 datum: 2026-11-04
 slika: ../slike/web/snimak-19-krupni-prikaz-1600.webp
 status: za-proveru

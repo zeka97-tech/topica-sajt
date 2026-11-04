@@ -1,6 +1,6 @@
 ---
 naslov: Iverka 18 mm
-opis: Iverka 18 mm (oplemenitena, melaminska iverna plošča) je osnovna plošča ploskovnega pohištva. Debeline, običajne mere formatov, razrez in pogoste napake pri računanju materiala.
+opis: Iverka 18 mm (oplemenitena, melaminska) je osnovna plošča ploskovnega pohištva. Debeline, mere formatov, razrez in napake pri računanju materiala.
 datum: 2026-11-04
 slika: ../slike/web/snimak-46-izbliza-front-1600.webp
 status: za-proveru

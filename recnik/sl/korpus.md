@@ -1,6 +1,6 @@
 ---
 naslov: Korpus
-opis: Korpus je ogrodje elementa iz iverke 18 mm: dve stranici, dno, pokrov ali prečki, hrbtišče in polica. Standardne mere, kako se sestavi in kako ga TOPICA izračuna.
+opis: Korpus je ogrodje elementa iz iverke 18 mm: dve stranici, dno, pokrov ali prečki, hrbtišče in polica. Standardne mere, sestava in kako ga TOPICA izračuna.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Mueble fregadero
-opis: El mueble fregadero es un bajo de cocina sin travesaño trasero, con sitio para el sifón y recorte en la encimera según plantilla. Anchos, travesaños y errores frecuentes.
+opis: El mueble fregadero es un bajo sin travesaño trasero, con sitio para el sifón y recorte en la encimera según plantilla. Anchos, travesaños y errores.
 datum: 2026-11-04
 slika: ../slike/web/snimak-14-sudopera-1600.webp
 status: za-proveru

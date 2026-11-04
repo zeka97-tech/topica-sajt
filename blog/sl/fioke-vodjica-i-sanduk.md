@@ -1,6 +1,6 @@
 ---
 naslov: Predali: kako izbrati vodilo in izračunati škatlo
-opis: Kroglično, kolesno ali kovinska škatla — kolikšna je reža na stran, kako se izbere dolžina vodila in kako se izračuna škatla predala za korpus 600 mm, s točnimi številkami.
+opis: Kroglično, kolesno vodilo ali kovinska škatla: kolikšna je reža na stran, kako se izbere dolžina vodila in kako se izračuna škatla predala za korpus 600 mm.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 status: za-proveru

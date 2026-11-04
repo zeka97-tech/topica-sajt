@@ -1,6 +1,6 @@
 ---
 naslov: Perfil gola
-opis: El perfil gola es un perfil de aluminio en C o L integrado en el cuerpo en lugar del tirador. Qué cambia en frente, costado y fregadero, errores frecuentes y cómo lo lleva el programa.
+opis: El perfil gola es un perfil de aluminio en C o L integrado en el cuerpo en lugar del tirador. Qué cambia en frente, costado y fregadero, y errores.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Cajón y guía
-opis: El cajón es una cubeta sobre guías detrás del frente: caja de madera con 13 mm de holgura por lado o cajón metálico según catálogo. Medidas, largos de guía y holguras.
+opis: El cajón es una cubeta sobre guías detrás del frente: caja de madera con 13 mm de holgura por lado o cajón metálico según catálogo. Medidas, largos y holguras.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 status: za-proveru

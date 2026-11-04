@@ -1,6 +1,6 @@
 ---
 naslov: Melamina 18 mm
-opis: El aglomerado melaminizado de 18 mm es el tablero base del mueble de tablero. Grosores, medidas habituales de tablero, corte y errores frecuentes al calcular material.
+opis: La melamina de 18 mm (aglomerado melaminizado) es el tablero base del mueble de tablero. Grosores, medidas de tablero, corte y errores al calcular material.
 datum: 2026-11-04
 slika: ../slike/web/snimak-46-izbliza-front-1600.webp
 status: za-proveru

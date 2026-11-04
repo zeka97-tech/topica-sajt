@@ -1,6 +1,6 @@
 ---
 naslov: Excéntrica (minifix) y confirmat
-opis: La excéntrica (minifix) y el tornillo confirmat son herrajes para unir tableros del cuerpo en ángulo recto. Medidas de los taladros, cuándo va cada uno y errores al taladrar.
+opis: La excéntrica (minifix) y el confirmat son herrajes para unir tableros del cuerpo en ángulo recto. Medidas de taladros, cuándo va cada uno y errores.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

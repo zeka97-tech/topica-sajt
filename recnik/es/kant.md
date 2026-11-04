@@ -1,6 +1,6 @@
 ---
 naslov: Canto
-opis: El canto es la cinta ABS que cubre el borde del tablero: 0,45 mm para el cuerpo, 1 mm para los frentes, 2 mm para bordes castigados. Qué bordes se cantean y cómo se calcula el largo.
+opis: El canto es la cinta ABS que cubre el borde del tablero: 0,45 mm en el cuerpo, 1 mm en los frentes, 2 mm en bordes castigados. Qué bordes se cantean y el largo.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Hva koster et kjøkken etter mål — slik regner snekkeren ut prisen
-opis: Prisen på et kjøkken etter mål settes sammen av materiale per m², kantlist per meter, beslag per stykk, arbeid og påslag. Hva som inngår, hva som glemmes og hvordan programmet summerer fra prisene snekkeren skriver inn.
+opis: Prisen på et kjøkken etter mål: materiale per m², kantlist per meter, beslag per stykk, arbeid og påslag. Hva som glemmes og hvordan programmet summerer.
 datum: 2026-11-04
 slika: ../slike/web/snimak-37-cena-1600.webp
 status: za-proveru

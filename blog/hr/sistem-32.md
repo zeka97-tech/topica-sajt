@@ -1,6 +1,6 @@
 ---
 naslov: Sustav 32: zašto europski namještaj ima rupe na 32 mm
-opis: Sustav 32 je niz rupa Ø5 mm na razmaku 32 mm, prva na 37 mm od prednjeg ruba boka. Odakle potječe, kako se izvode police, šarke i vodilice i kako se buši bez CNC-a.
+opis: Sustav 32 je niz rupa Ø5 mm na razmaku 32 mm, prva na 37 mm od prednjeg ruba boka. Odakle potječe, kako se izvode police, šarke i vodilice, bušenje bez CNC-a.
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 ---

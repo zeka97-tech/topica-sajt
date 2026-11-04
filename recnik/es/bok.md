@@ -1,6 +1,6 @@
 ---
 naslov: Costado
-opis: El costado es el lateral del cuerpo, un tablero de melamina de 18 mm que lleva baldas, bisagras y guías. Medidas del costado, taladros System 32 y el error típico de corte.
+opis: El costado es el lateral del cuerpo, melamina de 18 mm que lleva baldas, bisagras y guías. Medidas del costado, taladros System 32 y el error típico de corte.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Napa (element in višina montaže)
-opis: Kuhinjska napa je naprava nad kuhalno ploščo; element za napo je skrajšan zgornji korpus. Višina montaže 650 mm elektrika / 750 mm plin, širine, cev in napake.
+opis: Napa je naprava nad kuhalno ploščo; element za napo je skrajšan zgornji korpus. Višina montaže 650 mm elektrika / 750 mm plin, širine, cev in napake.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

@@ -15,7 +15,7 @@ Bij plaatmeubelen (keukens, kasten, kastenwanden van spaanplaat) staan er op é�
 - **Lengte × breedte** in millimeters, de nettomaat van het afgewerkte paneel.
 - **Dikte**: 18 mm voor romp en fronten, 3 mm hardboard voor achterwanden, 8–10 mm voor ladebodems.
 - **Materiaal**: wit spaanplaat, eiken decor, gekleurd hardboard.
-- **Kantenband**: welke kanten een kantenband krijgen en welke band (0,45 mm voor de romp, 1 of 2 mm voor fronten).
+- **[Kantenband](../recnik/kant.html)**: welke kanten een kantenband krijgen en welke band (0,45 mm voor de romp, 1 of 2 mm voor fronten).
 - **Aantal**: twee zijwanden, één bodem, twee regels.
 
 Een goede lijst is gegroepeerd per materiaal en dikte, want zo worden de platen gezaagd: eerst al het witte spaanplaat van 18 mm, dan de fronten, dan het hardboard.
@@ -26,7 +26,7 @@ Bij decors met tekening (eiken, noten, sonoma) maakt het uit hoe het paneel op d
 
 ## Voorbeeld: een onderkast van 600 × 720 × 560
 
-Een gewone keukenonderkast met één deur en één legbord heeft acht panelen. De bodem ligt over de zijwanden heen (volle breedte 600), dus de zijwanden zijn 702 hoog, niet 720. De rompdiepte is 539, omdat het front (18) en de achterwand (3) van de 560 af gaan.
+Een gewone [romp](../recnik/korpus.html) van een keukenonderkast met één deur en één legbord heeft acht panelen. De bodem ligt over de zijwanden heen (volle breedte 600), dus de zijwanden zijn 702 hoog, niet 720. De rompdiepte is 539, omdat het front (18) en de achterwand (3) van de 560 af gaan.
 
 | Paneel | Maat (mm) | Dikte | Kant | Aant. |
 |---|---|---|---|---|
@@ -46,5 +46,7 @@ In het programma schrijf je de zaaglijst niet: hij wordt berekend uit de kasten 
 ![De zaaglijst “Op maat” in TOPICA voor een onderkast van 600 × 720 × 560 mm: acht panelen gegroepeerd per materiaal, met maat, dikte, kantenband en aantal](../slike/web/snimak-33-po-meri-1600.webp "De weergave “Op maat” voor één kast: acht panelen, drie materialen, 2,34 m² plaat.")
 
 Het programma houdt zelf de regel “eerste maat = nerfrichting” aan: een front wordt altijd staand geschreven, en hardboard krijgt de markering “geen nerf”. Verander je later de dikte van de achterwand of de kantenband van de fronten in de werkplaatsinstellingen, dan werkt die wijziging door in elk paneel van het project, ook in de panelen die je al bekeken had.
+
+Meer over waar welke band gaat staat in de gids [Kantenband: welke dikte waar](./kant-debljina-i-duzina.html), en over de indeling van de gaten in [System 32](./sistem-32.html).
 
 Een zaaglijst is niet ingewikkeld. Wat ingewikkeld is, is hem elke keer goed krijgen, voor elke kast, nadat de klant drie keer van gedachten is veranderd. Daar is het programma voor.

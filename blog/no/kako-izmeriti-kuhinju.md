@@ -1,6 +1,6 @@
 ---
 naslov: Slik måler du kjøkkenet før tegningen (vegg, installasjoner, hvitevarer)
-opis: Hva som måles og noteres før et kjøkken etter mål tegnes: vegger i tre høyder, tak, vindu og dør, vann, avløp, strøm og gass, hvitevarer, kontroll av rett vinkel. Huskeliste og innlegging i programmet.
+opis: Hva du måler før du tegner et kjøkken etter mål: vegger i tre høyder, tak, vindu og dør, vann, avløp, strøm, gass, hvitevarer, rett vinkel. Huskeliste.
 datum: 2026-11-04
 slika: ../slike/web/snimak-44-soba-pod-zid-1600.webp
 status: za-proveru

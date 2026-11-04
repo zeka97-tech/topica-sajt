@@ -1,6 +1,6 @@
 ---
 naslov: Za male delavnice
-opis: Program za male mizarske delavnice: en mojster, prenosnik na delovni mizi, brez usposabljanja in brez interneta. Razrezni seznam in cena za prvi korpus v petih minutah.
+opis: Program za male mizarske delavnice: en mojster, prenosnik na delovni mizi, brez usposabljanja in interneta. Razrezni seznam in cena za prvi korpus v 5 minutah.
 datum: 2026-11-04
 slika: ../slike/web/snimak-33-po-meri-1600.webp
 status: za-proveru

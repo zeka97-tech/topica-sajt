@@ -1,6 +1,6 @@
 ---
 naslov: Gola ročaj (profil)
-opis: Gola ročaj je aluminijast profil C ali L, vgrajen v korpus namesto ročaja. Kaj se spremeni na fronti, stranici in pomivalnem elementu, pogoste napake in kako program vodi profil.
+opis: Gola ročaj je aluminijast profil C ali L, vgrajen v korpus namesto ročaja. Kaj se spremeni na fronti, stranici in pomivalnem elementu, pogoste napake.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 status: za-proveru

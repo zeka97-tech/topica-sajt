@@ -1,6 +1,6 @@
 ---
 naslov: Cómodas y mueble de cuerpo
-opis: Programa para cómodas, muebles de TV, estanterías y otro mueble de cuerpo a medida: cajones sobre guías según catálogo, puertas, baldas, lista de corte y precio. Para carpinteros.
+opis: Programa para cómodas, muebles de TV, estanterías y mueble de cuerpo a medida: cajones sobre guías según catálogo, puertas, baldas, lista de corte y precio.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 status: za-proveru

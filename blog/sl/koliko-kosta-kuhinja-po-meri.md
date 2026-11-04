@@ -1,6 +1,6 @@
 ---
 naslov: Koliko stane kuhinja po meri — kako mojster izračuna ceno
-opis: Cena kuhinje po meri se sestavi iz materiala po m², roba po metru, okovja po kosu, dela in marže. Kaj gre v račun, kaj se pozabi in kako program sešteva iz cen, ki jih vpiše mojster.
+opis: Cena kuhinje po meri: material po m², rob po metru, okovje po kosu, delo in marža. Kaj gre v račun, kaj se pozabi in kako program sešteva iz cen mojstra.
 datum: 2026-11-04
 slika: ../slike/web/snimak-37-cena-1600.webp
 status: za-proveru

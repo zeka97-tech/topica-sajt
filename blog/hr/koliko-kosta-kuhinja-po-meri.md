@@ -1,6 +1,6 @@
 ---
 naslov: Koliko košta kuhinja po mjeri — kako majstor računa cijenu
-opis: Cijena kuhinje po mjeri: materijal po m², rubna traka po metru, okov po komadu, rad i marža. Što ulazi u račun, što se zaboravlja i kako program zbraja tvoje cijene.
+opis: Cijena kuhinje po mjeri: materijal po m², rubna traka po metru, okov po komadu, rad i marža. Što ulazi u račun, što se zaboravlja i kako program zbraja cijene.
 datum: 2026-11-04
 slika: ../slike/web/snimak-37-cena-1600.webp
 ---

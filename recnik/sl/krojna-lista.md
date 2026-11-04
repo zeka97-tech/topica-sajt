@@ -1,6 +1,6 @@
 ---
 naslov: Razrezni seznam (kosovnica)
-opis: Razrezni seznam (kosovnica) je seznam vseh plošč enega kosa pohištva z mero, debelino, materialom, robom in številom kosov. Pravila mere, letnic in roba na kratko.
+opis: Razrezni seznam (kosovnica) je seznam vseh plošč enega kosa pohištva z mero, debelino, materialom, robom in številom kosov. Pravila mere, letnic in roba.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

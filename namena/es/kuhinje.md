@@ -1,6 +1,6 @@
 ---
 naslov: Programa para cocinas a medida
-opis: Programa de diseño de cocinas a medida para carpinteros: dibujas la estancia, colocas los cuerpos del catálogo, y el programa da 3D, lista de corte al milímetro, herrajes y precio. Windows, sin internet.
+opis: Programa de diseño de cocinas a medida para carpinteros: dibujas la estancia, colocas los cuerpos y obtienes 3D, lista de corte al milímetro, herrajes y precio.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

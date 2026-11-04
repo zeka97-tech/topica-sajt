@@ -1,6 +1,6 @@
 ---
 naslov: Travesaño
-opis: El travesaño es un listón de unión de melamina de 18 mm, de 100 mm de alto, que en los bajos sustituye al techo: mantiene los costados a distancia y recibe los tornillos de la encimera.
+opis: El travesaño es un listón de melamina de 18 mm y 100 mm de alto que en los bajos sustituye al techo: separa los costados y sujeta la encimera.
 datum: 2026-11-04
 slika: ../slike/web/snimak-14-sudopera-1600.webp
 status: za-proveru

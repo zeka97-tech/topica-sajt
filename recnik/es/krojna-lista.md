@@ -1,6 +1,6 @@
 ---
 naslov: Lista de corte
-opis: La lista de corte es la relación de todas las piezas de un mueble con medida, grosor, material, canto y cantidad. Reglas de medida, veta y canto en pocas líneas.
+opis: La lista de corte es la relación de las piezas de un mueble con medida, grosor, material, canto y cantidad. Reglas de medida, veta y canto en breve.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

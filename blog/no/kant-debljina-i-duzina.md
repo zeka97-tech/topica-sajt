@@ -1,6 +1,6 @@
 ---
 naslov: Kantlist: hvilken tykkelse hvor (0,45 / 1 / 2 mm) og hvordan lengden regnes
-opis: Kantlist 0,45 mm går på skroget, 1 mm på frontene, 2 mm på hardt belastede kanter. Hva nettomål etter kantlist betyr, og hvordan listlengden regnes med 10 % kapp, på et skrog 600 × 720 × 560.
+opis: Kantlist 0,45 mm på skroget, 1 mm på frontene, 2 mm på harde kanter. Hva nettomål etter kantlist betyr og hvordan listlengden regnes med 10 % kapp.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

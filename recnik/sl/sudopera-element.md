@@ -1,6 +1,6 @@
 ---
 naslov: Pomivalni element (element za korito)
-opis: Pomivalni element je spodnji kuhinjski korpus brez zadnje prečke, s prostorom za sifon in izrezom v delovnem pultu po šabloni. Širine, prečke in pogoste napake.
+opis: Pomivalni element je spodnji kuhinjski korpus brez zadnje prečke, s prostorom za sifon in izrezom v pultu po šabloni. Širine, prečke in pogoste napake.
 datum: 2026-11-04
 slika: ../slike/web/snimak-14-sudopera-1600.webp
 status: za-proveru

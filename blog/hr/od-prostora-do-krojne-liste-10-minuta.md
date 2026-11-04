@@ -1,6 +1,6 @@
 ---
 naslov: Od prostora do krojne liste za 10 minuta — korak po korak u TOPICI
-opis: Kako se u programu TOPICA od mjera prostorije stiže do krojne liste i cijene kuhinje: novi projekt, prvi korpus, ladice, gornji red, sokl i radna ploča, „Po mjeri“.
+opis: Kako se u programu TOPICA od mjera prostorije stiže do krojne liste i cijene kuhinje: novi projekt, prvi korpus, ladice, gornji red, sokl i radna ploča.
 datum: 2026-11-04
 slika: ../slike/web/snimak-44-soba-pod-zid-1600.webp
 ---

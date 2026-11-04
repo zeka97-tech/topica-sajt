@@ -1,6 +1,6 @@
 ---
 naslov: Program za ormare po mjeri
-opis: Program za ormare po mjeri za stolare: korpus dubine 600, krilna vrata sa šarkama po visini, police i ladice po sustavu 32, krojna lista i cijena. Bez interneta.
+opis: Program za ormare po mjeri za stolare: korpus dubine 600, krilna vrata sa šarkama po visini, police i ladice po sustavu 32, krojna lista i cijena. Windows.
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 ---

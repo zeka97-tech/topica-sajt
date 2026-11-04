@@ -1,6 +1,6 @@
 ---
 naslov: Push sistem (push-to-open)
-opis: Push sistem (push-to-open) odpre fronto brez ročaja s pritiskom na fronto. Spone brez vzmeti, odbijač v korpusu, večja reža fronte in pogoste napake v delavnici.
+opis: Push sistem (push-to-open) odpre fronto brez ročaja s pritiskom. Spone brez vzmeti, odbijač v korpusu, večja reža fronte in pogoste napake v delavnici.
 datum: 2026-11-04
 slika: ../slike/web/snimak-12-korpus-sa-vratima-1600.webp
 status: za-proveru

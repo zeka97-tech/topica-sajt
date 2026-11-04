@@ -1,6 +1,6 @@
 ---
 naslov: Decor y sentido de la veta
-opis: El decor es el dibujo y color del tablero melaminizado, y el sentido de la veta la dirección del dibujo. Regla «primera medida = sentido de la veta», frentes en vertical y dónde se falla.
+opis: El decor es el dibujo y color del tablero melaminizado; el sentido de la veta, la dirección del dibujo. Regla «primera medida = sentido de la veta» y errores.
 datum: 2026-11-04
 slika: ../slike/web/snimak-47-svoj-dezen-1600.webp
 status: za-proveru

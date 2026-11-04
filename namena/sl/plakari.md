@@ -1,6 +1,6 @@
 ---
 naslov: Program za vgradne omare po meri
-opis: Program za omare po meri za mizarje: korpus globine 600, krilna vrata s sponami po višini, police in predali po sistemu 32, razrezni seznam in cena. Windows, brez interneta.
+opis: Program za omare po meri za mizarje: korpus globine 600, krilna vrata s sponami po višini, police in predali po sistemu 32, razrezni seznam in cena. Windows.
 datum: 2026-11-04
 slika: ../slike/web/snimak-52-ruka-jedna-vrata-1600.webp
 status: za-proveru

@@ -1,6 +1,6 @@
 ---
 naslov: Dekor (dezen) in smer letnic
-opis: Dekor (dezen) je vzorec in barva oplemenitene iverke, smer letnic pa smer vzorca. Pravilo „prva mera = smer letnic“, fronte pokonci in kje se največkrat zmoti.
+opis: Dekor (dezen) je vzorec in barva oplemenitene iverke, smer letnic pa smer vzorca. Pravilo „prva mera = smer letnic“, fronte pokonci in kje se zmoti.
 datum: 2026-11-04
 slika: ../slike/web/snimak-47-svoj-dezen-1600.webp
 status: za-proveru

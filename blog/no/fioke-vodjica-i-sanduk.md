@@ -1,6 +1,6 @@
 ---
 naslov: Skuffer: slik velger du skinne og regner ut skuffekassen
-opis: Kulelagret, rulleskinne eller metallkasse — hvor stor klaringen er per side, hvordan skinnelengden velges og hvordan skuffekassen regnes ut for et skrog på 600 mm, med nøyaktige tall.
+opis: Kulelagret, rulleskinne eller metallkasse: klaring per side, valg av skinnelengde og utregning av skuffekassen for et skrog på 600 mm, med nøyaktige tall.
 datum: 2026-11-04
 slika: ../slike/web/snimak-13-korpus-sa-fiokama-1600.webp
 status: za-proveru

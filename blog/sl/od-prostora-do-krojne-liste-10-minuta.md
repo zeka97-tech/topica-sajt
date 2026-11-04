@@ -1,6 +1,6 @@
 ---
 naslov: Od prostora do razreznega seznama v 10 minutah — korak za korakom v TOPICI
-opis: Kako se v programu TOPICA od mer prostora pride do razreznega seznama in cene kuhinje: nov projekt, prvi korpus, predali, zgornji niz, podnožje in delovni pult, „Po meri“. S posnetki in realnim časom na korak.
+opis: Kako se v TOPICI od mer prostora pride do razreznega seznama in cene kuhinje: nov projekt, prvi korpus, predali, zgornji niz, podnožje, pult, „Po meri“.
 datum: 2026-11-04
 slika: ../slike/web/snimak-44-soba-pod-zid-1600.webp
 status: za-proveru

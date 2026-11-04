@@ -1,6 +1,6 @@
 ---
 naslov: Canto: qué grosor va en cada sitio (0,45 / 1 / 2 mm) y cómo se calcula el largo
-opis: El canto de 0,45 mm va en el cuerpo, el de 1 mm en los frentes, el de 2 mm en los bordes castigados. Qué es la medida neta después del canto y cómo calcular el largo con 10 % de desperdicio, con el ejemplo del cuerpo 600 × 720 × 560.
+opis: Canto de 0,45 mm en el cuerpo, 1 mm en los frentes, 2 mm en bordes castigados. Medida neta después del canto y cálculo del largo con 10 % de desperdicio.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

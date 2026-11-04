@@ -1,6 +1,6 @@
 ---
 naslov: Medidas estándar de los muebles de cocina
-opis: Tabla de medidas estándar de la cocina a medida: muebles bajos y altos, columnas, encimera, zócalo, distancia a los altos, anchos. Valores predeterminados del programa TOPICA y cuándo apartarse de ellos.
+opis: Tabla de medidas estándar de la cocina a medida: bajos, altos, columnas, encimera, zócalo, distancia a los altos, anchos. Valores de TOPICA y cuándo apartarse.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

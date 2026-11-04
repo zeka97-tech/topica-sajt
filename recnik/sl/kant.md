@@ -1,6 +1,6 @@
 ---
 naslov: ABS rob (robni trak)
-opis: ABS rob je robni trak, ki pokrije rob iverke: 0,45 mm za korpus, 1 mm za fronte, 2 mm za bolj obremenjene robove. Kateri robovi se obrobijo in kako se računa dolžina roba.
+opis: ABS rob je robni trak, ki pokrije rob iverke: 0,45 mm za korpus, 1 mm za fronte, 2 mm za obremenjene robove. Kateri robovi se obrobijo in račun dolžine.
 datum: 2026-11-04
 slika: ../slike/web/isecak-po-meri-tabela-1600.webp
 status: za-proveru

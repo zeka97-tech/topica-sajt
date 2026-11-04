@@ -1,6 +1,6 @@
 ---
 naslov: Vuelo de la encimera
-opis: El vuelo de la encimera es la parte que sobresale 20–30 mm del frente y por el lado donde no hay pared. Por qué la encimera tiene 600 de fondo, cómo se recorta contra la pared y dónde se falla.
+opis: El vuelo de la encimera sobresale 20–30 mm del frente y por el lado sin pared. Por qué la encimera tiene 600 de fondo y cómo se recorta contra la pared.
 datum: 2026-11-04
 slika: ../slike/web/snimak-45-kuhinja-plocice-mermer-1600.webp
 status: za-proveru

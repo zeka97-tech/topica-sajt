@@ -1,6 +1,6 @@
 ---
 naslov: Kako izmeriti kuhinjo pred načrtovanjem (stena, inštalacije, aparati)
-opis: Kaj se izmeri in zapiše pred načrtovanjem kuhinje po meri: stene na treh višinah, strop, okno in vrata, voda, odtok, elektrika in plin, aparati, preverjanje pravega kota. Seznam za s seboj in vnos v program.
+opis: Kaj izmeriti pred načrtovanjem kuhinje po meri: stene na treh višinah, strop, okno, voda, odtok, elektrika, plin, aparati, pravi kot. Seznam in vnos v program.
 datum: 2026-11-04
 slika: ../slike/web/snimak-44-soba-pod-zid-1600.webp
 status: za-proveru

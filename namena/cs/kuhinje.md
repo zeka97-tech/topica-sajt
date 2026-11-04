@@ -1,6 +1,6 @@
 ---
 naslov: Program pro kuchyně na míru
-opis: Program pro kuchyně na míru pro truhláře: nakreslíte místnost, složíte korpusy z katalogu a program dá 3D, nářezový plán na milimetr, kování a cenu. Windows, bez internetu.
+opis: Program pro kuchyně na míru pro truhláře: nakreslíte místnost, složíte korpusy z katalogu a dostanete 3D, nářezový plán na milimetr, kování a cenu. Windows.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

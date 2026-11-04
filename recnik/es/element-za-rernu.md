@@ -1,6 +1,6 @@
 ---
 naslov: Mueble para horno (hueco)
-opis: El mueble para horno es un bajo con hueco para horno integrable, de al menos 568 mm de ancho. Medidas del hueco, cajón debajo, placa de cocción encima y errores frecuentes.
+opis: El mueble para horno es un bajo con hueco para horno integrable, de al menos 568 mm. Medidas del hueco, cajón debajo, placa de cocción encima y errores.
 datum: 2026-11-04
 slika: ../slike/web/snimak-45-kuhinja-plocice-mermer-1600.webp
 status: za-proveru

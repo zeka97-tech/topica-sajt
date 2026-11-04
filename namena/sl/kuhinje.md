@@ -1,6 +1,6 @@
 ---
 naslov: Program za kuhinje po meri
-opis: Program za kuhinje po meri za mizarje: narišete prostor, zložite korpuse iz kataloga, program pa da 3D, razrezni seznam na milimeter, okovje in ceno. Windows, brez interneta.
+opis: Program za kuhinje po meri za mizarje: narišete prostor, zložite korpuse iz kataloga, program da 3D, razrezni seznam na milimeter, okovje in ceno. Brez.
 datum: 2026-11-04
 slika: ../slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp
 status: za-proveru

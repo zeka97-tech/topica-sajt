@@ -1,6 +1,6 @@
 ---
 naslov: Para talleres pequeños
-opis: Programa para talleres de carpintería pequeños: un solo carpintero, un portátil en el banco, sin formación y sin internet. Lista de corte y precio del primer cuerpo en cinco minutos.
+opis: Programa para talleres de carpintería pequeños: un carpintero, un portátil en el banco, sin formación ni internet. Lista de corte y precio en cinco minutos.
 datum: 2026-11-04
 slika: ../slike/web/snimak-33-po-meri-1600.webp
 status: za-proveru
