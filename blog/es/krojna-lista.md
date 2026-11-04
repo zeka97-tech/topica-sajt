@@ -15,7 +15,7 @@ En el mueble de tablero (cocinas, armarios, muebles de melamina) una línea de l
 - **Largo × ancho** en milímetros, la medida neta de la pieza terminada.
 - **Grosor**: 18 mm para cuerpo y frentes, 3 mm de tablex para traseras, 8–10 mm para fondos de cajón.
 - **Material**: melamina blanca, decor roble, tablex de color.
-- **Canto**: qué lados se cantean y con qué canto (0,45 mm para el cuerpo, 1 o 2 mm para los frentes).
+- **[Canto](../recnik/kant.html)**: qué lados se cantean y con qué canto (0,45 mm para el cuerpo, 1 o 2 mm para los frentes).
 - **Cantidad**: dos costados, una base, dos travesaños.
 
 Una buena lista va agrupada por material y grosor, porque así se cortan los tableros: primero toda la melamina blanca de 18 mm, luego los frentes, luego el tablex.
@@ -26,7 +26,7 @@ Con decors de veta (roble, nogal, sonoma) importa cómo se coloca la pieza en el
 
 ## Ejemplo: un mueble bajo de 600 × 720 × 560
 
-Un mueble bajo de cocina normal, con una puerta y una balda, tiene ocho piezas. La base apoya sobre los costados (ancho completo, 600), así que los costados miden 702 de alto, no 720. El fondo del cuerpo es 539, porque a los 560 se les quitan el frente (18) y la trasera (3).
+Un [cuerpo](../recnik/korpus.html) bajo de cocina normal, con una puerta y una balda, tiene ocho piezas. La base apoya sobre los costados (ancho completo, 600), así que los costados miden 702 de alto, no 720. El fondo del cuerpo es 539, porque a los 560 se les quitan el frente (18) y la trasera (3).
 
 | Pieza | Medida (mm) | Gr. | Canto | Ud. |
 |---|---|---|---|---|
@@ -46,5 +46,7 @@ En el programa la lista de corte no se escribe: se calcula a partir de los módu
 ![La lista de corte “Por medida” en TOPICA para un mueble bajo de 600 × 720 × 560 mm: ocho piezas agrupadas por material, con medida, grosor, canto y cantidad](../slike/web/snimak-33-po-meri-1600.webp "La vista “Por medida” de un módulo: ocho piezas, tres materiales, 2,34 m² de tablero.")
 
 El programa respeta solo la regla “primera medida = sentido de la veta”: un frente siempre se escribe en vertical, y el tablex lleva la marca “sin veta”. Si más tarde cambias el grosor de la trasera o el canto de los frentes en los ajustes del taller, el cambio pasa a todas las piezas del proyecto, incluidas las que ya habías mirado.
+
+Más sobre dónde va cada cinta en la guía [Canto: qué grosor va en cada sitio](./kant-debljina-i-duzina.html), y sobre la distribución de los taladros en [System 32](./sistem-32.html).
 
 Una lista de corte no es complicada. Lo complicado es que salga bien cada vez, en cada módulo, después de que el cliente haya cambiado de idea tres veces. Para eso está el programa.

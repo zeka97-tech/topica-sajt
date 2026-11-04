@@ -15,7 +15,7 @@ Pri ploskovnem pohištvu (kuhinje, omare, komode iz iverne plošče) ena vrstica
 - **Dolžina × širina** v milimetrih, neto mera končane plošče.
 - **Debelina**: 18 mm za korpus in fronte, 3 mm lesonit za hrbtišče, 8–10 mm za dna predalov.
 - **Material**: bela iverka, dekor hrast, barvni lesonit.
-- **Rob**: kateri robovi dobijo ABS rob in kateri trak (0,45 mm za korpus, 1 ali 2 mm za fronte).
+- **[Rob](../recnik/kant.html)**: kateri robovi dobijo ABS rob in kateri trak (0,45 mm za korpus, 1 ali 2 mm za fronte).
 - **Količina**: dve stranici, eno dno, dve prečki.
 
 Dober seznam je združen po materialu in debelini, ker se plošče tako režejo: najprej vsa bela iverka 18 mm, nato fronte, nazadnje lesonit.
@@ -26,7 +26,7 @@ Pri dekorjih z vzorcem (hrast, oreh, sonoma) je pomembno, kako plošča leži na
 
 ## Primer: spodnji element 600 × 720 × 560
 
-Navaden spodnji kuhinjski element z enimi vrati in eno polico ima osem plošč. Dno leži na stranicah (polna širina 600), zato sta stranici visoki 702, ne 720. Globina korpusa je 539, ker se od 560 odštejeta fronta (18) in hrbtišče (3).
+Navaden spodnji kuhinjski [korpus](../recnik/korpus.html) z enimi vrati in eno polico ima osem plošč. Dno leži na stranicah (polna širina 600), zato sta stranici visoki 702, ne 720. Globina korpusa je 539, ker se od 560 odštejeta fronta (18) in hrbtišče (3).
 
 | Plošča | Mera (mm) | Deb. | Rob | Kos |
 |---|---|---|---|---|
@@ -46,5 +46,7 @@ V programu razreznega seznama ne pišete: izračuna se iz elementov, ki ste jih 
 ![Razrezni seznam „Po meri“ v programu TOPICA za spodnji element 600 × 720 × 560 mm: osem plošč, združenih po materialu, z mero, debelino, robom in količino](../slike/web/snimak-33-po-meri-1600.webp "Prikaz „Po meri“ za en element: osem plošč, trije materiali, 2,34 m² plošče.")
 
 Pravilo „prva mera = smer letnic“ program upošteva sam: fronta je vedno zapisana pokonci, lesonit pa nosi oznako „brez smeri“. Če pozneje v nastavitvah delavnice spremenite debelino hrbtišča ali rob front, gre sprememba skozi vsako ploščo v projektu, tudi skozi tiste, ki ste si jih že ogledali.
+
+Več o tem, kam gre kateri trak, piše v vodniku [ABS rob: katera debelina kam gre](./kant-debljina-i-duzina.html), o razporedu vrtin pa v [Sistem 32](./sistem-32.html).
 
 Razrezni seznam ni zapleten. Zapleteno je narediti ga pravilno vsakič, za vsak element, potem ko si je stranka trikrat premislila. Za to je program.
