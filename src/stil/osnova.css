@@ -50,12 +50,13 @@ p { margin: 0; }
 
 /* dugmad: pilula 48 px, miran hover */
 .dugme { display: inline-flex; align-items: center; justify-content: center; gap: var(--r-2); height: var(--s-dugme); padding: 0 var(--s-dugme-pad); border-radius: var(--rad-pilula); font: var(--w-600) var(--f-17) / var(--lh-1) var(--font); white-space: nowrap; cursor: pointer; border: 0; transition: background-color var(--t-brzo) var(--t-krivulja), color var(--t-brzo) var(--t-krivulja); text-decoration: none; }
-.dugme-glavno { background: var(--c-narandzasta); color: var(--c-belo); box-shadow: 0 var(--d-linija) var(--d-linija-2) var(--c-narandzasta-senka); }
+.dugme-glavno { background: var(--c-narandzasta); color: var(--c-plava-tamna); box-shadow: 0 var(--d-linija) var(--d-linija-2) var(--c-narandzasta-senka); }
 .dugme-glavno:hover { background: var(--c-narandzasta-hover); }
 .dugme-glavno:active { background: var(--c-narandzasta-aktivno); }
 .dugme-malo { height: var(--s-dugme-malo); padding: 0 var(--s-dugme-malo-pad); font-size: var(--f-15); }
 .dugme-belo { background: var(--c-belo); color: var(--c-tekst); border: var(--d-linija) solid var(--c-linija); }
 .dugme-belo:hover { background: var(--c-podloga-3); }
+.sitno a, .clanak p a, .clanak li a, .obrazac-poruka a { text-decoration: underline; text-underline-offset: var(--r-1); }
 .veza { display: inline-flex; align-items: center; gap: var(--r-1); font-weight: var(--w-600); color: var(--c-plava); font-size: var(--f-17); height: var(--s-dugme); transition: color var(--t-brzo) var(--t-krivulja); }
 .veza:hover { color: var(--c-plava-hover); }
 .veza .strelica { transition: transform var(--t-brzo) var(--t-krivulja); display: inline-block; }

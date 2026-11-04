@@ -63,7 +63,7 @@ export function proveriPrevode(koren, greske) {
     if (visak.length) greske.push(`PREVOD ${j.kod}: višak ključeva → ${visak.slice(0, 8).join(", ")}`);
     const prazni = spisakKljuceva(t).filter((x) => { const v = x.split(".").reduce((o, kk) => o?.[kk], t); return typeof v === "string" && !v.trim(); });
     if (prazni.length) greske.push(`PREVOD ${j.kod}: prazne vrednosti → ${prazni.join(", ")}`);
-    if (j.kod !== "sr" && j.kod !== "en" && t.jezik && !/srp|serb|serbi|сербск|сръб|серб|szerb|srb|сербська|σερβ|servi|serbe|serbio|sérvio|servisch|serbisk|serbia/i.test(t.jezik.napomena_program)) greske.push(`PREVOD ${j.kod}: jezik.napomena_program ne pominje srpski (iskrenost o jeziku programa)`);
+    if (j.kod !== "sr" && j.kod !== "en" && t.jezik && !/srp|serb|serbi|сербск|сръб|серб|szerb|srb|sârb|сербська|σερβ|servi|serbe|serbio|sérvio|servisch|serbisk|serbia/i.test(t.jezik.napomena_program)) greske.push(`PREVOD ${j.kod}: jezik.napomena_program ne pominje srpski (iskrenost o jeziku programa)`);
     for (const k2 of Object.keys(t.nav || {})) if (t.nav[k2].length > 16) greske.push(`PREVOD ${j.kod}: nav.${k2} predugačko (${t.nav[k2].length} > 16)`);
   }
 }

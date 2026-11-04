@@ -51,6 +51,7 @@ export class Graditelj {
       hreflang: hreflang.join("\n"), ldJson: JSON.stringify(o.ldJson || {}),
       formspreeUrl: this.sajt.formspreeId ? `https://formspree.io/f/${this.sajt.formspreeId}` : "",
       jezikLista, trakaKlasa: o.putanja === "index.html" ? "" : " uvek-cta",
+      preload: o.putanja === "index.html" ? `<link rel="preload" as="image" href="${koren}slike/web/topi-meri-korpus-isecen-800.webp" imagesrcset="${koren}slike/web/topi-meri-korpus-isecen-400.webp 400w, ${koren}slike/web/topi-meri-korpus-isecen-800.webp 800w" imagesizes="(max-width: 860px) 260px, 440px" fetchpriority="high">` : "",
       // placeholder linkovi (#) se prikazuju kao običan tekst dok ih vlasnik ne upiše u tekst/sajt.json
       usloviHtml: this.sajt.usloviLink && this.sajt.usloviLink !== "#" ? `<a href="${this.sajt.usloviLink}">${tekst.dno.uslovi}</a>` : `<span>${tekst.dno.uslovi}</span>`,
       privatnostHtml: this.sajt.privatnostLink && this.sajt.privatnostLink !== "#" ? `<a href="${this.sajt.privatnostLink}">${tekst.dno.privatnost}</a>` : `<span>${tekst.dno.privatnost}</span>`,

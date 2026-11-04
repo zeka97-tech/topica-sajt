@@ -24,7 +24,7 @@
 .mini-tabela div { display: grid; grid-template-columns: 1.3fr .6fr 1.2fr .5fr; gap: var(--r-2); padding: var(--r-2) var(--r-4); border-top: var(--d-linija) solid var(--c-linija); color: var(--c-tekst-2); }
 .mini-tabela div:first-child { border-top: 0; background: var(--c-podloga-3); font-weight: var(--w-700); color: var(--c-tekst-3); font-size: var(--f-13); }
 .mini-tabela b { color: var(--c-tekst); }
-.mini-tabela .kant { font-size: var(--f-12); background: var(--c-plava-svetla); color: var(--c-plava); padding: 0 var(--r-2); border-radius: var(--rad-pilula); justify-self: start; }
+.mini-tabela .kant { font-size: var(--f-12); background: var(--c-plava-svetla); color: var(--c-plava-hover); padding: 0 var(--r-2); border-radius: var(--rad-pilula); justify-self: start; }
 @media (max-width: 960px) {
   .bento { grid-template-columns: 1fr 1fr; grid-auto-rows: auto; }
   .kartica-velika, .kartica-siroka, .kartica-obicna, .kartica-uska { grid-column: span 2; grid-row: auto; }

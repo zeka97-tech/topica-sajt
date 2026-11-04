@@ -9,18 +9,30 @@ import { pokreniNiz } from "./niz.js";
 import { pokreniGaleriju } from "./galerija.js";
 import { pokreniObrasce } from "./obrazac.js";
 
-function start() {
+const VENDOR = ["gsap.min.js", "ScrollTrigger.min.js", "lenis.min.js"];
+
+/** Učitaj biblioteke iz vendor/ tek kad je stranica prikazana (ne usporavaju prvi prikaz). */
+function ucitajVendor() {
+  const koren = document.body.dataset.koren || "";
+  return VENDOR.reduce((lanac, ime) => lanac.then(() => new Promise((ok) => {
+    const s = document.createElement("script"); s.src = `${koren}vendor/${ime}`; s.onload = ok; s.onerror = ok; document.head.append(s);
+  })), Promise.resolve());
+}
+
+function osnovno() { pokreniTraku(); pokreniJezik(); pokreniObrasce(); }
+
+async function pokreti() {
+  if (smanjeno) return; // bez pokreta sajt je potpun: tekst, slike i raspored su u HTML-u
+  await ucitajVendor();
+  if (!window.gsap) return;
   pokreniKretanje();
-  pokreniTraku();
-  pokreniJezik();
-  pokreniObrasce();
-  if (!window.gsap) return; // bez GSAP-a sajt je i dalje potpun, samo bez pokreta
   pokreniHero();
   pokreniKakoRadi();
   pokreniKorpus();
   pokreniNiz();
   pokreniGaleriju();
-  if (!smanjeno) window.ScrollTrigger?.refresh();
+  window.ScrollTrigger?.refresh();
 }
-// skripte iz vendor/ su "defer", a ovaj modul se izvršava posle njih (moduli su takođe odloženi)
-if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", start); else start();
+
+if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", osnovno); else osnovno();
+if (document.readyState === "complete") pokreti(); else window.addEventListener("load", () => setTimeout(pokreti, 50));

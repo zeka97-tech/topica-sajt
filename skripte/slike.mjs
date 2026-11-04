@@ -1,6 +1,6 @@
 // skripte/slike.mjs — pravi slike/web/ iz slike/izvor/
 // Pokretanje:  npm install  →  npm run slike
-// Svaka slika iz izvor/ postaje WebP u dve širine (800 i do 1600 px, bez uvećavanja);
+// Svaka slika iz izvor/ postaje WebP u tri širine (400, 800 i do 1600 px, bez uvećavanja);
 // PNG sa providnošću (maskota) zadržava providnost. Isečci (crops) su u listi ISECCI.
 import sharp from "sharp";
 import { readdir, mkdir, writeFile } from "node:fs/promises";
@@ -10,7 +10,7 @@ import { fileURLToPath } from "node:url";
 const koren = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const IZVOR = path.join(koren, "slike", "izvor");
 const WEB = path.join(koren, "slike", "web");
-const SIRINE = [800, 1600];
+const SIRINE = [400, 800, 1600]; // 400 za telefon (maskota), 800 i do 1600 za ekran
 
 // Isečci iz postojećih izvora: ime → { iz, left, top, width, height }
 const ISECCI = {
@@ -36,7 +36,8 @@ async function obradi(ime, ulaz, meta) {
   for (const s of SIRINE) {
     const w = Math.min(s, meta.width);
     const out = path.join(WEB, `${osnova}-${s}.webp`);
-    await ulaz.clone().resize({ width: w, withoutEnlargement: true }).webp({ quality: 82, effort: 5 }).toFile(out);
+    const kvalitet = /^topi-/.test(osnova) ? 74 : 82; // pliš maskote je šumovit, niži kvalitet se ne vidi
+    await ulaz.clone().resize({ width: w, withoutEnlargement: true }).webp({ quality: kvalitet, effort: 5 }).toFile(out);
     izlazi.push({ datoteka: path.basename(out), sirina: w });
   }
   return [osnova, izlazi];

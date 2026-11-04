@@ -1,6 +1,10 @@
 {
   "snimak-12-korpus-sa-vratima": [
     {
+      "datoteka": "snimak-12-korpus-sa-vratima-400.webp",
+      "sirina": 400
+    },
+    {
       "datoteka": "snimak-12-korpus-sa-vratima-800.webp",
       "sirina": 800
     },
@@ -10,6 +14,10 @@
     }
   ],
   "snimak-13-korpus-sa-fiokama": [
+    {
+      "datoteka": "snimak-13-korpus-sa-fiokama-400.webp",
+      "sirina": 400
+    },
     {
       "datoteka": "snimak-13-korpus-sa-fiokama-800.webp",
       "sirina": 800
@@ -21,6 +29,10 @@
   ],
   "snimak-14-sudopera": [
     {
+      "datoteka": "snimak-14-sudopera-400.webp",
+      "sirina": 400
+    },
+    {
       "datoteka": "snimak-14-sudopera-800.webp",
       "sirina": 800
     },
@@ -30,6 +42,10 @@
     }
   ],
   "snimak-19-krupni-prikaz": [
+    {
+      "datoteka": "snimak-19-krupni-prikaz-400.webp",
+      "sirina": 400
+    },
     {
       "datoteka": "snimak-19-krupni-prikaz-800.webp",
       "sirina": 800
@@ -41,6 +57,10 @@
   ],
   "snimak-33-po-meri": [
     {
+      "datoteka": "snimak-33-po-meri-400.webp",
+      "sirina": 400
+    },
+    {
       "datoteka": "snimak-33-po-meri-800.webp",
       "sirina": 800
     },
@@ -50,6 +70,10 @@
     }
   ],
   "snimak-37-cena": [
+    {
+      "datoteka": "snimak-37-cena-400.webp",
+      "sirina": 400
+    },
     {
       "datoteka": "snimak-37-cena-800.webp",
       "sirina": 800
@@ -61,6 +85,10 @@
   ],
   "snimak-39-cokla": [
     {
+      "datoteka": "snimak-39-cokla-400.webp",
+      "sirina": 400
+    },
+    {
       "datoteka": "snimak-39-cokla-800.webp",
       "sirina": 800
     },
@@ -70,6 +98,10 @@
     }
   ],
   "snimak-41-kuhinja-sonoma-bela-laminat": [
+    {
+      "datoteka": "snimak-41-kuhinja-sonoma-bela-laminat-400.webp",
+      "sirina": 400
+    },
     {
       "datoteka": "snimak-41-kuhinja-sonoma-bela-laminat-800.webp",
       "sirina": 800
@@ -81,6 +113,10 @@
   ],
   "snimak-44-soba-pod-zid": [
     {
+      "datoteka": "snimak-44-soba-pod-zid-400.webp",
+      "sirina": 400
+    },
+    {
       "datoteka": "snimak-44-soba-pod-zid-800.webp",
       "sirina": 800
     },
@@ -90,6 +126,10 @@
     }
   ],
   "snimak-45-kuhinja-plocice-mermer": [
+    {
+      "datoteka": "snimak-45-kuhinja-plocice-mermer-400.webp",
+      "sirina": 400
+    },
     {
       "datoteka": "snimak-45-kuhinja-plocice-mermer-800.webp",
       "sirina": 800
@@ -101,6 +141,10 @@
   ],
   "snimak-46-izbliza-front": [
     {
+      "datoteka": "snimak-46-izbliza-front-400.webp",
+      "sirina": 400
+    },
+    {
       "datoteka": "snimak-46-izbliza-front-800.webp",
       "sirina": 800
     },
@@ -110,6 +154,10 @@
     }
   ],
   "snimak-47-svoj-dezen": [
+    {
+      "datoteka": "snimak-47-svoj-dezen-400.webp",
+      "sirina": 400
+    },
     {
       "datoteka": "snimak-47-svoj-dezen-800.webp",
       "sirina": 800
@@ -121,6 +169,10 @@
   ],
   "snimak-52-ruka-jedna-vrata": [
     {
+      "datoteka": "snimak-52-ruka-jedna-vrata-400.webp",
+      "sirina": 400
+    },
+    {
       "datoteka": "snimak-52-ruka-jedna-vrata-800.webp",
       "sirina": 800
     },
@@ -130,6 +182,10 @@
     }
   ],
   "topi-busilica-isecen": [
+    {
+      "datoteka": "topi-busilica-isecen-400.webp",
+      "sirina": 400
+    },
     {
       "datoteka": "topi-busilica-isecen-800.webp",
       "sirina": 800
@@ -141,6 +197,10 @@
   ],
   "topi-meri-korpus-isecen": [
     {
+      "datoteka": "topi-meri-korpus-isecen-400.webp",
+      "sirina": 400
+    },
+    {
       "datoteka": "topi-meri-korpus-isecen-800.webp",
       "sirina": 800
     },
@@ -150,6 +210,10 @@
     }
   ],
   "isecak-po-meri-tabela": [
+    {
+      "datoteka": "isecak-po-meri-tabela-400.webp",
+      "sirina": 400
+    },
     {
       "datoteka": "isecak-po-meri-tabela-800.webp",
       "sirina": 800
@@ -161,6 +225,10 @@
   ],
   "isecak-po-meri-kartice": [
     {
+      "datoteka": "isecak-po-meri-kartice-400.webp",
+      "sirina": 400
+    },
+    {
       "datoteka": "isecak-po-meri-kartice-800.webp",
       "sirina": 800
     },
@@ -170,6 +238,10 @@
     }
   ],
   "isecak-kote": [
+    {
+      "datoteka": "isecak-kote-400.webp",
+      "sirina": 400
+    },
     {
       "datoteka": "isecak-kote-800.webp",
       "sirina": 520
@@ -181,6 +253,10 @@
   ],
   "isecak-front": [
     {
+      "datoteka": "isecak-front-400.webp",
+      "sirina": 400
+    },
+    {
       "datoteka": "isecak-front-800.webp",
       "sirina": 500
     },
@@ -190,6 +266,10 @@
     }
   ],
   "isecak-dezeni": [
+    {
+      "datoteka": "isecak-dezeni-400.webp",
+      "sirina": 290
+    },
     {
       "datoteka": "isecak-dezeni-800.webp",
       "sirina": 290
@@ -201,6 +281,10 @@
   ],
   "isecak-cena": [
     {
+      "datoteka": "isecak-cena-400.webp",
+      "sirina": 400
+    },
+    {
       "datoteka": "isecak-cena-800.webp",
       "sirina": 676
     },
@@ -210,6 +294,10 @@
     }
   ],
   "tekstura-hrast": [
+    {
+      "datoteka": "tekstura-hrast-400.webp",
+      "sirina": 130
+    },
     {
       "datoteka": "tekstura-hrast-800.webp",
       "sirina": 130

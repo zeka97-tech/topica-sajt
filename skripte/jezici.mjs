@@ -36,7 +36,7 @@ cpSync(path.join(KOREN, "src", "skripte"), path.join(DIST, "skripte"), { recursi
 const stilDir = path.join(KOREN, "src", "stil");
 const ostali = readdirSync(stilDir).filter((f) => f.endsWith(".css") && !["tokeni.css", "osnova.css", "animacije.css"].includes(f)).sort();
 const css = ["tokeni.css", "osnova.css", ...ostali, "animacije.css"].map((f) => `/* == ${f} == */\n` + readFileSync(path.join(stilDir, f), "utf8")).join("\n");
-writeFileSync(path.join(DIST, "stil.css"), css);
+writeFileSync(path.join(DIST, "stil.css"), css.replace(/\/\*[\s\S]*?\*\//g, "").replace(/\n\s*\n/g, "\n").replace(/^\s+/gm, ""));
 
 // 2) stranice po jeziku
 const g = new Graditelj({ koren: KOREN, sajt, jezici, tekstovi, sabloniDir: path.join(KOREN, "src", "sablon") });

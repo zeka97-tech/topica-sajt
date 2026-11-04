@@ -1,0 +1,167 @@
+{
+  "_jezik": { "ime": "Slovenščina", "status": "za-proveru", "proverio": "" },
+  "meta": {
+    "naslov": "TOPICA — program za načrtovanje pohištva z razreznim seznamom, narejen za mizarje",
+    "opis": "TOPICA je program za načrtovanje kuhinj za mizarje na Windows: narišete prostor, postavite elemente iz kataloga, program pa da 3D, razrezni seznam na milimeter natančno, okovje in ceno. Brezplačna preizkusna različica.",
+    "og_naslov": "TOPICA — od prostora do razreznega seznama",
+    "og_opis": "Program za načrtovanje pohištva za mizarje: prostor, elementi iz kataloga, 3D, razrezni seznam na milimeter in cena. Brezplačna preizkusna različica.",
+    "og_alt": "Maskota Topi meri korpus ob napisu TOPICA — od prostora do razreznega seznama",
+    "ld_opis": "Program za Windows za načrtovanje ploskovnega pohištva po meri (kuhinje, omare, komode) za mizarske delavnice: prostor v 3D, elementi iz kataloga po evropskem standardu, razrezni seznam na milimeter, okovje in cena."
+  },
+  "a11y": { "preskoci": "Preskoči na vsebino", "logo": "TOPICA, domača stran", "navigacija": "Glavna navigacija", "jezik": "Izbira jezika", "meni": "Meni" },
+  "nav": { "kako": "Kako deluje", "mogucnosti": "Funkcije", "galerija": "Galerija", "cena": "Cena", "pitanja": "Vprašanja", "blog": "Nasveti", "preuzimanje": "Prenos" },
+  "cta": { "glavno": "Prenesite brezplačni preizkus", "kratko": "Prenesite" },
+  "jezik": {
+    "napomena_program": "Program je trenutno na voljo v srbščini in angleščini. Slovenska različica prihaja.",
+    "predlog_tekst": "Ta stran je na voljo tudi v slovenščini.",
+    "predlog_dugme": "Preklopi na slovenščino"
+  },
+  "hero": {
+    "naslov": "Od prostora do razreznega seznama.",
+    "tekst": "TOPICA je program za načrtovanje pohištva, narejen za mizarje: narišete prostor, zložite elemente ob steno, program pa pozna konstrukcijo in takoj da 3D, razrezni seznam na milimeter natančno, okovje in ceno.",
+    "saznaj": "Poglejte, kako deluje",
+    "sitno": "Windows 10/11 · srbsko in angleško · preizkusna različica je brezplačna",
+    "topi_alt": "Topi, plišasta maskota programa TOPICA, z metrom meri spodnji kuhinjski element z odprtimi vrati",
+    "prozor_alt": "TOPICA, 3D prikaz kuhinje v prostoru: spodnji in zgornji elementi s hrastovimi fronti ob steni, spodnji niz 3200 mm in 400 mm prostega prostora"
+  },
+  "cinjenice": {
+    "naslov": "Zakaj program za mizarje in ne risarsko orodje",
+    "1": { "naslov": "Na milimeter natančno", "tekst": "Vsaka plošča dobi točno mero iz prave konstrukcije korpusa, ne iz skice na oko." },
+    "2": { "naslov": "Evropski standard, sistem 32", "tekst": "Korpus brez okvirja, ABS rob, lončaste spone 35 mm, predali in podnožje iz kataloga. Ničesar ne nastavljate znova." },
+    "3": { "naslov": "Razrezni seznam, pripravljen za kopiranje", "tekst": "Enake mere v eni vrstici, združene po materialu. Kopirajte in pošljite na razrez." }
+  },
+  "kako": {
+    "nadnaslov": "Kako deluje",
+    "naslov": "Trije koraki do razreznega seznama.",
+    "1": { "naslov": "Narišite prostor", "tekst": "Vnesite stene, višino stropa, okno in inštalacije. Prostor je takoj v 3D, s tlemi in stenami, kakršne ima stranka v resnici.", "alt": "TOPICA, korak 1: prostor 3600 × 3000 mm z izbiro tal in sten, siv laminat in ploščice za kuhinjo" },
+    "2": { "naslov": "Postavite elemente iz kataloga", "tekst": "Spodnji, zgornji, visoki, pomivalni, za pečico, kotni. Prislonijo se ob steno in ob soseda, mere pa spreminjate v živo, na milimeter.", "alt": "TOPICA, korak 2: spodnji element z vrati 600 × 720 × 560 mm ob steni, s kotami do soseda in ploščo lastnosti" },
+    "3": { "naslov": "Preberite razrezni seznam in ceno", "tekst": "Program pozna konstrukcijo: stranice, dno, prečke, hrbtišče, fronto. Razrezni seznam, okovje in cena so vedno ažurni, brez gumba „preračunaj“.", "alt": "TOPICA, korak 3: razrezni seznam „Po meri“ za en element, 8 plošč, združenih po materialu, z mero, debelino, robom in ceno" }
+  },
+  "korpus": {
+    "naslov": "En element. Vsaka plošča na milimeter.",
+    "natpis": {
+      "1": "Spodnji element 600 × 720 × 560 mm, kakršnega izdeluje vsaka delavnica.",
+      "2": "Program ga razstavi na plošče in vsaki da točno mero, rob in debelino.",
+      "3": "Kosi legnejo na ploščo kot razrezni načrt: bela iverka, hrastov dekor, lesonit.",
+      "4": "Razrezni seznam „Po meri“ pa je pripravljen za kopiranje in pošiljanje na razrez."
+    },
+    "daska": { "bok": "Stranica", "dno": "Dno", "polica": "Polica", "precka": "Prečka", "front": "Fronta", "ledja": "Hrbtišče" },
+    "noscript_alt": "TOPICA, razrezni seznam „Po meri“ za spodnji element 600 × 720 × 560 mm",
+    "posle": "To program naredi za vsak element v kuhinji, takoj ko ga postavite ob steno."
+  },
+  "niz": {
+    "nadnaslov": "Prostor",
+    "naslov": "Zložite niz, program ga dokonča.",
+    "tekst": "Elementi se prislonijo drug ob drugega in ob steno, delovni pult in podnožje pa ležeta čeznje s skupno mero, brez risanja."
+  },
+  "mogucnosti": {
+    "nadnaslov": "Funkcije",
+    "naslov": "Program za načrtovanje pohištva, ki pozna mizarstvo.",
+    "tekst": "Kuhinje, vgradne omare in komode. Vi odločate o merah in dekorjih; konstrukcijo in račun opravi program.",
+    "1": { "naslov": "Mere na milimeter", "tekst": "Širino, višino in globino vpišete ali vlečete z drsnikom. Kote do stene, do soseda in od tal so vedno vidne.", "alt": "Element v 3D s kotami 600, 720 in 560 mm ter oznakami do stene, do soseda in od tal" },
+    "2": { "naslov": "Katalog po standardu", "tekst": "Vsak tip elementa pride s konstrukcijo po evropskem standardu, sistem 32.", "s1": "Spodnji, zgornji, visoki", "s2": "Pomivalno korito in pečica", "s3": "Kotni in omara", "s4": "Predali, spone, nogice" },
+    "3": { "naslov": "„Po meri“ za kopiranje", "tekst": "Enake mere v eni vrstici, po materialu. Prva mera je smer letnic.", "k1": "Mera · mm", "k2": "Deb.", "k3": "Rob", "k4": "Kos", "r1": "1 dolga", "r3": "2 dolgi, 2 kratki" },
+    "4": { "naslov": "Pravi dekorji in 3D v živo", "tekst": "Hrast, bela, marmor ali vaš dekor s fotografije. Kar spremenite, takoj vidite, v 3D načrtu kuhinje, ki ga stranka razume." },
+    "5": { "naslov": "Podnožje, pult in zaključne stranice samodejno", "tekst": "Naredijo se čez izbrane elemente in potujejo z njimi, ko jih premaknete." },
+    "6": { "naslov": "Cena na projekt", "tekst": "Vpišite svoje cene plošč, robov, okovja in dela. Program sešteje po projektu; ponudbo naredite vi.", "alt": "Nastavitve delavnice: delo na element 3000 RSD, marža 20 %" },
+    "7": { "naslov": "Brez interneta, brez računa", "tekst": "Projekt je ena datoteka na vašem računalniku. Pošljite jo kolegu po e-pošti." }
+  },
+  "galerija": {
+    "nadnaslov": "Galerija",
+    "naslov": "3D načrt kuhinje, naravnost iz programa.",
+    "1": { "tekst": "Kuhinjski niz, hrastov dekor in bela iverka.", "alt": "Kuhinjski niz s hrastovimi fronti, beli korpusi iz iverke, siv laminat na tleh" },
+    "2": { "tekst": "Isti projekt, drug dekor: temen marmor in ploščice.", "alt": "Ista kuhinja s fronti v temnem marmorju in ploščicami na steni" },
+    "3": { "tekst": "Od blizu: en element, mere in konstrukcija.", "alt": "Bližnji prikaz enega elementa 600 × 720 × 570 mm s hrastovimi vrati in ploščo z merami" },
+    "4": { "tekst": "Odprite fronte in poglejte noter.", "alt": "Element z odprtimi vrati v 3D, vidna polica in notranjost, s kotami do stene in do soseda" },
+    "5": { "tekst": "Lasten dekor: dodajte fotografijo plošče, ki jo zares kupujete.", "alt": "Izbira dekorja fronte: bela, siva, bež, črna, les, beton, marmor, inox in lasten dekor" },
+    "6": { "tekst": "Predali s predalnikom in vodili iz kataloga.", "alt": "Spodnji element s tremi predali v 3D, s ploščo za predale in vodila" }
+  },
+  "zakoga": {
+    "nadnaslov": "Za koga",
+    "naslov": "Dela ga mizar, za mizarje.",
+    "tekst": "TOPICA nastaja v mizarski delavnici v Beogradu, na pravih projektih za prave stranke. Zato v njej ni ničesar odvečnega: samo tisto, kar mojstra hitreje pripelje od izmere do razreza.",
+    "uloga": "mizar in avtor programa, Beograd"
+  },
+  "cena": {
+    "nadnaslov": "Cena",
+    "naslov": "Preizkusna različica je brezplačna.",
+    "uskoro": "Cena kmalu",
+    "uskoro_tekst": "za polno različico",
+    "tekst": "Preizkusite program na svojem projektu, brez računa in brez kartice. Ceno polne različice bomo objavili kmalu.",
+    "kupi": "Kupi",
+    "obrazac": {
+      "naslov": "Sporočite mi, ko bo cena znana",
+      "placeholder": "vi@email.si",
+      "dugme": "Obvestite me",
+      "predmet": "TOPICA: obvestite me, ko bo cena objavljena",
+      "napomena": "Eno sporočilo, ko bo cena objavljena. Brez oglasov.",
+      "hvala": "Hvala! Sporočimo vam, takoj ko bo cena objavljena.",
+      "greska": "Ni šlo skozi. Pišite nam neposredno na e-naslov v nogi strani."
+    },
+    "topi_alt": "Topi, maskota programa TOPICA, drži vrtalnik in ravnilo"
+  },
+  "pitanja": {
+    "nadnaslov": "Vprašanja",
+    "naslov": "Kaj mizarji vprašajo pred preizkusom.",
+    "1": { "p": "Na katerem Windowsu deluje?", "o": "Na Windows 10 in Windows 11, 64-bitnih. Program je majhen in hiter; deluje tudi na navadnem prenosniku v delavnici." },
+    "2": { "p": "Potrebujem internet?", "o": "Ne. Program deluje brez povezave in brez računa. Projekt je ena datoteka na vašem računalniku." },
+    "3": { "p": "Katere plošče in materiale podpira?", "o": "Iverno ploščo 18 mm za korpus in fronte, ABS rob 0,45 in 1 mm, lesonit 3 mm za hrbtišče; debeline in robove spreminjate v nastavitvah delavnice. Dekor izberete s seznama ali dodate svojega." },
+    "4": { "p": "Kaj dobim na koncu?", "o": "Razrezni seznam po elementu in po materialu, prikaz „Po meri“ za kopiranje, seznam okovja, porabo plošč, ceno in tisk v PDF." },
+    "5": { "p": "V katerih jezikih?", "o": "V srbščini in angleščini. Jezik preklopite v programu." },
+    "6": { "p": "Ali program dobiva posodobitve?", "o": "Da. Nove različice izhajajo redno, preizkusno različico pa lahko vedno znova prenesete s te strani." }
+  },
+  "dno": {
+    "naslov": "Preizkusite ga na svojem naslednjem projektu.",
+    "tekst": "Windows 10/11. Brez računa, brez kartice. Razrezni seznam za prvi element v petih minutah.",
+    "uslovi": "Pogoji uporabe",
+    "privatnost": "Zasebnost"
+  },
+  "preuzimanje": {
+    "meta_naslov": "Prenesite brezplačno preizkusno različico TOPICA za Windows",
+    "meta_opis": "Brezplačna preizkusna različica programa za načrtovanje pohištva in razrezne sezname. Windows 10/11, 64-bitni, brez računa. Namestitev v treh korakih.",
+    "nadnaslov": "Prenos",
+    "naslov": "Brezplačna preizkusna različica za Windows.",
+    "tekst": "Brezplačno, brez računa in brez kartice. Namestitev traja minuto, prvi element z razreznim seznamom pa imate v petih.",
+    "email_naslov": "Če želite, pustite e-naslov (ni obvezno)",
+    "email_tekst": "Pošiljamo samo nove različice in ceno, ko bo znana. Brez oglasov, odjava z enim klikom.",
+    "dugme": "Prenesite preizkusno različico",
+    "datoteka": "TOPICA-trial.exe",
+    "bez_emaila": "Brez e-pošte:",
+    "direktno": "prenesite neposredno",
+    "predmet": "TOPICA: nov prenos preizkusne različice",
+    "zahtevi_naslov": "Kaj potrebuje računalnik",
+    "z1_naslov": "Sistem", "z1": "Windows 10 ali Windows 11, 64-bitni.",
+    "z2_naslov": "Računalnik", "z2": "Navaden prenosnik iz delavnice zadostuje: 4 GB pomnilnika in grafika, ki zmore 3D v brskalniku.",
+    "z3_naslov": "Internet", "z3": "Ni potreben. Program deluje brez povezave in ne ustvarja računa.",
+    "koraci_naslov": "Namestitev v treh korakih",
+    "k1": "Dvokliknite preneseno datoteko TOPICA-trial.exe.",
+    "k2": "Če Windows vpraša, ali programu zaupate, kliknite „Več informacij“ in nato „Vseeno zaženi“.",
+    "k3": "Odprite TOPICA z namizja. Ustvarite prvi projekt: vpišite mere prostora in postavite prvi element.",
+    "slika_placeholder": "Prostor za posnetek zaslona tega koraka (doda lastnik)",
+    "upozorenje_naslov": "Opozorilo Windows.",
+    "upozorenje": "Program še nima digitalnega podpisa, zato Windows ob prvem zagonu pokaže moder zaslon „Sistem Windows je zaščitil vaš računalnik“. To je običajno pri novih, nepodpisanih programih: kliknite „Več informacij“ in nato „Vseeno zaženi“. Podpis urejamo in opozorilo bo izginilo.",
+    "pomoc": "Se je zataknilo? Pišite nam, odgovorimo isti dan."
+  },
+  "hvala": {
+    "meta_naslov": "Hvala — preizkusna različica TOPICA se prenaša",
+    "meta_opis": "Prenos preizkusne različice TOPICA se je začel. Trije koraki za začetek.",
+    "nadnaslov": "Hvala",
+    "naslov": "Prenos se je začel.",
+    "tekst": "Če se ni začel sam:",
+    "koraci_naslov": "Trije koraki za začetek",
+    "k1": "Namestite program (ob opozorilu Windows: „Več informacij“, nato „Vseeno zaženi“).",
+    "k2": "Ustvarite nov projekt in vpišite mere prostora: širino, globino in višino stropa.",
+    "k3": "Dodajte prvi spodnji element iz kataloga in odprite „Razrezne mere“. To je vaš prvi razrezni seznam.",
+    "snimak": "Tri minute videa: od prostora do razreznega seznama.",
+    "snimak_dugme": "Oglejte si video"
+  },
+  "blog": {
+    "meta_naslov": "Nasveti za mizarje: razrezni seznam, sistem 32, robovi, mere kuhinje — TOPICA",
+    "meta_opis": "Kratki praktični članki za mizarje, ki izdelujejo ploskovno pohištvo po meri: kako brati razrezni seznam, sistem 32, ABS robovi, standardne mere kuhinjskih elementov.",
+    "nadnaslov": "Nasveti",
+    "naslov": "Mizarstvo na papirju, pred delavnico.",
+    "tekst": "Kratki zapisi o stvareh, ki jih dela vsak mizar, zapisani enkrat, da vam jih ni treba razlagati vsakič znova.",
+    "poziv": "Preizkusite to na svojem projektu."
+  },
+  "clanak": { "citanje": "min branja", "objavljeno": "Objavljeno" }
+}

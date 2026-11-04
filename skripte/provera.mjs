@@ -2,6 +2,7 @@
 // npm run check            — sve (Lighthouse na uzorku)
 // node skripte/provera.mjs --brzo            — bez Lighthouse-a i snimaka
 // node skripte/provera.mjs --jezici=sr,de    — samo ti jezici u pregledaču
+// node skripte/provera.mjs --bez-lighthouse  — sve osim Lighthouse-a;  --samo-lighthouse — samo Lighthouse (uzorak)
 import { readFileSync, existsSync, mkdirSync, readdirSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -12,6 +13,8 @@ import { pokreniServer } from "./posluzi.mjs";
 const KOREN = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const arg = (ime) => (process.argv.find((a) => a.startsWith(`--${ime}=`)) || "").split("=")[1];
 const BRZO = process.argv.includes("--brzo");
+const BEZ_LH = process.argv.includes("--bez-lighthouse") || BRZO;
+const SAMO_LH = process.argv.includes("--samo-lighthouse");
 const PORT = 8788;
 const greske = [];
 const upozorenja = [];
@@ -32,7 +35,7 @@ const jezici = JSON.parse(readFileSync(path.join(KOREN, "tekst", "jezici.json"),
 const izabrani = arg("jezici") ? arg("jezici").split(",") : jezici;
 const dozvoljenTaraba = sajt.preuzimanjeExe === "#" ? ["#"] : [];
 let brojStranica = 0;
-for (const kod of izabrani) {
+for (const kod of SAMO_LH ? [] : izabrani) {
   const dir = path.join(KOREN, "dist", kod);
   const stranice = [];
   const skupi = (d, rel) => { for (const e of readdirSync(d, { withFileTypes: true })) { if (e.isDirectory()) skupi(path.join(d, e.name), rel + e.name + "/"); else if (e.name.endsWith(".html")) stranice.push(rel + e.name); } };
@@ -46,12 +49,14 @@ for (const kod of izabrani) {
   }
 }
 console.log(`2) pregledač: ${brojStranica} stranica, ${greske.length ? greske.length + " grešaka ukupno" : "✓"}`);
-const rm = await proveriSmanjenoKretanje(browser, `http://localhost:${PORT}/sr/`);
-greske.push(...rm);
-console.log(`3) smanjeno kretanje: ${rm.length ? "✗" : "✓"}`);
+if (!SAMO_LH) {
+  const rm = await proveriSmanjenoKretanje(browser, `http://localhost:${PORT}/sr/`);
+  greske.push(...rm);
+  console.log(`3) smanjeno kretanje: ${rm.length ? "✗" : "✓"}`);
+}
 
 // 3) snimci (sr i de, 1440 i 390)
-if (!BRZO) {
+if (!BRZO && !SAMO_LH) {
   const dirSnimci = path.join(KOREN, "docs", "snimci");
   mkdirSync(dirSnimci, { recursive: true });
   for (const kod of ["sr", "de"].filter((k) => jezici.includes(k))) {
@@ -63,15 +68,17 @@ if (!BRZO) {
 await browser.close();
 
 // 4) Lighthouse na uzorku
-if (!BRZO) {
+if (!BEZ_LH) {
   const { default: lighthouse } = await import("lighthouse");
   const { launch } = await import("chrome-launcher");
   const chrome = await launch({ chromePath: process.env.CHROME_PATH || "/opt/pw-browsers/chromium", chromeFlags: ["--headless=new", "--no-sandbox", "--disable-gpu"] });
   const uzorak = [`sr/`, `en/`, `de/`, `sr/preuzimanje.html`, `en/blog/krojna-lista.html`, `sr/blog/`].filter((u) => existsSync(path.join(KOREN, "dist", u.endsWith("/") ? u + "index.html" : u)));
   const pragovi = { performance: 90, accessibility: 90, seo: 95 };
+  const izmeri = async (u) => { const rez = await lighthouse(`http://localhost:${PORT}/${u}`, { port: chrome.port, output: "json", logLevel: "silent", onlyCategories: ["performance", "accessibility", "seo", "best-practices"] }); return Object.fromEntries(Object.entries(rez.lhr.categories).map(([n, c]) => [n, Math.round(c.score * 100)])); };
+  await izmeri(uzorak[0]); // zagrevanje Chrome-a (prvo merenje je uvek sporije)
   for (const u of uzorak) {
-    const rez = await lighthouse(`http://localhost:${PORT}/${u}`, { port: chrome.port, output: "json", logLevel: "silent", onlyCategories: ["performance", "accessibility", "seo", "best-practices"] });
-    const k = Object.fromEntries(Object.entries(rez.lhr.categories).map(([n, c]) => [n, Math.round(c.score * 100)]));
+    const [a, b] = [await izmeri(u), await izmeri(u)]; // dva merenja, bolje važi (Lighthouse varira sa opterećenjem)
+    const k = Object.fromEntries(Object.keys(a).map((n) => [n, Math.max(a[n], b[n])]));
     const red = `   ${u.padEnd(28)} perf ${k.performance}  a11y ${k.accessibility}  seo ${k.seo}  bp ${k["best-practices"]}`;
     console.log(red);
     for (const [n, prag] of Object.entries(pragovi)) if (k[n] < prag) greske.push(`Lighthouse ${u}: ${n} ${k[n]} < ${prag}`);

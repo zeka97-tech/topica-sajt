@@ -1,0 +1,167 @@
+{
+  "_jezik": { "ime": "Čeština", "status": "za-proveru", "proverio": "" },
+  "meta": {
+    "naslov": "TOPICA — program pro návrh nábytku s nářezovým plánem, vytvořený pro truhláře",
+    "opis": "TOPICA je program pro návrh kuchyní pro truhláře na Windows: nakreslíte místnost, rozmístíte skříňky z katalogu a program dá 3D, nářezový plán na milimetr přesně, kování a cenu. Zkušební verze zdarma.",
+    "og_naslov": "TOPICA — od místnosti k nářezovému plánu",
+    "og_opis": "Program pro návrh nábytku pro truhláře: místnost, skříňky z katalogu, 3D, nářezový plán na milimetr a cena. Zkušební verze zdarma.",
+    "og_alt": "Maskot Topi měří korpus vedle nápisu TOPICA — od místnosti k nářezovému plánu",
+    "ld_opis": "Program pro Windows na navrhování deskového nábytku na míru (kuchyně, vestavěné skříně, komody) pro truhlářské dílny: místnost ve 3D, skříňky z katalogu podle evropského standardu, nářezový plán na milimetr, kování a cena."
+  },
+  "a11y": { "preskoci": "Přejít na obsah", "logo": "TOPICA, úvodní stránka", "navigacija": "Hlavní navigace", "jezik": "Vyberte jazyk", "meni": "Menu" },
+  "nav": { "kako": "Jak funguje", "mogucnosti": "Funkce", "galerija": "Galerie", "cena": "Cena", "pitanja": "Dotazy", "blog": "Návody", "preuzimanje": "Stáhnout" },
+  "cta": { "glavno": "Stáhnout zkušební verzi", "kratko": "Stáhnout" },
+  "jezik": {
+    "napomena_program": "Program je dnes k dispozici v srbštině a angličtině. Česká verze se připravuje.",
+    "predlog_tekst": "Tato stránka je k dispozici i česky.",
+    "predlog_dugme": "Přepnout do češtiny"
+  },
+  "hero": {
+    "naslov": "Od místnosti k nářezovému plánu.",
+    "tekst": "TOPICA je program pro návrh nábytku vytvořený pro truhláře: nakreslíte místnost, seřadíte skříňky podél stěny a program zná konstrukci a okamžitě dá 3D, nářezový plán na milimetr přesně, kování a cenu.",
+    "saznaj": "Podívejte se, jak funguje",
+    "sitno": "Windows 10/11 · srbsky a anglicky · zkušební verze je zdarma",
+    "topi_alt": "Topi, plyšový maskot programu TOPICA, měří svinovacím metrem spodní kuchyňskou skříňku s otevřenými dvířky",
+    "prozor_alt": "TOPICA, 3D pohled na kuchyň v místnosti: spodní a horní skříňky s dubovými dvířky podél stěny, spodní řada 3200 mm a 400 mm volného místa"
+  },
+  "cinjenice": {
+    "naslov": "Proč program pro truhláře, a ne kreslicí nástroj",
+    "1": { "naslov": "Na milimetr přesně", "tekst": "Každý dílec dostane přesný rozměr ze skutečné konstrukce korpusu, ne z náčrtu od oka." },
+    "2": { "naslov": "Evropský standard, System 32", "tekst": "Bezrámový korpus, ABS hrana, miskové závěsy 35 mm, zásuvky a sokl z katalogu. Nic nenastavujete znovu." },
+    "3": { "naslov": "Nářezový plán připravený ke kopírování", "tekst": "Stejné rozměry na jednom řádku, seskupené podle materiálu. Zkopírujte a pošlete na formátovací pilu." }
+  },
+  "kako": {
+    "nadnaslov": "Jak to funguje",
+    "naslov": "Tři kroky k nářezovému plánu.",
+    "1": { "naslov": "Nakreslete místnost", "tekst": "Zadejte stěny, výšku stropu, okno a rozvody. Místnost je hned ve 3D, s podlahou a stěnami, jaké má zákazník doopravdy.", "alt": "TOPICA, krok 1: místnost 3600 × 3000 mm s výběrem podlahy a stěn, šedá laminátová podlaha a obklady za kuchyní" },
+    "2": { "naslov": "Rozmístěte skříňky z katalogu", "tekst": "Spodní, horní, vysoké, dřezová, pro troubu, rohová. Přisadí se ke stěně a k sousední skříňce a rozměry měníte živě, na milimetr.", "alt": "TOPICA, krok 2: spodní skříňka s dvířky 600 × 720 × 560 mm u stěny, s kótami k sousední skříňce a panelem vlastností" },
+    "3": { "naslov": "Přečtěte si nářezový plán a cenu", "tekst": "Program zná konstrukci: boky, dno, příčky, záda, dvířka. Nářezový plán, kování a cena jsou vždy aktuální, bez tlačítka „přepočítat“.", "alt": "TOPICA, krok 3: nářezový plán „Podle rozměru“ pro jednu skříňku, 8 dílců seskupených podle materiálu s rozměrem, tloušťkou, hranou a cenou" }
+  },
+  "korpus": {
+    "naslov": "Jedna skříňka. Každý dílec na milimetr.",
+    "natpis": {
+      "1": "Spodní skříňka 600 × 720 × 560 mm, jakou dělá každá dílna.",
+      "2": "Program ji rozloží na dílce a každému dá přesný rozměr, hranu a tloušťku.",
+      "3": "Dílce si lehnou na desku jako při nářezu: bílé lamino, dekor dub, sololit.",
+      "4": "A nářezový plán „Podle rozměru“ je připravený ke zkopírování a odeslání na pilu."
+    },
+    "daska": { "bok": "Bok", "dno": "Dno", "polica": "Police", "precka": "Příčka", "front": "Dvířka", "ledja": "Záda" },
+    "noscript_alt": "TOPICA, nářezový plán „Podle rozměru“ pro spodní skříňku 600 × 720 × 560 mm",
+    "posle": "Tohle program udělá pro každou skříňku v kuchyni ve chvíli, kdy ji postavíte ke stěně."
+  },
+  "niz": {
+    "nadnaslov": "Místnost",
+    "naslov": "Postavte sestavu, program ji dokončí.",
+    "tekst": "Skříňky se přisadí k sobě a ke stěně a pracovní deska se soklem si na ně lehnou s celkovým rozměrem, bez kreslení."
+  },
+  "mogucnosti": {
+    "nadnaslov": "Funkce",
+    "naslov": "Program pro návrh nábytku, který rozumí truhlařině.",
+    "tekst": "Kuchyně, vestavěné skříně a komody. Vy rozhodujete o rozměrech a dekorech; konstrukci a počítání dělá program.",
+    "1": { "naslov": "Rozměry na milimetr", "tekst": "Šířku, výšku a hloubku napíšete nebo táhnete posuvníkem. Kóty ke stěně, k sousední skříňce a od podlahy jsou stále vidět.", "alt": "Skříňka ve 3D s kótami 600, 720 a 560 mm a značkami ke stěně, k sousední skříňce a od podlahy" },
+    "2": { "naslov": "Katalog podle standardu", "tekst": "Každý typ skříňky má konstrukci podle evropského standardu, System 32.", "s1": "Spodní, horní, vysoké", "s2": "Dřez a trouba", "s3": "Rohové a šatní skříň", "s4": "Zásuvky, závěsy, nožičky" },
+    "3": { "naslov": "„Podle rozměru“ ke kopírování", "tekst": "Stejné rozměry na jednom řádku, podle materiálu. První rozměr je směr kresby dekoru.", "k1": "Rozměr · mm", "k2": "Tl.", "k3": "Hrana", "k4": "Ks", "r1": "1 dlouhá", "r3": "2 dlouhé, 2 krátké" },
+    "4": { "naslov": "Skutečné dekory a živé 3D", "tekst": "Dub, bílá, mramor nebo váš vlastní dekor z fotky. Co změníte, hned vidíte, v 3D návrhu kuchyně, kterému zákazník rozumí." },
+    "5": { "naslov": "Sokl, pracovní deska a boční panely automaticky", "tekst": "Vytvoří se nad vybranými skříňkami a cestují s nimi, když je posunete." },
+    "6": { "naslov": "Cena za projekt", "tekst": "Zadejte vlastní ceny desek, hran, kování a práce. Program je sečte za projekt; nabídku děláte vy.", "alt": "Nastavení dílny: práce za skříňku 3000 RSD, marže 20 %" },
+    "7": { "naslov": "Bez internetu, bez účtu", "tekst": "Projekt je jeden soubor ve vašem počítači. Pošlete ho e-mailem kolegovi." }
+  },
+  "galerija": {
+    "nadnaslov": "Galerie",
+    "naslov": "3D návrh kuchyně přímo z programu.",
+    "1": { "tekst": "Kuchyňská linka, dekor dub a bílé lamino.", "alt": "Kuchyňská linka s dubovými dvířky, bílé korpusy z lamina, šedá laminátová podlaha" },
+    "2": { "tekst": "Stejný projekt, jiný dekor: tmavý mramor a obklady.", "alt": "Stejná kuchyň s dvířky v tmavém mramoru a obklady na stěně" },
+    "3": { "tekst": "Detail: jedna skříňka, rozměry a konstrukce.", "alt": "Detail jedné skříňky 600 × 720 × 570 mm s dubovými dvířky a panelem rozměrů" },
+    "4": { "tekst": "Otevřete dvířka a podívejte se dovnitř.", "alt": "Skříňka s otevřenými dvířky ve 3D, je vidět police a vnitřek, s kótami ke stěně a k sousední skříňce" },
+    "5": { "tekst": "Vlastní dekor: přidejte fotku desky, kterou opravdu kupujete.", "alt": "Výběr dekoru dvířek: bílá, šedá, béžová, černá, dřevo, beton, mramor, nerez a vlastní dekor" },
+    "6": { "tekst": "Zásuvky s korpusem a výsuvy z katalogu.", "alt": "Spodní skříňka se třemi zásuvkami ve 3D, s panelem zásuvek a výsuvů" }
+  },
+  "zakoga": {
+    "nadnaslov": "Pro koho",
+    "naslov": "Dělá ho truhlář, pro truhláře.",
+    "tekst": "TOPICA vzniká v truhlářské dílně v Bělehradě, na skutečných zakázkách pro skutečné zákazníky. Proto v ní není nic zbytečného: jen to, co řemeslníka dostane rychleji od zaměření k řezání.",
+    "uloga": "truhlář a autor programu, Bělehrad"
+  },
+  "cena": {
+    "nadnaslov": "Cena",
+    "naslov": "Zkušební verze je zdarma.",
+    "uskoro": "Cena již brzy",
+    "uskoro_tekst": "za plnou verzi",
+    "tekst": "Vyzkoušejte program na vlastním projektu, bez účtu a bez karty. Cenu plné verze oznámíme brzy.",
+    "kupi": "Koupit",
+    "obrazac": {
+      "naslov": "Dejte mi vědět, až bude cena",
+      "placeholder": "vy@email.cz",
+      "dugme": "Dát vědět",
+      "predmet": "TOPICA: dejte mi vědět, až bude oznámena cena",
+      "napomena": "Jedna zpráva, až bude cena oznámena. Žádná reklama.",
+      "hvala": "Díky! Ozveme se, jakmile bude cena oznámena.",
+      "greska": "Neodešlo se to. Napište nám přímo na e-mail v zápatí."
+    },
+    "topi_alt": "Topi, maskot programu TOPICA, drží vrtačku a pravítko"
+  },
+  "pitanja": {
+    "nadnaslov": "Dotazy",
+    "naslov": "Na co se truhláři ptají, než to zkusí.",
+    "1": { "p": "Na kterém Windows běží?", "o": "Na Windows 10 a Windows 11, 64bitových. Program je malý a rychlý; běží i na obyčejném notebooku v dílně." },
+    "2": { "p": "Potřebuji internet?", "o": "Ne. Program funguje offline a bez účtu. Projekt je jeden soubor ve vašem počítači." },
+    "3": { "p": "Jaké desky a materiály podporuje?", "o": "LTD 18 mm na korpus a dvířka, ABS hranu 0,45 a 1 mm, sololit 3 mm na záda; tloušťky a hrany měníte v nastavení dílny. Dekor vyberete ze seznamu nebo přidáte vlastní." },
+    "4": { "p": "Co dostanu na konci?", "o": "Nářezový plán (kusovník) po skříňkách a po materiálech, pohled „Podle rozměru“ ke kopírování, seznam kování, spotřebu desek, cenu a tisk do PDF." },
+    "5": { "p": "V jakých jazycích?", "o": "Srbsky a anglicky. Jazyk přepnete přímo v programu." },
+    "6": { "p": "Dostává program aktualizace?", "o": "Ano. Nové verze vycházejí pravidelně a zkušební verzi si můžete kdykoli znovu stáhnout z této stránky." }
+  },
+  "dno": {
+    "naslov": "Vyzkoušejte ho na své příští zakázce.",
+    "tekst": "Windows 10/11. Bez účtu, bez karty. Nářezový plán první skříňky za pět minut.",
+    "uslovi": "Podmínky použití",
+    "privatnost": "Soukromí"
+  },
+  "preuzimanje": {
+    "meta_naslov": "Stáhněte si zkušební verzi TOPICA pro Windows zdarma",
+    "meta_opis": "Bezplatná zkušební verze programu pro návrh nábytku a nářezové plány. Windows 10/11, 64 bit, bez účtu. Instalace ve třech krocích.",
+    "nadnaslov": "Stažení",
+    "naslov": "Zkušební verze pro Windows zdarma.",
+    "tekst": "Zdarma, bez účtu a bez karty. Instalace trvá minutu a první skříňku s nářezovým plánem máte za pět.",
+    "email_naslov": "Nechte nám e-mail, pokud chcete (nepovinné)",
+    "email_tekst": "Posíláme jen nové verze a cenu, až bude. Žádná reklama, odhlášení jedním kliknutím.",
+    "dugme": "Stáhnout zkušební verzi",
+    "datoteka": "TOPICA-trial.exe",
+    "bez_emaila": "Bez e-mailu:",
+    "direktno": "stáhnout přímo",
+    "predmet": "TOPICA: nové stažení zkušební verze",
+    "zahtevi_naslov": "Co počítač potřebuje",
+    "z1_naslov": "Systém", "z1": "Windows 10 nebo Windows 11, 64bitový.",
+    "z2_naslov": "Počítač", "z2": "Obyčejný notebook z dílny stačí: 4 GB paměti a grafika, která zvládne 3D v prohlížeči.",
+    "z3_naslov": "Internet", "z3": "Není potřeba. Program funguje offline a nevytváří žádný účet.",
+    "koraci_naslov": "Instalace ve třech krocích",
+    "k1": "Dvakrát klikněte na stažený soubor TOPICA-trial.exe.",
+    "k2": "Pokud se Windows zeptá, zda programu důvěřujete, klikněte na „Další informace“ a pak „Přesto spustit“.",
+    "k3": "Otevřete TOPICA z plochy. Vytvořte první projekt: zadejte rozměry místnosti a postavte první skříňku.",
+    "slika_placeholder": "Místo pro snímek obrazovky tohoto kroku (doplní majitel)",
+    "upozorenje_naslov": "Upozornění Windows.",
+    "upozorenje": "Program zatím nemá digitální podpis, takže Windows při prvním spuštění zobrazí modrou obrazovku „Systém Windows ochránil váš počítač“. U nových, nepodepsaných programů je to běžné: klikněte na „Další informace“ a pak „Přesto spustit“. Podpis zařizujeme a upozornění zmizí.",
+    "pomoc": "Zaseklo se to? Napište nám, odpovídáme tentýž den."
+  },
+  "hvala": {
+    "meta_naslov": "Děkujeme — zkušební verze TOPICA se stahuje",
+    "meta_opis": "Stahování zkušební verze TOPICA začalo. Tři kroky, jak začít.",
+    "nadnaslov": "Děkujeme",
+    "naslov": "Stahování začalo.",
+    "tekst": "Pokud nezačalo samo:",
+    "koraci_naslov": "Tři kroky, jak začít",
+    "k1": "Nainstalujte program (při upozornění Windows: „Další informace“, pak „Přesto spustit“).",
+    "k2": "Vytvořte nový projekt a zadejte rozměry místnosti: šířku, hloubku a výšku stropu.",
+    "k3": "Přidejte první spodní skříňku z katalogu a otevřete „Nářezové rozměry“. To je váš první nářezový plán.",
+    "snimak": "Tři minuty videa: od místnosti k nářezovému plánu.",
+    "snimak_dugme": "Přehrát video"
+  },
+  "blog": {
+    "meta_naslov": "Návody pro truhláře: nářezový plán, System 32, hrany, rozměry kuchyně — TOPICA",
+    "meta_opis": "Krátké praktické články pro truhláře, kteří dělají deskový nábytek na míru: jak číst nářezový plán, System 32, ABS hrany, standardní rozměry kuchyňských skříněk.",
+    "nadnaslov": "Návody",
+    "naslov": "Truhlařina na papíře, dřív než v dílně.",
+    "tekst": "Krátké texty o věcech, které dělá každý truhlář, sepsané jednou, abyste je nemuseli vysvětlovat pokaždé znovu.",
+    "poziv": "Vyzkoušejte to na vlastním projektu."
+  },
+  "clanak": { "citanje": "min čtení", "objavljeno": "Publikováno" }
+}
