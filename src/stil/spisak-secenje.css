@@ -23,3 +23,12 @@
 .spisak-napomena { color: var(--c-na-tamnom-plavo); font-size: var(--f-14); margin-top: var(--r-3); }
 @keyframes zasvetli { from { background: var(--c-zasvetli); } to { background: transparent; } }
 @media (max-width: 960px) { .spisak-mreza { grid-template-columns: 1fr; } .spisak-zbir { grid-template-columns: 1fr; } }
+/* telefon: tabela staje u ekran — debljina se ne prikazuje (vidi se iz naziva dela), zaglavlje i kant smeju u dva reda */
+@media (max-width: 600px) {
+  .secenje-kartica { padding: var(--r-4); }
+  .spisak-tabela { font-size: var(--f-14); }
+  .spisak-tabela th, .spisak-tabela td { white-space: normal; padding-right: var(--r-2); }
+  .spisak-tabela th { letter-spacing: 0; font-size: var(--f-12); }
+  .spisak-tabela .mera { white-space: nowrap; }
+  .spisak-tabela th:nth-child(4), .spisak-tabela td:nth-child(4) { display: none; }
+}

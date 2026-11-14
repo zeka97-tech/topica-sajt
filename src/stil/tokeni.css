@@ -130,6 +130,7 @@
 
   /* Zadatak 4: tamni vrh, crteži, konfigurator */
   --c-sjaj-1: #1d4ed8; --c-sjaj-2: #0f2a5e;
+  --s-konf-uska: 560px;
   --c-mreza: rgba(255, 255, 255, .045);
   --c-na-tamnom-plavo: #c9d6f2;
   --c-crt-gore: #e8effc; --c-crt-bok: #c7d7f5; --c-crt-lice: #ffffff; --c-crt-cokla: #1e3a8a; --c-crt-cokla-2: #172554;

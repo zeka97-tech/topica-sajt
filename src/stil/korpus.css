@@ -40,3 +40,9 @@
   .korpus-naslov h2 { font-size: var(--f-34); }
   .natpis { font-size: var(--f-16); padding: 0 var(--r-5); }
 }
+@media (max-width: 600px) {
+  .lista-tabela { font-size: var(--f-13); }
+  .lista-tabela th, .lista-tabela td { padding: var(--r-2) var(--r-1) var(--r-2) var(--r-2); }
+  .lista-tabela .mera { white-space: nowrap; }
+  .lista-tabela th:nth-child(4), .lista-tabela td:nth-child(4) { display: none; }
+}

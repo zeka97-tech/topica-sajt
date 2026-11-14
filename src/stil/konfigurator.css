@@ -17,7 +17,7 @@
 .konf-crtez { height: var(--s-crtez-v-mali); margin-top: auto; }
 .konf-crtez-veliki { height: var(--s-crtez-v); }
 .konf-polja { display: grid; gap: var(--r-3); }
-.polje-mera { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: var(--r-3); font-size: var(--f-16); }
+.polje-mera { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: var(--r-3); font-size: var(--f-16); }
 .polje-mera[hidden] { display: none; }
 .polje-mera label, .polje-mera .polje-naziv { color: var(--c-belo); font-weight: var(--w-600); }
 .korak-polje { display: inline-flex; align-items: center; border: var(--d-linija) solid var(--c-tamno-polje-ivica); border-radius: var(--rad-10); background: var(--c-tamno-polje); }
@@ -32,10 +32,10 @@
 .konf-front[aria-checked="true"] { border-color: var(--c-narandzasta); box-shadow: 0 0 0 var(--d-linija-2) var(--c-narandzasta); }
 .konf-front[data-front="bela"] { background: var(--c-crt-lice); } .konf-front[data-front="siva"] { background: var(--c-crt-bok); }
 .konf-front[data-front="drvo"] { background: var(--c-crt-front-ivica); } .konf-front[data-front="crna"] { background: var(--c-uzorak-crna); }
-.konf .stikle { margin: 0; font-size: var(--f-16); grid-template-columns: 1fr 1fr; gap: var(--r-2) var(--r-3); }
-.konf .stikle li { gap: var(--r-2); }
+.konf .stikle { margin: 0; font-size: var(--f-16); display: flex; flex-wrap: wrap; gap: var(--r-2) var(--r-3); }
+.konf .stikle li { gap: var(--r-2); flex: 1 1 calc(50% - var(--r-3)); } /* dve kolone; duga reč (drugi jezici) uzima ceo red */
 .konf-kartica .veza { margin-top: auto; }
-@media (max-width: 960px) {
-  .konf-kartice { grid-template-columns: 1fr; }
+@media (max-width: 1180px) { /* tri kartice jedna pored druge traže širinu: ispod toga idu jedna ispod druge */
+  .konf-kartice { grid-template-columns: 1fr; max-width: var(--s-konf-uska); margin-inline: auto; }
   .konf-strelica { justify-self: center; transform: rotate(90deg); }
 }

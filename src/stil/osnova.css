@@ -20,7 +20,7 @@ body { margin: 0; font-family: var(--font); font-size: var(--f-18); line-height:
 img, picture, svg { display: block; max-width: 100%; }
 img { height: auto; }
 a { color: var(--c-plava); text-decoration: none; }
-h1, h2, h3, h4 { margin: 0; font-weight: var(--w-800); letter-spacing: var(--ls-naslov); line-height: var(--lh-naslov); color: inherit; }
+h1, h2, h3, h4 { margin: 0; font-weight: var(--w-800); letter-spacing: var(--ls-naslov); line-height: var(--lh-naslov); color: inherit; overflow-wrap: break-word; hyphens: auto; } /* duga reč (de, fi, nl) se lomi, ne širi stranicu */
 h1 { font-size: var(--f-h1); }
 h2 { font-size: var(--f-h2); }
 h3 { font-size: var(--f-24); letter-spacing: var(--ls-h3); line-height: var(--lh-h3); }
