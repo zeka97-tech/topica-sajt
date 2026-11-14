@@ -11,6 +11,12 @@
 .traka-cta { opacity: 0; visibility: hidden; transform: translateY(calc(-1 * var(--r-1))); transition: opacity var(--t-brzo) var(--t-krivulja), transform var(--t-brzo) var(--t-krivulja), visibility 0s var(--t-brzo); }
 .traka.skrolovano .traka-cta { opacity: 1; visibility: visible; transform: none; transition: opacity var(--t-brzo) var(--t-krivulja), transform var(--t-brzo) var(--t-krivulja), visibility 0s; }
 .traka.uvek-cta .traka-cta { opacity: 1; visibility: visible; transform: none; }
+.traka.tamna { background: var(--c-traka-tamna); border-bottom-color: var(--c-tamno-linija); }
+.traka.tamna .logo, .traka.tamna .traka-stavke a:hover { color: var(--c-belo); }
+.traka.tamna .traka-stavke a { color: var(--c-na-tamnom-plavo); }
+.traka.tamna .jezik > summary { color: var(--c-na-tamnom-plavo); border-color: var(--c-tamno-polje-ivica); }
+.traka.tamna .jezik > summary:hover { background: var(--c-tamno-polje); }
+.traka.tamna .meni-dugme span { background: var(--c-belo); }
 .meni-dugme { display: none; width: var(--s-meni); height: var(--s-meni); border: 0; background: transparent; cursor: pointer; padding: var(--r-2); border-radius: var(--rad-10); }
 .meni-dugme span { display: block; height: var(--s-meni-crta); background: var(--c-tekst); margin: var(--r-1) 0; border-radius: var(--s-meni-crta); transition: transform var(--t-brzo) var(--t-krivulja), opacity var(--t-brzo) var(--t-krivulja); }
 .meni-dugme span + span { margin-top: calc(var(--r-1) + var(--d-linija-2)); }
@@ -18,6 +24,7 @@
   .traka-stavke { display: none; position: fixed; top: var(--s-traka); left: 0; right: 0; flex-direction: column; gap: 0; background: var(--c-staklo-meni); -webkit-backdrop-filter: blur(var(--blur-staklo)); backdrop-filter: blur(var(--blur-staklo)); border-bottom: var(--d-linija) solid var(--c-linija); padding: var(--r-2) var(--r-6) var(--r-4); }
   .traka-stavke a { display: block; padding: var(--r-3) 0; font-size: var(--f-17); border-bottom: var(--d-linija) solid var(--c-linija); }
   .traka.otvoreno .traka-stavke { display: flex; }
+  .traka.tamna .traka-stavke { background: var(--c-plava-tamna); }
   .meni-dugme { display: block; }
   .traka.otvoreno .meni-dugme span:nth-child(1) { transform: translateY(var(--r-2)) rotate(45deg); }
   .traka.otvoreno .meni-dugme span:nth-child(2) { opacity: 0; }

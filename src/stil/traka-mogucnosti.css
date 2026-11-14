@@ -1,0 +1,10 @@
+/* traka-mogucnosti.css — jedan red ikonica (linije) sa natpisima; na telefonu se prevlači vodoravno */
+.mtraka { padding: 0 0 var(--r-10); }
+.mtraka-lista { list-style: none; margin: 0; padding: var(--r-5) var(--r-4); display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: var(--r-2); border-radius: var(--rad-kartica); background: var(--c-tamno-kartica); border: var(--d-linija) solid var(--c-tamno-linija); }
+.mtraka-lista li { display: grid; justify-items: center; gap: var(--r-2); text-align: center; font-size: var(--f-15); font-weight: var(--w-600); color: var(--c-belo); padding: 0 var(--r-2); }
+.mtraka-lista li + li { border-left: var(--d-linija) solid var(--c-tamno-linija); }
+.mtraka-lista svg { width: var(--s-mtraka-ikona); height: var(--s-mtraka-ikona); fill: none; stroke: var(--c-narandzasta); stroke-width: var(--d-ikona); stroke-linecap: round; stroke-linejoin: round; }
+@media (max-width: 860px) {
+  .mtraka-lista { grid-auto-columns: var(--s-mtraka-min); overflow-x: auto; scroll-snap-type: x proximity; -webkit-overflow-scrolling: touch; }
+  .mtraka-lista li { scroll-snap-align: start; }
+}

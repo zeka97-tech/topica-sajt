@@ -7,6 +7,7 @@ export function pokreniJezik() {
   const kod = document.body.dataset.kod;
   const koren = document.body.dataset.koren || "";
   document.querySelectorAll("a[data-jezik]").forEach((a) => a.addEventListener("click", () => pisi(a.dataset.jezik)));
+  if (document.body.dataset.bezPredloga) { if (!citaj()) pisi(kod); return; } // na sr i hr stranicama se drugi jezik ne nudi
   const zapamcen = citaj();
   if (zapamcen) { if (zapamcen !== kod && !sessionStorage.getItem("topica-rucno")) return predlozi(zapamcen, koren, kod); return; }
   pisi(kod);

@@ -127,4 +127,28 @@
 
   /* slojevi */
   --z-traka: 50; --z-preskoci: 100; --z-meni: 60;
+
+  /* Zadatak 4: tamni vrh, crteži, konfigurator */
+  --c-sjaj-1: #1d4ed8; --c-sjaj-2: #0f2a5e;
+  --c-mreza: rgba(255, 255, 255, .045);
+  --c-na-tamnom-plavo: #c9d6f2;
+  --c-crt-gore: #e8effc; --c-crt-bok: #c7d7f5; --c-crt-lice: #ffffff; --c-crt-cokla: #1e3a8a; --c-crt-cokla-2: #172554;
+  --c-crt-front-ivica: #fdba74; --c-crt-front-gore: #ffedd5;
+  --c-okvir-laptopa: #0a1226; --c-osnova-laptopa-1: #cbd5e1; --c-osnova-laptopa-2: #94a3b8;
+  --c-tamno-polje-jace: rgba(255, 255, 255, .14);
+  --c-traka-tamna: rgba(11, 27, 58, .78);
+  --c-zasvetli: rgba(249, 115, 22, .28);
+  --s-mreza: 40px;
+  --s-laptop: 560px; --s-laptop-okvir: 10px; --s-laptop-osnova: 14px; --rad-laptop: 16px;
+  --s-topi-hero: 210px; --s-topi-hero-mob: 120px; --s-topi-pomak: -36px; --s-topi-pomak-mob: -12px;
+  --s-stikla: 22px; --s-mtraka-ikona: 30px; --s-mtraka-min: 132px;
+  --d-crt: 1.5px; --d-ikona: 1.6px; --d-kota: 2.5px;
+  --s-polje-broj: 96px; --s-korak-dugme: 40px;
+  --s-crtez-v: 300px; --s-crtez-v-mali: 220px;
+  --s-uzorak: 44px;
+  --t-zasvetli: 900ms;
+  --f-h1-tamno: clamp(40px, 5.4vw, 68px);
+  --f-22: 22px; --f-26: 26px;
+  --maska-stikla: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill-rule='evenodd' d='M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm4.7 7.7-5.4 5.6a1 1 0 0 1-1.4 0l-2.6-2.6 1.4-1.4 1.9 1.9 4.7-4.9z'/%3E%3C/svg%3E");
+  --r-hero-gore: 120px; --r-hero-dole: 72px;
 }

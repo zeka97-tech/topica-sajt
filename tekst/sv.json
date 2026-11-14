@@ -2,16 +2,10 @@
   "_jezik": {"ime": "Svenska", "status": "za-proveru", "proverio": ""},
   "meta": {"naslov": "TOPICA — ritprogram för kök och kaplista, byggt för snickare", "opis": "TOPICA är ett köksritningsprogram för snickare på Windows: rita rummet, ställ in stommar från katalogen och få 3D, en kaplista på millimetern, beslag och pris. Gratis provversion.", "og_naslov": "TOPICA — från rummet till kaplistan", "og_opis": "Program för möbelsnickare: rum, stommar från katalogen, 3D, kaplista på millimetern och pris. Gratis provversion.", "og_alt": "Maskoten Topi mäter en stomme bredvid texten TOPICA — från rummet till kaplistan", "ld_opis": "Windows-program för att rita måttbeställda skivmöbler (kök, garderober, skåp) för snickerier: rum i 3D, stommar från katalogen enligt europeisk standard, kaplista på millimetern, beslag och pris."},
   "a11y": {"preskoci": "Hoppa till innehållet", "logo": "TOPICA, startsida", "navigacija": "Huvudmeny", "jezik": "Välj språk", "meni": "Meny"},
-  "nav": {"kako": "Så funkar det", "mogucnosti": "Funktioner", "galerija": "Galleri", "cena": "Pris", "pitanja": "Frågor", "blog": "Guider", "preuzimanje": "Ladda ner"},
+  "nav": {"mogucnosti": "Funktioner", "pitanja": "Frågor", "blog": "Guider", "preuzimanje": "Ladda ner"},
   "cta": {"glavno": "Ladda ner gratis provversion", "kratko": "Ladda ner"},
   "jezik": {"napomena_program": "Programmet finns i dag på serbiska och engelska. Svenska är på väg.", "predlog_tekst": "Den här sidan finns också på svenska.", "predlog_dugme": "Byt till svenska"},
   "hero": {"naslov": "Från rummet till kaplistan.", "tekst": "TOPICA är ett ritprogram för skåp och kök, byggt för snickare: rita rummet, ställ stommarna på rad längs väggen, så kan programmet konstruktionen och ger dig direkt 3D, en kaplista på millimetern, beslag och pris.", "saznaj": "Se hur det funkar", "sitno": "Windows 10/11 · serbiska och engelska · provversionen är gratis", "topi_alt": "Topi, TOPICAs plyschmaskot, mäter en bänkstomme med öppen lucka med måttband", "prozor_alt": "TOPICA, 3D-vy av ett kök i ett rum: bänk- och väggstommar med ekfronter längs väggen, bänkraden 3200 mm och 400 mm fritt utrymme"},
-  "cinjenice": {
-    "1": {"naslov": "På millimetern", "tekst": "Varje skiva får sitt exakta mått från stommens verkliga konstruktion, inte från en skiss på fri hand."},
-    "2": {"naslov": "Europeisk standard, System 32", "tekst": "Ramlös stomme, kantlist, gångjärn med 35 mm kopp, lådor och sockel från katalogen. Inget att ställa in på nytt."},
-    "3": {"naslov": "Kaplista klar att kopiera", "tekst": "Lika mått på en rad, grupperade efter material. Kopiera och skicka till justersågen."},
-    "naslov": "Därför ett program för snickare, inte ett ritverktyg"
-  },
   "kako": {
     "1": {"naslov": "Rita rummet", "tekst": "Mata in väggar, takhöjd, fönster och installationer. Rummet står i 3D direkt, med det golv och de väggar kunden faktiskt har.", "alt": "TOPICA, steg 1: ett rum 3600 × 3000 mm med val av golv och väggar, grå laminat och kakel bakom köket"},
     "2": {"naslov": "Ställ in stommar från katalogen", "tekst": "Bänk-, vägg-, högskåp, diskbänk, ugn, hörn. De snäpper mot väggen och mot grannen, och du ändrar måtten live, på millimetern.", "alt": "TOPICA, steg 2: en bänkstomme 600 × 720 × 560 mm med lucka mot väggen, med mått till grannen och egenskapspanelen"},

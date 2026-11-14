@@ -50,8 +50,9 @@ export class Graditelj {
       ogSlika: this.sajt.url + this.ogSlika(o.kod), ogLocale: jezik.ogLocale,
       hreflang: hreflang.join("\n"), ldJson: JSON.stringify(o.ldJson || {}),
       formspreeUrl: this.sajt.formspreeId ? `https://formspree.io/f/${this.sajt.formspreeId}` : "",
-      jezikLista, trakaKlasa: o.putanja === "index.html" ? "" : " uvek-cta",
-      preload: o.putanja === "index.html" ? `<link rel="preload" as="image" href="${koren}slike/web/topi-meri-korpus-isecen-800.webp" imagesrcset="${koren}slike/web/topi-meri-korpus-isecen-400.webp 400w, ${koren}slike/web/topi-meri-korpus-isecen-800.webp 800w" imagesizes="(max-width: 860px) 260px, 440px" fetchpriority="high">` : "",
+      jezikLista, trakaKlasa: o.putanja === "index.html" ? " tamna" : " uvek-cta",
+      bezPredloga: jezik.bezPredloga ? "1" : "",
+      preload: o.putanja === "index.html" ? `<link rel="preload" as="image" href="${koren}slike/web/snimak-41-kuhinja-sonoma-bela-laminat-800.webp" imagesrcset="${koren}slike/web/snimak-41-kuhinja-sonoma-bela-laminat-800.webp 800w, ${koren}slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp 1366w" imagesizes="(max-width: 860px) 92vw, 560px" fetchpriority="high">` : "",
       // placeholder linkovi (#) se prikazuju kao običan tekst dok ih vlasnik ne upiše u tekst/sajt.json
       usloviHtml: this.sajt.usloviLink && this.sajt.usloviLink !== "#" ? `<a href="${this.sajt.usloviLink}">${tekst.dno.uslovi}</a>` : `<span>${tekst.dno.uslovi}</span>`,
       privatnostHtml: this.sajt.privatnostLink && this.sajt.privatnostLink !== "#" ? `<a href="${this.sajt.privatnostLink}">${tekst.dno.privatnost}</a>` : `<span>${tekst.dno.privatnost}</span>`,
@@ -82,7 +83,7 @@ export function ldSoftver(sajt, tekst, kod, jezici) {
     screenshot: sajt.url + "slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp",
     image: sajt.url + "slike/og.webp",
     offers: { "@type": "Offer", price: "0", priceCurrency: "EUR", description: tekst.cena.naslov, availability: "https://schema.org/InStock" },
-    featureList: [tekst.cinjenice["1"].naslov, tekst.cinjenice["2"].naslov, tekst.cinjenice["3"].naslov, tekst.mogucnosti["4"].naslov, tekst.mogucnosti["6"].naslov],
+    featureList: [tekst.hero.p1, tekst.hero.p2, tekst.hero.p3, tekst.hero.p4],
   };
 }
 

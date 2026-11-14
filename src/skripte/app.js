@@ -2,7 +2,6 @@
 import { pokreniKretanje, smanjeno } from "./kretanje.js";
 import { pokreniTraku } from "./traka.js";
 import { pokreniJezik } from "./jezik.js";
-import { pokreniHero } from "./hero.js";
 import { pokreniKakoRadi } from "./kako-radi.js";
 import { pokreniKorpus } from "./korpus.js";
 import { pokreniNiz } from "./niz.js";
@@ -26,7 +25,6 @@ async function pokreti() {
   await ucitajVendor();
   if (!window.gsap) return;
   pokreniKretanje();
-  pokreniHero();
   pokreniKakoRadi();
   pokreniKorpus();
   pokreniNiz();

@@ -2,16 +2,10 @@
   "_jezik": {"ime": "Dansk", "status": "za-proveru", "proverio": ""},
   "meta": {"naslov": "TOPICA — tegneprogram til køkkener og skærelister, lavet til snedkere", "opis": "TOPICA er et køkkentegneprogram til snedkere på Windows: tegn rummet, sæt korpusser ind fra kataloget, og få 3D, en skæreliste på millimeteren, beslag og pris. Gratis prøveversion.", "og_naslov": "TOPICA — fra rummet til skærelisten", "og_opis": "Program til møbelsnedkere: rum, korpusser fra kataloget, 3D, skæreliste på millimeteren og pris. Gratis prøveversion.", "og_alt": "Maskotten Topi måler et korpus ved siden af teksten TOPICA — fra rummet til skærelisten", "ld_opis": "Windows-program til at tegne pladeinventar efter mål (køkkener, garderobeskabe, skabe) til snedkerværksteder: rum i 3D, korpusser fra kataloget efter europæisk standard, skæreliste på millimeteren, beslag og pris."},
   "a11y": {"preskoci": "Spring til indhold", "logo": "TOPICA, forside", "navigacija": "Hovedmenu", "jezik": "Vælg sprog", "meni": "Menu"},
-  "nav": {"kako": "Sådan virker", "mogucnosti": "Funktioner", "galerija": "Galleri", "cena": "Pris", "pitanja": "Spørgsmål", "blog": "Guides", "preuzimanje": "Download"},
+  "nav": {"mogucnosti": "Funktioner", "pitanja": "Spørgsmål", "blog": "Guides", "preuzimanje": "Download"},
   "cta": {"glavno": "Download gratis prøveversion", "kratko": "Download"},
   "jezik": {"napomena_program": "Programmet findes i dag på serbisk og engelsk. Dansk er på vej.", "predlog_tekst": "Denne side findes også på dansk.", "predlog_dugme": "Skift til dansk"},
   "hero": {"naslov": "Fra rummet til skærelisten.", "tekst": "TOPICA er et tegneprogram til skabe og køkkener, lavet til snedkere: tegn rummet, stil korpusserne på række langs væggen, så kender programmet konstruktionen og giver dig med det samme 3D, en skæreliste på millimeteren, beslag og pris.", "saznaj": "Se hvordan det virker", "sitno": "Windows 10/11 · serbisk og engelsk · prøveversionen er gratis", "topi_alt": "Topi, TOPICAs plysmaskot, måler et underskab med åben låge med et målebånd", "prozor_alt": "TOPICA, 3D-visning af et køkken i et rum: under- og overskabe med egefronter langs væggen, underrækken på 3200 mm og 400 mm fri plads"},
-  "cinjenice": {
-    "1": {"naslov": "På millimeteren", "tekst": "Hver plade får sit nøjagtige mål fra korpussets rigtige konstruktion, ikke fra en skitse på øjemål."},
-    "2": {"naslov": "Europæisk standard, System 32", "tekst": "Rammeløst korpus, kantbånd, kophængsler 35 mm, skuffer og sokkel fra kataloget. Intet skal sættes op igen."},
-    "3": {"naslov": "Skæreliste klar til at kopiere", "tekst": "Ens mål på én linje, grupperet efter materiale. Kopiér den og send den til pladesaven."},
-    "naslov": "Derfor et program til snedkere, ikke et tegneværktøj"
-  },
   "kako": {
     "1": {"naslov": "Tegn rummet", "tekst": "Indtast vægge, loftshøjde, vindue og installationer. Rummet står i 3D med det samme, med det gulv og de vægge kunden faktisk har.", "alt": "TOPICA, trin 1: et rum på 3600 × 3000 mm med valg af gulv og vægge, gråt laminat og fliser bag køkkenet"},
     "2": {"naslov": "Sæt korpusser ind fra kataloget", "tekst": "Underskab, overskab, højskab, vask, ovn, hjørne. De snapper til væggen og til naboen, og du ændrer målene live, på millimeteren.", "alt": "TOPICA, trin 2: et underskab 600 × 720 × 560 mm med låge op ad væggen, med mål til naboen og egenskabspanelet"},

@@ -6,10 +6,11 @@ import { fileURLToPath } from "node:url";
 import { Graditelj, ldSoftver, ldClanak, ldPitanja, ldStrana } from "./lib/stranice.mjs";
 import { markdownUHtml, prednjiBlok } from "./lib/markdown.mjs";
 import { ucitaj } from "./lib/sablon.mjs";
+import { crteziPocetne } from "./lib/pocetna.mjs";
 
 const KOREN = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DIST = path.join(KOREN, "dist");
-const ODELJCI = ["hero", "cinjenice", "kako-radi", "korpus", "niz", "mogucnosti", "galerija", "zakoga", "cena", "pitanja", "dno-poziv"];
+const ODELJCI = ["hero", "traka-mogucnosti", "korpus", "namene", "kako-radi", "niz", "mogucnosti", "galerija", "zakoga", "cena", "pitanja", "dno-poziv"];
 // zbirke tekstova: folder u korenu (po jeziku) → stranice /<kod>/<folder>/; tekst.<kljuc> daje naslove indeksa
 const ZBIRKE = [
   { folder: "blog", kljuc: "blog" }, { folder: "recnik", kljuc: "recnik" },
@@ -24,6 +25,9 @@ for (const j of jezici.jezici) {
   const p = path.join(KOREN, "tekst", `${j.kod}.json`);
   if (existsSync(p)) tekstovi[j.kod] = json(p); else console.warn(`⚠ nema tekst/${j.kod}.json — jezik se preskače`);
 }
+// TOPICA_JEZICI=sr,en ograničava build na te jezike (samo za rad u toku; objava uvek gradi sve)
+const samo = process.env.TOPICA_JEZICI ? process.env.TOPICA_JEZICI.split(",") : null;
+if (samo) for (const k of Object.keys(tekstovi)) if (!samo.includes(k)) delete tekstovi[k];
 const aktivni = jezici.jezici.filter((j) => tekstovi[j.kod]);
 
 // 1) čisto dist + statika
@@ -84,7 +88,7 @@ for (const j of aktivni) {
   const kod = j.kod; const t = tekstovi[kod];
   // početna
   const sadrzaj = ODELJCI.map((o) => g.sablon(o)).join("\n");
-  pisi(kod, "index.html", g.stranica({ kod, putanja: "index.html", naslov: t.meta.naslov, opis: t.meta.opis, ogNaslov: t.meta.og_naslov, ogOpis: t.meta.og_opis, sadrzaj, ldJson: ldSoftver(sajt, t, kod, jezici), postoji }));
+  pisi(kod, "index.html", g.stranica({ kod, putanja: "index.html", naslov: t.meta.naslov, opis: t.meta.opis, ogNaslov: t.meta.og_naslov, ogOpis: t.meta.og_opis, sadrzaj, ldJson: ldSoftver(sajt, t, kod, jezici), postoji, sistem: crteziPocetne(t) }));
   // preuzimanje i hvala
   pisi(kod, "preuzimanje.html", g.stranica({ kod, putanja: "preuzimanje.html", naslov: t.preuzimanje.meta_naslov, opis: t.preuzimanje.meta_opis, sadrzaj: g.sablon("preuzimanje"), ldJson: ldSoftver(sajt, t, kod, jezici), postoji }));
   pisi(kod, "hvala.html", g.stranica({ kod, putanja: "hvala.html", naslov: t.hvala.meta_naslov, opis: t.hvala.meta_opis, sadrzaj: g.sablon("hvala"), postoji, ldJson: ldStrana(sajt, kod, "hvala.html", t.hvala.meta_naslov, t.hvala.meta_opis) }));

@@ -2,16 +2,10 @@
   "_jezik": {"ime": "Suomi", "status": "za-proveru", "proverio": ""},
   "meta": {"naslov": "TOPICA — keittiösuunnitteluohjelma ja sahauslista, tehty puusepille", "opis": "TOPICA on keittiösuunnitteluohjelma puusepille Windowsille: piirrä huone, aseta rungot luettelosta ja saat 3D:n, millintarkan sahauslistan, helat ja hinnan. Ilmainen kokeiluversio.", "og_naslov": "TOPICA — huoneesta sahauslistaan", "og_opis": "Ohjelma huonekalupuusepille: huone, rungot luettelosta, 3D, millintarkka sahauslista ja hinta. Ilmainen kokeiluversio.", "og_alt": "Maskotti Topi mittaa runkoa tekstin TOPICA — huoneesta sahauslistaan vieressä", "ld_opis": "Windows-ohjelma mittatilauslevykalusteiden (keittiöt, vaatekaapit, kaapistot) suunnitteluun puusepänverstaille: huone 3D:nä, rungot luettelosta eurooppalaisen standardin mukaan, millintarkka sahauslista, helat ja hinta."},
   "a11y": {"preskoci": "Siirry sisältöön", "logo": "TOPICA, etusivu", "navigacija": "Päävalikko", "jezik": "Valitse kieli", "meni": "Valikko"},
-  "nav": {"kako": "Näin se toimii", "mogucnosti": "Ominaisuudet", "galerija": "Galleria", "cena": "Hinta", "pitanja": "Kysymykset", "blog": "Oppaat", "preuzimanje": "Lataa"},
+  "nav": {"mogucnosti": "Ominaisuudet", "pitanja": "Kysymykset", "blog": "Oppaat", "preuzimanje": "Lataa"},
   "cta": {"glavno": "Lataa ilmainen kokeiluversio", "kratko": "Lataa"},
   "jezik": {"napomena_program": "Ohjelma on tällä hetkellä saatavilla serbiaksi ja englanniksi. Suomenkielinen versio on tulossa.", "predlog_tekst": "Tämä sivu on saatavilla myös suomeksi.", "predlog_dugme": "Vaihda suomeksi"},
   "hero": {"naslov": "Huoneesta sahauslistaan.", "tekst": "TOPICA on kaappien ja keittiöiden suunnitteluohjelma, tehty puusepille: piirrä huone, aseta rungot riviin seinän viereen, ja ohjelma tuntee rakenteen ja antaa heti 3D:n, millintarkan sahauslistan, helat ja hinnan.", "saznaj": "Katso miten se toimii", "sitno": "Windows 10/11 · serbia ja englanti · kokeiluversio on ilmainen", "topi_alt": "Topi, TOPICAn pehmomaskotti, mittaa rullamitalla alakaappia, jonka ovi on auki", "prozor_alt": "TOPICA, keittiön 3D-näkymä huoneessa: ala- ja yläkaapit tammiovilla seinän vieressä, alarivi 3200 mm ja vapaata tilaa 400 mm"},
-  "cinjenice": {
-    "1": {"naslov": "Millintarkka", "tekst": "Jokainen levy saa tarkan mittansa rungon oikeasta rakenteesta, ei silmämääräisestä luonnoksesta."},
-    "2": {"naslov": "Eurooppalainen standardi, System 32", "tekst": "Kehyksetön runko, reunanauha, kuppisaranat 35 mm, laatikot ja sokkeli luettelosta. Mitään ei tarvitse säätää uudestaan."},
-    "3": {"naslov": "Sahauslista valmiina kopioitavaksi", "tekst": "Samat mitat yhdellä rivillä, ryhmiteltynä materiaalin mukaan. Kopioi ja lähetä levysahalle."},
-    "naslov": "Miksi ohjelma puusepille, ei piirtotyökalu"
-  },
   "kako": {
     "1": {"naslov": "Piirrä huone", "tekst": "Syötä seinät, huonekorkeus, ikkuna ja liitännät. Huone on heti 3D:nä, sillä lattialla ja niillä seinillä, jotka asiakkaalla oikeasti on.", "alt": "TOPICA, vaihe 1: 3600 × 3000 mm huone lattia- ja seinävalinnoilla, harmaa laminaatti ja laatat keittiön takana"},
     "2": {"naslov": "Aseta rungot luettelosta", "tekst": "Ala-, ylä- ja korkea kaappi, allas, uuni, kulma. Ne napsahtavat seinään ja viereiseen kaappiin, ja mittoja muutat lennossa, millin tarkkuudella.", "alt": "TOPICA, vaihe 2: 600 × 720 × 560 mm alakaappi ovella seinää vasten, mitat viereiseen kaappiin ja ominaisuuspaneeli"},

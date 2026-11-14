@@ -2,16 +2,10 @@
   "_jezik": {"ime": "Slovenčina", "status": "za-proveru", "proverio": ""},
   "meta": {"naslov": "TOPICA — program na návrh nábytku s nárezovým plánom, vytvorený pre stolárov", "opis": "TOPICA je program na návrh kuchýň pre stolárov na Windows: nakreslíte miestnosť, rozmiestnite skrinky z katalógu a program dá 3D, nárezový plán na milimeter presne, kovanie a cenu. Skúšobná verzia zadarmo.", "og_naslov": "TOPICA — od miestnosti k nárezovému plánu", "og_opis": "Program na návrh nábytku pre stolárov: miestnosť, skrinky z katalógu, 3D, nárezový plán na milimeter a cena. Skúšobná verzia zadarmo.", "og_alt": "Maskot Topi meria korpus vedľa nápisu TOPICA — od miestnosti k nárezovému plánu", "ld_opis": "Program pre Windows na navrhovanie plošného nábytku na mieru (kuchyne, vstavané skrine, komody) pre stolárske dielne: miestnosť v 3D, skrinky z katalógu podľa európskeho štandardu, nárezový plán na milimeter, kovanie a cena."},
   "a11y": {"preskoci": "Prejsť na obsah", "logo": "TOPICA, úvodná stránka", "navigacija": "Hlavná navigácia", "jezik": "Vyberte jazyk", "meni": "Menu"},
-  "nav": {"kako": "Ako funguje", "mogucnosti": "Funkcie", "galerija": "Galéria", "cena": "Cena", "pitanja": "Otázky", "blog": "Návody", "preuzimanje": "Stiahnuť"},
+  "nav": {"mogucnosti": "Funkcie", "pitanja": "Otázky", "blog": "Návody", "preuzimanje": "Stiahnuť"},
   "cta": {"glavno": "Stiahnuť skúšobnú verziu", "kratko": "Stiahnuť"},
   "jezik": {"napomena_program": "Program je dnes k dispozícii v srbčine a angličtine. Slovenská verzia sa pripravuje.", "predlog_tekst": "Táto stránka je k dispozícii aj po slovensky.", "predlog_dugme": "Prepnúť do slovenčiny"},
   "hero": {"naslov": "Od miestnosti k nárezovému plánu.", "tekst": "TOPICA je program na návrh nábytku vytvorený pre stolárov: nakreslíte miestnosť, zoradíte skrinky pozdĺž steny a program pozná konštrukciu a okamžite dá 3D, nárezový plán na milimeter presne, kovanie a cenu.", "saznaj": "Pozrite si, ako funguje", "sitno": "Windows 10/11 · srbsky a anglicky · skúšobná verzia je zadarmo", "topi_alt": "Topi, plyšový maskot programu TOPICA, meria zvinovacím metrom spodnú kuchynskú skrinku s otvorenými dvierkami", "prozor_alt": "TOPICA, 3D pohľad na kuchyňu v miestnosti: spodné a horné skrinky s dubovými dvierkami pozdĺž steny, spodný rad 3200 mm a 400 mm voľného miesta"},
-  "cinjenice": {
-    "1": {"naslov": "Na milimeter presne", "tekst": "Každý dielec dostane presný rozmer zo skutočnej konštrukcie korpusu, nie z náčrtu od oka."},
-    "2": {"naslov": "Európsky štandard, System 32", "tekst": "Bezrámový korpus, ABS hrana, miskové závesy 35 mm, zásuvky a sokel z katalógu. Nič nenastavujete odznova."},
-    "3": {"naslov": "Nárezový plán pripravený na kopírovanie", "tekst": "Rovnaké rozmery v jednom riadku, zoskupené podľa materiálu. Skopírujte a pošlite na formátovaciu pílu."},
-    "naslov": "Prečo program pre stolárov, a nie kresliaci nástroj"
-  },
   "kako": {
     "1": {"naslov": "Nakreslite miestnosť", "tekst": "Zadajte steny, výšku stropu, okno a rozvody. Miestnosť je hneď v 3D, s podlahou a stenami, aké má zákazník naozaj.", "alt": "TOPICA, krok 1: miestnosť 3600 × 3000 mm s výberom podlahy a stien, sivá laminátová podlaha a obklad za kuchyňou"},
     "2": {"naslov": "Rozmiestnite skrinky z katalógu", "tekst": "Spodné, horné, vysoké, drezová, na rúru, rohová. Prisadia sa k stene a k susednej skrinke a rozmery meníte naživo, na milimeter.", "alt": "TOPICA, krok 2: spodná skrinka s dvierkami 600 × 720 × 560 mm pri stene, s kótami k susednej skrinke a panelom vlastností"},

@@ -2,16 +2,10 @@
   "_jezik": {"ime": "Slovenščina", "status": "za-proveru", "proverio": ""},
   "meta": {"naslov": "TOPICA — program za načrtovanje pohištva z razreznim seznamom, narejen za mizarje", "opis": "TOPICA je program za načrtovanje kuhinj za mizarje na Windows: narišete prostor, postavite elemente iz kataloga, program pa da 3D, razrezni seznam na milimeter natančno, okovje in ceno. Brezplačna preizkusna različica.", "og_naslov": "TOPICA — od prostora do razreznega seznama", "og_opis": "Program za načrtovanje pohištva za mizarje: prostor, elementi iz kataloga, 3D, razrezni seznam na milimeter in cena. Brezplačna preizkusna različica.", "og_alt": "Maskota Topi meri korpus ob napisu TOPICA — od prostora do razreznega seznama", "ld_opis": "Program za Windows za načrtovanje ploskovnega pohištva po meri (kuhinje, omare, komode) za mizarske delavnice: prostor v 3D, elementi iz kataloga po evropskem standardu, razrezni seznam na milimeter, okovje in cena."},
   "a11y": {"preskoci": "Preskoči na vsebino", "logo": "TOPICA, domača stran", "navigacija": "Glavna navigacija", "jezik": "Izbira jezika", "meni": "Meni"},
-  "nav": {"kako": "Kako deluje", "mogucnosti": "Funkcije", "galerija": "Galerija", "cena": "Cena", "pitanja": "Vprašanja", "blog": "Nasveti", "preuzimanje": "Prenos"},
+  "nav": {"mogucnosti": "Funkcije", "pitanja": "Vprašanja", "blog": "Nasveti", "preuzimanje": "Prenos"},
   "cta": {"glavno": "Prenesite brezplačni preizkus", "kratko": "Prenesite"},
   "jezik": {"napomena_program": "Program je trenutno na voljo v srbščini in angleščini. Slovenska različica prihaja.", "predlog_tekst": "Ta stran je na voljo tudi v slovenščini.", "predlog_dugme": "Preklopi na slovenščino"},
   "hero": {"naslov": "Od prostora do razreznega seznama.", "tekst": "TOPICA je program za načrtovanje pohištva, narejen za mizarje: narišete prostor, zložite elemente ob steno, program pa pozna konstrukcijo in takoj da 3D, razrezni seznam na milimeter natančno, okovje in ceno.", "saznaj": "Poglejte, kako deluje", "sitno": "Windows 10/11 · srbsko in angleško · preizkusna različica je brezplačna", "topi_alt": "Topi, plišasta maskota programa TOPICA, z metrom meri spodnji kuhinjski element z odprtimi vrati", "prozor_alt": "TOPICA, 3D prikaz kuhinje v prostoru: spodnji in zgornji elementi s hrastovimi fronti ob steni, spodnji niz 3200 mm in 400 mm prostega prostora"},
-  "cinjenice": {
-    "1": {"naslov": "Na milimeter natančno", "tekst": "Vsaka plošča dobi točno mero iz prave konstrukcije korpusa, ne iz skice na oko."},
-    "2": {"naslov": "Evropski standard, sistem 32", "tekst": "Korpus brez okvirja, ABS rob, lončaste spone 35 mm, predali in podnožje iz kataloga. Ničesar ne nastavljate znova."},
-    "3": {"naslov": "Razrezni seznam, pripravljen za kopiranje", "tekst": "Enake mere v eni vrstici, združene po materialu. Kopirajte in pošljite na razrez."},
-    "naslov": "Zakaj program za mizarje in ne risarsko orodje"
-  },
   "kako": {
     "1": {"naslov": "Narišite prostor", "tekst": "Vnesite stene, višino stropa, okno in inštalacije. Prostor je takoj v 3D, s tlemi in stenami, kakršne ima stranka v resnici.", "alt": "TOPICA, korak 1: prostor 3600 × 3000 mm z izbiro tal in sten, siv laminat in ploščice za kuhinjo"},
     "2": {"naslov": "Postavite elemente iz kataloga", "tekst": "Spodnji, zgornji, visoki, pomivalni, za pečico, kotni. Prislonijo se ob steno in ob soseda, mere pa spreminjate v živo, na milimeter.", "alt": "TOPICA, korak 2: spodnji element z vrati 600 × 720 × 560 mm ob steni, s kotami do soseda in ploščo lastnosti"},

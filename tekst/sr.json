@@ -2,16 +2,10 @@
   "_jezik": {"ime": "Srpski", "status": "pun", "proverio": ""},
   "meta": {"naslov": "TOPICA — program za kuhinje i krojnu listu, napravljen za stolare", "opis": "TOPICA je program za stolare na Windows-u: nacrtaš sobu, složiš korpuse iz kataloga, a program sam da 3D, krojnu listu u milimetar, okove i cenu. Probna verzija je besplatna.", "og_naslov": "TOPICA — od prostora do krojne liste", "og_opis": "Program za stolare: soba, korpusi iz kataloga, 3D, krojna lista u milimetar i cena. Probna verzija besplatna.", "og_alt": "Maskota Topi meri korpus pored natpisa TOPICA — od prostora do krojne liste", "ld_opis": "Windows program za projektovanje pločastog nameštaja po meri (kuhinje, plakari, komode) za stolarske radionice: soba u 3D, korpusi iz kataloga po evropskom standardu, krojna lista u milimetar, okovi i cena."},
   "a11y": {"preskoci": "Pređi na sadržaj", "logo": "TOPICA, početna strana", "navigacija": "Glavna navigacija", "jezik": "Izbor jezika", "meni": "Meni"},
-  "nav": {"kako": "Kako radi", "mogucnosti": "Mogućnosti", "galerija": "Galerija", "cena": "Cena", "pitanja": "Pitanja", "blog": "Saveti", "preuzimanje": "Preuzimanje"},
+  "nav": {"mogucnosti": "Mogućnosti", "pitanja": "Pitanja", "blog": "Saveti", "preuzimanje": "Preuzimanje", "modeli": "Modeli"},
   "cta": {"glavno": "Preuzmi probnu verziju", "kratko": "Preuzmi"},
   "jezik": {"napomena_program": "Program je danas na srpskom i engleskom. Ovaj jezik dolazi.", "predlog_tekst": "Ova stranica postoji i na srpskom.", "predlog_dugme": "Pređi na srpski"},
-  "hero": {"naslov": "Od prostora do krojne liste.", "tekst": "TOPICA je program za kuhinje i plakare po meri, napravljen za stolare: nacrtaš sobu, složiš korpuse uz zid, a program sam zna konstrukciju i odmah daje 3D, krojnu listu u milimetar, okove i cenu.", "saznaj": "Pogledaj kako radi", "sitno": "Windows 10/11 · srpski i engleski · probna verzija je besplatna", "topi_alt": "Topi, plišana maskota programa TOPICA, meri metrom donji kuhinjski korpus sa otvorenim vratima", "prozor_alt": "TOPICA, 3D prikaz kuhinje u sobi: donji i gornji korpusi sa hrastovim frontovima uz zid, sa merama donjeg reda 3200 mm i slobodnog prostora 400 mm"},
-  "cinjenice": {
-    "1": {"naslov": "Mere u milimetar", "tekst": "Svaka daska dobija tačnu meru iz stvarne konstrukcije korpusa, ne iz crteža od oka."},
-    "2": {"naslov": "Evropski standard, sistem 32", "tekst": "Korpus bez okvira, kant, šarke sa šoljom 35, fioke i cokla po katalogu. Ništa ne podešavaš iznova."},
-    "3": {"naslov": "Krojna lista spremna za kopiranje", "tekst": "Iste mere u jednom redu, grupisane po materijalu. Kopiraj i pošalji na krojenje."},
-    "naslov": "Zašto program za stolare, a ne crtaći alat"
-  },
+  "hero": {"naslov": "Od prostora do krojne liste.", "tekst": "Program za projektovanje kuhinja, plakara i komoda po meri. Zadaš model i mere, a krojna lista, kant, okov i cena izađu sami.", "saznaj": "Probaj konfigurator", "sitno": "Windows 10/11 · srpski i engleski", "topi_alt": "Topi, plišana maskota programa TOPICA, meri metrom donji kuhinjski korpus sa otvorenim vratima", "prozor_alt": "TOPICA, 3D prikaz kuhinje u sobi: donji i gornji korpusi sa hrastovim frontovima uz zid, sa merama donjeg reda 3200 mm i slobodnog prostora 400 mm", "nadnaslov": "3D program za stolare i nameštaj po meri", "n1": "Projektuj.", "n2": "Konfiguriši.", "n3": "Izradi.", "p1": "3D prikaz sa pravim dezenima", "p2": "Krojna lista i kant, automatski", "p3": "Tačne mere, u milimetar", "p4": "Okov i cena po projektu"},
   "kako": {
     "1": {"naslov": "Nacrtaj sobu", "tekst": "Upiši zidove, visinu plafona, prozor i instalacije. Soba je odmah u 3D, sa podom i zidovima kakve mušterija ima.", "alt": "TOPICA, korak 1: soba 3600 × 3000 mm sa izborom poda i zidova, sivi laminat i pločice iza kuhinje"},
     "2": {"naslov": "Složi korpuse iz kataloga", "tekst": "Donji, gornji, visoki, sudopera, rerna, ugaoni. Prislone se uz zid i uz suseda, a mere menjaš uživo, u milimetar.", "alt": "TOPICA, korak 2: donji korpus sa vratima 600 × 720 × 560 mm uz zid, sa kotama do suseda i panelom osobina"},
@@ -77,5 +71,15 @@
   "clanak": {"citanje": "min čitanja", "objavljeno": "Objavljeno"},
   "recnik": {"meta_naslov": "Rečnik stolarskih pojmova: korpus, kant, sistem 32, krojna lista — TOPICA", "meta_opis": "Kratke i tačne definicije pojmova pločastog nameštaja sa standardnim merama iz evropske prakse: korpus, bok, prečka, kant, šarka, fioka, cokla, radna ploča, ekscentar, krojna lista.", "nadnaslov": "Rečnik", "naslov": "Rečnik stolarskih pojmova.", "tekst": "Svaki pojam na jednoj strani: šta je, koje su standardne mere i kako to radi program.", "poziv": "Vidi kako program računa ovo za tvoj korpus."},
   "namena": {"meta_naslov": "Program za kuhinje, plakare i komode po meri — za koga je TOPICA", "meta_opis": "Isti program, različit posao: kuhinje po meri, plakari, komode, male radionice i monteri. Šta TOPICA daje u svakom od tih slučajeva.", "nadnaslov": "Namena", "naslov": "Za koji posao, šta program daje.", "tekst": "Kuhinje, plakari po meri, komode, male radionice i monteri: isti program gledan iz tvog ugla.", "poziv": "Isprobaj na svom sledećem poslu."},
-  "pitanja_strane": {"meta_naslov": "Pitanja stolara o programu za kuhinje i krojnu listu — TOPICA", "meta_opis": "Dvadeset pravih pitanja koja majstori postavljaju o programu za projektovanje nameštaja i krojnu listu, sa kratkim odgovorima.", "nadnaslov": "Pitanja i odgovori", "naslov": "Šta majstori pitaju.", "tekst": "Kratki odgovori na prava pitanja iz radionice.", "poziv": "Najbolji odgovor je proba na tvom projektu."}
+  "pitanja_strane": {"meta_naslov": "Pitanja stolara o programu za kuhinje i krojnu listu — TOPICA", "meta_opis": "Dvadeset pravih pitanja koja majstori postavljaju o programu za projektovanje nameštaja i krojnu listu, sa kratkim odgovorima.", "nadnaslov": "Pitanja i odgovori", "naslov": "Šta majstori pitaju.", "tekst": "Kratki odgovori na prava pitanja iz radionice.", "poziv": "Najbolji odgovor je proba na tvom projektu."},
+  "mtraka": {"1": "3D prikaz", "2": "Korpusi i elementi", "3": "Konfiguracija", "4": "Krojna lista", "5": "Kant", "6": "Okov", "7": "Cena", "naslov": "Šta program radi"},
+  "namene": {
+    "nadnaslov": "Namena",
+    "naslov": "Šta možeš da projektuješ.",
+    "kuhinje": {"naslov": "Kuhinje", "tekst": "Donji, gornji i visoki elementi, sudopera, rerna i ugao, sa radnom pločom i coklom.", "alt": "TOPICA, kuhinja u nizu u 3D: donji i gornji elementi sa hrastovim frontovima"},
+    "plakari": {"naslov": "Plakari", "tekst": "Plakari po meri sa policama, pregradama i fiokama, u tvojim merama.", "alt": "Crtež plakara sa dvoja vrata"},
+    "komode": {"naslov": "Komode", "tekst": "Komode i korpusni nameštaj sa fiokama i vratima, do poslednje daske.", "alt": "Crtež komode sa fiokama"},
+    "radionice": "Za male radionice",
+    "monteri": "Za montere"
+  }
 }

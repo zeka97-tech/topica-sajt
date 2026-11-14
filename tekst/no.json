@@ -2,16 +2,10 @@
   "_jezik": {"ime": "Norsk", "status": "za-proveru", "proverio": ""},
   "meta": {"naslov": "TOPICA — tegneprogram for kjøkken og kappliste, laget for snekkere", "opis": "TOPICA er et kjøkkentegneprogram for snekkere på Windows: tegn rommet, sett inn skrog fra katalogen, og få 3D, en kappliste på millimeteren, beslag og pris. Gratis prøveversjon.", "og_naslov": "TOPICA — fra rommet til kapplisten", "og_opis": "Program for møbelsnekkere: rom, skrog fra katalogen, 3D, kappliste på millimeteren og pris. Gratis prøveversjon.", "og_alt": "Maskoten Topi måler et skrog ved siden av teksten TOPICA — fra rommet til kapplisten", "ld_opis": "Windows-program for å tegne platemøbler etter mål (kjøkken, garderober, skap) for snekkerverksteder: rom i 3D, skrog fra katalogen etter europeisk standard, kappliste på millimeteren, beslag og pris."},
   "a11y": {"preskoci": "Hopp til innholdet", "logo": "TOPICA, forside", "navigacija": "Hovedmeny", "jezik": "Velg språk", "meni": "Meny"},
-  "nav": {"kako": "Slik virker", "mogucnosti": "Funksjoner", "galerija": "Galleri", "cena": "Pris", "pitanja": "Spørsmål", "blog": "Guider", "preuzimanje": "Last ned"},
+  "nav": {"mogucnosti": "Funksjoner", "pitanja": "Spørsmål", "blog": "Guider", "preuzimanje": "Last ned"},
   "cta": {"glavno": "Last ned gratis prøveversjon", "kratko": "Last ned"},
   "jezik": {"napomena_program": "Programmet finnes i dag på serbisk og engelsk. Norsk er på vei.", "predlog_tekst": "Denne siden finnes også på norsk.", "predlog_dugme": "Bytt til norsk"},
   "hero": {"naslov": "Fra rommet til kapplisten.", "tekst": "TOPICA er et tegneprogram for skap og kjøkken, laget for snekkere: tegn rommet, still skrogene på rekke langs veggen, så kjenner programmet konstruksjonen og gir deg med én gang 3D, en kappliste på millimeteren, beslag og pris.", "saznaj": "Se hvordan det virker", "sitno": "Windows 10/11 · serbisk og engelsk · prøveversjonen er gratis", "topi_alt": "Topi, TOPICAs plysjmaskot, måler et benkeskap med åpen dør med et målebånd", "prozor_alt": "TOPICA, 3D-visning av et kjøkken i et rom: benke- og veggskap med eikefronter langs veggen, benkerekken på 3200 mm og 400 mm ledig plass"},
-  "cinjenice": {
-    "1": {"naslov": "På millimeteren", "tekst": "Hver plate får sitt nøyaktige mål fra skrogets virkelige konstruksjon, ikke fra en skisse på øyemål."},
-    "2": {"naslov": "Europeisk standard, System 32", "tekst": "Rammeløst skrog, kantlist, kopphengsler 35 mm, skuffer og sokkel fra katalogen. Ingenting å sette opp på nytt."},
-    "3": {"naslov": "Kappliste klar til å kopiere", "tekst": "Like mål på én linje, gruppert etter materiale. Kopier den og send den til platesagen."},
-    "naslov": "Derfor et program for snekkere, ikke et tegneverktøy"
-  },
   "kako": {
     "1": {"naslov": "Tegn rommet", "tekst": "Legg inn vegger, takhøyde, vindu og installasjoner. Rommet står i 3D med én gang, med det gulvet og de veggene kunden faktisk har.", "alt": "TOPICA, steg 1: et rom på 3600 × 3000 mm med valg av gulv og vegger, grå laminat og fliser bak kjøkkenet"},
     "2": {"naslov": "Sett inn skrog fra katalogen", "tekst": "Benkeskap, veggskap, høyskap, vask, ovn, hjørne. De snapper til veggen og til naboen, og du endrer målene direkte, på millimeteren.", "alt": "TOPICA, steg 2: et benkeskap 600 × 720 × 560 mm med dør inntil veggen, med mål til naboen og egenskapspanelet"},
