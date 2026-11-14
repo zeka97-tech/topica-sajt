@@ -15,8 +15,7 @@
   },
   "korpus": {
     "naslov": "Ein Korpus. Jedes Teil auf den Millimeter.",
-    "natpis": {"1": "Unterschrank 600 × 720 × 560 mm, wie ihn jede Werkstatt baut.", "2": "Das Programm zerlegt ihn in Teile und gibt jedem sein genaues Maß, mit Kante und Stärke.", "3": "Die Teile legen sich auf die Platte wie ein Schnittplan: weiße Spanplatte, Dekor Eiche, HDF.", "4": "Und die Schnittliste „Nach Maß“ ist fertig zum Kopieren und für den Zuschnitt."},
-    "daska": {"bok": "Seite", "dno": "Boden", "polica": "Fachboden", "precka": "Traverse", "front": "Front", "ledja": "Rückwand"},
+    "natpis": {"2": "Das Programm zerlegt ihn in Teile und gibt jedem sein genaues Maß, mit Kante und Stärke.", "3": "Die Teile legen sich als Schnittplan auf die Platten: 18-mm-Platte links, HDF rechts.", "4": "Und die Schnittliste „Nach Maß“ ist fertig zum Kopieren und für den Zuschnitt."},
     "noscript_alt": "TOPICA, Schnittliste „Nach Maß“ für einen Unterschrank 600 × 720 × 560 mm",
     "posle": "Das macht das Programm für jeden Korpus in der Küche, sobald du ihn an die Wand stellst."
   },
@@ -81,5 +80,40 @@
     "komode": {"naslov": "Kommoden", "tekst": "Kommoden und Korpusmöbel mit Schubladen und Türen, bis zum letzten Teil.", "alt": "Zeichnung einer Kommode mit Schubladen"},
     "radionice": "Für kleine Werkstätten",
     "monteri": "Für Monteure"
+  },
+  "konf": {
+    "nadnaslov": "Modelle",
+    "naslov": "Möbel nach Maß konfigurieren.",
+    "tekst": "Wähle ein Element, gib die Maße ein und sieh, was das Programm daraus ableitet. Die Formeln sind dieselben wie im Programm.",
+    "k1": {"naslov": "Element wählen", "tekst": "Modelle aus der Bibliothek des Programms."},
+    "k2": {"naslov": "Maße einstellen", "tekst": "Breite, Höhe, Tiefe und Innenleben."},
+    "k3": {"naslov": "Ergebnis erhalten", "tekst": "Bemaßte Zeichnung und alles, was das Programm liefert."},
+    "modeli_aria": "Modell des Elements",
+    "model": {"base-with-doors": "Unterschrank mit Türen", "base-with-drawers": "Unterschrank mit Schubladen", "wall-with-doors": "Oberschrank mit Türen", "open-shelf": "Offener Oberschrank", "tall-unit": "Hochschrank (Vorrat)", "wardrobe": "Kleiderschrank", "dresser": "Kommode mit Schubladen"},
+    "sirina": "Breite",
+    "visina": "Höhe",
+    "dubina": "Tiefe",
+    "police": "Fachböden",
+    "vrata": "Türen",
+    "fioke": "Schubladen",
+    "front": "Frontdekor",
+    "manje": "Verringern",
+    "vise": "Erhöhen",
+    "dezen": {"bela": "Weiß", "siva": "Grau", "drvo": "Holz", "crna": "Schwarz"},
+    "napomena": "Auf der Website gelten die Standardeinstellungen: Platte 18 mm, Rückwand 3 mm, Kante 0,45 und 1 mm. Im Programm änderst du sie für deine Werkstatt.",
+    "daje": {"1": "3D-Ansicht", "2": "Schnittliste", "3": "Kante je Seite", "4": "Maße aller Teile", "5": "Materialmenge", "6": "Beschlagliste"},
+    "pogledaj": "Schnittliste ansehen",
+    "uzivo": "{model}: {s} × {v} × {d} mm, Teile: {n}"
+  },
+  "spisak": {
+    "nadnaslov": "Schnittliste",
+    "naslov": "Jedes Teil, mit Maß.",
+    "tekst": "Das Element wird in Teile zerlegt. Du bekommst eine Liste mit Stückzahl, Maßen und Kante, fertig für den Zuschnitt.",
+    "primer": "{model}, {s} × {v} × {d} mm · Teile: {n}",
+    "kol": {"deo": "Teil", "kom": "Stk.", "mera": "Länge × Breite", "deb": "Stärke", "kant": "Kante"},
+    "deo": {"precka": "Traverse", "bok": "Seite", "dno": "Boden", "krov": "Oberboden", "ledja": "Rückwand (HDF)", "polica": "Fachboden", "fiksna_polica": "Fester Boden über der Kleiderstange", "front_vrata": "Front (Tür)", "front_fioka": "Front (Schublade)", "bok_fioke": "Schubladenseite", "celo_fioke": "Vorder- und Hinterstück der Schublade", "dno_fioke": "Schubladenboden (HDF)"},
+    "kant": {"d1": "1 lange", "d2": "2 lange", "k1": "1 kurze", "k2": "2 kurze", "bez": "ohne Kante"},
+    "zbir": {"ploca": "m² Platte 18 mm", "lesonit": "m² HDF 3 mm", "kant": "m Kante (ohne Verschnitt)"},
+    "plan": {"naslov": "Auf der Platte 2800 × 2070", "tekst": "Teile aus 18-mm-Platte, in Faserrichtung gelegt.", "ostatak": "Rest der Platte", "napomena": "Das ist eine Veranschaulichung der Aufteilung, keine Zuschnittoptimierung. Rückwände und Schubladenböden kommen von der HDF-Platte."}
   }
 }

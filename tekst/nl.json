@@ -15,8 +15,7 @@
   },
   "korpus": {
     "naslov": "Eén kast. Elk paneel op de millimeter.",
-    "natpis": {"1": "Een onderkast van 600 × 720 × 560 mm, zoals elke werkplaats ze maakt.", "2": "Het programma haalt hem uit elkaar in panelen en geeft elk paneel zijn exacte maat, kantenband en dikte.", "3": "De panelen liggen op de plaat als zaagplan: wit spaanplaat, eiken decor, hardboard.", "4": "En de zaaglijst “Op maat” staat klaar om te kopiëren en naar de opdeelzaag te sturen."},
-    "daska": {"bok": "Zijwand", "dno": "Bodem", "polica": "Legbord", "precka": "Regel", "front": "Front", "ledja": "Achterwand"},
+    "natpis": {"2": "Het programma haalt hem uit elkaar in panelen en geeft elk paneel zijn exacte maat, kantenband en dikte.", "3": "De panelen liggen op de platen als zaagplan: plaat 18 mm links, hardboard rechts.", "4": "En de zaaglijst “Op maat” staat klaar om te kopiëren en naar de opdeelzaag te sturen."},
     "noscript_alt": "TOPICA, zaaglijst “Op maat” voor een onderkast van 600 × 720 × 560 mm",
     "posle": "Dit doet het programma voor elke kast in de keuken, zodra je hem tegen de wand zet."
   },
@@ -81,5 +80,40 @@
     "komode": {"naslov": "Ladekasten", "tekst": "Ladekasten en kastmeubelen met lades en deuren, tot het laatste paneel.", "alt": "Tekening van een ladekast"},
     "radionice": "Voor kleine werkplaatsen",
     "monteri": "Voor monteurs"
+  },
+  "konf": {
+    "nadnaslov": "Modellen",
+    "naslov": "Configureer meubels op maat.",
+    "tekst": "Kies een kast, vul de maten in en zie wat het programma eruit afleidt. De formules zijn dezelfde als in het programma.",
+    "k1": {"naslov": "Kies een kast", "tekst": "Modellen uit de bibliotheek van het programma."},
+    "k2": {"naslov": "Stel de maten in", "tekst": "Breedte, hoogte, diepte en interieur."},
+    "k3": {"naslov": "Krijg het resultaat", "tekst": "Een tekening met maten en alles wat het programma levert."},
+    "modeli_aria": "Kastmodel",
+    "model": {"base-with-doors": "Onderkast met deuren", "base-with-drawers": "Onderkast met lades", "wall-with-doors": "Bovenkast met deuren", "open-shelf": "Open bovenkast", "tall-unit": "Hoge voorraadkast", "wardrobe": "Kledingkast", "dresser": "Ladekast"},
+    "sirina": "Breedte",
+    "visina": "Hoogte",
+    "dubina": "Diepte",
+    "police": "Legborden",
+    "vrata": "Deuren",
+    "fioke": "Lades",
+    "front": "Frontdecor",
+    "manje": "Verlagen",
+    "vise": "Verhogen",
+    "dezen": {"bela": "Wit", "siva": "Grijs", "drvo": "Hout", "crna": "Zwart"},
+    "napomena": "Op de site gelden de standaardinstellingen: plaat 18 mm, achterwand 3 mm, kantenband 0,45 en 1 mm. In het programma pas je ze aan voor je eigen werkplaats.",
+    "daje": {"1": "3D-weergave", "2": "Zaaglijst", "3": "Kantenband per zijde", "4": "Maten van alle onderdelen", "5": "Hoeveelheid materiaal", "6": "Beslaglijst"},
+    "pogledaj": "Bekijk de zaaglijst",
+    "uzivo": "{model}: {s} × {v} × {d} mm, onderdelen: {n}"
+  },
+  "spisak": {
+    "nadnaslov": "Zaaglijst",
+    "naslov": "Elk paneel, met zijn maat.",
+    "tekst": "De kast wordt uit elkaar gehaald in onderdelen. Je krijgt een lijst met aantallen, maten en kantenband, klaar om te zagen.",
+    "primer": "{model}, {s} × {v} × {d} mm · onderdelen: {n}",
+    "kol": {"deo": "Onderdeel", "kom": "Aant.", "mera": "Lengte × breedte", "deb": "Dikte", "kant": "Kant"},
+    "deo": {"precka": "Regel", "bok": "Zijwand", "dno": "Bodem", "krov": "Bovenblad", "ledja": "Achterwand (hardboard)", "polica": "Legbord", "fiksna_polica": "Vast legbord boven de kledingstang", "front_vrata": "Front (deur)", "front_fioka": "Front (lade)", "bok_fioke": "Ladezijde", "celo_fioke": "Voor- en achterkant van de lade", "dno_fioke": "Ladebodem (hardboard)"},
+    "kant": {"d1": "1 lange", "d2": "2 lange", "k1": "1 korte", "k2": "2 korte", "bez": "geen kantenband"},
+    "zbir": {"ploca": "m² plaat 18 mm", "lesonit": "m² hardboard 3 mm", "kant": "m kantenband (zonder afval)"},
+    "plan": {"naslov": "Op een plaat van 2800 × 2070", "tekst": "Onderdelen uit plaat 18 mm, gelegd in de nerfrichting.", "ostatak": "rest van de plaat", "napomena": "Dit is een illustratie van de indeling, geen zaagoptimalisatie. Achterwanden en ladebodems komen uit de hardboardplaat."}
   }
 }

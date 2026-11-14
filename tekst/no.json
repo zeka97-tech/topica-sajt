@@ -15,8 +15,7 @@
   },
   "korpus": {
     "naslov": "Ett skrog. Hver plate på millimeteren.",
-    "natpis": {"1": "Et benkeskap 600 × 720 × 560 mm, den typen alle verksteder bygger.", "2": "Programmet tar det fra hverandre i plater og gir hver av dem nøyaktig mål, kantlist og tykkelse.", "3": "Platene legger seg på platen som en kapplan: hvit sponplate, eikedekor, hardplate.", "4": "Og kapplisten «Etter mål» er klar til å kopiere og sende til platesagen."},
-    "daska": {"bok": "Side", "dno": "Bunn", "polica": "Hylle", "precka": "Travers", "front": "Front", "ledja": "Bakplate"},
+    "natpis": {"2": "Programmet tar det fra hverandre i plater og gir hver av dem nøyaktig mål, kantlist og tykkelse.", "3": "Delene legger seg på platene som en kapplan: 18 mm sponplate til venstre, hardplate til høyre.", "4": "Og kapplisten «Etter mål» er klar til å kopiere og sende til platesagen."},
     "noscript_alt": "TOPICA, kapplisten «Etter mål» for et benkeskap 600 × 720 × 560 mm",
     "posle": "Dette gjør programmet for hvert skrog i kjøkkenet, i samme øyeblikk som du setter det inntil veggen."
   },
@@ -81,5 +80,40 @@
     "komode": {"naslov": "Kommoder", "tekst": "Kommoder og platemøbler med skuffer og dører, helt ned til siste plate.", "alt": "Tegning av en kommode med skuffer"},
     "radionice": "For små verksteder",
     "monteri": "For montører"
+  },
+  "konf": {
+    "nadnaslov": "Modeller",
+    "naslov": "Konfigurer møbler etter mål.",
+    "tekst": "Velg en modell, legg inn målene og se hva programmet regner ut fra dem. Formlene er de samme som i programmet.",
+    "k1": {"naslov": "Velg en modell", "tekst": "Modeller fra programmets bibliotek."},
+    "k2": {"naslov": "Still inn målene", "tekst": "Bredde, høyde, dybde og innredning."},
+    "k3": {"naslov": "Få resultatet", "tekst": "Målsatt tegning og alt programmet gir deg."},
+    "modeli_aria": "Møbelmodell",
+    "model": {"base-with-doors": "Benkeskap med dører", "base-with-drawers": "Benkeskap med skuffer", "wall-with-doors": "Veggskap med dører", "open-shelf": "Åpent veggskap", "tall-unit": "Høyskap (matskap)", "wardrobe": "Garderobeskap", "dresser": "Kommode med skuffer"},
+    "sirina": "Bredde",
+    "visina": "Høyde",
+    "dubina": "Dybde",
+    "police": "Hyller",
+    "vrata": "Dører",
+    "fioke": "Skuffer",
+    "front": "Frontdekor",
+    "manje": "Reduser",
+    "vise": "Øk",
+    "dezen": {"bela": "Hvit", "siva": "Grå", "drvo": "Tre", "crna": "Svart"},
+    "napomena": "På nettsiden gjelder standardinnstillingene: plate 18 mm, bakplate 3 mm, kantlist 0,45 og 1 mm. I programmet endrer du dem for ditt verksted.",
+    "daje": {"1": "3D-visning", "2": "Kappliste", "3": "Kantlist per kant", "4": "Mål på alle deler", "5": "Materialforbruk", "6": "Beslagsliste"},
+    "pogledaj": "Se kapplisten",
+    "uzivo": "{model}: {s} × {v} × {d} mm, deler: {n}"
+  },
+  "spisak": {
+    "nadnaslov": "Kappliste",
+    "naslov": "Hver del, med sitt mål.",
+    "tekst": "Møbelet tas fra hverandre i deler. Du får en liste med antall, mål og kantlist, klar for kapping.",
+    "primer": "{model}, {s} × {v} × {d} mm · deler: {n}",
+    "kol": {"deo": "Del", "kom": "Stk", "mera": "Lengde × bredde", "deb": "Tyk.", "kant": "Kant"},
+    "deo": {"precka": "Travers", "bok": "Side", "dno": "Bunn", "krov": "Topp", "ledja": "Bakplate (hardplate)", "polica": "Hylle", "fiksna_polica": "Fast hylle over klesstangen", "front_vrata": "Front (dør)", "front_fioka": "Front (skuff)", "bok_fioke": "Skuffeside", "celo_fioke": "For- og bakstykke i skuffen", "dno_fioke": "Skuffebunn (hardplate)"},
+    "kant": {"d1": "1 lang", "d2": "2 lange", "k1": "1 kort", "k2": "2 korte", "bez": "uten kantlist"},
+    "zbir": {"ploca": "m² plate 18 mm", "lesonit": "m² hardplate 3 mm", "kant": "m kantlist (uten svinn)"},
+    "plan": {"naslov": "På en hel plate 2800 × 2070", "tekst": "Deler av 18 mm plate, lagt etter fiberretningen.", "ostatak": "resten av platen", "napomena": "Dette er en illustrasjon av oppsettet, ikke en kappoptimalisering. Bakplater og skuffebunner tas fra hardplaten."}
   }
 }

@@ -7,6 +7,8 @@ import { pokreniKorpus } from "./korpus.js";
 import { pokreniNiz } from "./niz.js";
 import { pokreniGaleriju } from "./galerija.js";
 import { pokreniObrasce } from "./obrazac.js";
+import { pokreniKonfigurator } from "./konfigurator.js";
+import { pokreniSpisak } from "./spisak.js";
 
 const VENDOR = ["gsap.min.js", "ScrollTrigger.min.js", "lenis.min.js"];
 
@@ -18,7 +20,7 @@ function ucitajVendor() {
   })), Promise.resolve());
 }
 
-function osnovno() { pokreniTraku(); pokreniJezik(); pokreniObrasce(); }
+function osnovno() { pokreniTraku(); pokreniJezik(); pokreniObrasce(); pokreniSpisak(); pokreniKonfigurator(); if (smanjeno) pokreniKorpus(); }
 
 async function pokreti() {
   if (smanjeno) return; // bez pokreta sajt je potpun: tekst, slike i raspored su u HTML-u

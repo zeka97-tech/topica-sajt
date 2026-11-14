@@ -12,16 +12,21 @@
 .lice { position: absolute; left: 0; top: 0; backface-visibility: hidden; }
 .lice-bela { background: linear-gradient(135deg, var(--c-bela-1) 0%, var(--c-bela-2) 55%, var(--c-bela-3) 100%); }
 .lice-bela-ivica { background: linear-gradient(180deg, var(--c-bela-ivica-1), var(--c-bela-ivica-2)); }
-.lice-hrast { background: url("slike/web/tekstura-hrast-800.webp") center / cover; }
-.lice-hrast-ivica { background: var(--c-hrast-ivica); }
 .lice-lesonit { background: linear-gradient(135deg, var(--c-lesonit-1), var(--c-lesonit-2)); }
 .lice-lesonit-ivica { background: var(--c-lesonit-ivica); }
 .kota { position: absolute; left: 50%; top: 50%; transform-origin: 0 0; white-space: nowrap; font: var(--w-700) var(--f-15) / var(--lh-1) var(--font); color: var(--c-plava-tamna); background: var(--c-belo); padding: var(--r-2) var(--r-3); border-radius: var(--rad-pilula); opacity: 0; box-shadow: var(--senka-kota); pointer-events: none; }
-.kota-plan { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); white-space: nowrap; font: var(--w-700) var(--f-20) / var(--lh-1) var(--font); color: var(--c-plava-tamna); background: var(--c-belo); padding: var(--r-2) var(--r-3); border-radius: var(--rad-10); box-shadow: var(--senka-kota); opacity: 0; pointer-events: none; text-align: center; }
-.kota-plan small { display: block; font-size: var(--f-14); font-weight: var(--w-600); opacity: var(--o-kota-naziv); margin-top: var(--r-1); }
 .kota small { font-weight: var(--w-600); opacity: var(--o-kota-naziv); margin-left: var(--r-1); }
-.ploca-podloga { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%) scale(var(--sk)); width: var(--s-ploca); height: var(--s-ploca-v); border-radius: var(--rad-12); background: linear-gradient(180deg, var(--c-tamno-ploca-1), var(--c-tamno-ploca-2)); border: var(--d-linija) solid var(--c-tamno-linija-2); opacity: 0; }
-.senka-korpusa { position: absolute; left: 50%; top: 50%; width: var(--s-senka-korpusa); height: var(--s-senka-korpusa-v); margin: var(--s-senka-pomak) 0 0 calc(-1 * var(--s-senka-korpusa) / 2); border-radius: 50%; background: radial-gradient(closest-side, var(--c-crna-senka-3), transparent); filter: blur(var(--blur-senka)); }
+.korpus-omot { position: absolute; inset: 0; transform-origin: 50% 50%; }
+.plan-table { position: absolute; inset: 0; opacity: 0; }
+.plan-okvir { position: absolute; border-radius: var(--rad-malo); background: linear-gradient(180deg, var(--c-tamno-ploca-1), var(--c-tamno-ploca-2)); border: var(--d-linija) dashed var(--c-na-tamnom-3); }
+.lice-front { background: var(--c-crt-lice); } .lice-front-ivica { background: var(--c-crt-bok); }
+.lice-front.lice-front-drvo { background: url("slike/web/tekstura-hrast-800.webp") center / cover; } .lice-front-ivica.lice-front-drvo { background: var(--c-hrast-ivica); }
+.lice-front.lice-front-siva { background: var(--c-crt-bok); } .lice-front-ivica.lice-front-siva { background: var(--c-linija-jaka); }
+.lice-front.lice-front-crna, .lice-front-ivica.lice-front-crna { background: var(--c-uzorak-crna); }
+.lista-tabela { width: 100%; border-collapse: collapse; font-size: var(--f-14); font-variant-numeric: tabular-nums; color: var(--c-tekst); }
+.lista-tabela th { text-align: left; font-size: var(--f-12); color: var(--c-tekst-3); font-weight: var(--w-700); padding: var(--r-2) var(--r-3); background: var(--c-podloga-3); }
+.lista-tabela td { padding: var(--r-2) var(--r-3); border-top: var(--d-linija) solid var(--c-linija); }
+.lista-tabela .broj { text-align: right; } .lista-tabela .mera, .lista-tabela td:first-child { font-weight: var(--w-700); } .lista-tabela .tiho { color: var(--c-tekst-2); }
 .krojna-lista { position: absolute; left: 50%; top: 50%; width: var(--s-krojna); max-width: calc(100% - var(--r-okvir-mob)); transform: translate(-50%, -50%); opacity: 0; }
 .krojna-lista .prozor { border-radius: var(--rad-krojna); }
 .korpus-natpisi { position: relative; height: var(--r-12); text-align: center; }

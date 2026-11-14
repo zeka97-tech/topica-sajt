@@ -31,7 +31,7 @@
 .konf-front { width: var(--s-uzorak); height: var(--s-uzorak); border-radius: var(--rad-10); border: var(--d-linija-2) solid var(--c-tamno-polje-ivica); cursor: pointer; padding: 0; }
 .konf-front[aria-checked="true"] { border-color: var(--c-narandzasta); box-shadow: 0 0 0 var(--d-linija-2) var(--c-narandzasta); }
 .konf-front[data-front="bela"] { background: var(--c-crt-lice); } .konf-front[data-front="siva"] { background: var(--c-crt-bok); }
-.konf-front[data-front="drvo"] { background: var(--c-crt-front-ivica); } .konf-front[data-front="tamna"] { background: var(--c-crt-cokla); }
+.konf-front[data-front="drvo"] { background: var(--c-crt-front-ivica); } .konf-front[data-front="crna"] { background: var(--c-uzorak-crna); }
 .konf .stikle { margin: 0; font-size: var(--f-16); grid-template-columns: 1fr 1fr; gap: var(--r-2) var(--r-3); }
 .konf .stikle li { gap: var(--r-2); }
 .konf-kartica .veza { margin-top: auto; }

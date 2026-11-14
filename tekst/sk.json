@@ -15,8 +15,7 @@
   },
   "korpus": {
     "naslov": "Jedna skrinka. Každý dielec na milimeter.",
-    "natpis": {"1": "Spodná skrinka 600 × 720 × 560 mm, akú robí každá dielňa.", "2": "Program ju rozloží na dielce a každému dá presný rozmer, hranu a hrúbku.", "3": "Dielce si ľahnú na dosku ako pri náreze: biela LTD, dekor dub, sololit.", "4": "A nárezový plán „Podľa rozmeru“ je pripravený na skopírovanie a odoslanie na pílu."},
-    "daska": {"bok": "Bok", "dno": "Dno", "polica": "Polica", "precka": "Priečka", "front": "Dvierka", "ledja": "Chrbát"},
+    "natpis": {"2": "Program ju rozloží na dielce a každému dá presný rozmer, hranu a hrúbku.", "3": "Dielce si ľahnú na dosky ako pri náreze: doska 18 mm vľavo, sololit vpravo.", "4": "A nárezový plán „Podľa rozmeru“ je pripravený na skopírovanie a odoslanie na pílu."},
     "noscript_alt": "TOPICA, nárezový plán „Podľa rozmeru“ pre spodnú skrinku 600 × 720 × 560 mm",
     "posle": "Toto program urobí pre každú skrinku v kuchyni vo chvíli, keď ju postavíte k stene."
   },
@@ -81,5 +80,40 @@
     "komode": {"naslov": "Komody", "tekst": "Komody a korpusový nábytok so zásuvkami a dvierkami, do posledného dielca.", "alt": "Nákres komody so zásuvkami"},
     "radionice": "Pre malé dielne",
     "monteri": "Pre montérov"
+  },
+  "konf": {
+    "nadnaslov": "Modely",
+    "naslov": "Nakonfigurujte si nábytok na mieru.",
+    "tekst": "Vyberte model, zadajte rozmery a pozrite sa, čo z nich program odvodí. Vzorce sú rovnaké ako v programe.",
+    "k1": {"naslov": "Vyberte model", "tekst": "Modely z knižnice programu."},
+    "k2": {"naslov": "Nastavte rozmery", "tekst": "Šírka, výška, hĺbka a vnútorné usporiadanie."},
+    "k3": {"naslov": "Získajte výsledok", "tekst": "Výkres s kótami a všetko, čo program dáva."},
+    "modeli_aria": "Model nábytku",
+    "model": {"base-with-doors": "Spodná skrinka s dvierkami", "base-with-drawers": "Spodná skrinka so zásuvkami", "wall-with-doors": "Horná skrinka s dvierkami", "open-shelf": "Otvorená horná skrinka", "tall-unit": "Vysoká potravinová skriňa", "wardrobe": "Šatník", "dresser": "Komoda so zásuvkami"},
+    "sirina": "Šírka",
+    "visina": "Výška",
+    "dubina": "Hĺbka",
+    "police": "Police",
+    "vrata": "Dvierka",
+    "fioke": "Zásuvky",
+    "front": "Dekor čiel",
+    "manje": "Znížiť",
+    "vise": "Zvýšiť",
+    "dezen": {"bela": "Biela", "siva": "Sivá", "drvo": "Drevo", "crna": "Čierna"},
+    "napomena": "Na webe platia predvolené nastavenia: doska 18 mm, chrbát 3 mm, hrana 0,45 a 1 mm. V programe si ich zmeníte pre svoju dielňu.",
+    "daje": {"1": "3D pohľad", "2": "Nárezový plán", "3": "Olepenie jednotlivých hrán", "4": "Rozmery všetkých dielcov", "5": "Množstvo materiálu", "6": "Zoznam kovania"},
+    "pogledaj": "Pozrite si nárezový plán",
+    "uzivo": "{model}: {s} × {v} × {d} mm, dielcov: {n}"
+  },
+  "spisak": {
+    "nadnaslov": "Nárezový plán",
+    "naslov": "Každý dielec, s rozmerom.",
+    "tekst": "Skrinka sa rozloží na dielce. Dostanete zoznam s počtom kusov, rozmermi a hranou, pripravený na nárez.",
+    "primer": "{model}, {s} × {v} × {d} mm · dielcov: {n}",
+    "kol": {"deo": "Dielec", "kom": "Ks", "mera": "Dĺžka × šírka", "deb": "Hr.", "kant": "Hrana"},
+    "deo": {"precka": "Priečka", "bok": "Bok", "dno": "Dno", "krov": "Vrch", "ledja": "Chrbát (sololit)", "polica": "Polica", "fiksna_polica": "Pevná polica nad šatníkovou tyčou", "front_vrata": "Čelo (dvierka)", "front_fioka": "Čelo (zásuvka)", "bok_fioke": "Bok zásuvky", "celo_fioke": "Predná a zadná stena zásuvky", "dno_fioke": "Dno zásuvky (sololit)"},
+    "kant": {"d1": "1 dlhá", "d2": "2 dlhé", "k1": "1 krátka", "k2": "2 krátke", "bez": "bez hrany"},
+    "zbir": {"ploca": "m² dosky 18 mm", "lesonit": "m² sololitu 3 mm", "kant": "m hrany (bez odpadu)"},
+    "plan": {"naslov": "Na doske 2800 × 2070", "tekst": "Dielce z dosky 18 mm, rozložené podľa smeru kresby.", "ostatak": "zvyšok dosky", "napomena": "Toto je ilustrácia rozloženia, nie optimalizácia nárezu. Chrbty a dná zásuviek idú z dosky sololitu."}
   }
 }

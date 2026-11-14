@@ -1,0 +1,30 @@
+<section class="spisak tamno" id="spisak" aria-labelledby="spisak-naslov">
+  <div class="okvir">
+    <span class="nadnaslov">{{spisak.nadnaslov}}</span>
+    <h2 id="spisak-naslov">{{spisak.naslov}}</h2>
+    <p class="vodeci">{{spisak.tekst}}</p>
+    <div class="spisak-mreza">
+      <div class="secenje-kartica">
+        <p class="spisak-opis" id="spisak-opis" data-sablon="{{spisak.primer}}">{{sistem.spisakOpis}}</p>
+        <div class="spisak-omot">
+          <table class="spisak-tabela">
+            <thead><tr><th scope="col">{{spisak.kol.deo}}</th><th scope="col" class="broj">{{spisak.kol.kom}}</th><th scope="col" class="broj">{{spisak.kol.mera}}</th><th scope="col" class="broj">{{spisak.kol.deb}}</th><th scope="col">{{spisak.kol.kant}}</th></tr></thead>
+            <tbody id="spisak-redovi">{{sistem.spisakRedovi}}</tbody>
+          </table>
+        </div>
+        <div class="spisak-zbir">
+          <div><b id="zbir-ploca">{{sistem.zbirPloca}}</b><span>{{spisak.zbir.ploca}}</span></div>
+          <div><b id="zbir-lesonit">{{sistem.zbirLesonit}}</b><span>{{spisak.zbir.lesonit}}</span></div>
+          <div><b id="zbir-kant">{{sistem.zbirKant}}</b><span>{{spisak.zbir.kant}}</span></div>
+        </div>
+      </div>
+      <div class="secenje-kartica">
+        <h3 class="spisak-plan-naslov">{{spisak.plan.naslov}}</h3>
+        <p class="spisak-opis">{{spisak.plan.tekst}}</p>
+        <div id="spisak-plan" data-ostatak="{{spisak.plan.ostatak}}">{{sistem.planSvg}}</div>
+        <p class="spisak-napomena">{{spisak.plan.napomena}}</p>
+      </div>
+    </div>
+    <ul hidden id="spisak-recnik">{{sistem.recnikHtml}}</ul>
+  </div>
+</section>

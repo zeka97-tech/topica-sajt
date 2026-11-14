@@ -17,7 +17,7 @@ export function sviFajlovi(dir, filter) {
 
 /** Nijedan izvorni fajl preko 300 redova. */
 export function proveriDuzinu(koren, greske) {
-  for (const f of sviFajlovi(koren, (p) => /\.(mjs|js|css|html|json)$/.test(p) && !p.includes("/vendor/") && !p.includes("package-lock") && !p.includes("/slike/web/"))) {
+  for (const f of sviFajlovi(koren, (p) => /\.(mjs|js|css|html|json)$/.test(p) && !p.includes("/vendor/") && !p.includes("package-lock") && !p.includes("/slike/web/") && !p.includes("/docs/"))) {
     const n = readFileSync(f, "utf8").split("\n").length;
     if (n > 300) greske.push(`DUŽINA ${path.relative(koren, f)}: ${n} redova (najviše 300)`);
   }

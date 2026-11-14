@@ -15,8 +15,7 @@
   },
   "korpus": {
     "naslov": "Un mobile. Ogni pannello al millimetro.",
-    "natpis": {"1": "Una base da 600 × 720 × 560 mm, di quelle che si fanno in ogni laboratorio.", "2": "Il programma la scompone in pannelli e dà a ciascuno la misura esatta, con bordo e spessore.", "3": "I pannelli si dispongono sulla lastra come schema di taglio: nobilitato bianco, decoro rovere, faesite.", "4": "E la lista di taglio “Per misura” è pronta da copiare e mandare alla sezionatrice."},
-    "daska": {"bok": "Fianco", "dno": "Fondo", "polica": "Ripiano", "precka": "Traversa", "front": "Frontale", "ledja": "Schienale"},
+    "natpis": {"2": "Il programma la scompone in pannelli e dà a ciascuno la misura esatta, con bordo e spessore.", "3": "I pannelli si dispongono sulle lastre come schema di taglio: nobilitato 18 mm a sinistra, faesite a destra.", "4": "E la lista di taglio “Per misura” è pronta da copiare e mandare alla sezionatrice."},
     "noscript_alt": "TOPICA, lista di taglio “Per misura” di una base da 600 × 720 × 560 mm",
     "posle": "Il programma lo fa per ogni mobile della cucina, appena lo appoggi alla parete."
   },
@@ -81,5 +80,40 @@
     "komode": {"naslov": "Cassettiere", "tekst": "Cassettiere e mobili a carcassa con cassetti e ante, fino all'ultimo pannello.", "alt": "Disegno di una cassettiera"},
     "radionice": "Per piccoli laboratori",
     "monteri": "Per installatori"
+  },
+  "konf": {
+    "nadnaslov": "Modelli",
+    "naslov": "Configura i mobili su misura.",
+    "tekst": "Scegli un mobile, inserisci le misure e guarda cosa ne ricava il programma. Le formule sono le stesse del programma.",
+    "k1": {"naslov": "Scegli il mobile", "tekst": "Modelli dalla libreria del programma."},
+    "k2": {"naslov": "Imposta le misure", "tekst": "Larghezza, altezza, profondità e interno."},
+    "k3": {"naslov": "Ottieni il risultato", "tekst": "Disegno quotato e tutto quello che dà il programma."},
+    "modeli_aria": "Modello del mobile",
+    "model": {"base-with-doors": "Base con ante", "base-with-drawers": "Base con cassetti", "wall-with-doors": "Pensile con ante", "open-shelf": "Pensile a giorno", "tall-unit": "Colonna dispensa", "wardrobe": "Armadio", "dresser": "Cassettiera"},
+    "sirina": "Larghezza",
+    "visina": "Altezza",
+    "dubina": "Profondità",
+    "police": "Ripiani",
+    "vrata": "Ante",
+    "fioke": "Cassetti",
+    "front": "Decoro dei frontali",
+    "manje": "Diminuisci",
+    "vise": "Aumenta",
+    "dezen": {"bela": "Bianco", "siva": "Grigio", "drvo": "Legno", "crna": "Nero"},
+    "napomena": "Sul sito valgono le impostazioni predefinite: pannello 18 mm, schienale 3 mm, bordo 0,45 e 1 mm. Nel programma le cambi per il tuo laboratorio.",
+    "daje": {"1": "Vista 3D", "2": "Lista di taglio", "3": "Bordo lato per lato", "4": "Misure di tutti i pannelli", "5": "Quantità di materiale", "6": "Lista della ferramenta"},
+    "pogledaj": "Guarda la lista di taglio",
+    "uzivo": "{model}: {s} × {v} × {d} mm, pannelli: {n}"
+  },
+  "spisak": {
+    "nadnaslov": "Lista di taglio",
+    "naslov": "Ogni pannello, con la sua misura.",
+    "tekst": "Il mobile viene scomposto in pannelli. Ottieni una lista con quantità, misure e bordo, pronta per il taglio.",
+    "primer": "{model}, {s} × {v} × {d} mm · pannelli: {n}",
+    "kol": {"deo": "Pannello", "kom": "Pz", "mera": "Lunghezza × larghezza", "deb": "Sp.", "kant": "Bordo"},
+    "deo": {"precka": "Traversa", "bok": "Fianco", "dno": "Fondo", "krov": "Cielo", "ledja": "Schienale (faesite)", "polica": "Ripiano", "fiksna_polica": "Ripiano fisso sopra il tubo appendiabiti", "front_vrata": "Frontale (anta)", "front_fioka": "Frontale (cassetto)", "bok_fioke": "Fianco del cassetto", "celo_fioke": "Fronte e retro del cassetto", "dno_fioke": "Fondo del cassetto (faesite)"},
+    "kant": {"d1": "1 lungo", "d2": "2 lunghi", "k1": "1 corto", "k2": "2 corti", "bez": "senza bordo"},
+    "zbir": {"ploca": "m² di pannello 18 mm", "lesonit": "m² di faesite 3 mm", "kant": "m di bordo (senza sfrido)"},
+    "plan": {"naslov": "Sulla lastra 2800 × 2070", "tekst": "Pannelli da 18 mm, disposti secondo il senso vena.", "ostatak": "resto della lastra", "napomena": "Questa è un'illustrazione della disposizione, non un'ottimizzazione di taglio. Schienali e fondi dei cassetti si ricavano dalla lastra di faesite."}
   }
 }

@@ -15,8 +15,7 @@
   },
   "korpus": {
     "naslov": "Un módulo. Cada pieza al milímetro.",
-    "natpis": {"1": "Un mueble bajo de 600 × 720 × 560 mm, de los que se hacen en cualquier taller.", "2": "El programa lo despieza y da a cada pieza su medida exacta, con canto y grosor.", "3": "Las piezas se colocan sobre el tablero como plano de corte: melamina blanca, decor roble, tablex.", "4": "Y la lista de corte “Por medida” queda lista para copiar y mandar a la seccionadora."},
-    "daska": {"bok": "Costado", "dno": "Base", "polica": "Balda", "precka": "Travesaño", "front": "Frente", "ledja": "Trasera"},
+    "natpis": {"2": "El programa lo despieza y da a cada pieza su medida exacta, con canto y grosor.", "3": "Las piezas se colocan sobre los tableros como plano de corte: tablero de 18 mm a la izquierda, tablex a la derecha.", "4": "Y la lista de corte “Por medida” queda lista para copiar y mandar a la seccionadora."},
     "noscript_alt": "TOPICA, lista de corte “Por medida” de un mueble bajo de 600 × 720 × 560 mm",
     "posle": "El programa hace esto con cada módulo de la cocina en cuanto lo apoyas contra la pared."
   },
@@ -81,5 +80,40 @@
     "komode": {"naslov": "Cómodas", "tekst": "Cómodas y muebles de tablero con cajones y puertas, hasta la última pieza.", "alt": "Dibujo de una cómoda con cajones"},
     "radionice": "Para talleres pequeños",
     "monteri": "Para instaladores"
+  },
+  "konf": {
+    "nadnaslov": "Modelos",
+    "naslov": "Configura muebles a medida.",
+    "tekst": "Elige un módulo, indica las medidas y mira lo que el programa saca de ellas. Las fórmulas son las mismas que en el programa.",
+    "k1": {"naslov": "Elige el módulo", "tekst": "Modelos de la biblioteca del programa."},
+    "k2": {"naslov": "Ajusta las medidas", "tekst": "Ancho, alto, fondo e interior."},
+    "k3": {"naslov": "Obtén el resultado", "tekst": "Dibujo acotado y todo lo que da el programa."},
+    "modeli_aria": "Modelo de módulo",
+    "model": {"base-with-doors": "Mueble bajo con puertas", "base-with-drawers": "Mueble bajo con cajones", "wall-with-doors": "Mueble alto con puertas", "open-shelf": "Mueble alto abierto", "tall-unit": "Columna despensa", "wardrobe": "Armario", "dresser": "Cómoda con cajones"},
+    "sirina": "Ancho",
+    "visina": "Alto",
+    "dubina": "Fondo",
+    "police": "Baldas",
+    "vrata": "Puertas",
+    "fioke": "Cajones",
+    "front": "Decor del frente",
+    "manje": "Reducir",
+    "vise": "Aumentar",
+    "dezen": {"bela": "Blanco", "siva": "Gris", "drvo": "Madera", "crna": "Negro"},
+    "napomena": "En la web se aplican los ajustes por defecto: tablero de 18 mm, trasera de 3 mm, canto de 0,45 y 1 mm. En el programa los cambias para tu taller.",
+    "daje": {"1": "Vista 3D", "2": "Lista de corte", "3": "Canto por lado", "4": "Medidas de todas las piezas", "5": "Cantidad de material", "6": "Lista de herrajes"},
+    "pogledaj": "Ver la lista de corte",
+    "uzivo": "{model}: {s} × {v} × {d} mm, piezas: {n}"
+  },
+  "spisak": {
+    "nadnaslov": "Lista de corte",
+    "naslov": "Cada pieza, con su medida.",
+    "tekst": "El módulo se despieza. Obtienes una lista con unidades, medidas y canto, preparada para el corte.",
+    "primer": "{model}, {s} × {v} × {d} mm · piezas: {n}",
+    "kol": {"deo": "Pieza", "kom": "Ud.", "mera": "Largo × ancho", "deb": "Gr.", "kant": "Canto"},
+    "deo": {"precka": "Travesaño", "bok": "Costado", "dno": "Base", "krov": "Techo", "ledja": "Trasera (tablex)", "polica": "Balda", "fiksna_polica": "Balda fija sobre la barra", "front_vrata": "Frente (puerta)", "front_fioka": "Frente (cajón)", "bok_fioke": "Lateral de cajón", "celo_fioke": "Delantera y trasera de cajón", "dno_fioke": "Fondo de cajón (tablex)"},
+    "kant": {"d1": "1 largo", "d2": "2 largos", "k1": "1 corto", "k2": "2 cortos", "bez": "sin canto"},
+    "zbir": {"ploca": "m² de tablero de 18 mm", "lesonit": "m² de tablex de 3 mm", "kant": "m de canto (sin desperdicio)"},
+    "plan": {"naslov": "En un tablero de 2800 × 2070", "tekst": "Piezas de tablero de 18 mm, colocadas según la veta.", "ostatak": "resto del tablero", "napomena": "Esto es una ilustración de la distribución, no una optimización de corte. Las traseras y los fondos de cajón salen del tablero de tablex."}
   }
 }

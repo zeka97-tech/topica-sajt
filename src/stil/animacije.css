@@ -13,7 +13,9 @@
   .natpis { position: static; opacity: 1; margin-bottom: var(--r-2); }
   .korpus-natpisi { height: auto; }
   .galerija-traka { overflow-x: auto; padding: 0 var(--r-6) var(--r-4); }
-  .kota, .krojna-lista, .ploca-podloga { opacity: 1; }
+  .kota, .krojna-lista { opacity: 1; }
+  .korpus-scena-okvir { height: var(--s-scena-v); }
+  .krojna-lista { position: static; transform: none; margin: var(--r-6) auto 0; }
   .niz-ploca, .niz-mera { --vidljivo: 1; --od-gore: 0; }
   .niz-korpus { --od: 0; }
 }

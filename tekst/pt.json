@@ -15,8 +15,7 @@
   },
   "korpus": {
     "naslov": "Um módulo. Cada peça ao milímetro.",
-    "natpis": {"1": "Um módulo inferior de 600 × 720 × 560 mm, daqueles que se fazem em qualquer oficina.", "2": "O programa desmonta-o em peças e dá a cada uma a medida exata, com orla e espessura.", "3": "As peças assentam na placa como plano de corte: aglomerado branco, decor carvalho, platex.", "4": "E a lista de corte “Por medida” fica pronta a copiar e a enviar para a seccionadora."},
-    "daska": {"bok": "Ilharga", "dno": "Fundo", "polica": "Prateleira", "precka": "Travessa", "front": "Frente", "ledja": "Costas"},
+    "natpis": {"2": "O programa desmonta-o em peças e dá a cada uma a medida exata, com orla e espessura.", "3": "As peças assentam nas placas como plano de corte: placa de 18 mm à esquerda, platex à direita.", "4": "E a lista de corte “Por medida” fica pronta a copiar e a enviar para a seccionadora."},
     "noscript_alt": "TOPICA, lista de corte “Por medida” de um módulo inferior de 600 × 720 × 560 mm",
     "posle": "O programa faz isto para cada módulo da cozinha assim que o encostas à parede."
   },
@@ -81,5 +80,40 @@
     "komode": {"naslov": "Cómodas", "tekst": "Cómodas e móveis em placa com gavetas e portas, até à última peça.", "alt": "Desenho de uma cómoda com gavetas"},
     "radionice": "Para pequenas oficinas",
     "monteri": "Para montadores"
+  },
+  "konf": {
+    "nadnaslov": "Modelos",
+    "naslov": "Configura móveis por medida.",
+    "tekst": "Escolhe um módulo, indica as medidas e vê o que o programa tira delas. As fórmulas são as mesmas do programa.",
+    "k1": {"naslov": "Escolhe o módulo", "tekst": "Modelos da biblioteca do programa."},
+    "k2": {"naslov": "Ajusta as medidas", "tekst": "Largura, altura, profundidade e interior."},
+    "k3": {"naslov": "Obtém o resultado", "tekst": "Desenho cotado e tudo o que o programa dá."},
+    "modeli_aria": "Modelo do módulo",
+    "model": {"base-with-doors": "Módulo inferior com portas", "base-with-drawers": "Módulo inferior com gavetas", "wall-with-doors": "Módulo superior com portas", "open-shelf": "Módulo superior aberto", "tall-unit": "Coluna despenseira", "wardrobe": "Roupeiro", "dresser": "Cómoda com gavetas"},
+    "sirina": "Largura",
+    "visina": "Altura",
+    "dubina": "Profundidade",
+    "police": "Prateleiras",
+    "vrata": "Portas",
+    "fioke": "Gavetas",
+    "front": "Decor da frente",
+    "manje": "Diminuir",
+    "vise": "Aumentar",
+    "dezen": {"bela": "Branco", "siva": "Cinzento", "drvo": "Madeira", "crna": "Preto"},
+    "napomena": "No site valem as definições predefinidas: placa de 18 mm, costas de 3 mm, orla de 0,45 e 1 mm. No programa, podes mudá-las para a tua oficina.",
+    "daje": {"1": "Vista 3D", "2": "Lista de corte", "3": "Orla por lado", "4": "Medidas de todas as peças", "5": "Quantidade de material", "6": "Lista de ferragens"},
+    "pogledaj": "Ver a lista de corte",
+    "uzivo": "{model}: {s} × {v} × {d} mm, peças: {n}"
+  },
+  "spisak": {
+    "nadnaslov": "Lista de corte",
+    "naslov": "Cada peça, com a sua medida.",
+    "tekst": "O módulo é desmontado em peças. Ficas com uma lista com quantidades, medidas e orla, pronta para o corte.",
+    "primer": "{model}, {s} × {v} × {d} mm · peças: {n}",
+    "kol": {"deo": "Peça", "kom": "Qtd.", "mera": "Comprimento × largura", "deb": "Esp.", "kant": "Orla"},
+    "deo": {"precka": "Travessa", "bok": "Ilharga", "dno": "Fundo", "krov": "Tampo", "ledja": "Costas (platex)", "polica": "Prateleira", "fiksna_polica": "Prateleira fixa sobre o varão", "front_vrata": "Frente (porta)", "front_fioka": "Frente (gaveta)", "bok_fioke": "Ilharga da gaveta", "celo_fioke": "Dianteira e traseira da gaveta", "dno_fioke": "Fundo da gaveta (platex)"},
+    "kant": {"d1": "1 comprido", "d2": "2 compridos", "k1": "1 curto", "k2": "2 curtos", "bez": "sem orla"},
+    "zbir": {"ploca": "m² de placa de 18 mm", "lesonit": "m² de platex de 3 mm", "kant": "m de orla (sem desperdício)"},
+    "plan": {"naslov": "Numa placa de 2800 × 2070", "tekst": "Peças de placa de 18 mm, dispostas segundo o veio.", "ostatak": "resto da placa", "napomena": "Isto é uma ilustração da disposição, não uma otimização de corte. As costas e os fundos de gaveta saem da placa de platex."}
   }
 }

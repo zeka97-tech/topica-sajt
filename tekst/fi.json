@@ -15,8 +15,7 @@
   },
   "korpus": {
     "naslov": "Yksi runko. Jokainen levy millilleen.",
-    "natpis": {"1": "Alakaappi 600 × 720 × 560 mm, sellainen jonka jokainen verstas tekee.", "2": "Ohjelma purkaa sen levyiksi ja antaa jokaiselle tarkan mitan, reunanauhan ja paksuuden.", "3": "Levyt asettuvat levyarkille sahaussuunnitelmaksi: valkoinen lastulevy, tammidekori, kovalevy.", "4": "Ja ”Mitoittain”-sahauslista on valmis kopioitavaksi ja lähetettäväksi levysahalle."},
-    "daska": {"bok": "Sivu", "dno": "Pohja", "polica": "Hylly", "precka": "Tukirima", "front": "Ovi", "ledja": "Tausta"},
+    "natpis": {"2": "Ohjelma purkaa sen levyiksi ja antaa jokaiselle tarkan mitan, reunanauhan ja paksuuden.", "3": "Osat asettuvat levyarkeille sahaussuunnitelmaksi: 18 mm lastulevy vasemmalla, kovalevy oikealla.", "4": "Ja ”Mitoittain”-sahauslista on valmis kopioitavaksi ja lähetettäväksi levysahalle."},
     "noscript_alt": "TOPICA, ”Mitoittain”-sahauslista 600 × 720 × 560 mm alakaapille",
     "posle": "Tämän ohjelma tekee jokaiselle keittiön rungolle sillä hetkellä, kun asetat sen seinää vasten."
   },
@@ -81,5 +80,40 @@
     "komode": {"naslov": "Lipastot", "tekst": "Lipastot ja runkokalusteet laatikoilla ja ovilla, viimeistä levyä myöten.", "alt": "Piirros laatikollisesta lipastosta"},
     "radionice": "Pienille verstaille",
     "monteri": "Asentajille"
+  },
+  "konf": {
+    "nadnaslov": "Mallit",
+    "naslov": "Konfiguroi mittatilauskaluste.",
+    "tekst": "Valitse malli, anna mitat ja katso, mitä ohjelma niistä johtaa. Kaavat ovat samat kuin ohjelmassa.",
+    "k1": {"naslov": "Valitse malli", "tekst": "Mallit ohjelman kirjastosta."},
+    "k2": {"naslov": "Säädä mitat", "tekst": "Leveys, korkeus, syvyys ja sisustus."},
+    "k3": {"naslov": "Saat tuloksen", "tekst": "Mitoitettu piirustus ja kaikki, mitä ohjelma antaa."},
+    "modeli_aria": "Kalustemalli",
+    "model": {"base-with-doors": "Alakaappi ovilla", "base-with-drawers": "Alakaappi laatikoilla", "wall-with-doors": "Yläkaappi ovilla", "open-shelf": "Avoin yläkaappi", "tall-unit": "Korkea kuiva-ainekaappi", "wardrobe": "Vaatekaappi", "dresser": "Lipasto"},
+    "sirina": "Leveys",
+    "visina": "Korkeus",
+    "dubina": "Syvyys",
+    "police": "Hyllyt",
+    "vrata": "Ovet",
+    "fioke": "Laatikot",
+    "front": "Ovidekori",
+    "manje": "Pienennä",
+    "vise": "Suurenna",
+    "dezen": {"bela": "Valkoinen", "siva": "Harmaa", "drvo": "Puu", "crna": "Musta"},
+    "napomena": "Sivustolla käytetään oletusasetuksia: levy 18 mm, taustalevy 3 mm, reunanauha 0,45 ja 1 mm. Ohjelmassa muutat ne oman verstaasi mukaisiksi.",
+    "daje": {"1": "3D-näkymä", "2": "Sahauslista", "3": "Reunanauha reunoittain", "4": "Kaikkien osien mitat", "5": "Materiaalimenekki", "6": "Helaluettelo"},
+    "pogledaj": "Katso sahauslista",
+    "uzivo": "{model}: {s} × {v} × {d} mm, osia: {n}"
+  },
+  "spisak": {
+    "nadnaslov": "Sahauslista",
+    "naslov": "Jokainen osa mittoineen.",
+    "tekst": "Kaluste puretaan osiksi. Saat listan, jossa on kappalemäärät, mitat ja reunanauhat, valmiina sahaukseen.",
+    "primer": "{model}, {s} × {v} × {d} mm · osia: {n}",
+    "kol": {"deo": "Osa", "kom": "Kpl", "mera": "Pituus × leveys", "deb": "Paks.", "kant": "Reuna"},
+    "deo": {"precka": "Tukirima", "bok": "Sivu", "dno": "Pohja", "krov": "Kansi", "ledja": "Taustalevy (kovalevy)", "polica": "Hylly", "fiksna_polica": "Kiinteä hylly vaatetangon yllä", "front_vrata": "Ovi", "front_fioka": "Laatikon etusarja", "bok_fioke": "Laatikon sivu", "celo_fioke": "Laatikon etu- ja takakappale", "dno_fioke": "Laatikon pohja (kovalevy)"},
+    "kant": {"d1": "1 pitkä", "d2": "2 pitkää", "k1": "1 lyhyt", "k2": "2 lyhyttä", "bez": "ei reunanauhaa"},
+    "zbir": {"ploca": "m² levyä 18 mm", "lesonit": "m² kovalevyä 3 mm", "kant": "m reunanauhaa (ilman hukkaa)"},
+    "plan": {"naslov": "Levyarkilla 2800 × 2070", "tekst": "Osat 18 mm levystä, aseteltu syysuunnan mukaan.", "ostatak": "levyarkin loppuosa", "napomena": "Tämä on asettelun havainnekuva, ei sahauksen optimointi. Taustalevyt ja laatikoiden pohjat tulevat kovalevyarkista."}
   }
 }

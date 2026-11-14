@@ -15,8 +15,7 @@
   },
   "korpus": {
     "naslov": "En stomme. Varje skiva på millimetern.",
-    "natpis": {"1": "En bänkstomme 600 × 720 × 560 mm, den sort varje verkstad bygger.", "2": "Programmet plockar isär den i skivor och ger varje skiva exakt mått, kantlist och tjocklek.", "3": "Skivorna läggs ut på plattan som en kapplan: vit spånskiva, ekdekor, hardboard.", "4": "Och kaplistan ”Efter mått” är klar att kopiera och skicka till justersågen."},
-    "daska": {"bok": "Sida", "dno": "Botten", "polica": "Hylla", "precka": "Regel", "front": "Front", "ledja": "Baksida"},
+    "natpis": {"2": "Programmet plockar isär den i skivor och ger varje skiva exakt mått, kantlist och tjocklek.", "3": "Delarna läggs ut på skivorna som en kapplan: 18 mm spånskiva till vänster, hardboard till höger.", "4": "Och kaplistan ”Efter mått” är klar att kopiera och skicka till justersågen."},
     "noscript_alt": "TOPICA, kaplistan ”Efter mått” för en bänkstomme 600 × 720 × 560 mm",
     "posle": "Det här gör programmet för varje stomme i köket i samma stund som du ställer den mot väggen."
   },
@@ -81,5 +80,40 @@
     "komode": {"naslov": "Byråer", "tekst": "Byråer och skivmöbler med lådor och luckor, ner till sista skivan.", "alt": "Ritning av en byrå med lådor"},
     "radionice": "För små verkstäder",
     "monteri": "För montörer"
+  },
+  "konf": {
+    "nadnaslov": "Modeller",
+    "naslov": "Konfigurera måttbeställda möbler.",
+    "tekst": "Välj modell, ange måtten och se vad programmet räknar fram ur dem. Formlerna är desamma som i programmet.",
+    "k1": {"naslov": "Välj modell", "tekst": "Modeller ur programmets bibliotek."},
+    "k2": {"naslov": "Ställ in måtten", "tekst": "Bredd, höjd, djup och inredning."},
+    "k3": {"naslov": "Få resultatet", "tekst": "Måttsatt ritning och allt som programmet ger dig."},
+    "modeli_aria": "Möbelmodell",
+    "model": {"base-with-doors": "Bänkskåp med luckor", "base-with-drawers": "Bänkskåp med lådor", "wall-with-doors": "Väggskåp med luckor", "open-shelf": "Öppet väggskåp", "tall-unit": "Högskåp (skafferi)", "wardrobe": "Garderob", "dresser": "Byrå"},
+    "sirina": "Bredd",
+    "visina": "Höjd",
+    "dubina": "Djup",
+    "police": "Hyllplan",
+    "vrata": "Luckor",
+    "fioke": "Lådor",
+    "front": "Frontdekor",
+    "manje": "Minska",
+    "vise": "Öka",
+    "dezen": {"bela": "Vit", "siva": "Grå", "drvo": "Trä", "crna": "Svart"},
+    "napomena": "På webbplatsen gäller standardinställningarna: skiva 18 mm, baksida 3 mm, kantlist 0,45 och 1 mm. I programmet ändrar du dem för din verkstad.",
+    "daje": {"1": "3D-vy", "2": "Kaplista", "3": "Kantlist per kant", "4": "Mått på alla delar", "5": "Materialåtgång", "6": "Beslagslista"},
+    "pogledaj": "Se kaplistan",
+    "uzivo": "{model}: {s} × {v} × {d} mm, delar: {n}"
+  },
+  "spisak": {
+    "nadnaslov": "Kaplista",
+    "naslov": "Varje del, med sitt mått.",
+    "tekst": "Möbeln plockas isär i delar. Du får en lista med antal, mått och kantlist, klar för kapning.",
+    "primer": "{model}, {s} × {v} × {d} mm · delar: {n}",
+    "kol": {"deo": "Del", "kom": "Ant", "mera": "Längd × bredd", "deb": "Tj.", "kant": "Kant"},
+    "deo": {"precka": "Regel", "bok": "Sida", "dno": "Botten", "krov": "Topp", "ledja": "Baksida (hardboard)", "polica": "Hyllplan", "fiksna_polica": "Fast hyllplan över klädstången", "front_vrata": "Front (lucka)", "front_fioka": "Front (låda)", "bok_fioke": "Lådsida", "celo_fioke": "Lådans fram- och bakstycke", "dno_fioke": "Lådbotten (hardboard)"},
+    "kant": {"d1": "1 lång", "d2": "2 långa", "k1": "1 kort", "k2": "2 korta", "bez": "utan kantlist"},
+    "zbir": {"ploca": "m² skiva 18 mm", "lesonit": "m² hardboard 3 mm", "kant": "m kantlist (utan spill)"},
+    "plan": {"naslov": "På en hel skiva 2800 × 2070", "tekst": "Delar av 18 mm skiva, lagda efter fiberriktningen.", "ostatak": "resten av skivan", "napomena": "Det här är en illustration av upplägget, inte en kapoptimering. Baksidor och lådbottnar tas ur hardboardskivan."}
   }
 }

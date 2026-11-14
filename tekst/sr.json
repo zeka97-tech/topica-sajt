@@ -15,8 +15,7 @@
   },
   "korpus": {
     "naslov": "Jedan korpus. Svaka daska u milimetar.",
-    "natpis": {"1": "Donji korpus 600 × 720 × 560 mm, kakav se pravi u svakoj radionici.", "2": "Program ga rastavi na daske i svakoj da tačnu meru, sa kantom i debljinom.", "3": "Daske legnu na ploču kao krojni plan: bela iverica, hrast dekor, lesonit.", "4": "A krojna lista „Po meri“ je spremna za kopiranje i slanje na krojenje."},
-    "daska": {"bok": "Bok", "dno": "Dno", "polica": "Polica", "precka": "Prečka", "front": "Front", "ledja": "Leđa"},
+    "natpis": {"2": "Program ga rastavi na daske i svakoj da tačnu meru, sa kantom i debljinom.", "3": "Daske legnu na table kao krojni plan: ploča 18 mm levo, lesonit desno.", "4": "A krojna lista „Po meri“ je spremna za kopiranje i slanje na krojenje."},
     "noscript_alt": "TOPICA, krojna lista „Po meri“ za donji korpus 600 × 720 × 560 mm",
     "posle": "Ovo program uradi za svaki korpus u kuhinji, čim ga spustiš uz zid."
   },
@@ -81,5 +80,40 @@
     "komode": {"naslov": "Komode", "tekst": "Komode i korpusni nameštaj sa fiokama i vratima, do poslednje daske.", "alt": "Crtež komode sa fiokama"},
     "radionice": "Za male radionice",
     "monteri": "Za montere"
+  },
+  "konf": {
+    "nadnaslov": "Modeli",
+    "naslov": "Konfiguriši nameštaj po meri.",
+    "tekst": "Izaberi element, zadaj mere i pogledaj šta program iz njih izvede. Formule su iste kao u programu.",
+    "k1": {"naslov": "Izaberi element", "tekst": "Modeli iz biblioteke programa."},
+    "k2": {"naslov": "Podesi mere", "tekst": "Širina, visina, dubina i unutrašnjost."},
+    "k3": {"naslov": "Dobij rezultat", "tekst": "Crtež sa kotama i sve što program daje."},
+    "modeli_aria": "Model elementa",
+    "model": {"base-with-doors": "Element sa vratima", "base-with-drawers": "Element sa fiokama", "wall-with-doors": "Viseći element sa vratima", "open-shelf": "Otvoreni viseći element", "tall-unit": "Visoki ostavinski element", "wardrobe": "Ormar", "dresser": "Komoda sa fiokama"},
+    "sirina": "Širina",
+    "visina": "Visina",
+    "dubina": "Dubina",
+    "police": "Police",
+    "vrata": "Vrata",
+    "fioke": "Fioke",
+    "front": "Dezen fronta",
+    "manje": "Smanji",
+    "vise": "Povećaj",
+    "dezen": {"bela": "Bela", "siva": "Siva", "drvo": "Drvo", "crna": "Crna"},
+    "napomena": "Na sajtu važe podrazumevana podešavanja: ploča 18 mm, leđa 3 mm, kant 0,45 i 1 mm. U programu ih menjaš za svoju radionicu.",
+    "daje": {"1": "3D prikaz", "2": "Krojna lista", "3": "Kant po ivicama", "4": "Mere svih delova", "5": "Količina materijala", "6": "Spisak okova"},
+    "pogledaj": "Pogledaj spisak za sečenje",
+    "uzivo": "{model}: {s} × {v} × {d} mm, delova: {n}"
+  },
+  "spisak": {
+    "nadnaslov": "Spisak za sečenje",
+    "naslov": "Svaka daska, sa merom.",
+    "tekst": "Element se rastavi na delove. Dobiješ listu sa komadima, merama i kantom, spremnu za krojenje.",
+    "primer": "{model}, {s} × {v} × {d} mm · delova: {n}",
+    "kol": {"deo": "Deo", "kom": "Kom", "mera": "Dužina × širina", "deb": "Deb.", "kant": "Kant"},
+    "deo": {"precka": "Prečka", "bok": "Bok", "dno": "Dno", "krov": "Krov", "ledja": "Leđa (lesonit)", "polica": "Polica", "fiksna_polica": "Fiksna polica iznad šipke", "front_vrata": "Front (vrata)", "front_fioka": "Front (fioka)", "bok_fioke": "Bok fioke", "celo_fioke": "Prednja i zadnja strana fioke", "dno_fioke": "Dno fioke (lesonit)"},
+    "kant": {"d1": "1 duža", "d2": "2 duže", "k1": "1 kraća", "k2": "2 kraće", "bez": "bez kanta"},
+    "zbir": {"ploca": "m² ploče 18 mm", "lesonit": "m² lesonita 3 mm", "kant": "m kanta (bez otpada)"},
+    "plan": {"naslov": "Na tabli 2800 × 2070", "tekst": "Delovi od ploče 18 mm, složeni po pravcu goda.", "ostatak": "ostatak ploče", "napomena": "Ovo je ilustracija rasporeda, ne optimizacija krojenja. Leđa i dna fioka idu sa table lesonita."}
   }
 }

@@ -6,7 +6,7 @@
 .crt-front { fill: var(--c-crt-lice); }
 .crtez[data-front="drvo"] .crt-front { fill: var(--c-crt-front-ivica); }
 .crtez[data-front="siva"] .crt-front { fill: var(--c-crt-bok); }
-.crtez[data-front="tamna"] .crt-front { fill: var(--c-crt-cokla); }
+.crtez[data-front="crna"] .crt-front { fill: var(--c-uzorak-crna); }
 .crtez .crt-rucka { stroke: var(--c-narandzasta); stroke-width: var(--d-fokus); stroke-linecap: round; }
 .crtez[data-front="drvo"] .crt-rucka { stroke: var(--c-plava-tamna); }
 .crtez .crt-polica { stroke: var(--c-crt-bok); }

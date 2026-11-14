@@ -1,0 +1,53 @@
+<section class="konf tamno mreza-podloga" id="konfigurator" aria-labelledby="konf-naslov">
+  <div class="okvir">
+    <span class="nadnaslov">{{konf.nadnaslov}}</span>
+    <h2 id="konf-naslov">{{konf.naslov}}</h2>
+    <p class="vodeci">{{konf.tekst}}</p>
+    <div class="konf-kartice">
+      <article class="konf-kartica">
+        <div class="konf-glava"><span class="korak-broj" aria-hidden="true">1</span><h3>{{konf.k1.naslov}}</h3><p>{{konf.k1.tekst}}</p></div>
+        <div class="konf-modeli" role="radiogroup" aria-label="{{konf.modeli_aria}}" id="konf-modeli">
+          <button class="konf-model" type="button" role="radio" aria-checked="true" data-model="base-with-doors">{{konf.model.base-with-doors}}</button>
+          <button class="konf-model" type="button" role="radio" aria-checked="false" data-model="base-with-drawers">{{konf.model.base-with-drawers}}</button>
+          <button class="konf-model" type="button" role="radio" aria-checked="false" data-model="wall-with-doors">{{konf.model.wall-with-doors}}</button>
+          <button class="konf-model" type="button" role="radio" aria-checked="false" data-model="open-shelf">{{konf.model.open-shelf}}</button>
+          <button class="konf-model" type="button" role="radio" aria-checked="false" data-model="tall-unit">{{konf.model.tall-unit}}</button>
+          <button class="konf-model" type="button" role="radio" aria-checked="false" data-model="wardrobe">{{konf.model.wardrobe}}</button>
+          <button class="konf-model" type="button" role="radio" aria-checked="false" data-model="dresser">{{konf.model.dresser}}</button>
+        </div>
+        <div class="konf-crtez" id="konf-crtez-mali">{{sistem.konfCrtezMali}}</div>
+      </article>
+      <span class="konf-strelica" aria-hidden="true">›</span>
+      <article class="konf-kartica">
+        <div class="konf-glava"><span class="korak-broj" aria-hidden="true">2</span><h3>{{konf.k2.naslov}}</h3><p>{{konf.k2.tekst}}</p></div>
+        <div class="konf-polja" id="konf-polja">
+          <div class="polje-mera" data-polje="sirina"><label for="konf-sirina">{{konf.sirina}}</label><div class="korak-polje"><button type="button" data-korak="-1" aria-label="{{konf.manje}}: {{konf.sirina}}">−</button><input id="konf-sirina" type="number" inputmode="numeric" value="600" min="300" max="1200" step="10"><span class="jedinica">mm</span><button type="button" data-korak="1" aria-label="{{konf.vise}}: {{konf.sirina}}">+</button></div></div>
+          <div class="polje-mera" data-polje="visina"><label for="konf-visina">{{konf.visina}}</label><div class="korak-polje"><button type="button" data-korak="-1" aria-label="{{konf.manje}}: {{konf.visina}}">−</button><input id="konf-visina" type="number" inputmode="numeric" value="720" min="600" max="900" step="10"><span class="jedinica">mm</span><button type="button" data-korak="1" aria-label="{{konf.vise}}: {{konf.visina}}">+</button></div></div>
+          <div class="polje-mera" data-polje="dubina"><label for="konf-dubina">{{konf.dubina}}</label><div class="korak-polje"><button type="button" data-korak="-1" aria-label="{{konf.manje}}: {{konf.dubina}}">−</button><input id="konf-dubina" type="number" inputmode="numeric" value="560" min="400" max="650" step="10"><span class="jedinica">mm</span><button type="button" data-korak="1" aria-label="{{konf.vise}}: {{konf.dubina}}">+</button></div></div>
+          <div class="polje-mera" data-polje="police"><label for="konf-police">{{konf.police}}</label><div class="korak-polje"><button type="button" data-korak="-1" aria-label="{{konf.manje}}: {{konf.police}}">−</button><input id="konf-police" type="number" inputmode="numeric" value="1" min="0" max="4" step="1"><span class="jedinica"></span><button type="button" data-korak="1" aria-label="{{konf.vise}}: {{konf.police}}">+</button></div></div>
+          <div class="polje-mera" data-polje="vrata"><label for="konf-vrata">{{konf.vrata}}</label><div class="korak-polje"><button type="button" data-korak="-1" aria-label="{{konf.manje}}: {{konf.vrata}}">−</button><input id="konf-vrata" type="number" inputmode="numeric" value="1" min="1" max="2" step="1"><span class="jedinica"></span><button type="button" data-korak="1" aria-label="{{konf.vise}}: {{konf.vrata}}">+</button></div></div>
+          <div class="polje-mera" data-polje="fioke" hidden><label for="konf-fioke">{{konf.fioke}}</label><div class="korak-polje"><button type="button" data-korak="-1" aria-label="{{konf.manje}}: {{konf.fioke}}">−</button><input id="konf-fioke" type="number" inputmode="numeric" value="3" min="2" max="5" step="1"><span class="jedinica"></span><button type="button" data-korak="1" aria-label="{{konf.vise}}: {{konf.fioke}}">+</button></div></div>
+          <div class="polje-mera" data-polje="front"><span class="polje-naziv" id="konf-front-naziv">{{konf.front}}</span>
+            <div class="konf-frontovi" role="radiogroup" aria-labelledby="konf-front-naziv" id="konf-frontovi">
+              <button class="konf-front" type="button" role="radio" aria-checked="false" data-front="bela" aria-label="{{konf.dezen.bela}}" title="{{konf.dezen.bela}}"></button>
+              <button class="konf-front" type="button" role="radio" aria-checked="false" data-front="siva" aria-label="{{konf.dezen.siva}}" title="{{konf.dezen.siva}}"></button>
+              <button class="konf-front" type="button" role="radio" aria-checked="true" data-front="drvo" aria-label="{{konf.dezen.drvo}}" title="{{konf.dezen.drvo}}"></button>
+              <button class="konf-front" type="button" role="radio" aria-checked="false" data-front="crna" aria-label="{{konf.dezen.crna}}" title="{{konf.dezen.crna}}"></button>
+            </div>
+          </div>
+        </div>
+        <p class="spisak-napomena">{{konf.napomena}}</p>
+      </article>
+      <span class="konf-strelica" aria-hidden="true">›</span>
+      <article class="konf-kartica">
+        <div class="konf-glava"><span class="korak-broj" aria-hidden="true">3</span><h3>{{konf.k3.naslov}}</h3><p>{{konf.k3.tekst}}</p></div>
+        <div class="konf-crtez konf-crtez-veliki" id="konf-crtez-veliki">{{sistem.konfCrtezVeliki}}</div>
+        <ul class="stikle">
+          <li>{{konf.daje.1}}</li><li>{{konf.daje.2}}</li><li>{{konf.daje.3}}</li><li>{{konf.daje.4}}</li><li>{{konf.daje.5}}</li><li>{{konf.daje.6}}</li>
+        </ul>
+        <a class="veza" href="#spisak"><span>{{konf.pogledaj}}</span> <span class="strelica" aria-hidden="true">›</span></a>
+      </article>
+    </div>
+    <p class="vizuelno-skriveno" aria-live="polite" id="konf-uzivo" data-sablon="{{konf.uzivo}}"></p>
+  </div>
+</section>

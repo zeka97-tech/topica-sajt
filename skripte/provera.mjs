@@ -9,6 +9,8 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { proveriDuzinu, proveriTokene, proveriSablone, proveriPrevode } from "./lib/pravila.mjs";
 import { proveriStranicu, snimiOdeljke, proveriSmanjenoKretanje } from "./lib/pregledac.mjs";
+import { proveriKonfigurator, snimiModele } from "./lib/konfigurator-provera.mjs";
+import { testirajProracun } from "./lib/proracun-test.mjs";
 import { pokreniServer } from "./posluzi.mjs";
 
 const KOREN = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -24,6 +26,9 @@ const upozorenja = [];
 // 1) statička pravila
 proveriDuzinu(KOREN, greske); proveriTokene(KOREN, greske); proveriSablone(KOREN, greske); proveriPrevode(KOREN, greske);
 console.log(`1) red u kodu i prevodi: ${greske.length ? greske.length + " grešaka" : "✓"}`);
+const formule = testirajProracun(KOREN); // formule sajta = program (docs/modeli-primeri.json)
+greske.push(...formule.greske);
+console.log(`   formule (proracun.js): ${formule.provereno} primera iz programa, ${formule.preskoceno} van granica konfiguratora, ${formule.greske.length ? formule.greske.length + " grešaka" : "✓"}`);
 
 // 2) pregledač
 if (!existsSync(path.join(KOREN, "dist", "sitemap.xml"))) { console.error("✗ nema dist/ — prvo npm run build"); process.exit(1); }
@@ -55,6 +60,9 @@ if (!SAMO_LH && !SEO) {
   const rm = await proveriSmanjenoKretanje(browser, `http://localhost:${PORT}/sr/`);
   greske.push(...rm);
   console.log(`3) smanjeno kretanje: ${rm.length ? "✗" : "✓"}`);
+  const konf = await proveriKonfigurator(browser, `http://localhost:${PORT}/sr/`);
+  greske.push(...konf.greske);
+  console.log(`   konfigurator (7 modela, 1440 / 390 / smanjeno kretanje): ${konf.greske.length ? "✗" : "✓"}  CLS dok se mere menjaju: ${Object.entries(konf.cls).map(([k, v]) => `${k} ${v.bezUnosa.toFixed(3)} (sa unosom ${v.sve.toFixed(3)})`).join(" · ")}`);
 }
 
 // 3) snimci (sr i de, 1440 i 390)
@@ -65,6 +73,7 @@ if (!BRZO && !SAMO_LH && !SEO) {
     for (const w of [1440, 390]) await snimiOdeljke(browser, `http://localhost:${PORT}/${kod}/`, w, kod, dirSnimci);
     await snimiOdeljke(browser, `http://localhost:${PORT}/${kod}/preuzimanje.html`, 1440, `${kod}-preuzimanje`, dirSnimci);
   }
+  for (const w of [1440, 390]) await snimiModele(browser, `http://localhost:${PORT}/sr/`, w, "sr", dirSnimci);
   console.log("4) snimci: docs/snimci/ ✓");
 }
 await browser.close();

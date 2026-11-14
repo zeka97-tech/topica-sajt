@@ -15,8 +15,7 @@
   },
   "korpus": {
     "naslov": "One cabinet. Every panel to the millimetre.",
-    "natpis": {"1": "A 600 × 720 × 560 mm base cabinet, the kind every workshop builds.", "2": "The program takes it apart into panels and gives each one its exact size, edging and thickness.", "3": "The panels lie down on the sheet as a cutting plan: white chipboard, oak decor, hardboard.", "4": "And the “By size” cut list is ready to copy and send to the panel saw."},
-    "daska": {"bok": "Side", "dno": "Bottom", "polica": "Shelf", "precka": "Rail", "front": "Front", "ledja": "Back"},
+    "natpis": {"2": "The program takes it apart into panels and gives each one its exact size, edging and thickness.", "3": "The panels lie down on the sheets as a cutting plan: 18 mm board on the left, hardboard on the right.", "4": "And the “By size” cut list is ready to copy and send to the panel saw."},
     "noscript_alt": "TOPICA, “By size” cut list for a 600 × 720 × 560 mm base cabinet",
     "posle": "The program does this for every cabinet in the kitchen the moment you set it against the wall."
   },
@@ -81,5 +80,40 @@
     "komode": {"naslov": "Cabinets", "tekst": "Chests of drawers and carcass furniture with drawers and doors, down to the last panel.", "alt": "Drawing of a chest of drawers"},
     "radionice": "For small workshops",
     "monteri": "For installers"
+  },
+  "konf": {
+    "nadnaslov": "Models",
+    "naslov": "Configure furniture to size.",
+    "tekst": "Pick a unit, enter the sizes and see what the program derives from them. The formulas are the same as in the program.",
+    "k1": {"naslov": "Pick a unit", "tekst": "Models from the program's library."},
+    "k2": {"naslov": "Set the sizes", "tekst": "Width, height, depth and the interior."},
+    "k3": {"naslov": "Get the result", "tekst": "A dimensioned drawing and everything the program gives you."},
+    "modeli_aria": "Unit model",
+    "model": {"base-with-doors": "Base unit with doors", "base-with-drawers": "Base unit with drawers", "wall-with-doors": "Wall unit with doors", "open-shelf": "Open wall unit", "tall-unit": "Tall larder unit", "wardrobe": "Wardrobe", "dresser": "Chest of drawers"},
+    "sirina": "Width",
+    "visina": "Height",
+    "dubina": "Depth",
+    "police": "Shelves",
+    "vrata": "Doors",
+    "fioke": "Drawers",
+    "front": "Front decor",
+    "manje": "Decrease",
+    "vise": "Increase",
+    "dezen": {"bela": "White", "siva": "Grey", "drvo": "Wood", "crna": "Black"},
+    "napomena": "The site uses the default settings: 18 mm board, 3 mm back, 0.45 and 1 mm edging. In the program you change them for your workshop.",
+    "daje": {"1": "3D view", "2": "Cut list", "3": "Edging per edge", "4": "Sizes of all parts", "5": "Material quantities", "6": "Hardware list"},
+    "pogledaj": "See the cut list",
+    "uzivo": "{model}: {s} × {v} × {d} mm, parts: {n}"
+  },
+  "spisak": {
+    "nadnaslov": "Cut list",
+    "naslov": "Every panel, with its size.",
+    "tekst": "The unit is taken apart into parts. You get a list with quantities, sizes and edging, ready for cutting.",
+    "primer": "{model}, {s} × {v} × {d} mm · parts: {n}",
+    "kol": {"deo": "Part", "kom": "Qty", "mera": "Length × width", "deb": "Thk.", "kant": "Edging"},
+    "deo": {"precka": "Rail", "bok": "Side", "dno": "Bottom", "krov": "Top", "ledja": "Back (hardboard)", "polica": "Shelf", "fiksna_polica": "Fixed shelf above the rail", "front_vrata": "Front (door)", "front_fioka": "Front (drawer)", "bok_fioke": "Drawer side", "celo_fioke": "Drawer front and back", "dno_fioke": "Drawer bottom (hardboard)"},
+    "kant": {"d1": "1 long", "d2": "2 long", "k1": "1 short", "k2": "2 short", "bez": "no edging"},
+    "zbir": {"ploca": "m² of 18 mm board", "lesonit": "m² of 3 mm hardboard", "kant": "m of edging (no waste)"},
+    "plan": {"naslov": "On a 2800 × 2070 sheet", "tekst": "Parts from 18 mm board, laid out along the grain.", "ostatak": "rest of the sheet", "napomena": "This is an illustration of the layout, not cutting optimisation. Backs and drawer bottoms come from the hardboard sheet."}
   }
 }

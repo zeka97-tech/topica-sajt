@@ -15,8 +15,7 @@
   },
   "korpus": {
     "naslov": "Jedna szafka. Każda formatka co do milimetra.",
-    "natpis": {"1": "Szafka dolna 600 × 720 × 560 mm, jaką robi każdy warsztat.", "2": "Program rozkłada ją na formatki i każdej nadaje dokładny wymiar, obrzeże i grubość.", "3": "Formatki układają się na płycie jako plan rozkroju: biała płyta wiórowa, dekor dąb, płyta HDF.", "4": "A lista cięcia „Według wymiaru” jest gotowa do skopiowania i wysłania na piłę."},
-    "daska": {"bok": "Bok", "dno": "Dno", "polica": "Półka", "precka": "Listwa", "front": "Front", "ledja": "Plecy"},
+    "natpis": {"2": "Program rozkłada ją na formatki i każdej nadaje dokładny wymiar, obrzeże i grubość.", "3": "Formatki układają się na płytach jako plan rozkroju: płyta 18 mm po lewej, HDF po prawej.", "4": "A lista cięcia „Według wymiaru” jest gotowa do skopiowania i wysłania na piłę."},
     "noscript_alt": "TOPICA, lista cięcia „Według wymiaru” dla szafki dolnej 600 × 720 × 560 mm",
     "posle": "Program robi to dla każdej szafki w kuchni w chwili, gdy ustawisz ją przy ścianie."
   },
@@ -81,5 +80,40 @@
     "komode": {"naslov": "Komody", "tekst": "Komody i meble skrzyniowe z szufladami i drzwiami, co do ostatniej formatki.", "alt": "Rysunek komody z szufladami"},
     "radionice": "Dla małych warsztatów",
     "monteri": "Dla monterów"
+  },
+  "konf": {
+    "nadnaslov": "Modele",
+    "naslov": "Skonfiguruj meble na wymiar.",
+    "tekst": "Wybierz mebel, podaj wymiary i zobacz, co program z nich wyprowadzi. Wzory są te same co w programie.",
+    "k1": {"naslov": "Wybierz mebel", "tekst": "Modele z biblioteki programu."},
+    "k2": {"naslov": "Ustaw wymiary", "tekst": "Szerokość, wysokość, głębokość i wnętrze."},
+    "k3": {"naslov": "Odbierz wynik", "tekst": "Rysunek z wymiarami i wszystko, co daje program."},
+    "modeli_aria": "Model mebla",
+    "model": {"base-with-doors": "Szafka dolna z drzwiami", "base-with-drawers": "Szafka dolna z szufladami", "wall-with-doors": "Szafka górna z drzwiami", "open-shelf": "Szafka górna otwarta", "tall-unit": "Słupek spiżarniany", "wardrobe": "Szafa ubraniowa", "dresser": "Komoda z szufladami"},
+    "sirina": "Szerokość",
+    "visina": "Wysokość",
+    "dubina": "Głębokość",
+    "police": "Półki",
+    "vrata": "Drzwi",
+    "fioke": "Szuflady",
+    "front": "Dekor frontu",
+    "manje": "Zmniejsz",
+    "vise": "Zwiększ",
+    "dezen": {"bela": "Biały", "siva": "Szary", "drvo": "Drewno", "crna": "Czarny"},
+    "napomena": "Na stronie obowiązują ustawienia domyślne: płyta 18 mm, plecy 3 mm, obrzeże 0,45 i 1 mm. W programie zmieniasz je pod swój warsztat.",
+    "daje": {"1": "Widok 3D", "2": "Lista cięcia", "3": "Obrzeże dla każdej krawędzi", "4": "Wymiary wszystkich formatek", "5": "Ilość materiału", "6": "Lista okuć"},
+    "pogledaj": "Zobacz listę cięcia",
+    "uzivo": "{model}: {s} × {v} × {d} mm, formatek: {n}"
+  },
+  "spisak": {
+    "nadnaslov": "Lista cięcia",
+    "naslov": "Każda formatka, z wymiarem.",
+    "tekst": "Mebel rozkłada się na formatki. Dostajesz listę z ilością, wymiarami i obrzeżem, gotową do cięcia.",
+    "primer": "{model}, {s} × {v} × {d} mm · formatek: {n}",
+    "kol": {"deo": "Formatka", "kom": "Szt.", "mera": "Długość × szerokość", "deb": "Gr.", "kant": "Obrzeże"},
+    "deo": {"precka": "Listwa", "bok": "Bok", "dno": "Dno", "krov": "Wieniec górny", "ledja": "Plecy (HDF)", "polica": "Półka", "fiksna_polica": "Półka stała nad drążkiem", "front_vrata": "Front (drzwi)", "front_fioka": "Front (szuflada)", "bok_fioke": "Bok szuflady", "celo_fioke": "Przód i tył szuflady", "dno_fioke": "Dno szuflady (HDF)"},
+    "kant": {"d1": "1 dłuższy", "d2": "2 dłuższe", "k1": "1 krótszy", "k2": "2 krótsze", "bez": "bez obrzeża"},
+    "zbir": {"ploca": "m² płyty 18 mm", "lesonit": "m² płyty HDF 3 mm", "kant": "m obrzeża (bez odpadu)"},
+    "plan": {"naslov": "Na płycie 2800 × 2070", "tekst": "Formatki z płyty 18 mm, ułożone zgodnie z kierunkiem usłojenia.", "ostatak": "reszta płyty", "napomena": "To ilustracja układu, a nie optymalizacja rozkroju. Plecy i dna szuflad idą z płyty HDF."}
   }
 }

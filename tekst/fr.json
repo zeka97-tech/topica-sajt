@@ -15,8 +15,7 @@
   },
   "korpus": {
     "naslov": "Un caisson. Chaque panneau au millimètre.",
-    "natpis": {"1": "Un meuble bas de 600 × 720 × 560 mm, comme on en fait dans chaque atelier.", "2": "Le programme le décompose en panneaux et donne à chacun sa cote exacte, avec le chant et l'épaisseur.", "3": "Les panneaux se posent sur la plaque comme un plan de débit : mélaminé blanc, décor chêne, isorel.", "4": "Et la liste de débit « Par cote » est prête à copier et à envoyer à la scie à panneaux."},
-    "daska": {"bok": "Côté", "dno": "Dessous", "polica": "Tablette", "precka": "Traverse", "front": "Façade", "ledja": "Fond"},
+    "natpis": {"2": "Le programme le décompose en panneaux et donne à chacun sa cote exacte, avec le chant et l'épaisseur.", "3": "Les pièces se posent sur les plaques comme un plan de débit : panneau 18 mm à gauche, isorel à droite.", "4": "Et la liste de débit « Par cote » est prête à copier et à envoyer à la scie à panneaux."},
     "noscript_alt": "TOPICA, liste de débit « Par cote » d'un meuble bas de 600 × 720 × 560 mm",
     "posle": "Le programme le fait pour chaque caisson de la cuisine dès que tu le poses contre le mur."
   },
@@ -81,5 +80,40 @@
     "komode": {"naslov": "Commodes", "tekst": "Commodes et meubles en caissons avec tiroirs et portes, jusqu'au dernier panneau.", "alt": "Dessin d'une commode à tiroirs"},
     "radionice": "Pour les petits ateliers",
     "monteri": "Pour les poseurs"
+  },
+  "konf": {
+    "nadnaslov": "Modèles",
+    "naslov": "Configure un meuble sur mesure.",
+    "tekst": "Choisis un élément, saisis les cotes et regarde ce que le programme en déduit. Les formules sont les mêmes que dans le programme.",
+    "k1": {"naslov": "Choisis l'élément", "tekst": "Les modèles de la bibliothèque du programme."},
+    "k2": {"naslov": "Règle les cotes", "tekst": "Largeur, hauteur, profondeur et intérieur."},
+    "k3": {"naslov": "Obtiens le résultat", "tekst": "Un dessin coté et tout ce que le programme fournit."},
+    "modeli_aria": "Modèle d'élément",
+    "model": {"base-with-doors": "Meuble bas à portes", "base-with-drawers": "Meuble bas à tiroirs", "wall-with-doors": "Meuble haut à portes", "open-shelf": "Meuble haut ouvert", "tall-unit": "Colonne garde-manger", "wardrobe": "Armoire", "dresser": "Commode à tiroirs"},
+    "sirina": "Largeur",
+    "visina": "Hauteur",
+    "dubina": "Profondeur",
+    "police": "Tablettes",
+    "vrata": "Portes",
+    "fioke": "Tiroirs",
+    "front": "Décor de façade",
+    "manje": "Diminuer",
+    "vise": "Augmenter",
+    "dezen": {"bela": "Blanc", "siva": "Gris", "drvo": "Bois", "crna": "Noir"},
+    "napomena": "Sur le site, ce sont les réglages par défaut : panneau 18 mm, fond 3 mm, chant 0,45 et 1 mm. Dans le programme, tu les changes pour ton atelier.",
+    "daje": {"1": "Vue 3D", "2": "Liste de débit", "3": "Chant par côté", "4": "Cotes de toutes les pièces", "5": "Quantité de matériau", "6": "Liste de quincaillerie"},
+    "pogledaj": "Voir la liste de débit",
+    "uzivo": "{model} : {s} × {v} × {d} mm, pièces : {n}"
+  },
+  "spisak": {
+    "nadnaslov": "Liste de débit",
+    "naslov": "Chaque panneau, avec sa cote.",
+    "tekst": "L'élément est décomposé en pièces. Tu obtiens une liste avec quantités, cotes et chant, prête pour le débit.",
+    "primer": "{model}, {s} × {v} × {d} mm · pièces : {n}",
+    "kol": {"deo": "Pièce", "kom": "Qté", "mera": "Longueur × largeur", "deb": "Ép.", "kant": "Chant"},
+    "deo": {"precka": "Traverse", "bok": "Côté", "dno": "Dessous", "krov": "Dessus", "ledja": "Fond (isorel)", "polica": "Tablette", "fiksna_polica": "Tablette fixe au-dessus de la tringle", "front_vrata": "Façade (porte)", "front_fioka": "Façade (tiroir)", "bok_fioke": "Côté de tiroir", "celo_fioke": "Avant et arrière de tiroir", "dno_fioke": "Fond de tiroir (isorel)"},
+    "kant": {"d1": "1 long", "d2": "2 longs", "k1": "1 court", "k2": "2 courts", "bez": "sans chant"},
+    "zbir": {"ploca": "m² de panneau 18 mm", "lesonit": "m² d'isorel 3 mm", "kant": "m de chant (hors chutes)"},
+    "plan": {"naslov": "Sur une plaque de 2800 × 2070", "tekst": "Pièces en panneau 18 mm, disposées dans le sens du fil.", "ostatak": "reste de la plaque", "napomena": "Ceci est une illustration de la disposition, pas une optimisation de débit. Les fonds et les fonds de tiroir viennent de la plaque d'isorel."}
   }
 }

@@ -15,8 +15,7 @@
   },
   "korpus": {
     "naslov": "Egy szekrény. Minden lap milliméterre.",
-    "natpis": {"1": "Egy 600 × 720 × 560 mm-es alsószekrény, amilyet minden műhely készít.", "2": "A program lapokra bontja, és mindegyiknek megadja a pontos méretét, élzárását és vastagságát.", "3": "A lapok szabástervként fekszenek fel a táblára: fehér bútorlap, tölgy dekor, farostlemez.", "4": "A „Méret szerint” szabásjegyzék pedig kész a másolásra és a lapszabászatra küldésre."},
-    "daska": {"bok": "Oldal", "dno": "Fenéklap", "polica": "Polc", "precka": "Heveder", "front": "Front", "ledja": "Hátfal"},
+    "natpis": {"2": "A program lapokra bontja, és mindegyiknek megadja a pontos méretét, élzárását és vastagságát.", "3": "A lapok szabástervként fekszenek fel a táblákra: balra a 18 mm-es bútorlap, jobbra a farostlemez.", "4": "A „Méret szerint” szabásjegyzék pedig kész a másolásra és a lapszabászatra küldésre."},
     "noscript_alt": "TOPICA, „Méret szerint” szabásjegyzék egy 600 × 720 × 560 mm-es alsószekrényhez",
     "posle": "Ezt a program a konyha minden szekrényével megteszi, amint a falhoz állítod."
   },
@@ -81,5 +80,40 @@
     "komode": {"naslov": "Komódok", "tekst": "Komódok és korpuszbútorok fiókokkal és ajtókkal, az utolsó lapig.", "alt": "Fiókos komód rajza"},
     "radionice": "Kis műhelyeknek",
     "monteri": "Szerelőknek"
+  },
+  "konf": {
+    "nadnaslov": "Modellek",
+    "naslov": "Konfigurálj méretre készülő bútort.",
+    "tekst": "Válassz modellt, add meg a méreteket, és nézd meg, mit számol ki belőlük a program. A képletek ugyanazok, mint a programban.",
+    "k1": {"naslov": "Válassz modellt", "tekst": "Modellek a program könyvtárából."},
+    "k2": {"naslov": "Állítsd be a méreteket", "tekst": "Szélesség, magasság, mélység és belső kialakítás."},
+    "k3": {"naslov": "Megkapod az eredményt", "tekst": "Méretezett rajz és minden, amit a program ad."},
+    "modeli_aria": "Bútormodell",
+    "model": {"base-with-doors": "Ajtós alsószekrény", "base-with-drawers": "Fiókos alsószekrény", "wall-with-doors": "Ajtós felsőszekrény", "open-shelf": "Nyitott felsőszekrény", "tall-unit": "Magas kamraszekrény", "wardrobe": "Gardróbszekrény", "dresser": "Fiókos komód"},
+    "sirina": "Szélesség",
+    "visina": "Magasság",
+    "dubina": "Mélység",
+    "police": "Polcok",
+    "vrata": "Ajtók",
+    "fioke": "Fiókok",
+    "front": "Front dekorja",
+    "manje": "Csökkentés",
+    "vise": "Növelés",
+    "dezen": {"bela": "Fehér", "siva": "Szürke", "drvo": "Fa", "crna": "Fekete"},
+    "napomena": "A weboldalon az alapbeállítások érvényesek: bútorlap 18 mm, hátfal 3 mm, élzárás 0,45 és 1 mm. A programban a saját műhelyedhez állítod őket.",
+    "daje": {"1": "3D nézet", "2": "Szabásjegyzék", "3": "Élzárás élenként", "4": "Minden alkatrész mérete", "5": "Anyagmennyiség", "6": "Vasalatlista"},
+    "pogledaj": "Nézd meg a szabásjegyzéket",
+    "uzivo": "{model}: {s} × {v} × {d} mm, alkatrészek: {n}"
+  },
+  "spisak": {
+    "nadnaslov": "Szabásjegyzék",
+    "naslov": "Minden lap, mérettel.",
+    "tekst": "A program a szekrényt alkatrészeire bontja. Listát kapsz darabszámmal, méretekkel és élzárással, szabásra készen.",
+    "primer": "{model}, {s} × {v} × {d} mm · alkatrészek: {n}",
+    "kol": {"deo": "Alkatrész", "kom": "Db", "mera": "Hossz × szélesség", "deb": "Vast.", "kant": "Élzárás"},
+    "deo": {"precka": "Heveder", "bok": "Oldal", "dno": "Fenéklap", "krov": "Tetőlap", "ledja": "Hátfal (farostlemez)", "polica": "Polc", "fiksna_polica": "Fix polc az akasztórúd fölött", "front_vrata": "Front (ajtó)", "front_fioka": "Front (fiók)", "bok_fioke": "Fiókoldal", "celo_fioke": "Fiókdoboz eleje és hátulja", "dno_fioke": "Fiókfenék (farostlemez)"},
+    "kant": {"d1": "1 hosszú", "d2": "2 hosszú", "k1": "1 rövid", "k2": "2 rövid", "bez": "élzárás nélkül"},
+    "zbir": {"ploca": "m² 18 mm-es bútorlap", "lesonit": "m² 3 mm-es farostlemez", "kant": "m élzáró (hulladék nélkül)"},
+    "plan": {"naslov": "A 2800 × 2070-es táblán", "tekst": "18 mm-es bútorlapból készülő alkatrészek, szálirány szerint elrendezve.", "ostatak": "a tábla maradéka", "napomena": "Ez az elrendezés szemléltetése, nem szabásoptimalizálás. A hátfalak és a fiókfenekek a farostlemez tábláról kerülnek ki."}
   }
 }

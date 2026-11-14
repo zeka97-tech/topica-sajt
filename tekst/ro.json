@@ -15,8 +15,7 @@
   },
   "korpus": {
     "naslov": "Un corp. Fiecare piesă la milimetru.",
-    "natpis": {"1": "Un corp inferior de 600 × 720 × 560 mm, așa cum se face în orice atelier.", "2": "Programul îl desface în piese și îi dă fiecăreia dimensiunea exactă, cantul și grosimea.", "3": "Piesele se așază pe placă ca plan de debitare: PAL alb, decor stejar, HDF.", "4": "Iar lista de debitare „După dimensiune“ e gata de copiat și trimis la debitare."},
-    "daska": {"bok": "Laterală", "dno": "Fund", "polica": "Poliță", "precka": "Traversă", "front": "Front", "ledja": "Spate"},
+    "natpis": {"2": "Programul îl desface în piese și îi dă fiecăreia dimensiunea exactă, cantul și grosimea.", "3": "Piesele se așază pe plăci ca plan de debitare: placă de 18 mm în stânga, HDF în dreapta.", "4": "Iar lista de debitare „După dimensiune“ e gata de copiat și trimis la debitare."},
     "noscript_alt": "TOPICA, lista de debitare „După dimensiune“ pentru un corp inferior de 600 × 720 × 560 mm",
     "posle": "Programul face asta pentru fiecare corp din bucătărie în clipa în care îl pui lângă perete."
   },
@@ -81,5 +80,40 @@
     "komode": {"naslov": "Comode", "tekst": "Comode și mobilier din corpuri, cu sertare și uși, până la ultima piesă.", "alt": "Desenul unei comode cu sertare"},
     "radionice": "Pentru ateliere mici",
     "monteri": "Pentru montatori"
+  },
+  "konf": {
+    "nadnaslov": "Modele",
+    "naslov": "Configurează mobilier la comandă.",
+    "tekst": "Alege un corp, introdu dimensiunile și vezi ce scoate programul din ele. Formulele sunt aceleași ca în program.",
+    "k1": {"naslov": "Alege corpul", "tekst": "Modele din biblioteca programului."},
+    "k2": {"naslov": "Setează dimensiunile", "tekst": "Lățime, înălțime, adâncime și interior."},
+    "k3": {"naslov": "Primește rezultatul", "tekst": "Desen cu cote și tot ce dă programul."},
+    "modeli_aria": "Modelul corpului",
+    "model": {"base-with-doors": "Corp inferior cu uși", "base-with-drawers": "Corp inferior cu sertare", "wall-with-doors": "Corp suspendat cu uși", "open-shelf": "Corp suspendat deschis", "tall-unit": "Coloană de cămară", "wardrobe": "Dulap", "dresser": "Comodă cu sertare"},
+    "sirina": "Lățime",
+    "visina": "Înălțime",
+    "dubina": "Adâncime",
+    "police": "Polițe",
+    "vrata": "Uși",
+    "fioke": "Sertare",
+    "front": "Decorul frontului",
+    "manje": "Micșorează",
+    "vise": "Mărește",
+    "dezen": {"bela": "Alb", "siva": "Gri", "drvo": "Lemn", "crna": "Negru"},
+    "napomena": "Pe site sunt valabile setările implicite: placă de 18 mm, spate de 3 mm, cant de 0,45 și 1 mm. În program le schimbi pentru atelierul tău.",
+    "daje": {"1": "Vedere 3D", "2": "Listă de debitare", "3": "Cant pe laturi", "4": "Dimensiunile tuturor pieselor", "5": "Cantitatea de material", "6": "Listă de feronerie"},
+    "pogledaj": "Vezi lista de debitare",
+    "uzivo": "{model}: {s} × {v} × {d} mm, piese: {n}"
+  },
+  "spisak": {
+    "nadnaslov": "Listă de debitare",
+    "naslov": "Fiecare piesă, cu dimensiunea ei.",
+    "tekst": "Corpul se desface în piese. Primești o listă cu bucăți, dimensiuni și cant, gata de debitat.",
+    "primer": "{model}, {s} × {v} × {d} mm · piese: {n}",
+    "kol": {"deo": "Piesă", "kom": "Buc.", "mera": "Lungime × lățime", "deb": "Gros.", "kant": "Cant"},
+    "deo": {"precka": "Traversă", "bok": "Laterală", "dno": "Fund", "krov": "Capac", "ledja": "Spate (HDF)", "polica": "Poliță", "fiksna_polica": "Poliță fixă deasupra barei", "front_vrata": "Front (ușă)", "front_fioka": "Front (sertar)", "bok_fioke": "Laterală de sertar", "celo_fioke": "Față și spate de sertar", "dno_fioke": "Fund de sertar (HDF)"},
+    "kant": {"d1": "1 lungă", "d2": "2 lungi", "k1": "1 scurtă", "k2": "2 scurte", "bez": "fără cant"},
+    "zbir": {"ploca": "m² de placă de 18 mm", "lesonit": "m² de HDF de 3 mm", "kant": "m de cant (fără pierderi)"},
+    "plan": {"naslov": "Pe o placă de 2800 × 2070", "tekst": "Piese din placă de 18 mm, așezate după direcția fibrei.", "ostatak": "restul plăcii", "napomena": "Aceasta este o ilustrare a așezării, nu o optimizare a debitării. Spatele și fundurile de sertar se taie din placa de HDF."}
   }
 }

@@ -1,10 +1,10 @@
-/* spisak.css — „Spisak za sečenje": tabela delova iz istih mera, zbirovi i krojni plan table */
+/* spisak-secenje.css — „Spisak za sečenje": tabela delova iz istih mera, zbirovi i krojni plan table */
 .spisak { background: var(--c-plava-tamna); position: relative; padding: 0 0 var(--r-odeljak); }
 .spisak .okvir { position: relative; }
 .spisak h2 { margin-bottom: var(--r-3); }
 .spisak .vodeci { color: var(--c-na-tamnom-plavo); margin-bottom: var(--r-9); }
 .spisak-mreza { display: grid; grid-template-columns: 1.15fr .85fr; gap: var(--r-6); align-items: start; }
-.spisak-kartica { background: var(--c-tamno-kartica); border: var(--d-linija) solid var(--c-tamno-linija); border-radius: var(--rad-kartica); padding: var(--r-6); min-width: 0; }
+.secenje-kartica { background: var(--c-tamno-kartica); border: var(--d-linija) solid var(--c-tamno-linija); border-radius: var(--rad-kartica); padding: var(--r-6); min-width: 0; }
 .spisak-opis { color: var(--c-na-tamnom-plavo); font-size: var(--f-15); margin-bottom: var(--r-3); }
 .spisak-omot { overflow-x: auto; }
 .spisak-tabela { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; font-size: var(--f-16); }
