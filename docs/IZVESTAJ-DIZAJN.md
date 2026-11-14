@@ -76,7 +76,35 @@ Modeli koji postoje u programu, a NISU u konfiguratoru, jer im formule nisu izvo
 
 ## Provera
 
-LH_BLOK
+`npm run build`: 1104 stranice, 23 jezika. `npm run check` prolazi bez greške:
+
+- red u kodu i prevodi (isti ključevi u sva 23 jezika): ✓
+- formule: 44 primera iz programa se slažu, 3 su van granica konfiguratora
+- pregledač: 1104 stranice bez greške (naslov, opis, linkovi, slike, JS)
+- konfigurator: 7 modela na širinama 1440 i 390 i sa smanjenim kretanjem; tabela je uvek ista kao proračun; strelice na tastaturi, upis van granica i najava za čitač ekrana rade
+- smanjeno kretanje: nema zakačenih odeljaka, element je odmah rastavljen sa kotama
+
+Pomeranje sadržaja dok se mere menjaju (CLS, cilj ispod 0,1):
+
+| Širina | CLS po Lighthouse pravilu | Sa pomeranjima odmah posle klika |
+|---|---|---|
+| 1440 | 0,000 | 0,012 |
+| 390 | 0,000 | 0,000 |
+
+Lighthouse (mobilni, bolje od dva merenja):
+
+| Stranica | Performanse | Pristupačnost | SEO | Dobra praksa | Performanse pre zadatka |
+|---|---|---|---|---|---|
+| sr/ | 92 | 100 | 100 | 100 | 92 |
+| en/ | 94 | 100 | 100 | 100 | 93 |
+| de/ | 95 | 100 | 100 | 100 | 93 |
+| sr/preuzimanje | 96 | 100 | 100 | 100 | 99 |
+| en/blog/krojna-lista | 97 | 100 | 100 | 100 | 99 |
+| sr/blog/ | 97 | 100 | 100 | 100 | – |
+
+Početna: LCP 3,0 s, CLS 0, blokiranje 0 ms. Kontrast teksta u tamnim sekcijama prolazi Lighthouse proveru (pristupačnost 100).
+
+Stranice članaka su pale sa 99 na 96 – 97. Uzrok nije izmeren do kraja; najverovatnije je veći zajednički CSS (lokalni server ga šalje nesažetog, GitHub Pages ga sažima). Moduli konfiguratora se na tim stranicama ne učitavaju.
 
 ## Snimci
 
