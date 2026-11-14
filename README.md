@@ -10,13 +10,15 @@ Statičan sajt za prodaju programa **TOPICA** (Windows program za stolare: soba 
 ```
 src/sablon/        HTML šabloni: stranica.html (okvir), traka, podnozje, po jedan fajl po odeljku, preuzimanje, hvala, clanak, spisak
 src/stil/          CSS: tokeni.css (JEDINO mesto za boje, razmake, veličine), osnova.css, po odeljku po jedan fajl, animacije.css
-src/skripte/       JS moduli: app.js (ulaz), kretanje (Lenis+GSAP), traka, jezik, hero, kako-radi, korpus(+model), niz, galerija, obrazac
+src/skripte/       JS moduli: app.js (ulaz), kretanje (Lenis+GSAP), traka, jezik, kako-radi, niz, galerija, obrazac;
+                   konfigurator: proracun.js (JEDINO mesto formula), crtez.js (crtež elementa), raspored.js (krojni plan),
+                   spisak-prikaz.js (redovi tabele), konfigurator.js, spisak.js, korpus(+model).js (animacija iz istih mera)
 tekst/<kod>.json   SAV tekst sajta, jedan fajl po jeziku, isti ključevi;  tekst/jezici.json (spisak jezika), tekst/sajt.json (e-mail, linkovi…)
 blog/<kod>/*.md    tekstovi po jeziku (Markdown sa zaglavljem); recnik/, namena/, pitanja/ po istom principu
 slike/izvor/       originali;  slike/web/ WebP (pravi skripte/slike.mjs);  slike/og/ slike za deljenje;  slike/IZVORI.md poreklo i licence
 skripte/           jezici.mjs (BUILD), slike.mjs, og.mjs, provera.mjs (CHECK), posluzi.mjs (lokalni server), lib/
 dist/              GENERISAN sajt (nije u git-u; GitHub Actions ga pravi i objavljuje)
-docs/              snimci/ (provera), ODLUKE.md, PREVODJENJE.md
+docs/              snimci/ (provera), ODLUKE.md, PREVODJENJE.md, MODELI.md + modeli-primeri.json (formule programa), predlog-dizajna/, IZVESTAJ-*.md
 ```
 
 Komande (`npm install` jednom, samo za slike/og/provere; sam build nema zavisnosti):
@@ -120,6 +122,20 @@ Tekst u Markdown-u: ## naslovi, * liste, | tabele |, ![alt](../slike/web/….web
 
 Isto važi za `recnik/`, `namena/` i `pitanja/` (indeks i naslovi su u `tekst/<kod>.json` pod `recnik`, `namena`, `pitanja_strane`). Svaki tekst dobija jedan H1, meta, JSON-LD, hreflang i dugme „Preuzmi probnu verziju“ na kraju.
 
+## Konfigurator i formule
+
+Početna ima konfigurator (`#konfigurator`), spisak za sečenje (`#spisak`) i animaciju „korpus → krojni plan“. Sve troje čita ISTI rezultat:
+
+- `src/skripte/proracun.js` je jedino mesto gde su formule: `MODELI` (granice mera i opcija po modelu) i `izracunaj(model, mere)` koji vraća daske, kant i zbirove. Nema DOM-a, pa ga koristi i build (crtež i tabela postoje u HTML-u i bez JavaScript-a, `skripte/lib/pocetna.mjs`).
+- Formule su prepisane iz programa i zapisane u `docs/MODELI.md` (sa fajlom i redom u programu). `docs/modeli-primeri.json` su primeri koje je izračunao sam program.
+- `npm run check` poredi `proracun.js` sa tim primerima (`skripte/lib/proracun-test.mjs`) i u pregledaču prolazi svaki model (`skripte/lib/konfigurator-provera.mjs`): tabela mora biti ista kao proračun, sadržaj ne sme da skače dok se mere menjaju, strelice na tastaturi i najava za čitač ekrana moraju da rade.
+
+**Kad se formula u programu promeni:** ispravi `docs/MODELI.md` i primer u `docs/modeli-primeri.json`, pa `proracun.js`; check pada dok se ne slože.
+
+**Nov model:** 1) formule i primeri iz programa u `docs/MODELI.md` i `docs/modeli-primeri.json`, 2) stavka u `MODELI` i grana u `izracunaj` (`proracun.js`), 3) dugme u `src/sablon/konfigurator.html` (`data-model` = isti ključ), 4) naziv `konf.model.<ključ>` u svim `tekst/<kod>.json`. Crtež, tabela, krojni plan i animacija ga dobijaju sami.
+
+Krojni plan na sajtu je ilustracija (program nema optimizaciju krojenja); to piše i ispod plana.
+
 ## Uključivanje GitHub Pages
 
 1. GitHub → repozitorijum → **Settings → Pages → Build and deployment → Source: „GitHub Actions“**. (Workflow pokušava i sam da uključi Pages, ali GitHub to ne dozvoljava tokenu radnje na ovom repozitorijumu, pa je ovaj klik obavezan. **Važno:** Pages na *privatnom* repozitorijumu postoji samo uz GitHub Pro/Team; na besplatnom nalogu repozitorijum mora da bude javan — Settings → General → Danger zone → Change visibility. Sajt je ionako javan.)
@@ -155,6 +171,8 @@ Lokalno treba Chromium (Playwright): `npx playwright install chromium` jednom.
 ## Odluke i izvori
 
 - `docs/ODLUKE.md` — šta je odlučeno samostalno i zašto.
+- `docs/MODELI.md` — šta program računa (modeli, formule, izvoz, provera tvrdnji) i odakle.
+- `docs/IZVESTAJ-DIZAJN.md` — izveštaj novog dizajna početne (Zadatak 4).
 - `slike/IZVORI.md` — poreklo i licenca svake slike.
 - `docs/PREVODJENJE.md` — pravila i rečnik za prevodioce.
 

@@ -3,12 +3,9 @@ import { pokreniKretanje, smanjeno } from "./kretanje.js";
 import { pokreniTraku } from "./traka.js";
 import { pokreniJezik } from "./jezik.js";
 import { pokreniKakoRadi } from "./kako-radi.js";
-import { pokreniKorpus } from "./korpus.js";
 import { pokreniNiz } from "./niz.js";
 import { pokreniGaleriju } from "./galerija.js";
 import { pokreniObrasce } from "./obrazac.js";
-import { pokreniKonfigurator } from "./konfigurator.js";
-import { pokreniSpisak } from "./spisak.js";
 
 const VENDOR = ["gsap.min.js", "ScrollTrigger.min.js", "lenis.min.js"];
 
@@ -20,7 +17,16 @@ function ucitajVendor() {
   })), Promise.resolve());
 }
 
-function osnovno() { pokreniTraku(); pokreniJezik(); pokreniObrasce(); pokreniSpisak(); pokreniKonfigurator(); if (smanjeno) pokreniKorpus(); }
+const imaKonfigurator = () => !!document.getElementById("konfigurator");
+
+/** Konfigurator, spisak i scena korpusa postoje samo na početnoj: ostale stranice te module ne učitavaju. */
+async function pocetna() {
+  const [spisak, konfigurator] = await Promise.all([import("./spisak.js"), import("./konfigurator.js")]);
+  spisak.pokreniSpisak(); konfigurator.pokreniKonfigurator();
+  if (smanjeno) (await import("./korpus.js")).pokreniKorpus();
+}
+
+function osnovno() { pokreniTraku(); pokreniJezik(); pokreniObrasce(); if (imaKonfigurator()) pocetna(); }
 
 async function pokreti() {
   if (smanjeno) return; // bez pokreta sajt je potpun: tekst, slike i raspored su u HTML-u
@@ -28,7 +34,7 @@ async function pokreti() {
   if (!window.gsap) return;
   pokreniKretanje();
   pokreniKakoRadi();
-  pokreniKorpus();
+  if (imaKonfigurator()) (await import("./korpus.js")).pokreniKorpus();
   pokreniNiz();
   pokreniGaleriju();
   window.ScrollTrigger?.refresh();

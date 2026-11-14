@@ -37,3 +37,31 @@ Zadatak je rekao: odluke donosi sam i zapiši ih. Ovo je spisak, od najvažnijih
 30. **`dist/` je uklonjen iz git-a** (bio je greškom ubačen u ranom commitu pre pravila u .gitignore); gradi ga samo GitHub Actions i lokalni `npm run build`.
 31. **Provera ima `--port=N`** da bi dva merenja mogla da idu istovremeno (npr. `--seo` i puna provera) bez sudara na istom portu.
 32. **Prevodi koji su pali na limitu (el, sv, fi, uk) nisu rađeni ponovo:** nastavljeni su od sačuvanog stanja, samo fajlovi koji su falili; provera ključeva (`tabela.mjs` u izveštaju) potvrđuje 206/206 ključeva u svim 23 JSON-a.
+
+## Zadatak 4 (novi dizajn početne: modeli, konfiguracija, spisak za sečenje)
+
+Vlasnik nije bio tu. Pravilo: nejasno se rešava najopreznije (tvrdnja se izostavi, ništa se ne izmišlja).
+
+33. **Konfigurator ima 7 modela, onih čije su formule potvrđene pokretanjem koda programa (0.1.66):** Element sa vratima, Element sa fiokama, Viseći element sa vratima, Otvoreni viseći element, Visoki ostavinski element, Ormar, Komoda sa fiokama. Klizni plakar, ugaoni L, sudopera, rerna, aspirator i ostali postoje u programu, ali im formule nisu izvođene, pa ih u konfiguratoru nema (`docs/MODELI.md`, tačka 9).
+34. **Granice mera u konfiguratoru su uže od granica programa.** Program dozvoljava širinu 50 – 6000, visinu 10 – 4000, dubinu 10 – 2000 za svaki model; po modelu granice nisu definisane. Sajt nudi samo raspon u kome su formule proverene i element ima smisla (npr. donji 300 – 1200 × 600 – 900 × 400 – 650). Brojevi su u `src/skripte/proracun.js` (`MODELI`). Korak je 10 mm kao klizač u programu; u polje se upisuje bilo koji ceo broj.
+35. **Ormar je ograničen na širinu 1000 mm** jer program preko toga dodaje uspravnu pregradu, a ta formula nije proverena na sajtu. Unutrašnjost ormara je „police + šipka“ (podrazumevana u programu).
+36. **Broj fioka se sam smanji kad sanduk ne bi stao** (najmanja visina sanduka 50 mm), kao što bi program javio upozorenje. Sajt ne prikazuje element koji program ne bi napravio bez upozorenja.
+37. **Podešavanja su podrazumevana i ne menjaju se na sajtu:** ploča 18 mm, leđa 3 mm prikucana spolja, kant 0,45 mm korpus i 1 mm front, GTV kuglični klizači sa drvenim sandukom fioke. To piše ispod polja („Na sajtu važe podrazumevana podešavanja…“).
+38. **Izbor fronta = izbor dezena (bela, siva, drvo, crna).** Program nema vrste frontova u smislu reljefa ili rama (`docs/MODELI.md`, tačka 3), ima dezen po frontu. Zato četiri sličice menjaju samo boju crteža, ne mere. Podrazumevano je „drvo“ jer je korpus u programu beo, a front u dezenu.
+39. **Krojni plan je ILUSTRACIJA, ne optimizacija krojenja.** Program nema optimizaciju kroja (samo procenu broja tabli sa iskorišćenjem 80 %). Sajt slaže delove red po red na tablu 2800 × 2070 (lesonit 2750 × 1830) i ispod piše: „Ovo je ilustracija rasporeda, ne optimizacija krojenja.“ Broj tabli i iskorišćenje se ne prikazuju.
+40. **Zbir kanta je bez otpada, m² je čista površina,** kao u redu korpusa u kartici „Krojne mere“. Otpad 10 % program dodaje tek u kartici Materijali; sajt to ne prikazuje.
+41. **Mera u tabeli se piše kao u kartici „Po meri“** (prva mera = pravac goda, npr. front 717 × 597), jer je tako i na snimku programa koji je već na sajtu.
+42. **Okov i cena nisu u tabeli na sajtu.** Program ih računa, ali pravila okova zavise od podešavanja radionice, a cene upisuje majstor (neupisana je nula). Sajt kaže da ih program daje (lista sa štiklama), bez brojeva.
+43. **Animacija „korpus → krojni plan“ crta element iz konfiguratora.** Stara scena sa upisanim merama jednog korpusa je zamenjena scenom koja se gradi iz istog rezultata kao tabela. Prvi natpis pod scenom je rečenica sa stvarnim merama.
+44. **Sadržaj postoji i bez JavaScript-a:** build crta podrazumevani element (crtež, tabelu, zbirove, krojni plan) u HTML, isti modul (`proracun.js`) koji radi u pregledaču.
+45. **Odeljak „tri činjenice“ je uklonjen sa početne.** Njegovo mesto su preuzele četiri prednosti u vrhu i traka mogućnosti; isti sadržaj dvaput bi bio ponavljanje.
+46. **Meni: Mogućnosti, Modeli, Saveti, Pitanja + jezik + dugme.** „Kako radi“, „Galerija“ i „Cena“ su izašli iz menija (odeljci su ostali na stranici). „Cena“ nije u meniju jer cena nije objavljena. Dugme „Preuzmi“ je u meniju vidljivo stalno (ranije se na početnoj pojavljivalo tek kad dugme iz vrha izađe sa ekrana), kao u uzoru.
+47. **Gornja traka je tamna samo na početnoj;** na ostalim stranicama (rečnik, vodiči, namena, pitanja, preuzimanje) ostala je svetla.
+48. **Tvrdnje iz uzora koje nisu potvrđene su izostavljene** (spisak i razlog u `docs/IZVESTAJ-DIZAJN.md`): 14 dana, bez kartice, EU standardi, podrška na evropskim jezicima, Prijava, Cene, video, znak ®, garderoberi, reljefni frontovi. Klizna vrata postoje u programu, ali nisu u konfiguratoru (tačka 33); pominju se samo tamo gde su već bila u tekstovima po nameni.
+49. **„Windows · srpski i engleski“ je ostavljeno jer je to vlasnik napisao u zadatku,** iako je u verziji 0.1.66 izbor jezika isključen za kupca (`src/features.ts:97-103` u programu). Pitanje je u izveštaju; ako engleski ne ide u prodaju, menja se jedan ključ (`hero.sitno`) i rečenica o jeziku programa.
+50. **Kartice „Šta možeš da projektuješ“: kuhinje, plakari, komode.** Kuhinja ima pravi snimak programa. Za plakar i komodu nema snimka u `slike/izvor/`, pa su crteži iz istog crtača kao konfigurator. „Male radionice“ i „monteri“ su linkovi ispod kartica (to su ciljne grupe, ne nameštaj).
+51. **Natpis „This page is also available in English“** se ne nudi na srpskoj i hrvatskoj stranici (`bezPredloga` u `tekst/jezici.json`).
+52. **Pravilo „fajl ≤ 300 redova“ ne važi za `docs/`.** `docs/modeli-primeri.json` (primeri iz programa za test formula) ima 15 hiljada redova i nije kod.
+53. **Kartice konfiguratora idu jedna ispod druge ispod 1180 px,** ne ispod 960 px: u ruskom, mađarskom i finskom polja ne staju u tri uske kartice.
+54. **Na telefonu tabela ne prikazuje kolonu debljine** (vidi se iz naziva dela: „Leđa (lesonit)“, „Dno fioke (lesonit)“), da bi cela tabela stala u ekran bez prevlačenja.
+55. **Dugačke reči u naslovima se lome** (`hyphens: auto`). Nemački, finski i holandski naslov odeljka mogućnosti je na telefonu širio stranicu; greška je postojala i pre ovog zadatka.
