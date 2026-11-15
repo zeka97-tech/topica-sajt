@@ -33,6 +33,8 @@ function osnovno() {
 
 async function pokreti() {
   if (smanjeno) return; // bez pokreta sajt je potpun: tekst, slike i raspored su u HTML-u
+  // GSAP / Lenis trebaju samo zakačenim scenama (stranica Mogućnosti); početna po uzoru ih nema i ne učitava ih
+  if (!document.querySelector("#korpus, #koraci-programa, #niz, #galerija")) return;
   await ucitajVendor();
   if (!window.gsap) return;
   pokreniKretanje();

@@ -1,5 +1,5 @@
 /* namene.css — „Šta sve možeš da projektuješ?": pet kartica sa slikom (ilustracija), naslovom, opisom i zlatnom strelicom */
-.kategorije { margin-bottom: var(--r-u-17); }
+.kategorije { margin-bottom: var(--r-u-17); scroll-margin-top: var(--s-u-traka); }
 .mini-naslov { display: flex; align-items: end; justify-content: space-between; gap: var(--r-4); padding: var(--r-u-5) var(--r-u-3) var(--r-u-10); }
 .mini-naslov h2 { margin: 0; font-size: var(--f-u-18); letter-spacing: var(--ls-h3); }
 .mini-naslov > p { color: var(--c-tekst-3); font-size: var(--f-u-12); margin: 0 0 var(--r-u-3); }
