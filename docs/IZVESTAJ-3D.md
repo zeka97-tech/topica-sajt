@@ -73,7 +73,40 @@ Sve je upisano u `slike/IZVORI.md`. Unsplash, Pexels, Pixabay, ambientCG i Poly 
 
 ## Provera
 
-PROVERA_BLOK
+`npm run build`: 1127 stranica, 23 jezika (nova stranica „Mogućnosti" na svakom jeziku). `npm run check` prolazi bez greške:
+
+- red u kodu, tokeni i prevodi (isti ključevi u 23 jezika): ✓
+- formule i okov: 44 primera iz programa se slažu (daske, kant, m², okov); 3 su van granica konfiguratora
+- pregledač: 1127 stranica bez greške
+- konfigurator: 7 modela na 1440 i 390; tabela i lista okova uvek iste kao proračun; 3D se učitava i platno ima tekstualni opis; sa smanjenim kretanjem ostaje 2D bez 3D-a; strelice na tastaturi i najava za čitač ekrana rade
+- smanjeno kretanje na stranici Mogućnosti: bez zakačenih scena
+
+Pomeranje sadržaja (CLS):
+
+| | Po Lighthouse pravilu | Odmah posle klika |
+|---|---|---|
+| 1440 | 0,000 | 0,12 |
+| 390 | 0,000 | 0,14 |
+
+Pomeranje odmah posle klika nastaje kad se promeni kartica desno ili model, pa panel promeni visinu. Lighthouse ga ne računa (promena koju je izazvao korisnik).
+
+Lighthouse (mobilni, bolje od dva merenja):
+
+| Stranica | Performanse pre | Performanse posle | Pristupačnost | SEO | Dobra praksa |
+|---|---|---|---|---|---|
+| sr/ | 92 | 94 | 100 | 100 | 100 |
+| en/ | 94 | 96 | 100 | 100 | 100 |
+| de/ | 95 | 96 | 100 | 100 | 100 |
+| sr/preuzimanje | 96 | 98 | 100 | 100 | 100 |
+| en/blog/krojna-lista | 97 | 99 | 100 | 100 | 100 |
+| sr/blog/ | 97 | 99 | 100 | 100 | 100 |
+
+Nijedna stranica nije pala. Šta je pomoglo:
+
+- three.js (370 KB) se učitava tek kad konfigurator uđe u ekran; do tada stoji poster.
+- Početna više ne učitava GSAP i Lenis (79 KB), jer nema zakačenih scena.
+- Deo fonta Inter za č, ć, š, ž sužen je sa 85 KB na 15 KB. To je bio razlog što je srpska početna u prvom merenju imala 89.
+- Konfigurator se pokreće tek kad se stranica učita; crtež, spisak i okov su već u HTML-u.
 
 ## Snimci
 
