@@ -30,5 +30,5 @@ Nijedna nije preuzeta: mrežna politika sesije u kojoj je sajt pravljen blokiral
 | slike/izvor/uzor-komoda-konfigurator.webp | AI slika komode iz uzora — NE objavljuje se (zamenjuje je živi 3D) | ilustracija, obezbedio vlasnik | isto |
 | slike/izvor/konf-poster.png | poster konfiguratora: snimak 3D prikaza sajta (`skripte/poster.mjs`) | izvedeno | vlasništvo vlasnika |
 | slike/dezeni/mat-oak.webp, mat-sonoma.webp, mat-walnut.webp (+ mini/) | teksture dezena Hrast natur, Hrast sonoma, Orah — iste datoteke kao u programu (TOPICA `public/dezeni/`) | ambientCG: Wood049, Wood014, Wood013 (https://ambientcg.com), po `docs/DEZENI-IZVORI.md` programa | CC0 1.0 |
-| fontovi/inter-*.woff2 | font Inter (@fontsource-variable/inter 5.3.0) | npm | SIL OFL 1.1 (`fontovi/LICENSE-inter`) |
+| fontovi/inter-*.woff2 | font Inter (@fontsource-variable/inter 5.3.0); latin-ext sužen na Latin Extended-A + ș ț (fonttools pyftsubset) | npm | SIL OFL 1.1 (`fontovi/LICENSE-inter`), menjanje i sužavanje dozvoljeno |
 | vendor/three.*.min.js, vendor/RoomEnvironment.js | three.js 0.185.1 (ista verzija kao program) | npm | MIT (`vendor/LICENSE-three`) |

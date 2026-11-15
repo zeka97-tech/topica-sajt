@@ -27,7 +27,8 @@ async function pocetna() {
 
 function osnovno() {
   pokreniTraku(); pokreniJezik(); pokreniObrasce();
-  if (imaKonfigurator()) pocetna();
+  // crtež, spisak i okov su već u HTML-u (build): moduli konfiguratora se pokreću tek kad je stranica učitana i pregledač slobodan
+  if (imaKonfigurator()) { const kad = () => (window.requestIdleCallback || setTimeout)(pocetna); if (document.readyState === "complete") kad(); else window.addEventListener("load", kad); }
   else if (smanjeno && document.getElementById("korpus")) import("./korpus.js").then((m) => m.pokreniKorpus());
 }
 
