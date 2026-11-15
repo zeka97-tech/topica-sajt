@@ -5,15 +5,15 @@
 .niz-korpus { position: absolute; bottom: 18%; width: 18.3%; height: 54%; transform: translateX(var(--od, 0)); }
 .niz-korpus .telo { position: absolute; inset: 0; background: linear-gradient(180deg, var(--c-bela-1), var(--c-bela-2)); border: var(--d-linija) solid var(--c-crna-linija); }
 .niz-korpus .front { position: absolute; inset: 1.5% 1.8%; background: url("slike/web/tekstura-hrast-800.webp") center / cover; box-shadow: inset 0 0 0 var(--d-linija) var(--c-crna-linija); }
-.niz-korpus .front.fioke::before, .niz-korpus .front.fioke::after { content: ""; position: absolute; left: 0; right: 0; height: var(--d-linija-2); background: var(--c-plava-tamna); opacity: var(--o-neaktivno); top: 33.3%; }
+.niz-korpus .front.fioke::before, .niz-korpus .front.fioke::after { content: ""; position: absolute; left: 0; right: 0; height: var(--d-linija-2); background: var(--c-crna); opacity: var(--o-neaktivno); top: 33.3%; }
 .niz-korpus .front.fioke::after { top: 66.6%; }
-.niz-korpus .rucka { position: absolute; width: var(--r-1); height: 36%; top: 32%; background: var(--c-plava-tamna); border-radius: var(--d-linija-2); }
+.niz-korpus .rucka { position: absolute; width: var(--r-1); height: 36%; top: 32%; background: var(--c-crna); border-radius: var(--d-linija-2); }
 .niz-korpus.vrata-levo .rucka { right: 8%; } .niz-korpus.vrata-desno .rucka { left: 8%; }
 .niz-korpus .front.fioke .rucka { width: 36%; height: var(--d-fokus); top: 14%; left: 32%; }
 .niz-korpus .nogice { position: absolute; left: 10%; right: 10%; bottom: -8%; height: 8%; display: flex; justify-content: space-between; }
 .niz-korpus .nogice i { width: 6%; background: var(--c-nogica); border-radius: 0 0 var(--d-linija-2) var(--d-linija-2); }
 .niz-ploca { position: absolute; left: 20%; width: 56%; bottom: 72%; height: 4.5%; background: linear-gradient(180deg, var(--c-radna-ploca-1), var(--c-radna-ploca-2)); border-radius: var(--d-fokus); transform: translateY(var(--od-gore, 0)); opacity: var(--vidljivo, 1); box-shadow: var(--senka-ploca); }
 .niz-cokla { position: absolute; left: 21%; width: 54%; bottom: 11%; height: 7%; background: url("slike/web/tekstura-hrast-800.webp") center / cover; box-shadow: inset 0 0 0 100vmax var(--c-crna-senka-4); opacity: var(--vidljivo, 1); }
-.niz-mera { position: absolute; left: 20%; width: 56%; bottom: 82%; height: var(--r-5); border-left: var(--d-linija) solid var(--c-plava); border-right: var(--d-linija) solid var(--c-plava); display: grid; place-items: end center; font: var(--w-700) var(--f-14) var(--font); color: var(--c-plava); opacity: var(--vidljivo, 1); }
-.niz-mera::before { content: ""; position: absolute; left: 0; right: 0; top: 50%; border-top: var(--d-linija) solid var(--c-plava); }
-.niz-mera span { background: var(--c-belo); padding: 0 var(--r-2); position: relative; top: calc(-1 * var(--d-linija-2)); }
+.niz-mera { position: absolute; left: 20%; width: 56%; bottom: 82%; height: var(--r-5); border-left: var(--d-linija) solid var(--c-zlatna); border-right: var(--d-linija) solid var(--c-zlatna); display: grid; place-items: end center; font: var(--w-700) var(--f-14) var(--font); color: var(--c-zlatna); opacity: var(--vidljivo, 1); }
+.niz-mera::before { content: ""; position: absolute; left: 0; right: 0; top: 50%; border-top: var(--d-linija) solid var(--c-zlatna); }
+.niz-mera span { background: var(--c-kartica); padding: 0 var(--r-2); position: relative; top: calc(-1 * var(--d-linija-2)); }

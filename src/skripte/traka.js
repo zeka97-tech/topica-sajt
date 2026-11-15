@@ -1,12 +1,8 @@
-// traka.js — gornja traka: malo dugme „Preuzmi" ispod hero-a, meni na telefonu, glatko do sidra
+// traka.js — gornja traka: meni na telefonu, glatko do sidra, zatvaranje liste jezika
 import { skrolujDo } from "./kretanje.js";
 export function pokreniTraku() {
   const traka = document.getElementById("traka");
   if (!traka) return;
-  const hero = document.getElementById("vrh");
-  const osvezi = () => traka.classList.toggle("skrolovano", !hero || window.scrollY > hero.offsetHeight * 0.5);
-  osvezi();
-  window.addEventListener("scroll", osvezi, { passive: true });
   const dugme = traka.querySelector(".meni-dugme");
   dugme?.addEventListener("click", () => {
     const otvoreno = traka.classList.toggle("otvoreno");

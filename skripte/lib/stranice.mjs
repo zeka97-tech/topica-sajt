@@ -50,7 +50,7 @@ export class Graditelj {
       ogSlika: this.sajt.url + this.ogSlika(o.kod), ogLocale: jezik.ogLocale,
       hreflang: hreflang.join("\n"), ldJson: JSON.stringify(o.ldJson || {}),
       formspreeUrl: this.sajt.formspreeId ? `https://formspree.io/f/${this.sajt.formspreeId}` : "",
-      jezikLista, trakaKlasa: o.putanja === "index.html" ? " tamna uvek-cta" : " uvek-cta",
+      jezikLista,
       bezPredloga: jezik.bezPredloga ? "1" : "",
       preload: o.putanja === "index.html" ? `<link rel="preload" as="image" href="${koren}slike/web/snimak-41-kuhinja-sonoma-bela-laminat-800.webp" imagesrcset="${koren}slike/web/snimak-41-kuhinja-sonoma-bela-laminat-800.webp 800w, ${koren}slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp 1366w" imagesizes="(max-width: 860px) 92vw, 560px" fetchpriority="high">` : "",
       // placeholder linkovi (#) se prikazuju kao običan tekst dok ih vlasnik ne upiše u tekst/sajt.json

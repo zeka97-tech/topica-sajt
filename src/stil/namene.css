@@ -1,12 +1,12 @@
 /* namene.css — „Šta možeš da projektuješ": kartice vode na stranice po nameni; slika je snimak programa ili crtež modela */
 .namene { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--r-5); margin-top: var(--r-9); }
 .namena { display: block; color: var(--c-tekst); border-radius: var(--rad-kartica); background: var(--c-podloga-2); padding: var(--r-4) var(--r-4) var(--r-6); transition: background-color var(--t-brzo) var(--t-krivulja); }
-.namena:hover { background: var(--c-plava-svetla); }
-.namena-slika { aspect-ratio: 16 / 10; border-radius: var(--rad-slika); overflow: hidden; background: var(--c-belo); border: var(--d-linija) solid var(--c-linija); margin-bottom: var(--r-5); }
+.namena:hover { background: var(--c-zlatna-podloga); }
+.namena-slika { aspect-ratio: 16 / 10; border-radius: var(--rad-slika); overflow: hidden; background: var(--c-kartica); border: var(--d-linija) solid var(--c-linija); margin-bottom: var(--r-5); }
 .namena-slika img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 40%; }
-.namena-crtez { background: radial-gradient(90% 90% at 70% 35%, var(--c-sjaj-1) 0, var(--c-sjaj-2) 55%, var(--c-plava-tamna) 100%); padding: var(--r-4); }
+.namena-crtez { background: radial-gradient(90% 90% at 70% 35%, var(--c-sjaj-1) 0, var(--c-sjaj-2) 55%, var(--c-crna) 100%); padding: var(--r-4); }
 .namena h3 { margin: 0 var(--r-2) var(--r-1); display: flex; justify-content: space-between; align-items: baseline; }
-.namena h3 .strelica { color: var(--c-plava); transition: transform var(--t-brzo) var(--t-krivulja); }
+.namena h3 .strelica { color: var(--c-zlatna); transition: transform var(--t-brzo) var(--t-krivulja); }
 .namena:hover h3 .strelica { transform: translateX(var(--r-1)); }
 .namena p { margin: 0 var(--r-2); color: var(--c-tekst-2); font-size: var(--f-17); }
 .namene-jos { margin-top: var(--r-5); display: flex; flex-wrap: wrap; gap: var(--r-2) var(--r-7); }

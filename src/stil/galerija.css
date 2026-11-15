@@ -1,5 +1,5 @@
 /* galerija.css — tamno; horizontalni red vezan za vertikalni skrol (na telefonu običan horizontalni skrol) */
-.galerija { background: var(--c-plava-tamna); color: var(--c-belo); overflow: clip; }
+.galerija { background: var(--c-crna); color: var(--c-belo); overflow: clip; }
 .galerija-visina { height: 300vh; }
 .galerija-lepljivo { position: sticky; top: 0; height: 100vh; display: flex; flex-direction: column; justify-content: center; gap: var(--r-8); padding: var(--r-13) 0 var(--r-9); }
 .galerija-traka { display: flex; gap: var(--r-7); padding-left: max(var(--r-6), calc((100vw - var(--s-okvir)) / 2)); will-change: transform; }

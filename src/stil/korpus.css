@@ -1,5 +1,5 @@
 /* korpus.css — tamni odeljak: nacrtan korpus (CSS 3D) se rastavlja, daske legnu na ploču, krojna lista */
-.korpus { background: var(--c-plava-tamna); color: var(--c-belo); overflow: clip; }
+.korpus { background: var(--c-crna); color: var(--c-belo); overflow: clip; }
 .korpus-visina { height: 400vh; }
 .korpus-lepljivo { position: sticky; top: 0; height: 100vh; display: grid; grid-template-rows: auto 1fr auto; padding: var(--r-pin-gore) 0 var(--r-pin-dole); }
 .korpus-naslov { text-align: center; }
@@ -14,7 +14,7 @@
 .lice-bela-ivica { background: linear-gradient(180deg, var(--c-bela-ivica-1), var(--c-bela-ivica-2)); }
 .lice-lesonit { background: linear-gradient(135deg, var(--c-lesonit-1), var(--c-lesonit-2)); }
 .lice-lesonit-ivica { background: var(--c-lesonit-ivica); }
-.kota { position: absolute; left: 50%; top: 50%; transform-origin: 0 0; white-space: nowrap; font: var(--w-700) var(--f-15) / var(--lh-1) var(--font); color: var(--c-plava-tamna); background: var(--c-belo); padding: var(--r-2) var(--r-3); border-radius: var(--rad-pilula); opacity: 0; box-shadow: var(--senka-kota); pointer-events: none; }
+.kota { position: absolute; left: 50%; top: 50%; transform-origin: 0 0; white-space: nowrap; font: var(--w-700) var(--f-15) / var(--lh-1) var(--font); color: var(--c-crna); background: var(--c-belo); padding: var(--r-2) var(--r-3); border-radius: var(--rad-pilula); opacity: 0; box-shadow: var(--senka-kota); pointer-events: none; }
 .kota small { font-weight: var(--w-600); opacity: var(--o-kota-naziv); margin-left: var(--r-1); }
 .korpus-omot { position: absolute; inset: 0; transform-origin: 50% 50%; }
 .plan-table { position: absolute; inset: 0; opacity: 0; }

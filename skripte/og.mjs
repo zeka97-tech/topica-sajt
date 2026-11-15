@@ -13,11 +13,11 @@ const sablon = readFileSync(path.join(KOREN, "src", "sablon", "og.html"), "utf8"
 mkdirSync(path.join(KOREN, "slike", "og"), { recursive: true });
 mkdirSync(path.join(KOREN, "src", "sablon", "og-tmp"), { recursive: true });
 
-// favicon: glava maskote (isečak iz topi-meri-korpus-isecen.png), 32 i 180 px, bela podloga sa blagim zaobljenjem
+// favicon: glava maskote (isečak iz topi-meri-korpus-isecen.png), 32 i 180 px, crna podloga (kao sajt) sa blagim zaobljenjem
 const glava = sharp(path.join(KOREN, "slike", "izvor", "topi-meri-korpus-isecen.png")).extract({ left: 0, top: 0, width: 720, height: 720 });
 for (const v of [32, 180]) {
   const okrugao = Buffer.from(`<svg><rect x="0" y="0" width="${v}" height="${v}" rx="${Math.round(v * 0.22)}" ry="${Math.round(v * 0.22)}"/></svg>`);
-  await glava.clone().resize(v, v, { fit: "cover" }).flatten({ background: "#ffffff" }).composite([{ input: okrugao, blend: "dest-in" }]).png().toFile(path.join(KOREN, "slike", `favicon-${v}.png`));
+  await glava.clone().resize(v, v, { fit: "cover" }).flatten({ background: "#0d0e10" }).composite([{ input: okrugao, blend: "dest-in" }]).png().toFile(path.join(KOREN, "slike", `favicon-${v}.png`));
 }
 console.log("✓ favicon-32.png, favicon-180.png");
 

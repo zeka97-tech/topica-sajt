@@ -8,7 +8,7 @@
   *, *::before, *::after { transition-duration: 0s !important; animation: none !important; }
   .korpus-visina, .galerija-visina, .kako-visina { height: auto; }
   .korpus-lepljivo, .galerija-lepljivo, .kako-lepljivo { position: static; height: auto; }
-  .korak { opacity: 1; background: var(--c-belo); }
+  .korak { opacity: 1; background: var(--c-kartica); }
   .kako-ekran { position: relative; opacity: 1; margin-bottom: var(--r-4); }
   .natpis { position: static; opacity: 1; margin-bottom: var(--r-2); }
   .korpus-natpisi { height: auto; }

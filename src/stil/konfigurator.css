@@ -1,19 +1,19 @@
 /* konfigurator.css — „Konfiguriši nameštaj po meri": tri kartice (izaberi → podesi → rezultat) na tamnoj podlozi */
-.konf { background: var(--c-plava-tamna); position: relative; padding: var(--r-13) 0 var(--r-odeljak); }
+.konf { background: var(--c-crna); position: relative; padding: var(--r-13) 0 var(--r-odeljak); }
 .konf .okvir { position: relative; }
 .konf h2 { margin-bottom: var(--r-3); }
-.konf .vodeci { color: var(--c-na-tamnom-plavo); margin-bottom: var(--r-10); }
+.konf .vodeci { color: var(--c-tekst-2); margin-bottom: var(--r-10); }
 .konf-kartice { display: grid; grid-template-columns: 1fr auto 1fr auto 1fr; gap: var(--r-3); align-items: stretch; }
-.konf-kartica { background: var(--c-tamno-kartica); border: var(--d-linija) solid var(--c-tamno-linija); border-radius: var(--rad-kartica); padding: var(--r-6); display: flex; flex-direction: column; gap: var(--r-4); min-width: 0; }
+.konf-kartica { background: var(--c-kartica); border: var(--d-linija) solid var(--c-zlatna-okvir); box-shadow: var(--senka-sjaj); border-radius: var(--rad-kartica); padding: var(--r-6); display: flex; flex-direction: column; gap: var(--r-4); min-width: 0; }
 .konf-glava { display: grid; grid-template-columns: auto 1fr; gap: 0 var(--r-3); align-items: center; }
-.konf-glava .korak-broj { grid-row: span 2; margin: 0; background: var(--c-narandzasta); color: var(--c-plava-tamna); }
+.konf-glava .korak-broj { grid-row: span 2; margin: 0; background: var(--c-zlatna); color: var(--c-crna); }
 .konf-glava h3 { font-size: var(--f-20); }
-.konf-glava p { color: var(--c-na-tamnom-plavo); font-size: var(--f-15); }
-.konf-strelica { align-self: center; color: var(--c-narandzasta); font-size: var(--f-30); font-weight: var(--w-800); }
+.konf-glava p { color: var(--c-tekst-2); font-size: var(--f-15); }
+.konf-strelica { align-self: center; color: var(--c-zlatna); font-size: var(--f-30); font-weight: var(--w-800); }
 .konf-modeli { display: grid; gap: var(--r-2); }
 .konf-model { display: flex; align-items: center; justify-content: space-between; gap: var(--r-2); width: 100%; min-height: var(--s-korak-dugme); padding: var(--r-2) var(--r-4); border-radius: var(--rad-12); border: var(--d-linija) solid var(--c-tamno-polje-ivica); background: var(--c-tamno-polje); color: var(--c-belo); font: var(--w-600) var(--f-16) var(--font); text-align: left; cursor: pointer; transition: background-color var(--t-brzo) var(--t-krivulja); }
 .konf-model:hover { background: var(--c-tamno-polje-jace); }
-.konf-model[aria-checked="true"] { background: var(--c-narandzasta); border-color: var(--c-narandzasta); color: var(--c-plava-tamna); }
+.konf-model[aria-checked="true"] { background: var(--c-zlatna); border-color: var(--c-zlatna); color: var(--c-crna); }
 .konf-crtez { height: var(--s-crtez-v-mali); margin-top: auto; }
 .konf-crtez-veliki { height: var(--s-crtez-v); }
 .konf-polja { display: grid; gap: var(--r-3); }
@@ -26,10 +26,10 @@
 .korak-polje button:disabled { opacity: var(--o-neaktivno); cursor: default; }
 .korak-polje input { width: var(--s-polje-broj); height: var(--s-korak-dugme); border: 0; background: transparent; color: var(--c-belo); font: var(--w-700) var(--f-17) var(--font); text-align: right; font-variant-numeric: tabular-nums; -moz-appearance: textfield; appearance: textfield; padding: 0; }
 .korak-polje input::-webkit-outer-spin-button, .korak-polje input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
-.korak-polje .jedinica { color: var(--c-na-tamnom-plavo); font-size: var(--f-14); padding: 0 var(--r-2) 0 var(--r-1); min-width: var(--r-8); }
+.korak-polje .jedinica { color: var(--c-tekst-2); font-size: var(--f-14); padding: 0 var(--r-2) 0 var(--r-1); min-width: var(--r-8); }
 .konf-frontovi { display: flex; gap: var(--r-2); flex-wrap: wrap; }
 .konf-front { width: var(--s-uzorak); height: var(--s-uzorak); border-radius: var(--rad-10); border: var(--d-linija-2) solid var(--c-tamno-polje-ivica); cursor: pointer; padding: 0; }
-.konf-front[aria-checked="true"] { border-color: var(--c-narandzasta); box-shadow: 0 0 0 var(--d-linija-2) var(--c-narandzasta); }
+.konf-front[aria-checked="true"] { border-color: var(--c-zlatna); box-shadow: 0 0 0 var(--d-linija-2) var(--c-zlatna); }
 .konf-front[data-front="bela"] { background: var(--c-crt-lice); } .konf-front[data-front="siva"] { background: var(--c-crt-bok); }
 .konf-front[data-front="drvo"] { background: var(--c-crt-front-ivica); } .konf-front[data-front="crna"] { background: var(--c-uzorak-crna); }
 .konf .stikle { margin: 0; font-size: var(--f-16); display: flex; flex-wrap: wrap; gap: var(--r-2) var(--r-3); }

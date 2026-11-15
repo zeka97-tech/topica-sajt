@@ -1,22 +1,22 @@
 /* crtez.css — boje i linije izometrijskih crteža (crtez.js) i krojnog plana */
 .crtez { display: block; width: 100%; height: 100%; overflow: visible; }
-.crtez polygon, .crtez line { stroke: var(--c-plava-tamna); stroke-width: var(--d-crt); stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+.crtez polygon, .crtez line { stroke: var(--c-crna); stroke-width: var(--d-crt); stroke-linejoin: round; vector-effect: non-scaling-stroke; }
 .crt-gore { fill: var(--c-crt-gore); } .crt-bok { fill: var(--c-crt-bok); } .crt-lice { fill: var(--c-crt-lice); }
 .crt-cokla-gore, .crt-cokla-lice { fill: var(--c-crt-cokla); } .crt-cokla-bok { fill: var(--c-crt-cokla-2); }
 .crt-front { fill: var(--c-crt-lice); }
 .crtez[data-front="drvo"] .crt-front { fill: var(--c-crt-front-ivica); }
 .crtez[data-front="siva"] .crt-front { fill: var(--c-crt-bok); }
 .crtez[data-front="crna"] .crt-front { fill: var(--c-uzorak-crna); }
-.crtez .crt-rucka { stroke: var(--c-narandzasta); stroke-width: var(--d-fokus); stroke-linecap: round; }
-.crtez[data-front="drvo"] .crt-rucka { stroke: var(--c-plava-tamna); }
+.crtez .crt-rucka { stroke: var(--c-zlatna); stroke-width: var(--d-fokus); stroke-linecap: round; }
+.crtez[data-front="drvo"] .crt-rucka { stroke: var(--c-crna); }
 .crtez .crt-polica { stroke: var(--c-crt-bok); }
 .crt-senka { fill: var(--c-crna-senka-4); filter: blur(var(--blur-senka)); }
-.crt-kota circle, .crt-kota rect { fill: var(--c-narandzasta); }
-.crtez .crt-kota-linija { stroke: var(--c-narandzasta); stroke-width: var(--d-kota); }
-.crt-kota text { fill: var(--c-plava-tamna); font-family: var(--font); font-weight: var(--w-800); }
+.crt-kota circle, .crt-kota rect { fill: var(--c-zlatna); }
+.crtez .crt-kota-linija { stroke: var(--c-zlatna); stroke-width: var(--d-kota); }
+.crt-kota text { fill: var(--c-crna); font-family: var(--font); font-weight: var(--w-800); }
 .plan { display: block; width: 100%; height: auto; }
 .plan-tabla { fill: var(--c-tamno-kartica); stroke: var(--c-na-tamnom-3); stroke-width: var(--d-crt); stroke-dasharray: 6 6; vector-effect: non-scaling-stroke; }
 .plan-deo { fill: var(--c-crt-lice); transition: fill var(--t-brzo) var(--t-krivulja); }
-.plan-front { fill: var(--c-narandzasta); }
-.plan-natpis { fill: var(--c-plava-tamna); font-family: var(--font); font-weight: var(--w-800); }
-.plan-ostatak { fill: var(--c-na-tamnom-plavo); font-family: var(--font); font-weight: var(--w-500); }
+.plan-front { fill: var(--c-zlatna); }
+.plan-natpis { fill: var(--c-crna); font-family: var(--font); font-weight: var(--w-800); }
+.plan-ostatak { fill: var(--c-tekst-2); font-family: var(--font); font-weight: var(--w-500); }

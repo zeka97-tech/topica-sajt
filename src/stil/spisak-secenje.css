@@ -1,26 +1,26 @@
 /* spisak-secenje.css — „Spisak za sečenje": tabela delova iz istih mera, zbirovi i krojni plan table */
-.spisak { background: var(--c-plava-tamna); position: relative; padding: 0 0 var(--r-odeljak); }
+.spisak { background: var(--c-crna); position: relative; padding: 0 0 var(--r-odeljak); }
 .spisak .okvir { position: relative; }
 .spisak h2 { margin-bottom: var(--r-3); }
-.spisak .vodeci { color: var(--c-na-tamnom-plavo); margin-bottom: var(--r-9); }
+.spisak .vodeci { color: var(--c-tekst-2); margin-bottom: var(--r-9); }
 .spisak-mreza { display: grid; grid-template-columns: 1.15fr .85fr; gap: var(--r-6); align-items: start; }
-.secenje-kartica { background: var(--c-tamno-kartica); border: var(--d-linija) solid var(--c-tamno-linija); border-radius: var(--rad-kartica); padding: var(--r-6); min-width: 0; }
-.spisak-opis { color: var(--c-na-tamnom-plavo); font-size: var(--f-15); margin-bottom: var(--r-3); }
+.secenje-kartica { background: var(--c-kartica); border: var(--d-linija) solid var(--c-zlatna-okvir); box-shadow: var(--senka-sjaj); border-radius: var(--rad-kartica); padding: var(--r-6); min-width: 0; }
+.spisak-opis { color: var(--c-tekst-2); font-size: var(--f-15); margin-bottom: var(--r-3); }
 .spisak-omot { overflow-x: auto; }
 .spisak-tabela { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; font-size: var(--f-16); }
-.spisak-tabela th { text-align: left; font-size: var(--f-13); letter-spacing: var(--ls-nadnaslov); text-transform: uppercase; color: var(--c-na-tamnom-plavo); font-weight: var(--w-700); padding: 0 var(--r-3) var(--r-3) 0; white-space: nowrap; }
+.spisak-tabela th { text-align: left; font-size: var(--f-13); letter-spacing: var(--ls-nadnaslov); text-transform: uppercase; color: var(--c-tekst-2); font-weight: var(--w-700); padding: 0 var(--r-3) var(--r-3) 0; white-space: nowrap; }
 .spisak-tabela td { padding: var(--r-3) var(--r-3) var(--r-3) 0; border-top: var(--d-linija) solid var(--c-tamno-linija); color: var(--c-belo); white-space: nowrap; }
 .spisak-tabela td:first-child { font-weight: var(--w-700); white-space: normal; }
 .spisak-tabela .broj, .spisak-tabela th.broj { text-align: right; }
 .spisak-tabela .mera { font-weight: var(--w-800); }
-.spisak-tabela .tiho { color: var(--c-na-tamnom-plavo); }
+.spisak-tabela .tiho { color: var(--c-tekst-2); }
 .spisak-tabela tr.zasvetli td { animation: zasvetli var(--t-zasvetli) ease-out; }
 .spisak-zbir { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--r-3); margin-top: var(--r-5); }
 .spisak-zbir div { background: var(--c-tamno-polje); border-radius: var(--rad-12); padding: var(--r-3) var(--r-4); }
 .spisak-zbir b { display: block; font-size: var(--f-22); font-weight: var(--w-800); color: var(--c-belo); font-variant-numeric: tabular-nums; }
-.spisak-zbir span { font-size: var(--f-14); color: var(--c-na-tamnom-plavo); }
+.spisak-zbir span { font-size: var(--f-14); color: var(--c-tekst-2); }
 .spisak-plan-naslov { font-size: var(--f-20); margin-bottom: var(--r-1); }
-.spisak-napomena { color: var(--c-na-tamnom-plavo); font-size: var(--f-14); margin-top: var(--r-3); }
+.spisak-napomena { color: var(--c-tekst-2); font-size: var(--f-14); margin-top: var(--r-3); }
 @keyframes zasvetli { from { background: var(--c-zasvetli); } to { background: transparent; } }
 @media (max-width: 960px) { .spisak-mreza { grid-template-columns: 1fr; } .spisak-zbir { grid-template-columns: 1fr; } }
 /* telefon: tabela staje u ekran — debljina se ne prikazuje (vidi se iz naziva dela), zaglavlje i kant smeju u dva reda */
