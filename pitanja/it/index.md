@@ -13,7 +13,7 @@ Queste sono le domande che gli artigiani scrivono davvero nel motore di ricerca 
 
 ## Quanto costa il software per cucine TOPICA?
 
-La versione di prova è gratuita, senza account e senza carta. Il prezzo della versione completa non l'abbiamo ancora pubblicato; appena sarà noto, sarà scritto nella sezione [Prezzo](../#cena), e lì puoi lasciare l'e-mail per ricevere un solo messaggio quando esce. Fino ad allora usi la versione di prova sui tuoi progetti e vedi se fa per te prima di pagare qualcosa.
+La versione di prova è gratuita e senza account. Il prezzo della versione completa non l'abbiamo ancora pubblicato; appena sarà noto, sarà scritto nella sezione [Prezzo](../#cena), e lì puoi lasciare l'e-mail per ricevere un solo messaggio quando esce. Fino ad allora usi la versione di prova sui tuoi progetti e vedi se fa per te prima di pagare qualcosa.
 
 ## Funziona su Mac o sul telefono?
 

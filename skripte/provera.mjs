@@ -57,12 +57,12 @@ for (const kod of SAMO_LH || SEO ? [] : izabrani) {
 }
 console.log(`2) pregledač: ${brojStranica} stranica, ${greske.length ? greske.length + " grešaka ukupno" : "✓"}`);
 if (!SAMO_LH && !SEO) {
-  const rm = await proveriSmanjenoKretanje(browser, `http://localhost:${PORT}/sr/`);
+  const rm = await proveriSmanjenoKretanje(browser, `http://localhost:${PORT}/sr/mogucnosti.html`);
   greske.push(...rm);
   console.log(`3) smanjeno kretanje: ${rm.length ? "✗" : "✓"}`);
   const konf = await proveriKonfigurator(browser, `http://localhost:${PORT}/sr/`);
   greske.push(...konf.greske);
-  console.log(`   konfigurator (7 modela, 1440 / 390 / smanjeno kretanje): ${konf.greske.length ? "✗" : "✓"}  CLS dok se mere menjaju: ${Object.entries(konf.cls).map(([k, v]) => `${k} ${v.bezUnosa.toFixed(3)} (sa unosom ${v.sve.toFixed(3)})`).join(" · ")}`);
+  console.log(`   konfigurator (7 modela, 3D, okov, 1440 / 390 / smanjeno kretanje): ${konf.greske.length ? "✗" : "✓"}  CLS dok se mere menjaju: ${Object.entries(konf.cls).map(([k, v]) => `${k} ${v.bezUnosa.toFixed(3)} (sa unosom ${v.sve.toFixed(3)})`).join(" · ")}`);
 }
 
 // 3) snimci (sr i de, 1440 i 390)
@@ -72,6 +72,7 @@ if (!BRZO && !SAMO_LH && !SEO) {
   for (const kod of ["sr", "de"].filter((k) => jezici.includes(k))) {
     for (const w of [1440, 390]) await snimiOdeljke(browser, `http://localhost:${PORT}/${kod}/`, w, kod, dirSnimci);
     await snimiOdeljke(browser, `http://localhost:${PORT}/${kod}/preuzimanje.html`, 1440, `${kod}-preuzimanje`, dirSnimci);
+    await snimiOdeljke(browser, `http://localhost:${PORT}/${kod}/mogucnosti.html`, 1440, `${kod}-mogucnosti`, dirSnimci);
   }
   for (const w of [1440, 390]) await snimiModele(browser, `http://localhost:${PORT}/sr/`, w, "sr", dirSnimci);
   console.log("4) snimci: docs/snimci/ ✓");

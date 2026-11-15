@@ -64,6 +64,7 @@ export async function snimiOdeljke(browser, url, sirina, prefix, dir) {
   await p.goto(url, { waitUntil: "networkidle" });
   await p.waitForTimeout(400);
   await p.screenshot({ path: `${dir}/${prefix}-${sirina}-00-hero.png` });
+  if (/\/$/.test(url)) await p.screenshot({ path: `${dir}/${prefix}-${sirina}-cela.png`, fullPage: true }); // cela početna
   const H = await p.evaluate(() => document.documentElement.scrollHeight);
   for (let y = 0; y < H; y += 400) { await p.evaluate((y) => window.scrollTo(0, y), y); await p.waitForTimeout(30); }
   const sekcije = await p.evaluate(() => [...document.querySelectorAll("section[id]")].map((s) => ({ id: s.id, top: s.offsetTop, h: s.offsetHeight })));

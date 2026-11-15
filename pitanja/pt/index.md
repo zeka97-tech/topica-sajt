@@ -13,7 +13,7 @@ Estas são as perguntas que os marceneiros escrevem de facto no motor de busca e
 
 ## Quanto custa o programa para cozinhas TOPICA?
 
-A versão de teste é gratuita, sem conta e sem cartão. O preço da versão completa ainda não foi anunciado; assim que for conhecido, estará na secção [Preço](../#cena), e aí podes deixar o e-mail para receberes uma única mensagem quando sair. Até lá usas a versão de teste nos teus projetos e vês se te serve antes de pagares seja o que for.
+A versão de teste é gratuita e sem conta. O preço da versão completa ainda não foi anunciado; assim que for conhecido, estará na secção [Preço](../#cena), e aí podes deixar o e-mail para receberes uma única mensagem quando sair. Até lá usas a versão de teste nos teus projetos e vês se te serve antes de pagares seja o que for.
 
 ## Funciona em Mac ou no telemóvel?
 

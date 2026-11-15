@@ -13,7 +13,7 @@ Ezeket a kérdéseket a mesterek tényleg beírják a keresőbe, és felteszik a
 
 ## Mennyibe kerül a TOPICA konyhatervező program?
 
-A próbaverzió ingyenes, fiók és bankkártya nélkül. A teljes verzió árát még nem tettük közzé; amint ismert lesz, az [Árak](../#cena) részben fog szerepelni, és ott megadhatod az e-mail-címed, hogy egyetlen üzenetet kapj, amikor megjelenik. Addig a próbaverziót a saját projektjeiden használod, és megnézed, megfelel-e, mielőtt bármit fizetnél.
+A próbaverzió ingyenes és fiók nélkül használható. A teljes verzió árát még nem tettük közzé; amint ismert lesz, az [Árak](../#cena) részben fog szerepelni, és ott megadhatod az e-mail-címed, hogy egyetlen üzenetet kapj, amikor megjelenik. Addig a próbaverziót a saját projektjeiden használod, és megnézed, megfelel-e, mielőtt bármit fizetnél.
 
 ## Fut Macen vagy telefonon?
 

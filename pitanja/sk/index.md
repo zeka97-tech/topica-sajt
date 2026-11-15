@@ -13,7 +13,7 @@ Toto sú otázky, ktoré majstri naozaj píšu do vyhľadávača a do skupín, k
 
 ## Koľko stojí program na návrh kuchýň TOPICA?
 
-Skúšobná verzia je zadarmo, bez účtu a bez karty. Cenu plnej verzie sme ešte nezverejnili; hneď ako bude známa, bude v časti [Cena](../#cena) a tam môžete nechať e-mail, aby vám prišla jedna správa, keď vyjde. Dovtedy používate skúšobnú verziu na svojich projektoch a vidíte, či vám vyhovuje, skôr než čokoľvek zaplatíte.
+Skúšobná verzia je zadarmo a bez účtu. Cenu plnej verzie sme ešte nezverejnili; hneď ako bude známa, bude v časti [Cena](../#cena) a tam môžete nechať e-mail, aby vám prišla jedna správa, keď vyjde. Dovtedy používate skúšobnú verziu na svojich projektoch a vidíte, či vám vyhovuje, skôr než čokoľvek zaplatíte.
 
 ## Funguje na Macu alebo v mobile?
 

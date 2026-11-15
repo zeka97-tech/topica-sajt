@@ -12,7 +12,7 @@ Das sind die Fragen, die Handwerker wirklich in die Suche tippen und in Gruppen 
 
 ## Was kostet der Küchenplaner TOPICA?
 
-Die Testversion ist kostenlos, ohne Konto und ohne Karte. Den Preis der Vollversion haben wir noch nicht veröffentlicht; sobald er feststeht, steht er im Abschnitt [Preis](../#cena), und dort kannst du deine E-Mail hinterlassen, damit dich eine einzige Nachricht erreicht, wenn er da ist. Bis dahin nutzt du die Testversion an deinen Projekten und siehst, ob sie dir passt, bevor du irgendetwas zahlst.
+Die Testversion ist kostenlos und ohne Konto. Den Preis der Vollversion haben wir noch nicht veröffentlicht; sobald er feststeht, steht er im Abschnitt [Preis](../#cena), und dort kannst du deine E-Mail hinterlassen, damit dich eine einzige Nachricht erreicht, wenn er da ist. Bis dahin nutzt du die Testversion an deinen Projekten und siehst, ob sie dir passt, bevor du irgendetwas zahlst.
 
 ## Läuft es auf dem Mac oder auf dem Handy?
 

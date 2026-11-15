@@ -36,3 +36,4 @@
 .preuzmi-polje { display: flex; gap: var(--r-2); flex-wrap: wrap; align-items: center; }
 .preuzmi-polje input { height: var(--s-dugme); border-radius: var(--rad-pilula); border: var(--d-linija) solid var(--c-linija-jaka); padding: 0 var(--r-5); font: var(--w-500) var(--f-16) var(--font); min-width: 0; flex: 1 1 var(--s-polje-min); background: var(--c-podloga-2); color: var(--c-belo); }
 @media (max-width: 860px) { .zahtevi, .koraci-instalacije, .spisak-kartica { grid-template-columns: 1fr; } .podstrana { padding-top: var(--r-15); } }
+.strana-uvod { padding: var(--r-12) 0 var(--r-8); } .strana-uvod h1 { margin-bottom: var(--r-4); } .strana-uvod .vodeci { margin-bottom: var(--r-6); }

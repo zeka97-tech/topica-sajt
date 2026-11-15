@@ -306,3 +306,26 @@ Prozor „Izveštaji“ („ažurira se uživo“), kartice redom (`src/ui/Repor
 - Granice broja vrata / fioka / polica postoje na dva mesta (tačka 2); najmanja širina po modelu nije definisana.
 - U sobi sused i zid mogu da promene stranu šarki i napomene, ali ne mere dasaka (nije posebno proveravano za svaki slučaj).
 - Primeri: `docs/modeli-primeri.json`; skripte kojima su izračunati su van programa, u privremenom folderu sesije (`…/scratchpad/modeli/`: `lib.ts`, `gen.ts`, `formule.mjs`, `verify.ts`) — nisu sačuvane u sajtu.
+
+## 10. 3D prikaz — kako ga crta program i šta je preneto na sajt (Zadatak 5)
+
+Program crta 3D **three.js-om 0.185.1** preko React Three Fiber-a (`package.json:22-29` u programu). To je web tehnologija, pa je na sajt **prenet isti način crtanja**, bez React-a: isti three.js (vendor/), iste vrednosti, ponovo napisano u običnim ES modulima (`src/skripte/tri-*.js`). Brojevi su na jednom mestu: `src/skripte/tri-podesavanja.js`.
+
+| Šta | U programu | Na sajtu |
+|---|---|---|
+| Crtač | WebGLRenderer, antialias, PCF senke, NeutralToneMapping, ekspozicija 1, dpr 1–2, bez post-obrade (`Scene.tsx:226-233`, `RenderSetup.tsx:28-29`, `renderQuality.ts:10-15`) | isto (`tri-scena.js`) |
+| Okolina | RoomEnvironment kroz PMREM (0,04), jačina 0,45 (`environment.ts:17-28`) | isto |
+| Svetla | hemisfera, topao glavni `#fff2e0` sa senkom 2048, hladniji bočni `#dbe4ff`, slab prednji (`RoomLights.tsx:36-60`, `ShadowLight.tsx:111-126`) | iste boje i odnosi; jačine podignute za tamnu toplu scenu uzora + topao odsjaj iza elementa |
+| Daska | `BoxGeometry` + `MeshStandardMaterial`, hrapavost iz kataloga, metal 0; ivice `EdgesGeometry` `#3c4354` 34 % (`PanelBox.tsx:147-156, 235-272`) | isto (`tri-element.js`, `tri-materijali.js`) |
+| Dezen | slika 1024² (ambientCG, CC0) ili proceduralna „board" tekstura; UV u mm od ugla daske, pločica 900 mm drvo / 500 mm uni, god = V osa (`decorUv.ts:33-71`, `decorTexture.ts:108-134`) | iste slike za Hrast natur, Hrast sonoma, Orah; ista proceduralna tekstura (isti generator brojeva) za uni |
+| Kant | prednja ivica u boji ploče, nekantovana ivica `#cbb48c` (`boardEdges.ts`, `materials.ts:213`) | isto |
+| Frontovi | zazor 1,5 / 3 mm; vrata 110° oko ivice sa šarkama, 0,6 s smoothstep; fioka izlazi za NL (`frontPose.ts:41-74`, `openClock.ts:22`) | isto |
+| Ručka | štangla 12 × 12, stubovi 10 × 10, 30 mm od lica, `#2a2a2a` metal 0,8; 50 mm od ivice; razmak 96–320 po pravilu; donji gore, viseći dole, visoki na 1050 mm (`handles.ts:51-57`, `handleLayout.ts:83-211`) | isto; dugme Ø30 |
+| Nogica | LatheGeometry po profilu, `#35383e`, 60 mm od boka, 70 od leđa, 74 iza lica (`footProfile.ts`, `feet.ts:50-74`) | isto (4 nogice, kao u programu) |
+| Šipka ormara | 26 × 26 mm, `#8f939b` metal 0,85, osa na max(V − 350, 0,6 V), fiksna polica 60 iznad (`wardrobe.ts:63-78`) | isto |
+| Sanduk fioke | `#e3ddd2`, dno lesonit `#c9b896` (`frontBoxes.ts:140-161`) | isto |
+| Kote | Line2 + HTML pločice (`DimLayer.tsx`, `dimLabels.tsx`) | valjci + sprite pločice u zlatnoj boji sajta (`tri-kote.js`) |
+
+Nije preneto (zavisi od React-a / sobe programa ili nije potrebno za jedan element): pečena dodirna senka (zamenjena senkom glavnog svetla na podu), mreža poda, zidovi sobe sa malterom, izbor elementa i obrisi, rendgen, klizači fioka (profili šina), šarke (program ih ne crta u običnom prikazu).
+
+Mere dasaka dolaze iz `src/skripte/proracun.js` (isti rezultat kao spisak za sečenje), položaji dasaka iz `src/skripte/korpus-model.js`. Okov u kartici „Okovi" računa `okovi()` u `proracun.js` (pravila iz tačke 6); test ga poredi sa okovom iz `docs/modeli-primeri.json`.

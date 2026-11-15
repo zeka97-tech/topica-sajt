@@ -10,7 +10,7 @@ Statičan sajt za prodaju programa **TOPICA** (Windows program za stolare: soba 
 ```
 src/sablon/        HTML šabloni: stranica.html (okvir), traka, podnozje, po jedan fajl po odeljku, preuzimanje, hvala, clanak, spisak
 src/stil/          CSS: tokeni.css (JEDINO mesto za boje, razmake, veličine), osnova.css, po odeljku po jedan fajl, animacije.css
-src/skripte/       JS moduli: app.js (ulaz), kretanje (Lenis+GSAP), traka, jezik, kako-radi, niz, galerija, obrazac;
+src/skripte/       JS moduli: app.js (ulaz), kretanje (Lenis+GSAP), traka, jezik, kako-radi, niz, galerija, obrazac; 3D: tri-*.js, konf-3d.js;
                    konfigurator: proracun.js (JEDINO mesto formula), crtez.js (crtež elementa), raspored.js (krojni plan),
                    spisak-prikaz.js (redovi tabele), konfigurator.js, spisak.js, korpus(+model).js (animacija iz istih mera)
 tekst/<kod>.json   SAV tekst sajta, jedan fajl po jeziku, isti ključevi;  tekst/jezici.json (spisak jezika), tekst/sajt.json (e-mail, linkovi…)
@@ -135,6 +135,8 @@ Početna ima konfigurator (`#konfigurator`), spisak za sečenje (`#spisak`) i an
 **Nov model:** 1) formule i primeri iz programa u `docs/MODELI.md` i `docs/modeli-primeri.json`, 2) stavka u `MODELI` i grana u `izracunaj` (`proracun.js`), 3) dugme u `src/sablon/konfigurator.html` (`data-model` = isti ključ), 4) naziv `konf.model.<ključ>` u svim `tekst/<kod>.json`. Crtež, tabela, krojni plan i animacija ga dobijaju sami.
 
 Krojni plan na sajtu je ilustracija (program nema optimizaciju krojenja); to piše i ispod plana.
+
+**3D prikaz** (`src/skripte/tri-*.js`, three.js u `vendor/`) crta isti rezultat kao spisak, po pravilima programa (`docs/MODELI.md`, tačka 10); brojevi su u `src/skripte/tri-podesavanja.js`. Učitava ga `konf-3d.js` tek kad konfigurator uđe u ekran; do tada stoji poster. Kad se 3D promeni: `npm run build`, `node skripte/poster.mjs`, `npm run slike`. Slika vrha (Topi + laptop sa pravim snimkom programa) pravi se sa `python3 skripte/vrh-slika.py`.
 
 ## Uključivanje GitHub Pages
 

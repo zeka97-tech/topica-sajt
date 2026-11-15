@@ -19,3 +19,16 @@ Nijedna nije preuzeta: mrežna politika sesije u kojoj je sajt pravljen blokiral
 2. Sačuvaj u `slike/izvor/foto-<opis>.jpg`, pokreni `npm run slike`.
 3. Dodaj red u ovu tabelu: datoteka · URL stranice slike · autor · licenca.
 4. Ubaci u šablon (npr. `src/sablon/galerija.html`) sa `alt` tekstom iz JSON-a.
+
+## Zadatak 5
+
+| Datoteka | Šta je | Izvor | Licenca |
+|---|---|---|---|
+| slike/izvor/uzor-kuhinje.webp, uzor-plakari.webp, uzor-garderoberi.webp, uzor-komode.webp, uzor-custom.webp | ilustracija prostora za kartice „Šta sve možeš da projektuješ" (izvađene iz uzora `docs/predlog-dizajna/uzor-2/TOPICA_SVE_U_JEDNOM.html`) | ilustracija, obezbedio vlasnik | po dozvoli vlasnika; na sajtu piše da nisu snimci programa |
+| slike/izvor/uzor-vrh.webp | pozadina vrha sa Topijem i laptopom (iz uzora) — NE objavljuje se sama | ilustracija, obezbedio vlasnik | isto |
+| slike/izvor/vrh-topi-laptop.png | uzor-vrh + PRAVI snimak programa (snimak-41) u perspektivi preko ekrana laptopa (`skripte/vrh-slika.py`) | izvedeno | isto |
+| slike/izvor/uzor-komoda-konfigurator.webp | AI slika komode iz uzora — NE objavljuje se (zamenjuje je živi 3D) | ilustracija, obezbedio vlasnik | isto |
+| slike/izvor/konf-poster.png | poster konfiguratora: snimak 3D prikaza sajta (`skripte/poster.mjs`) | izvedeno | vlasništvo vlasnika |
+| slike/dezeni/mat-oak.webp, mat-sonoma.webp, mat-walnut.webp (+ mini/) | teksture dezena Hrast natur, Hrast sonoma, Orah — iste datoteke kao u programu (TOPICA `public/dezeni/`) | ambientCG: Wood049, Wood014, Wood013 (https://ambientcg.com), po `docs/DEZENI-IZVORI.md` programa | CC0 1.0 |
+| fontovi/inter-*.woff2 | font Inter (@fontsource-variable/inter 5.3.0) | npm | SIL OFL 1.1 (`fontovi/LICENSE-inter`) |
+| vendor/three.*.min.js, vendor/RoomEnvironment.js | three.js 0.185.1 (ista verzija kao program) | npm | MIT (`vendor/LICENSE-three`) |

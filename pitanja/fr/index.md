@@ -13,7 +13,7 @@ Voici les questions que les artisans tapent vraiment dans un moteur de recherche
 
 ## Combien coûte le logiciel de cuisine TOPICA ?
 
-La version d'essai est gratuite, sans compte et sans carte. Le prix de la version complète n'est pas encore publié ; dès qu'il sera connu, il figurera dans la section [Tarif](../#cena), où tu peux laisser ton e-mail pour recevoir un seul message quand il sort. D'ici là, tu utilises la version d'essai sur tes projets et tu vois si elle te convient avant de payer quoi que ce soit.
+La version d'essai est gratuite et sans compte. Le prix de la version complète n'est pas encore publié ; dès qu'il sera connu, il figurera dans la section [Tarif](../#cena), où tu peux laisser ton e-mail pour recevoir un seul message quand il sort. D'ici là, tu utilises la version d'essai sur tes projets et tu vois si elle te convient avant de payer quoi que ce soit.
 
 ## Ça marche sur Mac ou sur téléphone ?
 

@@ -13,7 +13,7 @@ Tohle jsou otázky, které řemeslníci opravdu zadávají do vyhledávače a p�
 
 ## Kolik stojí program pro kuchyně TOPICA?
 
-Zkušební verze je zdarma, bez účtu a bez karty. Cenu plné verze jsme ještě neoznámili; jakmile bude známá, bude v části [Cena](../#cena), a tam můžete nechat e-mail, aby vám přišla jedna zpráva, až vyjde. Do té doby používáte zkušební verzi na svých projektech a vidíte, jestli vám vyhovuje, než cokoli zaplatíte.
+Zkušební verze je zdarma a bez účtu. Cenu plné verze jsme ještě neoznámili; jakmile bude známá, bude v části [Cena](../#cena), a tam můžete nechat e-mail, aby vám přišla jedna zpráva, až vyjde. Do té doby používáte zkušební verzi na svých projektech a vidíte, jestli vám vyhovuje, než cokoli zaplatíte.
 
 ## Funguje na Macu nebo na telefonu?
 

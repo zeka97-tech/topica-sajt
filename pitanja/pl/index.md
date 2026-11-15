@@ -13,7 +13,7 @@ To są pytania, które stolarze naprawdę wpisują w wyszukiwarkę i piszą na g
 
 ## Ile kosztuje program do projektowania kuchni TOPICA?
 
-Wersja próbna jest darmowa, bez konta i bez karty. Ceny pełnej wersji jeszcze nie ogłosiliśmy; gdy tylko będzie znana, pojawi się w sekcji [Cennik](../#cena), a tam możesz zostawić e-mail, żeby dostać jedną wiadomość, gdy wyjdzie. Do tego czasu używasz wersji próbnej na własnych projektach i sprawdzasz, czy ci pasuje, zanim cokolwiek zapłacisz.
+Wersja próbna jest darmowa i nie wymaga konta. Ceny pełnej wersji jeszcze nie ogłosiliśmy; gdy tylko będzie znana, pojawi się w sekcji [Cennik](../#cena), a tam możesz zostawić e-mail, żeby dostać jedną wiadomość, gdy wyjdzie. Do tego czasu używasz wersji próbnej na własnych projektach i sprawdzasz, czy ci pasuje, zanim cokolwiek zapłacisz.
 
 ## Czy działa na Macu albo na telefonie?
 

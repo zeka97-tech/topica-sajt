@@ -13,7 +13,7 @@ Det her er de spørgsmål, snedkere faktisk taster i søgefeltet og skriver i gr
 
 ## Hvad koster køkkenprogrammet TOPICA?
 
-Prøveversionen er gratis, uden konto og uden kort. Prisen på den fulde version har vi endnu ikke meldt ud; så snart den kendes, står den i afsnittet [Pris](../#cena), og dér kan du efterlade din e-mail og få én besked, når den kommer. Indtil da bruger du prøveversionen på dine egne projekter og ser, om den passer dig, før du betaler noget.
+Prøveversionen er gratis og uden konto. Prisen på den fulde version har vi endnu ikke meldt ud; så snart den kendes, står den i afsnittet [Pris](../#cena), og dér kan du efterlade din e-mail og få én besked, når den kommer. Indtil da bruger du prøveversionen på dine egne projekter og ser, om den passer dig, før du betaler noget.
 
 ## Virker det på Mac eller på telefonen?
 

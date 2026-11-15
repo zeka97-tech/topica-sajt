@@ -13,7 +13,7 @@ Dit zijn de vragen die vakmensen echt in de zoekmachine typen en in groepen stel
 
 ## Wat kost de keukensoftware TOPICA?
 
-De proefversie is gratis, zonder account en zonder kaart. De prijs van de volledige versie hebben we nog niet bekendgemaakt; zodra die er is, staat hij in het onderdeel [Prijs](../#cena), en daar kun je je e-mailadres achterlaten om één bericht te krijgen als hij uitkomt. Tot die tijd gebruik je de proefversie op je eigen projecten en zie je of hij bij je past voordat je iets betaalt.
+De proefversie is gratis en zonder account. De prijs van de volledige versie hebben we nog niet bekendgemaakt; zodra die er is, staat hij in het onderdeel [Prijs](../#cena), en daar kun je je e-mailadres achterlaten om één bericht te krijgen als hij uitkomt. Tot die tijd gebruik je de proefversie op je eigen projecten en zie je of hij bij je past voordat je iets betaalt.
 
 ## Werkt het op een Mac of op de telefoon?
 

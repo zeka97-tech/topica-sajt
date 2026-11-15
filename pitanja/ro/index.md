@@ -13,7 +13,7 @@ Astea sunt întrebările pe care meseriașii chiar le tastează în motorul de c
 
 ## Cât costă programul pentru bucătării TOPICA?
 
-Versiunea de probă e gratuită, fără cont și fără card. Prețul versiunii complete nu l-am publicat încă; de îndată ce se știe, va scrie în secțiunea [Preț](../#cena), iar acolo poți lăsa e-mailul ca să primești un singur mesaj când apare. Până atunci folosești versiunea de probă pe proiectele tale și vezi dacă ți se potrivește înainte să plătești ceva.
+Versiunea de probă e gratuită și fără cont. Prețul versiunii complete nu l-am publicat încă; de îndată ce se știe, va scrie în secțiunea [Preț](../#cena), iar acolo poți lăsa e-mailul ca să primești un singur mesaj când apare. Până atunci folosești versiunea de probă pe proiectele tale și vezi dacă ți se potrivește înainte să plătești ceva.
 
 ## Merge pe Mac sau pe telefon?
 

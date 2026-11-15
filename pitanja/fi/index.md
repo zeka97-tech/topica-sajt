@@ -13,7 +13,7 @@ Nämä ovat kysymyksiä, joita tekijät oikeasti kirjoittavat hakukoneeseen ja r
 
 ## Mitä TOPICA-keittiöohjelma maksaa?
 
-Kokeiluversio on ilmainen, ilman tiliä ja ilman korttia. Täyden version hintaa emme ole vielä julkaisseet; heti kun se on tiedossa, se lukee osiossa [Hinta](../#cena), ja siellä voit jättää sähköpostisi, niin saat yhden viestin, kun se julkaistaan. Siihen asti käytät kokeiluversiota omissa projekteissasi ja näet, sopiiko se sinulle, ennen kuin maksat mitään.
+Kokeiluversio on ilmainen ja ilman tiliä. Täyden version hintaa emme ole vielä julkaisseet; heti kun se on tiedossa, se lukee osiossa [Hinta](../#cena), ja siellä voit jättää sähköpostisi, niin saat yhden viestin, kun se julkaistaan. Siihen asti käytät kokeiluversiota omissa projekteissasi ja näet, sopiiko se sinulle, ennen kuin maksat mitään.
 
 ## Toimiiko se Macilla tai puhelimella?
 

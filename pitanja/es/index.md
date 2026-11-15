@@ -13,7 +13,7 @@ Estas son las preguntas que los carpinteros teclean de verdad en el buscador y e
 
 ## ¿Cuánto cuesta el programa de cocinas TOPICA?
 
-La versión de prueba es gratuita, sin cuenta y sin tarjeta. El precio de la versión completa aún no lo hemos publicado; en cuanto se sepa, estará en el apartado [Precio](../#cena), y allí puedes dejar tu correo para recibir un solo mensaje cuando salga. Hasta entonces usas la versión de prueba en tus proyectos y ves si te encaja antes de pagar nada.
+La versión de prueba es gratuita y sin cuenta. El precio de la versión completa aún no lo hemos publicado; en cuanto se sepa, estará en el apartado [Precio](../#cena), y allí puedes dejar tu correo para recibir un solo mensaje cuando salga. Hasta entonces usas la versión de prueba en tus proyectos y ves si te encaja antes de pagar nada.
 
 ## ¿Funciona en Mac o en el móvil?
 

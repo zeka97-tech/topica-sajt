@@ -13,7 +13,7 @@ To so vprašanja, ki jih mojstri zares vtipkajo v iskalnik in pišejo po skupina
 
 ## Koliko stane program za kuhinje TOPICA?
 
-Preizkusna različica je brezplačna, brez računa in brez kartice. Cene polne različice še nismo objavili; takoj ko bo znana, bo pisala v razdelku [Cena](../#cena), tam pa lahko pustite e-naslov, da vam pride eno sporočilo, ko izide. Do takrat preizkusno različico uporabljate na svojih projektih in vidite, ali vam ustreza, preden karkoli plačate.
+Preizkusna različica je brezplačna in brez računa. Cene polne različice še nismo objavili; takoj ko bo znana, bo pisala v razdelku [Cena](../#cena), tam pa lahko pustite e-naslov, da vam pride eno sporočilo, ko izide. Do takrat preizkusno različico uporabljate na svojih projektih in vidite, ali vam ustreza, preden karkoli plačate.
 
 ## Ali deluje na Macu ali na telefonu?
 

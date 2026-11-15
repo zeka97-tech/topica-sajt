@@ -12,7 +12,7 @@ These are the questions tradesmen actually type into a search engine and post in
 
 ## How much does the TOPICA kitchen software cost?
 
-The trial is free, with no account and no card. We haven't announced the price of the full version yet; as soon as it is known it will be in the [Pricing](../#cena) section, and there you can leave your e-mail to get one message when it comes out. Until then you use the trial on your own projects and see whether it suits you before you pay anything.
+The trial is free and needs no account. We haven't announced the price of the full version yet; as soon as it is known it will be in the [Pricing](../#cena) section, and there you can leave your e-mail to get one message when it comes out. Until then you use the trial on your own projects and see whether it suits you before you pay anything.
 
 ## Does it run on a Mac or on a phone?
 
