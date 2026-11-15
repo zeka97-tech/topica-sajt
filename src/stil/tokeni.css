@@ -89,7 +89,7 @@
   --w-400: 400; --w-500: 500; --w-600: 600; --w-700: 700; --w-800: 800;
 
   /* veličine */
-  --s-okvir: 1120px;
+  --s-okvir: 1200px;
   --s-traka: 56px;
   --s-dugme: 48px; --s-dugme-malo: 36px; --s-dugme-pad: 26px; --s-dugme-malo-pad: 16px;
   --s-ikona: 48px; --s-ikona-svg: 24px; --s-ikona-rad: 14px;
@@ -149,16 +149,16 @@
   --c-uzorak-crna: #1f2937;
   --c-zasvetli: rgba(240, 176, 64, .3);
   --s-mreza: 40px;
-  --s-laptop: 560px; --s-laptop-okvir: 10px; --s-laptop-osnova: 14px; --rad-laptop: 16px;
-  --s-topi-hero: 210px; --s-topi-hero-mob: 120px; --s-topi-pomak: -36px; --s-topi-pomak-mob: -12px;
+  --s-laptop: 620px; --s-laptop-okvir: 10px; --s-laptop-osnova: 14px; --rad-laptop: 16px;
+  --s-topi-hero: 270px; --s-topi-hero-mob: 130px; --s-topi-pomak: -70px; --s-topi-pomak-mob: -12px;
   --s-stikla: 22px; --s-mtraka-ikona: 30px; --s-mtraka-min: 132px;
   --d-crt: 1.5px; --d-ikona: 1.6px; --d-kota: 2.5px;
   --s-polje-broj: 96px; --s-korak-dugme: 40px;
   --s-crtez-v: 300px; --s-crtez-v-mali: 220px;
   --s-uzorak: 44px;
   --t-zasvetli: 900ms;
-  --f-h1-tamno: clamp(40px, 5.4vw, 68px);
+  --f-h1-tamno: clamp(36px, 3.7vw, 54px);
   --f-22: 22px; --f-26: 26px;
   --maska-stikla: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill-rule='evenodd' d='M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm4.7 7.7-5.4 5.6a1 1 0 0 1-1.4 0l-2.6-2.6 1.4-1.4 1.9 1.9 4.7-4.9z'/%3E%3C/svg%3E");
-  --r-hero-gore: 120px; --r-hero-dole: 72px;
+  --r-hero-gore: 100px; --r-hero-dole: 56px;
 }

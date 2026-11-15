@@ -1,14 +1,15 @@
-/* hero.css — tamni vrh: naslov u tri reči, četiri prednosti, dugme; desno laptop (CSS) sa snimkom programa i Topi */
+/* hero.css — vrh kao u uzoru: naslov u jednom redu (treća reč zlatna), četiri prednosti, zeleno dugme; desno laptop (CSS) sa snimkom programa i Topi */
 .hero { padding: var(--r-hero-gore) 0 var(--r-hero-dole); overflow: hidden; background: radial-gradient(90% 90% at 70% 35%, var(--c-sjaj-1) 0, var(--c-sjaj-2) 55%, var(--c-crna) 100%); position: relative; }
 .hero::before, .mreza-podloga::before { content: ""; position: absolute; inset: 0; pointer-events: none; background-image: linear-gradient(var(--c-mreza) var(--d-linija), transparent var(--d-linija)), linear-gradient(90deg, var(--c-mreza) var(--d-linija), transparent var(--d-linija)); background-size: var(--s-mreza) var(--s-mreza); }
-.hero-mreza { position: relative; display: grid; grid-template-columns: 1fr 1fr; gap: var(--r-10); align-items: center; }
-.hero .nadnaslov { color: var(--c-zlatna); margin-bottom: var(--r-4); }
-.hero h1 { font-size: var(--f-h1-tamno); margin-bottom: var(--r-5); color: var(--c-belo); }
+.hero-mreza { position: relative; display: grid; grid-template-columns: .95fr 1.05fr; gap: var(--r-8); align-items: center; }
+.hero .nadnaslov { color: var(--c-zlatna); margin-bottom: var(--r-3); }
+.hero h1 { font-size: var(--f-h1-tamno); margin-bottom: var(--r-4); color: var(--c-belo); }
 .hero h1 .naglasak { color: var(--c-zlatna); }
-.hero .vodeci { color: var(--c-tekst-2); margin-bottom: var(--r-6); }
-.hero .radnje { margin-bottom: var(--r-4); }
-.hero .sitno { color: var(--c-tekst-2); }
-.stikle { list-style: none; margin: 0 0 var(--r-7); padding: 0; display: grid; gap: var(--r-2); font-size: var(--f-17); color: var(--c-belo); }
+.hero .vodeci { color: var(--c-tekst-2); margin-bottom: var(--r-5); font-size: var(--f-18); }
+.hero .radnje { margin-bottom: var(--r-4); gap: var(--r-4); }
+.hero-sitno { color: var(--c-tekst-2); display: flex; align-items: center; gap: var(--r-2); }
+.hero-sitno svg { width: var(--s-stikla); height: var(--s-stikla); fill: none; stroke: var(--c-zlatna); stroke-width: var(--d-ikona); stroke-linecap: round; flex: 0 0 auto; }
+.stikle { list-style: none; margin: 0 0 var(--r-6); padding: 0; display: grid; gap: var(--r-2); font-size: var(--f-17); color: var(--c-belo); }
 .stikle li { display: flex; align-items: center; gap: var(--r-3); }
 .stikle li::before { content: ""; flex: 0 0 auto; width: var(--s-stikla); height: var(--s-stikla); border-radius: 50%; background: var(--c-zlatna); -webkit-mask: var(--maska-stikla) center / contain no-repeat; mask: var(--maska-stikla) center / contain no-repeat; }
 .hero-slika { position: relative; }
@@ -16,7 +17,8 @@
 .laptop-ekran { border: var(--s-laptop-okvir) solid var(--c-okvir-laptopa); border-radius: var(--rad-laptop) var(--rad-laptop) 0 0; overflow: hidden; background: var(--c-okvir-laptopa); box-shadow: var(--senka-prozor-tamno); }
 .laptop-ekran img { width: 100%; }
 .laptop-osnova { height: var(--s-laptop-osnova); margin: 0 calc(-1 * var(--r-6)); border-radius: 0 0 var(--rad-laptop) var(--rad-laptop); background: linear-gradient(180deg, var(--c-osnova-laptopa-1), var(--c-osnova-laptopa-2)); }
-.hero-topi { position: absolute; left: var(--s-topi-pomak); bottom: calc(-1 * var(--r-6)); width: var(--s-topi-hero); filter: var(--senka-topi-tamno); }
+.hero-topi { position: absolute; left: var(--s-topi-pomak); bottom: calc(-1 * var(--r-7)); width: var(--s-topi-hero); filter: var(--senka-topi-tamno); }
+.laptop-ekran { box-shadow: var(--senka-prozor-tamno), var(--senka-sjaj-jak); }
 @media (max-width: 860px) {
   .hero { padding: var(--r-14) 0 var(--r-12); }
   .hero-mreza { grid-template-columns: 1fr; gap: var(--r-9); }

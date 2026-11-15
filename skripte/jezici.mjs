@@ -10,7 +10,7 @@ import { sistemPocetne } from "./lib/pocetna.mjs";
 
 const KOREN = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DIST = path.join(KOREN, "dist");
-const ODELJCI = ["hero", "traka-mogucnosti", "konfigurator", "spisak-secenje", "korpus", "namene", "kako-radi", "niz", "mogucnosti", "galerija", "zakoga", "cena", "pitanja", "dno-poziv"];
+const ODELJCI = ["hero", "traka-mogucnosti", "konfigurator", "namene", "spisak-secenje", "korpus", "kako-radi", "niz", "mogucnosti", "galerija", "zakoga", "cena", "pitanja", "dno-poziv"];
 // zbirke tekstova: folder u korenu (po jeziku) → stranice /<kod>/<folder>/; tekst.<kljuc> daje naslove indeksa
 const ZBIRKE = [
   { folder: "blog", kljuc: "blog" }, { folder: "recnik", kljuc: "recnik" },
