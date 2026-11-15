@@ -1,24 +1,34 @@
-<section class="odeljak" id="namene" aria-labelledby="namene-naslov">
-  <div class="okvir">
-    <span class="nadnaslov">{{namene.nadnaslov}}</span>
-    <h2 id="namene-naslov" class="naslov-odeljka">{{namene.naslov}}</h2>
-    <div class="namene">
-      <a class="namena" href="namena/kuhinje.html">
-        <div class="namena-slika"><img src="{{sistem.koren}}slike/web/snimak-41-kuhinja-sonoma-bela-laminat-800.webp" width="1366" height="768" loading="lazy" alt="{{namene.kuhinje.alt}}"></div>
-        <h3>{{namene.kuhinje.naslov}} <span class="strelica" aria-hidden="true">›</span></h3>
-        <p>{{namene.kuhinje.tekst}}</p>
-      </a>
-      <a class="namena" href="namena/plakari.html">
-        <div class="namena-slika namena-crtez">{{sistem.crtezPlakar}}</div>
-        <h3>{{namene.plakari.naslov}} <span class="strelica" aria-hidden="true">›</span></h3>
-        <p>{{namene.plakari.tekst}}</p>
-      </a>
-      <a class="namena" href="namena/komode.html">
-        <div class="namena-slika namena-crtez">{{sistem.crtezKomoda}}</div>
-        <h3>{{namene.komode.naslov}} <span class="strelica" aria-hidden="true">›</span></h3>
-        <p>{{namene.komode.tekst}}</p>
-      </a>
-    </div>
-    <p class="namene-jos"><a class="veza" href="namena/male-radionice.html"><span>{{namene.radionice}}</span> <span class="strelica" aria-hidden="true">›</span></a> <a class="veza" href="namena/monteri.html"><span>{{namene.monteri}}</span> <span class="strelica" aria-hidden="true">›</span></a></p>
+<section class="okvir kategorije" id="biblioteka" aria-labelledby="namene-naslov">
+  <div class="mini-naslov">
+    <div><p class="nadnaslov">{{namene.nadnaslov}}</p><h2 id="namene-naslov">{{namene.naslov}}</h2></div>
+    <p>{{namene.podnaslov}}</p>
   </div>
+  <div class="kategorije-mreza">
+    <a class="kategorija" href="namena/kuhinje.html">
+      <img src="{{sistem.koren}}slike/web/uzor-kuhinje-400.webp" srcset="{{sistem.koren}}slike/web/uzor-kuhinje-400.webp 400w, {{sistem.koren}}slike/web/uzor-kuhinje-800.webp 720w" sizes="(max-width: 650px) 50vw, (max-width: 980px) 33vw, 20vw" width="720" height="432" loading="lazy" alt="">
+      <div class="kategorija-tekst"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3h18v18H3zM3 10h18M3 16h18M10 7h4M10 13h4M10 19h4"/></svg><h3>{{namene.kuhinje.naslov}}</h3><p>{{namene.kuhinje.tekst}}</p></div>
+      <span class="okrugla-strelica" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h16m-7-7 7 7-7 7"/></svg></span>
+    </a>
+    <a class="kategorija" href="namena/plakari.html">
+      <img src="{{sistem.koren}}slike/web/uzor-plakari-400.webp" srcset="{{sistem.koren}}slike/web/uzor-plakari-400.webp 400w, {{sistem.koren}}slike/web/uzor-plakari-800.webp 720w" sizes="(max-width: 650px) 50vw, (max-width: 980px) 33vw, 20vw" width="720" height="432" loading="lazy" alt="">
+      <div class="kategorija-tekst"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2h12v20H6zM9 5v14M15 12h.01"/></svg><h3>{{namene.plakari.naslov}}</h3><p>{{namene.plakari.tekst}}</p></div>
+      <span class="okrugla-strelica" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h16m-7-7 7 7-7 7"/></svg></span>
+    </a>
+    <a class="kategorija" href="namena/plakari.html">
+      <img src="{{sistem.koren}}slike/web/uzor-garderoberi-400.webp" srcset="{{sistem.koren}}slike/web/uzor-garderoberi-400.webp 400w, {{sistem.koren}}slike/web/uzor-garderoberi-800.webp 720w" sizes="(max-width: 650px) 50vw, (max-width: 980px) 33vw, 20vw" width="720" height="432" loading="lazy" alt="">
+      <div class="kategorija-tekst"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 7a3 3 0 0 1 6 0c0 1.7-3 2-3 4.2V13l9 6-2 2H5l-2-2 9-6"/></svg><h3>{{namene.ormari.naslov}}</h3><p>{{namene.ormari.tekst}}</p></div>
+      <span class="okrugla-strelica" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h16m-7-7 7 7-7 7"/></svg></span>
+    </a>
+    <a class="kategorija" href="namena/komode.html">
+      <img src="{{sistem.koren}}slike/web/uzor-komode-400.webp" srcset="{{sistem.koren}}slike/web/uzor-komode-400.webp 400w, {{sistem.koren}}slike/web/uzor-komode-800.webp 720w" sizes="(max-width: 650px) 50vw, (max-width: 980px) 33vw, 20vw" width="720" height="432" loading="lazy" alt="">
+      <div class="kategorija-tekst"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3h18v18H3zM3 10h18M3 16h18M10 7h4M10 13h4M10 19h4"/></svg><h3>{{namene.komode.naslov}}</h3><p>{{namene.komode.tekst}}</p></div>
+      <span class="okrugla-strelica" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h16m-7-7 7 7-7 7"/></svg></span>
+    </a>
+    <a class="kategorija" href="namena/male-radionice.html">
+      <img src="{{sistem.koren}}slike/web/uzor-custom-400.webp" srcset="{{sistem.koren}}slike/web/uzor-custom-400.webp 400w, {{sistem.koren}}slike/web/uzor-custom-800.webp 720w" sizes="(max-width: 650px) 50vw, (max-width: 980px) 33vw, 20vw" width="720" height="432" loading="lazy" alt="">
+      <div class="kategorija-tekst"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m4 20 4.5-1 12-12-3.5-3.5-12 12L4 20ZM15 5l4 4M3 22h18"/></svg><h3>{{namene.slobodna.naslov}}</h3><p>{{namene.slobodna.tekst}}</p></div>
+      <span class="okrugla-strelica" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h16m-7-7 7 7-7 7"/></svg></span>
+    </a>
+  </div>
+  <p class="kategorije-napomena">{{namene.napomena_slike}}</p>
 </section>

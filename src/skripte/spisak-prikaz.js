@@ -28,11 +28,17 @@ export function zbirBrojevi(zbir, fmt) {
 }
 
 /** Rečnik (deo.*, kant.*) iz teksta jezika — build ga čita iz JSON-a, pregledač iz skrivene liste u HTML-u. */
-export function recnikIz(spisak) {
+export function recnikIz(spisak, konf = {}) {
   const r = {};
   for (const [k, v] of Object.entries(spisak.deo)) r[`deo.${k}`] = v;
   for (const [k, v] of Object.entries(spisak.kant)) r[`kant.${k}`] = v;
+  for (const grupa of ["model", "okov", "dezen"]) for (const [k, v] of Object.entries(konf[grupa] || {})) r[`${grupa}.${k}`] = v;
   return r;
+}
+
+/** Redovi liste okova: naziv (sa merom) i broj komada. */
+export function okoviHtml(spisak, r) {
+  return spisak.map((o) => `<li><span>${popuniRecenicu(r[`okov.${o.k}`] || o.k, { mera: o.mera })}</span><b>${o.komada} ${r["okov.kom"] || ""}</b></li>`).join("");
 }
 
 /** Popuni {model}, {s}, {v}, {d}, {n} u rečenici. */

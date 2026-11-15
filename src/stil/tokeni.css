@@ -3,29 +3,32 @@
    prelomi u @media (640 / 860 / 960 px) — zapisani su ovde radi evidencije. */
 :root {
   /* boje (Zadatak 5, uzor vlasnika): skoro crna podloga, zlatni akcenat, zeleno glavno dugme */
-  --c-zlatna: #f0b040;
-  --c-zlatna-hover: #f8c860;
-  --c-zlatna-aktivno: #d99a2b;
-  --c-zlatna-svetla: #f8c860;
-  --c-zlatna-svetla-hover: #fde3a6;
+  --c-zlatna: #eeba60;
+  --c-zlatna-hover: #ffca68;
+  --c-zlatna-aktivno: #e7a432;
+  --c-zlatna-svetla: #ffca68;
+  --c-zlatna-svetla-hover: #ffdb8d;
   --c-zlatna-podloga: rgba(240, 176, 64, .12);
-  --c-zlatna-okvir: rgba(240, 176, 64, .34);
+  --c-zlatna-okvir: rgba(232, 175, 79, .38);
   --c-zlatna-okvir-jak: rgba(240, 176, 64, .7);
   --c-zlatna-sjaj: rgba(240, 176, 64, .2);
   --c-zlatna-sjaj-2: rgba(240, 176, 64, .08);
-  --c-zelena: #00d858;
-  --c-zelena-hover: #33e67c;
-  --c-zelena-aktivno: #00bd4d;
-  --c-zelena-senka: rgba(0, 216, 88, .35);
-  --c-na-zelenom: #04220f;
-  --c-crna: #0d0e10;
-  --c-kartica: #17181b;
-  --c-kartica-2: #1f2023;
-  --c-tekst: #f4f1ea;
-  --c-tekst-2: #c9c4bb;
-  --c-tekst-3: #a8a297;
+  --c-zelena: #05e968;
+  --c-zelena-hover: #33fa89;
+  --c-zelena-aktivno: #00c950;
+  --c-zelena-senka: rgba(2, 207, 105, .38);
+  --c-na-zelenom: #04100a;
+  --c-crna: #0a0b0e;
+  /* dezeni iz programa (src/domain/catalog/decors.ts): boja ploče; kod slikanih dezena prosečna boja slike */
+  --c-dezen-mat-white: #f2f0ea; --c-dezen-mat-cashmere: #cbbfae; --c-dezen-mat-anthracite: #4a4d51;
+  --c-dezen-mat-oak: #7a634d; --c-dezen-mat-sonoma: #9f8161; --c-dezen-mat-walnut: #3c210d;
+  --c-kartica: #1d1c1d;
+  --c-kartica-2: #252427;
+  --c-tekst: #fafafa;
+  --c-tekst-2: #b4b3b7;
+  --c-tekst-3: #a09fa4;
   --c-belo: #ffffff;
-  --c-podloga: #0d0e10;
+  --c-podloga: #0a0b0e;
   --c-podloga-2: #121315;
   --c-podloga-3: #1f2023;
   --c-podloga-hover: #26272b;
@@ -76,13 +79,13 @@
   --r-pin-gore: 84px; --r-pin-dole: 40px;
 
   /* slova */
-  --font: "Manrope", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font: "Inter", "Segoe UI", system-ui, Arial, sans-serif;
   --f-12: 12px; --f-13: 13px; --f-14: 14px; --f-15: 15px; --f-16: 16px; --f-17: 17px; --f-18: 18px;
   --f-19: 19px; --f-20: 20px; --f-24: 24px; --f-30: 30px; --f-34: 34px;
   --f-vodeci: clamp(19px, 1.6vw, 23px);
   --f-natpis: clamp(17px, 1.5vw, 21px);
-  --f-h1: clamp(40px, 6vw, 76px);
-  --f-h2: clamp(36px, 4.8vw, 60px);
+  --f-h1: clamp(34px, 4.2vw, 54px);
+  --f-h2: clamp(28px, 2.9vw, 40px);
   --f-cena: clamp(36px, 4vw, 52px);
   --lh-tekst: 1.6; --lh-vodeci: 1.5; --lh-naslov: 1.08; --lh-h3: 1.25; --lh-1: 1;
   --ls-naslov: -.03em; --ls-h3: -.02em; --ls-nadnaslov: .12em; --ls-jezik: .04em;
@@ -98,7 +101,7 @@
   --s-vlasnik: 72px; --s-vlasnik-svg: 28px;
   --s-meni: 40px; --s-meni-crta: 2px;
   --s-tacka: 11px; --s-prozor-traka: 36px;
-  --s-topi: 440px; --s-topi-mob: 260px; --s-topi-cena: 380px; --s-topi-cena-mob: 220px;
+  --s-topi: 440px; --s-topi-mob: 260px; --s-topi-cena: 300px; --s-topi-cena-mob: 220px;
   --s-scena: 1100px; --s-scena-v: 560px; --s-krojna: 640px; --s-ploca: 1400px; --s-ploca-v: 600px;
   --s-senka-korpusa: 520px; --s-senka-korpusa-v: 120px;
   --s-niz: 820px; --s-galerija: 820px; --s-galerija-mob: 86vw; --s-galerija-max: 80vw;
@@ -161,4 +164,58 @@
   --f-22: 22px; --f-26: 26px;
   --maska-stikla: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill-rule='evenodd' d='M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm4.7 7.7-5.4 5.6a1 1 0 0 1-1.4 0l-2.6-2.6 1.4-1.4 1.9 1.9 4.7-4.9z'/%3E%3C/svg%3E");
   --r-hero-gore: 100px; --r-hero-dole: 56px;
+
+  /* Zadatak 5: uzor vlasnika (docs/predlog-dizajna/uzor-2/TOPICA_SVE_U_JEDNOM.html), vrednosti prepisane iz njegovog CSS-a */
+  --u-pozadina: radial-gradient(ellipse at 50% 50%, #171312 0%, #0d0e10 68%);
+  --u-traka: rgba(11, 11, 13, .98); --u-traka-linija: rgba(255, 255, 255, .1);
+  --u-meni-aktivno: linear-gradient(#75501d, #3b2915); --u-meni-sjaj: 0 0 16px rgba(162, 102, 24, .24);
+  --u-zlatno-dugme: linear-gradient(180deg, #ffdb8d 0%, #efad39 95%); --u-zlatno-senka: 0 4px 18px rgba(220, 153, 39, .25); --u-na-zlatnom: #15110b;
+  --u-zeleno-dugme: linear-gradient(#33fa89 0%, #00da5a 65%, #00c950 100%); --u-zeleno-senka: 0 0 25px rgba(2, 207, 105, .38);
+  --u-tamno-dugme: rgba(13, 13, 13, .94); --u-tamno-dugme-ivica: #ae844a;
+  --u-vrh: #111114; --u-vrh-senka: inset 0 -50px 80px rgba(9, 9, 9, .69);
+  --u-vrh-preliv: linear-gradient(90deg, #0b0c0f 0%, rgba(11, 12, 15, .99) 32%, rgba(11, 12, 15, .79) 39%, transparent 56%), linear-gradient(0deg, rgba(0, 0, 0, .45), transparent 25%);
+  --u-vrh-preliv-slike: linear-gradient(90deg, #111114 0%, rgba(17, 17, 20, .3) 12%, transparent 31%);
+  --u-vrh-preliv-mob: linear-gradient(#0d0e11 0%, #0d0e11 32%, rgba(13, 14, 17, .61) 49%, transparent 90%);
+  --u-stikla-ivica: #c48d30; --u-stikla-podloga: rgba(78, 54, 19, .5); --u-stikla-sjaj: 0 0 12px rgba(233, 174, 75, .33);
+  --u-traka-pozadina: linear-gradient(125deg, #2b2a2a, #141517 60%, #252223); --u-traka-senka: 0 8px 25px rgba(0, 0, 0, .44); --u-traka-crta: rgba(121, 112, 107, .31);
+  --u-kartica-ivica: #a57f4e; --u-kartica-podloga: #302a27; --u-senka: 0 16px 44px rgba(0, 0, 0, .34);
+  --u-kartica-preliv: linear-gradient(180deg, transparent 20%, rgba(4, 4, 5, .05) 41%, rgba(2, 3, 5, .68) 74%, rgba(3, 4, 6, .98) 100%);
+  --u-strelica: linear-gradient(#ffda8c, #e7a432); --u-strelica-senka: 0 3px 13px rgba(220, 147, 30, .67); --u-na-strelici: #100d08;
+  --u-urednik-ivica: #d9ab58; --u-urednik-pozadina: radial-gradient(ellipse at 49% 100%, #4c3027 0, #221f1e 29%, #141416 65%, #1c1c1e 100%);
+  --u-urednik-senka: 0 0 23px rgba(221, 149, 57, .3), inset 0 1px 15px rgba(236, 191, 79, .04);
+  --u-stavka-ivica: #6d6864; --u-stavka-pozadina: linear-gradient(#28282b, #161719); --u-stavka-tekst: #dedcdb; --u-stavka-sjaj: 0 0 12px rgba(231, 176, 80, .35);
+  --u-prikaz-ivica: #a98251; --u-prikaz-pozadina: #151416; --u-prikaz-senka: inset 0 0 16px rgba(0, 0, 0, .31);
+  --u-pilula-ivica: #b99768; --u-pilula-tekst: #efd9b0; --u-pilula-pozadina: rgba(20, 18, 20, .81);
+  --u-prekidac-ivica: #d7a74e; --u-prekidac-pozadina: rgba(22, 19, 23, .89); --u-prekidac-izabran: linear-gradient(#ffd583, #e9a43d); --u-na-prekidacu: #19110a;
+  --u-natpis-pozadina: rgba(11, 11, 11, .72); --u-natpis-tekst: #e8d5ba; --u-kontrola-pozadina: rgba(25, 25, 29, .85); --u-kontrola-ivica: rgba(243, 234, 212, .48);
+  --u-panel-ivica: #524a45; --u-panel-pozadina: linear-gradient(165deg, #252427, #151619); --u-panel-crta: #4a4441;
+  --u-jezicak-izabran: linear-gradient(#ffd17b, #b97622); --u-jezicak-sjaj: 0 0 15px rgba(239, 169, 67, .62); --u-na-jezicku: #211408;
+  --u-uzorak-ivica: #77706b; --u-uzorak-izabran: #ffd68d; --u-uzorak-sjaj: 0 0 13px rgba(237, 189, 87, .56); --u-uzorak-stikla: #e5a22f; --u-na-stikli: #21150d;
+  --u-rucka-ivica: #706960; --u-rucka-pozadina: linear-gradient(#373436, #211f20); --u-rucka-izabrana: #ffd083; --u-rucka-sjaj: 0 0 10px rgba(226, 161, 59, .44);
+  --u-rucka-zlatna: linear-gradient(180deg, #f9ddaa, #bf8b2c); --u-rucka-crna: #151515; --u-rucka-senka: 1px 2px 3px #000;
+  --u-polje-ivica: #68625c; --u-polje-pozadina: #18181b; --u-cip-ivica: #53504b;
+  --u-koraci-ivica: #725e42; --u-koraci-pozadina: linear-gradient(112deg, #292627, #121416 70%, #221c1b); --u-korak-sjaj: 0 0 16px rgba(220, 161, 60, .6); --u-koraci-tekst: #cdcad0;
+  --u-poziv-pozadina: radial-gradient(ellipse at center, #202020, #0e0f11 75%); --u-poziv-ivica: #453c31; --u-dno-linija: #393431; --u-dno-tekst: #89888d;
+  --u-meni-mob: #151415; --u-meni-mob-ivica: #7f5b2c; --u-meni-dugme-ivica: #6a5132; --u-meni-dugme: #181817;
+  --u-scena: radial-gradient(ellipse at 50% 85%, #4a3326 0%, #231d1a 38%, #141315 75%);
+  --s-u-okvir: 1500px; --r-u-okvir: 68px; --r-u-okvir-tab: 40px; --r-u-okvir-tel: 26px; --s-u-traka: 60px; --s-u-traka-mob: 57px; --s-u-logo: 37px; --s-u-logo-dno: 28px;
+  --s-u-vrh: 352px; --s-u-vrh-mob: 480px; --s-u-vrh-tel: 570px; --s-u-vrh-slika-mob: 315px; --s-u-vrh-slika-tel: 290px; --s-u-vrh-tekst: 660px;
+  --s-u-traka-v: 72px; --s-u-stavka-v: 45px; --s-u-kartica-v: 206px; --s-u-kartica-v-tel: 195px; --s-u-strelica: 31px; --s-u-strelica-tel: 24px;
+  --s-u-prikaz-min: 330px; --s-u-uzorak-v: 45px; --s-u-rucka-v: 34px; --s-u-korak-broj: 37px; --s-u-ikona: 24px; --s-u-ikona-mala: 18px; --s-u-ikona-korak: 30px;
+  --f-u-9: 9px; --f-u-10: 10px; --f-u-11: 11px; --f-u-12: 12px; --f-u-13: 13px; --f-u-14: 14px; --f-u-17: 17px; --f-u-18: 18px; --f-u-22: 22px; --f-u-27: 27px; --f-u-31: 31px;
+  --f-u-h1: clamp(32px, 2.55vw, 43px); --f-u-h2-urednik: clamp(24px, 2.1vw, 34px);
+  --w-u-650: 650; --w-u-750: 750; --w-u-850: 850; --ls-u-logo: -1.8px; --ls-u-h1: -.045em; --ls-u-nadnaslov: .045em;
+  --rad-u-18: 18px; --rad-u-17: 17px; --rad-u-21: 21px; --rad-u-14: 14px; --rad-u-8: 8px; --rad-u-6: 6px; --rad-u-20: 20px;
+  --r-u-3: 3px; --r-u-5: 5px; --r-u-6: 6px; --r-u-7: 7px; --r-u-9: 9px; --r-u-10: 10px; --r-u-11: 11px; --r-u-13: 13px; --r-u-14: 14px; --r-u-15: 15px; --r-u-17: 17px; --r-u-18: 18px; --r-u-19: 19px; --r-u-22: 22px; --r-u-23: 23px; --r-u-24: 24px; --r-u-25: 25px; --r-u-30: 30px; --r-u-32: 32px; --r-u-34: 34px; --r-u-35: 35px; --r-u-45: 45px; --r-u-55: 55px; --r-u-70: 70px; --r-u-235: 235px; --r-u-280: 280px;
+  --f-u-15: 15px; --f-u-21: 21px; --f-u-25: 25px; --f-u-29: 29px; --f-u-33: 33px; --f-u-34: 34px; --f-u-38: 38px;
+  --lh-u-h1: 1.08; --lh-u-h1-tel: 1.13; --lh-u-h2: 1.13; --lh-u-mali: 1.35; --lh-u-tekst: 1.53; --lh-u-vodeci: 1.43;
+  --ls-u-h2: -.04em; --ls-u-pilula: .08em; --rad-u-15: 15px; --rad-u-9: 9px;
+  --d-u-ikona: 2px; --d-u-logo: 2.4px; --d-u-stikla: 3px;
+  --s-dugme-u: 42px; --s-u-ikona-15: 15px; --s-u-ikona-17: 17px; --s-u-ikona-19: 19px; --s-u-ikona-21: 21px; --s-u-jedinica: 22px;
+  --s-u-kartica-tekst: 230px; --s-u-kartica-v-tab: 220px; --s-u-kol-1: 200px; --s-u-kol-2: 320px; --s-u-kol-3: 250px; --s-u-kontrola: 32px;
+  --s-u-koraci-uvod: 250px; --s-u-koraci-v: 105px; --s-u-korak-min: 130px; --s-u-panel-max: 650px; --s-u-polje-broj: 64px; --s-u-polje-dugme: 32px;
+  --s-u-prikaz-tel: 400px; --s-u-rucka-crta: 3px; --s-u-rucka-duga: 40px; --s-u-rucka-dugme: 9px; --s-u-urednik-v: 330px; --s-u-vodeci: 560px;
+  --u-rucka-tamna: #2a2a2a; --u-tekst-svetli: #dedee0; --u-uzorak-natpis: rgba(255, 255, 255, .78);
+  --c-crt-kasmir-bok: #b3a796; --c-crt-antracit-bok: #3a3d41; --c-crt-sonoma-bok: #8a6d50;
+  --s-u-plan-v: 300px;
 }

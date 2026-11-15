@@ -10,7 +10,10 @@ import { sistemPocetne } from "./lib/pocetna.mjs";
 
 const KOREN = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DIST = path.join(KOREN, "dist");
-const ODELJCI = ["hero", "traka-mogucnosti", "konfigurator", "namene", "spisak-secenje", "korpus", "kako-radi", "niz", "mogucnosti", "galerija", "zakoga", "cena", "pitanja", "dno-poziv"];
+// početna po uzoru vlasnika (docs/predlog-dizajna/uzor-2): vrh → traka → biblioteka → konfigurator → spisak → kako radi → pitanja → cena → poziv
+const ODELJCI = ["hero", "traka-mogucnosti", "namene", "konfigurator", "spisak-secenje", "koraci", "pitanja", "cena", "dno-poziv"];
+// sekcije koje uzor nema, a ostaju (animacija korpusa, galerija…): stranica /<kod>/mogucnosti.html
+const ODELJCI_MOGUCNOSTI = ["strana-mogucnosti", "kako-radi", "korpus", "niz", "mogucnosti", "galerija", "zakoga", "dno-poziv"];
 // zbirke tekstova: folder u korenu (po jeziku) → stranice /<kod>/<folder>/; tekst.<kljuc> daje naslove indeksa
 const ZBIRKE = [
   { folder: "blog", kljuc: "blog" }, { folder: "recnik", kljuc: "recnik" },
@@ -33,7 +36,7 @@ const aktivni = jezici.jezici.filter((j) => tekstovi[j.kod]);
 // 1) čisto dist + statika
 rmSync(DIST, { recursive: true, force: true });
 mkdirSync(DIST, { recursive: true });
-for (const d of ["slike/web", "slike/og", "fontovi", "vendor"]) if (existsSync(path.join(KOREN, d))) cpSync(path.join(KOREN, d), path.join(DIST, d), { recursive: true });
+for (const d of ["slike/web", "slike/og", "slike/dezeni", "fontovi", "vendor"]) if (existsSync(path.join(KOREN, d))) cpSync(path.join(KOREN, d), path.join(DIST, d), { recursive: true });
 for (const f of readdirSync(path.join(KOREN, "slike"))) if (/^favicon-.*\.png$/.test(f) || f === "og.webp") cpSync(path.join(KOREN, "slike", f), path.join(DIST, "slike", f));
 cpSync(path.join(KOREN, "src", "skripte"), path.join(DIST, "skripte"), { recursive: true });
 // CSS: tokeni, osnova, ostali po abecedi, animacije poslednje → jedan stil.css
@@ -74,7 +77,7 @@ for (const j of aktivni) {
   for (const z of ZBIRKE) clanciPoJeziku[j.kod][z.folder] = ucitajZbirku(j.kod, z.folder);
 }
 const postoji = (kod, putanja) => {
-  if (["index.html", "preuzimanje.html", "hvala.html"].includes(putanja)) return true;
+  if (["index.html", "preuzimanje.html", "hvala.html", "mogucnosti.html"].includes(putanja)) return true;
   const [folder, fajl] = putanja.split("/");
   const z = clanciPoJeziku[kod]?.[folder];
   if (!z) return false;
@@ -89,6 +92,9 @@ for (const j of aktivni) {
   // početna
   const sadrzaj = ODELJCI.map((o) => g.sablon(o)).join("\n");
   pisi(kod, "index.html", g.stranica({ kod, putanja: "index.html", naslov: t.meta.naslov, opis: t.meta.opis, ogNaslov: t.meta.og_naslov, ogOpis: t.meta.og_opis, sadrzaj, ldJson: ldSoftver(sajt, t, kod, jezici), postoji, sistem: sistemPocetne(t, kod) }));
+  // mogućnosti: sekcije koje početna po uzoru više nema
+  pisi(kod, "mogucnosti.html", g.stranica({ kod, putanja: "mogucnosti.html", naslov: t.strana_mog.meta_naslov, opis: t.strana_mog.meta_opis, sadrzaj: ODELJCI_MOGUCNOSTI.map((o) => g.sablon(o)).join("\n"), postoji,
+    ldJson: ldStrana(sajt, kod, "mogucnosti.html", t.strana_mog.meta_naslov, t.strana_mog.meta_opis), sistem: sistemPocetne(t, kod) }));
   // preuzimanje i hvala
   pisi(kod, "preuzimanje.html", g.stranica({ kod, putanja: "preuzimanje.html", naslov: t.preuzimanje.meta_naslov, opis: t.preuzimanje.meta_opis, sadrzaj: g.sablon("preuzimanje"), ldJson: ldSoftver(sajt, t, kod, jezici), postoji }));
   pisi(kod, "hvala.html", g.stranica({ kod, putanja: "hvala.html", naslov: t.hvala.meta_naslov, opis: t.hvala.meta_opis, sadrzaj: g.sablon("hvala"), postoji, ldJson: ldStrana(sajt, kod, "hvala.html", t.hvala.meta_naslov, t.hvala.meta_opis) }));

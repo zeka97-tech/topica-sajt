@@ -27,7 +27,7 @@ for (const j of jezici) {
   const tp = path.join(KOREN, "tekst", `${j.kod}.json`);
   if (!existsSync(tp)) continue;
   const t = JSON.parse(readFileSync(tp, "utf8"));
-  const naslov = t.hero.naslov;
+  const naslov = `${t.hero.n1} ${t.hero.n2} ${t.hero.n3}`;
   const velicina = naslov.length > 34 ? 50 : naslov.length > 26 ? 58 : 66;
   const html = sablon.replace("{{kod}}", j.kod).replace("{{naslov}}", naslov).replace("{{opis}}", t.meta.og_opis).replace("{{dugme}}", t.cta.glavno).replace("{{velicina}}", String(velicina));
   const tmp = path.join(KOREN, "src", "sablon", "og-tmp", `${j.kod}.html`);

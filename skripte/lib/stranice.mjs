@@ -52,7 +52,7 @@ export class Graditelj {
       formspreeUrl: this.sajt.formspreeId ? `https://formspree.io/f/${this.sajt.formspreeId}` : "",
       jezikLista,
       bezPredloga: jezik.bezPredloga ? "1" : "",
-      preload: o.putanja === "index.html" ? `<link rel="preload" as="image" href="${koren}slike/web/snimak-41-kuhinja-sonoma-bela-laminat-800.webp" imagesrcset="${koren}slike/web/snimak-41-kuhinja-sonoma-bela-laminat-800.webp 800w, ${koren}slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp 1366w" imagesizes="(max-width: 860px) 92vw, 620px" fetchpriority="high">` : "",
+      preload: o.putanja === "index.html" ? `<link rel="preload" as="image" href="${koren}slike/web/vrh-topi-laptop-1600.webp" imagesrcset="${koren}slike/web/vrh-topi-laptop-800.webp 800w, ${koren}slike/web/vrh-topi-laptop-1600.webp 1600w" imagesizes="(max-width: 980px) 100vw, 64vw" fetchpriority="high">` : "",
       // placeholder linkovi (#) se prikazuju kao običan tekst dok ih vlasnik ne upiše u tekst/sajt.json
       usloviHtml: this.sajt.usloviLink && this.sajt.usloviLink !== "#" ? `<a href="${this.sajt.usloviLink}">${tekst.dno.uslovi}</a>` : `<span>${tekst.dno.uslovi}</span>`,
       privatnostHtml: this.sajt.privatnostLink && this.sajt.privatnostLink !== "#" ? `<a href="${this.sajt.privatnostLink}">${tekst.dno.privatnost}</a>` : `<span>${tekst.dno.privatnost}</span>`,

@@ -19,14 +19,17 @@ function ucitajVendor() {
 
 const imaKonfigurator = () => !!document.getElementById("konfigurator");
 
-/** Konfigurator, spisak i scena korpusa postoje samo na početnoj: ostale stranice te module ne učitavaju. */
+/** Konfigurator i spisak postoje samo na početnoj, scena korpusa na stranici Mogućnosti; ostale stranice te module ne učitavaju. */
 async function pocetna() {
-  const [spisak, konfigurator] = await Promise.all([import("./spisak.js"), import("./konfigurator.js")]);
-  spisak.pokreniSpisak(); konfigurator.pokreniKonfigurator();
-  if (smanjeno) (await import("./korpus.js")).pokreniKorpus();
+  const [spisak, konfigurator, tri] = await Promise.all([import("./spisak.js"), import("./konfigurator.js"), import("./konf-3d.js")]);
+  spisak.pokreniSpisak(); konfigurator.pokreniKonfigurator(); tri.pokreni3D();
 }
 
-function osnovno() { pokreniTraku(); pokreniJezik(); pokreniObrasce(); if (imaKonfigurator()) pocetna(); }
+function osnovno() {
+  pokreniTraku(); pokreniJezik(); pokreniObrasce();
+  if (imaKonfigurator()) pocetna();
+  else if (smanjeno && document.getElementById("korpus")) import("./korpus.js").then((m) => m.pokreniKorpus());
+}
 
 async function pokreti() {
   if (smanjeno) return; // bez pokreta sajt je potpun: tekst, slike i raspored su u HTML-u
@@ -34,7 +37,7 @@ async function pokreti() {
   if (!window.gsap) return;
   pokreniKretanje();
   pokreniKakoRadi();
-  if (imaKonfigurator()) (await import("./korpus.js")).pokreniKorpus();
+  if (document.getElementById("korpus")) (await import("./korpus.js")).pokreniKorpus();
   pokreniNiz();
   pokreniGaleriju();
   window.ScrollTrigger?.refresh();

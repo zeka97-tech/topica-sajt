@@ -8,6 +8,9 @@ const RAZMAK = { bok: 120, dno: 100, vrh: -78, ledja: -120, polica: 60, front: 1
 /** Pomak kote (px) da je ne zakloni daska ispred nje. */
 const KOTA = { bok: [-40, -190], dno: [130, 20], polica: [120, 10], fiksna_polica: [120, -10], ledja: [30, -90], krov: [0, -20], bok_fioke: [150, 0], celo_fioke: [0, -40], dno_fioke: [150, 40] };
 
+/** Osa garderobne šipke od dna ormara: max(V − 350, 0,6 · V); fiksna polica 60 iznad nje (jointShelves.ts:91-96). Police ormara su ispod šipke (ilustracija). */
+export const sipkaOdDna = (H) => Math.max(H - 350, 0.6 * H);
+
 /** Svi komadi elementa: { deo, red, i, w, h, t (mm, u svojoj ravni), rotX, rotY, x, y, z, eks: {x, y, z} px, mat, uz: mera duž w } */
 export function komadiElementa(rez) {
   const m = MODELI[rez.id], { sirina: W, visina: H, dubina: D } = rez.ulaz, t = P.t;
@@ -22,8 +25,8 @@ export function komadiElementa(rez) {
       else if (d.deo === "krov") dodaj(red, i, d, { w: d.duzina, h: d.sirina, rotX: 90, y: -H / 2 + t / 2, eks: { y: RAZMAK.vrh } });
       else if (d.deo === "precka") dodaj(red, i, d, { w: d.duzina, h: d.sirina, rotX: 90, y: -H / 2 + t / 2, z: zc + (i ? -1 : 1) * (db / 2 - d.sirina / 2), eks: { y: RAZMAK.vrh, z: i ? -30 : 0 } });
       else if (d.deo === "ledja") dodaj(red, i, d, { w: W - P.umanjenjeLedja, h: H - P.umanjenjeLedja, z: -D / 2 + P.ledja / 2, eks: { z: RAZMAK.ledja } });
-      else if (d.deo === "polica") dodaj(red, i, d, { w: d.duzina, h: d.sirina, rotX: 90, y: H / 2 - ((i + 1) * H) / (d.komada + 1), z: zc - P.uvucenostPolice / 2, eks: { z: RAZMAK.polica } });
-      else if (d.deo === "fiksna_polica") dodaj(red, i, d, { w: d.duzina, h: d.sirina, rotX: 90, y: -H / 2 + H * 0.14, z: zc - P.uvucenostPolice / 2, eks: { z: RAZMAK.polica } });
+      else if (d.deo === "polica") dodaj(red, i, d, { w: d.duzina, h: d.sirina, rotX: 90, y: H / 2 - ((i + 1) * (m.sipka ? sipkaOdDna(H) - 250 : H)) / (d.komada + 1), z: zc - P.uvucenostPolice / 2, eks: { z: RAZMAK.polica } });
+      else if (d.deo === "fiksna_polica") dodaj(red, i, d, { w: d.duzina, h: d.sirina, rotX: 90, y: H / 2 - (sipkaOdDna(H) + 60), z: zc - P.uvucenostPolice / 2, eks: { z: RAZMAK.polica } });
       else if (d.deo === "front_vrata") dodaj(red, i, d, { w: d.sirina, h: d.duzina, x: fr[i].x + fr[i].w / 2 - W / 2, z: zFront, eks: { z: RAZMAK.front, x: d.komada > 1 ? (i ? 14 : -14) : 0 } });
       else if (d.deo === "front_fioka") dodaj(red, i, d, { w: d.sirina, h: d.duzina, y: H / 2 - (fr[i].y + fr[i].h / 2), z: zFront, eks: { z: RAZMAK.front } });
     }
@@ -37,8 +40,10 @@ function sanduci(rez, out, H, D) {
   const { klizac: nl, sirina: s, visine } = rez.sanduci, fr = rez.crtez.frontovi, n = fr.length, t = P.bokFioke;
   const zPred = D / 2 - P.t, brojac = {};
   const red = (deo, v) => rez.daske.findIndex((d) => d.deo === deo && (v == null || d.sirina === v));
-  const dodaj = (deo, v, o) => { const r = red(deo, v), i = (brojac[r] = (brojac[r] ?? -1) + 1); out.push({ deo, red: r, i, mat: rez.daske[r].materijal, t: rez.daske[r].debljina, rotX: 0, rotY: 0, x: 0, eks: { z: RAZMAK.sanduk }, ...o }); };
+  const dodaj = (deo, v, o) => { const r = red(deo, v), i = (brojac[r] = (brojac[r] ?? -1) + 1); out.push({ deo, red: r, i, mat: rez.daske[r].materijal, t: rez.daske[r].debljina, rotX: 0, rotY: 0, x: 0, eks: { z: RAZMAK.sanduk }, fioka: tekuca, ...o }); };
+  let tekuca = 0;                                  // kojoj fioci komad pripada (0 = gornja), za izvlačenje u 3D prikazu
   visine.forEach((v, j) => {                       // j = 0 je gornja fioka; frontovi su odozdo nagore
+    tekuca = j;
     const dnoFronta = fr[n - 1 - j].y, y = H / 2 - (dnoFronta + P.podizanjeSanduka + v / 2);
     for (const strana of [-1, 1]) dodaj("bok_fioke", v, { w: nl, h: v, rotY: 90, x: strana * (s / 2 - t / 2), y, z: zPred - nl / 2 });
     for (const kraj of [0, 1]) dodaj("celo_fioke", v, { w: s - 2 * t, h: v, y, z: zPred - (kraj ? nl - t / 2 : t / 2) });

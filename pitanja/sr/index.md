@@ -12,7 +12,7 @@ Ovo su pitanja koja majstori stvarno kucaju u pretraživač i pišu po grupama k
 
 ## Koliko košta program za kuhinje TOPICA?
 
-Probna verzija je besplatna, bez naloga i bez kartice. Cenu pune verzije još nismo objavili; čim bude poznata, pisaće u odeljku [Cena](../#cena), a tamo možeš da ostaviš e-mail da ti stigne jedna poruka kad izađe. Do tada probnu verziju koristiš na svojim projektima i vidiš da li ti odgovara pre nego što išta platiš.
+Probna verzija je besplatna i bez naloga. Cenu pune verzije još nismo objavili; čim bude poznata, pisaće u odeljku [Cena](../#cena), a tamo možeš da ostaviš e-mail da ti stigne jedna poruka kad izađe. Do tada probnu verziju koristiš na svojim projektima i vidiš da li ti odgovara pre nego što išta platiš.
 
 ## Da li radi na Mac-u ili na telefonu?
 

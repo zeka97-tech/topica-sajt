@@ -1,12 +1,13 @@
 <header class="traka" id="traka">
-  <div class="okvir">
-    <a class="logo" href="{{sistem.pocetna}}" aria-label="{{a11y.logo}}"><span class="logo-znak" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2.5" y="2.5" width="11" height="11" rx="1.5"/><path d="M8 2.5v11M2.5 8h11"/></svg></span>TOPICA</a>
-    <nav aria-label="{{a11y.navigacija}}">
+  <div class="okvir traka-unutra">
+    <a class="logo" href="{{sistem.pocetna}}" aria-label="{{a11y.logo}}"><svg class="logo-znak" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2 9 5.2v9.6L12 22l-9-5.2V7.2L12 2Z"/><path d="m3 7.2 9 5.2 9-5.2M12 12.4V22"/></svg><span>Topica</span></a>
+    <nav class="traka-nav" aria-label="{{a11y.navigacija}}">
       <ul class="traka-stavke" id="traka-stavke">
-        <li><a href="{{sistem.pocetna}}#mogucnosti">{{nav.mogucnosti}}</a></li>
-        <li><a href="{{sistem.pocetna}}#konfigurator">{{nav.modeli}}</a></li>
-        <li><a href="{{sistem.pocetna}}blog/">{{nav.blog}}</a></li>
-        <li><a href="{{sistem.pocetna}}#pitanja">{{nav.pitanja}}</a></li>
+        <li><a href="{{sistem.pocetna}}" data-stavka="pocetna">{{nav.pocetna}}</a></li>
+        <li><a href="{{sistem.pocetna}}mogucnosti.html" data-stavka="mogucnosti">{{nav.mogucnosti}}</a></li>
+        <li><a href="{{sistem.pocetna}}#biblioteka">{{nav.biblioteka}}</a></li>
+        <li><a href="{{sistem.pocetna}}#kako-radi">{{nav.kako}}</a></li>
+        <li><a href="{{sistem.pocetna}}blog/" data-stavka="blog">{{nav.blog}}</a></li>
       </ul>
     </nav>
     <div class="traka-desno">
@@ -14,8 +15,8 @@
         <summary><span class="vizuelno-skriveno">{{a11y.jezik}}: </span>{{sistem.kod}} <svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></summary>
         <ul class="jezik-lista">{{sistem.jezikLista}}</ul>
       </details>
-      <a class="dugme dugme-zlatno dugme-malo traka-cta" href="{{sistem.pocetna}}preuzimanje.html">{{cta.kratko}}</a>
-      <button class="meni-dugme" type="button" aria-expanded="false" aria-controls="traka-stavke" aria-label="{{a11y.meni}}"><span></span><span></span><span></span></button>
+      <a class="dugme dugme-zlatno dugme-malo traka-cta" href="{{sistem.pocetna}}preuzimanje.html">{{cta.kratko}} <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-7-7 7 7-7 7"/></svg></a>
+      <button class="meni-dugme" type="button" aria-expanded="false" aria-controls="traka-stavke" aria-label="{{a11y.meni}}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
     </div>
   </div>
 </header>

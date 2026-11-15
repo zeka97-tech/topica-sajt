@@ -46,7 +46,9 @@ async function obradi(ime, ulaz, meta) {
 async function main() {
   await mkdir(WEB, { recursive: true });
   const manifest = {};
-  const datoteke = (await readdir(IZVOR)).filter((f) => /\.(png|jpe?g|webp)$/i.test(f));
+  // uzor-vrh (izmišljen ekran programa) i uzor-komoda-konfigurator (AI komoda) se NE objavljuju: služe samo kao izvor / poređenje
+  const NE_OBJAVLJUJ = new Set(["uzor-vrh.webp", "uzor-komoda-konfigurator.webp"]);
+  const datoteke = (await readdir(IZVOR)).filter((f) => /\.(png|jpe?g|webp)$/i.test(f) && !NE_OBJAVLJUJ.has(f));
   for (const f of datoteke) {
     if (/-isecen\.png$/.test(f) === false && /^topi-.*\.png$/.test(f)) continue; // original maskote sa belom pozadinom se ne objavljuje
     const ulaz = sharp(path.join(IZVOR, f));

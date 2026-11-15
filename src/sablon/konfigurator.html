@@ -1,25 +1,51 @@
-<section class="konf tamno mreza-podloga" id="konfigurator" aria-labelledby="konf-naslov">
-  <div class="okvir">
-    <span class="nadnaslov">{{konf.nadnaslov}}</span>
-    <h2 id="konf-naslov">{{konf.naslov}}</h2>
-    <p class="vodeci">{{konf.tekst}}</p>
-    <div class="konf-kartice">
-      <article class="konf-kartica">
-        <div class="konf-glava"><span class="korak-broj" aria-hidden="true">1</span><h3>{{konf.k1.naslov}}</h3><p>{{konf.k1.tekst}}</p></div>
-        <div class="konf-modeli" role="radiogroup" aria-label="{{konf.modeli_aria}}" id="konf-modeli">
-          <button class="konf-model" type="button" role="radio" aria-checked="true" data-model="base-with-doors">{{konf.model.base-with-doors}}</button>
-          <button class="konf-model" type="button" role="radio" aria-checked="false" data-model="base-with-drawers">{{konf.model.base-with-drawers}}</button>
-          <button class="konf-model" type="button" role="radio" aria-checked="false" data-model="wall-with-doors">{{konf.model.wall-with-doors}}</button>
-          <button class="konf-model" type="button" role="radio" aria-checked="false" data-model="open-shelf">{{konf.model.open-shelf}}</button>
-          <button class="konf-model" type="button" role="radio" aria-checked="false" data-model="tall-unit">{{konf.model.tall-unit}}</button>
-          <button class="konf-model" type="button" role="radio" aria-checked="false" data-model="wardrobe">{{konf.model.wardrobe}}</button>
-          <button class="konf-model" type="button" role="radio" aria-checked="false" data-model="dresser">{{konf.model.dresser}}</button>
-        </div>
-        <div class="konf-crtez" id="konf-crtez-mali">{{sistem.konfCrtezMali}}</div>
-      </article>
-      <span class="konf-strelica" aria-hidden="true">›</span>
-      <article class="konf-kartica">
-        <div class="konf-glava"><span class="korak-broj" aria-hidden="true">2</span><h3>{{konf.k2.naslov}}</h3><p>{{konf.k2.tekst}}</p></div>
+<section class="okvir urednik" id="konfigurator" aria-labelledby="konf-naslov">
+  <div class="urednik-info">
+    <p class="nadnaslov">{{konf.nadnaslov}}</p>
+    <h2 id="konf-naslov">{{konf.naslov}} <em>{{konf.naslov2}}</em></h2>
+    <p>{{konf.tekst}}</p>
+    <a class="dugme dugme-zlatno urednik-cta" href="#spisak">{{konf.pogledaj}} <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-7-7 7 7-7 7"/></svg></a>
+    <div class="konf-modeli" role="radiogroup" aria-label="{{konf.modeli_aria}}" id="konf-modeli">
+        <button class="konf-model" type="button" role="radio" aria-checked="true" data-model="base-with-doors"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2h12v20H6zM9 5v14M15 12h.01"/></svg><span>{{konf.model.base-with-doors}}</span><svg class="izabrano" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4.3 4.3L19 6.6"/></svg></button>
+        <button class="konf-model" type="button" role="radio" aria-checked="false" data-model="base-with-drawers"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3h18v18H3zM3 10h18M3 16h18M10 7h4M10 13h4M10 19h4"/></svg><span>{{konf.model.base-with-drawers}}</span><svg class="izabrano" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4.3 4.3L19 6.6"/></svg></button>
+        <button class="konf-model" type="button" role="radio" aria-checked="false" data-model="wall-with-doors"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2h12v20H6zM9 5v14M15 12h.01"/></svg><span>{{konf.model.wall-with-doors}}</span><svg class="izabrano" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4.3 4.3L19 6.6"/></svg></button>
+        <button class="konf-model" type="button" role="radio" aria-checked="false" data-model="open-shelf"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2 9.5 5.5L12 13 2.5 7.5 12 2ZM2.5 12 12 17.5l9.5-5.5M2.5 16.5 12 22l9.5-5.5"/></svg><span>{{konf.model.open-shelf}}</span><svg class="izabrano" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4.3 4.3L19 6.6"/></svg></button>
+        <button class="konf-model" type="button" role="radio" aria-checked="false" data-model="tall-unit"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2 9 5.2v9.6L12 22l-9-5.2V7.2L12 2Z"/><path d="m3 7.2 9 5.2 9-5.2M12 12.4V22"/></svg><span>{{konf.model.tall-unit}}</span><svg class="izabrano" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4.3 4.3L19 6.6"/></svg></button>
+        <button class="konf-model" type="button" role="radio" aria-checked="false" data-model="wardrobe"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 7a3 3 0 0 1 6 0c0 1.7-3 2-3 4.2V13l9 6-2 2H5l-2-2 9-6"/></svg><span>{{konf.model.wardrobe}}</span><svg class="izabrano" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4.3 4.3L19 6.6"/></svg></button>
+        <button class="konf-model" type="button" role="radio" aria-checked="false" data-model="dresser"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3h18v18H3zM3 10h18M3 16h18M10 7h4M10 13h4M10 19h4"/></svg><span>{{konf.model.dresser}}</span><svg class="izabrano" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4.3 4.3L19 6.6"/></svg></button>
+    </div>
+  </div>
+  <div class="urednik-prikaz" id="konf-prikaz" data-pogled="3d">
+    <div class="prikaz-3d" id="konf-3d">
+      <img class="prikaz-poster" id="konf-poster" src="{{sistem.koren}}slike/web/konf-poster-800.webp" srcset="{{sistem.koren}}slike/web/konf-poster-800.webp 800w, {{sistem.koren}}slike/web/konf-poster-1600.webp 1200w" sizes="(max-width: 980px) 100vw, 45vw" width="1200" height="900" loading="lazy" alt="">
+    </div>
+    <div class="prikaz-2d" id="konf-crtez-veliki">{{sistem.konfCrtezVeliki}}</div>
+    <div class="prikaz-gore"><span class="mini-pilula" id="konf-pilula">{{konf.pilula}}</span>
+      <span class="pogled-prekidac" role="group" aria-label="{{konf.prikaz_aria}}"><button type="button" data-pogled="2d" aria-pressed="false">2D</button><button type="button" data-pogled="3d" aria-pressed="true">3D</button></span></div>
+    <div class="prikaz-dole"><p class="prikaz-opis" id="konf-opis" data-sablon="{{konf.opis_platna}}">{{sistem.konfOpis}}</p>
+      <span class="kontrole" id="konf-kontrole">
+        <button type="button" data-radnja="otvori" aria-pressed="false" aria-label="{{konf.k_otvori}}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 3h9v18H4zM13 5l7-2v18l-7-2"/></svg></button>
+        <button type="button" data-radnja="okreni" aria-label="{{konf.k_okreni}}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.3-5.7M20 4v5h-5"/></svg></button>
+        <button type="button" data-radnja="udalji" aria-label="{{konf.k_udalji}}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/></svg></button>
+        <button type="button" data-radnja="priblizi" aria-label="{{konf.k_priblizi}}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5v14"/></svg></button>
+        <button type="button" data-radnja="ekran" aria-label="{{konf.k_ekran}}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M15 4h5v5M20 15v5h-5M9 20H4v-5"/></svg></button>
+      </span></div>
+  </div>
+  <div class="urednik-panel">
+    <div class="panel-jezicci" role="tablist" aria-label="{{konf.panel_aria}}">
+      <button type="button" class="panel-jezicak" role="tab" id="jezicak-materijali" aria-controls="panel-materijali" aria-selected="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2 9.5 5.5L12 13 2.5 7.5 12 2ZM2.5 12 12 17.5l9.5-5.5M2.5 16.5 12 22l9.5-5.5"/></svg><span>{{konf.tab_materijali}}</span></button>
+      <button type="button" class="panel-jezicak" role="tab" id="jezicak-dimenzije" aria-controls="panel-dimenzije" aria-selected="false" tabindex="-1"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 17 17 2l5 5L7 22l-5-5Zm5-5 3 3m0-6 3 3m0-6 3 3"/></svg><span>{{konf.tab_dimenzije}}</span></button>
+      <button type="button" class="panel-jezicak" role="tab" id="jezicak-okovi" aria-controls="panel-okovi" aria-selected="false" tabindex="-1"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.1"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1"/></svg><span>{{konf.tab_okovi}}</span></button>
+    </div>
+    <div class="panel-telo">
+      <div class="panel-sadrzaj" role="tabpanel" id="panel-materijali" aria-labelledby="jezicak-materijali">
+        <h3 id="konf-korpus-naziv">{{konf.dezen_korpusa}}: <span class="izabran-dezen" data-izabran="korpus">{{konf.dezen.mat-white}}</span></h3>
+        <div class="uzorci" role="radiogroup" aria-labelledby="konf-korpus-naziv" id="konf-korpus"><button class="uzorak" type="button" role="radio" aria-checked="true" data-korpus="mat-white" data-dezen="mat-white" aria-label="{{konf.dezen.mat-white}}"><svg class="izabrano" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4.3 4.3L19 6.6"/></svg></button><button class="uzorak" type="button" role="radio" aria-checked="false" data-korpus="mat-cashmere" data-dezen="mat-cashmere" aria-label="{{konf.dezen.mat-cashmere}}"><svg class="izabrano" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4.3 4.3L19 6.6"/></svg></button><button class="uzorak" type="button" role="radio" aria-checked="false" data-korpus="mat-anthracite" data-dezen="mat-anthracite" aria-label="{{konf.dezen.mat-anthracite}}"><svg class="izabrano" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4.3 4.3L19 6.6"/></svg></button><button class="uzorak" type="button" role="radio" aria-checked="false" data-korpus="mat-sonoma" data-dezen="mat-sonoma" aria-label="{{konf.dezen.mat-sonoma}}"><svg class="izabrano" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4.3 4.3L19 6.6"/></svg></button></div>
+        <h3 id="konf-front-naziv">{{konf.dezen_fronta}}: <span class="izabran-dezen" data-izabran="front">{{konf.dezen.mat-oak}}</span></h3>
+        <div class="uzorci" role="radiogroup" aria-labelledby="konf-front-naziv" id="konf-frontovi"><button class="uzorak" type="button" role="radio" aria-checked="true" data-front="mat-oak" data-dezen="mat-oak" aria-label="{{konf.dezen.mat-oak}}"><svg class="izabrano" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4.3 4.3L19 6.6"/></svg></button><button class="uzorak" type="button" role="radio" aria-checked="false" data-front="mat-sonoma" data-dezen="mat-sonoma" aria-label="{{konf.dezen.mat-sonoma}}"><svg class="izabrano" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4.3 4.3L19 6.6"/></svg></button><button class="uzorak" type="button" role="radio" aria-checked="false" data-front="mat-walnut" data-dezen="mat-walnut" aria-label="{{konf.dezen.mat-walnut}}"><svg class="izabrano" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4.3 4.3L19 6.6"/></svg></button><button class="uzorak" type="button" role="radio" aria-checked="false" data-front="mat-white" data-dezen="mat-white" aria-label="{{konf.dezen.mat-white}}"><svg class="izabrano" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4.3 4.3L19 6.6"/></svg></button></div>
+        <h3 id="konf-rucka-naziv">{{konf.rucke}}</h3>
+        <div class="rucke" role="radiogroup" aria-labelledby="konf-rucka-naziv" id="konf-rucke"><button class="rucka-izbor" type="button" role="radio" aria-checked="true" data-rucka="stangla"><span class="rucka-crtez rucka-stangla" aria-hidden="true"></span><span>{{konf.rucka.stangla}}</span></button><button class="rucka-izbor" type="button" role="radio" aria-checked="false" data-rucka="dugme"><span class="rucka-crtez rucka-dugme" aria-hidden="true"></span><span>{{konf.rucka.dugme}}</span></button><button class="rucka-izbor" type="button" role="radio" aria-checked="false" data-rucka="bez"><span class="rucka-crtez rucka-bez" aria-hidden="true"></span><span>{{konf.rucka.bez}}</span></button></div>
+      </div>
+      <div class="panel-sadrzaj" role="tabpanel" id="panel-dimenzije" aria-labelledby="jezicak-dimenzije" hidden>
         <div class="konf-polja" id="konf-polja">
           <div class="polje-mera" data-polje="sirina"><label for="konf-sirina">{{konf.sirina}}</label><div class="korak-polje"><button type="button" data-korak="-1" aria-label="{{konf.manje}}: {{konf.sirina}}">−</button><input id="konf-sirina" type="number" inputmode="numeric" value="600" min="300" max="1200" step="10"><span class="jedinica">mm</span><button type="button" data-korak="1" aria-label="{{konf.vise}}: {{konf.sirina}}">+</button></div></div>
           <div class="polje-mera" data-polje="visina"><label for="konf-visina">{{konf.visina}}</label><div class="korak-polje"><button type="button" data-korak="-1" aria-label="{{konf.manje}}: {{konf.visina}}">−</button><input id="konf-visina" type="number" inputmode="numeric" value="720" min="600" max="900" step="10"><span class="jedinica">mm</span><button type="button" data-korak="1" aria-label="{{konf.vise}}: {{konf.visina}}">+</button></div></div>
@@ -27,27 +53,15 @@
           <div class="polje-mera" data-polje="police"><label for="konf-police">{{konf.police}}</label><div class="korak-polje"><button type="button" data-korak="-1" aria-label="{{konf.manje}}: {{konf.police}}">−</button><input id="konf-police" type="number" inputmode="numeric" value="1" min="0" max="4" step="1"><span class="jedinica"></span><button type="button" data-korak="1" aria-label="{{konf.vise}}: {{konf.police}}">+</button></div></div>
           <div class="polje-mera" data-polje="vrata"><label for="konf-vrata">{{konf.vrata}}</label><div class="korak-polje"><button type="button" data-korak="-1" aria-label="{{konf.manje}}: {{konf.vrata}}">−</button><input id="konf-vrata" type="number" inputmode="numeric" value="1" min="1" max="2" step="1"><span class="jedinica"></span><button type="button" data-korak="1" aria-label="{{konf.vise}}: {{konf.vrata}}">+</button></div></div>
           <div class="polje-mera" data-polje="fioke" hidden><label for="konf-fioke">{{konf.fioke}}</label><div class="korak-polje"><button type="button" data-korak="-1" aria-label="{{konf.manje}}: {{konf.fioke}}">−</button><input id="konf-fioke" type="number" inputmode="numeric" value="3" min="2" max="5" step="1"><span class="jedinica"></span><button type="button" data-korak="1" aria-label="{{konf.vise}}: {{konf.fioke}}">+</button></div></div>
-          <div class="polje-mera" data-polje="front"><span class="polje-naziv" id="konf-front-naziv">{{konf.front}}</span>
-            <div class="konf-frontovi" role="radiogroup" aria-labelledby="konf-front-naziv" id="konf-frontovi">
-              <button class="konf-front" type="button" role="radio" aria-checked="false" data-front="bela" aria-label="{{konf.dezen.bela}}" title="{{konf.dezen.bela}}"></button>
-              <button class="konf-front" type="button" role="radio" aria-checked="false" data-front="siva" aria-label="{{konf.dezen.siva}}" title="{{konf.dezen.siva}}"></button>
-              <button class="konf-front" type="button" role="radio" aria-checked="true" data-front="drvo" aria-label="{{konf.dezen.drvo}}" title="{{konf.dezen.drvo}}"></button>
-              <button class="konf-front" type="button" role="radio" aria-checked="false" data-front="crna" aria-label="{{konf.dezen.crna}}" title="{{konf.dezen.crna}}"></button>
-            </div>
-          </div>
         </div>
-        <p class="spisak-napomena">{{konf.napomena}}</p>
-      </article>
-      <span class="konf-strelica" aria-hidden="true">›</span>
-      <article class="konf-kartica">
-        <div class="konf-glava"><span class="korak-broj" aria-hidden="true">3</span><h3>{{konf.k3.naslov}}</h3><p>{{konf.k3.tekst}}</p></div>
-        <div class="konf-crtez konf-crtez-veliki" id="konf-crtez-veliki">{{sistem.konfCrtezVeliki}}</div>
-        <ul class="stikle">
-          <li>{{konf.daje.1}}</li><li>{{konf.daje.2}}</li><li>{{konf.daje.3}}</li><li>{{konf.daje.4}}</li><li>{{konf.daje.5}}</li><li>{{konf.daje.6}}</li>
-        </ul>
-        <a class="veza" href="#spisak"><span>{{konf.pogledaj}}</span> <span class="strelica" aria-hidden="true">›</span></a>
-      </article>
+        <p class="panel-napomena">{{konf.napomena}}</p>
+      </div>
+      <div class="panel-sadrzaj" role="tabpanel" id="panel-okovi" aria-labelledby="jezicak-okovi" hidden>
+        <h3>{{konf.okovi_naslov}}</h3>
+        <ul class="okovi-lista" id="konf-okovi">{{sistem.konfOkovi}}</ul>
+        <p class="panel-napomena">{{konf.okovi_napomena}}</p>
+      </div>
     </div>
-    <p class="vizuelno-skriveno" aria-live="polite" id="konf-uzivo" data-sablon="{{konf.uzivo}}"></p>
   </div>
+  <p class="vizuelno-skriveno" aria-live="polite" id="konf-uzivo" data-sablon="{{konf.uzivo}}"></p>
 </section>

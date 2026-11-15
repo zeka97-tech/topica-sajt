@@ -1,4 +1,21 @@
 {
+  "konf-poster": [
+    {
+      "datoteka": "konf-poster-400.webp",
+      "sirina": 400,
+      "visina": 300
+    },
+    {
+      "datoteka": "konf-poster-800.webp",
+      "sirina": 800,
+      "visina": 600
+    },
+    {
+      "datoteka": "konf-poster-1600.webp",
+      "sirina": 1200,
+      "visina": 900
+    }
+  ],
   "snimak-12-korpus-sa-vratima": [
     {
       "datoteka": "snimak-12-korpus-sa-vratima-400.webp",
@@ -252,6 +269,108 @@
       "datoteka": "topi-meri-korpus-isecen-1600.webp",
       "sirina": 1064,
       "visina": 1068
+    }
+  ],
+  "uzor-custom": [
+    {
+      "datoteka": "uzor-custom-400.webp",
+      "sirina": 400,
+      "visina": 240
+    },
+    {
+      "datoteka": "uzor-custom-800.webp",
+      "sirina": 720,
+      "visina": 432
+    },
+    {
+      "datoteka": "uzor-custom-1600.webp",
+      "sirina": 720,
+      "visina": 432
+    }
+  ],
+  "uzor-garderoberi": [
+    {
+      "datoteka": "uzor-garderoberi-400.webp",
+      "sirina": 400,
+      "visina": 240
+    },
+    {
+      "datoteka": "uzor-garderoberi-800.webp",
+      "sirina": 720,
+      "visina": 432
+    },
+    {
+      "datoteka": "uzor-garderoberi-1600.webp",
+      "sirina": 720,
+      "visina": 432
+    }
+  ],
+  "uzor-komode": [
+    {
+      "datoteka": "uzor-komode-400.webp",
+      "sirina": 400,
+      "visina": 240
+    },
+    {
+      "datoteka": "uzor-komode-800.webp",
+      "sirina": 720,
+      "visina": 432
+    },
+    {
+      "datoteka": "uzor-komode-1600.webp",
+      "sirina": 720,
+      "visina": 432
+    }
+  ],
+  "uzor-kuhinje": [
+    {
+      "datoteka": "uzor-kuhinje-400.webp",
+      "sirina": 400,
+      "visina": 240
+    },
+    {
+      "datoteka": "uzor-kuhinje-800.webp",
+      "sirina": 720,
+      "visina": 432
+    },
+    {
+      "datoteka": "uzor-kuhinje-1600.webp",
+      "sirina": 720,
+      "visina": 432
+    }
+  ],
+  "uzor-plakari": [
+    {
+      "datoteka": "uzor-plakari-400.webp",
+      "sirina": 400,
+      "visina": 240
+    },
+    {
+      "datoteka": "uzor-plakari-800.webp",
+      "sirina": 720,
+      "visina": 432
+    },
+    {
+      "datoteka": "uzor-plakari-1600.webp",
+      "sirina": 720,
+      "visina": 432
+    }
+  ],
+  "vrh-topi-laptop": [
+    {
+      "datoteka": "vrh-topi-laptop-400.webp",
+      "sirina": 400,
+      "visina": 145
+    },
+    {
+      "datoteka": "vrh-topi-laptop-800.webp",
+      "sirina": 800,
+      "visina": 291
+    },
+    {
+      "datoteka": "vrh-topi-laptop-1600.webp",
+      "sirina": 1600,
+      "visina": 581
     }
   ],
   "isecak-po-meri-tabela": [

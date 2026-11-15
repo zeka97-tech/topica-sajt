@@ -1,10 +1,7 @@
-/* traka-mogucnosti.css — jedan red ikonica (linije) sa natpisima; na telefonu se prevlači vodoravno */
-.mtraka { padding: 0 0 var(--r-10); }
-.mtraka-lista { list-style: none; margin: 0; padding: var(--r-5) var(--r-4); display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: var(--r-2); border-radius: var(--rad-kartica); background: var(--c-kartica); border: var(--d-linija) solid var(--c-zlatna-okvir); box-shadow: var(--senka-sjaj); }
-.mtraka-lista li { display: grid; justify-items: center; gap: var(--r-2); text-align: center; font-size: var(--f-15); font-weight: var(--w-600); color: var(--c-belo); padding: 0 var(--r-2); }
-.mtraka-lista li + li { border-left: var(--d-linija) solid var(--c-tamno-linija); }
-.mtraka-lista svg { width: var(--s-mtraka-ikona); height: var(--s-mtraka-ikona); fill: none; stroke: var(--c-zlatna); stroke-width: var(--d-ikona); stroke-linecap: round; stroke-linejoin: round; }
-@media (max-width: 860px) {
-  .mtraka-lista { grid-auto-columns: var(--s-mtraka-min); overflow-x: auto; scroll-snap-type: x proximity; -webkit-overflow-scrolling: touch; }
-  .mtraka-lista li { scroll-snap-align: start; }
-}
+/* traka-mogucnosti.css — traka sa 7 ikonica ispod vrha (uzor: zlatne linije, tamna pilula sa zlatnim okvirom) */
+.mtraka-lista { list-style: none; margin: var(--r-2) 0 var(--r-u-15); padding: 0; min-height: var(--s-u-traka-v); border: var(--d-linija) solid var(--c-zlatna-okvir); border-radius: var(--rad-u-18); background: var(--u-traka-pozadina); display: grid; grid-template-columns: repeat(7, 1fr); align-items: center; box-shadow: var(--u-traka-senka); }
+.mtraka-lista li { display: flex; flex-direction: column; gap: var(--r-u-7); align-items: center; justify-content: center; min-height: var(--s-u-stavka-v); border-right: var(--d-linija) solid var(--u-traka-crta); font-size: var(--f-u-11); font-weight: var(--w-700); text-align: center; padding: 0 var(--r-1); }
+.mtraka-lista li:last-child { border: 0; }
+.mtraka-lista svg { width: var(--s-u-ikona); height: var(--s-u-ikona); fill: none; stroke: var(--c-zlatna-svetla); stroke-width: var(--d-u-ikona); stroke-linecap: round; stroke-linejoin: round; }
+@media (max-width: 980px) { .mtraka-lista { grid-template-columns: repeat(4, 1fr); padding: var(--r-u-11) 0; row-gap: var(--r-2); } .mtraka-lista li { border-right: 0; } }
+@media (max-width: 650px) { .mtraka-lista { grid-template-columns: repeat(3, 1fr); gap: var(--r-u-14) var(--r-1); } .mtraka-lista li { font-size: var(--f-u-10); } .mtraka-lista svg { width: var(--s-u-ikona-21); height: var(--s-u-ikona-21); } }

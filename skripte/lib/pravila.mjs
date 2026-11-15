@@ -3,7 +3,7 @@ import { readFileSync, readdirSync, statSync } from "node:fs";
 import path from "node:path";
 import { spisakKljuceva } from "./sablon.mjs";
 
-const DOZVOLJENE_RECI = new Set(["TOPICA", "Topi", "3D", "PDF", "mm", "EN", "Windows", "RSD", "CSV", "HDF", "ABS", "Formspree", "Paddle", "Lemon", "Squeezy", "Kupi", "DUGME", "KUPI", "Belo", "nikad", "drugo", "narandžasto", "uključiti", "kad", "cena", "bude", "objavljena", "ili", "skripta", "u", "skripte", "html"]);
+const DOZVOLJENE_RECI = new Set(["TOPICA", "Topica", "Topi", "3D", "PDF", "mm", "EN", "Windows", "RSD", "CSV", "HDF", "ABS", "Formspree", "Paddle", "Lemon", "Squeezy", "Kupi", "DUGME", "KUPI", "Belo", "nikad", "drugo", "narandžasto", "uključiti", "kad", "cena", "bude", "objavljena", "ili", "skripta", "u", "skripte", "html"]);
 
 export function sviFajlovi(dir, filter) {
   const out = [];

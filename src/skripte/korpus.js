@@ -5,6 +5,7 @@ import { komadiElementa, napraviKomad, razmera } from "./korpus-model.js";
 import { komadiIz, rasporedi, TABLA, TABLA_LESONITA } from "./raspored.js";
 import { redoviHtml, popuniRecenicu } from "./spisak-prikaz.js";
 import { trenutniElement } from "./konfigurator.js";
+import { izracunaj } from "./proracun.js";
 
 const KAMERA = { cx: -20, cy: -35 }; // isto kao --korpus-cx / --korpus-cy u tokeni.css
 const SCENA = { w: 1100, h: 560 }, RAZMAK_TABLI = 150;
@@ -33,7 +34,7 @@ function izgradi(rez, d) {
   d.natpisi[0].textContent = popuniRecenicu(d.natpisi[0].dataset.sablon, { model: rez.naziv, s: u.sirina, v: u.visina, d: u.dubina, n: rez.zbir.komada });
   const MM = razmera(rez.ulaz), komadi = komadiElementa(rez), p = plan(rez);
   const pm = Math.min((SCENA.w - 60) / p.sirina, (SCENA.h - 80) / p.visina), sk = pm / MM;
-  const el = komadi.map((k) => { const e = napraviKomad(k, MM, `${rez.daske[k.red].duzina} × ${rez.daske[k.red].sirina}`, d.recnik[`deo.${k.deo}`], KAMERA, rez.front); d.svet.append(e); return e; });
+  const el = komadi.map((k) => { const e = napraviKomad(k, MM, `${rez.daske[k.red].duzina} × ${rez.daske[k.red].sirina}`, d.recnik[`deo.${k.deo}`], KAMERA, rez.izgled?.front || "mat-oak"); d.svet.append(e); return e; });
   const sklopljen = (k) => ({ x: k.x * MM, y: k.y * MM, z: k.z * MM, rx: k.rotX, ry: k.rotY });
   const razmaknut = (k) => ({ x: k.x * MM + (k.eks.x || 0), y: k.y * MM + (k.eks.y || 0), z: k.z * MM + (k.eks.z || 0), rx: k.rotX, ry: k.rotY });
   for (const t of p.table) { const o = document.createElement("div"); o.className = "plan-okvir"; o.style.cssText = `left:${SCENA.w / 2 + (t.x - p.sirina / 2) * pm}px;top:${SCENA.h / 2 - (p.visina / 2) * pm}px;width:${t.w * pm}px;height:${t.h * pm}px`; d.table.append(o); }
@@ -78,6 +79,7 @@ export function pokreniKorpus() {
     fmt: (n, dec) => new Intl.NumberFormat(jezik, dec == null ? { maximumFractionDigits: 2 } : { minimumFractionDigits: dec, maximumFractionDigits: dec }).format(n) };
   const skaliraj = () => { const o = scena.parentElement; scena.style.transform = `translate(-50%, -50%) scale(${Math.min(0.94, (o.clientWidth + 120) / SCENA.w, (o.clientHeight - 8) / SCENA.h).toFixed(3)})`; };
   skaliraj(); window.addEventListener("resize", skaliraj);
-  if (trenutniElement()) izgradi(trenutniElement(), d);
+  // na početnoj crta element iz konfiguratora; na stranici Mogućnosti podrazumevani element iz programa
+  izgradi(trenutniElement() || { ...izracunaj("base-with-doors", {}), naziv: recnik["model.base-with-doors"], izgled: { front: "mat-oak" } }, d);
   document.addEventListener("topica:element", (e) => izgradi(e.detail, d));
 }

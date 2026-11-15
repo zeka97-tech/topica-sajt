@@ -1,24 +1,23 @@
-/* traka.css — gornja traka: tanka, tamno staklo, zlatno dugme uvek vidljivo */
-.traka { position: fixed; inset: 0 0 auto 0; z-index: var(--z-traka); height: var(--s-traka); background: var(--c-staklo); -webkit-backdrop-filter: saturate(180%) blur(var(--blur-staklo)); backdrop-filter: saturate(180%) blur(var(--blur-staklo)); border-bottom: var(--d-linija) solid var(--c-linija); }
-.traka .okvir { height: 100%; display: flex; align-items: center; gap: var(--r-7); }
-.logo { display: inline-flex; align-items: center; gap: var(--r-2); font-weight: var(--w-800); letter-spacing: var(--ls-h3); font-size: var(--f-18); color: var(--c-belo); }
-.logo-znak { width: var(--s-logo); height: var(--s-logo); border-radius: var(--s-logo-rad); background: var(--c-zlatna); display: grid; place-items: center; }
-.logo-znak { color: var(--c-crna); }
-.logo-znak svg { width: var(--s-logo-svg); height: var(--s-logo-svg); }
-.traka-stavke { display: flex; gap: var(--r-6); margin: 0 auto; padding: 0; list-style: none; }
-.traka-stavke a { color: var(--c-tekst-2); font-size: var(--f-15); font-weight: var(--w-500); transition: color var(--t-brzo) var(--t-krivulja); }
-.traka-stavke a:hover { color: var(--c-zlatna-svetla); }
-.traka-desno { display: flex; align-items: center; gap: var(--r-3); margin-left: auto; }
-.meni-dugme { display: none; width: var(--s-meni); height: var(--s-meni); border: 0; background: transparent; cursor: pointer; padding: var(--r-2); border-radius: var(--rad-10); }
-.meni-dugme span { display: block; height: var(--s-meni-crta); background: var(--c-belo); margin: var(--r-1) 0; border-radius: var(--s-meni-crta); transition: transform var(--t-brzo) var(--t-krivulja), opacity var(--t-brzo) var(--t-krivulja); }
-.meni-dugme span + span { margin-top: calc(var(--r-1) + var(--d-linija-2)); }
-@media (max-width: 860px) {
-  .traka-stavke { display: none; position: fixed; top: var(--s-traka); left: 0; right: 0; flex-direction: column; gap: 0; background: var(--c-staklo-meni); -webkit-backdrop-filter: blur(var(--blur-staklo)); backdrop-filter: blur(var(--blur-staklo)); border-bottom: var(--d-linija) solid var(--c-linija); padding: var(--r-2) var(--r-6) var(--r-4); }
-  .traka-stavke a { display: block; padding: var(--r-3) 0; font-size: var(--f-17); border-bottom: var(--d-linija) solid var(--c-linija); }
+/* traka.css — gornji meni kao u uzoru: logo (zlatna kocka), stavke kao pilule, jezik, zlatno dugme; na telefonu meni iza dugmeta */
+.traka { position: sticky; top: 0; z-index: var(--z-traka); background: var(--u-traka); border-bottom: var(--d-linija) solid var(--u-traka-linija); }
+.traka-unutra { height: var(--s-u-traka); display: flex; align-items: center; gap: var(--r-7); }
+.logo { display: inline-flex; align-items: center; gap: var(--r-2); font-size: var(--f-u-31); font-weight: var(--w-800); letter-spacing: var(--ls-u-logo); color: var(--c-belo); white-space: nowrap; line-height: var(--lh-1); }
+.logo-znak { width: var(--s-u-logo); height: var(--s-u-logo); fill: none; stroke: var(--c-zlatna-svetla); stroke-width: var(--d-u-logo); stroke-linecap: round; stroke-linejoin: round; }
+.traka-nav { margin: auto; }
+.traka-stavke { display: flex; gap: var(--r-u-7); align-items: center; margin: 0; padding: 0; list-style: none; }
+.traka-stavke a { display: block; padding: var(--r-u-11) var(--r-u-17); border-radius: var(--rad-pilula); font-size: var(--f-u-12); font-weight: var(--w-u-650); color: var(--c-belo); white-space: nowrap; transition: background-color var(--t-brzo) var(--t-krivulja); }
+.traka-stavke a:hover, .traka-stavke a[aria-current] { background: var(--u-meni-aktivno); box-shadow: var(--u-meni-sjaj); }
+.traka-desno { display: flex; align-items: center; gap: var(--r-u-14); }
+.traka-cta svg { width: var(--s-u-ikona-mala); height: var(--s-u-ikona-mala); }
+.meni-dugme { display: none; width: var(--s-meni); height: var(--s-meni); place-items: center; border: var(--d-linija) solid var(--u-meni-dugme-ivica); border-radius: var(--rad-u-9); background: var(--u-meni-dugme); color: var(--c-zlatna); cursor: pointer; padding: 0; }
+.meni-dugme svg { width: var(--s-u-ikona); height: var(--s-u-ikona); fill: none; stroke: currentColor; stroke-width: var(--d-ikona); stroke-linecap: round; }
+@media (max-width: 1250px) { .traka-unutra { gap: var(--r-u-14); } .traka-stavke a { padding: var(--r-u-10) var(--r-2); } .traka-desno { gap: var(--r-2); } }
+@media (max-width: 980px) {
+  .traka-nav { margin: 0; }
+  .traka-stavke { display: none; position: absolute; left: 0; right: 0; top: var(--s-u-traka); z-index: var(--z-meni); flex-direction: column; align-items: stretch; gap: 0; background: var(--u-meni-mob); border-bottom: var(--d-linija) solid var(--u-meni-mob-ivica); padding: var(--r-u-15) 5%; }
+  .traka-stavke a { padding: var(--r-3); border-radius: 0; border-bottom: var(--d-linija) solid var(--u-traka-linija); font-size: var(--f-u-14); }
   .traka.otvoreno .traka-stavke { display: flex; }
-  .meni-dugme { display: block; }
-  .traka.otvoreno .meni-dugme span:nth-child(1) { transform: translateY(var(--r-2)) rotate(45deg); }
-  .traka.otvoreno .meni-dugme span:nth-child(2) { opacity: 0; }
-  .traka.otvoreno .meni-dugme span:nth-child(3) { transform: translateY(calc(-1 * var(--r-2))) rotate(-45deg); }
-  .traka .okvir { gap: var(--r-3); }
+  .traka-desno { margin-left: auto; }
+  .meni-dugme { display: grid; }
 }
+@media (max-width: 650px) { .traka-unutra { height: var(--s-u-traka-mob); gap: var(--r-2); } .logo { font-size: var(--f-u-27); } .traka-cta { display: none; } .traka-stavke { top: var(--s-u-traka-mob); } }

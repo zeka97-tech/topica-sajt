@@ -1,8 +1,9 @@
-<section class="spisak tamno" id="spisak" aria-labelledby="spisak-naslov">
-  <div class="okvir">
-    <span class="nadnaslov">{{spisak.nadnaslov}}</span>
-    <h2 id="spisak-naslov">{{spisak.naslov}}</h2>
-    <p class="vodeci">{{spisak.tekst}}</p>
+<section class="okvir spisak" id="spisak" aria-labelledby="spisak-naslov">
+  <div>
+    <div class="mini-naslov">
+      <div><p class="nadnaslov">{{spisak.nadnaslov}}</p><h2 id="spisak-naslov">{{spisak.naslov}}</h2></div>
+      <p>{{spisak.tekst}}</p>
+    </div>
     <div class="spisak-mreza">
       <div class="secenje-kartica">
         <p class="spisak-opis" id="spisak-opis" data-sablon="{{spisak.primer}}">{{sistem.spisakOpis}}</p>

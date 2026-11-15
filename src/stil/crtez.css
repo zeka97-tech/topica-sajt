@@ -4,11 +4,13 @@
 .crt-gore { fill: var(--c-crt-gore); } .crt-bok { fill: var(--c-crt-bok); } .crt-lice { fill: var(--c-crt-lice); }
 .crt-cokla-gore, .crt-cokla-lice { fill: var(--c-crt-cokla); } .crt-cokla-bok { fill: var(--c-crt-cokla-2); }
 .crt-front { fill: var(--c-crt-lice); }
-.crtez[data-front="drvo"] .crt-front { fill: var(--c-crt-front-ivica); }
-.crtez[data-front="siva"] .crt-front { fill: var(--c-crt-bok); }
-.crtez[data-front="crna"] .crt-front { fill: var(--c-uzorak-crna); }
 .crtez .crt-rucka { stroke: var(--c-zlatna); stroke-width: var(--d-fokus); stroke-linecap: round; }
-.crtez[data-front="drvo"] .crt-rucka { stroke: var(--c-crna); }
+.crtez[data-front="mat-oak"] .crt-front { fill: var(--c-dezen-mat-oak); } .crtez[data-front="mat-sonoma"] .crt-front { fill: var(--c-dezen-mat-sonoma); } .crtez[data-front="mat-walnut"] .crt-front { fill: var(--c-dezen-mat-walnut); }
+.crtez[data-front="mat-white"] .crt-front { fill: var(--c-dezen-mat-white); }
+.crtez[data-korpus="mat-cashmere"] .crt-lice, .crtez[data-korpus="mat-cashmere"] .crt-gore { fill: var(--c-dezen-mat-cashmere); } .crtez[data-korpus="mat-cashmere"] .crt-bok { fill: var(--c-crt-kasmir-bok); }
+.crtez[data-korpus="mat-anthracite"] .crt-lice, .crtez[data-korpus="mat-anthracite"] .crt-gore { fill: var(--c-dezen-mat-anthracite); } .crtez[data-korpus="mat-anthracite"] .crt-bok { fill: var(--c-crt-antracit-bok); }
+.crtez[data-korpus="mat-sonoma"] .crt-lice, .crtez[data-korpus="mat-sonoma"] .crt-gore { fill: var(--c-dezen-mat-sonoma); } .crtez[data-korpus="mat-sonoma"] .crt-bok { fill: var(--c-crt-sonoma-bok); }
+.crtez .crt-rucka { stroke: var(--u-rucka-tamna); }
 .crtez .crt-polica { stroke: var(--c-crt-bok); }
 .crt-senka { fill: var(--c-crna-senka-4); filter: blur(var(--blur-senka)); }
 .crt-kota circle, .crt-kota rect { fill: var(--c-zlatna); }
@@ -20,3 +22,4 @@
 .plan-front { fill: var(--c-zlatna); }
 .plan-natpis { fill: var(--c-crna); font-family: var(--font); font-weight: var(--w-800); }
 .plan-ostatak { fill: var(--c-tekst-2); font-family: var(--font); font-weight: var(--w-500); }
+.crtez[data-rucka="bez"] .crt-rucka { display: none; }

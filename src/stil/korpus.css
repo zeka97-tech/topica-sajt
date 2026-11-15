@@ -19,10 +19,10 @@
 .korpus-omot { position: absolute; inset: 0; transform-origin: 50% 50%; }
 .plan-table { position: absolute; inset: 0; opacity: 0; }
 .plan-okvir { position: absolute; border-radius: var(--rad-malo); background: linear-gradient(180deg, var(--c-tamno-ploca-1), var(--c-tamno-ploca-2)); border: var(--d-linija) dashed var(--c-na-tamnom-3); }
-.lice-front { background: var(--c-crt-lice); } .lice-front-ivica { background: var(--c-crt-bok); }
-.lice-front.lice-front-drvo { background: url("slike/web/tekstura-hrast-800.webp") center / cover; } .lice-front-ivica.lice-front-drvo { background: var(--c-hrast-ivica); }
-.lice-front.lice-front-siva { background: var(--c-crt-bok); } .lice-front-ivica.lice-front-siva { background: var(--c-linija-jaka); }
-.lice-front.lice-front-crna, .lice-front-ivica.lice-front-crna { background: var(--c-uzorak-crna); }
+.lice-front { background: var(--c-dezen-mat-white); } .lice-front-ivica { background: var(--c-crt-bok); }
+.lice-front.lice-front-mat-oak { background: url("slike/dezeni/mini/mat-oak.webp") center / cover; } .lice-front.lice-front-mat-sonoma { background: url("slike/dezeni/mini/mat-sonoma.webp") center / cover; }
+.lice-front.lice-front-mat-walnut { background: url("slike/dezeni/mini/mat-walnut.webp") center / cover; }
+.lice-front-ivica.lice-front-mat-oak { background: var(--c-dezen-mat-oak); } .lice-front-ivica.lice-front-mat-sonoma { background: var(--c-dezen-mat-sonoma); } .lice-front-ivica.lice-front-mat-walnut { background: var(--c-dezen-mat-walnut); }
 .lista-tabela { width: 100%; border-collapse: collapse; font-size: var(--f-14); font-variant-numeric: tabular-nums; color: var(--c-tekst); }
 .lista-tabela th { text-align: left; font-size: var(--f-12); color: var(--c-tekst-3); font-weight: var(--w-700); padding: var(--r-2) var(--r-3); background: var(--c-podloga-3); }
 .lista-tabela td { padding: var(--r-2) var(--r-3); border-top: var(--d-linija) solid var(--c-linija); }

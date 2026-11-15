@@ -1,9 +1,23 @@
-/* dno.css — poslednji poziv + podnožje */
-.dno-poziv { text-align: center; padding: var(--r-odeljak) 0 var(--r-12); }
-.dno-poziv h2 { margin-bottom: var(--r-3); }
-.dno-poziv .vodeci { margin: 0 auto var(--r-8); }
-.dno { border-top: var(--d-linija) solid var(--c-linija); padding: var(--r-8) 0 var(--r-9); font-size: var(--f-15); color: var(--c-tekst-3); }
-.dno .okvir { display: flex; flex-wrap: wrap; gap: var(--r-3) var(--r-7); align-items: center; justify-content: space-between; }
-.dno a { color: var(--c-tekst-2); }
-.dno a:hover { color: var(--c-zlatna-svetla); }
-.dno ul { display: flex; gap: var(--r-5); list-style: none; margin: 0; padding: 0; flex-wrap: wrap; }
+/* dno.css — „Kako funkcioniše?" (tri koraka), završni poziv i podnožje, kao u uzoru */
+.koraci-blok { margin-top: var(--r-u-18); padding: var(--r-u-17) var(--r-u-23); min-height: var(--s-u-koraci-v); border: var(--d-linija) solid var(--u-koraci-ivica); border-radius: var(--rad-u-20); background: var(--u-koraci-pozadina); display: flex; align-items: center; justify-content: space-between; gap: var(--r-u-15); scroll-margin-top: var(--s-u-traka); }
+.koraci-uvod { width: 24%; flex: 0 0 auto; }
+.koraci-uvod .nadnaslov { font-size: var(--f-u-10); margin-bottom: var(--r-u-5); }
+.koraci-uvod h2 { margin: 0 0 var(--r-u-5); font-size: var(--f-u-22); letter-spacing: var(--ls-u-h2); }
+.koraci-uvod p:not(.nadnaslov) { margin: 0; max-width: var(--s-u-koraci-uvod); color: var(--u-koraci-tekst); font-size: var(--f-u-11); }
+.koraci-lista { list-style: none; margin: 0; padding: 0; display: flex; flex: 1; justify-content: space-around; gap: var(--r-u-15); }
+.korak-u { display: flex; align-items: center; gap: var(--r-u-11); min-width: 0; position: relative; }
+.korak-u + .korak-u::before { content: "→"; color: var(--c-zlatna); font-size: var(--f-u-22); position: absolute; left: calc(-1 * var(--r-u-70)); }
+.korak-u-broj { display: grid; place-items: center; width: var(--s-u-korak-broj); height: var(--s-u-korak-broj); flex: 0 0 auto; border-radius: 50%; background: var(--u-strelica); color: var(--u-na-strelici); font-weight: var(--w-u-850); box-shadow: var(--u-korak-sjaj); }
+.korak-u svg { color: var(--c-zlatna-svetla); width: var(--s-u-ikona-korak); height: var(--s-u-ikona-korak); flex: 0 0 auto; fill: none; stroke: currentColor; stroke-width: var(--d-ikona); stroke-linecap: round; stroke-linejoin: round; }
+.korak-u p { font-size: var(--f-u-11); line-height: var(--lh-u-mali); margin: 0; }
+.zavrsni-poziv { margin-top: var(--r-u-32); margin-bottom: var(--r-u-30); text-align: center; padding: var(--r-6) var(--r-u-10) var(--r-u-30); background: var(--u-poziv-pozadina); border-radius: var(--rad-u-20); border: var(--d-linija) solid var(--u-poziv-ivica); }
+.zavrsni-poziv h2 { margin: 0 0 var(--r-u-5); font-size: var(--f-u-27); letter-spacing: var(--ls-h3); }
+.zavrsni-poziv p { color: var(--c-tekst-2); margin: var(--r-u-5) 0 var(--r-u-17); font-size: var(--f-u-14); }
+.zavrsni-poziv .dugme { font-size: var(--f-u-12); }
+.dno { border-top: var(--d-linija) solid var(--u-dno-linija); padding: var(--r-u-22) 0 var(--r-u-35); display: flex; align-items: center; justify-content: space-between; gap: var(--r-3) var(--r-6); flex-wrap: wrap; font-size: var(--f-u-12); color: var(--u-dno-tekst); }
+.dno .logo { font-size: var(--f-u-22); } .dno .logo-znak { width: var(--s-u-logo-dno); height: var(--s-u-logo-dno); }
+.dno ul { display: flex; gap: var(--r-2) var(--r-5); list-style: none; margin: 0; padding: 0; flex-wrap: wrap; }
+.dno a { color: var(--c-tekst-2); } .dno a:hover { color: var(--c-zlatna-svetla); }
+@media (max-width: 1250px) { .koraci-blok { gap: var(--r-2); } .korak-u { gap: var(--r-u-6); } .korak-u p { font-size: var(--f-u-10); } }
+@media (max-width: 980px) { .koraci-blok { flex-wrap: wrap; } .koraci-uvod { width: 100%; } .korak-u { flex: 1; min-width: var(--s-u-korak-min); } .korak-u + .korak-u::before { display: none; } }
+@media (max-width: 650px) { .koraci-blok { display: grid; grid-template-columns: 1fr; gap: var(--r-u-14); padding: var(--r-u-18); } .koraci-uvod { width: auto; } .koraci-lista { flex-direction: column; } .korak-u p { font-size: var(--f-u-12); } .zavrsni-poziv h2 { font-size: var(--f-u-22); } .dno { display: block; } .dno ul, .dno p { margin-top: var(--r-3); } }

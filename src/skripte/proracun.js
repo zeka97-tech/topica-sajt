@@ -92,6 +92,34 @@ export function izracunaj(id, ulazSirov) {
   return { id, ulaz: u, daske: d, zbir: zbir(d), sanduci, dubinaDaske: db, crtez: { sirina: W, visina: H, dubina: D, cokla: m.cokla, frontovi, police } };
 }
 
+/** Okov koji program izračuna za element (docs/MODELI.md, tačka 6; rules.ts, hinges.ts, handleLayout.ts, drawers/panels.ts).
+ *  rucka: "stangla" (podrazumevana u programu) | "dugme" | "bez" (otvaranje pritiskom: ručka se ne broji).
+ *  Vraća [{ k, komada, mera? }] — k je ključ naziva u tekstu sajta (okov.<k>), mera je razmak rupa / NL / dužina u mm. */
+export const RAZMACI_RUCKE = [96, 128, 160, 192, 224, 256, 320];
+const sarkiZa = (ivica) => (ivica <= 900 ? 2 : ivica <= 1600 ? 3 : ivica <= 2000 ? 4 : 5);
+export const razmakRucke = (sirinaFronta, duzinaHoda) => [...RAZMACI_RUCKE].reverse().find((r) => r <= Math.min(sirinaFronta, duzinaHoda) - 100) ?? RAZMACI_RUCKE[0];
+export function okovi(id, ulazSirov, rucka = "stangla") {
+  const m = MODELI[id], rez = izracunaj(id, ulazSirov), u = rez.ulaz, out = [];
+  const dodaj = (k, komada, mera) => { if (!komada) return; const r = out.find((x) => x.k === k && x.mera === mera); if (r) r.komada += komada; else out.push(mera == null ? { k, komada } : { k, komada, mera }); };
+  const vrata = rez.crtez.frontovi.filter((f) => f.vrsta === "vrata"), fioke = rez.crtez.frontovi.filter((f) => f.vrsta === "fioka");
+  for (const f of vrata) {
+    const ivica = vrata.length === 1 && f.w > f.h && m.cokla > 0 ? f.w : f.h; // jedna vrata šira nego viša: šarke gore
+    dodaj(f.rucka === "desno" ? "sarka_levo" : "sarka_desno", sarkiZa(ivica));
+  }
+  if (rez.sanduci) for (let i = 0; i < fioke.length; i++) dodaj("klizac", 1, rez.sanduci.klizac);
+  if (rucka !== "bez") for (const f of [...vrata, ...fioke]) {
+    if (rucka === "dugme") dodaj("rucka_dugme", 1);
+    else dodaj("rucka_stangla", 1, f.vrsta === "vrata" ? razmakRucke(f.w, f.h) : razmakRucke(f.w, f.w));
+  }
+  if (m.sipka) { dodaj("sipka", 1, u.sirina - 2 * P.t); dodaj("nosac_sipke", 2); }
+  if (m.cokla > 0) dodaj(id === "dresser" ? "nogica_niska" : "nogica", u.sirina <= 800 ? 4 : 6);
+  if (!m.dnoPreko) dodaj("nosac_viseceg", 2);
+  dodaj("ekscentar", 8);                                   // dno 4 + krov 4 (ili dve prečke po 2); bez pregrada
+  dodaj("nosac_police", 4 * (u.police || 0));
+  if (m.dnoPreko && u.visina >= 1200) dodaj("protiv_prevrtanja", 2);
+  return out;
+}
+
 /** Zbirovi: m² po materijalu (čista površina), metri kanta po traci (bez otpada), broj dasaka. */
 export function zbir(daske) {
   const m2 = { korpus: 0, front: 0, ledja: 0 }, kant = {};

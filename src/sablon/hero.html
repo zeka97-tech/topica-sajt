@@ -1,29 +1,23 @@
-<section class="hero tamno" id="vrh" aria-labelledby="hero-naslov">
-  <div class="okvir hero-mreza">
+<section class="hero" id="vrh" aria-labelledby="hero-naslov">
+  <div class="hero-slika">
+    <img src="{{sistem.koren}}slike/web/vrh-topi-laptop-1600.webp" srcset="{{sistem.koren}}slike/web/vrh-topi-laptop-800.webp 800w, {{sistem.koren}}slike/web/vrh-topi-laptop-1600.webp 1600w" sizes="(max-width: 980px) 100vw, 64vw" width="1894" height="688" alt="{{hero.slika_alt}}" fetchpriority="high">
+  </div>
+  <div class="okvir hero-unutra">
     <div class="hero-tekst">
       <p class="nadnaslov">{{hero.nadnaslov}}</p>
-      <h1 id="hero-naslov">{{hero.n1}} {{hero.n2}} <span class="naglasak">{{hero.n3}}</span></h1>
-      <p class="vodeci">{{hero.tekst}}</p>
-      <ul class="stikle">
+      <h1 id="hero-naslov">{{hero.n1}}<br> {{hero.n2}} <em>{{hero.n3}}</em></h1>
+      <p class="hero-vodeci">{{hero.tekst}}</p>
+      <ul class="hero-prednosti">
         <li>{{hero.p1}}</li>
         <li>{{hero.p2}}</li>
         <li>{{hero.p3}}</li>
         <li>{{hero.p4}}</li>
       </ul>
-      <div class="radnje">
-        <a class="dugme dugme-glavno" href="preuzimanje.html">{{cta.glavno}}</a>
-        <a class="dugme dugme-belo" href="#konfigurator">{{hero.saznaj}}</a>
+      <div class="hero-dugmad">
+        <a class="dugme dugme-glavno" href="preuzimanje.html">{{cta.glavno}} <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-7-7 7 7-7 7"/></svg></a>
+        <a class="dugme dugme-tamno" href="#kako-radi">{{hero.saznaj}}</a>
       </div>
-      <p class="sitno hero-sitno"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg>{{hero.sitno}}</p>
-    </div>
-    <div class="hero-slika">
-      <div class="laptop">
-        <div class="laptop-ekran">
-          <img src="{{sistem.koren}}slike/web/snimak-41-kuhinja-sonoma-bela-laminat-800.webp" srcset="{{sistem.koren}}slike/web/snimak-41-kuhinja-sonoma-bela-laminat-800.webp 800w, {{sistem.koren}}slike/web/snimak-41-kuhinja-sonoma-bela-laminat-1600.webp 1366w" sizes="(max-width: 860px) 92vw, 620px" width="1366" height="768" alt="{{hero.prozor_alt}}" fetchpriority="high">
-        </div>
-        <div class="laptop-osnova" aria-hidden="true"></div>
-      </div>
-      <img class="hero-topi" src="{{sistem.koren}}slike/web/topi-meri-korpus-isecen-400.webp" srcset="{{sistem.koren}}slike/web/topi-meri-korpus-isecen-400.webp 400w, {{sistem.koren}}slike/web/topi-meri-korpus-isecen-800.webp 800w" sizes="(max-width: 860px) 130px, 270px" width="1064" height="1068" alt="{{hero.topi_alt}}">
+      <p class="hero-sitno">{{hero.sitno}}</p>
     </div>
   </div>
 </section>

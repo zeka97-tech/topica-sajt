@@ -28,7 +28,7 @@ proveriDuzinu(KOREN, greske); proveriTokene(KOREN, greske); proveriSablone(KOREN
 console.log(`1) red u kodu i prevodi: ${greske.length ? greske.length + " grešaka" : "✓"}`);
 const formule = testirajProracun(KOREN); // formule sajta = program (docs/modeli-primeri.json)
 greske.push(...formule.greske);
-console.log(`   formule (proracun.js): ${formule.provereno} primera iz programa, ${formule.preskoceno} van granica konfiguratora, ${formule.greske.length ? formule.greske.length + " grešaka" : "✓"}`);
+console.log(`   formule i okov (proracun.js): ${formule.provereno} primera iz programa, ${formule.preskoceno} van granica konfiguratora, ${formule.greske.length ? formule.greske.length + " grešaka" : "✓"}`);
 
 // 2) pregledač
 if (!existsSync(path.join(KOREN, "dist", "sitemap.xml"))) { console.error("✗ nema dist/ — prvo npm run build"); process.exit(1); }
